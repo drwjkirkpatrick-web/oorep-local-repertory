@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "oorep-local-repertory"
+version = "1.6.0"
+description = "Fast, offline homeopathic repertory built on OOREP with multi-layer search"
+readme = "README.md"
+license = {text = "GPL-3.0"}
+requires-python = ">=3.10"
+authors = [
+    {name = "OOREP Local Repertory Contributors"},
+]
+keywords = [
+    "homeopathy",
+    "repertory",
+    "oorep",
+    "alternative-medicine",
+    "clinical-tools",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Healthcare Industry",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+]
+
+[project.urls]
+Homepage = "https://github.com/drwjkirkpatrick-web/oorep-local-repertory"
+Repository = "https://github.com/drwjkirkpatrick-web/oorep-local-repertory"
+Upstream = "https://github.com/nondeterministic/oorep"
+
+[tool.hatch.build.targets.wheel]
+packages = ["oorep"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

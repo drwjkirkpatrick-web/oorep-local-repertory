@@ -1,0 +1,9 @@
+# Core dependencies
+numpy>=1.24.0
+
+# Development / testing
+pytest>=7.0
+pytest-cov
+
+# Optional: for faster vector operations
+# scipy>=1.10.0
