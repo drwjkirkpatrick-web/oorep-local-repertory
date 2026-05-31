@@ -54,7 +54,12 @@ class RubricCooccurrenceEngine:
         for rubric_id, links in self.rep.rubric_to_remedies.items():
             seen_abbrevs = set()
             for link in links:
-                abbrev = link.get("abbrev")
+                abbrev = None
+                remedy_id = link.get("remedy_id")
+                if remedy_id is not None:
+                    abbrev = self.rep.remedies.get(remedy_id, {}).get("abbrev")
+                if abbrev is None:
+                    abbrev = link.get("abbrev")
                 if abbrev and abbrev not in seen_abbrevs:
                     self._remedy_rubrics[abbrev].add(rubric_id)
                     seen_abbrevs.add(abbrev)

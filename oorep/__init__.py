@@ -18,6 +18,28 @@ from .private_rubrics import PrivateRubricManager, quick_create
 from .patient_cohort_analytics import PatientCohortAnalytics
 from .patient_case_manager import PatientCaseManager
 from .practitioner_approval_gate import PractitionerApprovalGate, require_ack, ApprovalRequired
+from .remedy_relationships import RemedyRelationships
+from .red_flag_detector import RedFlagDetector
+from .elimination_analysis import EliminationAnalyzer
+from .potency_guidance import PotencyGuidance
+from .acute_chronic_layer import AcuteChronicTagger
+from .family_constellation import FamilyConstellation
+from .suppression_tracker import SuppressionTracker
+from .rubric_explorer import RubricExplorer
+
+from .soap_assembler import SOAPAssembler
+from .letter_generator import LetterGenerator
+from .phi_scrubber import PHIScrubber
+from .audit_trail import AuditTrail
+from .kent_vs_boenninghausen import KentVsBoenninghausen
+from .personality_engine_bridge import PersonalityEngineBridge
+from .model_router import ModelRouter
+from .student_training import StudentTraining
+from .clinical_vignette_quiz import ClinicalVignetteQuiz
+from .grand_rounds import GrandRounds
+from .rubric_gap_analyzer import RubricGapAnalyzer
+from .remedy_freshness_tracker import RemedyFreshnessTracker
+from .subagent_orchestrator import SubagentOrchestrator
 
 __all__ = [
     "HomeopathicRepertory",
@@ -37,4 +59,25 @@ __all__ = [
     "PractitionerApprovalGate",
     "require_ack",
     "ApprovalRequired",
+    "RemedyRelationships",
+    "RedFlagDetector",
+    "EliminationAnalyzer",
+    "PotencyGuidance",
+    "AcuteChronicTagger",
+    "FamilyConstellation",
+    "SuppressionTracker",
+    "RubricExplorer",
+    "SOAPAssembler",
+    "LetterGenerator",
+    "PHIScrubber",
+    "AuditTrail",
+    "KentVsBoenninghausen",
+    "PersonalityEngineBridge",
+    "ModelRouter",
+    "StudentTraining",
+    "ClinicalVignetteQuiz",
+    "GrandRounds",
+    "RubricGapAnalyzer",
+    "RemedyFreshnessTracker",
+    "SubagentOrchestrator",
 ]
