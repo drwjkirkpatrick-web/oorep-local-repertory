@@ -32,6 +32,7 @@ try:
     from oorep.homeopathic_repertory import HomeopathicRepertory
     from oorep.clinical_rubric_mapper import ClinicalRubricMapper
     from oorep.rare_remedy_triangulator import RareRemedyTriangulator
+    from oorep.cycles_and_segments import CyclesAndSegmentsEngine
     OOREP_AVAILABLE = True
 except ImportError as e:
     OOREP_AVAILABLE = False
@@ -74,6 +75,7 @@ class OOREPBridge:
         self.rep = HomeopathicRepertory(str(self.data_dir))
         self.mapper = ClinicalRubricMapper(self.rep)
         self.triangulator = RareRemedyTriangulator(repertory=self.rep)
+        self.cycles_engine = CyclesAndSegmentsEngine()
         self.case_memory = CaseMemoryStore() if _CASE_MEMORY_AVAILABLE else None
 
         # Command patterns
@@ -90,6 +92,9 @@ class OOREPBridge:
             (r"(?i)^\s*(?:suppression|suppress|suppressed)\s+(?:for\s+)?([A-Za-z0-9\-_]+)$", "suppression"),
             (r"(?i)^\s*(?:search rubric|find rubric|look up rubric)[:\s]*(.+)$", "search_rubric"),
             (r"(?i)^\s*(?:what remedy is|remedy abbrev|abbreviation)\s+([A-Za-z0-9\-\.]+)[\.\?\!]*$", "abbrev_lookup"),
+            (r"(?i)^\s*(?:cycle|cycles|segments)(?:\s+of)?[:\s]+([A-Za-z\-\.\s]+)$", "cycle"),
+            (r"(?i)^\s*(?:match case|case match|analyze case)[:\s]*(.+)$", "match_case"),
+            (r"(?i)^\s*(?:map of hierarchy|hierarchy|pediatric hierarchy)$", "hierarchy"),
         ]
 
     def handle(self, message: str) -> Dict[str, Any]:
@@ -140,6 +145,9 @@ class OOREPBridge:
                 "• Compare Bromum and Hepar sulph\n"
                 "• Profile for Arsenicum album\n"
                 "• Rare remedy for hoarse voice, croup\n"
+                "• Cycles of Stramonium\n"
+                "• Match case fear of death, violent outbursts\n"
+                "• Map of hierarchy\n"
                 "• Patient MrsJ2024\n"
                 "• Summary for MrsJ2024\n"
                 "• Timeline for MrsJ2024\n"
@@ -193,6 +201,17 @@ class OOREPBridge:
         elif cmd_type == "abbrev_lookup":
             abbrev = match.group(1).strip()
             return self._do_abbrev_lookup(abbrev)
+
+        elif cmd_type == "cycle":
+            remedy_name = match.group(1).strip()
+            return self._do_cycle(remedy_name)
+
+        elif cmd_type == "match_case":
+            case_text = match.group(1).strip()
+            return self._do_match_case(case_text)
+
+        elif cmd_type == "hierarchy":
+            return self._do_hierarchy()
 
         return {"type": "unknown", "result": None, "formatted": "Unrecognized command type."}
 
@@ -478,6 +497,48 @@ class OOREPBridge:
 
         return {"type": "abbrev_lookup", "error": f"Unknown: {abbrev}", "formatted": f"❌ No remedy found for '{abbrev}'"}
 
+    def _do_cycle(self, remedy_name: str) -> Dict[str, Any]:
+        """Return the Cycles & Segments description for a remedy."""
+        cycle = self.cycles_engine.get_cycle(remedy_name)
+        if cycle is None:
+            return {
+                "type": "cycle",
+                "error": f"No cycle data for: {remedy_name}",
+                "formatted": f"❌ No cycle/segments data found for **{remedy_name}**.",
+            }
+        formatted = self._format_cycle(cycle)
+        return {
+            "type": "cycle",
+            "remedy": remedy_name,
+            "result": cycle.to_dict(),
+            "formatted": formatted,
+        }
+
+    def _do_match_case(self, case_text: str) -> Dict[str, Any]:
+        """Match a natural-language case to all registered cycles."""
+        symptoms = [s.strip() for s in re.split(r"[,;]|\band\b|\bplus\b", case_text) if s.strip()]
+        suggestions = self.cycles_engine.suggest_cycles_for_case(symptoms, limit=5)
+        formatted = self._format_case_match(case_text, symptoms, suggestions)
+        return {
+            "type": "match_case",
+            "symptoms": symptoms,
+            "result": [
+                {"remedy": name, "coverage": cov, "match": match}
+                for name, cov, match in suggestions
+            ],
+            "formatted": formatted,
+        }
+
+    def _do_hierarchy(self) -> Dict[str, Any]:
+        """Return the Map of Hierarchy overview."""
+        hierarchy = self.cycles_engine.get_map_of_hierarchy()
+        formatted = self._format_hierarchy(hierarchy)
+        return {
+            "type": "hierarchy",
+            "result": hierarchy,
+            "formatted": formatted,
+        }
+
     def _resolve_remedy(self, name: str) -> Optional[Dict]:
         """Resolve a remedy name/abbrev/alias to its full record."""
         name_clean = name.strip().lower().rstrip(".")
@@ -698,6 +759,68 @@ class OOREPBridge:
             score = r.get("_hybrid_score", r.get("_match_score", 0))
             src = r.get("source", "unknown")
             lines.append(f"{i:2d}. [{src}] {r.get('fullpath', 'N/A')} (score: {score:.3f})")
+        return "\n".join(lines)
+
+    def _format_cycle(self, cycle) -> str:
+        lines = [
+            f"🔄 **Cycles & Segments: {cycle.remedy_name}** ({cycle.remedy_abbrev})",
+            "",
+            f"*One-sentence essence:*",
+            f"  {cycle.sentence}",
+            "",
+        ]
+        if cycle.map_of_hierarchy_phase:
+            lines.append(f"*Map of Hierarchy — Phase {cycle.map_of_hierarchy_phase}*")
+            lines.append("")
+        lines.append("*Cycle segments:*")
+        for seg in cycle.segments:
+            arrow = f" → {seg.next_segment}" if seg.next_segment else ""
+            lines.append(f"  • **{seg.name}**{arrow}")
+            if seg.description:
+                lines.append(f"    {seg.description}")
+            if seg.symptoms:
+                lines.append(f"    Symptoms: {', '.join(seg.symptoms[:5])}")
+            lines.append("")
+        if cycle.references:
+            lines.append("*References:*")
+            for ref in cycle.references:
+                lines.append(f"  • {ref}")
+        return "\n".join(lines)
+
+    def _format_case_match(self, case_text: str, symptoms: List[str], suggestions) -> str:
+        lines = [
+            f"🧩 **Case-to-Cycle Match**",
+            f"Symptoms: {', '.join(symptoms)}",
+            "",
+            "Top matching cycles:",
+        ]
+        for i, (name, coverage, match) in enumerate(suggestions[:5], 1):
+            lines.append(f"{i}. **{name}** — coverage: {coverage:.1%}")
+            if match.get("matched_segments"):
+                lines.append(f"   Matched: {', '.join(match['matched_segments'])}")
+            if match.get("missing_segments"):
+                lines.append(f"   Missing: {', '.join(match['missing_segments'])}")
+            lines.append("")
+        return "\n".join(lines)
+
+    def _format_hierarchy(self, hierarchy: Dict[int, List[str]]) -> str:
+        lines = [
+            "🏛️ **Map of Hierarchy** (Pediatric Behavioral Remedies)",
+            "After Herscu & Rothenberg, NESH.",
+            "",
+        ]
+        phase_names = {
+            1: "Phase 1 — Polychrests",
+            2: "Phase 2 — Nosodes",
+            3: "Phase 3 — Transition Remedies (conscious ↔ unconscious doorway)",
+            4: "Phase 4 — Deep Pathology (uncontrolled passions / increasing dullness)",
+        }
+        for phase in sorted(hierarchy.keys()):
+            title = phase_names.get(phase, f"Phase {phase}")
+            lines.append(f"**{title}**")
+            for r in hierarchy[phase]:
+                lines.append(f"  • {r}")
+            lines.append("")
         return "\n".join(lines)
 
 

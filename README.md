@@ -2,7 +2,7 @@
 
 A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **38 specialized modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
 
-> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 38 Python modules | **Tests:** 222 passing | **Coverage:** **58 of 58 (100%)** LLM-Hermes benefits implemented
+> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 39 Python modules | **Tests:** 251 passing | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
 
 ---
 
@@ -137,6 +137,7 @@ After the LLM extracts symptoms, it performs intelligent fuzzy matching against 
 | `RemedyRelationships` | #4, #19–21 | Complementary, antidotal, inimical, antidote classical tables |
 | `KentVsBoenninghausen` | #46 | Both methods side-by-side, divergence analysis, auto-recommendation |
 | `PersonalityEngineBridge` | #47, #56 | Link 50-remedy personality system to OOREP remedy IDs |
+| `CyclesAndSegmentsEngine` | #59 | Herscu's cycle/segment remedy analysis: directed graphs, case matching, Boenninghausen generalization, Map of Hierarchy |
 
 ### Teaching & Training
 
@@ -317,6 +318,35 @@ rel.check_compatibility("Puls.", "Nux-v.")  # → status + classical reference
 rel.find_antidotes("Ars.")           # → ["Nux-v.", "Camph.", ...]
 ```
 
+### Cycles & Segments (Benefit #59)
+
+```python
+from oorep import CyclesAndSegmentsEngine
+
+engine = CyclesAndSegmentsEngine()
+
+# Retrieve a remedy's full cycle
+stram = engine.get_cycle("Stramonium")
+print(stram.sentence)          # One-sentence essence
+print(stram.transition_pairs()) # Directed segment flow
+
+# Match patient symptoms to the cycle
+case = ["fear of death", "violent outbursts", "wants to be alone"]
+match = engine.match_case_to_cycle(case, stram)
+print(match["coverage"])       # 0.0–1.0 symptom coverage
+print(match["matched_segments"])
+
+# Rank all registered cycles against a case
+suggestions = engine.suggest_cycles_for_case(case, limit=5)
+
+# Apply Boenninghausen-style generalization
+gen = engine.generalize_symptom("fear of death",
+                                 stram.segment_by_name("Fear of death or injury"))
+
+# View pediatric Map of Hierarchy
+hierarchy = engine.get_map_of_hierarchy()
+```
+
 ### Student Training — Simulated Patients (Benefit #38)
 
 ```python
@@ -387,7 +417,7 @@ report = audit.export_for_review(practitioner_id="dr-kirkpatrick")
 
 ```
 oorep-local-repertory/
-├── oorep/                          # Core Python package (38 modules)
+├── oorep/                          # Core Python package (39 modules)
 │   ├── __init__.py                 # Unified import surface
 │   ├── homeopathic_repertory.py    # Main repertory API
 │   ├── clinical_rubric_mapper.py   # Patient phrase → rubric mapping
@@ -413,6 +443,7 @@ oorep-local-repertory/
 │   ├── acute_chronic_layer.py    # Layer separation (#17)
 │   ├── kent_vs_boenninghausen.py  # Method comparison (#46)
 │   ├── personality_engine_bridge.py # Personality ↔ OOREP bridge (#47, #56)
+│   ├── cycles_and_segments.py       # Herscu cycle/segment analysis (#59)
 │   ├── student_training.py        # Simulated patients + quizzes (#38)
 │   ├── clinical_vignette_quiz.py  # Real outcome quiz generator (#45)
 │   ├── grand_rounds.py            # Multi-case synthesis (#48)
@@ -431,7 +462,7 @@ oorep-local-repertory/
 ├── scripts/
 │   ├── extract_oorep.py          # Extract OOREP SQL → JSON
 │   └── remedy_feedback.py        # Prescription outcome tracking
-├── tests/                        # 222 pytest tests
+├── tests/                        # 251 pytest tests
 │   ├── conftest.py
 │   ├── test_clinical_rubric_mapper.py
 │   ├── test_hybrid_repertory.py
@@ -441,6 +472,7 @@ oorep-local-repertory/
 │   ├── test_batch_c.py           # Phase 3 batch C
 │   ├── test_batch_d.py           # Phase 4 batch D
 │   └── test_batch_e.py           # Phase 5 batch E (final benefits)
+│   └── test_cycles_and_segments.py  # Herscu cycle/segment module (#59)
 ├── examples/
 │   └── basic_usage.py            # Copy-paste starter code
 ├── data/                         # Extracted OOREP JSON (gitignored)
@@ -453,7 +485,7 @@ oorep-local-repertory/
 ├── LICENSE
 ├── requirements.txt
 ├── pyproject.toml
-└── OOREP_Gap_Analysis.md        # Full 58-benefit gap audit + build phases
+└── OOREP_Gap_Analysis.md        # Full 59-benefit gap audit + build phases
 ```
 
 ---
