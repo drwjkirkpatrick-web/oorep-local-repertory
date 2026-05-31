@@ -1,0 +1,33 @@
+{
+  "name": "OOREP Homeopathic Repertory",
+  "version": "1.0.0",
+  "source": "https://github.com/nondeterministic/oorep",
+  "license": "GPL v3",
+  "author": "Andreas Bauer",
+  "extracted": "2026-04-11",
+  "statistics": {
+    "remedies": 2432,
+    "rubrics": 74785,
+    "remedy_rubric_links": 1359576
+  },
+  "repertories_included": [
+    {
+      "abbrev": "kent-de",
+      "name": "Kent Repertory (German translation)",
+      "language": "German"
+    },
+    {
+      "abbrev": "publicum",
+      "name": "Repertorium Publicum",
+      "language": "English/Generic"
+    }
+  ],
+  "files": {
+    "remedies.json": "All remedies with ID, abbreviation, name",
+    "remedies_by_abbrev.json": "Remedies indexed by abbreviation for lookup",
+    "rubrics.json": "All rubrics (symptoms) with fullpath",
+    "rubric_search_index.json": "Word-based search index for rubrics",
+    "rubric_to_remedies.json": "Mapping from rubric ID to remedies with grades",
+    "homeopathic_repertory.py": "Python API for querying the repertory"
+  }
+}
