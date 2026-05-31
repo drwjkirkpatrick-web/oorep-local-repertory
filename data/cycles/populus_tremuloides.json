@@ -1,0 +1,74 @@
+{
+  "remedy_name": "Populus Tremuloides",
+  "remedy_abbrev": "Pop.",
+  "sentence": "Driven by bladder, Populus Tremuloides manifests a dynamic cycle through prostate and urethra, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, inflammation",
+        "Bladder, pain",
+        "Bladder, pain, aching",
+        "Bladder, pain, pressing, pressure in",
+        "Bladder, tenesmus",
+        "Bladder, pain, pressing",
+        "Bladder, catarrh muco-pus",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "pressing",
+        "inflammation",
+        "aching",
+        "pressure"
+      ],
+      "next_segment": "Prostate state"
+    },
+    {
+      "name": "Prostate state",
+      "description": "Characteristic prostate symptoms.",
+      "symptoms": [
+        "prostate symptoms characteristic of Populus Tremuloides"
+      ],
+      "generalizations": [
+        "prostate",
+        "symptoms",
+        "characteristic",
+        "populus",
+        "tremuloides"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, irritation"
+      ],
+      "generalizations": [
+        "urethra",
+        "irritation"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mancinella",
+  "remedy_abbrev": "Manc.",
+  "sentence": "Driven by limb expression, Mancinella manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, coldness, hands, icy",
+        "Extremities, constriction"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "swelling",
+        "stiffness"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, fear, insanity, of",
+        "Mind, fear, insanity",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, insanity, madness",
+        "Mind, mania, madness",
+        "Mind, delusions"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "insanity",
+        "sadness",
+        "madness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, empty, hollow sensation",
+        "Head, empty",
+        "Head, lying on something hard, as if",
+        "Head, heat",
+        "Head, congestion",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "empty",
+        "headache",
+        "general",
+        "hollow"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, tearing"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "burning",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, choking, constricting",
+        "Throat, choking",
+        "Throat, ulcers",
+        "Throat, membrane",
+        "Throat, choking, esophagus",
+        "Throat, dryness",
+        "Throat, elongated uvula",
+        "Throat, swelling"
+      ],
+      "generalizations": [
+        "throat",
+        "choking",
+        "constricting",
+        "ulcers",
+        "membrane"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, vomiting",
+        "Stomach, heat, flushes",
+        "Stomach, vomiting, sour",
+        "Stomach, distension"
+      ],
+      "generalizations": [
+        "stomach",
+        "sore",
+        "vomiting",
+        "eructations",
+        "bruised"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

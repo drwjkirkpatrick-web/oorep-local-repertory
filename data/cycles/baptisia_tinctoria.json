@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Baptisia Tinctoria",
+  "remedy_abbrev": "Bapt.",
+  "sentence": "Driven by limb expression, Baptisia Tinctoria manifests a dynamic cycle through mind and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, stiffness",
+        "Extremities, numbness",
+        "Extremities, numbness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "sore",
+        "paralysis",
+        "numbness",
+        "bruised"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, delirium",
+        "Mind, stupefaction",
+        "Mind, work, aversion to mental",
+        "Mind, work"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "work",
+        "nervousness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, ulcers",
+        "Mouth, discoloration",
+        "Mouth, discoloration, gums",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, brown",
+        "Mouth, ulcers, tongue",
+        "Mouth, discoloration, gums, redness"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "ulcers",
+        "gums"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, externally",
+        "Generalities, pain, sore, bruised, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "sore",
+        "bruised",
+        "side",
+        "weakness"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, discoloration",
+        "Throat, swallowing, difficult",
+        "Throat, ulcers",
+        "Throat, swallowing",
+        "Throat, discoloration, redness, dark red",
+        "Throat, discoloration, redness, uvula"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "redness",
+        "swallowing",
+        "difficult"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, dull",
+        "Head, pain, forehead",
+        "Head, pain, forehead, nose, above root of",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

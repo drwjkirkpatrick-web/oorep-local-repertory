@@ -1,0 +1,104 @@
+{
+  "remedy_name": "Piper Nigrum",
+  "remedy_abbrev": "Pip-n.",
+  "sentence": "Driven by appetite, Piper Nigrum manifests a dynamic cycle through bladder and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, desires",
+        "Appetite, desires, cold, food",
+        "Appetite, desires, cold"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "cold",
+        "food"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, pain",
+        "Bladder, pain, burning",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "burning",
+        "general"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, burning",
+        "Genitalia female, pain, burning, uterus",
+        "Genitalia female, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "burning",
+        "uterus"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pulse, slow",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pulse, irregular"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "slow",
+        "irregular"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, shocks",
+        "Abdomen, shocks, motion, on"
+      ],
+      "generalizations": [
+        "abdomen",
+        "shocks",
+        "motion"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, chordee"
+      ],
+      "generalizations": [
+        "urethra",
+        "chordee"
+      ],
+      "next_segment": "Appetite state"
+    }
+  ]
+}

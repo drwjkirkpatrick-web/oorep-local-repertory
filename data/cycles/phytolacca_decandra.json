@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Phytolacca Decandra",
+  "remedy_abbrev": "Phyt.",
+  "sentence": "Driven by limb expression, Phytolacca Decandra manifests a dynamic cycle through throat and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, leg, night agg.",
+        "Extremities, pain, leg, night",
+        "Extremities, pain, lower limbs, night",
+        "Extremities, night"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "rheumatic"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, discoloration",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, membrane",
+        "Throat, mucus",
+        "Throat, swelling",
+        "Throat, swelling, tonsils"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "membrane",
+        "swelling",
+        "redness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, faintness, rising, from bed, on",
+        "Generalities, pain, stitching, upward",
+        "Generalities, faintness, rising",
+        "Generalities, pain, stitching",
+        "Generalities, indurations",
+        "Generalities, indurations, glands"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "rising",
+        "stitching",
+        "indurations"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, inflammation",
+        "Chest, inflammation, mammae",
+        "Chest, excoriation, nipples",
+        "Chest, excoriation",
+        "Chest, abscess",
+        "Chest, abscess, mammae",
+        "Chest, cracks of nipples",
+        "Chest, ulcer"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "mammae",
+        "excoriation",
+        "nipples"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, forehead",
+        "Head, heat",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, forehead, in"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "eruption",
+        "heat"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, stiffness, cervical region, night",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, night",
+        "Back, pain"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "stiffness",
+        "dorsal",
+        "cervical"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

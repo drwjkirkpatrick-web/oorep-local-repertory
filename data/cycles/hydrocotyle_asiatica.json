@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hydrocotyle Asiatica",
+  "remedy_abbrev": "Hydrc.",
+  "sentence": "Driven by limb expression, Hydrocotyle Asiatica manifests a dynamic cycle through face and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, itching",
+        "Extremities, itching, foot",
+        "Extremities, itching, foot, sole of",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "itching",
+        "foot",
+        "coldness",
+        "sole"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, cancer",
+        "Face, cancer, lupus",
+        "Face, eruptions",
+        "Face, eruptions, pimples",
+        "Face, eruptions, coppery",
+        "Face, eruptions, papular",
+        "Face, discoloration",
+        "Face, heat"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "cancer",
+        "lupus",
+        "pimples"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, itching",
+        "Skin, swelling",
+        "Skin, eruptions, pustules",
+        "Skin, eruptions, scaly",
+        "Skin, lupus",
+        "Skin, eruptions, papular",
+        "Skin, discoloration"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "itching",
+        "swelling",
+        "pustules"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, copious",
+        "Genitalia female, itching",
+        "Genitalia female, itching, vagina",
+        "Genitalia female, vagina",
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, heat"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "leucorrhea",
+        "itching",
+        "vagina"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain",
+        "Abdomen, pain, aching",
+        "Abdomen, rumbling",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, heat",
+        "Abdomen, heat, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "aching",
+        "heat",
+        "dull",
+        "rumbling"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, heat, flushes",
+        "Stomach, heat",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, eructations, sour",
+        "Stomach, distension",
+        "Stomach, pain, cramping, griping, constricting"
+      ],
+      "generalizations": [
+        "stomach",
+        "heat",
+        "eructations",
+        "flushes",
+        "nausea"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

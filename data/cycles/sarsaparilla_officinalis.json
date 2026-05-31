@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sarsaparilla Officinalis",
+  "remedy_abbrev": "Sars.",
+  "sentence": "Driven by limb expression, Sarsaparilla Officinalis manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, rheumatic",
+        "Extremities, chapped hand",
+        "Extremities, cracks skin, hands",
+        "Extremities, cracks skin",
+        "Extremities, cracks skin, fingers",
+        "Extremities, pain, rheumatic, mercury, abuse of",
+        "Extremities, cracks skin, feet"
+      ],
+      "generalizations": [
+        "extremities",
+        "cracks",
+        "skin",
+        "rheumatic",
+        "chapped"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, perspiration, forehead",
+        "Head, perspiration",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, sides, one side",
+        "Head, pain, sides",
+        "Head, pain, pressing, forehead, sides"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "sides",
+        "perspiration"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, pain, stitching",
+        "Generalities, side, symptoms on one side",
+        "Generalities, bones",
+        "Generalities, bones, pain",
+        "Generalities, bones, pain, stitching"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "bones",
+        "stitching",
+        "right"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, sides, left",
+        "Abdomen, sides",
+        "Abdomen, sides, of",
+        "Abdomen, rumbling",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "left",
+        "rumbling",
+        "burning"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, ulcers",
+        "Skin, chapping",
+        "Skin, cracks",
+        "Skin, ulcers, mercurial",
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, excrescences",
+        "Skin, excrescences, condylomata"
+      ],
+      "generalizations": [
+        "skin",
+        "ulcers",
+        "eruptions",
+        "excrescences",
+        "chapping"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, coldness, extending",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, labor-like",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "coldness",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

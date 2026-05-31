@@ -1,0 +1,101 @@
+{
+  "remedy_name": "Sabal Serrulata",
+  "remedy_abbrev": "Sabal",
+  "sentence": "Driven by back, Sabal Serrulata manifests a dynamic cycle through prostate gland and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, coition, after"
+      ],
+      "generalizations": [
+        "back",
+        "coition",
+        "after"
+      ],
+      "next_segment": "Prostatic state"
+    },
+    {
+      "name": "Prostatic state",
+      "description": "Prostate symptoms, urination difficulty, discharge.",
+      "symptoms": [
+        "Prostate gland, inflammation",
+        "Prostate gland, emission, prostatic fluid",
+        "Prostate gland, emission",
+        "Prostate gland, enlargement",
+        "Prostate gland, enlargement, senile",
+        "Prostate gland, swelling"
+      ],
+      "generalizations": [
+        "prostate",
+        "gland",
+        "emission",
+        "enlargement",
+        "inflammation"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, consolation, agg.",
+        "Mind, consolation"
+      ],
+      "generalizations": [
+        "mind",
+        "consolation"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, desires",
+        "Appetite, desires, milk"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "milk"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation"
+      ],
+      "next_segment": "Prostate state"
+    },
+    {
+      "name": "Prostate state",
+      "description": "Characteristic prostate symptoms.",
+      "symptoms": [
+        "prostate symptoms characteristic of Sabal Serrulata"
+      ],
+      "generalizations": [
+        "prostate",
+        "symptoms",
+        "characteristic",
+        "sabal",
+        "serrulata"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

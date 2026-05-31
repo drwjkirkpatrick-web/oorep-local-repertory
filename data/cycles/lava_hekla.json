@@ -1,0 +1,129 @@
+{
+  "remedy_name": "Lava Hekla",
+  "remedy_abbrev": "Lava-h.",
+  "sentence": "Driven by limb expression, Lava Hekla manifests a dynamic cycle through teeth and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, exostoses",
+        "Extremities, exostoses, tibia",
+        "Extremities, caries of bone",
+        "Extremities, caries of bone, foot",
+        "Extremities, caries of bone, tibia",
+        "Extremities, inflammation",
+        "Extremities, inflammation, leg",
+        "Extremities, hip-joint disease"
+      ],
+      "generalizations": [
+        "extremities",
+        "caries",
+        "bone",
+        "exostoses",
+        "tibia"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, caries, decayed, hollow",
+        "Teeth, sensitive",
+        "Teeth, sensitive, pressure, to",
+        "Teeth, abscess of roots",
+        "Teeth, caries, decayed",
+        "Teeth, caries",
+        "Teeth, roots"
+      ],
+      "generalizations": [
+        "teeth",
+        "caries",
+        "decayed",
+        "sensitive",
+        "roots"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, gums",
+        "Mouth, abscess, gums",
+        "Mouth, pain, gums, extraction of teeth, after",
+        "Mouth, gums",
+        "Mouth, abscess"
+      ],
+      "generalizations": [
+        "mouth",
+        "gums",
+        "abscess",
+        "extraction",
+        "teeth"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, abscess",
+        "Clinical, caries of teeth",
+        "Clinical, inflammation",
+        "Clinical, polypus",
+        "Clinical, exostoses"
+      ],
+      "generalizations": [
+        "clinical",
+        "abscess",
+        "caries",
+        "teeth",
+        "inflammation"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, caries",
+        "Nose, polypus",
+        "Nose, caries, septum"
+      ],
+      "generalizations": [
+        "nose",
+        "caries",
+        "epistaxis",
+        "polypus",
+        "septum"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, exostosis",
+        "Face, enlarged",
+        "Face, enlarged, jaw",
+        "Face, jaw"
+      ],
+      "generalizations": [
+        "face",
+        "enlarged",
+        "exostosis"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Senega",
+  "remedy_abbrev": "Seneg.",
+  "sentence": "Driven by chest, Senega manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, pain",
+        "Chest, inflammation",
+        "Chest, catarrh",
+        "Chest, constriction, tension, tightness",
+        "Chest, heat",
+        "Chest, inflammation, lungs",
+        "Chest, inflammation, pleura"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "oppression",
+        "catarrh",
+        "constriction"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, pain, pressing, internally",
+        "Generalities, warm, room agg.",
+        "Generalities, warm",
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "internally",
+        "warm",
+        "room"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, air, open, amel.",
+        "Head, pain, warm room agg.",
+        "Head, pain, air",
+        "Head, heaviness",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, dull",
+        "Head, pain, extending"
+      ],
+      "generalizations": [
+        "head",
+        "open",
+        "amel",
+        "warm",
+        "room"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, pressing, pressure, etc.",
+        "Eye, pain, pressing",
+        "Eye, weak",
+        "Eye, weak, reading, while",
+        "Eye, lachrymation",
+        "Eye, redness",
+        "Eye, swollen"
+      ],
+      "generalizations": [
+        "pressing",
+        "weak",
+        "pressure",
+        "reading",
+        "while"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, tickling",
+        "Cough, air, cold agg.",
+        "Cough, air, open, walking in",
+        "Cough, constant",
+        "Cough, dry, air, open air agg.",
+        "Cough, dry, evening"
+      ],
+      "generalizations": [
+        "cough",
+        "open",
+        "tickling",
+        "cold",
+        "walking"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, catarrh",
+        "Larynx and trachea, dryness",
+        "Larynx and trachea, dryness, larynx",
+        "Larynx and trachea, mucus in the air passages",
+        "Larynx and trachea, pain, burning",
+        "Larynx and trachea, pain, burning, larynx",
+        "Larynx and trachea, mucus",
+        "Larynx and trachea, pain"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "dryness",
+        "mucus",
+        "burning"
+      ],
+      "next_segment": "Thoracic condition"
+    }
+  ]
+}

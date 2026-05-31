@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Euphorbium Officinarum",
+  "remedy_abbrev": "Euph.",
+  "sentence": "Driven by limb expression, Euphorbium Officinarum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, perspiration",
+        "Extremities, perspiration, leg",
+        "Extremities, pain, joints, paralytic",
+        "Extremities, stiffness",
+        "Extremities, weakness",
+        "Extremities, eruption"
+      ],
+      "generalizations": [
+        "extremities",
+        "joints",
+        "perspiration",
+        "paralytic",
+        "stiffness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, change of, position, agg.",
+        "Generalities, motion, amel.",
+        "Generalities, side, left",
+        "Generalities, sitting, while, agg.",
+        "Generalities, walking, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "lying",
+        "amel",
+        "change"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, cold applications amel.",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, occiput",
+        "Head, pain, sore, bruised, forehead",
+        "Head, pain, sore, bruised, sensitive to pressure"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "occiput",
+        "forehead",
+        "sore"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, erysipelas",
+        "Skin, swelling",
+        "Skin, eruptions, vesicular",
+        "Skin, biting",
+        "Skin, eruptions, biting",
+        "Skin, erysipelas, vesicular",
+        "Skin, burning"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "erysipelas",
+        "vesicular",
+        "biting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, right",
+        "Back, spasms, cramps",
+        "Back, spasms"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "stiffness",
+        "right"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, aching",
+        "Abdomen, pain, cramping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "aching",
+        "cramping",
+        "dull",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sulphuricum Acidum",
+  "remedy_abbrev": "Sul-ac.",
+  "sentence": "Driven by limb expression, Sulphuricum Acidum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, discoloration",
+        "Extremities, discoloration, forearm",
+        "Extremities, discoloration, upper limbs",
+        "Extremities, discoloration, ankle",
+        "Extremities, discoloration, lower limbs, bluish",
+        "Extremities, discoloration, lower limbs, bluish, spots",
+        "Extremities, discoloration, lower limbs",
+        "Extremities, discoloration, ankle, redness"
+      ],
+      "generalizations": [
+        "extremities",
+        "discoloration",
+        "limbs",
+        "lower",
+        "ankle"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, trembling",
+        "Generalities, heat, flushes of",
+        "Generalities, heat"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "weakness",
+        "heat",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, pain, sides, one side",
+        "Head, pain, sides",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, constriction, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "sides",
+        "congestion",
+        "eruption",
+        "side"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, emptiness",
+        "Abdomen, emptiness, stool, after",
+        "Abdomen, trembling",
+        "Abdomen, emptiness, stool",
+        "Abdomen, pain, violent",
+        "Abdomen, weakness, sensation of"
+      ],
+      "generalizations": [
+        "abdomen",
+        "emptiness",
+        "stool",
+        "spleen",
+        "after"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, hurry",
+        "Mind, hurry, movements, in",
+        "Mind, hurry, occupation, in",
+        "Mind, hurry, walking, while",
+        "Mind, mood, alternating",
+        "Mind, mood",
+        "Mind, mood, changeable"
+      ],
+      "generalizations": [
+        "mind",
+        "hurry",
+        "mood",
+        "irritability",
+        "movements"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour",
+        "Stomach, vomiting, sour",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, pain, pressing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "vomiting",
+        "sour",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

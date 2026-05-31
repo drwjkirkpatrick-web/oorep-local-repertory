@@ -1,0 +1,137 @@
+{
+  "remedy_name": "Gossypium Herbaceum",
+  "remedy_abbrev": "Goss.",
+  "sentence": "Driven by genitalia female, Gossypium Herbaceum manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses",
+        "Genitalia female, menses, absent, amenorrhea",
+        "Genitalia female, menses, absent",
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, pain, stitching, ovaries",
+        "Genitalia female, menses, late",
+        "Genitalia female, menses, painful, dysmenorrhea"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "absent",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heaviness, hand",
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, leg",
+        "Extremities, twitching",
+        "Extremities, excoriation, thighs, between",
+        "Extremities, excoriation"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "drawing",
+        "excoriation",
+        "hand"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, pain, pressing",
+        "Generalities, cold, tendency to take",
+        "Generalities, pain, drawing",
+        "Generalities, pain, pressing, internally",
+        "Generalities, pain, sore, bruised"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "pressing",
+        "enervation",
+        "cold"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, pain, stitching, inguinal region",
+        "Abdomen, pain, stitching, inguinal region, menses",
+        "Abdomen, pain, stitching, inguinal region, menses, during",
+        "Abdomen, hypochondrium",
+        "Abdomen, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "inguinal",
+        "region",
+        "hypochondria"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, taste",
+        "Mouth, taste, eggs, like rotten",
+        "Mouth, taste, eggs, like rotten, morning",
+        "Mouth, morning",
+        "Mouth, taste, eggs"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "eggs",
+        "like",
+        "rotten"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, nausea, breakfast",
+        "Stomach, nausea, breakfast, before",
+        "Stomach, breakfast"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "breakfast",
+        "before"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

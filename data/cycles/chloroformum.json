@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Chloroformum",
+  "remedy_abbrev": "Chlf.",
+  "sentence": "Driven by limb expression, Chloroformum manifests a dynamic cycle through stomach and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, cracking, joints, in",
+        "Extremities, discoloration, fingers",
+        "Extremities, discoloration, fingers, nails",
+        "Extremities, discoloration, fingers, nails, blueness",
+        "Extremities, pain, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "discoloration",
+        "fingers",
+        "joints",
+        "nails"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, hiccough",
+        "Stomach, vomiting, drinking",
+        "Stomach, vomiting, headache, during",
+        "Stomach, vomiting, drinking, soon as water becomes warm in stomach",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, heat, flushes"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "drinking",
+        "hiccough",
+        "headache"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, liver",
+        "Abdomen, pain, liver, colic, gall-stones",
+        "Abdomen, liver",
+        "Abdomen, colic",
+        "Abdomen, foreign body, sensation of",
+        "Abdomen, foreign body"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "colic",
+        "foreign",
+        "body"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, colors, black",
+        "Vision, colors, dark",
+        "Vision, colors, white",
+        "Vision, flickering",
+        "Vision, loss of vision (blindness)",
+        "Vision, sparks",
+        "Vision, colors",
+        "Vision, diplopia"
+      ],
+      "generalizations": [
+        "vision",
+        "colors",
+        "black",
+        "dark",
+        "white"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, comatose",
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, waking, impossible",
+        "Sleep, waking",
+        "Sleep, deep",
+        "Sleep, yawning, walking, while",
+        "Sleep, yawning, walking"
+      ],
+      "generalizations": [
+        "sleep",
+        "yawning",
+        "waking",
+        "walking",
+        "comatose"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, lockjaw",
+        "Face, discoloration",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, pain (aching, prosopalgia, etc.), burning, lips",
+        "Face, lip",
+        "Face, pain (aching, prosopalgia"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "discoloration",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

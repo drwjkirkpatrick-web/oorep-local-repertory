@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Coffea Cruda",
+  "remedy_abbrev": "Coff.",
+  "sentence": "Driven by mind, Coffea Cruda manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, unconsciousness",
+        "Mind, speech",
+        "Mind, excitement, emotional, ailments from",
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, ideas",
+        "Mind, cheerful, happy"
+      ],
+      "generalizations": [
+        "mind",
+        "excitement",
+        "fear",
+        "unconsciousness",
+        "speech"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, irritability, excessive physical",
+        "Generalities, irritability",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, faintness, excitement, on",
+        "Generalities, narcotics agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "irritability",
+        "excessive",
+        "physical"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, pain, nervous",
+        "Head, pain, music, from",
+        "Head, pain, nail, as from a",
+        "Head, pain, sides, one side",
+        "Head, pain, noise",
+        "Head, pain, sides"
+      ],
+      "generalizations": [
+        "head",
+        "sides",
+        "congestion",
+        "nervous",
+        "music"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, noise",
+        "Extremities, coldness",
+        "Extremities, pain, leg",
+        "Extremities, jerking",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, pain, lower limbs, sciatica, motion agg."
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "sciatica",
+        "noise"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spasms",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, hernia, inguinal",
+        "Abdomen, hernia, inguinal, strangulated",
+        "Abdomen, pain, cramping, griping, menses, during",
+        "Abdomen, pain, menses, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "hernia",
+        "inguinal"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, uterus",
+        "Genitalia female, lochia, copious",
+        "Genitalia female, menses, copious"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "uterus",
+        "menses",
+        "inflammation"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

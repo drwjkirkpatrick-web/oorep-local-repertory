@@ -1,0 +1,87 @@
+{
+  "remedy_name": "Lac Felinum",
+  "remedy_abbrev": "Lac-f.",
+  "sentence": "Driven by eye, Lac Felinum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, cutting",
+        "Eye, pain, stitching",
+        "Eye, pain, jerking",
+        "Eye, pain, jerking, left",
+        "Eye, pain, left",
+        "Eye, pain, right",
+        "Eye, pain, stitching, reading, while"
+      ],
+      "generalizations": [
+        "stitching",
+        "jerking",
+        "left",
+        "cutting",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, stitching",
+        "Head, pain, stitching, forehead",
+        "Head, pain, stitching, forehead, eyes over",
+        "Head, pain, stitching, forehead, eyes over, left",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "stitching",
+        "forehead",
+        "eyes",
+        "over"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, frightened",
+        "Mind, fear, pins, of",
+        "Mind, fright"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "frightened",
+        "pins",
+        "fright"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, sensitive",
+        "Extremities, sensitive, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "sensitive",
+        "foot"
+      ],
+      "next_segment": "Visual and ocular strain"
+    }
+  ]
+}

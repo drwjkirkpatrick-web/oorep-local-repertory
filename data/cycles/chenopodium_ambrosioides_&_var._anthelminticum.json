@@ -1,0 +1,137 @@
+{
+  "remedy_name": "Chenopodium Ambrosioides & Var. Anthelminticum",
+  "remedy_abbrev": "Chen-a.",
+  "sentence": "Driven by back, Chenopodium Ambrosioides & Var. Anthelminticum manifests a dynamic cycle through chest and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, dorsal region, scapulae, right, under",
+        "Back, opisthotonos",
+        "Back, bending",
+        "Back, bending, backward (opisthotonos)"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "scapulae",
+        "right"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, sides",
+        "Chest, pain, stitching, sides, right",
+        "Chest, pain, stitching, sides, lower part of",
+        "Chest, pain, stitching, sides, right, lower part",
+        "Chest, pain, stitching, lower part",
+        "Chest, pain, stitching, sides, lower part of, right"
+      ],
+      "generalizations": [
+        "chest",
+        "stitching",
+        "sides",
+        "lower",
+        "part"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, inflammation",
+        "Throat, inflammation, tonsils",
+        "Throat, hawks up cheesy lumps",
+        "Throat, enlargement of tonsils",
+        "Throat, caseous deposits in tonsils",
+        "Throat, tonsils",
+        "Throat, hawk"
+      ],
+      "generalizations": [
+        "throat",
+        "tonsils",
+        "inflammation",
+        "hawks",
+        "cheesy"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, hysteria",
+        "Mind, mistakes",
+        "Mind, mistakes, wrong words, using",
+        "Mind, aphasia",
+        "Mind, mistakes, wrong words",
+        "Mind, weeping",
+        "Mind, weeping, tearful mood, etc."
+      ],
+      "generalizations": [
+        "mind",
+        "mistakes",
+        "wrong",
+        "words",
+        "weeping"
+      ],
+      "next_segment": "Auditory function"
+    },
+    {
+      "name": "Auditory function",
+      "description": "Hearing loss, noises, sensitivity, deafness.",
+      "symptoms": [
+        "Hearing, acute",
+        "Hearing, impaired",
+        "Hearing, impaired, voice, the human",
+        "Hearing, acute, noises (sounds), vehicles, although deaf to voices",
+        "Hearing, impaired, voice",
+        "Hearing, acute, noises (sounds), to",
+        "Hearing, acute, noises (sounds)"
+      ],
+      "generalizations": [
+        "hearing",
+        "acute",
+        "impaired",
+        "noises",
+        "sounds"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, vertex",
+        "Head, pain, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "pressing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

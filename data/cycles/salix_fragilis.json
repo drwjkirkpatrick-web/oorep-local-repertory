@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Salix Fragilis",
+  "remedy_abbrev": "Salx-f.",
+  "sentence": "Driven by mind, Salix Fragilis manifests a dynamic cycle through sleep and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, quiet, quiet disposition",
+        "Mind, quiet",
+        "Mind, restlessness",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, dream, as if in a"
+      ],
+      "generalizations": [
+        "mind",
+        "quiet",
+        "irritability",
+        "disposition",
+        "restlessness"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, disturbed",
+        "Sleep, sleeplessness",
+        "Sleep, disturbed, dreams, by",
+        "Sleep, dreams, anxious",
+        "Sleep, dreams, business, of",
+        "Sleep, dreams, frightful"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "disturbed",
+        "sleepiness",
+        "yawning"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, heaviness",
+        "Extremities, tingling",
+        "Extremities, pain, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "stiffness",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, heaviness",
+        "Head, motions",
+        "Head, pain, dull",
+        "Head, pain, forehead",
+        "Head, constriction, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heat",
+        "congestion",
+        "heaviness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, heat, flushes of",
+        "Generalities, food",
+        "Generalities, heat",
+        "Generalities, food, beer agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "food",
+        "faintness",
+        "side"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, menses",
+        "Genitalia female, dryness",
+        "Genitalia female, dryness, vagina",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, copious",
+        "Genitalia female, menses, copious"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "dryness",
+        "leucorrhea"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

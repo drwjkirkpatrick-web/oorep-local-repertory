@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Gnaphalium Polycephalum",
+  "remedy_abbrev": "Gnaph.",
+  "sentence": "Driven by limb expression, Gnaphalium Polycephalum manifests a dynamic cycle through abdomen and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, thigh",
+        "Extremities, pain, thigh, crural nerves",
+        "Extremities, thigh",
+        "Extremities, cramps",
+        "Extremities, cramps, calf",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica"
+      ],
+      "generalizations": [
+        "extremities",
+        "thigh",
+        "cramps",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, morning",
+        "Abdomen, pain, night",
+        "Abdomen, rumbling, stool"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "cramping",
+        "griping",
+        "bruised"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, numbness, externally",
+        "Generalities, numbness",
+        "Generalities, numbness, affected parts, of",
+        "Generalities, numbness, affected parts",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, night",
+        "Generalities, weakness, morning"
+      ],
+      "generalizations": [
+        "generalities",
+        "numbness",
+        "affected",
+        "parts",
+        "weakness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, diarrhea, during",
+        "Stomach, vomiting, diarrhea",
+        "Stomach, nausea",
+        "Stomach, nausea, stool",
+        "Stomach, nausea, stool, during agg."
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "nausea",
+        "diarrhea",
+        "during"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, copious",
+        "Stool, odor, offensive",
+        "Stool, watery, Stool, watery",
+        "Stool, watery, night",
+        "Stool, odor",
+        "Stool, watery",
+        "Stool, light-colored",
+        "Stool, night"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "odor",
+        "copious",
+        "offensive"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste",
+        "Mouth, discoloration, tongue, white",
+        "Mouth, taste, insipid",
+        "Mouth, taste, nauseous",
+        "Mouth, taste, sweetish",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "discoloration",
+        "tongue",
+        "white"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

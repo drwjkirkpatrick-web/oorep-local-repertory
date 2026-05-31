@@ -1,0 +1,74 @@
+{
+  "remedy_name": "Antimonium Arsenicosum",
+  "remedy_abbrev": "Ant-ar.",
+  "sentence": "Driven by respiration, Antimonium Arsenicosum manifests a dynamic cycle through chest and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, difficult, lying",
+        "Respiration, difficult, lying, while agg.",
+        "Respiration, difficult, eating, after",
+        "Respiration, difficult, eating"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "lying",
+        "eating",
+        "while"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, emphysema"
+      ],
+      "generalizations": [
+        "chest",
+        "emphysema"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, yellow",
+        "Face, swelling",
+        "Face, swelling, edematous"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "swelling",
+        "yellow",
+        "edematous"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea"
+      ],
+      "next_segment": "Respiratory rhythm"
+    }
+  ]
+}

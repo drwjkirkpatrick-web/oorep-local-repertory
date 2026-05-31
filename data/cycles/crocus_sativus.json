@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Crocus Sativus",
+  "remedy_abbrev": "Croc.",
+  "sentence": "Driven by mind, Crocus Sativus manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, speech",
+        "Mind, cheerful, happy",
+        "Mind, cheerful",
+        "Mind, vivacious",
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "cheerful",
+        "sadness",
+        "speech",
+        "happy"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side",
+        "Generalities, morning",
+        "Generalities, numbness",
+        "Generalities, air, open, amel.",
+        "Generalities, air, open, desire for",
+        "Generalities, flabby feeling",
+        "Generalities, numbness, single parts in",
+        "Generalities, side, left"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "numbness",
+        "open",
+        "amel"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, tingling, upper limbs",
+        "Extremities, heaviness",
+        "Extremities, tingling",
+        "Extremities, chilliness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "tingling",
+        "hands",
+        "numbness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, distension, blood vessels",
+        "Head, pain, forehead",
+        "Head, coldness, chilliness, etc.",
+        "Head, pain, cutting, temples",
+        "Head, pain, drawing"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "hyperemia",
+        "distension",
+        "blood"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, movements, in",
+        "Abdomen, movements",
+        "Abdomen, alive, sensation of something",
+        "Abdomen, alive",
+        "Abdomen, hopping about in, as of something",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "movements",
+        "alive",
+        "something",
+        "hopping"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, abortion",
+        "Genitalia female, metrorrhagia, active",
+        "Genitalia female, menses, clotted",
+        "Genitalia female, menses, dark",
+        "Genitalia female, menses, clotted, dark",
+        "Genitalia female, metrorrhagia, stringy blood"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "metrorrhagia",
+        "clotted"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

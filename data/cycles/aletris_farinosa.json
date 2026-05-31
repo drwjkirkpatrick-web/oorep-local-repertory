@@ -1,0 +1,135 @@
+{
+  "remedy_name": "Aletris Farinosa",
+  "remedy_abbrev": "Alet.",
+  "sentence": "Driven by genitalia female, Aletris Farinosa manifests a dynamic cycle through stomach and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, abortion",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, pain, labor-like",
+        "Genitalia female, pain, labor-like, menses, during",
+        "Genitalia female, prolapse, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "labor",
+        "like"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, loathing of food",
+        "Stomach, eructations",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, vomiting, pregnancy, during",
+        "Stomach, fullness, sensation of",
+        "Stomach, nausea, pregnancy, during",
+        "Stomach, fullness, sensation of, eating"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "vomiting",
+        "pregnancy",
+        "during"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, afternoon",
+        "Generalities, afternoon",
+        "Generalities, faintness",
+        "Generalities, evening",
+        "Generalities, faintness, evening"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "afternoon",
+        "faintness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, menses, during",
+        "Abdomen, pain, menses",
+        "Abdomen, pain, dragging, bearing down",
+        "Abdomen, pain, dragging",
+        "Abdomen, spasms",
+        "Abdomen, bending, amel., backward",
+        "Abdomen, bending, amel."
+      ],
+      "generalizations": [
+        "abdomen",
+        "menses",
+        "dragging",
+        "bending",
+        "amel"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urination, involuntary, sneezing, when",
+        "Bladder, urination, involuntary, walking, while agg.",
+        "Bladder, urination, involuntary, walking",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "involuntary",
+        "walking",
+        "sneezing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dragging",
+        "Back, pain, dragging, lumbar region",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "dragging",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

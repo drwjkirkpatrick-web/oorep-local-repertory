@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Capsicum Annuum",
+  "remedy_abbrev": "Caps.",
+  "sentence": "Driven by limb expression, Capsicum Annuum manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, cracking, joints, in",
+        "Extremities, pain, joints",
+        "Extremities, cracking",
+        "Extremities, pain, joints, paralytic",
+        "Extremities, cracking, joints",
+        "Extremities, coldness",
+        "Extremities, paralysis"
+      ],
+      "generalizations": [
+        "extremities",
+        "joints",
+        "cracking",
+        "paralytic",
+        "coldness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, irritability",
+        "Generalities, change of, position, agg.",
+        "Generalities, cold, in general agg.",
+        "Generalities, evening, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "side",
+        "irritability",
+        "change"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, excitement, emotional, ailments from",
+        "Mind, excitement",
+        "Mind, irritability, chill, during",
+        "Mind, sensitive, noise, to",
+        "Mind, starting, startled",
+        "Mind, sensitive",
+        "Mind, starting"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "excitement",
+        "sensitive",
+        "starting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, coughing, on agg.",
+        "Head, pain, coughing",
+        "Head, pain, sore, bruised",
+        "Head, pain, bursting",
+        "Head, pain, bursting, coughing, on"
+      ],
+      "generalizations": [
+        "head",
+        "coughing",
+        "forehead",
+        "bursting",
+        "sore"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, dorsal region",
+        "Back, coldness, dorsal region, scapulae",
+        "Back, coldness, dorsal region, scapulae, between",
+        "Back, pain",
+        "Back, pain, move, beginning to",
+        "Back, pain, move",
+        "Back, cold"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "dorsal",
+        "region",
+        "scapulae"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, burning",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, tension, abdomen, in general",
+        "Abdomen, lower abdomen",
+        "Abdomen, clothes, loosening the, amel.",
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "burning",
+        "drawing",
+        "tension",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "remedy_name": "Iodoformium",
+  "remedy_abbrev": "Iodof.",
+  "sentence": "Driven by limb expression, Iodoformium manifests a dynamic cycle through back and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, cutting",
+        "Extremities, pain, fingers",
+        "Extremities, pain, hand",
+        "Extremities, pain, thigh",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, cutting, ankle",
+        "Extremities, pain, cutting, ankle, walking in open air"
+      ],
+      "generalizations": [
+        "extremities",
+        "cutting",
+        "ankle",
+        "fingers",
+        "hand"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, spine",
+        "Back, pain, sore",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine"
+      ],
+      "generalizations": [
+        "back",
+        "spine",
+        "sore",
+        "region",
+        "aching"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, speech",
+        "Mind, speech, shrieking",
+        "Mind, speech, loquacity"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "shrieking",
+        "loquacity"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, sudden",
+        "Generalities, afternoon",
+        "Generalities, weakness, sudden, afternoon",
+        "Generalities, weakness, sudden, afternoon, 1-30 p.m."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "sudden",
+        "afternoon"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, dryness",
+        "Face, dryness, lips",
+        "Face, lip"
+      ],
+      "generalizations": [
+        "face",
+        "dryness",
+        "lips"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, colors",
+        "Vision, colors, red",
+        "Vision, colors, red, objects seem"
+      ],
+      "generalizations": [
+        "vision",
+        "colors",
+        "objects",
+        "seem"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

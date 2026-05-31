@@ -1,0 +1,46 @@
+{
+  "remedy_name": "Centaurea Tagana",
+  "remedy_abbrev": "Cent.",
+  "sentence": "Driven by mind, Centaurea Tagana manifests a dynamic cycle through expectoration and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, idiocy",
+        "Mind, concentration, difficult",
+        "Mind, fear, bed, of the",
+        "Mind, homesickness",
+        "Mind, home",
+        "Mind, concentration"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "concentration",
+        "idiocy",
+        "difficult"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, lumpy"
+      ],
+      "generalizations": [
+        "expectoration",
+        "lumpy"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

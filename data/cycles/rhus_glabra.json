@@ -1,0 +1,44 @@
+{
+  "remedy_name": "Rhus Glabra",
+  "remedy_abbrev": "Rhus-g.",
+  "sentence": "Driven by constitutional vulnerability, Rhus Glabra manifests a dynamic cycle through head and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, evening agg.",
+        "Generalities, evening",
+        "Generalities, weakness, evening"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, exertion of body",
+        "Head, pain, exertion of body, amel."
+      ],
+      "generalizations": [
+        "head",
+        "exertion",
+        "body",
+        "amel"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

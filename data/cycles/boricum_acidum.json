@@ -1,0 +1,65 @@
+{
+  "remedy_name": "Boricum Acidum",
+  "remedy_abbrev": "Bor-ac.",
+  "sentence": "Driven by head, Boricum Acidum manifests a dynamic cycle through general state and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right",
+        "Head, pain, forehead, eyes",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "above",
+        "right"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, sleep, after",
+        "Generalities, weakness, sleep"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "sleep",
+        "after"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, nausea, air",
+        "Stomach, nausea, air, in open, amel."
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "open",
+        "amel"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

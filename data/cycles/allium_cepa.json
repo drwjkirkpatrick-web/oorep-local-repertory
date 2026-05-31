@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Allium Cepa",
+  "remedy_abbrev": "All-c.",
+  "sentence": "Driven by nose, Allium Cepa manifests a dynamic cycle through head and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, discharge, blood",
+        "Nose, discharge, copious",
+        "Nose, discharge, watery",
+        "Nose, coryza, discharge",
+        "Nose, coryza, wind",
+        "Nose, discharge"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "coryza",
+        "fluent",
+        "blood"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, coryza, with",
+        "Head, pain, evening agg.",
+        "Head, pain, warm room agg.",
+        "Head, pain, closing eyes",
+        "Head, pain, coryza",
+        "Head, pain, evening",
+        "Head, pain, closing eyes, on agg."
+      ],
+      "generalizations": [
+        "head",
+        "coryza",
+        "closing",
+        "eyes",
+        "warm"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, lameness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, knee",
+        "Extremities, pain, ankle",
+        "Extremities, pain, sore, bruised",
+        "Extremities, perspiration"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "lameness",
+        "weakness",
+        "knee"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, inguinal region",
+        "Abdomen, colic",
+        "Abdomen, inguinal region",
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inguinal",
+        "region",
+        "colic",
+        "distension"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, tickling",
+        "Cough, air, cold agg.",
+        "Cough, hacking",
+        "Cough, hacking, tickling in larynx, from",
+        "Cough, hoarse",
+        "Cough, irritation in air passages, from",
+        "Cough, irritation in air passages, from, larynx in, from",
+        "Cough, tickling, larynx, in, from"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "larynx",
+        "hacking",
+        "irritation"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, inflammation, larynx",
+        "Larynx and trachea, pain, larynx",
+        "Larynx and trachea, pain, larynx, coughing, on",
+        "Larynx and trachea, pain, larynx, coughing, on, grasps the larynx",
+        "Larynx and trachea, supports larynx on coughing"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "coughing",
+        "voice",
+        "hoarseness"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

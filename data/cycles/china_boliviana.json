@@ -1,0 +1,73 @@
+{
+  "remedy_name": "China Boliviana",
+  "remedy_abbrev": "Chin-b.",
+  "sentence": "Driven by sleep, China Boliviana manifests a dynamic cycle through mouth and vision, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams",
+        "Sleep, dreams, water",
+        "Sleep, dreams, fishing",
+        "Sleep, dreams, mule, driving of",
+        "Sleep, dreams, water, people bathing",
+        "Sleep, dreams, fish"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "water",
+        "fishing",
+        "mule"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, tongue",
+        "Mouth, pain, tongue, bitten, as if",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "bitten"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, flames"
+      ],
+      "generalizations": [
+        "vision",
+        "flames"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, globular"
+      ],
+      "generalizations": [
+        "expectoration",
+        "globular"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Coccus Cacti",
+  "remedy_abbrev": "Coc-c.",
+  "sentence": "Driven by cough, Coccus Cacti manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, tickling",
+        "Cough, hacking",
+        "Cough, hacking, tickling in larynx, from",
+        "Cough, irritation in air passages, from",
+        "Cough, irritation in air passages, from, larynx in, from",
+        "Cough, night",
+        "Cough, paroxysmal",
+        "Cough, spasmodic"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "hacking",
+        "larynx",
+        "irritation"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, shoulder",
+        "Extremities, stiffness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "stiffness",
+        "tearing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, formication",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, room, in, warm"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "heat",
+        "congestion",
+        "formication"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, tickling in the air passages",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, catarrh",
+        "Larynx and trachea, mucus, larynx",
+        "Larynx and trachea, tickling, larynx, in",
+        "Larynx and trachea, mucus"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "tickling",
+        "irritation",
+        "mucus"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, distension, night",
+        "Abdomen, distension, night, midnight",
+        "Abdomen, night",
+        "Abdomen, midnight",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "midnight",
+        "burning",
+        "drawing"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, heat",
+        "Generalities, heat, sensation of",
+        "Generalities, pain",
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, mucous secretions increased"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "eating",
+        "after",
+        "lying"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

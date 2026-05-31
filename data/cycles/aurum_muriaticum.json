@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aurum Muriaticum",
+  "remedy_abbrev": "Aur-m.",
+  "sentence": "Driven by limb expression, Aurum Muriaticum manifests a dynamic cycle through heart & circulation and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, swelling, leg",
+        "Extremities, swelling, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "foot",
+        "coldness",
+        "stiffness"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, affections of, heart",
+        "Heart & Circulation, fullness, heart",
+        "Heart & Circulation, oppression, heart",
+        "Heart & Circulation, pain, pressing, heart",
+        "Heart & Circulation, palpitation, walking agg.",
+        "Heart & Circulation, palpitation, walking",
+        "Heart & Circulation, fatty degeneration of heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "walking",
+        "affections"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, swelling",
+        "Nose, ozena",
+        "Nose, swelling, of",
+        "Nose, ulcers",
+        "Nose, ulcers, inside",
+        "Nose, catarrh",
+        "Nose, epistaxis",
+        "Nose, coryza"
+      ],
+      "generalizations": [
+        "nose",
+        "swelling",
+        "ulcers",
+        "ozena",
+        "inside"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, suicidal disposition",
+        "Mind, sadness, mercury, after abuse of",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, delusions"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "restlessness",
+        "delusions",
+        "mental"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, angina pectoris",
+        "Chest, pain",
+        "Chest, congestion (hyperemia of chest)",
+        "Chest, fullness",
+        "Chest, pain, pressing",
+        "Chest, pain, pressing, sternum",
+        "Chest, pain, pressing, sternum, behind"
+      ],
+      "generalizations": [
+        "chest",
+        "pressing",
+        "sternum",
+        "oppression",
+        "angina"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, hair",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, inflammation",
+        "Head, pain, forehead, eyes",
+        "Head, hair, falling"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "hair",
+        "eyes",
+        "heat"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

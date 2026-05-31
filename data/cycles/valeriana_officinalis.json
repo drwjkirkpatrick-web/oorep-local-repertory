@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Valeriana Officinalis",
+  "remedy_abbrev": "Valer.",
+  "sentence": "Driven by limb expression, Valeriana Officinalis manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, ankle",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, leg",
+        "Extremities, pain, drawing, leg, tibia",
+        "Extremities, pain, drawing, lower limbs",
+        "Extremities, pain, drawing, upper limbs",
+        "Extremities, pain, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "limbs",
+        "ankle",
+        "tibia"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, morning",
+        "Generalities, pain, pressing",
+        "Generalities, evening, agg.",
+        "Generalities, motion, amel.",
+        "Generalities, pain, drawing",
+        "Generalities, pain, jerking externally",
+        "Generalities, pain, pressing, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "motion",
+        "amel",
+        "drawing"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, hysteria",
+        "Mind, sensitive, oversensitive",
+        "Mind, sensitive",
+        "Mind, busy",
+        "Mind, beside oneself, being",
+        "Mind, laughing, hysteric",
+        "Mind, fever, during, agg.",
+        "Mind, fever"
+      ],
+      "generalizations": [
+        "mind",
+        "sensitive",
+        "fever",
+        "hysteria",
+        "oversensitive"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, forehead",
+        "Head, pain, stooping",
+        "Head, pain, cutting, forehead",
+        "Head, pain, forehead, stooping, from agg.",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "stooping",
+        "pressing",
+        "cutting"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, evening",
+        "Abdomen, sides, left",
+        "Abdomen, spasms",
+        "Abdomen, sides",
+        "Abdomen, evening, in bed",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "left",
+        "spasms",
+        "distension"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, sprained, as if",
+        "Back, pain, sprained, as if, lumbar region",
+        "Back, pain, sprained, as if, lumbar region, extending",
+        "Back, pain, lumbar region, sitting",
+        "Back, pain, sitting",
+        "Back, pain, lumbar region, sitting, while agg."
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "sprained",
+        "sitting"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

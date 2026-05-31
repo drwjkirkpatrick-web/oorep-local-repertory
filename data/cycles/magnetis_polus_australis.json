@@ -1,0 +1,118 @@
+{
+  "remedy_name": "Magnetis Polus Australis",
+  "remedy_abbrev": "M-aust.",
+  "sentence": "Driven by limb expression, Magnetis Polus Australis manifests a dynamic cycle through mind and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, ingrowing toe nails",
+        "Extremities, ulcers",
+        "Extremities, ulcers, toes",
+        "Extremities, ulcers, toes, nail",
+        "Extremities, toes",
+        "Extremities, pain",
+        "Extremities, pain, burning",
+        "Extremities, pain, burning, thumb"
+      ],
+      "generalizations": [
+        "extremities",
+        "ulcers",
+        "toes",
+        "burning",
+        "ingrowing"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, irritability, chill, during",
+        "Mind, restlessness, menses, before",
+        "Mind, restlessness, menses",
+        "Mind, irritability, waking, on agg.",
+        "Mind, irritability, waking",
+        "Mind, men"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "restlessness",
+        "menses",
+        "waking"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), room, in",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "room"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain, toothache in general",
+        "Teeth, pain",
+        "Teeth, pain, warm",
+        "Teeth, pain, upper teeth",
+        "Teeth, pain, warm, food, from"
+      ],
+      "generalizations": [
+        "teeth",
+        "warm",
+        "toothache",
+        "general",
+        "upper"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, ulcers"
+      ],
+      "generalizations": [
+        "clinical",
+        "ulcers"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, pain, jerking"
+      ],
+      "generalizations": [
+        "jerking"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

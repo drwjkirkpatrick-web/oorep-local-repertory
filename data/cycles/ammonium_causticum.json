@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Ammonium Causticum",
+  "remedy_abbrev": "Am-caust.",
+  "sentence": "Driven by mouth, Ammonium Causticum manifests a dynamic cycle through cough and larynx and trachea, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, burning, tongue",
+        "Mouth, pain, tongue",
+        "Mouth, discoloration",
+        "Mouth, mucous membrane",
+        "Mouth, pain, burning",
+        "Mouth, saliva",
+        "Mouth, discoloration, palate"
+      ],
+      "generalizations": [
+        "mouth",
+        "burning",
+        "tongue",
+        "discoloration",
+        "mucous"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, drinking, after agg.",
+        "Cough, persistent",
+        "Cough, spasmodic",
+        "Cough, cold",
+        "Cough, drinking",
+        "Cough, drinking, after",
+        "Cough, mucus, larynx",
+        "Cough, mucus"
+      ],
+      "generalizations": [
+        "cough",
+        "drinking",
+        "after",
+        "mucus",
+        "persistent"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, voice, lost",
+        "Larynx and trachea, voice, weak",
+        "Larynx and trachea, voice, low",
+        "Larynx and trachea, voice, deep",
+        "Larynx and trachea, voice, indistinct",
+        "Larynx and trachea, voice, whispering"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "voice",
+        "lost",
+        "weak"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, odor",
+        "Urine, color",
+        "Urine, albuminous",
+        "Urine, color, dark",
+        "Urine, sediment",
+        "Urine, sediment, sand",
+        "Urine, sediment, sand, red (brick-dust)",
+        "Urine, thick"
+      ],
+      "generalizations": [
+        "urine",
+        "sediment",
+        "color",
+        "sand",
+        "odor"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, aching, dull pain, lumbar region, stooping, when agg.",
+        "Back, pain, aching, dull pain, lumbar region, stooping",
+        "Back, pain, lumbar region, stooping",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, membrane",
+        "Throat, membrane, tonsils",
+        "Throat, sensitive",
+        "Throat, membrane, pharynx, posterior wall",
+        "Throat, membrane, white",
+        "Throat, pain, lancinating",
+        "Throat, pharynx"
+      ],
+      "generalizations": [
+        "throat",
+        "membrane",
+        "pharynx",
+        "tonsils",
+        "sensitive"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

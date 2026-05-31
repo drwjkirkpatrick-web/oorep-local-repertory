@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sanguinaria Canadensis",
+  "remedy_abbrev": "Sang.",
+  "sentence": "Driven by head, Sanguinaria Canadensis manifests a dynamic cycle through limb disturbance and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, gastric",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "congestion",
+        "eyes",
+        "above"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, lameness",
+        "Extremities, lameness, upper limbs",
+        "Extremities, lameness, upper limbs, right",
+        "Extremities, pain",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, shoulder",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, upper limbs, night"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "lameness",
+        "right"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, inflammation, bronchial tubes (bronchitis)",
+        "Chest, pain",
+        "Chest, phthisis pulmonalis",
+        "Chest, inflammation",
+        "Chest, catarrh",
+        "Chest, phthisis pulmonalis, pituitous",
+        "Chest, pain, sternum",
+        "Chest, pain, sternum, behind"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "phthisis",
+        "pulmonalis",
+        "sternum"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, tickling",
+        "Cough, dry, evening",
+        "Cough, hacking",
+        "Cough, irritation in air passages, from",
+        "Cough, lying, agg.",
+        "Cough, spasmodic",
+        "Cough, tickling, trachea, in, from"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "hacking",
+        "irritation",
+        "passages"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, formication, internally",
+        "Generalities, formication"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "internally",
+        "lying",
+        "formication"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, ameliorate",
+        "Stomach, eructations, waterbrash",
+        "Stomach, nausea, headache, during",
+        "Stomach, vomiting, bile"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "nausea",
+        "vomiting",
+        "empty"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

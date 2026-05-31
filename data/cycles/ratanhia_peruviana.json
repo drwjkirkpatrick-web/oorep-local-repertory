@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ratanhia Peruviana",
+  "remedy_abbrev": "Rat.",
+  "sentence": "Driven by limb expression, Ratanhia Peruviana manifests a dynamic cycle through rectum and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, elbow",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, hand",
+        "Extremities, pain, tearing, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "drawing",
+        "eruption",
+        "elbow"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, hemorrhoids",
+        "Rectum, pain, stool",
+        "Rectum, fissure",
+        "Rectum, hemorrhoids, external",
+        "Rectum, pain, burning, stool, after agg.",
+        "Rectum, pain, burning, stool, after a hard"
+      ],
+      "generalizations": [
+        "rectum",
+        "burning",
+        "stool",
+        "hemorrhoids",
+        "after"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, shooting, forehead",
+        "Head, pain, sides",
+        "Head, pain, bursting",
+        "Head, pain, sides, right",
+        "Head, pain, shooting, forehead, menses, during",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "forehead",
+        "sides",
+        "bursting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, tension",
+        "Back, pain, sore",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine",
+        "Back, tension, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "stiffness",
+        "cervical",
+        "region"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, distension",
+        "Stomach, pain",
+        "Stomach, vomiting",
+        "Stomach, hiccough",
+        "Stomach, pain, ulcerative",
+        "Stomach, thirst",
+        "Stomach, vomiting, night",
+        "Stomach, hiccough, painful"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "hiccough",
+        "distension",
+        "ulcerative"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, hard",
+        "Abdomen, hard, liver",
+        "Abdomen, liver",
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hard",
+        "liver",
+        "rumbling",
+        "distension"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

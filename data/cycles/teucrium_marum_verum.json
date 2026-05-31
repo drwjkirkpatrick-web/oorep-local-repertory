@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Teucrium Marum Verum",
+  "remedy_abbrev": "Teucr.",
+  "sentence": "Driven by constitutional vulnerability, Teucrium Marum Verum manifests a dynamic cycle through limb disturbance and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, irritability, excessive physical",
+        "Generalities, irritability",
+        "Generalities, irritability, when too much medicine has produced an over-sensitive state and remedies fail to act",
+        "Generalities, bones",
+        "Generalities, bones, pain",
+        "Generalities, bones, pain, drawing",
+        "Generalities, bones, pain, tearing",
+        "Generalities, side, right"
+      ],
+      "generalizations": [
+        "generalities",
+        "bones",
+        "irritability",
+        "excessive",
+        "physical"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, ingrowing toe nails",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, numbness, upper limbs",
+        "Extremities, pain, cutting",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, upper limbs",
+        "Extremities, pain, tearing"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "upper",
+        "limbs",
+        "drawing"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, dryness, inside",
+        "Nose, obstruction",
+        "Nose, dryness",
+        "Nose, blow the, constant inclination to",
+        "Nose, dryness, inside, blowing nose, compelled, but no discharge",
+        "Nose, polypus",
+        "Nose, blow the",
+        "Nose, dryness, inside, blowing nose"
+      ],
+      "generalizations": [
+        "nose",
+        "dryness",
+        "inside",
+        "blow",
+        "blowing"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, speech",
+        "Mind, excitement",
+        "Mind, excitement, perspiration, during",
+        "Mind, speech, loquacity",
+        "Mind, vivacious",
+        "Mind, speech, loquacity, heat, during",
+        "Mind, perspiration, during, agg.",
+        "Mind, perspiration"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "perspiration",
+        "during",
+        "excitement"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, tension",
+        "Abdomen, tension, abdomen, in general",
+        "Abdomen, worms, from, agg.",
+        "Abdomen, morning",
+        "Abdomen, evening",
+        "Abdomen, upper abdomen",
+        "Abdomen, hips and loin region",
+        "Abdomen, sides"
+      ],
+      "generalizations": [
+        "abdomen",
+        "tension",
+        "general",
+        "worms",
+        "upper"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, flatus",
+        "Rectum, itching, anus",
+        "Rectum, itching, rectum",
+        "Rectum, crawling",
+        "Rectum, crawling, anus",
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, worm, ascarides"
+      ],
+      "generalizations": [
+        "rectum",
+        "itching",
+        "anus",
+        "crawling",
+        "flatus"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

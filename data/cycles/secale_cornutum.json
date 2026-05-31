@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Secale Cornutum",
+  "remedy_abbrev": "Sec.",
+  "sentence": "Driven by limb expression, Secale Cornutum manifests a dynamic cycle through mind and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, convulsion",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, contraction, muscles and tendons, of"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "convulsion",
+        "swelling"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, delirium",
+        "Mind, anxiety",
+        "Mind, anxiety, fear, with",
+        "Mind, delirium, raging, raving",
+        "Mind, suspicious",
+        "Mind, frightened"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "delirium",
+        "anxiety",
+        "nervousness"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, abortion",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, uterus",
+        "Genitalia female, lochia, offensive, fetid",
+        "Genitalia female, lochia, scanty"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "inflammation",
+        "lochia",
+        "metrorrhagia"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "side",
+        "weakness",
+        "internally"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, pressing",
+        "Abdomen, heaviness",
+        "Abdomen, pain, dragging",
+        "Abdomen, heaviness, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "heaviness",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, discoloration, pale",
+        "Skin, eruptions",
+        "Skin, warts",
+        "Skin, discoloration",
+        "Skin, dry",
+        "Skin, formication",
+        "Skin, burning",
+        "Skin, coldness"
+      ],
+      "generalizations": [
+        "skin",
+        "discoloration",
+        "pale",
+        "eruptions",
+        "warts"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

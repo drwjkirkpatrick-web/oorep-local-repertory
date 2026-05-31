@@ -1,0 +1,50 @@
+{
+  "remedy_name": "Ranunculus Acris",
+  "remedy_abbrev": "Ran-a.",
+  "sentence": "Driven by limb expression, Ranunculus Acris manifests a dynamic cycle through head and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, bending, on",
+        "Extremities, pain, leg",
+        "Extremities, pain, knee",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, leg",
+        "Extremities, pain, drawing, leg, tibia"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "joints",
+        "bending",
+        "knee"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, perspiration, forehead",
+        "Head, perspiration",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "forehead"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

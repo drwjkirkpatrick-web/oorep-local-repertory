@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cannabis Indica",
+  "remedy_abbrev": "Cann-i.",
+  "sentence": "Driven by mind, Cannabis Indica manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, delusions, visions",
+        "Mind, fancies, exaltation of",
+        "Mind, fear",
+        "Mind, memory, weakness of",
+        "Mind, speech, incoherent"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "confusion",
+        "delirium",
+        "imaginations"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, paralysis, lower limbs",
+        "Extremities, paralysis, upper limbs",
+        "Extremities, heaviness, leg",
+        "Extremities, thrilling sensation"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "heaviness",
+        "limbs",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, perspiration, forehead",
+        "Head, perspiration",
+        "Head, shocks, blows, jerks, etc.",
+        "Head, shocks, blows",
+        "Head, pain, bursting",
+        "Head, pain, bursting, calvarium were being lifted, as if",
+        "Head, pain, opening and shutting"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "shocks",
+        "blows",
+        "bursting"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, weakness",
+        "Generalities, pain, pressing",
+        "Generalities, air, open, amel.",
+        "Generalities, jerking, internally",
+        "Generalities, pain, pressing externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "internally",
+        "pressing",
+        "weakness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, dorsal region, spine",
+        "Back, pain, aching, dull pain, lumbar region, laughing, when",
+        "Back, pain, dorsal region, spine, stoop, compelling to"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg.",
+        "Urethra, pain, stitching",
+        "Urethra, pain, burning, urination",
+        "Urethra, pain, burning, urination, after",
+        "Urethra, pain, burning, urination, before"
+      ],
+      "generalizations": [
+        "urethra",
+        "burning",
+        "urination",
+        "during",
+        "stitching"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

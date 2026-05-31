@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Heloderma (+ -h., + -s.)",
+  "remedy_abbrev": "Helo.",
+  "sentence": "Driven by limb expression, Heloderma (+ -h., + -s.) manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, formication",
+        "Extremities, formication, lower limbs",
+        "Extremities, ataxia",
+        "Extremities, numbness",
+        "Extremities, bandaged, sensation as if",
+        "Extremities, bandaged, sensation as if, ankles",
+        "Extremities, constriction",
+        "Extremities, constriction, ankles"
+      ],
+      "generalizations": [
+        "extremities",
+        "formication",
+        "bandaged",
+        "ankles",
+        "constriction"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness",
+        "Mind, memory, weakness of",
+        "Mind, company aversion to",
+        "Mind, busy",
+        "Mind, memory",
+        "Mind, company",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference"
+      ],
+      "generalizations": [
+        "mind",
+        "memory",
+        "company",
+        "indifference",
+        "sadness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, heat",
+        "Generalities, heat, vital, lack of",
+        "Generalities, heat, vital",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, pulsation, externally",
+        "Generalities, pulsation"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "vital",
+        "trembling",
+        "externally"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, coldness, heart, region of",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, coldness, heart",
+        "Heart & Circulation, coldness",
+        "Heart & Circulation, trembling, heart",
+        "Heart & Circulation, oppression, heart",
+        "Heart & Circulation, pain, stitching, heart",
+        "Heart & Circulation, pain"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "coldness",
+        "region",
+        "trembling"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, tongue",
+        "Mouth, coldness, sensation of",
+        "Mouth, coldness, sensation of, tongue",
+        "Mouth, cold",
+        "Mouth, coldness"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "coldness",
+        "swelling",
+        "cold"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, heat, vertex",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, left",
+        "Head, pain, forehead, eyes"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "heat",
+        "above"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

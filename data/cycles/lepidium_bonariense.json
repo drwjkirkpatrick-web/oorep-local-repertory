@@ -1,0 +1,132 @@
+{
+  "remedy_name": "Lepidium Bonariense",
+  "remedy_abbrev": "Lepi.",
+  "sentence": "Driven by mind, Lepidium Bonariense manifests a dynamic cycle through head and appetite, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, delusions, pursued, enemies, by",
+        "Mind, indifference, apathy, etc.",
+        "Mind, delusions"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "delusions",
+        "nervousness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, constriction, forehead",
+        "Head, heat, vertex",
+        "Head, pain, forehead, evening agg.",
+        "Head, constriction",
+        "Head, pain, forehead, evening"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heat",
+        "constriction",
+        "vertex"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, aversion, meat",
+        "Appetite, aversion",
+        "Appetite, desires",
+        "Appetite, aversion, food",
+        "Appetite, desires, vinegar",
+        "Appetite, desires, chocolate"
+      ],
+      "generalizations": [
+        "appetite",
+        "aversion",
+        "desires",
+        "meat",
+        "food"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), pressure, amel.",
+        "Face, pain (aching, prosopalgia, etc.), pressure",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "pressure",
+        "amel"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises",
+        "Ear, itching",
+        "Ear, noises, swallowing, when agg.",
+        "Ear, noises, swallowing",
+        "Ear, itching, stooping, on"
+      ],
+      "generalizations": [
+        "noises",
+        "itching",
+        "swallowing",
+        "when",
+        "stooping"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, hip",
+        "Extremities, pain, hip, gluteal region",
+        "Extremities, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "gluteal",
+        "region"
+      ],
+      "next_segment": "Mental withdrawal"
+    }
+  ]
+}

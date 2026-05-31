@@ -1,0 +1,131 @@
+{
+  "remedy_name": "Antimonium Sulphuratum Auratum",
+  "remedy_abbrev": "Ant-s.",
+  "sentence": "Driven by back, Antimonium Sulphuratum Auratum manifests a dynamic cycle through limb disturbance and genitalia male, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, burning",
+        "Back, pain, burning, lumbar region",
+        "Back, pain, drawing",
+        "Back, pain, pressing",
+        "Back, pain, spine",
+        "Back, pain, stitching, lumbar region",
+        "Back, pain, stitching"
+      ],
+      "generalizations": [
+        "back",
+        "burning",
+        "lumbar",
+        "region",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, heaviness, upper limbs",
+        "Extremities, itching",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "drawing",
+        "stiffness",
+        "swelling"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, itching",
+        "Genitalia male, itching, scrotum",
+        "Genitalia male, pain",
+        "Genitalia male, pain, sore",
+        "Genitalia male, eruptions",
+        "Genitalia male, redness, scrotum",
+        "Genitalia male, redness",
+        "Genitalia male, eruptions, scrotum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "scrotum",
+        "itching",
+        "eruptions"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, catarrh",
+        "Nose, epistaxis",
+        "Nose, catarrh, post nasal",
+        "Nose, epistaxis, washing face, from"
+      ],
+      "generalizations": [
+        "nose",
+        "catarrh",
+        "epistaxis",
+        "post",
+        "nasal"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, delirium",
+        "Mind, delirium, raging, raving",
+        "Mind, sensitive, children",
+        "Mind, sensitive"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "delirium",
+        "sensitive",
+        "nervousness"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, pustules"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "pustules"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

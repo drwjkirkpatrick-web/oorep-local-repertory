@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Solanum Tuberosum Aegrotans",
+  "remedy_abbrev": "Sol-t-ae.",
+  "sentence": "Driven by limb expression, Solanum Tuberosum Aegrotans manifests a dynamic cycle through cough and rectum, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, lower limbs",
+        "Extremities, weakness",
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, heat, lower limbs",
+        "Extremities, pain, burning"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "swelling",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, dry, daytime",
+        "Cough, dry, evening",
+        "Cough, dry, night",
+        "Cough, night",
+        "Cough, sleep, wakens from",
+        "Cough, stitching, in larynx, from"
+      ],
+      "generalizations": [
+        "cough",
+        "daytime",
+        "sleep",
+        "wakens",
+        "stitching"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, constriction, contraction, closure, etc.",
+        "Rectum, flatus",
+        "Rectum, pain, tenesmus",
+        "Rectum, urging, desire",
+        "Rectum, constriction, contraction",
+        "Rectum, urging"
+      ],
+      "generalizations": [
+        "rectum",
+        "constriction",
+        "contraction",
+        "urging",
+        "burning"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, disturbed",
+        "Sleep, sleeplessness",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, events, previous",
+        "Sleep, dreams, falling of",
+        "Sleep, dreams, falling of, from high places",
+        "Sleep, sleeplessness, morning",
+        "Sleep, dreams"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleeplessness",
+        "falling",
+        "disturbed"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, lancinating",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, eyes, over",
+        "Head, pain, sore, bruised, sensitive to pressure",
+        "Head, pain, odors"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "lancinating",
+        "eyes"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, delusions",
+        "Mind, speech",
+        "Mind, anxiety",
+        "Mind, anxiety, waking, on",
+        "Mind, censorious, critical",
+        "Mind, speech, loquacity",
+        "Mind, censorious"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "anxiety",
+        "censorious",
+        "fear"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

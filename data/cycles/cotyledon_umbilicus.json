@@ -1,0 +1,45 @@
+{
+  "remedy_name": "Cotyledon Umbilicus",
+  "remedy_abbrev": "Cot.",
+  "sentence": "Driven by mind, Cotyledon Umbilicus manifests a dynamic cycle through cough and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, restlessness, night, midnight, before",
+        "Mind, restlessness, night, midnight",
+        "Mind, night",
+        "Mind, midnight"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "midnight",
+        "before"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, daytime, agg.",
+        "Cough, daytime"
+      ],
+      "generalizations": [
+        "cough",
+        "daytime"
+      ],
+      "next_segment": "Mental mental disturbance"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Stannum Metallicum",
+  "remedy_abbrev": "Stann.",
+  "sentence": "Driven by limb expression, Stannum Metallicum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, burning",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, pressing",
+        "Extremities, pain, pressing, upper arm",
+        "Extremities, pain, tearing"
+      ],
+      "generalizations": [
+        "extremities",
+        "pressing",
+        "cramps",
+        "weakness",
+        "burning"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, trembling"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "burning",
+        "side"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, coldness, chilliness, etc.",
+        "Head, pain, increasing gradually",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, temples"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "coldness",
+        "chilliness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, emptiness",
+        "Abdomen, pain, cramping",
+        "Abdomen, spasms",
+        "Abdomen, pinching",
+        "Abdomen, pain, pinching, navicular region",
+        "Abdomen, sides"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "pinching",
+        "griping",
+        "emptiness"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, sadness, menses",
+        "Mind, anxiety, hypochondriacal",
+        "Mind, sadness, menses, before",
+        "Mind, quiet, desires to be",
+        "Mind, menses, before, agg.",
+        "Mind, menses, before"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "menses",
+        "before",
+        "mental"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, hemorrhage",
+        "Chest, inflammation, bronchial tubes (bronchitis)",
+        "Chest, pain",
+        "Chest, phthisis pulmonalis",
+        "Chest, phthisis pulmonalis, incipient",
+        "Chest, inflammation",
+        "Chest, catarrh",
+        "Chest, constriction, tension, tightness"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "phthisis",
+        "pulmonalis",
+        "hemorrhage"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

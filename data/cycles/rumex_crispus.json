@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Rumex Crispus",
+  "remedy_abbrev": "Rumx.",
+  "sentence": "Driven by cough, Rumex Crispus manifests a dynamic cycle through chest and larynx and trachea, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, tickling",
+        "Cough, air, cold agg.",
+        "Cough, air, open agg.",
+        "Cough, breathing",
+        "Cough, cold, going from warm, to",
+        "Cough, constant",
+        "Cough, inhalation"
+      ],
+      "generalizations": [
+        "cough",
+        "cold",
+        "tickling",
+        "open",
+        "breathing"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, pain, sides",
+        "Chest, pain, sides, inhalation",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, sides",
+        "Chest, pain, stitching, sides, inhalation",
+        "Chest, pain, stitching, sides, respiration, deep"
+      ],
+      "generalizations": [
+        "chest",
+        "sides",
+        "stitching",
+        "inhalation",
+        "burning"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, catarrh",
+        "Larynx and trachea, inflammation, larynx",
+        "Larynx and trachea, irritation in air passages",
+        "Larynx and trachea, irritation in air passages, cold air",
+        "Larynx and trachea, irritation, larynx, cold air"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "irritation",
+        "passages",
+        "cold"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, itching",
+        "Extremities, itching, leg",
+        "Extremities, itching, leg, undressing agg.",
+        "Extremities, itching, lower limbs",
+        "Extremities, itching, lower limbs, undressing, while",
+        "Extremities, itching, leg, tibia, over",
+        "Extremities, itching, morning, on rising"
+      ],
+      "generalizations": [
+        "extremities",
+        "itching",
+        "undressing",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, eating, after agg.",
+        "Generalities, lying, agg.",
+        "Generalities, morning",
+        "Generalities, eating",
+        "Generalities, lying",
+        "Generalities, night",
+        "Generalities, air, open agg.",
+        "Generalities, cold, in general agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "eating",
+        "lying",
+        "after",
+        "open"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, sore, bruised, forehead",
+        "Head, uncovering head agg.",
+        "Head, pain, sore, bruised",
+        "Head, congestion, coffee, from"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "congestion",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Carlsbad Aqua",
+  "remedy_abbrev": "Carl.",
+  "sentence": "Driven by limb expression, Carlsbad Aqua manifests a dynamic cycle through mind and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, stiffness",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, lameness",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, heaviness"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "coldness",
+        "stiffness",
+        "lower"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, speech",
+        "Mind, anxiety",
+        "Mind, excitement, excitable",
+        "Mind, work, aversion to mental",
+        "Mind, excitement",
+        "Mind, work",
+        "Mind, absent-minded"
+      ],
+      "generalizations": [
+        "mind",
+        "excitement",
+        "work",
+        "irritability",
+        "speech"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, formication",
+        "Back, pain, drawing",
+        "Back, pain, drawing, dorsal region",
+        "Back, pain, drawing, dorsal region, scapulae",
+        "Back, pain, lumbar region",
+        "Back, stiffness",
+        "Back, tension"
+      ],
+      "generalizations": [
+        "back",
+        "drawing",
+        "region",
+        "dorsal",
+        "formication"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, fluid",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, heaviness",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, eructations, ineffectual and incomplete"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "heaviness",
+        "feeling",
+        "burning"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, hair",
+        "Head, fullness",
+        "Head, pain, tearing, occiput",
+        "Head, pain, tea",
+        "Head, pain, tearing",
+        "Head, heaviness, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "heaviness",
+        "tearing",
+        "occiput",
+        "hair"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, sleeplessness",
+        "Sleep, restless",
+        "Sleep, sleepiness, eating, after",
+        "Sleep, unrefreshing",
+        "Sleep, waking, frequent",
+        "Sleep, dreams"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleepiness",
+        "yawning",
+        "sleeplessness",
+        "restless"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

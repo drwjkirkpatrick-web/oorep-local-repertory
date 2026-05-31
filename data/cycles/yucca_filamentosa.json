@@ -1,0 +1,49 @@
+{
+  "remedy_name": "Yucca Filamentosa",
+  "remedy_abbrev": "Yuc.",
+  "sentence": "Driven by abdomen, Yucca Filamentosa manifests a dynamic cycle through head and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, hypochondria",
+        "Abdomen, pain, liver",
+        "Abdomen, pain, hypochondria, right",
+        "Abdomen, pain, hypochondria, right, extending to back",
+        "Abdomen, pain, liver, extending, back, to",
+        "Abdomen, pain, liver, extending",
+        "Abdomen, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "hypochondria",
+        "extending",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, noise, from",
+        "Head, pain, noise"
+      ],
+      "generalizations": [
+        "head",
+        "noise"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

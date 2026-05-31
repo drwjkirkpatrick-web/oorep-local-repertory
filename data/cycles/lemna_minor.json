@@ -1,0 +1,52 @@
+{
+  "remedy_name": "Lemna Minor",
+  "remedy_abbrev": "Lem-m.",
+  "sentence": "Driven by constitutional vulnerability, Lemna Minor manifests a dynamic cycle through nose and clinical, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, wet",
+        "Generalities, wet, weather"
+      ],
+      "generalizations": [
+        "generalities",
+        "weather"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, polypus",
+        "Nose, catarrh"
+      ],
+      "generalizations": [
+        "nose",
+        "polypus",
+        "catarrh"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, polypus"
+      ],
+      "generalizations": [
+        "clinical",
+        "polypus"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

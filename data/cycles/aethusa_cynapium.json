@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aethusa Cynapium",
+  "remedy_abbrev": "Aeth.",
+  "sentence": "Driven by head, Aethusa Cynapium manifests a dynamic cycle through mind and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, constriction, tension",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pulled, sensation as if hair were"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "constriction",
+        "tension"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, delusions, cats, sees",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, fear",
+        "Mind, idiocy"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "irritability",
+        "restlessness",
+        "confusion"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, numbness",
+        "Extremities, heaviness",
+        "Extremities, numbness, upper limbs",
+        "Extremities, drawn",
+        "Extremities, drawn, inwards",
+        "Extremities, clenching, thumbs",
+        "Extremities, coldness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "limbs",
+        "drawn"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, milk",
+        "Stomach, indigestion (includes complaints after substances not otherwise described)",
+        "Stomach, indigestion (includes complaints after substances not otherwise described), milk, after",
+        "Stomach, vomiting, milk, after",
+        "Stomach, vomiting, milk, curdled",
+        "Stomach, eructations",
+        "Stomach, pain"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "milk",
+        "after",
+        "indigestion"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, descends",
+        "Back, pain, spine",
+        "Back, lumbar region",
+        "Back, spine",
+        "Back, constriction, contraction, etc.",
+        "Back, constriction, contraction, etc., lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "spine",
+        "lumbar",
+        "constriction"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain",
+        "Abdomen, coldness",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, warm"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "distension",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

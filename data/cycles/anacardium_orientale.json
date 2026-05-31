@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Anacardium Orientale",
+  "remedy_abbrev": "Anac.",
+  "sentence": "Driven by limb expression, Anacardium Orientale manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, dryness, hands",
+        "Extremities, pain",
+        "Extremities, dryness",
+        "Extremities, cramps, calf",
+        "Extremities, itching",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "dryness",
+        "drawing",
+        "hands"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness",
+        "Mind, cruelty",
+        "Mind, anxiety",
+        "Mind, forgetful",
+        "Mind, anger, irascibility",
+        "Mind, anger, violent"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "anger",
+        "nervousness",
+        "dullness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, perspiration",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, pain, temples",
+        "Head, perspiration scalp",
+        "Head, pain, pressing, vertex, plug, as if",
+        "Head, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "vertex",
+        "perspiration",
+        "temples"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, lying",
+        "Generalities, pain, pressing"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "eating",
+        "enervation",
+        "side"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, pressing, umbilicus, region of",
+        "Abdomen, perspiration",
+        "Abdomen, umbilicus",
+        "Abdomen, navicular region",
+        "Abdomen, pain, pressing, umbilicus"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pressing",
+        "umbilicus",
+        "region",
+        "rumbling"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, tearing",
+        "Back, pain, tearing, dorsal region",
+        "Back, pain, tearing, dorsal region, scapulae",
+        "Back, perspiration",
+        "Back, stiffness"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "tearing",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

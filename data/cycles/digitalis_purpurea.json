@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Digitalis Purpurea",
+  "remedy_abbrev": "Dig.",
+  "sentence": "Driven by limb expression, Digitalis Purpurea manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, weakness",
+        "Extremities, coldness, leg",
+        "Extremities, numbness, fingers",
+        "Extremities, paralysis, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "numbness",
+        "foot"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, anguish",
+        "Mind, anxiety",
+        "Mind, anxiety, evening agg.",
+        "Mind, confusion, intoxicated, as after being",
+        "Mind, suspicious",
+        "Mind, anxiety, evening",
+        "Mind, confusion, intoxicated"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "confusion",
+        "intoxicated",
+        "fear"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, anxiety general physical",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, rising agg.",
+        "Generalities, exertion, physical"
+      ],
+      "generalizations": [
+        "generalities",
+        "physical",
+        "faintness",
+        "weakness",
+        "exertion"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, forehead",
+        "Head, pain, stooping",
+        "Head, constriction, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "stooping",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, sore, liver, in",
+        "Abdomen, fullness",
+        "Abdomen, pain, sore, hypochondria",
+        "Abdomen, pain, sore, hypochondria, right",
+        "Abdomen, fullness, sensation of",
+        "Abdomen, hard"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sore",
+        "fullness",
+        "hypochondria",
+        "liver"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, thirst",
+        "Stomach, thirst, extreme",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, sinking",
+        "Stomach, emptiness",
+        "Stomach, eructations",
+        "Stomach, pain"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "emptiness",
+        "feeling",
+        "nausea"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

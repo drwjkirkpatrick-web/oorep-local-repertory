@@ -1,0 +1,142 @@
+{
+  "remedy_name": "Syphilinum",
+  "remedy_abbrev": "Syph.",
+  "sentence": "Driven by limb expression, Syphilinum manifests a dynamic cycle through eye and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, leg, bones",
+        "Extremities, pain, leg, night agg.",
+        "Extremities, pain, leg, night",
+        "Extremities, pain, leg, warmth of bed agg.",
+        "Extremities, night",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "bones",
+        "warmth",
+        "swelling"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, swollen",
+        "Eye, swollen, lids",
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, pain, night",
+        "Eye, agglutinated",
+        "Eye, inflammation, conjunctiva, pustular (including cornea)"
+      ],
+      "generalizations": [
+        "inflammation",
+        "swollen",
+        "conjunctiva",
+        "lids",
+        "agglutinated"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, evening",
+        "Back, pain, night",
+        "Back, pain, evening, sunset to sunrise",
+        "Back, evening",
+        "Back, night",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "sunset",
+        "sunrise"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, cutting",
+        "Head, pain, night agg.",
+        "Head, pain, night",
+        "Head, pain, cutting, occiput",
+        "Head, pain, cutting, occiput, night",
+        "Head, night",
+        "Head, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "cutting",
+        "occiput"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, congestion",
+        "Genitalia female, congestion, ovaries",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, ovaries",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, copious",
+        "Genitalia female, leucorrhea, yellow"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "leucorrhea",
+        "congestion",
+        "ovaries"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, ulcers",
+        "Mouth, ulcers, syphilitic",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, white",
+        "Mouth, blotches",
+        "Mouth, ulcers, palate",
+        "Mouth, indented, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "ulcers",
+        "discoloration",
+        "tongue",
+        "syphilitic"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

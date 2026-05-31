@@ -1,0 +1,132 @@
+{
+  "remedy_name": "Eucalyptus Globulus",
+  "remedy_abbrev": "Eucal.",
+  "sentence": "Driven by nose, Eucalyptus Globulus manifests a dynamic cycle through chill and urethra, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, obstruction",
+        "Nose, discharge",
+        "Nose, discharge, offensive",
+        "Nose, discharge, offensive, fetid",
+        "Nose, obstruction, sensation of",
+        "Nose, coryza, chronic, long-continued",
+        "Nose, discharge, purulent"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "coryza",
+        "obstruction",
+        "offensive"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, exposure",
+        "Chill, exposure, malarial influences",
+        "Chill, exposure, after",
+        "Chill, exposure, swamps"
+      ],
+      "generalizations": [
+        "chill",
+        "exposure",
+        "malarial",
+        "influences",
+        "after"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, stricture",
+        "Urethra, discharge",
+        "Urethra, discharge, gonorrheal",
+        "Urethra, stricture, spasmodic",
+        "Urethra, ulceration",
+        "Urethra, ulceration, meatus",
+        "Urethra, meatus"
+      ],
+      "generalizations": [
+        "urethra",
+        "stricture",
+        "discharge",
+        "ulceration",
+        "meatus"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, night",
+        "Generalities, food",
+        "Generalities, food, coffee, amel.",
+        "Generalities, lassitude",
+        "Generalities, afternoon",
+        "Generalities, food, coffee"
+      ],
+      "generalizations": [
+        "generalities",
+        "food",
+        "coffee",
+        "amel",
+        "lassitude"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, retarded",
+        "Bladder, urination, retarded, must wait for urine to start",
+        "Bladder, catarrh muco-pus",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "retarded",
+        "must",
+        "wait"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, frothy",
+        "Expectoration, thick",
+        "Expectoration, white",
+        "Expectoration, afternoon",
+        "Expectoration, thick, afternoon"
+      ],
+      "generalizations": [
+        "expectoration",
+        "thick",
+        "afternoon",
+        "frothy",
+        "white"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

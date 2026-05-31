@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lilium Tigrinum",
+  "remedy_abbrev": "Lil-t.",
+  "sentence": "Driven by genitalia female, Lilium Tigrinum manifests a dynamic cycle through mind and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, menses",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, pain, bearing down",
+        "Genitalia female, pain, bearing down, uterus, menses, during",
+        "Genitalia female, pain, sharp",
+        "Genitalia female, prolapse, uterus",
+        "Genitalia female, pain, bearing down, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "bearing",
+        "down",
+        "uterus"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, anxiety",
+        "Mind, despair",
+        "Mind, hurry"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "indifference",
+        "irritability",
+        "mental"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, numbness",
+        "Extremities, numbness, leg",
+        "Extremities, pain",
+        "Extremities, heat",
+        "Extremities, heat, foot",
+        "Extremities, heat, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "coldness",
+        "numbness",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, violent pains",
+        "Head, heat",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, heat, rising up",
+        "Head, heat, rising up, chest, from",
+        "Head, pain, forehead, eyes, above"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "forehead",
+        "rising",
+        "violent"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, burning",
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, dragging, bearing down",
+        "Abdomen, pain, dragging",
+        "Abdomen, pain, pressing, hypogastrium",
+        "Abdomen, pain, dragging, menses",
+        "Abdomen, pain, pressing, hypogastrium, stool"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pressing",
+        "dragging",
+        "hypogastrium",
+        "burning"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pressure, amel.",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, pain, pressing",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, pain, pressing, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "pressure",
+        "amel",
+        "load"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

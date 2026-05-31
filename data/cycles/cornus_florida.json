@@ -1,0 +1,93 @@
+{
+  "remedy_name": "Cornus Florida",
+  "remedy_abbrev": "Corn-f.",
+  "sentence": "Driven by head, Cornus Florida manifests a dynamic cycle through abdomen and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, heat, during the agg.",
+        "Head, pain, chill",
+        "Head, pain, heat",
+        "Head, pain, chill, before the"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "chill",
+        "during",
+        "before"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, motion",
+        "Abdomen, pain, cramping, griping, motion, on agg.",
+        "Abdomen, pain, cramping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "motion"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, discoloration",
+        "Skin, discoloration, yellow, jaundice, etc.",
+        "Skin, discoloration, yellow"
+      ],
+      "generalizations": [
+        "skin",
+        "discoloration",
+        "yellow",
+        "jaundice"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, heat, flushes",
+        "Stomach, heat"
+      ],
+      "generalizations": [
+        "stomach",
+        "heat",
+        "flushes"
+      ],
+      "next_segment": "Febrile dynamic"
+    },
+    {
+      "name": "Febrile dynamic",
+      "description": "Chill, heat, sweat, stages, periodicity.",
+      "symptoms": [
+        "Fever, heat in general"
+      ],
+      "generalizations": [
+        "fever",
+        "heat",
+        "general"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

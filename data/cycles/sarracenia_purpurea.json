@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sarracenia Purpurea",
+  "remedy_abbrev": "Sarr.",
+  "sentence": "Driven by limb expression, Sarracenia Purpurea manifests a dynamic cycle through back and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, lameness",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, pain, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "lameness",
+        "numbness",
+        "weakness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, dorsal region",
+        "Back, coldness, dorsal region, scapulae",
+        "Back, coldness, dorsal region, scapulae, between",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, heat",
+        "Back, heat, flushes"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "region",
+        "dorsal",
+        "scapulae"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, reproaches, himself",
+        "Mind, reproaches",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, delusions"
+      ],
+      "generalizations": [
+        "mind",
+        "reproaches",
+        "restlessness",
+        "sadness",
+        "himself"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, coryza, chilliness, with",
+        "Nose, smell",
+        "Nose, smell, diminished",
+        "Nose, smell, diminished, wanting, lost",
+        "Nose, coryza, chilliness",
+        "Nose, epistaxis",
+        "Nose, coryza, cough, with"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "smell",
+        "chilliness",
+        "diminished"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, afternoon",
+        "Chill, coldness in general",
+        "Chill, evening",
+        "Chill, morning",
+        "Chill, night",
+        "Chill, quotidian",
+        "Chill, shaking, morning",
+        "Chill, shaking, shivering, rigors"
+      ],
+      "generalizations": [
+        "chill",
+        "shaking",
+        "afternoon",
+        "coldness",
+        "general"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, morning",
+        "Rectum, flatus",
+        "Rectum, pain, tenesmus",
+        "Rectum, flatus, evening",
+        "Rectum, flatus, offensive",
+        "Rectum, swelling, anus, black, menses, during, sensation of"
+      ],
+      "generalizations": [
+        "rectum",
+        "flatus",
+        "diarrhea",
+        "tenesmus",
+        "offensive"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

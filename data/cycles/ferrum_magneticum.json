@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ferrum Magneticum",
+  "remedy_abbrev": "Ferr-ma.",
+  "sentence": "Driven by limb expression, Ferrum Magneticum manifests a dynamic cycle through rectum and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, tingling",
+        "Extremities, cramps, hand",
+        "Extremities, formication",
+        "Extremities, formication, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "formication",
+        "stiffness",
+        "weakness"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, urging",
+        "Rectum, urging, dinner, after",
+        "Rectum, urging, dinner",
+        "Rectum, pain",
+        "Rectum, diarrhea",
+        "Rectum, flatus",
+        "Rectum, involuntary stool",
+        "Rectum, involuntary stool, flatus, on passing"
+      ],
+      "generalizations": [
+        "rectum",
+        "urging",
+        "dinner",
+        "flatus",
+        "involuntary"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, sunken",
+        "Face, tingling",
+        "Face, discoloration, pale",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, eruptions"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "sunken",
+        "tingling",
+        "pale"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, itching",
+        "Genitalia male, itching, scrotum",
+        "Genitalia male, pain",
+        "Genitalia male, pain, stitching",
+        "Genitalia male, pain, stitching, penis",
+        "Genitalia male, pain, stitching, penis, glans",
+        "Genitalia male, sexual passion, increased",
+        "Genitalia male, sexual passion"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "stitching",
+        "itching",
+        "penis"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, rumbling, eating",
+        "Abdomen, movements",
+        "Abdomen, itching",
+        "Abdomen, restlessness, uneasiness, etc.",
+        "Abdomen, rumbling, stool, after",
+        "Abdomen, restlessness, uneasiness",
+        "Abdomen, rumbling, stool"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "restlessness",
+        "uneasiness",
+        "stool"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, stitching, dorsal region, scapulae, respiration, on",
+        "Back, pain, stitching",
+        "Back, pain, cervical region, morning",
+        "Back, dorsal region, back, left, right"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "stitching",
+        "dorsal",
+        "cervical"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

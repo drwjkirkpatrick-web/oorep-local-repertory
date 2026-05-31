@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Eupatorium Perfoliatum",
+  "remedy_abbrev": "Eup-per.",
+  "sentence": "Driven by limb expression, Eupatorium Perfoliatum manifests a dynamic cycle through stomach and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, pain, aching",
+        "Extremities, pain, influenza, during",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, forearm",
+        "Extremities, pain, sore, bruised, leg",
+        "Extremities, pain, sore, bruised, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "sore",
+        "bruised",
+        "stiffness",
+        "aching"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, retching",
+        "Stomach, thirst",
+        "Stomach, thirst, extreme",
+        "Stomach, thirst, unquenchable",
+        "Stomach, thirst, chill, during",
+        "Stomach, thirst, heat, during"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "during",
+        "nausea",
+        "vomiting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, heat, during the agg.",
+        "Head, pain, occiput",
+        "Head, pain, heat",
+        "Head, pain, sore, bruised",
+        "Head, pain, occiput, pulsating",
+        "Head, pain, sore, bruised, occiput",
+        "Head, pain, heat, after the"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "occiput",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, chilliness",
+        "Chill, chilliness, perspiration, with",
+        "Chill, coldness in general",
+        "Chill, morning",
+        "Chill, night",
+        "Chill, tertian",
+        "Chill, time",
+        "Chill, 9 a.m."
+      ],
+      "generalizations": [
+        "chill",
+        "chilliness",
+        "perspiration",
+        "coldness",
+        "general"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, broken, as if",
+        "Back, pain, lumbar region",
+        "Back, pain, sore, bruised, beaten",
+        "Back, pain, sore, lumbar region",
+        "Back, pain, sore"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "lumbar",
+        "region",
+        "coldness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, pain, pressing externally",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, externally",
+        "Generalities, sensitiveness",
+        "Generalities, bones",
+        "Generalities, bones, pain"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "externally",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

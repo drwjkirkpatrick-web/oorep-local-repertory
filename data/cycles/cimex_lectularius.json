@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cimex Lectularius",
+  "remedy_abbrev": "Cimx.",
+  "sentence": "Driven by limb expression, Cimex Lectularius manifests a dynamic cycle through stomach and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, contraction",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, joints",
+        "Extremities, pain, joints",
+        "Extremities, pain, drawing, joints, chill",
+        "Extremities, contraction, chill, during",
+        "Extremities, pain, drawing, joints, chill, during"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "joints",
+        "chill",
+        "contraction"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour",
+        "Stomach, hiccough",
+        "Stomach, thirst",
+        "Stomach, thirstless",
+        "Stomach, hiccough, painful"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "hiccough",
+        "nausea",
+        "vomiting"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, burning, tongue",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, pain, burning",
+        "Mouth, discoloration, tongue, white"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "discoloration",
+        "burning",
+        "swelling"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, quartan",
+        "Chill, drinking",
+        "Chill, drinking, makes headache, and all other symptoms unbearable",
+        "Chill, coldness in general",
+        "Chill, tertian",
+        "Chill, lying, while agg.",
+        "Chill, lying",
+        "Chill, ascending"
+      ],
+      "generalizations": [
+        "chill",
+        "drinking",
+        "lying",
+        "quartan",
+        "makes"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, lumbar region",
+        "Back, pain, sore, lumbar region",
+        "Back, pain, sore",
+        "Back, pain, lumbar region, sitting",
+        "Back, pain, lumbar region, sitting, while agg.",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "sore",
+        "sitting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, chill, after",
+        "Head, pain, drinking, from",
+        "Head, pain, chill",
+        "Head, pain, drinking",
+        "Head, pain, forehead, right side",
+        "Head, pain, forehead",
+        "Head, pain, forehead, right"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "chill",
+        "drinking",
+        "right"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

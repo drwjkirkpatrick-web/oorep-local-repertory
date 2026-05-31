@@ -1,0 +1,44 @@
+{
+  "remedy_name": "Zincum Aceticum",
+  "remedy_abbrev": "Zinc-acet.",
+  "sentence": "Driven by back, Zincum Aceticum manifests a dynamic cycle through urethra and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, eruptions",
+        "Back, eruptions, pustules",
+        "Back, eruptions, pustules, cervical region",
+        "Back, cervix"
+      ],
+      "generalizations": [
+        "back",
+        "eruptions",
+        "pustules",
+        "cervical",
+        "region"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, biting"
+      ],
+      "generalizations": [
+        "urethra",
+        "biting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

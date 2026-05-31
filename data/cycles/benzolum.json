@@ -1,0 +1,128 @@
+{
+  "remedy_name": "Benzolum",
+  "remedy_abbrev": "Benz.",
+  "sentence": "Driven by perspiration, Benzolum manifests a dynamic cycle through genitalia male and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Perspiration state",
+      "description": "Sweat character, time, odor, staining.",
+      "symptoms": [
+        "Perspiration, single parts",
+        "Perspiration, single parts, not lain on",
+        "Perspiration, night",
+        "Perspiration, profuse",
+        "Perspiration, profuse, night",
+        "Perspiration, warm",
+        "Perspiration, odor",
+        "Perspiration, odor, drugs, like corresponding"
+      ],
+      "generalizations": [
+        "perspiration",
+        "single",
+        "parts",
+        "profuse",
+        "odor"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, itching",
+        "Genitalia male, itching, penis",
+        "Genitalia male, itching, penis, glans",
+        "Genitalia male, penis",
+        "Genitalia male, glans"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "itching",
+        "penis",
+        "glans"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, weeping",
+        "Mind, censorious, critical",
+        "Mind, weeping, tearful mood, etc.",
+        "Mind, censorious",
+        "Mind, delusions, hand, visions, of white, outspread, coming toward face in the darkness",
+        "Mind, delusions, hand"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "weeping",
+        "censorious",
+        "hand"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pulsating",
+        "Back, pulsating, lumbar region",
+        "Back, pulsating, lumbar region, inhalation, on deep",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "pulsating",
+        "lumbar",
+        "region",
+        "inhalation"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, weakness, perspiration, from",
+        "Generalities, weakness, perspiration"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "perspiration",
+        "enervation"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, desires",
+        "Appetite, wanting",
+        "Appetite, desires, lemons",
+        "Appetite, desires, cider"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "wanting",
+        "lemons",
+        "cider"
+      ],
+      "next_segment": "Perspiration state"
+    }
+  ]
+}

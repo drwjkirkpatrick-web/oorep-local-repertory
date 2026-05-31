@@ -1,0 +1,51 @@
+{
+  "remedy_name": "Ammonium Benzoicum",
+  "remedy_abbrev": "Am-be.",
+  "sentence": "Driven by back, Ammonium Benzoicum manifests a dynamic cycle through mouth and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, sacral region, stool",
+        "Back, pain, sacral region, stool, with urging to",
+        "Back, sacrum"
+      ],
+      "generalizations": [
+        "back",
+        "sacral",
+        "region",
+        "stool",
+        "urging"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, swelling, tongue, one-sided",
+        "Mouth, swelling, tongue, one-sided, right",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "swelling",
+        "tongue",
+        "sided",
+        "right"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

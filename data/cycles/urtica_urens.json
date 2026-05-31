@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Urtica Urens",
+  "remedy_abbrev": "Urt-u.",
+  "sentence": "Driven by limb expression, Urtica Urens manifests a dynamic cycle through skin and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, itching",
+        "Extremities, itching, fingers",
+        "Extremities, itching, upper limbs",
+        "Extremities, itching, upper limbs, nettles, as from",
+        "Extremities, fingers",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "itching",
+        "fingers",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, burning",
+        "Skin, eruptions, urticaria",
+        "Skin, itching",
+        "Skin, itching, burning",
+        "Skin, itching, stinging",
+        "Skin, stinging",
+        "Skin, stings of insects"
+      ],
+      "generalizations": [
+        "skin",
+        "itching",
+        "eruptions",
+        "burning",
+        "stinging"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, milk",
+        "Chest, milk, disappearing",
+        "Chest, hemorrhage",
+        "Chest, hemorrhage, exertion, after",
+        "Chest, milk, absent",
+        "Chest, itching",
+        "Chest, milk, suppressed",
+        "Chest, milk, non-pregnant women"
+      ],
+      "generalizations": [
+        "chest",
+        "milk",
+        "hemorrhage",
+        "disappearing",
+        "exertion"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, heat",
+        "Face, eruptions",
+        "Face, itching",
+        "Face, eruptions, urticaria",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, formication",
+        "Face, pain (aching, prosopalgia, etc.), night agg.",
+        "Face, swelling"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "aching",
+        "prosopalgia",
+        "heat"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, congestion, vertex",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, dull, forehead",
+        "Head, pain, forehead, right side",
+        "Head, pain, dull"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "dull",
+        "forehead",
+        "vertex"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, eruptions",
+        "Genitalia female, eruptions, itching",
+        "Genitalia female, itching",
+        "Genitalia female, swollen",
+        "Genitalia female, itching, burning",
+        "Genitalia female, swollen, edematous",
+        "Genitalia female, metrorrhagia"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "itching",
+        "eruptions",
+        "swollen"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

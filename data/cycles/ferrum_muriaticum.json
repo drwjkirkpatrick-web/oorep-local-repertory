@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ferrum Muriaticum",
+  "remedy_abbrev": "Ferr-m.",
+  "sentence": "Driven by limb expression, Ferrum Muriaticum manifests a dynamic cycle through stomach and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, shoulder",
+        "Extremities, pain, shoulder, right",
+        "Extremities, shoulder",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, swelling, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "shoulder",
+        "swelling",
+        "cramps",
+        "right"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour",
+        "Stomach, thirst",
+        "Stomach, eructations, bitter",
+        "Stomach, vomiting, egg",
+        "Stomach, eructations, bitter, fat food, after",
+        "Stomach, eructations, bitter, rich food, after"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "bitter",
+        "vomiting",
+        "food"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, chlorotic",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, pale",
+        "Face, expression",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, eruptions",
+        "Face, eruptions, spots"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "eruptions",
+        "chlorotic",
+        "pale"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, spleen",
+        "Abdomen, pain, colon, the whole length of the",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, sore",
+        "Abdomen, constriction, contraction, etc."
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "enlarged",
+        "colon",
+        "whole"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, coition",
+        "Genitalia female, pain, vagina",
+        "Genitalia female, pain, vagina, coition, during",
+        "Genitalia female, coition, enjoyment absent",
+        "Genitalia female, insensibility, vagina",
+        "Genitalia female, pain, cutting"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "coition",
+        "vagina",
+        "metrorrhagia"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, sore, coughing, from",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, coughing",
+        "Chest, pain, sore",
+        "Chest, oppression",
+        "Chest, dropsy",
+        "Chest, pain, cough, during"
+      ],
+      "generalizations": [
+        "chest",
+        "sore",
+        "coughing",
+        "stitching",
+        "oppression"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

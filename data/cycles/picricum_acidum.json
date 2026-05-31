@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Picricum Acidum",
+  "remedy_abbrev": "Pic-ac.",
+  "sentence": "Driven by limb expression, Picricum Acidum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, heaviness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "motion",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, mental exertion, from agg.",
+        "Head, pain, occiput",
+        "Head, pain, pain in neck, with",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heaviness",
+        "eyes",
+        "above"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, heat",
+        "Back, weakness",
+        "Back, weakness, lumbar region",
+        "Back, heaviness",
+        "Back, heat, dorsal region",
+        "Back, heaviness, lumbar region",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "heat",
+        "weakness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, lassitude",
+        "Generalities, lying, amel.",
+        "Generalities, weakness, exertion, from slight",
+        "Generalities, weakness, nervous"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "lying",
+        "exertion",
+        "enervation"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, imbecility",
+        "Mind, exertion, from mental, agg.",
+        "Mind, lasciviousness, lustful",
+        "Mind, prostration of mind",
+        "Mind, exertion",
+        "Mind, exertion, from mental"
+      ],
+      "generalizations": [
+        "mind",
+        "exertion",
+        "dullness",
+        "mental",
+        "sluggishness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, flatulence",
+        "Abdomen, flatulence, stool",
+        "Abdomen, flatulence, stool, after",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, pressing"
+      ],
+      "generalizations": [
+        "abdomen",
+        "flatulence",
+        "stool",
+        "after",
+        "cramping"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "remedy_name": "Carboneum Hydrogenisatum",
+  "remedy_abbrev": "Carbn-h.",
+  "sentence": "Driven by limb expression, Carboneum Hydrogenisatum manifests a dynamic cycle through eye and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, tingling, leg",
+        "Extremities, tingling",
+        "Extremities, trembling",
+        "Extremities, trembling, hand",
+        "Extremities, relaxation",
+        "Extremities, paralysis",
+        "Extremities, convulsion"
+      ],
+      "generalizations": [
+        "extremities",
+        "tingling",
+        "trembling",
+        "coldness",
+        "hand"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, movement, eyeballs, constant",
+        "Eye, open",
+        "Eye, movement, eyeballs, constant, pendulum like, from side to side",
+        "Eye, open, half open",
+        "Eye, movement, eyeballs",
+        "Eye, movement",
+        "Eye, pain",
+        "Eye, redness"
+      ],
+      "generalizations": [
+        "movement",
+        "eyeballs",
+        "open",
+        "constant",
+        "side"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, wrinkled",
+        "Face, drawn",
+        "Face, hippocratic",
+        "Face, swelling",
+        "Face, cramp, maxillary articulation"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "pale",
+        "wrinkled",
+        "drawn"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, unconsciousness",
+        "Mind, stupefaction",
+        "Mind, unconsciousness, sudden",
+        "Mind, delusions",
+        "Mind, speech",
+        "Mind, ecstasy",
+        "Mind, speech, answers, aversion to",
+        "Mind, speech, answers"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "unconsciousness",
+        "answers",
+        "stupefaction"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, deep",
+        "Sleep, interrupted",
+        "Sleep, prolonged",
+        "Sleep, interrupted, cramps in toes"
+      ],
+      "generalizations": [
+        "sleep",
+        "interrupted",
+        "deep",
+        "prolonged",
+        "cramps"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, air, open, desire for",
+        "Generalities, stretching",
+        "Generalities, air",
+        "Generalities, air, open",
+        "Generalities, stretching, convulsive, paroxysmal"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "open",
+        "stretching",
+        "enervation"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

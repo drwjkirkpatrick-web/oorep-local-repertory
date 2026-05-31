@@ -1,0 +1,45 @@
+{
+  "remedy_name": "Sanguinarinum Nitricum",
+  "remedy_abbrev": "Sanguin-n.",
+  "sentence": "Driven by constitutional vulnerability, Sanguinarinum Nitricum manifests a dynamic cycle through clinical and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, pain, pressing, internally",
+        "Generalities, pain, burning, internally",
+        "Generalities, pain, burning"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "internally",
+        "burning"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation, internally",
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation",
+        "internally"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

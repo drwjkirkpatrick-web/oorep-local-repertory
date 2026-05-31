@@ -1,0 +1,112 @@
+{
+  "remedy_name": "Lobelia Cardinalis",
+  "remedy_abbrev": "Lob-c.",
+  "sentence": "Driven by face, Lobelia Cardinalis manifests a dynamic cycle through abdomen and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), drawing",
+        "Face, discoloration, red, lying, while",
+        "Face, discoloration, red, lying",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "aching",
+        "prosopalgia",
+        "lying"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, hypochondrium",
+        "Abdomen, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "hypochondria",
+        "hypochondrium"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, extending, lower extremities",
+        "Back, pain, extending"
+      ],
+      "generalizations": [
+        "back",
+        "extending",
+        "lower",
+        "extremities"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, grief",
+        "Mind, grief, ailments, from",
+        "Mind, grief, ailments"
+      ],
+      "generalizations": [
+        "mind",
+        "grief",
+        "ailments"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, odor, offensive",
+        "Stool, odor"
+      ],
+      "generalizations": [
+        "stool",
+        "odor",
+        "offensive"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, dryness",
+        "Throat, inflammation"
+      ],
+      "generalizations": [
+        "throat",
+        "dryness",
+        "inflammation"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    }
+  ]
+}

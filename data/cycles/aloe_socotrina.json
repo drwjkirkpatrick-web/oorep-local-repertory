@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aloe Socotrina",
+  "remedy_abbrev": "Aloe",
+  "sentence": "Driven by rectum, Aloe Socotrina manifests a dynamic cycle through abdomen and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, constipation",
+        "Rectum, diarrhea",
+        "Rectum, hemorrhoids",
+        "Rectum, dragging, bearing down",
+        "Rectum, dysentery",
+        "Rectum, flatus"
+      ],
+      "generalizations": [
+        "rectum",
+        "burning",
+        "constipation",
+        "diarrhea",
+        "hemorrhoids"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, flatulence",
+        "Abdomen, gurgling",
+        "Abdomen, gurgling, stool, before",
+        "Abdomen, heat"
+      ],
+      "generalizations": [
+        "abdomen",
+        "gurgling",
+        "distension",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, heat",
+        "Extremities, heat, foot",
+        "Extremities, heaviness, tired limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "heaviness",
+        "heat",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, cold applications amel.",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, eyes, over",
+        "Head, pain, cold",
+        "Head, forehead",
+        "Head, pain, pressing, forehead, eyes"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "forehead",
+        "cold",
+        "eyes"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, work, aversion to mental",
+        "Mind, work",
+        "Mind, imbecility",
+        "Mind, irritability",
+        "Mind, hysteria",
+        "Mind, death",
+        "Mind, death, presentiment of",
+        "Mind, memory, active"
+      ],
+      "generalizations": [
+        "mind",
+        "work",
+        "death",
+        "aversion",
+        "mental"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, heaviness, internally",
+        "Generalities, plug, sensation of, internally",
+        "Generalities, heaviness",
+        "Generalities, plug, sensation of",
+        "Generalities, plug",
+        "Generalities, weakness, enervation"
+      ],
+      "generalizations": [
+        "generalities",
+        "plug",
+        "eating",
+        "heaviness",
+        "internally"
+      ],
+      "next_segment": "Rectal and anal expression"
+    }
+  ]
+}

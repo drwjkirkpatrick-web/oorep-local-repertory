@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Tellurium",
+  "remedy_abbrev": "Tell.",
+  "sentence": "Driven by limb expression, Tellurium manifests a dynamic cycle through back and ear, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, eruption, lower limbs",
+        "Extremities, itching",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, perspiration",
+        "Extremities, perspiration, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "eruption",
+        "perspiration"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, sore, dorsal region",
+        "Back, pain, sore",
+        "Back, pain, sacral region, extending"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "sacral",
+        "sore"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, discharges",
+        "Ear, pain",
+        "Ear, discoloration",
+        "Ear, pain, burning",
+        "Ear, pain, burning, left",
+        "Ear, itching",
+        "Ear, eruptions",
+        "Ear, itching, external ear"
+      ],
+      "generalizations": [
+        "burning",
+        "itching",
+        "discharges",
+        "discoloration",
+        "left"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, itching of scalp",
+        "Head, pain, sore, bruised",
+        "Head, pain, sore, bruised, motion",
+        "Head, pain, sore, bruised, motion, on agg.",
+        "Head, pain, sore",
+        "Head, heat",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "sore",
+        "bruised",
+        "motion",
+        "itching"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, itching",
+        "Eye, lachrymation",
+        "Eye, redness",
+        "Eye, swollen",
+        "Eye, swollen, lids",
+        "Eye, inflammation",
+        "Eye, inflammation, lids",
+        "Eye, lachrymation, coryza, during"
+      ],
+      "generalizations": [
+        "lachrymation",
+        "swollen",
+        "lids",
+        "inflammation",
+        "itching"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, eruptions, pimples",
+        "Skin, eruptions, pimples, itching",
+        "Skin, swelling",
+        "Skin, swelling, dropsical",
+        "Skin, eruptions, herpetic, circinate",
+        "Skin, itching"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "herpetic",
+        "pimples",
+        "itching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

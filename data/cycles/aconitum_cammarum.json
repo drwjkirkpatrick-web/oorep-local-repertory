@@ -1,0 +1,125 @@
+{
+  "remedy_name": "Aconitum Cammarum",
+  "remedy_abbrev": "Acon-c.",
+  "sentence": "Driven by limb expression, Aconitum Cammarum manifests a dynamic cycle through sleep and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, tingling",
+        "Extremities, contraction, muscles and tendons, of",
+        "Extremities, pain, knee",
+        "Extremities, pain, knee, pressure, amel.",
+        "Extremities, tingling, fingers",
+        "Extremities, tingling, fingers, tips",
+        "Extremities, tingling, toes"
+      ],
+      "generalizations": [
+        "extremities",
+        "tingling",
+        "knee",
+        "fingers",
+        "contraction"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, night, midnight, before",
+        "Sleep, sleeplessness, night, midnight, before, until, 4 a.m.",
+        "Sleep, sleeplessness, night",
+        "Sleep, sleeplessness, night, midnight",
+        "Sleep, sleeplessness, night, midnight, before, until",
+        "Sleep, night",
+        "Sleep, midnight"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness",
+        "midnight",
+        "before",
+        "until"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), drawing",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "drawing"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, night"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "nervousness"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises, headache, during",
+        "Ear, noises, ringing",
+        "Ear, noises, ringing, headache, during",
+        "Ear, noises"
+      ],
+      "generalizations": [
+        "noises",
+        "headache",
+        "during",
+        "ringing"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain",
+        "Abdomen, pain, bending double agg.",
+        "Abdomen, pain, bending double"
+      ],
+      "generalizations": [
+        "abdomen",
+        "bending",
+        "double",
+        "distension"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

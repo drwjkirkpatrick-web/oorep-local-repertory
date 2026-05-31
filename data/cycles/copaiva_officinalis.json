@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Copaiva Officinalis",
+  "remedy_abbrev": "Cop.",
+  "sentence": "Driven by limb expression, Copaiva Officinalis manifests a dynamic cycle through bladder and urethra, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, eruption",
+        "Extremities, eruption, urticaria",
+        "Extremities, pain, ankle",
+        "Extremities, pain, foot",
+        "Extremities, pain, rheumatic"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "swelling",
+        "knee",
+        "urticaria"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, retarded",
+        "Bladder, urination, dysuria",
+        "Bladder, urination, retarded, must wait for urine to start",
+        "Bladder, urination, thin stream",
+        "Bladder, inflammation",
+        "Bladder, pain",
+        "Bladder, pain, burning"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "retarded",
+        "dysuria",
+        "must"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg.",
+        "Urethra, pain, burning, urination",
+        "Urethra, inflammation",
+        "Urethra, discharge, gleety",
+        "Urethra, discharge, gleety, painless"
+      ],
+      "generalizations": [
+        "urethra",
+        "burning",
+        "urination",
+        "during",
+        "discharge"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, delirium"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, occiput",
+        "Head, heat",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, hair"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "congestion",
+        "heat",
+        "hyperemia"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, penis",
+        "Genitalia male, pain, penis, glans",
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, testes",
+        "Genitalia male, induration, testes",
+        "Genitalia male, induration",
+        "Genitalia male, pulsation"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "penis",
+        "swelling",
+        "testes"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

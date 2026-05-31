@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Physostigma Venenosum",
+  "remedy_abbrev": "Phys.",
+  "sentence": "Driven by limb expression, Physostigma Venenosum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, numbness, leg",
+        "Extremities, pain",
+        "Extremities, cramps, hand",
+        "Extremities, jerking",
+        "Extremities, numbness, upper limbs",
+        "Extremities, pain, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "cramps",
+        "limbs",
+        "hand"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, pain, forehead, eyes",
+        "Head, vertex",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "pressing",
+        "vertex"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, spasms, cramps, nursing, while, touch, on",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, spasms, cramps, nursing, while",
+        "Back, spasms, cramps",
+        "Back, spasms",
+        "Back, spasms, cramps, nursing",
+        "Back, coldness"
+      ],
+      "generalizations": [
+        "back",
+        "spasms",
+        "cramps",
+        "nursing",
+        "while"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, twitching",
+        "Eye, twitching, lids",
+        "Eye, lid",
+        "Eye, pain",
+        "Eye, pupils, alternately contracted and dilated in the same light",
+        "Eye, pupils",
+        "Eye, pain, sore, bruised, tender",
+        "Eye, pain, sore, lids"
+      ],
+      "generalizations": [
+        "twitching",
+        "lids",
+        "pupils",
+        "sore",
+        "alternately"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, diarrhea, sensation as if",
+        "Abdomen, diarrhea, sensation as if, would come on",
+        "Abdomen, pain, diarrhea, as if, would come on",
+        "Abdomen, pain, diarrhea",
+        "Abdomen, diarrhea",
+        "Abdomen, rumbling",
+        "Abdomen, pain, cramping, griping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "diarrhea",
+        "would",
+        "come",
+        "rumbling"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, fear, mischief, he might do, night on waking",
+        "Mind, night",
+        "Mind, waking, on, agg.",
+        "Mind, waking",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "waking",
+        "restlessness",
+        "fear",
+        "mischief"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

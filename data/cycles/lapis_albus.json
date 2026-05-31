@@ -1,0 +1,131 @@
+{
+  "remedy_name": "Lapis Albus",
+  "remedy_abbrev": "Lap-a.",
+  "sentence": "Driven by genitalia female, Lapis Albus manifests a dynamic cycle through abdomen and appetite, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, pain, uterus, menses",
+        "Genitalia female, pain, uterus, menses, at beginning",
+        "Genitalia female, uterus",
+        "Genitalia female, menses",
+        "Genitalia female, menses, painful, dysmenorrhea",
+        "Genitalia female, menses, pain"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "uterus",
+        "beginning"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, menses, during",
+        "Abdomen, pain, menses",
+        "Abdomen, pain, menses, during, flow becomes free, amel. when",
+        "Abdomen, pain, menses, at beginning of"
+      ],
+      "generalizations": [
+        "abdomen",
+        "menses",
+        "during",
+        "flow",
+        "becomes"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, aversion, meat",
+        "Appetite, aversion",
+        "Appetite, ravenous, canine, excessive",
+        "Appetite, ravenous",
+        "Appetite, desires",
+        "Appetite, desires, cold, drinks",
+        "Appetite, desires, cold"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "aversion",
+        "ravenous",
+        "cold"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, between",
+        "Back, dorsal region, back, left, right",
+        "Back, scapula",
+        "Back, dorsal region, back",
+        "Back, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "scapulae",
+        "between"
+      ],
+      "next_segment": "External throat state"
+    },
+    {
+      "name": "External throat state",
+      "description": "External throat symptoms, glands, cervical region.",
+      "symptoms": [
+        "External throat, swelling",
+        "External throat, swelling, cervical glands",
+        "External throat, glands",
+        "External throat, glands, cervical",
+        "External throat, goiter"
+      ],
+      "generalizations": [
+        "external",
+        "throat",
+        "glands",
+        "swelling",
+        "cervical"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, faintness, menses",
+        "Generalities, faintness, menses, from pain"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "menses"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

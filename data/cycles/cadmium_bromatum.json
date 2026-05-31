@@ -1,0 +1,41 @@
+{
+  "remedy_name": "Cadmium Bromatum",
+  "remedy_abbrev": "Cadm-br.",
+  "sentence": "Driven by mind, Cadmium Bromatum manifests a dynamic cycle through abdomen and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, stool, before, agg.",
+        "Mind, stool"
+      ],
+      "generalizations": [
+        "mind",
+        "stool",
+        "irritability",
+        "before"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pulsation"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pulsation"
+      ],
+      "next_segment": "Mental mental disturbance"
+    }
+  ]
+}

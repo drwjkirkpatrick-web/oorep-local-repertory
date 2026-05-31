@@ -1,0 +1,87 @@
+{
+  "remedy_name": "Lolium Temulentum",
+  "remedy_abbrev": "Lol.",
+  "sentence": "Driven by mind, Lolium Temulentum manifests a dynamic cycle through clinical and vision, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, delirium, raging, raving",
+        "Mind, rage, fury",
+        "Mind, rage",
+        "Mind, mania, madness",
+        "Mind, mania"
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "rage",
+        "mania",
+        "raging"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, parkinson's disease"
+      ],
+      "generalizations": [
+        "clinical",
+        "parkinson",
+        "disease"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, dim",
+        "Vision, weak",
+        "Vision, foggy"
+      ],
+      "generalizations": [
+        "vision",
+        "weak",
+        "foggy"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, aversion",
+        "Appetite, aversion, coffee"
+      ],
+      "generalizations": [
+        "appetite",
+        "aversion",
+        "coffee"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, restlessness"
+      ],
+      "generalizations": [
+        "generalities",
+        "restlessness"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

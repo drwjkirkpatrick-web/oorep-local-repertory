@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Clematis Erecta",
+  "remedy_abbrev": "Clem.",
+  "sentence": "Driven by limb expression, Clematis Erecta manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, pain, knee",
+        "Extremities, eruption"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "swelling",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side",
+        "Generalities, side, left",
+        "Generalities, bathing",
+        "Generalities, wet",
+        "Generalities, bathing, agg.",
+        "Generalities, indurations",
+        "Generalities, indurations, glands",
+        "Generalities, bathing, dread of"
+      ],
+      "generalizations": [
+        "generalities",
+        "bathing",
+        "side",
+        "indurations",
+        "left"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, eruption, crusts",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, dull",
+        "Head, itching of scalp",
+        "Head, pain, boring, temples"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "crusts",
+        "scabs",
+        "heaviness"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, stinging",
+        "Skin, eruptions, vesicular",
+        "Skin, eruptions, herpetic, itching",
+        "Skin, eruptions, scaly",
+        "Skin, eruptions, herpetic, stinging"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "herpetic",
+        "itching",
+        "stinging"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, memory, weakness of",
+        "Mind, company aversion to"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "irritability",
+        "sluggishness"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, inflammation",
+        "Genitalia male, inflammation, testes",
+        "Genitalia male, pain",
+        "Genitalia male, pain, sore, testes",
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, testes",
+        "Genitalia male, pain, sore",
+        "Genitalia male, retraction"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "testes",
+        "inflammation",
+        "sore"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Castoreum Canadense",
+  "remedy_abbrev": "Cast.",
+  "sentence": "Driven by head, Castoreum Canadense manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pulsating, beating, throbbing",
+        "Head, pulsating",
+        "Head, pain, occiput, pressure, amel.",
+        "Head, occiput",
+        "Head, pain, headache in general",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "pulsating",
+        "beating",
+        "throbbing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, heaviness, thigh",
+        "Extremities, pain, upper arm",
+        "Extremities, heaviness, thigh, menses, during",
+        "Extremities, heaviness, thigh, menses",
+        "Extremities, pain, upper arm, night",
+        "Extremities, night"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "thigh",
+        "upper",
+        "menses"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, restlessness, bed, tossing about in",
+        "Mind, restlessness, bed",
+        "Mind, irritability, evening agg.",
+        "Mind, evening",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "irritability",
+        "tossing",
+        "about"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, distension, after",
+        "Abdomen, distension, afternoon",
+        "Abdomen, afternoon",
+        "Abdomen, rumbling",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "afternoon",
+        "after",
+        "rumbling"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, coldness",
+        "Stomach, thirst",
+        "Stomach, thirst, burning, vehement",
+        "Stomach, thirst, dinner, after",
+        "Stomach, thirst, burning",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "burning",
+        "eructations",
+        "coldness"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, pain, warm",
+        "Teeth, pain, warmth",
+        "Teeth, pain, eating",
+        "Teeth, pain, eating, during agg.",
+        "Teeth, pain, warmth, external, amel.",
+        "Teeth, pain, eating, during",
+        "Teeth, pain, air, open, in the agg."
+      ],
+      "generalizations": [
+        "teeth",
+        "eating",
+        "warmth",
+        "during",
+        "warm"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

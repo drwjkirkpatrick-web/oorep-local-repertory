@@ -1,0 +1,140 @@
+{
+  "remedy_name": "Abies Nigra",
+  "remedy_abbrev": "Abies-n.",
+  "sentence": "Driven by stomach, Abies Nigra manifests a dynamic cycle through general state and appetite, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, indigestion (includes complaints after substances not otherwise described)",
+        "Stomach, pain",
+        "Stomach, heaviness, eating, after",
+        "Stomach, lump, sensation of",
+        "Stomach, lump, sensation of, eating, after",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, heaviness",
+        "Stomach, heaviness, eating"
+      ],
+      "generalizations": [
+        "stomach",
+        "after",
+        "eating",
+        "heaviness",
+        "lump"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, morning",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, pain, pressing",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, eating, after agg.",
+        "Generalities, lying, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "weakness",
+        "load",
+        "enervation"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, diminished",
+        "Appetite, diminished, morning",
+        "Appetite, time, night",
+        "Appetite, time",
+        "Appetite, increased (hunger in general)",
+        "Appetite, ravenous",
+        "Appetite, desires",
+        "Appetite, increased (hunger in general), night"
+      ],
+      "generalizations": [
+        "appetite",
+        "diminished",
+        "time",
+        "increased",
+        "hunger"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, thinking"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "dullness",
+        "thinking"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, dyspepsia",
+        "Clinical, dyspepsia, tea, from",
+        "Clinical, dyspepsia, tobacco, from",
+        "Clinical, abscess"
+      ],
+      "generalizations": [
+        "clinical",
+        "dyspepsia",
+        "tobacco",
+        "abscess"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, disturbed",
+        "Sleep, disturbed, hunger",
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, hunger, from",
+        "Sleep, restless",
+        "Sleep, dreams",
+        "Sleep, dreams, unpleasant"
+      ],
+      "generalizations": [
+        "sleep",
+        "disturbed",
+        "hunger",
+        "sleeplessness",
+        "dreams"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

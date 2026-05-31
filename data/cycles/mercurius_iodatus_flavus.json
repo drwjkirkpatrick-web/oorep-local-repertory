@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mercurius Iodatus Flavus",
+  "remedy_abbrev": "Merc-i-f.",
+  "sentence": "Driven by limb expression, Mercurius Iodatus Flavus manifests a dynamic cycle through head and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, lameness",
+        "Extremities, lameness, upper limbs",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, numbness, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "limbs",
+        "heaviness",
+        "lameness",
+        "upper"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, forehead, in",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, itching of scalp",
+        "Head, pain, forehead, nose, above root of"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eruption",
+        "crusts",
+        "scabs"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, discoloration",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, ulcers",
+        "Throat, membrane",
+        "Throat, discoloration, redness, pharynx"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "redness",
+        "membrane",
+        "burning"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, stiffness, muscles",
+        "Face, stiffness, muscles, lower jaw",
+        "Face, sensitive",
+        "Face, pain (aching, prosopalgia, etc.), sore, bruised",
+        "Face, enlarged",
+        "Face, cancer",
+        "Face, indurations"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "stiffness",
+        "muscles"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, catarrh",
+        "Nose, catarrh, post nasal",
+        "Nose, coryza",
+        "Nose, dryness, inside",
+        "Nose, pain, in",
+        "Nose, pain, root",
+        "Nose, discharge",
+        "Nose, dryness"
+      ],
+      "generalizations": [
+        "nose",
+        "catarrh",
+        "dryness",
+        "post",
+        "nasal"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, yellow",
+        "Mouth, discoloration, tongue, yellow, base",
+        "Mouth, discoloration, tongue, yellow, dirty",
+        "Mouth, tongue",
+        "Mouth, discoloration, tongue, red",
+        "Mouth, odor (breath), offensive"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "yellow",
+        "base"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Iodium",
+  "remedy_abbrev": "Iod.",
+  "sentence": "Driven by limb expression, Iodium manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, pain",
+        "Extremities, inflammation",
+        "Extremities, inflammation, joints",
+        "Extremities, inflammation, joints, night",
+        "Extremities, pain, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "inflammation",
+        "joints",
+        "hands"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pressure",
+        "Generalities, weakness",
+        "Generalities, eating",
+        "Generalities, lying",
+        "Generalities, trembling"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "weakness",
+        "fainting",
+        "enervation"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, anxiety",
+        "Mind, mood, alternating",
+        "Mind, violent, vehement, etc.",
+        "Mind, mood",
+        "Mind, violent",
+        "Mind, busy"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "mood",
+        "violent",
+        "mental"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, wrapping up head agg.",
+        "Head, warm coverings on head, agg.",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "wrapping",
+        "warm",
+        "coverings"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, spleen",
+        "Abdomen, hard",
+        "Abdomen, hard, hypochondria",
+        "Abdomen, hard, liver",
+        "Abdomen, suppuration, inguinal glands",
+        "Abdomen, liver",
+        "Abdomen, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hard",
+        "enlarged",
+        "hypochondria",
+        "liver"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, phthisis pulmonalis",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, coughing",
+        "Chest, constriction",
+        "Chest, pain, burning, coughing, during",
+        "Chest, pain, burning, coughing"
+      ],
+      "generalizations": [
+        "chest",
+        "burning",
+        "coughing",
+        "stitching",
+        "phthisis"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

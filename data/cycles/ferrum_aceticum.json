@@ -1,0 +1,82 @@
+{
+  "remedy_name": "Ferrum Aceticum",
+  "remedy_abbrev": "Ferr-acet.",
+  "sentence": "Driven by mind, Ferrum Aceticum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness",
+        "Mind, sadness",
+        "Mind, restlessness, heat, during the",
+        "Mind, restlessness, heat",
+        "Mind, sadness, alone, when",
+        "Mind, anxiety",
+        "Mind, anxiety, future, about"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "heat",
+        "anxiety"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, bones",
+        "Generalities, bones, growth, affected",
+        "Generalities, bones, growth",
+        "Generalities, bones, growth, affected, pain"
+      ],
+      "generalizations": [
+        "generalities",
+        "bones",
+        "growth",
+        "affected"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, lie down, must",
+        "Head, pain, riding in a carriage agg.",
+        "Head, pain, riding in a carriage"
+      ],
+      "generalizations": [
+        "head",
+        "riding",
+        "carriage",
+        "down",
+        "must"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, night",
+        "Back, night"
+      ],
+      "generalizations": [
+        "back"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

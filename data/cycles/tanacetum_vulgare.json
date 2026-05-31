@@ -1,0 +1,139 @@
+{
+  "remedy_name": "Tanacetum Vulgare",
+  "remedy_abbrev": "Tanac.",
+  "sentence": "Driven by back, Tanacetum Vulgare manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, spine",
+        "Back, pain, sore",
+        "Back, pain, stitching",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine"
+      ],
+      "generalizations": [
+        "back",
+        "spine",
+        "sore",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, foolish behavior",
+        "Mind, speech, incoherent",
+        "Mind, unconsciousness",
+        "Mind, delusions",
+        "Mind, speech",
+        "Mind, delusions, insane, that she will become",
+        "Mind, jesting",
+        "Mind, moaning, groaning"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "delusions",
+        "foolish",
+        "behavior"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, motions of head (shaking, nodding, waving, etc.), throwing head, backward",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions",
+        "Head, fullness",
+        "Head, pain, pressing",
+        "Head, pain, temples"
+      ],
+      "generalizations": [
+        "head",
+        "motions",
+        "shaking",
+        "nodding",
+        "waving"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, tingling",
+        "Extremities, pain, sore, bruised",
+        "Extremities, tingling, prickling, asleep",
+        "Extremities, chorea",
+        "Extremities, pain, sore, bruised, wrist",
+        "Extremities, wrist",
+        "Extremities, pain, sore"
+      ],
+      "generalizations": [
+        "extremities",
+        "sore",
+        "tingling",
+        "bruised",
+        "wrist"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, eructations, sour",
+        "Stomach, eructations, night",
+        "Stomach, eructations, sour, night",
+        "Stomach, eructations, empty, night",
+        "Stomach, night"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "empty",
+        "sour"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, arrested",
+        "Respiration, difficult, convulsions, during",
+        "Respiration, difficult, convulsions"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "convulsions",
+        "arrested",
+        "during"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

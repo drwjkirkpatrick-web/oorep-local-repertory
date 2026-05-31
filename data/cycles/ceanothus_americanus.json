@@ -1,0 +1,85 @@
+{
+  "remedy_name": "Ceanothus Americanus",
+  "remedy_abbrev": "Cean.",
+  "sentence": "Driven by abdomen, Ceanothus Americanus manifests a dynamic cycle through clinical and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, spleen",
+        "Abdomen, pain, spleen",
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, spleen",
+        "Abdomen, inflammation"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "stitching",
+        "enlarged",
+        "inflammation"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation",
+        "Clinical, hypertension"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation",
+        "hypertension"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae"
+      ],
+      "generalizations": [
+        "mouth",
+        "aphthae"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

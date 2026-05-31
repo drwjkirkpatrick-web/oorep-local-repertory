@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Caulophyllum Thalictroides",
+  "remedy_abbrev": "Caul.",
+  "sentence": "Driven by limb expression, Caulophyllum Thalictroides manifests a dynamic cycle through genitalia female and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, fingers",
+        "Extremities, pain, hand",
+        "Extremities, pain, fingers, joints",
+        "Extremities, pain, fingers, joints, rheumatic",
+        "Extremities, pain, hand, rheumatic",
+        "Extremities, fingers",
+        "Extremities, coldness"
+      ],
+      "generalizations": [
+        "extremities",
+        "fingers",
+        "hand",
+        "joints",
+        "rheumatic"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, contractions",
+        "Genitalia female, contractions, os, spasmodic, during labor",
+        "Genitalia female, pain, cramping",
+        "Genitalia female, pain, cramping, uterus",
+        "Genitalia female, pain, labor pains",
+        "Genitalia female, pain, uterus, menses"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "uterus",
+        "contractions",
+        "labor"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, menses, during",
+        "Abdomen, pain, cramping, griping, menses",
+        "Abdomen, pain, cramping",
+        "Abdomen, rumbling",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, drawing"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "menses",
+        "during"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, vomiting",
+        "Stomach, pain, cramping, griping, constricting",
+        "Stomach, vomiting, bitter",
+        "Stomach, pain, cramping",
+        "Stomach, vomiting, bitter, menses, before",
+        "Stomach, vomiting, bitter, menses",
+        "Stomach, eructations"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "bitter",
+        "cramping",
+        "menses"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, trembling",
+        "Generalities, heat",
+        "Generalities, pain, drawing",
+        "Generalities, pain, wandering",
+        "Generalities, heat, vital, lack of"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "heat",
+        "enervation",
+        "trembling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, noon",
+        "Head, pain, noon, until midnight",
+        "Head, noon",
+        "Head, midnight",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, gastric"
+      ],
+      "generalizations": [
+        "head",
+        "noon",
+        "midnight",
+        "until",
+        "headache"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

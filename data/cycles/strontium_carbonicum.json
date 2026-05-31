@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Strontium Carbonicum",
+  "remedy_abbrev": "Stront-c.",
+  "sentence": "Driven by limb expression, Strontium Carbonicum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, joints",
+        "Extremities, pain, tearing, wrist",
+        "Extremities, wrist",
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "wrist",
+        "coldness",
+        "joints"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, lying",
+        "Generalities, night",
+        "Generalities, uncovering, agg.",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg.",
+        "Generalities, evening, agg.",
+        "Generalities, lying, after, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "cold",
+        "uncovering",
+        "general"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, coldness, chilliness, etc.",
+        "Head, coldness",
+        "Head, heat",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, constriction, tension",
+        "Head, pain, afternoon, agg.",
+        "Head, pain, cold, becoming, from"
+      ],
+      "generalizations": [
+        "head",
+        "coldness",
+        "chilliness",
+        "heat",
+        "heaviness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, navicular region",
+        "Abdomen, inguinal region",
+        "Abdomen, inguinal rings, internal",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, evening"
+      ],
+      "generalizations": [
+        "abdomen",
+        "region",
+        "inguinal",
+        "navicular",
+        "rings"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, lumbar region",
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, drawing",
+        "Back, pain, drawing, dorsal region",
+        "Back, pain, drawing, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, pressing"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "drawing",
+        "coldness"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, starting, startled",
+        "Mind, starting",
+        "Mind, fear",
+        "Mind, anxiety",
+        "Mind, anger, irascibility",
+        "Mind, anxiety, fear, with",
+        "Mind, fear, dark",
+        "Mind, wearisome"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "starting",
+        "anxiety",
+        "startled"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

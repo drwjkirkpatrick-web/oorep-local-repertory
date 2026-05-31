@@ -1,0 +1,43 @@
+{
+  "remedy_name": "Triosteum Perfoliatum",
+  "remedy_abbrev": "Trio.",
+  "sentence": "Driven by limb expression, Triosteum Perfoliatum manifests a dynamic cycle through perspiration and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, numbness, lower limbs",
+        "Extremities, numbness, lower limbs, stool, after",
+        "Extremities, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "lower",
+        "limbs",
+        "stool"
+      ],
+      "next_segment": "Perspiration state"
+    },
+    {
+      "name": "Perspiration state",
+      "description": "Sweat character, time, odor, staining.",
+      "symptoms": [
+        "Perspiration, in general"
+      ],
+      "generalizations": [
+        "perspiration",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

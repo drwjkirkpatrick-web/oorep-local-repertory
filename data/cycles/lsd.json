@@ -1,0 +1,145 @@
+{
+  "remedy_name": "LSD",
+  "remedy_abbrev": "LSD.",
+  "sentence": "Driven by mind, LSD manifests a dynamic cycle through sleep and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, clairvoyance",
+        "Mind, delusions, journey, that he is on a",
+        "Mind, heedless",
+        "Mind, irritability",
+        "Mind, quiet, quiet disposition",
+        "Mind, quiet",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "quiet",
+        "delusions",
+        "clairvoyance",
+        "journey"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams",
+        "Sleep, dreams, animals",
+        "Sleep, dreams, animals, miniature",
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, disturbed",
+        "Sleep, sleeplessness",
+        "Sleep, position, back, on"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "animals",
+        "miniature",
+        "sleepiness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, dryness, hands",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, tingling, hand",
+        "Extremities, weakness",
+        "Extremities, dryness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "dryness",
+        "foot",
+        "hands"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, numbness, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "eating",
+        "right",
+        "faintness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, eruption",
+        "Head, heaviness",
+        "Head, pain, coffee, from agg.",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting",
+        "Head, tingling"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "eruption",
+        "heaviness",
+        "coffee"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, pain",
+        "Chest, anxiety, in",
+        "Chest, anxiety",
+        "Chest, congestion (hyperemia of chest)",
+        "Chest, fluttering",
+        "Chest, heat",
+        "Chest, pain, clavicle"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety",
+        "oppression",
+        "congestion",
+        "hyperemia"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

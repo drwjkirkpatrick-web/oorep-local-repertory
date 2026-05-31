@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hydrocyanicum Acidum",
+  "remedy_abbrev": "Hydr-ac.",
+  "sentence": "Driven by head, Hydrocyanicum Acidum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, occiput, extending",
+        "Head, pain, occiput, extending, neck, down back of neck",
+        "Head, occiput",
+        "Head, pain, occiput, extending, neck",
+        "Head, heat",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "extending",
+        "neck",
+        "down"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, stiffness",
+        "Extremities, contraction",
+        "Extremities, stiffness, lower limbs",
+        "Extremities, ulcers",
+        "Extremities, ulcers, lower limbs",
+        "Extremities, contraction, fingers",
+        "Extremities, clenching"
+      ],
+      "generalizations": [
+        "extremities",
+        "stiffness",
+        "contraction",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, unconsciousness",
+        "Mind, hydrophobia",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, concentration, difficult",
+        "Mind, concentration",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "concentration",
+        "unconsciousness",
+        "hydrophobia"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, lips",
+        "Face, discoloration, pale, lips",
+        "Face, lip",
+        "Face, distortion",
+        "Face, eruptions"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "pale",
+        "bluish",
+        "lips"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, reaction, lack of",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, pain, pressing",
+        "Generalities, air, open, amel.",
+        "Generalities, pain, pressing, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "pressing",
+        "reaction",
+        "lack"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, gurgling",
+        "Stomach, gurgling, drinking, when",
+        "Stomach, gurgling, drinking",
+        "Stomach, pain",
+        "Stomach, thirst",
+        "Stomach, thirstless",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, sinking"
+      ],
+      "generalizations": [
+        "stomach",
+        "gurgling",
+        "drinking",
+        "feeling",
+        "when"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lecithinum",
+  "remedy_abbrev": "Lec.",
+  "sentence": "Driven by mind, Lecithinum manifests a dynamic cycle through abdomen and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, work, aversion to mental",
+        "Mind, work",
+        "Mind, concentration, difficult",
+        "Mind, exertion, from mental, agg.",
+        "Mind, prostration of mind",
+        "Mind, thinking, aversion to",
+        "Mind, exertion",
+        "Mind, thinking"
+      ],
+      "generalizations": [
+        "mind",
+        "work",
+        "aversion",
+        "mental",
+        "exertion"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, liver",
+        "Abdomen, liver",
+        "Abdomen, pain, bruised, tenderness",
+        "Abdomen, pain, bruised",
+        "Abdomen, spleen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "bruised",
+        "tenderness",
+        "liver",
+        "sore"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, weakness, nervous",
+        "Generalities, weariness",
+        "Generalities, weakness, mental exertion",
+        "Generalities, weariness, mental exertion",
+        "Generalities, pain",
+        "Generalities, trembling, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "weariness",
+        "mental",
+        "exertion"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, heaviness, upper limbs",
+        "Extremities, pain, sore, bruised",
+        "Extremities, weakness, knee",
+        "Extremities, weakness, knee, walking, while agg."
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "weakness",
+        "limbs",
+        "knee"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, lump, sensation of",
+        "Stomach, thirst",
+        "Stomach, thirst, chill, during",
+        "Stomach, thirst, chill",
+        "Stomach, lump",
+        "Stomach, pain"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "eructations",
+        "lump",
+        "chill"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore",
+        "Back, weakness",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, weakness, lumbar region",
+        "Back, pain, sore, spine",
+        "Back, lumbar region",
+        "Back, spine"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "spine",
+        "weakness",
+        "lumbar"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

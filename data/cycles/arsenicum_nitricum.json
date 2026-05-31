@@ -1,0 +1,73 @@
+{
+  "remedy_name": "Arsenicum Nitricum",
+  "remedy_abbrev": "Ars-n.",
+  "sentence": "Driven by constitutional vulnerability, Arsenicum Nitricum manifests a dynamic cycle through face and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, side",
+        "Generalities, side, right, then left",
+        "Generalities, stiffness"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "right",
+        "then",
+        "left"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, stiffness, muscles",
+        "Face, stiffness, muscles, lower jaw",
+        "Face, jaw",
+        "Face, stiffness"
+      ],
+      "generalizations": [
+        "face",
+        "stiffness",
+        "muscles",
+        "lower"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, lameness",
+        "Extremities, lameness, hip",
+        "Extremities, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "lameness"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, heaviness"
+      ],
+      "generalizations": [
+        "heaviness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

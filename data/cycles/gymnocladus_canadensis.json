@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Gymnocladus Canadensis",
+  "remedy_abbrev": "Gymn.",
+  "sentence": "Driven by head, Gymnocladus Canadensis manifests a dynamic cycle through limb disturbance and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, fullness, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "fullness",
+        "heat",
+        "headache"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, fingers",
+        "Extremities, pain, fingers, third",
+        "Extremities, fingers",
+        "Extremities, pain, leg",
+        "Extremities, pain, knee",
+        "Extremities, pain, aching",
+        "Extremities, pain, burning"
+      ],
+      "generalizations": [
+        "extremities",
+        "fingers",
+        "third",
+        "knee",
+        "aching"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, eructations, fluid",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, eating",
+        "Stomach, pain, eating, after"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "eating",
+        "after",
+        "burning"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, heat",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, umbilicus",
+        "Abdomen, pain, umbilicus"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "umbilicus",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, discoloration",
+        "Throat, discoloration, redness, tonsils",
+        "Throat, mucus",
+        "Throat, pain, burning, esophagus",
+        "Throat, pain, stitching"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "redness",
+        "burning",
+        "tonsils"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, protrusion",
+        "Eye, pain, burning, smarting, biting",
+        "Eye, pain, pressing, pressure, etc.",
+        "Eye, pain, sore, bruised, tender",
+        "Eye, pain, burning",
+        "Eye, pain, pressing",
+        "Eye, pain, sore"
+      ],
+      "generalizations": [
+        "burning",
+        "pressing",
+        "sore",
+        "protrusion",
+        "smarting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

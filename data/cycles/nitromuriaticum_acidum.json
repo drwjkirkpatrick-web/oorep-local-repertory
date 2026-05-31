@@ -1,0 +1,67 @@
+{
+  "remedy_name": "Nitromuriaticum Acidum",
+  "remedy_abbrev": "Nit-m-ac.",
+  "sentence": "Driven by head, Nitromuriaticum Acidum manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, cold, from taking",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, left",
+        "Head, pain, cold",
+        "Head, pain, forehead, eyes",
+        "Head, pain, forehead, eyes, above, left, then right"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "above",
+        "cold"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side",
+        "Generalities, side, left",
+        "Generalities, side, left, then right"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "left",
+        "then",
+        "right"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, left then right"
+      ],
+      "generalizations": [
+        "extremities",
+        "left",
+        "then",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

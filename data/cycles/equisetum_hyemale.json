@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Equisetum Hyemale",
+  "remedy_abbrev": "Equis.",
+  "sentence": "Driven by bladder, Equisetum Hyemale manifests a dynamic cycle through back and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, inflammation",
+        "Bladder, pain",
+        "Bladder, pain, sore, tender",
+        "Bladder, urging to urinate (morbid desire), constant",
+        "Bladder, urination, dysuria",
+        "Bladder, urination, involuntary, night (incontinence in bed)"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "involuntary",
+        "inflammation",
+        "sore"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, lying",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, cervical region",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, color",
+        "Urine, color, dark",
+        "Urine, scanty",
+        "Urine, sediment",
+        "Urine, sediment, mucous",
+        "Urine, copious (increased)",
+        "Urine, odor",
+        "Urine, cloudy"
+      ],
+      "generalizations": [
+        "urine",
+        "color",
+        "sediment",
+        "dark",
+        "scanty"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, biting",
+        "Urethra, pain, biting, urination, during",
+        "Urethra, pain, biting, urination",
+        "Urethra, pain, cutting",
+        "Urethra, pain, biting, urination, after",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during"
+      ],
+      "generalizations": [
+        "urethra",
+        "biting",
+        "urination",
+        "during",
+        "burning"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, cutting, internally",
+        "Generalities, pain, cutting",
+        "Generalities, night",
+        "Generalities, sensitiveness, internally",
+        "Generalities, sensitiveness",
+        "Generalities, pain, burning, internally",
+        "Generalities, pain, burning"
+      ],
+      "generalizations": [
+        "generalities",
+        "internally",
+        "cutting",
+        "sensitiveness",
+        "burning"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, sore, testes",
+        "Genitalia male, pain, sore",
+        "Genitalia male, pain, sore, testes, extending up, spermatic cord",
+        "Genitalia male, testes",
+        "Genitalia male, spermatic cord",
+        "Genitalia male, pain, penis",
+        "Genitalia male, pain, testes"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "testes",
+        "sore",
+        "spermatic"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "remedy_name": "Linum Catharticum",
+  "remedy_abbrev": "Linu-c.",
+  "sentence": "Driven by sleep, Linum Catharticum manifests a dynamic cycle through expectoration and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams",
+        "Sleep, dreams, body",
+        "Sleep, dreams, body, prepuce sloughed off"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "body",
+        "prepuce",
+        "sloughed"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, yellow"
+      ],
+      "generalizations": [
+        "expectoration",
+        "yellow"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    }
+  ]
+}

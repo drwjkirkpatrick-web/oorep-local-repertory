@@ -1,0 +1,107 @@
+{
+  "remedy_name": "Serpentaria Aristolochia",
+  "remedy_abbrev": "Serp.",
+  "sentence": "Driven by head, Serpentaria Aristolochia manifests a dynamic cycle through rectum and cough, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, evening agg.",
+        "Head, pain, occiput",
+        "Head, pain, pain in neck, with",
+        "Head, pain, pressing",
+        "Head, pain, stitching",
+        "Head, pain, forehead, evening"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "occiput",
+        "neck",
+        "pressing"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, itching",
+        "Rectum, urging, desire",
+        "Rectum, urging",
+        "Rectum, itching, around anus"
+      ],
+      "generalizations": [
+        "rectum",
+        "itching",
+        "urging",
+        "desire",
+        "around"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, breathing",
+        "Cough, breathing, deep agg.",
+        "Cough, breathing, deep"
+      ],
+      "generalizations": [
+        "cough",
+        "breathing",
+        "deep"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, odor, offensive",
+        "Stool, odor"
+      ],
+      "generalizations": [
+        "stool",
+        "odor",
+        "offensive"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, afternoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "afternoon"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, easy satiety"
+      ],
+      "generalizations": [
+        "appetite",
+        "easy",
+        "satiety"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Fagopyrum Esculentum",
+  "remedy_abbrev": "Fago.",
+  "sentence": "Driven by limb expression, Fagopyrum Esculentum manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, perspiration",
+        "Extremities, perspiration, hand",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, dryness, hands",
+        "Extremities, heaviness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "perspiration",
+        "hands",
+        "hand"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, pain, stooping",
+        "Head, formication",
+        "Head, fullness",
+        "Head, fullness, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "fullness",
+        "heat",
+        "vertex"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "distension",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, eructations, fluid",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, heaviness"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "heaviness",
+        "burning",
+        "empty"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion",
+        "Mind, irritability",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, work, aversion to mental",
+        "Mind, work",
+        "Mind, cheerful, happy",
+        "Mind, concentration, difficult"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "work",
+        "confusion",
+        "irritability"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, itching",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, swollen",
+        "Eye, dryness",
+        "Eye, glassy appearance",
+        "Eye, pain, burning, evening",
+        "Eye, pain, burning, smarting, biting"
+      ],
+      "generalizations": [
+        "burning",
+        "itching",
+        "redness",
+        "swollen",
+        "dryness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Uranium Nitricum",
+  "remedy_abbrev": "Uran-n.",
+  "sentence": "Driven by urine, Uranium Nitricum manifests a dynamic cycle through head and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, copious (increased)",
+        "Urine, sugar",
+        "Urine, copious (increased), night",
+        "Urine, night",
+        "Urine, albuminous",
+        "Urine, milky",
+        "Urine, acrid",
+        "Urine, odor"
+      ],
+      "generalizations": [
+        "urine",
+        "copious",
+        "increased",
+        "sugar",
+        "albuminous"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, heaviness, morning",
+        "Head, pain, forehead, evening agg."
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heaviness",
+        "congestion",
+        "fullness"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, discharge",
+        "Nose, discharge, purulent",
+        "Nose, catarrh",
+        "Nose, coryza",
+        "Nose, coryza, discharge, without (dry)",
+        "Nose, obstruction",
+        "Nose, coryza, discharge",
+        "Nose, pain"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "coryza",
+        "purulent",
+        "catarrh"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urination, involuntary, night (incontinence in bed)",
+        "Bladder, urination, frequent, night",
+        "Bladder, night",
+        "Bladder, pain",
+        "Bladder, pain, sore, tender"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "frequent",
+        "involuntary",
+        "incontinence"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, lids",
+        "Eye, lid",
+        "Eye, lachrymation",
+        "Eye, pain",
+        "Eye, swollen",
+        "Eye, pain, stitching",
+        "Eye, agglutinated"
+      ],
+      "generalizations": [
+        "inflammation",
+        "lids",
+        "lachrymation",
+        "swollen",
+        "stitching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, menses, during agg.",
+        "Generalities, weakness, menses",
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, weakness, rising, on",
+        "Generalities, weakness, rising"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "menses",
+        "burning",
+        "rising"
+      ],
+      "next_segment": "Urine character"
+    }
+  ]
+}

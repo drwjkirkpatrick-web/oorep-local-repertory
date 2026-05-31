@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Eupatorium Purpureum",
+  "remedy_abbrev": "Eup-pur.",
+  "sentence": "Driven by limb expression, Eupatorium Purpureum manifests a dynamic cycle through back and bladder, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, gnawing",
+        "Extremities, pain, gnawing, hip",
+        "Extremities, pain, chill",
+        "Extremities, pain, chill, before",
+        "Extremities, hip",
+        "Extremities, coldness",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "gnawing",
+        "chill",
+        "before",
+        "coldness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, coldness, extending",
+        "Back, pain, aching, dull pain",
+        "Back, coldness, extending, up and down the back",
+        "Back, coldness, lumbar region",
+        "Back, cold",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "extending",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urging to urinate (morbid desire), ineffectual",
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, pain",
+        "Bladder, pain, aching",
+        "Bladder, pain, burning",
+        "Bladder, pain, pressing, pressure in"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "urging",
+        "urinate",
+        "morbid"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, chill, during",
+        "Head, pain, chill",
+        "Head, pulsating",
+        "Head, pain, chill, before the",
+        "Head, pulsating, occiput",
+        "Head, pulsating, occiput, sides of",
+        "Head, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "chill",
+        "pulsating",
+        "occiput",
+        "during"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, tertian",
+        "Chill, coldness in general",
+        "Chill, quartan",
+        "Chill, shaking, shivering, rigors",
+        "Chill, beginning in and extending from",
+        "Chill, shaking",
+        "Chill, beginning in and extending from, back",
+        "Chill, quartan, double"
+      ],
+      "generalizations": [
+        "chill",
+        "quartan",
+        "shaking",
+        "beginning",
+        "extending"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, brown",
+        "Mouth, discoloration, tongue, brown, center",
+        "Mouth, tongue",
+        "Mouth, pain",
+        "Mouth, salivation",
+        "Mouth, saliva"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "brown",
+        "center"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

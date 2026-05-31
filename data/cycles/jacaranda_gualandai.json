@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Jacaranda Gualandai",
+  "remedy_abbrev": "Jac.",
+  "sentence": "Driven by head, Jacaranda Gualandai manifests a dynamic cycle through genitalia male and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, extending",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, heaviness, forehead",
+        "Head, pain, coryza, with",
+        "Head, pain, forehead, air, open, amel."
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heaviness",
+        "extending",
+        "fullness"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, penis",
+        "Genitalia male, swelling, penis, prepuce",
+        "Genitalia male, penis",
+        "Genitalia male, prepuce",
+        "Genitalia male, pain",
+        "Genitalia male, phimosis",
+        "Genitalia male, tingling"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "swelling",
+        "penis",
+        "prepuce"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, pain, knee, rheumatic",
+        "Extremities, pain, knee, motion, amel.",
+        "Extremities, pain, knee, motion",
+        "Extremities, pain, knee, motion, continued, amel.",
+        "Extremities, knee",
+        "Extremities, pain, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "knee",
+        "motion",
+        "amel",
+        "rheumatic"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, heat",
+        "Ear, noises",
+        "Ear, stopped sensation",
+        "Ear, stopped sensation, left",
+        "Ear, noises, fluttering",
+        "Ear, noises, fluttering, butterfly, as of a",
+        "Ear, stopped sensation, afternoon agg.",
+        "Ear, stopped sensation, afternoon, 3 p.m."
+      ],
+      "generalizations": [
+        "stopped",
+        "noises",
+        "fluttering",
+        "afternoon",
+        "heat"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, itching",
+        "Urethra, itching, meatus",
+        "Urethra, pain, tearing",
+        "Urethra, swelling",
+        "Urethra, swelling, orifice",
+        "Urethra, itching, meatus, touched, when",
+        "Urethra, pain, tearing, goes through the body, when urinating, that"
+      ],
+      "generalizations": [
+        "urethra",
+        "itching",
+        "meatus",
+        "tearing",
+        "swelling"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, motion, agg.",
+        "Generalities, weakness, evening agg.",
+        "Generalities, afternoon",
+        "Generalities, evening",
+        "Generalities, motion",
+        "Generalities, weakness, evening",
+        "Generalities, stiffness"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "motion",
+        "afternoon",
+        "stiffness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

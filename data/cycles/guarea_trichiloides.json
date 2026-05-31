@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Guarea Trichiloides",
+  "remedy_abbrev": "Guare.",
+  "sentence": "Driven by limb expression, Guarea Trichiloides manifests a dynamic cycle through mouth and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, numbness, lower limbs",
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, contraction"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "paralysis",
+        "swelling",
+        "cramps"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, heaviness, tongue",
+        "Mouth, tongue",
+        "Mouth, heaviness",
+        "Mouth, pain",
+        "Mouth, paralysis, tongue",
+        "Mouth, paralysis",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "heaviness",
+        "paralysis",
+        "dryness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, constriction",
+        "Stomach, pain",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, nausea",
+        "Stomach, nausea, fever, during",
+        "Stomach, nausea, fever",
+        "Stomach, eructations"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "sore",
+        "fever",
+        "constriction"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, anxiety, in",
+        "Chest, anxiety",
+        "Chest, pain, cutting (sudden sharp pain)",
+        "Chest, emptiness, sensation of",
+        "Chest, pain, heat, during",
+        "Chest, pain, cutting (sudden sharp pain), inhalation",
+        "Chest, emptiness"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety",
+        "cutting",
+        "sudden",
+        "sharp"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, bloated",
+        "Face, eruptions",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, swelling",
+        "Face, swelling, lips",
+        "Face, twitching",
+        "Face, chapped"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "swelling",
+        "bloated"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, constant",
+        "Cough, hacking",
+        "Cough, irritation in air passages, from",
+        "Cough, irritation in air passages, from, larynx in, from",
+        "Cough, suffocative",
+        "Cough, whooping",
+        "Cough, sleep"
+      ],
+      "generalizations": [
+        "cough",
+        "irritation",
+        "passages",
+        "constant",
+        "hacking"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

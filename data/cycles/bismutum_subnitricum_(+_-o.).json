@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Bismutum Subnitricum (+ -o.)",
+  "remedy_abbrev": "Bism.",
+  "sentence": "Driven by mind, Bismutum Subnitricum (+ -o.) manifests a dynamic cycle through back and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, fear",
+        "Mind, complaining",
+        "Mind, discontented, displeased, dissatisfied, etc.",
+        "Mind, discontented"
+      ],
+      "generalizations": [
+        "mind",
+        "discontented",
+        "irritability",
+        "restlessness",
+        "dullness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, left",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "left",
+        "right"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, sides",
+        "Abdomen, sides, right",
+        "Abdomen, lower abdomen",
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pinching",
+        "Abdomen, pain, pinching",
+        "Abdomen, pain, pinching, lower abdomen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pinching",
+        "sides",
+        "lower",
+        "right"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pulse, contracted",
+        "Heart & Circulation, pulse, intermittent",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pulse, spasmodic",
+        "Heart & Circulation, pulse, abnormal",
+        "Heart & Circulation, pulse, full",
+        "Heart & Circulation, pulse, soft",
+        "Heart & Circulation, pulse, weak"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "contracted",
+        "intermittent"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, bones",
+        "Generalities, bones, pain",
+        "Generalities, bones, pain, stitching",
+        "Generalities, bones, pain, tearing",
+        "Generalities, bones, pain, pressing",
+        "Generalities, bones, pain, drawing",
+        "Generalities, bones, pain, tearing, pressive",
+        "Generalities, restlessness"
+      ],
+      "generalizations": [
+        "generalities",
+        "bones",
+        "tearing",
+        "stitching",
+        "pressing"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, desires",
+        "Appetite, desires, cold, drinks",
+        "Appetite, desires, sour, acids, etc.",
+        "Appetite, desires, cold, food",
+        "Appetite, disgust",
+        "Appetite, desires, cold",
+        "Appetite, disgust, eating"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "cold",
+        "disgust",
+        "increased"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

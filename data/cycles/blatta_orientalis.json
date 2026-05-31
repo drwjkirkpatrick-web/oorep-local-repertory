@@ -1,0 +1,111 @@
+{
+  "remedy_name": "Blatta Orientalis",
+  "remedy_abbrev": "Blatta",
+  "sentence": "Driven by limb expression, Blatta Orientalis manifests a dynamic cycle through respiration and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, foot",
+        "Extremities, pain, toes",
+        "Extremities, pain, toes, fifth",
+        "Extremities, toes"
+      ],
+      "generalizations": [
+        "extremities",
+        "toes",
+        "cramps",
+        "foot",
+        "fifth"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, asthmatic"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "asthmatic"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, right",
+        "Back, pain, aching"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, lancinating",
+        "Head, pain, lancinating, temples",
+        "Head, temples"
+      ],
+      "generalizations": [
+        "head",
+        "lancinating",
+        "temples"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, sides",
+        "Chest, pain, sides, right"
+      ],
+      "generalizations": [
+        "chest",
+        "sides",
+        "right"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, yellow"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "yellow"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

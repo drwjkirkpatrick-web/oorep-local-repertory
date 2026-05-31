@@ -1,0 +1,55 @@
+{
+  "remedy_name": "Nitrogenium Oxygenatum",
+  "remedy_abbrev": "Nitro-o.",
+  "sentence": "Driven by mind, Nitrogenium Oxygenatum manifests a dynamic cycle through hearing and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, delusions, elevated",
+        "Mind, delusions, elevated in air"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "elevated"
+      ],
+      "next_segment": "Auditory function"
+    },
+    {
+      "name": "Auditory function",
+      "description": "Hearing loss, noises, sensitivity, deafness.",
+      "symptoms": [
+        "Hearing, distant",
+        "Hearing, distant, voices seem"
+      ],
+      "generalizations": [
+        "hearing",
+        "distant",
+        "voices",
+        "seem"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, thrilling sensation"
+      ],
+      "generalizations": [
+        "extremities",
+        "thrilling"
+      ],
+      "next_segment": "Mental mental disturbance"
+    }
+  ]
+}

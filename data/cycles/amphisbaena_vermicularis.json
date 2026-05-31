@@ -1,0 +1,53 @@
+{
+  "remedy_name": "Amphisbaena Vermicularis",
+  "remedy_abbrev": "Amph.",
+  "sentence": "Driven by eye, Amphisbaena Vermicularis manifests a dynamic cycle through back and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, constricting",
+        "Eye, pain, stitching",
+        "Eye, pain, evening, agg.",
+        "Eye, pain, evening",
+        "Eye, pain, evening, looking at light",
+        "Eye, pain, stitching, light, bright, in",
+        "Eye, evening"
+      ],
+      "generalizations": [
+        "stitching",
+        "light",
+        "constricting",
+        "looking",
+        "bright"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, eruptions",
+        "Back, eruptions, acne",
+        "Back, eruptions, acne, cervical region",
+        "Back, cervix"
+      ],
+      "generalizations": [
+        "back",
+        "eruptions",
+        "acne",
+        "cervical",
+        "region"
+      ],
+      "next_segment": "Visual and ocular strain"
+    }
+  ]
+}

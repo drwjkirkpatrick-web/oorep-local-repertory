@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Bismuthum Oxydatum",
+  "remedy_abbrev": "Bism-ox.",
+  "sentence": "Driven by limb expression, Bismuthum Oxydatum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, itching",
+        "Extremities, pain, forearm",
+        "Extremities, pain, pressing",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, fingers",
+        "Extremities, pain, tearing, forearm"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "forearm",
+        "weakness",
+        "itching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, food",
+        "Generalities, food, cold drinks, amel.",
+        "Generalities, food, cold drinks",
+        "Generalities, heaviness, internally",
+        "Generalities, motion, agg.",
+        "Generalities, pain, boring",
+        "Generalities, heaviness"
+      ],
+      "generalizations": [
+        "generalities",
+        "food",
+        "cold",
+        "drinks",
+        "heaviness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, forehead",
+        "Head, heaviness",
+        "Head, pain, extending",
+        "Head, heaviness, forehead",
+        "Head, pain, forehead, nose, above root of"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heaviness",
+        "extending",
+        "nose"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, cancer",
+        "Stomach, irritation",
+        "Stomach, pain, cramping, griping, constricting"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "empty",
+        "nausea",
+        "vomiting"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness",
+        "Mind, anxiety",
+        "Mind, restlessness, bed",
+        "Mind, company, desire for",
+        "Mind, restlessness, bed, driving out of",
+        "Mind, company",
+        "Mind, irritability",
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "company",
+        "anxiety",
+        "desire"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, eyes, circles around",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), cheek",
+        "Face, pain (aching, prosopalgia, etc.), chewing, when agg.",
+        "Face, pain (aching, prosopalgia, etc.), pressing",
+        "Face, pain (aching, prosopalgia, etc.), chewing"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "discoloration",
+        "bluish"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

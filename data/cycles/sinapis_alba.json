@@ -1,0 +1,141 @@
+{
+  "remedy_name": "Sinapis Alba",
+  "remedy_abbrev": "Sin-a.",
+  "sentence": "Driven by stomach, Sinapis Alba manifests a dynamic cycle through rectum and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, hot",
+        "Stomach, retching",
+        "Stomach, thirst",
+        "Stomach, vomiting, yellow"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "vomiting",
+        "empty",
+        "nausea"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, itching",
+        "Rectum, pain, pressing",
+        "Rectum, pain, burning, stool, after agg.",
+        "Rectum, pain, cutting",
+        "Rectum, pain, cutting, stool, after",
+        "Rectum, pain, burning, stool"
+      ],
+      "generalizations": [
+        "rectum",
+        "burning",
+        "stool",
+        "after",
+        "cutting"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, itching",
+        "Extremities, itching, upper limbs",
+        "Extremities, itching, upper limbs, evening",
+        "Extremities, coldness, foot, vomiting, after"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "limbs",
+        "itching",
+        "foot"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, lumbar region",
+        "Back, pain, sprained, as if",
+        "Back, pain, sprained, as if, lumbar region",
+        "Back, pain, lumbar region, stool",
+        "Back, pain, lumbar region, stool, urging at, when",
+        "Back, pain, sprained, as if, lumbar region, stool, when urging"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "sprained",
+        "stool"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eminence, frontal",
+        "Head, pain, forehead, eminence, frontal, right",
+        "Head, pain, forehead, eminence, frontal, evening",
+        "Head, forehead",
+        "Head, evening",
+        "Head, pain, forehead, eminence"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eminence",
+        "frontal",
+        "right"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, pain, burning, esophagus",
+        "Throat, pain, burning, esophagus, evening",
+        "Throat, esophagus",
+        "Throat, evening"
+      ],
+      "generalizations": [
+        "throat",
+        "burning",
+        "esophagus"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

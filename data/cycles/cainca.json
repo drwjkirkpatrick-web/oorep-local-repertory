@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cainca",
+  "remedy_abbrev": "Cahin.",
+  "sentence": "Driven by abdomen, Cainca manifests a dynamic cycle through limb disturbance and rectum, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, weakness, sensation of",
+        "Abdomen, weakness",
+        "Abdomen, weakness, sensation of, lower abdomen",
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "weakness",
+        "lower",
+        "rumbling",
+        "spleen"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, swelling, lower limbs",
+        "Extremities, swelling, lower limbs, dropsical"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "lower",
+        "limbs",
+        "foot"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, constipation",
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, morning",
+        "Rectum, constipation, ineffectual urging and straining",
+        "Rectum, flatus",
+        "Rectum, fullness"
+      ],
+      "generalizations": [
+        "rectum",
+        "constipation",
+        "diarrhea",
+        "burning",
+        "ineffectual"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, evening",
+        "Cough, evening, 7 p.m.",
+        "Cough, evening, 7 p.m. to 1 a.m.",
+        "Cough, tickling",
+        "Cough, irritation in air passages, from",
+        "Cough, night",
+        "Cough, tickling, larynx, in, from",
+        "Cough, morning"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "irritation",
+        "passages",
+        "larynx"
+      ],
+      "next_segment": "Mental anger"
+    },
+    {
+      "name": "Mental anger",
+      "description": "The remedy's dominant mental pattern: anger. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, weeping",
+        "Mind, anger",
+        "Mind, anger, evening",
+        "Mind, weeping, coughing, during",
+        "Mind, weeping, coughing",
+        "Mind, evening",
+        "Mind, irritability",
+        "Mind, restlessness, night"
+      ],
+      "generalizations": [
+        "mind",
+        "weeping",
+        "anger",
+        "coughing",
+        "during"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, pain",
+        "Eye, swollen",
+        "Eye, swollen, lids",
+        "Eye, pupils, dilated",
+        "Eye, pupils",
+        "Eye, pain, burning, smarting, biting",
+        "Eye, pain, pressing, pressure, etc."
+      ],
+      "generalizations": [
+        "swollen",
+        "pupils",
+        "inflammation",
+        "lids",
+        "dilated"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

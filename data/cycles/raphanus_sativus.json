@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Raphanus Sativus",
+  "remedy_abbrev": "Raph.",
+  "sentence": "Driven by abdomen, Raphanus Sativus manifests a dynamic cycle through limb disturbance and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, flatulence",
+        "Abdomen, flatulence, obstructed",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore"
+      ],
+      "generalizations": [
+        "abdomen",
+        "flatulence",
+        "distension",
+        "obstructed",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, numbness, foot",
+        "Extremities, pain",
+        "Extremities, pain, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "numbness",
+        "hands"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, eating",
+        "Stomach, pain, eating, after",
+        "Stomach, pain, sore",
+        "Stomach, nausea"
+      ],
+      "generalizations": [
+        "stomach",
+        "sore",
+        "eating",
+        "eructations",
+        "pressing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pulsating",
+        "Head, pulsating, mental exertion, from",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, coldness, chilliness, etc."
+      ],
+      "generalizations": [
+        "head",
+        "pulsating",
+        "forehead",
+        "mental",
+        "exertion"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, hysteria",
+        "Mind, nymphomania",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, insanity, madness"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "hysteria",
+        "nymphomania",
+        "mental"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, cold",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, heat",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

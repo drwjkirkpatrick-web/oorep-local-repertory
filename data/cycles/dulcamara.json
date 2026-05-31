@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Dulcamara",
+  "remedy_abbrev": "Dulc.",
+  "sentence": "Driven by limb expression, Dulcamara manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, pain, joints",
+        "Extremities, pain, shoulder",
+        "Extremities, perspiration",
+        "Extremities, perspiration, hand",
+        "Extremities, perspiration, hand, palm"
+      ],
+      "generalizations": [
+        "extremities",
+        "hand",
+        "perspiration",
+        "eruption",
+        "joints"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, lying",
+        "Generalities, food, cold food agg.",
+        "Generalities, mucous secretions increased",
+        "Generalities, night",
+        "Generalities, food",
+        "Generalities, heat",
+        "Generalities, cold, in general agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "food",
+        "cold",
+        "lying",
+        "mucous"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, catarrhal",
+        "Head, pain, cold, becoming, from",
+        "Head, pain, occiput",
+        "Head, pain, rheumatic",
+        "Head, pain, weather, cold"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "cold",
+        "crusts",
+        "scabs"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, pressing, lumbar region",
+        "Back, pain, sore, lumbar region",
+        "Back, pain, motion",
+        "Back, pain, sore"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, warts",
+        "Skin, warts, flat",
+        "Skin, dry",
+        "Skin, eruptions, suppressed",
+        "Skin, eruptions, urticaria",
+        "Skin, eruptions, vesicular"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "warts",
+        "herpetic",
+        "flat"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cutting, stool, before",
+        "Abdomen, pain, cutting, stool",
+        "Abdomen, swelling",
+        "Abdomen, diarrhea, sensation as if"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "stool",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

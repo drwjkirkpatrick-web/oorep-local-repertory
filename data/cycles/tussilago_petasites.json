@@ -1,0 +1,89 @@
+{
+  "remedy_name": "Tussilago Petasites",
+  "remedy_abbrev": "Tus-p.",
+  "sentence": "Driven by back, Tussilago Petasites manifests a dynamic cycle through genitalia male and urethra, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, aching, dull pain, lumbar region, rising up, on agg.",
+        "Back, pain, aching, dull pain, lumbar region, walking agg.",
+        "Back, pain, lumbar region, rising from a seat agg.",
+        "Back, pain, lumbar region, stooping agg."
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, drawing, testes",
+        "Genitalia male, pain, drawing",
+        "Genitalia male, erections, wanting (impotency)",
+        "Genitalia male, erections",
+        "Genitalia male, testes"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "drawing",
+        "testes",
+        "erections"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, crawling",
+        "Urethra, discharge, yellow",
+        "Urethra, discharge",
+        "Urethra, discharge, purulent",
+        "Urethra, discharge, purulent, drop of pus before urinating"
+      ],
+      "generalizations": [
+        "urethra",
+        "discharge",
+        "purulent",
+        "crawling",
+        "yellow"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Tussilago Petasites"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "tussilago",
+        "petasites"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

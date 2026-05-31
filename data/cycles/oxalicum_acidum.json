@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Oxalicum Acidum",
+  "remedy_abbrev": "Ox-ac.",
+  "sentence": "Driven by limb expression, Oxalicum Acidum manifests a dynamic cycle through back and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, numbness, upper limbs",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, numbness, leg",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "coldness",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, weakness",
+        "Back, pain, aching, dull pain, lumbar region, motion, on agg.",
+        "Back, pain, lameness"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "dorsal"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, liver",
+        "Abdomen, pain, umbilicus"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "inflammation",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, weakness",
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, lying"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "weakness",
+        "eating",
+        "internally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, heaviness, forehead",
+        "Head, pain, occiput",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heaviness",
+        "vertex",
+        "occiput"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, vomiting, pregnancy, during",
+        "Stomach, eructations, eating, after"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "vomiting",
+        "burning",
+        "empty"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

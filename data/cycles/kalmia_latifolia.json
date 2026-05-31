@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalmia Latifolia",
+  "remedy_abbrev": "Kalm.",
+  "sentence": "Driven by limb expression, Kalmia Latifolia manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, pain, hip",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, pressing",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "tearing",
+        "stiffness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting",
+        "Head, pain, dull",
+        "Head, pain, forehead",
+        "Head, pain, forehead, evening agg."
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, burning",
+        "Back, pain, burning, lumbar region",
+        "Back, pain, burning, spine"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "burning",
+        "dorsal",
+        "aching"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, inflammation, heart",
+        "Heart & Circulation, inflammation, heart, endocardium",
+        "Heart & Circulation, pulse, slow",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, anxiety, heart, region of",
+        "Heart & Circulation, hypertrophy of heart",
+        "Heart & Circulation, pain, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "inflammation",
+        "pulse",
+        "palpitation"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, drawing",
+        "Eye, stiffness of eyeballs",
+        "Eye, stiffness, muscles about the eyes",
+        "Eye, stiffness",
+        "Eye, pain, morning",
+        "Eye, pain, daytime only",
+        "Eye, stiffness, lids"
+      ],
+      "generalizations": [
+        "stiffness",
+        "drawing",
+        "eyeballs",
+        "muscles",
+        "about"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, stiffness",
+        "Generalities, pain",
+        "Generalities, morning",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, trembling, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "stiffness",
+        "lying"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

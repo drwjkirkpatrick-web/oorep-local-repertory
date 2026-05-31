@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cadmium Sulphuratum",
+  "remedy_abbrev": "Cadm-s.",
+  "sentence": "Driven by stomach, Cadmium Sulphuratum manifests a dynamic cycle through limb disturbance and eye, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, black",
+        "Stomach, vomiting, drinking",
+        "Stomach, vomiting, motion, on",
+        "Stomach, vomiting, drinking, immediately after",
+        "Stomach, vomiting, coffee grounds, like",
+        "Stomach, vomiting, drinking, smallest quantity",
+        "Stomach, eructations"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "drinking",
+        "black",
+        "motion"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, paralysis, hemiplegia",
+        "Extremities, paralysis, painless",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, heaviness"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "hemiplegia",
+        "painless",
+        "swelling"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, opacity of cornea",
+        "Eye, cornea",
+        "Eye, inflammation",
+        "Eye, discharges, mucus or pus",
+        "Eye, spots specks, etc., on the cornea",
+        "Eye, discharges",
+        "Eye, inflammation, scrofulous",
+        "Eye, paralysis of lids"
+      ],
+      "generalizations": [
+        "cornea",
+        "inflammation",
+        "discharges",
+        "opacity",
+        "mucus"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, lies, with head low",
+        "Head, pain, lies",
+        "Head, eruption",
+        "Head, pain, vertex",
+        "Head, tingling",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "lies",
+        "heat",
+        "eruption",
+        "vertex"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, eruptions",
+        "Face, eruptions, mouth, around",
+        "Face, paralysis",
+        "Face, eruptions, mouth",
+        "Face, discoloration, grayish",
+        "Face, paralysis, cold, from"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "discoloration",
+        "mouth",
+        "paralysis"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, inflammation",
+        "Chest, constriction, tension, tightness",
+        "Chest, inflammation, mammae",
+        "Chest, pain, drawing",
+        "Chest, constriction",
+        "Chest, inflammation, mammae, nipples",
+        "Chest, mammae"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "mammae",
+        "constriction",
+        "tension"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

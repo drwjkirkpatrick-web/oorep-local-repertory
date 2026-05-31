@@ -1,0 +1,47 @@
+{
+  "remedy_name": "Solanum Mammosum",
+  "remedy_abbrev": "Sol-m.",
+  "sentence": "Driven by limb expression, Solanum Mammosum manifests a dynamic cycle through expectoration and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, hip",
+        "Extremities, pain, stitching, hip, walking, while agg.",
+        "Extremities, pain, stitching, hip, walking",
+        "Extremities, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "stitching",
+        "walking",
+        "while"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, bloody, spitting of blood",
+        "Expectoration, bloody"
+      ],
+      "generalizations": [
+        "expectoration",
+        "bloody",
+        "spitting",
+        "blood"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aesculus Hippocastanum",
+  "remedy_abbrev": "Aesc.",
+  "sentence": "Driven by back, Aesculus Hippocastanum manifests a dynamic cycle through limb disturbance and rectum, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, aching, dull pain, sacrum",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, motion, during agg.",
+        "Back, pain, motion, on agg."
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "lumbar"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, paralysis, leg, sensation of",
+        "Extremities, paralysis, lower limbs",
+        "Extremities, paralysis, lower limbs, sensation of",
+        "Extremities, paralysis, upper limbs",
+        "Extremities, paralysis, upper limbs, sensation of"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "limbs",
+        "lower",
+        "weakness"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, constipation",
+        "Rectum, hemorrhoids",
+        "Rectum, dragging, bearing down",
+        "Rectum, fullness",
+        "Rectum, itching",
+        "Rectum, pain, pressing"
+      ],
+      "generalizations": [
+        "rectum",
+        "burning",
+        "constipation",
+        "hemorrhoids",
+        "dragging"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, dull, forehead",
+        "Head, pain, forehead, in",
+        "Head, pain, dull",
+        "Head, pain, forehead",
+        "Head, constriction, forehead",
+        "Head, fullness"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "dull",
+        "heaviness",
+        "constriction"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, liver",
+        "Abdomen, liver",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, extending",
+        "Abdomen, pain, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "aching",
+        "dull",
+        "bruised"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, full feeling, internally",
+        "Generalities, heaviness, externally",
+        "Generalities, motion, of affected part agg.",
+        "Generalities, walking, agg.",
+        "Generalities, heaviness",
+        "Generalities, motion",
+        "Generalities, walking",
+        "Generalities, full feeling"
+      ],
+      "generalizations": [
+        "generalities",
+        "full",
+        "feeling",
+        "heaviness",
+        "motion"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

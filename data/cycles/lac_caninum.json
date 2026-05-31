@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lac Caninum",
+  "remedy_abbrev": "Lac-c.",
+  "sentence": "Driven by limb expression, Lac Caninum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, coldness, leg",
+        "Extremities, pain, hip",
+        "Extremities, pain, joints",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "lower",
+        "limbs",
+        "knee"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, night agg.",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, brain, as if bound up"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "eyes",
+        "above"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, death, desires",
+        "Mind, fear",
+        "Mind, death",
+        "Mind, delusions",
+        "Mind, speech",
+        "Mind, weeping"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "death",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, menses, membranous",
+        "Genitalia female, menses",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, uterus",
+        "Genitalia female, pain, ovaries",
+        "Genitalia female, pain, stitching, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "stitching",
+        "menses",
+        "inflammation"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, choking, constricting",
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, choking",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, swallowing, impossible",
+        "Throat, membrane",
+        "Throat, swallowing"
+      ],
+      "generalizations": [
+        "throat",
+        "choking",
+        "membrane",
+        "swallowing",
+        "constricting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, stitching, dorsal region, scapulae, between",
+        "Back, pain, stitching",
+        "Back, pain, stitching, dorsal region, scapulae, between, spine",
+        "Back, pulsating"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "stitching",
+        "dorsal",
+        "scapulae"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

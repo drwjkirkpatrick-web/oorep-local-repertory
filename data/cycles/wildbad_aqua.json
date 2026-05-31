@@ -1,0 +1,61 @@
+{
+  "remedy_name": "Wildbad Aqua",
+  "remedy_abbrev": "Wild.",
+  "sentence": "Driven by constitutional vulnerability, Wildbad Aqua manifests a dynamic cycle through eye and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, stretching",
+        "Generalities, weakness, sudden",
+        "Generalities, weakness, waking",
+        "Generalities, weakness, waking, after",
+        "Generalities, weakness, sudden, walking, from"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "sudden",
+        "waking",
+        "stretching"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, evening, agg.",
+        "Eye, pain, evening",
+        "Eye, pain, evening, writing, while",
+        "Eye, evening"
+      ],
+      "generalizations": [
+        "writing",
+        "while"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, mucus"
+      ],
+      "generalizations": [
+        "throat",
+        "mucus"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

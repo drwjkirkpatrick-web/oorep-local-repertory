@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cactus Grandiflorus",
+  "remedy_abbrev": "Cact.",
+  "sentence": "Driven by head, Cactus Grandiflorus manifests a dynamic cycle through limb disturbance and heart & circulation, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, vertex",
+        "Head, fullness",
+        "Head, pain, chill, during"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "hyperemia",
+        "heaviness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, numbness, upper limbs",
+        "Extremities, numbness, upper limbs, left",
+        "Extremities, numbness, upper limbs, left, in heart disease",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, upper limbs, left",
+        "Extremities, pain, upper limbs, left, heart symptoms, with"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "numbness",
+        "left"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, affections of, heart",
+        "Heart & Circulation, hypertrophy of heart",
+        "Heart & Circulation, oppression, heart",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, pressing, heart",
+        "Heart & Circulation, pulse, abnormal",
+        "Heart & Circulation, constriction, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "affections",
+        "hypertrophy"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety",
+        "Mind, speech, shrieking",
+        "Mind, speech, shrieking, pain, with the",
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "shrieking",
+        "sadness",
+        "anxiety"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, hemorrhage",
+        "Chest, angina pectoris",
+        "Chest, pain",
+        "Chest, catarrh",
+        "Chest, congestion (hyperemia of chest)",
+        "Chest, constriction, band, as from",
+        "Chest, constriction, sternum"
+      ],
+      "generalizations": [
+        "chest",
+        "constriction",
+        "oppression",
+        "hemorrhage",
+        "angina"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, menses",
+        "Genitalia female, contractions",
+        "Genitalia female, menses, painful, dysmenorrhea",
+        "Genitalia female, pain, cramping",
+        "Genitalia female, pain, cramping, uterus",
+        "Genitalia female, pain, cramping, uterus, menses, during"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "uterus",
+        "menses",
+        "cramping"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

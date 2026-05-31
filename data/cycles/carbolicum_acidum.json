@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Carbolicum Acidum",
+  "remedy_abbrev": "Carb-ac.",
+  "sentence": "Driven by limb expression, Carbolicum Acidum manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, hand, vesicles",
+        "Extremities, eruption, hand, vesicles, itching",
+        "Extremities, coldness",
+        "Extremities, coldness, hands"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "hand",
+        "weakness",
+        "vesicles"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, dull, forehead",
+        "Head, pain, dull",
+        "Head, pain, forehead",
+        "Head, constriction, band or hoop",
+        "Head, constriction, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "dull",
+        "constriction",
+        "eyes"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, constriction, band, sensation of a",
+        "Generalities, rubbing, amel.",
+        "Generalities, constriction",
+        "Generalities, rubbing",
+        "Generalities, pain",
+        "Generalities, eating"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "constriction",
+        "rubbing",
+        "enervation"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, vomiting",
+        "Stomach, cancer",
+        "Stomach, vomiting, riding in a carriage, while",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, pain, sore, bruised, beaten (tenderness)"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "vomiting",
+        "empty",
+        "cancer"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, odor (breath), offensive",
+        "Mouth, odor (breath)",
+        "Mouth, odor (breath), putrid",
+        "Mouth, froth, foam, from",
+        "Mouth, froth",
+        "Mouth, aphthae",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "odor",
+        "breath",
+        "froth",
+        "swelling"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, speech",
+        "Mind, work, aversion to mental",
+        "Mind, work",
+        "Mind, moaning, groaning",
+        "Mind, speech, shrieking",
+        "Mind, moaning",
+        "Mind, exertion, from mental, agg."
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "work",
+        "mental",
+        "moaning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

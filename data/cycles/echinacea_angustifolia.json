@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Echinacea Angustifolia",
+  "remedy_abbrev": "Echi.",
+  "sentence": "Driven by head, Echinacea Angustifolia manifests a dynamic cycle through abdomen and fever, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, dull",
+        "Head, fullness",
+        "Head, pain, occiput",
+        "Head, pain, temples",
+        "Head, pain, dull pain",
+        "Head, pain, dull, occiput",
+        "Head, enlarged sensation"
+      ],
+      "generalizations": [
+        "head",
+        "dull",
+        "occiput",
+        "fullness",
+        "temples"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, flatus, amel.",
+        "Abdomen, pain, cramping, griping, flatus",
+        "Abdomen, pain, ileo-cecal region",
+        "Abdomen, inflammation, appendicitis",
+        "Abdomen, pain, cramping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "inflammation",
+        "flatus"
+      ],
+      "next_segment": "Febrile dynamic"
+    },
+    {
+      "name": "Febrile dynamic",
+      "description": "Chill, heat, sweat, stages, periodicity.",
+      "symptoms": [
+        "Fever, septic fever",
+        "Fever, zymotic fevers",
+        "Fever, exanthematic fevers",
+        "Fever, continued fever, typhus, typhoid",
+        "Fever, continued fever",
+        "Fever, exanthematic fevers, scarlatina",
+        "Fever, puerperal fever"
+      ],
+      "generalizations": [
+        "fever",
+        "fevers",
+        "exanthematic",
+        "continued",
+        "septic"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, exertion, from mental, agg.",
+        "Mind, thinking, aversion to",
+        "Mind, exertion",
+        "Mind, thinking",
+        "Mind, exertion, from mental",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness"
+      ],
+      "generalizations": [
+        "mind",
+        "exertion",
+        "mental",
+        "thinking",
+        "dullness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, burning, tongue",
+        "Mouth, pain, burning",
+        "Mouth, tongue",
+        "Mouth, dryness",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "burning",
+        "discoloration",
+        "dryness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, stooping agg.",
+        "Back, pain, lumbar region, stooping",
+        "Back, lumbar region",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "stooping",
+        "dorsal"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "remedy_name": "Hydrangea Arborescens",
+  "remedy_abbrev": "Hydrang.",
+  "sentence": "Driven by urine, Hydrangea Arborescens manifests a dynamic cycle through bladder and larynx and trachea, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, sediment",
+        "Urine, sediment, amorphous",
+        "Urine, sediment, renal calculi"
+      ],
+      "generalizations": [
+        "urine",
+        "sediment",
+        "amorphous",
+        "renal",
+        "calculi"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, pain",
+        "Bladder, pain, burning",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "burning",
+        "general"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, pain, rawness, larynx",
+        "Larynx and trachea, pain",
+        "Larynx and trachea, pain, rawness",
+        "Larynx and trachea, larynx in general"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "rawness",
+        "general"
+      ],
+      "next_segment": "Larynx state"
+    },
+    {
+      "name": "Larynx state",
+      "description": "Characteristic larynx symptoms.",
+      "symptoms": [
+        "larynx symptoms characteristic of Hydrangea Arborescens"
+      ],
+      "generalizations": [
+        "larynx",
+        "symptoms",
+        "characteristic",
+        "hydrangea",
+        "arborescens"
+      ],
+      "next_segment": "Urine character"
+    }
+  ]
+}

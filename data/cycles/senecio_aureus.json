@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Senecio Aureus",
+  "remedy_abbrev": "Senec.",
+  "sentence": "Driven by genitalia female, Senecio Aureus manifests a dynamic cycle through back and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses",
+        "Genitalia female, menses, absent, amenorrhea",
+        "Genitalia female, menses, copious",
+        "Genitalia female, menses, delayed in girls, first menses",
+        "Genitalia female, menses, protracted",
+        "Genitalia female, menses, suppressed",
+        "Genitalia female, lochia",
+        "Genitalia female, lochia, protracted"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "protracted",
+        "lochia"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, dorsal region, scapulae, right, under",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "right"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cutting, inguinal region",
+        "Abdomen, pain, cutting, hypogastrium",
+        "Abdomen, pain, cutting, menses",
+        "Abdomen, pain, cutting, menses, during",
+        "Abdomen, pain, cutting, hypogastrium, menses, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "menses",
+        "hypogastrium",
+        "during"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness",
+        "Mind, unconsciousness",
+        "Mind, exhilaration",
+        "Mind, talking, indisposed to",
+        "Mind, talking",
+        "Mind, sadness, evening agg.",
+        "Mind, sadness, evening",
+        "Mind, men"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "talking",
+        "unconsciousness",
+        "exhilaration"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, morning",
+        "Generalities, heat",
+        "Generalities, cold, in general agg.",
+        "Generalities, heaviness, internally",
+        "Generalities, cold",
+        "Generalities, heaviness",
+        "Generalities, heat, vital, lack of"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "cold",
+        "heaviness",
+        "faintness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, chlorotic",
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, pale, lips",
+        "Face, discoloration, pale, lips, menses, suppressed",
+        "Face, discoloration, pale, lips, menses",
+        "Face, lip"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "pale",
+        "lips",
+        "menses"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

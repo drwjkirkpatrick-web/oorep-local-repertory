@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hamamelis Virginiana",
+  "remedy_abbrev": "Ham.",
+  "sentence": "Driven by limb expression, Hamamelis Virginiana manifests a dynamic cycle through head and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, varices, lower limbs",
+        "Extremities, varices",
+        "Extremities, varices, leg",
+        "Extremities, varices, thigh",
+        "Extremities, thigh",
+        "Extremities, coldness",
+        "Extremities, stiffness",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "varices",
+        "thigh",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, fullness, forehead",
+        "Head, pain, cutting, temples",
+        "Head, pain, lancinating",
+        "Head, pain, cutting"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "fullness",
+        "cutting",
+        "temples"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, metrorrhagia, labor, during and after",
+        "Genitalia female, menses, dark",
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, ovaries"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "metrorrhagia",
+        "menses",
+        "inflammation"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, spermatic cords",
+        "Genitalia male, pain, spermatic cords, extending, into, testes",
+        "Genitalia male, pain, spermatic cords, extending",
+        "Genitalia male, testes",
+        "Genitalia male, spermatic cord",
+        "Genitalia male, seminal emissions (nightly)",
+        "Genitalia male, perspiration"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "spermatic",
+        "cords",
+        "extending"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, pain, pressing, internally",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, externally",
+        "Generalities, touch, agg.",
+        "Generalities, touch",
+        "Generalities, pain, sore"
+      ],
+      "generalizations": [
+        "generalities",
+        "sore",
+        "pressing",
+        "bruised",
+        "touch"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, hemorrhage, anus, from",
+        "Rectum, hemorrhoids",
+        "Rectum, hemorrhage",
+        "Rectum, dysentery",
+        "Rectum, fullness",
+        "Rectum, hemorrhoids, external",
+        "Rectum, hemorrhoids, large"
+      ],
+      "generalizations": [
+        "rectum",
+        "hemorrhoids",
+        "hemorrhage",
+        "anus",
+        "dysentery"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

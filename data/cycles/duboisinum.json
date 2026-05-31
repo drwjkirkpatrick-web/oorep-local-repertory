@@ -1,0 +1,93 @@
+{
+  "remedy_name": "Duboisinum",
+  "remedy_abbrev": "Dubin.",
+  "sentence": "Driven by eye, Duboisinum manifests a dynamic cycle through cough and clinical, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, paralysis of muscles, ciliary",
+        "Eye, pupils",
+        "Eye, pupils, irregular",
+        "Eye, pupils, insensible to light"
+      ],
+      "generalizations": [
+        "pupils",
+        "paralysis",
+        "muscles",
+        "ciliary",
+        "irregular"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, irritation in air passages, from",
+        "Cough, irritation in air passages, from, bronchia",
+        "Cough, irritation in air passages, from, bronchia, bifurcation of",
+        "Cough, irritation in air passages"
+      ],
+      "generalizations": [
+        "cough",
+        "irritation",
+        "passages",
+        "bronchia",
+        "bifurcation"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, paralysis"
+      ],
+      "generalizations": [
+        "clinical",
+        "paralysis"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, objects seem",
+        "Vertigo, objects seem, to turn",
+        "Vertigo, objects seem, to turn, room whirls"
+      ],
+      "generalizations": [
+        "vertigo",
+        "objects",
+        "seem",
+        "turn",
+        "room"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, dark"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "dark"
+      ],
+      "next_segment": "Visual and ocular strain"
+    }
+  ]
+}

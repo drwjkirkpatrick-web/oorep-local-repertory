@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Murex Purpurea",
+  "remedy_abbrev": "Murx.",
+  "sentence": "Driven by genitalia female, Murex Purpurea manifests a dynamic cycle through abdomen and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, menses, copious",
+        "Genitalia female, pain, bearing down",
+        "Genitalia female, pain, bearing down, uterus",
+        "Genitalia female, pain, sore",
+        "Genitalia female, pain, sore, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "bearing",
+        "down"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, inguinal region",
+        "Abdomen, pain, stitching, inguinal region, right",
+        "Abdomen, pain, stitching, inguinal region, extending",
+        "Abdomen, pain, stitching, inguinal region, extending, to left mamma",
+        "Abdomen, pain, stitching, inguinal region, right, extending to left mamma",
+        "Abdomen, inguinal region"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "inguinal",
+        "region",
+        "extending"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, hip",
+        "Extremities, pain, thigh",
+        "Extremities, pain, hip, right",
+        "Extremities, pain, thigh, extending, downward",
+        "Extremities, pain, thigh, extending",
+        "Extremities, thigh",
+        "Extremities, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "thigh",
+        "extending",
+        "right",
+        "downward"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, irritability",
+        "Mind, unconsciousness",
+        "Mind, unconsciousness, menses",
+        "Mind, lasciviousness, lustful",
+        "Mind, nymphomania",
+        "Mind, men"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "unconsciousness",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, menses, during agg.",
+        "Head, pain, morning, agg.",
+        "Head, pain, menses",
+        "Head, pain, morning",
+        "Head, morning",
+        "Head, pain, menses, during",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "menses",
+        "during",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, standing agg.",
+        "Generalities, walking, agg.",
+        "Generalities, walking",
+        "Generalities, weakness, menses, during agg.",
+        "Generalities, weakness, menses",
+        "Generalities, faintness, menses"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "menses",
+        "faintness",
+        "walking"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

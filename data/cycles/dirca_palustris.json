@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Dirca Palustris",
+  "remedy_abbrev": "Dirc.",
+  "sentence": "Driven by head, Dirca Palustris manifests a dynamic cycle through limb disturbance and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, pain, occiput",
+        "Head, pain, stitching",
+        "Head, pain, temples"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "temples",
+        "vertex",
+        "forehead"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, restlessness",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "foot",
+        "stiffness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, burning",
+        "Abdomen, pain",
+        "Abdomen, flatulence",
+        "Abdomen, pain, evening",
+        "Abdomen, pain, morning",
+        "Abdomen, pain, night",
+        "Abdomen, pain, afternoon"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "burning",
+        "flatulence",
+        "afternoon"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, memory, weakness of",
+        "Mind, anxiety",
+        "Mind, mistakes, speaking",
+        "Mind, mistakes",
+        "Mind, absent-minded"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "mistakes",
+        "nervousness",
+        "memory"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, dysentery",
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, constipation",
+        "Rectum, constipation, ineffectual urging and straining",
+        "Rectum, flatus",
+        "Rectum, pain, tenesmus",
+        "Rectum, pain, tenesmus, stool, before"
+      ],
+      "generalizations": [
+        "rectum",
+        "constipation",
+        "tenesmus",
+        "dysentery",
+        "burning"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, extending",
+        "Back, pain, ascends",
+        "Back, pain, aching, dull pain, lumbar region, afternoon",
+        "Back, pain, aching, dull pain, lumbar region, afternoon, evening"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

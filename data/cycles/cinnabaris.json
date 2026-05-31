@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cinnabaris",
+  "remedy_abbrev": "Cinnb.",
+  "sentence": "Driven by limb expression, Cinnabaris manifests a dynamic cycle through head and genitalia male, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, lameness",
+        "Extremities, lameness, upper limbs",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, knee",
+        "Extremities, eruption",
+        "Extremities, itching"
+      ],
+      "generalizations": [
+        "extremities",
+        "lameness",
+        "upper",
+        "limbs",
+        "numbness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, congestion, vertex",
+        "Head, congestion",
+        "Head, fullness",
+        "Head, fullness, forehead",
+        "Head, fullness, vertex",
+        "Head, vertex",
+        "Head, forehead",
+        "Head, pain"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "fullness",
+        "congestion",
+        "forehead"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, inflammation",
+        "Genitalia male, itching",
+        "Genitalia male, swelling",
+        "Genitalia male, itching, penis",
+        "Genitalia male, itching, penis, prepuce",
+        "Genitalia male, redness",
+        "Genitalia male, itching, penis, glans",
+        "Genitalia male, ulcers"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "itching",
+        "penis",
+        "inflammation"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, itching",
+        "Eye, pain",
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, inflammation, catarrhal from cold",
+        "Eye, inflammation, lids",
+        "Eye, opacity of cornea",
+        "Eye, pain, stitching"
+      ],
+      "generalizations": [
+        "inflammation",
+        "itching",
+        "conjunctiva",
+        "catarrhal",
+        "cold"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, cervical region, extending",
+        "Back, pain, cervical region, extending, occiput, to",
+        "Back, pain, cervical region, extending, occiput",
+        "Back, pain, dorsal region",
+        "Back, pain, sacral region",
+        "Back, heat"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "cervical",
+        "extending",
+        "occiput"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness",
+        "Mind, exhilaration",
+        "Mind, starting, sleep, from sleep",
+        "Mind, starting",
+        "Mind, starting, sleep",
+        "Mind, sadness, eating, after agg.",
+        "Mind, sadness, eating",
+        "Mind, eating, after, agg."
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "starting",
+        "sleep",
+        "eating"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

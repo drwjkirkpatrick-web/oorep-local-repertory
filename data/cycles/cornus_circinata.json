@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cornus Circinata",
+  "remedy_abbrev": "Corn.",
+  "sentence": "Driven by limb expression, Cornus Circinata manifests a dynamic cycle through rectum and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, pain, elbow",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, neuralgic",
+        "Extremities, elbow",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "elbow",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, morning",
+        "Rectum, flatus",
+        "Rectum, urging",
+        "Rectum, urging, frequent",
+        "Rectum, morning",
+        "Rectum, pain",
+        "Rectum, pain, burning"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "urging",
+        "flatus",
+        "frequent"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, vertex",
+        "Head, pain, sides, one side",
+        "Head, pain, sides",
+        "Head, vertex",
+        "Head, heat",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "sides",
+        "heaviness",
+        "side"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, liver",
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, inflammation, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "inflammation",
+        "rumbling",
+        "distension"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, memory, weakness of",
+        "Mind, forgetful",
+        "Mind, concentration, difficult",
+        "Mind, memory",
+        "Mind, concentration",
+        "Mind, irritability"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "memory",
+        "concentration",
+        "mental"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, rheumatic",
+        "Back, heaviness",
+        "Back, heaviness, lumbar region",
+        "Back, pain, aching, dull pain, rheumatic",
+        "Back, heaviness, lumbar region, turning in bed agg.",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "heaviness",
+        "lumbar",
+        "region",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

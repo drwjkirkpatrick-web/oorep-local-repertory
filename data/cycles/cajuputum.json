@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cajuputum",
+  "remedy_abbrev": "Caj.",
+  "sentence": "Driven by limb expression, Cajuputum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, knee",
+        "Extremities, numbness, forearm",
+        "Extremities, numbness, hand",
+        "Extremities, numbness, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "swelling",
+        "weakness",
+        "knee"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, fullness, occiput",
+        "Head, pain, evening agg.",
+        "Head, pain, forehead, eyes, above"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "fullness",
+        "heaviness",
+        "occiput"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness",
+        "Mind, ideas, deficiency of",
+        "Mind, ideas",
+        "Mind, company aversion to",
+        "Mind, ideas, abundant, clearness of mind",
+        "Mind, thoughts, rapid, quick, etc.",
+        "Mind, ideas, abundant",
+        "Mind, thoughts"
+      ],
+      "generalizations": [
+        "mind",
+        "ideas",
+        "abundant",
+        "thoughts",
+        "dullness"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, choking",
+        "Throat, choking, esophagus",
+        "Throat, coldness, sensation of",
+        "Throat, pain, sore",
+        "Throat, pain, esophagus",
+        "Throat, choking, esophagus, swallowing",
+        "Throat, pain, esophagus, swallowing, on"
+      ],
+      "generalizations": [
+        "throat",
+        "esophagus",
+        "choking",
+        "swallowing",
+        "coldness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, discoloration, yellow",
+        "Face, pain (aching, prosopalgia, etc.), morning",
+        "Face, pain (aching, prosopalgia, etc.), eating",
+        "Face, pain (aching, prosopalgia, etc.), eating, amel.",
+        "Face, pain (aching, prosopalgia, etc.), morning, 5 a.m.",
+        "Face, pain (aching, prosopalgia, etc.), morning, breakfast, amel."
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "discoloration",
+        "eating"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, lying",
+        "Generalities, numbness, externally",
+        "Generalities, numbness",
+        "Generalities, air, open, amel.",
+        "Generalities, lying, after, amel.",
+        "Generalities, stretching",
+        "Generalities, swollen sensation",
+        "Generalities, afternoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "numbness",
+        "amel",
+        "externally"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "remedy_name": "Kissingen Aqua",
+  "remedy_abbrev": "Kiss.",
+  "sentence": "Driven by constitutional vulnerability, Kissingen Aqua manifests a dynamic cycle through throat and heart & circulation, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pulsation, externally",
+        "Generalities, pulsation"
+      ],
+      "generalizations": [
+        "generalities",
+        "pulsation",
+        "externally"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, mucus"
+      ],
+      "generalizations": [
+        "throat",
+        "mucus"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, orgasm of blood"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "orgasm",
+        "blood"
+      ],
+      "next_segment": "Heart state"
+    },
+    {
+      "name": "Heart state",
+      "description": "Characteristic heart symptoms.",
+      "symptoms": [
+        "heart symptoms characteristic of Kissingen Aqua"
+      ],
+      "generalizations": [
+        "heart",
+        "symptoms",
+        "characteristic",
+        "kissingen",
+        "aqua"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

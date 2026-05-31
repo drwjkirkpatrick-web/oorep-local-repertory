@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Anantherum Muricatum",
+  "remedy_abbrev": "Anan.",
+  "sentence": "Driven by limb expression, Anantherum Muricatum manifests a dynamic cycle through head and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, chapped hand",
+        "Extremities, ulcers",
+        "Extremities, eruption, leg",
+        "Extremities, abscess",
+        "Extremities, ulcers, foot",
+        "Extremities, eruption, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "hand",
+        "ulcers",
+        "foot"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, eruption, herpes",
+        "Head, eruption, moist",
+        "Head, eruption, scurfy",
+        "Head, eruption, scurfy, moist",
+        "Head, eruption, crusts, scabs, moist",
+        "Head, ulcers"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "moist",
+        "crusts",
+        "scabs"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, eruptions",
+        "Genitalia female, eruptions, pustules",
+        "Genitalia female, eruptions, rash",
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, menses",
+        "Genitalia female, congestion"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "eruptions",
+        "pustules",
+        "rash"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, eruptions",
+        "Face, swelling",
+        "Face, discoloration, red, spots",
+        "Face, eruptions, herpes",
+        "Face, eruptions, crusty, scabby",
+        "Face, swelling, submaxillary glands"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "eruptions",
+        "swelling",
+        "spots"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, photophobia",
+        "Eye, hair falling from brows",
+        "Eye, hair",
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, itching",
+        "Eye, lachrymation",
+        "Eye, pain"
+      ],
+      "generalizations": [
+        "hair",
+        "heaviness",
+        "photophobia",
+        "falling",
+        "brows"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, sexual passion, increased",
+        "Genitalia male, sexual passion, violent",
+        "Genitalia male, sexual passion",
+        "Genitalia male, masturbation, disposition",
+        "Genitalia male, masturbation",
+        "Genitalia male, sexual passion, increased, erection, without",
+        "Genitalia male, erections",
+        "Genitalia male, erections, violent"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "sexual",
+        "passion",
+        "increased"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

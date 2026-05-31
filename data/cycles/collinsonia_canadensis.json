@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Collinsonia Canadensis",
+  "remedy_abbrev": "Coll.",
+  "sentence": "Driven by rectum, Collinsonia Canadensis manifests a dynamic cycle through abdomen and stool, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, constipation",
+        "Rectum, hemorrhage, anus, from",
+        "Rectum, hemorrhoids",
+        "Rectum, hemorrhage",
+        "Rectum, constipation, ineffectual urging and straining",
+        "Rectum, dysentery",
+        "Rectum, flatus"
+      ],
+      "generalizations": [
+        "rectum",
+        "constipation",
+        "hemorrhage",
+        "anus",
+        "hemorrhoids"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cramping, griping, hypogastrium",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, cramping, griping, stool, before",
+        "Abdomen, pain, stool, before"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "stool",
+        "hypogastrium"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, hard",
+        "Stool, black",
+        "Stool, mucous, slimy",
+        "Stool, mucous",
+        "Stool, watery, Stool, watery",
+        "Stool, watery",
+        "Stool, bloody",
+        "Stool, knotty, nodular, lumpy"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "mucous",
+        "hard",
+        "black"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable, rapid)",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated",
+        "Heart & Circulation, pulse, frequent (accelerated",
+        "Heart & Circulation, palpitation"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "frequent",
+        "accelerated"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, pain, cutting, internally",
+        "Generalities, pain, cutting",
+        "Generalities, weakness, walking",
+        "Generalities, weakness, walking, air, open, in agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "faintness",
+        "cutting",
+        "walking"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses, membranous",
+        "Genitalia female, menses",
+        "Genitalia female, menses, absent, amenorrhea",
+        "Genitalia female, menses, copious",
+        "Genitalia female, itching",
+        "Genitalia female, itching, leucorrhea, from",
+        "Genitalia female, swollen",
+        "Genitalia female, menses, absent"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "absent",
+        "itching"
+      ],
+      "next_segment": "Rectal and anal expression"
+    }
+  ]
+}

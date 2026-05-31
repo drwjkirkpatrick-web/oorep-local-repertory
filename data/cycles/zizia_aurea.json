@@ -1,0 +1,142 @@
+{
+  "remedy_name": "Zizia Aurea",
+  "remedy_abbrev": "Ziz.",
+  "sentence": "Driven by head, Zizia Aurea manifests a dynamic cycle through mind and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, forehead",
+        "Head, constriction, band or hoop",
+        "Head, fullness"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fancies, exaltation of",
+        "Mind, fancies",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, dream, as if in a",
+        "Mind, indifference, apathy, etc.",
+        "Mind, dream",
+        "Mind, indifference"
+      ],
+      "generalizations": [
+        "mind",
+        "fancies",
+        "sadness",
+        "dream",
+        "indifference"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, fever, during",
+        "Back, lumbar region",
+        "Back, agg.",
+        "Back, touch, agg.",
+        "Back, touch",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "touch",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, swelling",
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, eruption",
+        "Extremities, eruption, upper limbs",
+        "Extremities, eruption, upper limbs, pimples"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "motion",
+        "weakness",
+        "upper"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, stitching, internally",
+        "Generalities, pain, stitching",
+        "Generalities, weakness",
+        "Generalities, weakness, exertion, from slight",
+        "Generalities, weakness, exertion"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "stitching",
+        "exertion",
+        "internally"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, hard",
+        "Cough, breathing",
+        "Cough, breathing, deep agg.",
+        "Cough, night",
+        "Cough, short",
+        "Cough, breathing, deep",
+        "Cough, tight"
+      ],
+      "generalizations": [
+        "cough",
+        "breathing",
+        "deep",
+        "hard",
+        "short"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

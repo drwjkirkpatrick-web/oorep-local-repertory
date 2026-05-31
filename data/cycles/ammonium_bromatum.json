@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Ammonium Bromatum",
+  "remedy_abbrev": "Am-br.",
+  "sentence": "Driven by cough, Ammonium Bromatum manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, night",
+        "Cough, tickling",
+        "Cough, sudden",
+        "Cough, sudden, evening",
+        "Cough, tickling, tonsils, below",
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, constant"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "sudden",
+        "tonsils",
+        "below"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, night",
+        "Generalities, side, left",
+        "Generalities, faintness",
+        "Generalities, pressure"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "side",
+        "internally",
+        "left"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, lameness",
+        "Extremities, pain",
+        "Extremities, coldness, foot, evening",
+        "Extremities, constriction",
+        "Extremities, constriction, ankles",
+        "Extremities, constriction, ankles, as if tied with a string"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "constriction",
+        "foot",
+        "ankles"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, constriction, band or hoop",
+        "Head, pain, nail, as from a",
+        "Head, pain, pressing",
+        "Head, pain, pressing, temples",
+        "Head, constriction",
+        "Head, pain, nail, as from a, temples",
+        "Head, temples"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "constriction",
+        "nail",
+        "pressing"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, scrofulous affections",
+        "Eye, pterygium",
+        "Eye, pain",
+        "Eye, enlargement, sensation of",
+        "Eye, falling of lids",
+        "Eye, pain, burning, evening",
+        "Eye, pain, sand, as from",
+        "Eye, pain, sore, bruised, tender"
+      ],
+      "generalizations": [
+        "scrofulous",
+        "affections",
+        "pterygium",
+        "enlargement",
+        "falling"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, company aversion to",
+        "Mind, company aversion to, presence of strangers, to",
+        "Mind, company",
+        "Mind, mistakes",
+        "Mind, mistakes, wrong words, using",
+        "Mind, mistakes, wrong words"
+      ],
+      "generalizations": [
+        "mind",
+        "company",
+        "mistakes",
+        "aversion",
+        "wrong"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

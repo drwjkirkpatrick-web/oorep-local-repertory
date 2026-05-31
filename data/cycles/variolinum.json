@@ -1,0 +1,130 @@
+{
+  "remedy_name": "Variolinum",
+  "remedy_abbrev": "Vario.",
+  "sentence": "Driven by back, Variolinum manifests a dynamic cycle through mouth and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, lumbar region",
+        "Back, lumbar region",
+        "Back, coldness",
+        "Back, coldness, extending, down back",
+        "Back, coldness, extending",
+        "Back, pain, aching, dull pain"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "coldness",
+        "lumbar",
+        "extending"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, protruded, tongue",
+        "Mouth, taste",
+        "Mouth, bleeding",
+        "Mouth, taste, insipid",
+        "Mouth, taste, sweetish",
+        "Mouth, taste, insipid, water, after drinking",
+        "Mouth, pustules",
+        "Mouth, stiff, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "tongue",
+        "insipid",
+        "protruded"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, eruptions, herpetic, zoster, zona",
+        "Skin, eruptions, small-pox"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "herpetic",
+        "zoster",
+        "zona"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, sordes",
+        "Teeth, sordes, brown",
+        "Teeth, mucus on",
+        "Teeth, mucus on, thick"
+      ],
+      "generalizations": [
+        "teeth",
+        "sordes",
+        "mucus",
+        "brown",
+        "thick"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, odor, offensive",
+        "Stool, thin, liquid",
+        "Stool, odor",
+        "Stool, brown",
+        "Stool, mucous, slimy",
+        "Stool, mucous",
+        "Stool, thin"
+      ],
+      "generalizations": [
+        "stool",
+        "odor",
+        "thin",
+        "mucous",
+        "offensive"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, swelling, upper limbs",
+        "Extremities, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

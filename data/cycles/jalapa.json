@@ -1,0 +1,127 @@
+{
+  "remedy_name": "Jalapa",
+  "remedy_abbrev": "Jal.",
+  "sentence": "Driven by mind, Jalapa manifests a dynamic cycle through limb disturbance and stool, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness",
+        "Mind, speech",
+        "Mind, weeping",
+        "Mind, speech, shrieking",
+        "Mind, weeping, sleep",
+        "Mind, speech, shrieking, children, in",
+        "Mind, restlessness, children, in",
+        "Mind, weeping, sleep, good during the day, screaming and restless all night"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "weeping",
+        "restlessness",
+        "shrieking"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, restlessness",
+        "Extremities, jerking",
+        "Extremities, pain, burning",
+        "Extremities, pain, pressing",
+        "Extremities, pain, pressing, upper arm",
+        "Extremities, pain, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "pressing",
+        "restlessness",
+        "jerking",
+        "burning"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, watery, Stool, watery",
+        "Stool, odor",
+        "Stool, watery",
+        "Stool, odor, sour",
+        "Stool, copious",
+        "Stool, bloody",
+        "Stool, forcible, sudden, gushing"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "odor",
+        "sour",
+        "copious"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, biting, tongue",
+        "Mouth, pain, biting",
+        "Mouth, pain, stitching, tongue",
+        "Mouth, pain, stitching",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "biting",
+        "stitching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, weakness, morning"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "weakness",
+        "fainting"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

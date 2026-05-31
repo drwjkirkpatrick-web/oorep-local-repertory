@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sticta Pulmonaria",
+  "remedy_abbrev": "Stict.",
+  "sentence": "Driven by nose, Sticta Pulmonaria manifests a dynamic cycle through limb disturbance and cough, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, catarrh",
+        "Nose, coryza",
+        "Nose, coryza, discharge, without (dry)",
+        "Nose, dryness, inside",
+        "Nose, coryza, discharge",
+        "Nose, discharge",
+        "Nose, dryness",
+        "Nose, fullness, sense of"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "discharge",
+        "dryness",
+        "catarrh"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, bursae",
+        "Extremities, motion",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, motion, leg",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, pain, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "motion",
+        "swelling",
+        "bursae",
+        "stiffness"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, tickling",
+        "Cough, dry, evening",
+        "Cough, dry, night",
+        "Cough, irritation in air passages, from",
+        "Cough, irritation in air passages, from, trachea, in, from",
+        "Cough, tickling, larynx, in, from",
+        "Cough, dry, evening, lying down agg."
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "irritation",
+        "passages",
+        "trachea"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, daytime",
+        "Head, forehead",
+        "Head, pain, catarrhal",
+        "Head, pain, pressing, forehead, nose, above",
+        "Head, pain, pressing, forehead, nose"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "forehead",
+        "nose",
+        "daytime"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, pain, pressing",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, pain, pressing externally",
+        "Generalities, pain, stitching, transversely",
+        "Generalities, pain, stitching"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "weakness",
+        "stitching",
+        "load"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, left",
+        "Back, pain, dorsal region, scapulae, left, under",
+        "Back, pain, dorsal region, scapulae, left, under, cough, during",
+        "Back, pain, aching, dull pain",
+        "Back, pain, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "left"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

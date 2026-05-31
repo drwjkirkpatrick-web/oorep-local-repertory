@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Convallaria Majalis",
+  "remedy_abbrev": "Conv.",
+  "sentence": "Driven by back, Convallaria Majalis manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, dorsal region, scapulae, right, under",
+        "Back, pain, breathing, when",
+        "Back, pain, broken, as if",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "right"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, ascending, high agg.",
+        "Generalities, ascending",
+        "Generalities, pain",
+        "Generalities, pain, cutting, internally",
+        "Generalities, lying",
+        "Generalities, pain, cutting",
+        "Generalities, ascending, agg.",
+        "Generalities, lying, back on"
+      ],
+      "generalizations": [
+        "generalities",
+        "ascending",
+        "cutting",
+        "lying",
+        "high"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, vertex",
+        "Head, heaviness, forehead",
+        "Head, pain, burning",
+        "Head, pain, burning, forehead",
+        "Head, pain, morning, agg."
+      ],
+      "generalizations": [
+        "head",
+        "heaviness",
+        "forehead",
+        "burning",
+        "headache"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, pain",
+        "Bladder, pain, aching",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), frequent",
+        "Bladder, fullness, sensation of",
+        "Bladder, fullness, sensation of, urination, after",
+        "Bladder, pain, aching, urination, after",
+        "Bladder, pain, aching, urination"
+      ],
+      "generalizations": [
+        "bladder",
+        "aching",
+        "urination",
+        "urging",
+        "urinate"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, odor",
+        "Urine, copious (increased)",
+        "Urine, sugar",
+        "Urine, color",
+        "Urine, burning (includes hot)",
+        "Urine, color, dark",
+        "Urine, sediment",
+        "Urine, sediment, white"
+      ],
+      "generalizations": [
+        "urine",
+        "color",
+        "sediment",
+        "odor",
+        "copious"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration, tongue, red",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste",
+        "Mouth, discoloration, tongue, red, edges",
+        "Mouth, taste, metallic",
+        "Mouth, discoloration, tongue, red, tip",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "taste",
+        "edges"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

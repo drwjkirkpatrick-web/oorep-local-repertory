@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Nitricum",
+  "remedy_abbrev": "Kali-n.",
+  "sentence": "Driven by limb expression, Kalium Nitricum manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, numbness, lower limbs",
+        "Extremities, pain",
+        "Extremities, numbness, hand",
+        "Extremities, numbness, upper limbs",
+        "Extremities, perspiration"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "coldness",
+        "limbs",
+        "foot"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, stooping",
+        "Head, coldness, occiput",
+        "Head, pain, afternoon, agg.",
+        "Head, pain, binding, up the hair"
+      ],
+      "generalizations": [
+        "head",
+        "stooping",
+        "headache",
+        "general",
+        "heaviness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, morning",
+        "Generalities, numbness",
+        "Generalities, night",
+        "Generalities, food",
+        "Generalities, afternoon, agg.",
+        "Generalities, evening, agg.",
+        "Generalities, night, midnight, after agg.",
+        "Generalities, numbness, single parts in"
+      ],
+      "generalizations": [
+        "generalities",
+        "numbness",
+        "food",
+        "afternoon",
+        "midnight"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, scapula",
+        "Back, scapula, scapulae, about",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, drawing",
+        "Back, pain, drawing, cervical region",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "scapula",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, hips and loin region",
+        "Abdomen, sides",
+        "Abdomen, sides, right",
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "hips",
+        "loin",
+        "region"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, cough, during",
+        "Chest, perspiration",
+        "Chest, oppression",
+        "Chest, phthisis pulmonalis",
+        "Chest, inflammation",
+        "Chest, constriction, tension, tightness",
+        "Chest, inflammation, lungs"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "cough",
+        "during",
+        "perspiration"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

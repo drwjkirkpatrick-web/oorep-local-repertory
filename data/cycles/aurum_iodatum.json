@@ -1,0 +1,98 @@
+{
+  "remedy_name": "Aurum Iodatum",
+  "remedy_abbrev": "Aur-i.",
+  "sentence": "Driven by chest, Aurum Iodatum manifests a dynamic cycle through heart & circulation and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, edema, pulmonary",
+        "Chest, edema"
+      ],
+      "generalizations": [
+        "chest",
+        "edema",
+        "pulmonary"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, hypertrophy of heart",
+        "Heart & Circulation, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "hypertrophy"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, heat",
+        "Generalities, heat, sensation of"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat"
+      ],
+      "next_segment": "External throat state"
+    },
+    {
+      "name": "External throat state",
+      "description": "External throat symptoms, glands, cervical region.",
+      "symptoms": [
+        "External throat, goiter",
+        "External throat, goiter, exophthalmic"
+      ],
+      "generalizations": [
+        "external",
+        "throat",
+        "goiter",
+        "exophthalmic"
+      ],
+      "next_segment": "Heart state"
+    },
+    {
+      "name": "Heart state",
+      "description": "Characteristic heart symptoms.",
+      "symptoms": [
+        "heart symptoms characteristic of Aurum Iodatum"
+      ],
+      "generalizations": [
+        "heart",
+        "symptoms",
+        "characteristic",
+        "aurum",
+        "iodatum"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, perspiration",
+        "Extremities, perspiration, cold"
+      ],
+      "generalizations": [
+        "extremities",
+        "perspiration",
+        "cold"
+      ],
+      "next_segment": "Thoracic condition"
+    }
+  ]
+}

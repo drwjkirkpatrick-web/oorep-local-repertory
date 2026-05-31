@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Badiaga",
+  "remedy_abbrev": "Bad.",
+  "sentence": "Driven by limb expression, Badiaga manifests a dynamic cycle through head and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, rheumatic",
+        "Extremities, paralysis",
+        "Extremities, swelling",
+        "Extremities, swelling, leg",
+        "Extremities, pain, knee",
+        "Extremities, pain, sore, bruised",
+        "Extremities, chilblains"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "rheumatic",
+        "paralysis",
+        "knee"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, afternoon, agg.",
+        "Head, pain, temples",
+        "Head, pain, afternoon",
+        "Head, pain, forehead, extending",
+        "Head, pain, forehead, motion",
+        "Head, pain, forehead, extending, eyes, to"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "afternoon",
+        "extending",
+        "temples"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, inflammation",
+        "Chest, inflammation, lungs",
+        "Chest, pain, cutting (sudden sharp pain)",
+        "Chest, pain, sore, bruised",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, sides",
+        "Chest, pain, stitching, sides, inhalation"
+      ],
+      "generalizations": [
+        "chest",
+        "stitching",
+        "inflammation",
+        "sides",
+        "lungs"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, inflammation",
+        "Eye, inflammation, heat agg.",
+        "Eye, pain, paroxysmal",
+        "Eye, hardness",
+        "Eye, pain, aching",
+        "Eye, inflammation, scrofulous",
+        "Eye, blueness of lids"
+      ],
+      "generalizations": [
+        "inflammation",
+        "heat",
+        "paroxysmal",
+        "hardness",
+        "aching"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore, cervical region",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, sore",
+        "Back, pain, stitching",
+        "Back, pain, stitching, dorsal region, scapulae, right",
+        "Back, pain, stitching, dorsal region, scapulae, right, under"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "stitching",
+        "dorsal",
+        "scapulae"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, cold, air agg.",
+        "Generalities, wind",
+        "Generalities, windy and stormy weather",
+        "Generalities, cold",
+        "Generalities, wet",
+        "Generalities, cold, wet weather agg.",
+        "Generalities, indurations",
+        "Generalities, indurations, glands"
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "weather",
+        "indurations",
+        "wind"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

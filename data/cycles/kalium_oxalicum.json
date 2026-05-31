@@ -1,0 +1,41 @@
+{
+  "remedy_name": "Kalium Oxalicum",
+  "remedy_abbrev": "Kali-ox.",
+  "sentence": "Driven by mind, Kalium Oxalicum manifests a dynamic cycle through stomach and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, insanity, madness",
+        "Mind, insanity"
+      ],
+      "generalizations": [
+        "mind",
+        "insanity",
+        "madness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, black"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "black"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

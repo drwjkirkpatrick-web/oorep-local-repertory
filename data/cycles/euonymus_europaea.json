@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Euonymus Europaea",
+  "remedy_abbrev": "Euon.",
+  "sentence": "Driven by chest, Euonymus Europaea manifests a dynamic cycle through head and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, phthisis pulmonalis",
+        "Chest, phthisis pulmonalis, pituitous",
+        "Chest, pain",
+        "Chest, anxiety",
+        "Chest, pain, sore, bruised",
+        "Chest, pain, sore",
+        "Chest, phthisis pulmonalis, last stage",
+        "Chest, oppression"
+      ],
+      "generalizations": [
+        "chest",
+        "phthisis",
+        "pulmonalis",
+        "sore",
+        "pituitous"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, stitching",
+        "Head, pain, stunning, stupefying",
+        "Head, pain, stunning, stupefying, pressing",
+        "Head, pain, stunning",
+        "Head, pain, forehead, left side",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "stunning",
+        "pressing",
+        "stupefying",
+        "forehead"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, shoulder",
+        "Extremities, pain, knee, paralytic",
+        "Extremities, knee",
+        "Extremities, shoulder",
+        "Extremities, paralysis"
+      ],
+      "generalizations": [
+        "extremities",
+        "knee",
+        "tearing",
+        "shoulder",
+        "paralytic"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, formication",
+        "Back, pain, cutting",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, stitching, dorsal region, scapulae, between",
+        "Back, pain, stitching, lumbar region",
+        "Back, pain, stitching"
+      ],
+      "generalizations": [
+        "back",
+        "stitching",
+        "region",
+        "dorsal",
+        "scapulae"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, wearisome",
+        "Mind, heedless",
+        "Mind, irritability",
+        "Mind, confusion",
+        "Mind, anxiety",
+        "Mind, thoughts",
+        "Mind, exertion, from mental, agg.",
+        "Mind, exertion"
+      ],
+      "generalizations": [
+        "mind",
+        "exertion",
+        "wearisome",
+        "heedless",
+        "irritability"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, pain, cutting, hypogastrium",
+        "Abdomen, pain, eating, after agg.",
+        "Abdomen, pain, eating",
+        "Abdomen, constriction, contraction, etc., hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "constriction",
+        "contraction",
+        "hypogastrium"
+      ],
+      "next_segment": "Thoracic condition"
+    }
+  ]
+}

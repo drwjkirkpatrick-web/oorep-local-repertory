@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mercurius Corrosivus",
+  "remedy_abbrev": "Merc-c.",
+  "sentence": "Driven by limb expression, Mercurius Corrosivus manifests a dynamic cycle through mouth and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, drawing up limbs, amel.",
+        "Extremities, drawing up limbs",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "foot",
+        "drawing",
+        "limbs"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, aphthae",
+        "Mouth, odor (breath), offensive",
+        "Mouth, pain, sore",
+        "Mouth, saliva, viscid",
+        "Mouth, salivation",
+        "Mouth, swelling",
+        "Mouth, discoloration"
+      ],
+      "generalizations": [
+        "mouth",
+        "aphthae",
+        "odor",
+        "breath",
+        "offensive"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, abscess",
+        "Abdomen, abscess, liver",
+        "Abdomen, inflammation",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, swelling",
+        "Abdomen, swelling, inguinal region"
+      ],
+      "generalizations": [
+        "abdomen",
+        "abscess",
+        "swelling",
+        "liver",
+        "inflammation"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, choking",
+        "Throat, ulcers",
+        "Throat, choking, esophagus",
+        "Throat, pain, burning, esophagus",
+        "Throat, pain, rawness",
+        "Throat, swelling"
+      ],
+      "generalizations": [
+        "throat",
+        "burning",
+        "choking",
+        "esophagus",
+        "ulcers"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, inflammation",
+        "Eye, pain, night",
+        "Eye, tears",
+        "Eye, tears, acrid",
+        "Eye, inflammation, iris",
+        "Eye, inflammation, syphilitic",
+        "Eye, inflammation, iris, syphilitic"
+      ],
+      "generalizations": [
+        "inflammation",
+        "tears",
+        "iris",
+        "syphilitic",
+        "acrid"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, pressure",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, lying, back on"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "weakness",
+        "lying",
+        "internally"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

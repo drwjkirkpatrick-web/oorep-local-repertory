@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Podophyllum Peltatum",
+  "remedy_abbrev": "Podo.",
+  "sentence": "Driven by abdomen, Podophyllum Peltatum manifests a dynamic cycle through rectum and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, gurgling",
+        "Abdomen, gurgling, stool, before",
+        "Abdomen, pain, hypochondria",
+        "Abdomen, pain, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "gurgling",
+        "spleen",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, constipation",
+        "Rectum, constipation, alternating with diarrhea",
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, morning",
+        "Rectum, hemorrhoids",
+        "Rectum, cholera",
+        "Rectum, diarrhea, children, in"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "constipation",
+        "alternating",
+        "hemorrhoids"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, lumbar region",
+        "Back, pain, chill, before",
+        "Back, pain, lumbar region, chill, before",
+        "Back, pain, chill",
+        "Back, pain, lumbar region, chill",
+        "Back, pain, aching, dull pain, chill"
+      ],
+      "generalizations": [
+        "back",
+        "chill",
+        "lumbar",
+        "region",
+        "aching"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, ovaries",
+        "Genitalia female, pain, ovaries",
+        "Genitalia female, prolapse, uterus",
+        "Genitalia female, inflammation, ovaries, right",
+        "Genitalia female, pain, ovaries, right"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "ovaries",
+        "inflammation",
+        "uterus"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, pain, cramping, griping, constricting",
+        "Stomach, sinking",
+        "Stomach, emptiness",
+        "Stomach, pain, cramping",
+        "Stomach, eructations, bitter"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "emptiness",
+        "feeling",
+        "cramping"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, elbow",
+        "Extremities, perspiration",
+        "Extremities, perspiration, leg",
+        "Extremities, pain, elbow, chill, during",
+        "Extremities, elbow",
+        "Extremities, coldness",
+        "Extremities, coldness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "elbow",
+        "perspiration",
+        "coldness",
+        "chill"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

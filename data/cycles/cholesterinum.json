@@ -1,0 +1,69 @@
+{
+  "remedy_name": "Cholesterinum",
+  "remedy_abbrev": "Chol.",
+  "sentence": "Driven by eye, Cholesterinum manifests a dynamic cycle through clinical and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, conjunctiva"
+      ],
+      "generalizations": [
+        "inflammation",
+        "conjunctiva"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, temples",
+        "Head, temples"
+      ],
+      "generalizations": [
+        "head",
+        "temples"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, swallowing, difficult",
+        "Throat, swallowing",
+        "Throat, swallow"
+      ],
+      "generalizations": [
+        "throat",
+        "swallowing",
+        "difficult",
+        "swallow"
+      ],
+      "next_segment": "Visual and ocular strain"
+    }
+  ]
+}

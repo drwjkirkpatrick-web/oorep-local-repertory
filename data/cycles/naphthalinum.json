@@ -1,0 +1,57 @@
+{
+  "remedy_name": "Naphthalinum",
+  "remedy_abbrev": "Naphtin.",
+  "sentence": "Driven by constitutional vulnerability, Naphthalinum manifests a dynamic cycle through eye and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, air, open, amel.",
+        "Generalities, air",
+        "Generalities, air, open"
+      ],
+      "generalizations": [
+        "generalities",
+        "open",
+        "amel"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, sore, bruised, tender",
+        "Eye, pain, sore"
+      ],
+      "generalizations": [
+        "sore",
+        "bruised",
+        "tender"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, sallow"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "sallow"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "remedy_name": "Tarentula Cubensis",
+  "remedy_abbrev": "Tarent-c.",
+  "sentence": "Driven by limb expression, Tarentula Cubensis manifests a dynamic cycle through skin and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, felon, panaritium",
+        "Extremities, felon",
+        "Extremities, felon, malignant with burning",
+        "Extremities, eruption",
+        "Extremities, eruption, leg",
+        "Extremities, eruption, leg, excoriations",
+        "Extremities, water, sensation as if",
+        "Extremities, carbuncles"
+      ],
+      "generalizations": [
+        "extremities",
+        "felon",
+        "eruption",
+        "panaritium",
+        "malignant"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, carbuncle",
+        "Skin, eruptions, carbuncle, burning",
+        "Skin, erysipelas",
+        "Skin, eruptions, pustules",
+        "Skin, eruptions, pustules, malignant",
+        "Skin, inflammation",
+        "Skin, gangrene"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "carbuncle",
+        "pustules",
+        "burning"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, bubo",
+        "Abdomen, bubo, burning, with",
+        "Abdomen, pain, burning",
+        "Abdomen, pain",
+        "Abdomen, pain, burning, inguinal region",
+        "Abdomen, pain, burning, inguinal region, glands",
+        "Abdomen, bubo, suppurating",
+        "Abdomen, inguinal region"
+      ],
+      "generalizations": [
+        "abdomen",
+        "burning",
+        "bubo",
+        "inguinal",
+        "region"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, abscess",
+        "Clinical, abscess, burning",
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "abscess",
+        "burning",
+        "inflammation"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, abscess",
+        "Back, abscess, cervical region",
+        "Back, eruptions",
+        "Back, eruptions, boils",
+        "Back, eruptions, boils, shoulders between",
+        "Back, cervix"
+      ],
+      "generalizations": [
+        "back",
+        "eruptions",
+        "abscess",
+        "boils",
+        "cervical"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, pain, burning, mammae",
+        "Chest, abscess",
+        "Chest, abscess, mammae",
+        "Chest, mammae"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "burning",
+        "abscess"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

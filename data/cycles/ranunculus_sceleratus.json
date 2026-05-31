@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ranunculus Sceleratus",
+  "remedy_abbrev": "Ran-s.",
+  "sentence": "Driven by constitutional vulnerability, Ranunculus Sceleratus manifests a dynamic cycle through limb disturbance and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, night",
+        "Generalities, evening, agg.",
+        "Generalities, pain, biting",
+        "Generalities, pain, boring",
+        "Generalities, pain, gnawing"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "right",
+        "biting",
+        "boring"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, gnawing",
+        "Extremities, pain, gnawing, joints",
+        "Extremities, corns",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, pain, burning",
+        "Extremities, pain, stitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "gnawing",
+        "eruption",
+        "joints",
+        "corns"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, diarrhea, sensation as if",
+        "Abdomen, diarrhea, sensation as if, would come on",
+        "Abdomen, pain, diarrhea, as if, would come on",
+        "Abdomen, pain, diarrhea",
+        "Abdomen, diarrhea",
+        "Abdomen, rumbling",
+        "Abdomen, spleen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "diarrhea",
+        "would",
+        "come",
+        "rumbling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, vertex",
+        "Head, fullness",
+        "Head, pain, pressing",
+        "Head, pain, pressing, temples",
+        "Head, pain, pressing, temples, inwards",
+        "Head, pain, pressing, inward"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "vertex",
+        "temples",
+        "fullness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, thirst"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "burning",
+        "empty",
+        "pressing"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, restlessness, bed, tossing about in",
+        "Mind, sit, inclination to",
+        "Mind, restlessness, bed",
+        "Mind, night",
+        "Mind, irritability",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "tossing",
+        "about",
+        "inclination"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

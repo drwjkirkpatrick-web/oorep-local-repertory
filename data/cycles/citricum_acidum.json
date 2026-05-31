@@ -1,0 +1,44 @@
+{
+  "remedy_name": "Citricum Acidum",
+  "remedy_abbrev": "Cit-ac.",
+  "sentence": "Driven by mind, Citricum Acidum manifests a dynamic cycle through rectum and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, indolence",
+        "Mind, indolence, aversion to her usual housework"
+      ],
+      "generalizations": [
+        "mind",
+        "indolence",
+        "aversion",
+        "usual",
+        "housework"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, lemonade, after"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "lemonade",
+        "after"
+      ],
+      "next_segment": "Mental withdrawal"
+    }
+  ]
+}

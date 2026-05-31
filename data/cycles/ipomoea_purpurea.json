@@ -1,0 +1,73 @@
+{
+  "remedy_name": "Ipomoea Purpurea",
+  "remedy_abbrev": "Ipom.",
+  "sentence": "Driven by kidneys, Ipomoea Purpurea manifests a dynamic cycle through nose and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, pain",
+        "Kidneys, pain, ureters, left side",
+        "Kidneys, pain, ureters"
+      ],
+      "generalizations": [
+        "kidneys",
+        "ureters",
+        "left",
+        "side"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, pain, stitching",
+        "Nose, sneezing",
+        "Nose, discharge",
+        "Nose, pain",
+        "Nose, discharge, purulent"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "stitching",
+        "sneezing",
+        "purulent"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain"
+      ],
+      "generalizations": [
+        "back"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, weakness",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "weakness",
+        "general"
+      ],
+      "next_segment": "Renal function"
+    }
+  ]
+}

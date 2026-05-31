@@ -1,0 +1,51 @@
+{
+  "remedy_name": "Coccinella Septempunctata",
+  "remedy_abbrev": "Cocci-s.",
+  "sentence": "Driven by teeth, Coccinella Septempunctata manifests a dynamic cycle through mouth and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, pain, daytime",
+        "Teeth, coldness",
+        "Teeth, pain, pulsating",
+        "Teeth, pain, air",
+        "Teeth, pain, extending",
+        "Teeth, pain, drawing",
+        "Teeth, pain, jerking"
+      ],
+      "generalizations": [
+        "teeth",
+        "daytime",
+        "coldness",
+        "pulsating",
+        "extending"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, coldness, sensation of",
+        "Mouth, coldness, sensation of, icy",
+        "Mouth, cold",
+        "Mouth, coldness"
+      ],
+      "generalizations": [
+        "mouth",
+        "coldness",
+        "cold"
+      ],
+      "next_segment": "Dental state"
+    }
+  ]
+}

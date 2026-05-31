@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cygnus Bewickii",
+  "remedy_abbrev": "Cygnus-b.",
+  "sentence": "Driven by mind, Cygnus Bewickii manifests a dynamic cycle through sleep and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental anger",
+      "description": "The remedy's dominant mental pattern: anger. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, quiet, quiet disposition",
+        "Mind, restlessness, night",
+        "Mind, quiet",
+        "Mind, restlessness",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "quiet",
+        "restlessness",
+        "irritability",
+        "disposition"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, sleeplessness",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, anxious",
+        "Sleep, dreams, men",
+        "Sleep, dreams, nightmare",
+        "Sleep, dreams, vivid",
+        "Sleep, unrefreshing"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleepiness",
+        "sleeplessness",
+        "amorous"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, contraction, muscles and tendons, of",
+        "Extremities, contraction",
+        "Extremities, contraction, foot",
+        "Extremities, eruption",
+        "Extremities, itching"
+      ],
+      "generalizations": [
+        "extremities",
+        "contraction",
+        "stiffness",
+        "restlessness",
+        "muscles"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, morning",
+        "Generalities, numbness, externally",
+        "Generalities, numbness",
+        "Generalities, heat",
+        "Generalities, air, open, amel.",
+        "Generalities, rubbing, amel.",
+        "Generalities, waking, on agg.",
+        "Generalities, air"
+      ],
+      "generalizations": [
+        "generalities",
+        "numbness",
+        "amel",
+        "externally",
+        "heat"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, discharge, clear",
+        "Nose, discharge, thick",
+        "Nose, pain, in",
+        "Nose, discharge",
+        "Nose, pain",
+        "Nose, pain, burning, smarting",
+        "Nose, pain, burning",
+        "Nose, discharge, white"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "burning",
+        "clear",
+        "thick"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, desires, meat",
+        "Appetite, ravenous",
+        "Appetite, desires",
+        "Appetite, desires, alcoholic drinks",
+        "Appetite, desires, juicy things",
+        "Appetite, desires, coffee",
+        "Appetite, desires, lemonade"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "increased",
+        "hunger",
+        "general"
+      ],
+      "next_segment": "Mental anger"
+    }
+  ]
+}

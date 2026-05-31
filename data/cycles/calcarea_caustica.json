@@ -1,0 +1,142 @@
+{
+  "remedy_name": "Calcarea Caustica",
+  "remedy_abbrev": "Calc-caust.",
+  "sentence": "Driven by back, Calcarea Caustica manifests a dynamic cycle through limb disturbance and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, cervical region",
+        "Back, pain, tearing",
+        "Back, pain, tearing, coccyx",
+        "Back, pain, aching",
+        "Back, coccyx",
+        "Back, pain, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "region",
+        "tearing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, foot",
+        "Extremities, pain, stitching, hip",
+        "Extremities, pain, stitching, knee",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "stitching",
+        "tearing",
+        "paralysis",
+        "foot"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, green",
+        "Mouth, discoloration, tongue, greenish, yellow",
+        "Mouth, discoloration, tongue, greenish",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "greenish",
+        "green"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, pain, pressing",
+        "Ear, pain, stitching, in",
+        "Ear, pain, tearing in",
+        "Ear, pain, tearing in, behind the ear",
+        "Ear, pain, tearing in, behind the ear, right",
+        "Ear, pain, bursting sensation",
+        "Ear, pain, stitching, in, extending"
+      ],
+      "generalizations": [
+        "tearing",
+        "stitching",
+        "behind",
+        "pressing",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, boring",
+        "Head, pain, boring, forehead",
+        "Head, pain, boring, forehead, eyes, over",
+        "Head, pain, beer, from",
+        "Head, pain, beer",
+        "Head, pain, frowning",
+        "Head, pain, frowning, amel."
+      ],
+      "generalizations": [
+        "head",
+        "boring",
+        "forehead",
+        "beer",
+        "frowning"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), tearing",
+        "Face, pain (aching, prosopalgia, etc.), tearing, cheek bones",
+        "Face, pain (aching, prosopalgia, etc.), tearing, cheek bones, right",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "tearing",
+        "cheek"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

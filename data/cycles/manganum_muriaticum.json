@@ -1,0 +1,97 @@
+{
+  "remedy_name": "Manganum Muriaticum",
+  "remedy_abbrev": "Mang-m.",
+  "sentence": "Driven by limb expression, Manganum Muriaticum manifests a dynamic cycle through stomach and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, pressing",
+        "Extremities, pain, pressing, foot",
+        "Extremities, weakness",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, knee",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "pressing",
+        "aching",
+        "drawing",
+        "foot"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, pain, pressing, pressure agg.",
+        "Stomach, pain, jar of walking agg."
+      ],
+      "generalizations": [
+        "stomach",
+        "pressing",
+        "pressure",
+        "walking"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, tension",
+        "Abdomen, tension, hypochondria",
+        "Abdomen, hypochondrium",
+        "Abdomen, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "tension",
+        "hypochondria",
+        "hypochondrium"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, boring",
+        "Head, pain, boring, sides"
+      ],
+      "generalizations": [
+        "head",
+        "boring",
+        "sides"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, stooping, on agg.",
+        "Vertigo, stooping"
+      ],
+      "generalizations": [
+        "vertigo",
+        "stooping"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

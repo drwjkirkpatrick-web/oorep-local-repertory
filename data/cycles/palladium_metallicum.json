@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Palladium Metallicum",
+  "remedy_abbrev": "Pall.",
+  "sentence": "Driven by limb expression, Palladium Metallicum manifests a dynamic cycle through genitalia female and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, formication",
+        "Extremities, formication, thigh",
+        "Extremities, jerking",
+        "Extremities, numbness, forearm"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "formication",
+        "hands"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, ovaries",
+        "Genitalia female, prolapse, uterus",
+        "Genitalia female, pain, ovaries, animated conversation",
+        "Genitalia female, pain, ovaries, society, from",
+        "Genitalia female, uterus",
+        "Genitalia female, ovaries",
+        "Genitalia female, prolapse"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "ovaries",
+        "prolapse",
+        "uterus"
+      ],
+      "next_segment": "Mental anger"
+    },
+    {
+      "name": "Mental anger",
+      "description": "The remedy's dominant mental pattern: anger. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, weeping",
+        "Mind, weeping, tearful mood, etc.",
+        "Mind, contemptuous",
+        "Mind, delusions, neglected, that he is",
+        "Mind, mortification, ailments after",
+        "Mind, mocking",
+        "Mind, mortification"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "weeping",
+        "mortification",
+        "tearful"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, sore, hypogastrium",
+        "Abdomen, heaviness",
+        "Abdomen, pain, dragging, bearing down",
+        "Abdomen, pain, dragging"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sore",
+        "dragging",
+        "bruised",
+        "tenderness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, sleep",
+        "Head, pain, occiput, sleep, after",
+        "Head, pain, occiput, sleep",
+        "Head, pain, sleep, after",
+        "Head, pain, sleep, after, amel.",
+        "Head, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "sleep",
+        "occiput",
+        "after",
+        "amel"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, weakness",
+        "Back, weakness, lumbar region",
+        "Back, lumbar region",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, formication",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "weakness",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

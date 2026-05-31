@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Alumen",
+  "remedy_abbrev": "Alumn.",
+  "sentence": "Driven by limb expression, Alumen manifests a dynamic cycle through head and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, tingling",
+        "Extremities, constriction",
+        "Extremities, cramps, foot",
+        "Extremities, cramps, foot, sole",
+        "Extremities, numbness, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "numbness",
+        "foot",
+        "tingling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, pain, vertex",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "vertex",
+        "pressing",
+        "heat"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, vomiting",
+        "Stomach, eructations, waterbrash",
+        "Stomach, heat, flushes",
+        "Stomach, vomiting, alcoholics, of",
+        "Stomach, eructations, water",
+        "Stomach, heat",
+        "Stomach, pain"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "vomiting",
+        "heat",
+        "waterbrash"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, inflammation",
+        "Throat, inflammation, tonsils",
+        "Throat, tonsils",
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, choking",
+        "Throat, swallowing, difficult",
+        "Throat, swallowing, impossible"
+      ],
+      "generalizations": [
+        "throat",
+        "inflammation",
+        "tonsils",
+        "swallowing",
+        "burning"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, voice, lost",
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, tickling in the air passages",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, catarrh",
+        "Larynx and trachea, constriction"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "voice",
+        "irritation",
+        "tickling"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, gnawing",
+        "Back, pain, gnawing, lumbar region",
+        "Back, lumbar region",
+        "Back, coldness",
+        "Back, coldness, extending, down back",
+        "Back, pain, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "gnawing",
+        "lumbar"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

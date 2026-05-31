@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Asparagus Officinalis",
+  "remedy_abbrev": "Aspar.",
+  "sentence": "Driven by urine, Asparagus Officinalis manifests a dynamic cycle through chest and urethra, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, copious (increased)",
+        "Urine, odor",
+        "Urine, color",
+        "Urine, color, brown",
+        "Urine, scanty",
+        "Urine, sediment",
+        "Urine, sediment, sand",
+        "Urine, sediment, sand, red (brick-dust)"
+      ],
+      "generalizations": [
+        "urine",
+        "sediment",
+        "color",
+        "sand",
+        "copious"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, dropsy",
+        "Chest, pain",
+        "Chest, fullness",
+        "Chest, pain, clavicle",
+        "Chest, pain, clavicle, below",
+        "Chest, clavicles",
+        "Chest, oppression",
+        "Chest, hemorrhage"
+      ],
+      "generalizations": [
+        "chest",
+        "clavicle",
+        "dropsy",
+        "fullness",
+        "below"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, stitching",
+        "Urethra, pain, stitching, meatus",
+        "Urethra, meatus",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination",
+        "Urethra, pain, stitching, fine",
+        "Urethra, sensation, urine, remained in, after urinating as if some"
+      ],
+      "generalizations": [
+        "urethra",
+        "stitching",
+        "meatus",
+        "burning",
+        "urination"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, coryza, discharge",
+        "Nose, discharge",
+        "Nose, discharge, white",
+        "Nose, catarrh",
+        "Nose, discharge, copious",
+        "Nose, pain, in"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "coryza",
+        "fluent",
+        "white"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, upper limbs, extending, downward",
+        "Extremities, pain, upper limbs, extending",
+        "Extremities, cramps",
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, cramps, calf"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "extending",
+        "cramps"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, pulse, slow",
+        "Heart & Circulation, pulse, weak",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pulse, irregular",
+        "Heart & Circulation, palpitation, sitting, while agg.",
+        "Heart & Circulation, palpitation, sitting",
+        "Heart & Circulation, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "palpitation",
+        "sitting"
+      ],
+      "next_segment": "Urine character"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Camphora Officinalis",
+  "remedy_abbrev": "Camph.",
+  "sentence": "Driven by limb expression, Camphora Officinalis manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, coldness, foot, icy cold",
+        "Extremities, coldness, diarrhea, with",
+        "Extremities, coldness, warm bed unendurable, yet",
+        "Extremities, paralysis",
+        "Extremities, convulsion"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "hands",
+        "cold"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, fear",
+        "Mind, anxiety",
+        "Mind, anxiety, chill, during",
+        "Mind, speech, shrieking",
+        "Mind, anxiety, chill",
+        "Mind, fear, night"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "restlessness",
+        "fear",
+        "chill"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, collapse",
+        "Generalities, heat",
+        "Generalities, anxiety general physical",
+        "Generalities, cold, air agg.",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "sore",
+        "bruised",
+        "weakness",
+        "collapse"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pulsating",
+        "Head, pulsating, occiput",
+        "Head, pulsating, occiput, standing amel.",
+        "Head, occiput",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "pulsating",
+        "occiput",
+        "congestion",
+        "standing"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, trembling, tongue",
+        "Mouth, cold, tongue",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, cold breath",
+        "Mouth, coldness, sensation of",
+        "Mouth, coldness, sensation of, tongue",
+        "Mouth, flabby tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "cold",
+        "dryness",
+        "coldness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, coldness",
+        "Abdomen, heat",
+        "Abdomen, inflammation, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inflammation",
+        "burning",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

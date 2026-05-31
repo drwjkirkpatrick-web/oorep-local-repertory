@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Sulphuricum",
+  "remedy_abbrev": "Kali-s.",
+  "sentence": "Driven by limb expression, Kalium Sulphuricum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, eruption",
+        "Extremities, pain, hip",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, stitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "eruption",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, forehead, in",
+        "Head, hair",
+        "Head, pain, forehead",
+        "Head, pain, evening agg.",
+        "Head, pain, stitching"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "forehead",
+        "crusts",
+        "scabs"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, anxiety",
+        "Mind, anger, irascibility",
+        "Mind, anger",
+        "Mind, anxiety, air",
+        "Mind, anxiety, air, in open, amel.",
+        "Mind, anxiety, warmth, from agg.",
+        "Mind, anxiety, warmth"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "anger",
+        "warmth",
+        "irritability"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, heat",
+        "Generalities, air, open, desire for",
+        "Generalities, heated, becoming",
+        "Generalities, motion, amel.",
+        "Generalities, pain, stitching, externally",
+        "Generalities, pain, stitching, internally",
+        "Generalities, pain, tearing, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "stitching",
+        "externally",
+        "heat",
+        "open"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, desquamating",
+        "Skin, ulcers",
+        "Skin, eruptions, scaly",
+        "Skin, eruptions, scabies",
+        "Skin, eruptions, scaly, yellow",
+        "Skin, eruptions, herpetic",
+        "Skin, burning"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "scaly",
+        "desquamating",
+        "ulcers"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, sour",
+        "Stomach, pain",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, heaviness",
+        "Stomach, nausea",
+        "Stomach, eructations, ameliorate",
+        "Stomach, retching"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "heaviness",
+        "sour",
+        "weight"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

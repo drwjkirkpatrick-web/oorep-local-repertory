@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Eupionum",
+  "remedy_abbrev": "Eupi.",
+  "sentence": "Driven by limb expression, Eupionum manifests a dynamic cycle through abdomen and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, cramps, calf",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, forearm",
+        "Extremities, cramps, calf, night",
+        "Extremities, cramps, calf, bed, in",
+        "Extremities, night"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "calf",
+        "stitching",
+        "forearm"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, sides",
+        "Abdomen, pain, cutting, menses",
+        "Abdomen, pain, cutting, menses, during",
+        "Abdomen, pain, sides, left",
+        "Abdomen, pain, sides, left, above crest of ilium",
+        "Abdomen, rumbling"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "sides",
+        "menses",
+        "left"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, extending",
+        "Head, fullness",
+        "Head, fullness, forehead",
+        "Head, heat, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "fullness",
+        "forehead",
+        "headache"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, broken, as if",
+        "Back, pain, broken, as if, sacrum",
+        "Back, pain, rising, stooping",
+        "Back, pain, rising",
+        "Back, pain, extending",
+        "Back, pain, extending, pelvis",
+        "Back, sacrum"
+      ],
+      "generalizations": [
+        "back",
+        "broken",
+        "sacrum",
+        "rising",
+        "extending"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, menses",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, copious",
+        "Genitalia female, leucorrhea, yellow",
+        "Genitalia female, menses, copious",
+        "Genitalia female, pain, burning",
+        "Genitalia female, pain, burning, urinating, while"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "leucorrhea",
+        "menses",
+        "copious"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, night, midnight, before",
+        "Sleep, sleeplessness, night",
+        "Sleep, sleeplessness, night, midnight",
+        "Sleep, sleeplessness, night, midnight, before, until",
+        "Sleep, dreams, anxious"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness",
+        "midnight",
+        "before",
+        "sleepiness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

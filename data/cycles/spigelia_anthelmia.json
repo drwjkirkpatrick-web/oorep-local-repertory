@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Spigelia Anthelmia",
+  "remedy_abbrev": "Spig.",
+  "sentence": "Driven by head, Spigelia Anthelmia manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, forehead",
+        "Head, pain, stooping",
+        "Head, looseness of brain, sensation of",
+        "Head, looseness of brain, walking, while"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "stooping",
+        "looseness",
+        "brain"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, morning",
+        "Generalities, pain, pressing",
+        "Generalities, formication",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, becoming, after, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "cold",
+        "internally",
+        "pressing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, joints",
+        "Extremities, pain, tearing",
+        "Extremities, coldness",
+        "Extremities, coldness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "joints",
+        "stitching",
+        "coldness",
+        "rheumatic"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, trembling, heart",
+        "Heart & Circulation, inflammation, heart",
+        "Heart & Circulation, inflammation, heart, endocardium",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, affections of, heart",
+        "Heart & Circulation, inflammation, heart, pericardium",
+        "Heart & Circulation, oppression, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "inflammation",
+        "palpitation",
+        "trembling"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, frightened",
+        "Mind, talking",
+        "Mind, chaotic",
+        "Mind, comprehension",
+        "Mind, comprehension, difficult",
+        "Mind, fright",
+        "Mind, talking, agg.",
+        "Mind, irritability"
+      ],
+      "generalizations": [
+        "mind",
+        "talking",
+        "comprehension",
+        "frightened",
+        "chaotic"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), left",
+        "Face, pain (aching, prosopalgia, etc.), motion agg.",
+        "Face, pain (aching, prosopalgia, etc.), noise agg.",
+        "Face, pain (aching, prosopalgia, etc.), motion",
+        "Face, pain (aching, prosopalgia, etc.), tearing",
+        "Face, pain (aching, prosopalgia, etc.), tearing, jaw, lower",
+        "Face, pain (aching, prosopalgia, etc.), tearing, jaw"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "tearing",
+        "motion"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

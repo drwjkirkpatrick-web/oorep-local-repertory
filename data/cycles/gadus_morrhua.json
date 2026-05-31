@@ -1,0 +1,66 @@
+{
+  "remedy_name": "Gadus Morrhua",
+  "remedy_abbrev": "Gad.",
+  "sentence": "Driven by limb expression, Gadus Morrhua manifests a dynamic cycle through ear and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, heat, hand, palm",
+        "Extremities, coldness, hip",
+        "Extremities, heat, hand, palm, dry heat",
+        "Extremities, palms",
+        "Extremities, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "hand",
+        "coldness",
+        "palm"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, noises",
+        "Ear, pain, noises, from",
+        "Ear, noises, tick-tack sound",
+        "Ear, pain, noises"
+      ],
+      "generalizations": [
+        "noises",
+        "tick",
+        "tack",
+        "sound"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, tearing"
+      ],
+      "generalizations": [
+        "back",
+        "tearing"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

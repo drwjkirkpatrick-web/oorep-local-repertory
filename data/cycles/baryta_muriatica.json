@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Baryta Muriatica",
+  "remedy_abbrev": "Bar-m.",
+  "sentence": "Driven by constitutional vulnerability, Baryta Muriatica manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, indurations",
+        "Generalities, indurations, glands",
+        "Generalities, indurations, glands, knotty like ropes",
+        "Generalities, faintness, fainting",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "indurations",
+        "glands",
+        "faintness",
+        "weakness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, swelling, lower limbs",
+        "Extremities, weakness",
+        "Extremities, heat"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "swelling",
+        "hands",
+        "cramps"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, insanity",
+        "Mind, imbecility",
+        "Mind, insanity, erotic",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "insanity",
+        "sadness",
+        "sluggishness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, perspiration",
+        "Head, pain, stitching",
+        "Head, perspiration scalp",
+        "Head, eruption, eczema",
+        "Head, eruption, moist",
+        "Head, ulcers"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "perspiration",
+        "stitching",
+        "scalp"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, swelling",
+        "Face, inflammation",
+        "Face, swelling, parotid gland",
+        "Face, pain (aching, prosopalgia, etc.), submaxillary gland",
+        "Face, swelling, submaxillary glands",
+        "Face, indurations",
+        "Face, swelling, parotid gland, hard"
+      ],
+      "generalizations": [
+        "face",
+        "swelling",
+        "gland",
+        "aching",
+        "prosopalgia"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, hard",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, swelling, liver",
+        "Abdomen, pain, stool",
+        "Abdomen, swelling"
+      ],
+      "generalizations": [
+        "abdomen",
+        "swelling",
+        "hard",
+        "distension",
+        "cramping"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

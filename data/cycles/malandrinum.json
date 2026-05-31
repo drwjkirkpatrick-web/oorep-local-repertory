@@ -1,0 +1,62 @@
+{
+  "remedy_name": "Malandrinum",
+  "remedy_abbrev": "Maland.",
+  "sentence": "Driven by limb expression, Malandrinum manifests a dynamic cycle through general state and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, hand, back of",
+        "Extremities, eruption, hand, back of, psoriasis, chronic",
+        "Extremities, cracks skin, hands",
+        "Extremities, cracks skin",
+        "Extremities, emaciation",
+        "Extremities, emaciation, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "hand",
+        "back",
+        "cracks"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, vaccination, after"
+      ],
+      "generalizations": [
+        "generalities",
+        "vaccination",
+        "after"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, rupia"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "rupia"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

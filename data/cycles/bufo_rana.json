@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Bufo Rana",
+  "remedy_abbrev": "Bufo",
+  "sentence": "Driven by limb expression, Bufo Rana manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, pain",
+        "Extremities, inflammation",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, inflammation, lymphatics of arm",
+        "Extremities, convulsion",
+        "Extremities, stiffness"
+      ],
+      "generalizations": [
+        "extremities",
+        "inflammation",
+        "lower",
+        "limbs",
+        "paralysis"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, memory, weakness of",
+        "Mind, unconsciousness",
+        "Mind, imbecility",
+        "Mind, unconsciousness, convulsions, after",
+        "Mind, unconsciousness, epilepsy, after",
+        "Mind, memory",
+        "Mind, epilepsy, after, agg.",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "unconsciousness",
+        "after",
+        "memory",
+        "epilepsy"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, vertex",
+        "Head, heat, coldness of body, with",
+        "Head, pain, lancinating",
+        "Head, pain, sides, one side"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "congestion",
+        "hyperemia",
+        "vertex"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, pain, stitching, ovaries",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, menses",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, yellow",
+        "Genitalia female, menses, scanty"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "stitching",
+        "menses",
+        "leucorrhea"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, biting, tongue",
+        "Mouth, biting",
+        "Mouth, saliva",
+        "Mouth, saliva, bloody",
+        "Mouth, tongue",
+        "Mouth, pain",
+        "Mouth, froth",
+        "Mouth, pain, burning"
+      ],
+      "generalizations": [
+        "mouth",
+        "biting",
+        "tongue",
+        "saliva",
+        "bloody"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, convulsions, consciousness, with",
+        "Clinical, convulsions, consciousness, without",
+        "Clinical, convulsions, epileptic",
+        "Clinical, convulsions, consciousness",
+        "Clinical, cancer, epithelioma",
+        "Clinical, convulsions, clonic",
+        "Clinical, convulsions, tonic"
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "consciousness",
+        "epileptic",
+        "cancer"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

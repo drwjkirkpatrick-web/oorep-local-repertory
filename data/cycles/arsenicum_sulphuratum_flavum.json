@@ -1,0 +1,124 @@
+{
+  "remedy_name": "Arsenicum Sulphuratum Flavum",
+  "remedy_abbrev": "Ars-s-f.",
+  "sentence": "Driven by mouth, Arsenicum Sulphuratum Flavum manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, tongue",
+        "Mouth, ulcers",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "dryness",
+        "swelling",
+        "discoloration"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic",
+        "Extremities, stiffness",
+        "Extremities, heat",
+        "Extremities, heat, foot",
+        "Extremities, pain, burning",
+        "Extremities, heat, foot, sole"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "joints",
+        "foot",
+        "rheumatic"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, syphilis",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, stiffness"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "syphilis",
+        "enervation",
+        "stiffness"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, syphilis",
+        "Clinical, ulcers"
+      ],
+      "generalizations": [
+        "clinical",
+        "syphilis",
+        "ulcers"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, bed, confines him to",
+        "Back, pain, aching"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "confines"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, discharge, yellow",
+        "Urethra, discharge",
+        "Urethra, discharge, gonorrheal",
+        "Urethra, discharge, profuse"
+      ],
+      "generalizations": [
+        "urethra",
+        "discharge",
+        "yellow",
+        "gonorrheal",
+        "profuse"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

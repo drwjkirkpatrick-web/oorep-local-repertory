@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mercurius Cyanatus",
+  "remedy_abbrev": "Merc-cy.",
+  "sentence": "Driven by throat, Mercurius Cyanatus manifests a dynamic cycle through mouth and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, discoloration",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, ulcers",
+        "Throat, membrane",
+        "Throat, discoloration, redness, dark red",
+        "Throat, inflammation"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "redness",
+        "membrane",
+        "exudation"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, salivation",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, ulcers",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, saliva"
+      ],
+      "generalizations": [
+        "mouth",
+        "swelling",
+        "tongue",
+        "discoloration",
+        "aphthae"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, dryness",
+        "Face, dryness, lips",
+        "Face, sensitive",
+        "Face, swelling",
+        "Face, swelling, parotid gland",
+        "Face, sensitive, submaxillary glands"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "dryness",
+        "sensitive",
+        "swelling"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, coryza",
+        "Nose, obstruction",
+        "Nose, coryza, diphtheria, during",
+        "Nose, obstruction, diphtheria, in",
+        "Nose, liquids come out through nose on attempting to swallow",
+        "Nose, epistaxis, diphtheria, in",
+        "Nose, epistaxis, diphtheria"
+      ],
+      "generalizations": [
+        "nose",
+        "diphtheria",
+        "epistaxis",
+        "coryza",
+        "obstruction"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pulse, contracted",
+        "Heart & Circulation, pulse, full",
+        "Heart & Circulation, pulse, slow",
+        "Heart & Circulation, pulse, soft",
+        "Heart & Circulation, pulse, weak",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable, rapid)",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable, rapid), and intermittent"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "frequent",
+        "accelerated"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, coldness",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, swelling, leg",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "sore",
+        "bruised",
+        "convulsion"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    }
+  ]
+}

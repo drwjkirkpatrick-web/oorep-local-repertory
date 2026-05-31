@@ -1,0 +1,105 @@
+{
+  "remedy_name": "Kaolinum",
+  "remedy_abbrev": "Kaol.",
+  "sentence": "Driven by nose, Kaolinum manifests a dynamic cycle through respiration and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, discharge",
+        "Nose, discharge, crusts, scabs, inside",
+        "Nose, discharge, crusts",
+        "Nose, discharge, blood",
+        "Nose, pain",
+        "Nose, pain, sore",
+        "Nose, pain, sore, inside",
+        "Nose, discharge, scanty"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "crusts",
+        "inside",
+        "sore"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, rough",
+        "Respiration, rough, sawing"
+      ],
+      "generalizations": [
+        "respiration",
+        "rough",
+        "sawing"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, cancer, uterus",
+        "Genitalia female, cancer",
+        "Genitalia female, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "cancer",
+        "uterus"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, suffocative"
+      ],
+      "generalizations": [
+        "cough",
+        "suffocative"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Kaolinum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "kaolinum"
+      ],
+      "next_segment": "Larynx state"
+    },
+    {
+      "name": "Larynx state",
+      "description": "Characteristic larynx symptoms.",
+      "symptoms": [
+        "larynx symptoms characteristic of Kaolinum"
+      ],
+      "generalizations": [
+        "larynx",
+        "symptoms",
+        "characteristic",
+        "kaolinum"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

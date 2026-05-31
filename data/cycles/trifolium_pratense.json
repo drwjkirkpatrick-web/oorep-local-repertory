@@ -1,0 +1,77 @@
+{
+  "remedy_name": "Trifolium Pratense",
+  "remedy_abbrev": "Trif-p.",
+  "sentence": "Driven by cough, Trifolium Pratense manifests a dynamic cycle through larynx and trachea and expectoration, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, irritation in air passages, from",
+        "Cough, irritation in air passages, from, trachea, in, from",
+        "Cough, night",
+        "Cough, air",
+        "Cough, irritation in air passages, from, bronchia",
+        "Cough, air, night",
+        "Cough, irritation in air passages"
+      ],
+      "generalizations": [
+        "cough",
+        "irritation",
+        "passages",
+        "trachea",
+        "bronchia"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, irritation, trachea",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, trachea in general"
+      ],
+      "generalizations": [
+        "trachea",
+        "larynx",
+        "irritation",
+        "general"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, copious"
+      ],
+      "generalizations": [
+        "expectoration",
+        "copious"
+      ],
+      "next_segment": "Larynx state"
+    },
+    {
+      "name": "Larynx state",
+      "description": "Characteristic larynx symptoms.",
+      "symptoms": [
+        "larynx symptoms characteristic of Trifolium Pratense"
+      ],
+      "generalizations": [
+        "larynx",
+        "symptoms",
+        "characteristic",
+        "trifolium",
+        "pratense"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

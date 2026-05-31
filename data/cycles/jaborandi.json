@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Jaborandi",
+  "remedy_abbrev": "Jab.",
+  "sentence": "Driven by eye, Jaborandi manifests a dynamic cycle through vision and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, heat in",
+        "Eye, pain, aching",
+        "Eye, pain, reading",
+        "Eye, paralysis of muscles of eyeball",
+        "Eye, paralysis of muscles of eyeball, internal recti",
+        "Eye, spasms, ciliary muscle",
+        "Eye, strabismus"
+      ],
+      "generalizations": [
+        "paralysis",
+        "muscles",
+        "eyeball",
+        "heat",
+        "aching"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, dim",
+        "Vision, weak",
+        "Vision, spots",
+        "Vision, accommodation defective",
+        "Vision, exertion, of vision, agg.",
+        "Vision, myopia",
+        "Vision, weak, using eyes agg.",
+        "Vision, spots, reading"
+      ],
+      "generalizations": [
+        "vision",
+        "weak",
+        "spots",
+        "accommodation",
+        "defective"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, perspiration, forehead",
+        "Head, pain, forehead",
+        "Head, perspiration",
+        "Head, empty, hollow sensation",
+        "Head, pain, increasing gradually",
+        "Head, pain, occiput",
+        "Head, empty"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "forehead",
+        "empty",
+        "hollow"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, nausea, looking, at moving object",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, vomiting",
+        "Stomach, hiccough",
+        "Stomach, retching",
+        "Stomach, thirst"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "looking",
+        "moving",
+        "object"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, pale",
+        "Face, heat",
+        "Face, eruptions",
+        "Face, eruptions, rash",
+        "Face, perspiration",
+        "Face, swelling"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "eruptions",
+        "pale",
+        "heat"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, collapse",
+        "Generalities, weakness, rising, on"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "faintness",
+        "fainting",
+        "enervation"
+      ],
+      "next_segment": "Visual and ocular strain"
+    }
+  ]
+}

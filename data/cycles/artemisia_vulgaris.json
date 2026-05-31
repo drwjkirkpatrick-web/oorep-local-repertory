@@ -1,0 +1,142 @@
+{
+  "remedy_name": "Artemisia Vulgaris",
+  "remedy_abbrev": "Art-v.",
+  "sentence": "Driven by clinical, Artemisia Vulgaris manifests a dynamic cycle through mind and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, chorea",
+        "Clinical, convulsions, children",
+        "Clinical, convulsions, epileptic",
+        "Clinical, paralysis",
+        "Clinical, catalepsy",
+        "Clinical, convulsions, clonic",
+        "Clinical, convulsions, fright, from"
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "chorea",
+        "children",
+        "epileptic"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, kleptomania",
+        "Mind, excitement",
+        "Mind, fright, complaints from",
+        "Mind, somnambulism",
+        "Mind, morose"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "irritability",
+        "nervousness",
+        "kleptomania"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, biting, tongue",
+        "Mouth, biting",
+        "Mouth, froth",
+        "Mouth, froth, convulsions, during",
+        "Mouth, biting, tongue, spasms in",
+        "Mouth, tongue",
+        "Mouth, froth, foam, from",
+        "Mouth, dryness"
+      ],
+      "generalizations": [
+        "mouth",
+        "biting",
+        "tongue",
+        "froth",
+        "convulsions"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, convulsion",
+        "Extremities, convulsion, one side other side paralyzed",
+        "Extremities, convulsion, right",
+        "Extremities, convulsion, right, left side, paralyzed",
+        "Extremities, jerking",
+        "Extremities, paralysis, hemiplegia",
+        "Extremities, twitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "convulsion",
+        "side",
+        "paralysis",
+        "paralyzed"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, retention of urine, children, in",
+        "Bladder, retention of urine",
+        "Bladder, retention of urine, children",
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urination, involuntary, convulsions, during",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "retention",
+        "urine",
+        "urination",
+        "children"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, staring",
+        "Eye, open",
+        "Eye, open, half open",
+        "Eye, lachrymation",
+        "Eye, turned",
+        "Eye, turned, upward"
+      ],
+      "generalizations": [
+        "open",
+        "turned",
+        "staring",
+        "half",
+        "lachrymation"
+      ],
+      "next_segment": "Clinical condition"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Tarentula Hispanica",
+  "remedy_abbrev": "Tarent.",
+  "sentence": "Driven by mind, Tarentula Hispanica manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, hysteria",
+        "Mind, insanity, madness",
+        "Mind, insanity",
+        "Mind, work",
+        "Mind, anger, violent",
+        "Mind, contrary"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "insanity",
+        "nervousness",
+        "hysteria"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, motion",
+        "Extremities, numbness",
+        "Extremities, numbness, lower limbs",
+        "Extremities, restlessness",
+        "Extremities, restlessness, hand",
+        "Extremities, formication",
+        "Extremities, itching",
+        "Extremities, restlessness, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "restlessness",
+        "numbness",
+        "motion",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, morning",
+        "Head, pain, morning, waking, on",
+        "Head, morning",
+        "Head, pain, morning, waking",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting"
+      ],
+      "generalizations": [
+        "head",
+        "waking",
+        "heaviness",
+        "forehead",
+        "shooting"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, flatulence",
+        "Abdomen, flatulence, obstructed",
+        "Abdomen, rumbling",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, pressing"
+      ],
+      "generalizations": [
+        "abdomen",
+        "flatulence",
+        "obstructed",
+        "rumbling",
+        "aching"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, vomiting",
+        "Stomach, thirst",
+        "Stomach, thirst, burning, vehement",
+        "Stomach, vomiting, eating, after agg.",
+        "Stomach, vomiting, eating",
+        "Stomach, vomiting, eating, after"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eating",
+        "eructations",
+        "thirst"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, irritability, excessive physical",
+        "Generalities, irritability",
+        "Generalities, lassitude",
+        "Generalities, motion, amel.",
+        "Generalities, motion",
+        "Generalities, reaction, lack of"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "irritability",
+        "motion",
+        "enervation"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sabadilla",
+  "remedy_abbrev": "Sabad.",
+  "sentence": "Driven by constitutional vulnerability, Sabadilla manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, night",
+        "Generalities, air, open, amel.",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg.",
+        "Generalities, cold, becoming, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "burning",
+        "internally",
+        "open"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, restlessness",
+        "Extremities, restlessness, leg",
+        "Extremities, restlessness, leg, heat, during",
+        "Extremities, coldness",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness"
+      ],
+      "generalizations": [
+        "extremities",
+        "restlessness",
+        "heaviness",
+        "heat",
+        "during"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, right, extending to left side",
+        "Head, pain, forehead",
+        "Head, pain, forehead, right",
+        "Head, pain, sides",
+        "Head, pain, sides, right",
+        "Head, forehead",
+        "Head, heat"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "right",
+        "sides",
+        "extending"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, delusions",
+        "Mind, delusions, body",
+        "Mind, insanity, alternating mental with physical symptoms",
+        "Mind, delusions, abdomen is fallen in, his stomach devoured, his scrotum swollen",
+        "Mind, delusions, body, erroneous ideas as to the state of his",
+        "Mind, delusions, imaginations, hallucinations",
+        "Mind, delusions, imaginations"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "imaginations",
+        "hallucinations",
+        "body"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, pain, burrowing",
+        "Abdomen, walls of abdomen (muscles, etc.)",
+        "Abdomen, foreign body, sensation of",
+        "Abdomen, worms, from, agg.",
+        "Abdomen, constriction",
+        "Abdomen, constriction, contraction",
+        "Abdomen, foreign body"
+      ],
+      "generalizations": [
+        "abdomen",
+        "constriction",
+        "contraction",
+        "foreign",
+        "body"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore, sacral region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, sore",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "sore",
+        "sacral"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

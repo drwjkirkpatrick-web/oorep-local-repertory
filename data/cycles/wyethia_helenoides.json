@@ -1,0 +1,137 @@
+{
+  "remedy_name": "Wyethia Helenoides",
+  "remedy_abbrev": "Wye.",
+  "sentence": "Driven by nose, Wyethia Helenoides manifests a dynamic cycle through throat and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, dryness, inside",
+        "Nose, dryness, posterior nares",
+        "Nose, dryness",
+        "Nose, itching",
+        "Nose, itching, inside",
+        "Nose, coryza, annual (hay fever)",
+        "Nose, itching, inside, posterior nares"
+      ],
+      "generalizations": [
+        "nose",
+        "dryness",
+        "inside",
+        "itching",
+        "coryza"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, swallowing, difficult",
+        "Throat, swallowing",
+        "Throat, swelling",
+        "Throat, itching",
+        "Throat, swallow",
+        "Throat, dryness",
+        "Throat, heat",
+        "Throat, swollen sensation"
+      ],
+      "generalizations": [
+        "throat",
+        "swallowing",
+        "difficult",
+        "swelling",
+        "itching"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, pain, stitching, ovaries",
+        "Genitalia female, pain, ovaries",
+        "Genitalia female, pain, ovaries, left",
+        "Genitalia female, pain, ovaries, extending",
+        "Genitalia female, pain, ovaries, extending, thighs",
+        "Genitalia female, pain, stitching, ovaries, extending"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "ovaries",
+        "stitching",
+        "extending"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, itching",
+        "Mouth, itching, palate",
+        "Mouth, palate"
+      ],
+      "generalizations": [
+        "mouth",
+        "itching",
+        "palate"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, pain, upper limbs",
+        "Extremities, stiffness, hand",
+        "Extremities, stiffness, wrist",
+        "Extremities, upper limbs",
+        "Extremities, wrist"
+      ],
+      "generalizations": [
+        "extremities",
+        "stiffness",
+        "upper",
+        "limbs",
+        "wrist"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, dryness",
+        "Larynx and trachea, pain, burning",
+        "Larynx and trachea, pain, burning, larynx",
+        "Larynx and trachea, pain",
+        "Larynx and trachea, dryness, epiglottis",
+        "Larynx and trachea, pain, burning, larynx, epiglottis",
+        "Larynx and trachea, larynx in general",
+        "Larynx and trachea, epiglottis"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "burning",
+        "epiglottis",
+        "dryness"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

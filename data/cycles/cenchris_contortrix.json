@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cenchris Contortrix",
+  "remedy_abbrev": "Cench.",
+  "sentence": "Driven by mind, Cenchris Contortrix manifests a dynamic cycle through respiration and heart & circulation, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, suspicious",
+        "Mind, death",
+        "Mind, delusions",
+        "Mind, anxiety",
+        "Mind, anxiety, evening agg.",
+        "Mind, anxiety, night",
+        "Mind, death, presentiment of",
+        "Mind, quarrelsome"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "death",
+        "suspicious",
+        "delusions"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, arrested",
+        "Respiration, difficult, sleep, during",
+        "Respiration, difficult, sleep",
+        "Respiration, arrested, sleep, during",
+        "Respiration, arrested, sleep",
+        "Respiration, difficult, night, during",
+        "Respiration, difficult, night"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "sleep",
+        "arrested",
+        "during"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, anxiety, heart, region of",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, heart, extending",
+        "Heart & Circulation, pain, heart, extending, to",
+        "Heart & Circulation, pain, heart, extending, to, back",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pain",
+        "Heart & Circulation, anxiety, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "extending",
+        "anxiety",
+        "region"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, swelling",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, swelling, leg",
+        "Extremities, swelling, lower limbs",
+        "Extremities, swelling, lower limbs, dropsical",
+        "Extremities, coldness, nates"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "coldness",
+        "foot",
+        "lower"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, loose",
+        "Cough, hacking",
+        "Cough, hoarse",
+        "Cough, irritation in air passages, from",
+        "Cough, night",
+        "Cough, air"
+      ],
+      "generalizations": [
+        "cough",
+        "loose",
+        "hacking",
+        "hoarse",
+        "irritation"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, anxiety",
+        "Chest, anxiety, in",
+        "Chest, fluttering",
+        "Chest, fullness",
+        "Chest, pain, pressing",
+        "Chest, pain, sore",
+        "Chest, anxiety, lying, while"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety",
+        "fluttering",
+        "fullness",
+        "pressing"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

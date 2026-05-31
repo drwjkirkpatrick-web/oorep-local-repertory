@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Jatropha Curcas",
+  "remedy_abbrev": "Jatr.",
+  "sentence": "Driven by limb expression, Jatropha Curcas manifests a dynamic cycle through stomach and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, convulsion, leg",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, cramps, calf",
+        "Extremities, cramps, foot",
+        "Extremities, twitching",
+        "Extremities, cramps, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "convulsion",
+        "calf",
+        "foot"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, pregnancy, during",
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, hiccough",
+        "Stomach, anxiety",
+        "Stomach, nausea, pregnancy, during",
+        "Stomach, pain, cramping, griping, constricting"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "pregnancy",
+        "during",
+        "nausea"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, rumbling, stool, after",
+        "Abdomen, rumbling, stool",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, stool, before",
+        "Abdomen, pain, cramping, griping, stool"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stool",
+        "rumbling",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, temples",
+        "Head, temples",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "congestion",
+        "heat",
+        "headache"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, indifference, apathy, etc."
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "anxiety",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, heat",
+        "Mouth, pain",
+        "Mouth, dryness",
+        "Mouth, pain, burning, raw and smarting",
+        "Mouth, pain, burning, tongue",
+        "Mouth, pain, tongue",
+        "Mouth, saliva, viscid",
+        "Mouth, salivation"
+      ],
+      "generalizations": [
+        "mouth",
+        "burning",
+        "tongue",
+        "heat",
+        "dryness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

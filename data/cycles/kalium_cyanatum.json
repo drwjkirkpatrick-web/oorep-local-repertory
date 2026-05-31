@@ -1,0 +1,139 @@
+{
+  "remedy_name": "Kalium Cyanatum",
+  "remedy_abbrev": "Kali-cy.",
+  "sentence": "Driven by limb expression, Kalium Cyanatum manifests a dynamic cycle through eye and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, contraction",
+        "Extremities, eruption",
+        "Extremities, perspiration",
+        "Extremities, perspiration, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "heaviness",
+        "perspiration",
+        "lower"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, staring",
+        "Eye, turned",
+        "Eye, turned, upward",
+        "Eye, movement, eyeballs, constant",
+        "Eye, movement, eyeballs, constant, convulsive",
+        "Eye, tension",
+        "Eye, tension, canthi, internal",
+        "Eye, canthi"
+      ],
+      "generalizations": [
+        "turned",
+        "movement",
+        "eyeballs",
+        "constant",
+        "tension"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, pain, forehead, walking in open air, while agg.",
+        "Head, pain, forehead, walking in open air",
+        "Head, pain, forehead, walking",
+        "Head, pain, forehead, afternoon",
+        "Head, pain, vertex, forenoon"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "walking",
+        "vertex",
+        "open"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, sleeplessness",
+        "Sleep, dreams, vivid",
+        "Sleep, dreams",
+        "Sleep, sleepiness, evening",
+        "Sleep, sleepiness, evening, 8 p.m.",
+        "Sleep, dreams, exciting",
+        "Sleep, evening"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleepiness",
+        "dreams",
+        "sleeplessness",
+        "vivid"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, weakness",
+        "Back, weakness, lumbar region",
+        "Back, cervix",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "weakness",
+        "lumbar",
+        "cervical"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, anxiety, in",
+        "Chest, anxiety",
+        "Chest, pain, forenoon",
+        "Chest, pain, forenoon, 10 a.m.",
+        "Chest, forenoon"
+      ],
+      "generalizations": [
+        "chest",
+        "forenoon",
+        "anxiety"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

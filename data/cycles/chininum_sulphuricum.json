@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chininum Sulphuricum",
+  "remedy_abbrev": "Chin-s.",
+  "sentence": "Driven by limb expression, Chininum Sulphuricum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, fullness",
+        "Extremities, fullness, leg",
+        "Extremities, pain, lower limbs, sciatica, touch agg.",
+        "Extremities, fullness, leg, fever, during",
+        "Extremities, coldness"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "fullness",
+        "sciatica"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, pulsating",
+        "Head, pulsating, beating, throbbing",
+        "Head, pulsating",
+        "Head, pain, periodic headache",
+        "Head, pain, periodic",
+        "Head, distension, blood vessels"
+      ],
+      "generalizations": [
+        "head",
+        "pulsating",
+        "headache",
+        "periodic",
+        "general"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, anxiety",
+        "Mind, anxiety, future, about",
+        "Mind, fear, evil of",
+        "Mind, fear, misfortune, of",
+        "Mind, sensitive, oversensitive",
+        "Mind, sensitive",
+        "Mind, fear, misfortune"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "anxiety",
+        "misfortune",
+        "sensitive"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, heaviness, eating, after",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, pressing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, heaviness",
+        "Stomach, heaviness, eating",
+        "Stomach, pain, eating"
+      ],
+      "generalizations": [
+        "stomach",
+        "eating",
+        "heaviness",
+        "after",
+        "pressing"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, pain, spleen",
+        "Abdomen, pain, spleen, chill, during",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, cutting",
+        "Abdomen, flatulence"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "chill",
+        "during",
+        "distension"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, expression",
+        "Face, heat",
+        "Face, expression, anxious",
+        "Face, heat, headache, with",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, lips"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "expression",
+        "heat",
+        "bluish"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

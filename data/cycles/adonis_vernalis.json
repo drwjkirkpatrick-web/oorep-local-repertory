@@ -1,0 +1,116 @@
+{
+  "remedy_name": "Adonis Vernalis",
+  "remedy_abbrev": "Adon.",
+  "sentence": "Driven by back, Adonis Vernalis manifests a dynamic cycle through appetite and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, tearing",
+        "Back, pain, tearing, dorsal region",
+        "Back, stiffness",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, stiffness, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "tearing",
+        "stiffness"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, ravenous",
+        "Appetite, satiety",
+        "Appetite, satiety, few bites, after"
+      ],
+      "generalizations": [
+        "appetite",
+        "satiety",
+        "increased",
+        "hunger",
+        "general"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, stiffness",
+        "Generalities, restlessness",
+        "Generalities, stool, after, amel.",
+        "Generalities, stool, agg.",
+        "Generalities, stool"
+      ],
+      "generalizations": [
+        "generalities",
+        "stool",
+        "stiffness",
+        "restlessness",
+        "after"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pulse, irregular"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "irregular"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, discontented",
+        "Mind, discontented, everything, with"
+      ],
+      "generalizations": [
+        "mind",
+        "discontented",
+        "everything"
+      ],
+      "next_segment": "Heart state"
+    },
+    {
+      "name": "Heart state",
+      "description": "Characteristic heart symptoms.",
+      "symptoms": [
+        "heart symptoms characteristic of Adonis Vernalis"
+      ],
+      "generalizations": [
+        "heart",
+        "symptoms",
+        "characteristic",
+        "adonis",
+        "vernalis"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "remedy_name": "Aranea Scinencia",
+  "remedy_abbrev": "Aran-s.",
+  "sentence": "Driven by heart & circulation, Aranea Scinencia manifests a dynamic cycle through stomach and vertigo, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, palpitation, waking, on",
+        "Heart & Circulation, palpitation, waking",
+        "Heart & Circulation, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "waking"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, sour"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "sour"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, stooping, on agg.",
+        "Vertigo, stooping"
+      ],
+      "generalizations": [
+        "vertigo",
+        "stooping"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "chest symptoms characteristic of Aranea Scinencia"
+      ],
+      "generalizations": [
+        "chest",
+        "symptoms",
+        "characteristic",
+        "aranea",
+        "scinencia"
+      ],
+      "next_segment": "Heart state"
+    },
+    {
+      "name": "Heart state",
+      "description": "Characteristic heart symptoms.",
+      "symptoms": [
+        "heart symptoms characteristic of Aranea Scinencia"
+      ],
+      "generalizations": [
+        "heart",
+        "symptoms",
+        "characteristic",
+        "aranea",
+        "scinencia"
+      ],
+      "next_segment": "Cardiac rhythm"
+    }
+  ]
+}

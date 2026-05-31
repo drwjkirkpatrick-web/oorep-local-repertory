@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Robinia Pseudacacia",
+  "remedy_abbrev": "Rob.",
+  "sentence": "Driven by stomach, Robinia Pseudacacia manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour",
+        "Stomach, thirst",
+        "Stomach, thirst, extreme",
+        "Stomach, vomiting, sour",
+        "Stomach, vomiting, water",
+        "Stomach, pain"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eructations",
+        "sour",
+        "thirst"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, memory, weakness of",
+        "Mind, death",
+        "Mind, weeping",
+        "Mind, anxiety",
+        "Mind, lamenting, bemoaning, wailing etc."
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "mental",
+        "depression",
+        "fear"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, sides, one side",
+        "Head, pain, sides",
+        "Head, pain, gastric",
+        "Head, pain, forehead",
+        "Head, boiling water, as of",
+        "Head, bubbling sensation is",
+        "Head, looseness of brain, sensation of"
+      ],
+      "generalizations": [
+        "head",
+        "sides",
+        "side",
+        "gastric",
+        "forehead"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, falling asleep",
+        "Sleep, deep",
+        "Sleep, deep, heat, during",
+        "Sleep, sleepiness, heat, during the",
+        "Sleep, falling asleep, heat, during",
+        "Sleep, heat, during, in intermittent",
+        "Sleep, restless"
+      ],
+      "generalizations": [
+        "sleep",
+        "heat",
+        "during",
+        "sleepiness",
+        "falling"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, cramps",
+        "Extremities, coldness, foot",
+        "Extremities, motion",
+        "Extremities, pain",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "sore",
+        "bruised",
+        "hands"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, fever, during",
+        "Generalities, weakness, fever",
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "fever",
+        "faintness",
+        "burning"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

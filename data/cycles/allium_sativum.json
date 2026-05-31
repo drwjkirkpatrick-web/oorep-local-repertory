@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Allium Sativum",
+  "remedy_abbrev": "All-s.",
+  "sentence": "Driven by limb expression, Allium Sativum manifests a dynamic cycle through back and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, stiffness",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, tingling"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "lower",
+        "limbs",
+        "weakness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, cervical region",
+        "Back, pain, cutting",
+        "Back, pain, drawing",
+        "Back, pain, drawing, cervical region",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "cervical",
+        "drawing",
+        "sacral"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, occiput, morning",
+        "Head, pain, occiput, morning, bed",
+        "Head, pain, occiput, morning, bed, lying on back",
+        "Head, morning",
+        "Head, occiput",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "lying",
+        "back",
+        "heaviness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, indigestion (includes complaints after substances not otherwise described)",
+        "Stomach, indigestion (includes complaints after substances not otherwise described), bad water, after",
+        "Stomach, eructations",
+        "Stomach, pain, burning",
+        "Stomach, heaviness, weight, oppression"
+      ],
+      "generalizations": [
+        "stomach",
+        "after",
+        "indigestion",
+        "includes",
+        "complaints"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, salivation",
+        "Mouth, saliva",
+        "Mouth, saliva, sweet",
+        "Mouth, salivation, eating, after",
+        "Mouth, aphthae",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, odor (breath), offensive"
+      ],
+      "generalizations": [
+        "mouth",
+        "salivation",
+        "saliva",
+        "dryness",
+        "sweet"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, air, cold agg.",
+        "Cough, air, open agg.",
+        "Cough, dry, smoking, from",
+        "Cough, eating, from agg.",
+        "Cough, hollow",
+        "Cough, irritation in air passages, from",
+        "Cough, morning, agg."
+      ],
+      "generalizations": [
+        "cough",
+        "cold",
+        "open",
+        "smoking",
+        "eating"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

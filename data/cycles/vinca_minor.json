@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Vinca Minor",
+  "remedy_abbrev": "Vinc.",
+  "sentence": "Driven by head, Vinca Minor manifests a dynamic cycle through limb disturbance and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, eruption, eczema",
+        "Head, eruption, crusts",
+        "Head, heat",
+        "Head, pain",
+        "Head, hair",
+        "Head, itching of scalp"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "crusts",
+        "scabs",
+        "eczema"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, itching",
+        "Extremities, pain, burning",
+        "Extremities, pain, burning, fingers",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "burning",
+        "drawing",
+        "swelling",
+        "eruption"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, bloated",
+        "Face, dryness",
+        "Face, dryness, lips",
+        "Face, eruptions",
+        "Face, eruptions, nose"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "dryness",
+        "eruptions",
+        "pale"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, discoloration, redness",
+        "Nose, dryness, inside",
+        "Nose, obstruction",
+        "Nose, discharge",
+        "Nose, discoloration",
+        "Nose, dryness",
+        "Nose, discharge, crusts, scabs, inside"
+      ],
+      "generalizations": [
+        "nose",
+        "discoloration",
+        "dryness",
+        "inside",
+        "discharge"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, confusion",
+        "Mind, fear",
+        "Mind, fear, death, of",
+        "Mind, fear, misfortune, of",
+        "Mind, confusion, writing, while"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "restlessness",
+        "confusion",
+        "irritability"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, vomiting, bitter",
+        "Stomach, vomiting, water",
+        "Stomach, emptiness"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eructations",
+        "emptiness",
+        "feeling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

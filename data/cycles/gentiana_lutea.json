@@ -1,0 +1,137 @@
+{
+  "remedy_name": "Gentiana Lutea",
+  "remedy_abbrev": "Gent-l.",
+  "sentence": "Driven by head, Gentiana Lutea manifests a dynamic cycle through limb disturbance and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, pain, pressing",
+        "Head, pain, pressing, occiput",
+        "Head, pain, pressing, temples",
+        "Head, pain, temples"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "temples",
+        "heaviness",
+        "forehead"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, formication",
+        "Extremities, pain, aching",
+        "Extremities, pain, hand",
+        "Extremities, pain, hip",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "stitching",
+        "weakness",
+        "formication",
+        "aching"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, heaviness",
+        "Stomach, nausea",
+        "Stomach, distension",
+        "Stomach, tension",
+        "Stomach, constriction",
+        "Stomach, nausea, evening",
+        "Stomach, evening"
+      ],
+      "generalizations": [
+        "stomach",
+        "heaviness",
+        "nausea",
+        "weight",
+        "oppression"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, night",
+        "Sleep, waking",
+        "Sleep, waking, midnight",
+        "Sleep, sleeplessness, night, first part of",
+        "Sleep, night",
+        "Sleep, midnight"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness",
+        "waking",
+        "midnight",
+        "first"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, motion, on agg.",
+        "Back, pain, aching, dull pain, motion",
+        "Back, pain, aching"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "motion"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, afternoon",
+        "Generalities, weakness, sleep, after",
+        "Generalities, weakness, sleep"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "sleep",
+        "enervation",
+        "afternoon"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

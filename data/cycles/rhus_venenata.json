@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Rhus Venenata",
+  "remedy_abbrev": "Rhus-v.",
+  "sentence": "Driven by limb expression, Rhus Venenata manifests a dynamic cycle through face and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, vesicles",
+        "Extremities, emaciation",
+        "Extremities, emaciation, leg",
+        "Extremities, paralysis",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "emaciation",
+        "vesicles",
+        "paralysis"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, itching",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), drawing",
+        "Face, eruptions",
+        "Face, erysipelas",
+        "Face, pain (aching, prosopalgia, etc.), drawing, jaws",
+        "Face, swelling"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "drawing",
+        "itching"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, between",
+        "Back, pain, stitching, cervical region",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, pain, stitching"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "stitching"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, eruptions",
+        "Genitalia male, inflammation",
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, scrotum",
+        "Genitalia male, eruptions, penis",
+        "Genitalia male, eruptions, penis, vesicles",
+        "Genitalia male, eruptions, scrotum",
+        "Genitalia male, inflammation, scrotum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "eruptions",
+        "scrotum",
+        "inflammation"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, forehead, nose, above root of",
+        "Head, pain, forehead, stooping, from agg.",
+        "Head, pain, forehead, stooping",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "stooping",
+        "eruption",
+        "nose"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration, tongue, red",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, red, tip",
+        "Mouth, tongue",
+        "Mouth, pain",
+        "Mouth, pain, burnt, as if",
+        "Mouth, pain, burnt, as if, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "discoloration",
+        "burnt"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

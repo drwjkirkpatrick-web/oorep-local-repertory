@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hippozaeninum",
+  "remedy_abbrev": "Hippoz.",
+  "sentence": "Driven by nose, Hippozaeninum manifests a dynamic cycle through limb disturbance and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, catarrh",
+        "Nose, discharge, thick",
+        "Nose, discharge",
+        "Nose, discharge, crusts, scabs, inside",
+        "Nose, discharge, excoriating",
+        "Nose, discharge, offensive",
+        "Nose, discharge, viscid, tough",
+        "Nose, inflammation"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "catarrh",
+        "thick",
+        "crusts"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, swelling, lower limbs",
+        "Extremities, swelling, lower limbs, dropsical",
+        "Extremities, inflammation",
+        "Extremities, inflammation, upper limbs",
+        "Extremities, inflammation, upper limbs, erysipelatous",
+        "Extremities, eruption",
+        "Extremities, eruption, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "limbs",
+        "swelling",
+        "inflammation",
+        "upper"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, bloated",
+        "Face, erysipelas",
+        "Face, erysipelas, phlegmonous",
+        "Face, erysipelas, gangrenous",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, eruptions",
+        "Face, swelling"
+      ],
+      "generalizations": [
+        "face",
+        "erysipelas",
+        "discoloration",
+        "bloated",
+        "phlegmonous"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, dryness",
+        "Mouth, salivation",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, ulcers",
+        "Mouth, ulcers, gums",
+        "Mouth, discoloration"
+      ],
+      "generalizations": [
+        "mouth",
+        "swelling",
+        "ulcers",
+        "aphthae",
+        "dryness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, abscess",
+        "Abdomen, inflammation",
+        "Abdomen, inflammation, liver",
+        "Abdomen, swelling",
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, liver",
+        "Abdomen, enlarged, spleen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "enlarged",
+        "spleen",
+        "inflammation",
+        "liver"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, inflammation",
+        "Chest, inflammation, old people",
+        "Chest, inflammation, bronchial tubes (bronchitis)",
+        "Chest, catarrh",
+        "Chest, inflammation, lungs",
+        "Chest, abscess",
+        "Chest, abscess, lungs",
+        "Chest, lungs"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "lungs",
+        "abscess",
+        "people"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

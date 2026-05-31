@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Millefolium Herba",
+  "remedy_abbrev": "Mill.",
+  "sentence": "Driven by limb expression, Millefolium Herba manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, itching",
+        "Extremities, varices, lower limbs",
+        "Extremities, varices, lower limbs, pregnancy, during",
+        "Extremities, varices",
+        "Extremities, itching, shoulder",
+        "Extremities, varices, leg",
+        "Extremities, varices, leg, painful",
+        "Extremities, varices, leg, pregnancy, during"
+      ],
+      "generalizations": [
+        "extremities",
+        "varices",
+        "itching",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, congestion, night",
+        "Head, congestion, night, a stream, from chest to head like a gust of wind with epistaxis",
+        "Head, night",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "hyperemia",
+        "stream",
+        "chest"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, hysteria",
+        "Mind, forgetful",
+        "Mind, work",
+        "Mind, work, mental",
+        "Mind, work, mental, impossible",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "work",
+        "mental",
+        "restlessness",
+        "hysteria"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, menses, bright-red",
+        "Genitalia female, menses, copious",
+        "Genitalia female, menses, protracted",
+        "Genitalia female, abortion",
+        "Genitalia female, metrorrhagia, bright red",
+        "Genitalia female, prolapse, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "metrorrhagia",
+        "bright"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, hemorrhage",
+        "Chest, pain",
+        "Chest, inflammation",
+        "Chest, milk",
+        "Chest, congestion (hyperemia of chest)",
+        "Chest, hemorrhage, exertion, after",
+        "Chest, inflammation, lungs",
+        "Chest, milk, absent"
+      ],
+      "generalizations": [
+        "chest",
+        "hemorrhage",
+        "inflammation",
+        "milk",
+        "congestion"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, stopped sensation",
+        "Ear, noises, ringing",
+        "Ear, itching, in",
+        "Ear, noises",
+        "Ear, pain, drawing in",
+        "Ear, pain, stitching, in",
+        "Ear, itching"
+      ],
+      "generalizations": [
+        "noises",
+        "itching",
+        "stopped",
+        "ringing",
+        "drawing"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

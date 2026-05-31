@@ -1,0 +1,42 @@
+{
+  "remedy_name": "Salamandra Maculata",
+  "remedy_abbrev": "Salam.",
+  "sentence": "Driven by mind, Salamandra Maculata manifests a dynamic cycle through vertigo and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, unconsciousness",
+        "Mind, unconsciousness, looking downward, on"
+      ],
+      "generalizations": [
+        "mind",
+        "unconsciousness",
+        "looking",
+        "downward"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, looking",
+        "Vertigo, looking, downward"
+      ],
+      "generalizations": [
+        "vertigo",
+        "looking",
+        "downward"
+      ],
+      "next_segment": "Mental mental disturbance"
+    }
+  ]
+}

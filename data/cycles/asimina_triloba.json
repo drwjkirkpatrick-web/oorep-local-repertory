@@ -1,0 +1,127 @@
+{
+  "remedy_name": "Asimina Triloba",
+  "remedy_abbrev": "Asim.",
+  "sentence": "Driven by head, Asimina Triloba manifests a dynamic cycle through nose and larynx and trachea, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, coughing, on agg.",
+        "Head, pain, forehead, coughing agg.",
+        "Head, pain, forehead, walking in open air, while agg.",
+        "Head, pain, temples",
+        "Head, pain, coughing",
+        "Head, pain, cutting"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "coughing",
+        "walking",
+        "open"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, discharge, thick",
+        "Nose, discharge",
+        "Nose, discharge, hard, dry",
+        "Nose, discharge, offensive",
+        "Nose, discharge, gray",
+        "Nose, discharge, hard, dry, morning",
+        "Nose, morning",
+        "Nose, discharge, hard"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "hard",
+        "thick",
+        "offensive"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, voice, hoarseness, morning",
+        "Larynx and trachea, morning"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "voice",
+        "hoarseness"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), water, hearing, running or putting hands in",
+        "Bladder, urging to urinate (morbid desire), water, hearing",
+        "Bladder, bladder in general",
+        "Bladder, urging to urinate (morbid desire), water"
+      ],
+      "generalizations": [
+        "bladder",
+        "urging",
+        "urinate",
+        "morbid",
+        "desire"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, enlarged",
+        "Face, enlarged, submaxillary"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "enlarged",
+        "bluish",
+        "submaxillary"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, aphthae",
+        "Mouth, pain, excoriated, as if",
+        "Mouth, pain, excoriated"
+      ],
+      "generalizations": [
+        "mouth",
+        "excoriated",
+        "aphthae"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

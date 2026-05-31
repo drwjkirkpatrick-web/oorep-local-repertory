@@ -1,0 +1,95 @@
+{
+  "remedy_name": "Mercurius Nitricus",
+  "remedy_abbrev": "Merc-n.",
+  "sentence": "Driven by limb expression, Mercurius Nitricus manifests a dynamic cycle through eye and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, motion",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, inflammation",
+        "Extremities, pain, sore, bruised",
+        "Extremities, twitching",
+        "Extremities, discoloration",
+        "Extremities, cramps, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "motion",
+        "inflammation",
+        "sore"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, agglutinated",
+        "Eye, discharges, mucus or pus",
+        "Eye, discharges",
+        "Eye, agglutinated, night",
+        "Eye, night"
+      ],
+      "generalizations": [
+        "agglutinated",
+        "discharges",
+        "mucus"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, stitching, internally",
+        "Generalities, evening",
+        "Generalities, pain, stitching"
+      ],
+      "generalizations": [
+        "generalities",
+        "stitching",
+        "internally"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, inflammation",
+        "Clinical, convulsions, evening"
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "inflammation"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, convulsions"
+      ],
+      "generalizations": [
+        "chest",
+        "convulsions"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

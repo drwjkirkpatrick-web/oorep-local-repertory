@@ -1,0 +1,49 @@
+{
+  "remedy_name": "Colostrum",
+  "remedy_abbrev": "Colos.",
+  "sentence": "Driven by stool, Colostrum manifests a dynamic cycle through rectum and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, odor",
+        "Stool, yellow",
+        "Stool, odor, sour",
+        "Stool, copious",
+        "Stool, watery",
+        "Stool, acrid, corrosive, excoriating",
+        "Stool, watery, green",
+        "Stool, watery, yellow"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "odor",
+        "yellow",
+        "sour"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, cholera",
+        "Rectum, cholera, infantum"
+      ],
+      "generalizations": [
+        "rectum",
+        "cholera",
+        "infantum"
+      ],
+      "next_segment": "Stool pattern"
+    }
+  ]
+}

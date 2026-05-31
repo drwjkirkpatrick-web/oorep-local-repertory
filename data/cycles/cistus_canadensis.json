@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cistus Canadensis",
+  "remedy_abbrev": "Cist.",
+  "sentence": "Driven by limb expression, Cistus Canadensis manifests a dynamic cycle through throat and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, forearm",
+        "Extremities, pain, drawing, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "coldness",
+        "foot",
+        "swelling"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, dryness",
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, discoloration",
+        "Throat, coldness, sensation of",
+        "Throat, dryness, night",
+        "Throat, heat",
+        "Throat, inflammation"
+      ],
+      "generalizations": [
+        "throat",
+        "dryness",
+        "discoloration",
+        "redness",
+        "coldness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, inflammation",
+        "Face, inflammation, parotid gland",
+        "Face, parotid glands",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, eruptions",
+        "Face, eruptions, nose",
+        "Face, heat, flashes"
+      ],
+      "generalizations": [
+        "face",
+        "inflammation",
+        "parotid",
+        "heat",
+        "eruptions"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, catarrh",
+        "Nose, discharge, yellow",
+        "Nose, pain, rawness",
+        "Nose, pain, rawness, posterior nares",
+        "Nose, sneezing",
+        "Nose, discharge",
+        "Nose, pain",
+        "Nose, coldness"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "rawness",
+        "catarrh",
+        "yellow"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore",
+        "Back, pain, coccyx",
+        "Back, eruptions",
+        "Back, eruptions, pimples",
+        "Back, eruptions, herpes",
+        "Back, pain, sore, coccyx",
+        "Back, eruptions, pimples, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "eruptions",
+        "sore",
+        "coccyx",
+        "pimples"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, dryness",
+        "Larynx and trachea, dryness, larynx",
+        "Larynx and trachea, pain, larynx",
+        "Larynx and trachea, pain, rawness, larynx",
+        "Larynx and trachea, pain, stitching, larynx"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "irritation",
+        "dryness",
+        "tickling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

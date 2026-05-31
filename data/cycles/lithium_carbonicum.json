@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lithium Carbonicum",
+  "remedy_abbrev": "Lith-c.",
+  "sentence": "Driven by limb expression, Lithium Carbonicum manifests a dynamic cycle through head and heart & circulation, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, arthritic nodosities",
+        "Extremities, arthritic nodosities, finger joints",
+        "Extremities, paralysis",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, itching",
+        "Extremities, pain, ankle",
+        "Extremities, pain, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "arthritic",
+        "nodosities",
+        "finger",
+        "joints"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pulsating, beating, throbbing",
+        "Head, pain, menses",
+        "Head, pulsating",
+        "Head, pain, eating, after agg.",
+        "Head, pain, menses, after",
+        "Head, pain, eating",
+        "Head, pain, eating, after"
+      ],
+      "generalizations": [
+        "head",
+        "eating",
+        "after",
+        "pulsating",
+        "menses"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, affections of, heart",
+        "Heart & Circulation, hypertrophy of heart",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, heart, rheumatic",
+        "Heart & Circulation, pain, heart, bending forward agg.",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pain",
+        "Heart & Circulation, affections of"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "affections",
+        "hypertrophy",
+        "rheumatic"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, pain",
+        "Bladder, pain, neck",
+        "Bladder, pain, sore, tender",
+        "Bladder, pain, stitching, stinging",
+        "Bladder, pain, stitching, stinging, neck",
+        "Bladder, tenesmus"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "neck",
+        "stitching",
+        "stinging"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, inflammation",
+        "Eye, hardness",
+        "Eye, pain, stitching",
+        "Eye, photophobia",
+        "Eye, photophobia, daylight",
+        "Eye, photophobia, sunlight"
+      ],
+      "generalizations": [
+        "photophobia",
+        "redness",
+        "inflammation",
+        "hardness",
+        "stitching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, lying, bed, in, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "side",
+        "lying",
+        "internally"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

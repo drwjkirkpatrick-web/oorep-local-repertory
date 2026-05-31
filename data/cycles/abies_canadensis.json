@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Abies Canadensis",
+  "remedy_abbrev": "Abies-c.",
+  "sentence": "Driven by back, Abies Canadensis manifests a dynamic cycle through appetite and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, dorsal region, scapulae, right, under",
+        "Back, coldness",
+        "Back, coldness, dorsal region",
+        "Back, coldness, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "scapulae",
+        "coldness"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, ravenous, canine, excessive",
+        "Appetite, aversion, acids, to",
+        "Appetite, aversion, meat",
+        "Appetite, aversion, pickles",
+        "Appetite, desires, meat",
+        "Appetite, desires, pickles",
+        "Appetite, ravenous"
+      ],
+      "generalizations": [
+        "appetite",
+        "aversion",
+        "ravenous",
+        "meat",
+        "pickles"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, rumbling, eating, after",
+        "Abdomen, spleen",
+        "Abdomen, rumbling, eating",
+        "Abdomen, pain",
+        "Abdomen, hard",
+        "Abdomen, weakness, sensation of",
+        "Abdomen, pain, gnawing"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "eating",
+        "after",
+        "spleen"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, pressure, amel.",
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "burning",
+        "fainting",
+        "internally"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, soft, uterus",
+        "Genitalia female, soft, uterus, feels as if",
+        "Genitalia female, pain",
+        "Genitalia female, pain, sore",
+        "Genitalia female, pain, sore, uterus",
+        "Genitalia female, weakness, sensation of, in region of uterus",
+        "Genitalia female, pain, sore, uterus, fundus",
+        "Genitalia female, pain, sore, uterus, fundus, pressure amel."
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "uterus",
+        "sore",
+        "soft"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, pain, gnawing",
+        "Stomach, thirst",
+        "Stomach, distension"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "burning",
+        "gnawing",
+        "thirst"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

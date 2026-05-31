@@ -1,0 +1,58 @@
+{
+  "remedy_name": "Oophorinum",
+  "remedy_abbrev": "Ov.",
+  "sentence": "Driven by appetite, Oophorinum manifests a dynamic cycle through general state and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, aversion, meat",
+        "Appetite, aversion",
+        "Appetite, aversion, meat, mutton"
+      ],
+      "generalizations": [
+        "appetite",
+        "aversion",
+        "meat",
+        "mutton"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, food",
+        "Generalities, food, mutton agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "food",
+        "mutton"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, nausea, mutton, smell of"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "mutton",
+        "smell"
+      ],
+      "next_segment": "Appetite state"
+    }
+  ]
+}

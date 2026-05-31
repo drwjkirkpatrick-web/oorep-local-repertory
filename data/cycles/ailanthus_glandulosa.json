@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ailanthus Glandulosa",
+  "remedy_abbrev": "Ail.",
+  "sentence": "Driven by limb expression, Ailanthus Glandulosa manifests a dynamic cycle through throat and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, burning",
+        "Extremities, pain, burning, shoulder",
+        "Extremities, pain, burning, shoulder, beneath",
+        "Extremities, shoulder",
+        "Extremities, jerking",
+        "Extremities, jerking, sleep, during",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "burning",
+        "shoulder",
+        "jerking",
+        "beneath"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration",
+        "Throat, ulcers",
+        "Throat, swelling",
+        "Throat, discoloration, purple",
+        "Throat, gangrene",
+        "Throat, ulcers, tonsils",
+        "Throat, tonsils",
+        "Throat, discoloration, redness"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "ulcers",
+        "tonsils",
+        "swelling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, shocks, blows",
+        "Head, shocks, blows, extending extremities, to",
+        "Head, forehead",
+        "Head, shocks",
+        "Head, heat"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "shocks",
+        "blows",
+        "extending"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, expression",
+        "Face, expression, anxious",
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, red",
+        "Face, heat",
+        "Face, eruptions",
+        "Face, eruptions, rash"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "expression",
+        "eruptions",
+        "anxious"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, intoxicated, as if",
+        "Mind, irritability",
+        "Mind, delirium",
+        "Mind, stupefaction",
+        "Mind, unconsciousness",
+        "Mind, delusions",
+        "Mind, delusions, rats",
+        "Mind, anxiety"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "intoxicated",
+        "irritability",
+        "delirium"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, brown",
+        "Mouth, cracked",
+        "Mouth, cracked, tongue fissured",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "discoloration",
+        "dryness",
+        "cracked"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

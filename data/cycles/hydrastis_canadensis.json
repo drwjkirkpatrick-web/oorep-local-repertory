@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hydrastis Canadensis",
+  "remedy_abbrev": "Hydr.",
+  "sentence": "Driven by limb expression, Hydrastis Canadensis manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, swelling, lower limbs",
+        "Extremities, swelling, lower limbs, dropsical",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "foot",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, forehead, in",
+        "Head, pain, gastric",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, pain, catarrhal"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "forehead",
+        "crusts",
+        "scabs"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain",
+        "Abdomen, flatulence",
+        "Abdomen, retraction",
+        "Abdomen, diarrhea, sensation as if",
+        "Abdomen, diarrhea, sensation as if, would come on",
+        "Abdomen, pain, diarrhea, as if, would come on",
+        "Abdomen, pain, diarrhea"
+      ],
+      "generalizations": [
+        "abdomen",
+        "diarrhea",
+        "would",
+        "come",
+        "rumbling"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, discharge, thick",
+        "Nose, discharge, yellow",
+        "Nose, discharge",
+        "Nose, discharge, viscid, tough",
+        "Nose, discharge, viscid",
+        "Nose, discharge, yellowish-green",
+        "Nose, discharge, yellow, posterior nares, from",
+        "Nose, catarrh"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "yellow",
+        "viscid",
+        "thick"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, emptiness",
+        "Stomach, indigestion (includes complaints after substances not otherwise described)",
+        "Stomach, ulcers",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty"
+      ],
+      "generalizations": [
+        "stomach",
+        "emptiness",
+        "feeling",
+        "eructations",
+        "weak"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, discoloration, tongue, red",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, pain, burning, raw and smarting",
+        "Mouth, pain, burning, tongue",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "dryness",
+        "burning",
+        "swelling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

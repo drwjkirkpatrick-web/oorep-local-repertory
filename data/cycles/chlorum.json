@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chlorum",
+  "remedy_abbrev": "Chlor.",
+  "sentence": "Driven by larynx and trachea, Chlorum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, constriction",
+        "Larynx and trachea, constriction, larynx",
+        "Larynx and trachea, croup",
+        "Larynx and trachea, inflammation, larynx"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "voice",
+        "irritation",
+        "constriction"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, eruption",
+        "Extremities, eruption, leg",
+        "Extremities, eruption, leg, urticaria",
+        "Extremities, stiffness",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "motion",
+        "convulsion",
+        "convulsive"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, delirium, quiet",
+        "Mind, delirium, fever, during",
+        "Mind, fever, during, agg.",
+        "Mind, fever",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "fever",
+        "during",
+        "restlessness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, odor (breath)",
+        "Mouth, odor (breath), putrid",
+        "Mouth, discoloration, tongue, black",
+        "Mouth, tongue",
+        "Mouth, pain",
+        "Mouth, aphthae"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "odor",
+        "breath"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, difficult, exhalation",
+        "Respiration, gasping",
+        "Respiration, anxious",
+        "Respiration, asphyxia",
+        "Respiration, loud",
+        "Respiration, rough",
+        "Respiration, stridulous"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "exhalation",
+        "gasping",
+        "anxious"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, inflammation",
+        "Chest, constriction, tension, tightness",
+        "Chest, inflammation, lungs",
+        "Chest, constriction",
+        "Chest, emphysema",
+        "Chest, lungs",
+        "Chest, oppression",
+        "Chest, hemorrhage"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "constriction",
+        "lungs",
+        "tension"
+      ],
+      "next_segment": "Laryngeal state"
+    }
+  ]
+}

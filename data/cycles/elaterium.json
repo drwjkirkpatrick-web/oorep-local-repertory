@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Elaterium",
+  "remedy_abbrev": "Elat.",
+  "sentence": "Driven by limb expression, Elaterium manifests a dynamic cycle through stomach and stool, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, cramps, foot",
+        "Extremities, cramps, foot, sole",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, pain, shooting"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "foot",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, thirst",
+        "Stomach, thirst, heat, during",
+        "Stomach, vomiting, heat, during",
+        "Stomach, thirst, heat",
+        "Stomach, vomiting, heat",
+        "Stomach, nausea, chill"
+      ],
+      "generalizations": [
+        "stomach",
+        "heat",
+        "vomiting",
+        "thirst",
+        "nausea"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, copious",
+        "Stool, frequent",
+        "Stool, watery, Stool, watery",
+        "Stool, watery",
+        "Stool, large",
+        "Stool, forcible, sudden, gushing",
+        "Stool, green",
+        "Stool, watery, green"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "green",
+        "copious",
+        "frequent"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, quotidian",
+        "Chill, quotidian, double",
+        "Chill, quartan",
+        "Chill, noon",
+        "Chill, changing type",
+        "Chill, coldness in general",
+        "Chill, tertian",
+        "Chill, tertian, double"
+      ],
+      "generalizations": [
+        "chill",
+        "quotidian",
+        "double",
+        "tertian",
+        "quartan"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, constriction, forehead",
+        "Head, constriction, temples",
+        "Head, pain, chill, during",
+        "Head, pain, evening agg."
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "constriction",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, under",
+        "Back, pain, cutting",
+        "Back, pain, stitching, lumbar region",
+        "Back, pain, stitching",
+        "Back, pain, chill"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

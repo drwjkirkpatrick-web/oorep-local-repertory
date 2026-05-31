@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Lac Vaccinum Defloratum",
+  "remedy_abbrev": "Lac-d.",
+  "sentence": "Driven by head, Lac Vaccinum Defloratum manifests a dynamic cycle through limb disturbance and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, coughing, on agg.",
+        "Head, pulsating, forehead",
+        "Head, pain, coughing",
+        "Head, pulsating",
+        "Head, pain, forehead, pulsating",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pulsating",
+        "coughing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, coldness, fingers",
+        "Extremities, numbness, thigh",
+        "Extremities, pain, aching",
+        "Extremities, pain, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "weakness",
+        "fingers"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, indigestion (includes complaints after substances not otherwise described)",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, nausea, morning",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour",
+        "Stomach, thirst"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "nausea",
+        "indigestion",
+        "includes"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, food",
+        "Generalities, food, milk agg.",
+        "Generalities, food, milk",
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, heat",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "food",
+        "milk",
+        "cold",
+        "faintness"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, unconsciousness",
+        "Mind, delusions",
+        "Mind, company aversion to",
+        "Mind, suicidal disposition",
+        "Mind, delusions, dead",
+        "Mind, delusions, dead, persons"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "sadness",
+        "dead",
+        "mental"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, photophobia",
+        "Eye, redness, lids",
+        "Eye, pain, motion of eyes, on agg.",
+        "Eye, pain, reading"
+      ],
+      "generalizations": [
+        "heaviness",
+        "lids",
+        "redness",
+        "photophobia",
+        "motion"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

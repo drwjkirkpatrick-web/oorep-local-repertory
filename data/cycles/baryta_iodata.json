@@ -1,0 +1,132 @@
+{
+  "remedy_name": "Baryta Iodata",
+  "remedy_abbrev": "Bar-i.",
+  "sentence": "Driven by stomach, Baryta Iodata manifests a dynamic cycle through abdomen and appetite, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, heaviness, eating, after",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, heaviness"
+      ],
+      "generalizations": [
+        "stomach",
+        "sore",
+        "eructations",
+        "heaviness",
+        "eating"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain",
+        "Abdomen, pain, menses, during",
+        "Abdomen, tension",
+        "Abdomen, pain, menses",
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, mesenterics",
+        "Abdomen, tabes mesenterica"
+      ],
+      "generalizations": [
+        "abdomen",
+        "menses",
+        "enlarged",
+        "distension",
+        "during"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, ravenous, canine, excessive",
+        "Appetite, ravenous",
+        "Appetite, aversion",
+        "Appetite, aversion, food",
+        "Appetite, wanting",
+        "Appetite, diminished",
+        "Appetite, relish, without"
+      ],
+      "generalizations": [
+        "appetite",
+        "ravenous",
+        "aversion",
+        "increased",
+        "hunger"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, swelling, glands",
+        "Clinical, swelling",
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "swelling",
+        "glands",
+        "inflammation"
+      ],
+      "next_segment": "External throat state"
+    },
+    {
+      "name": "External throat state",
+      "description": "External throat symptoms, glands, cervical region.",
+      "symptoms": [
+        "External throat, induration of glands",
+        "External throat, induration of glands, like knotted cords",
+        "External throat, glands"
+      ],
+      "generalizations": [
+        "external",
+        "throat",
+        "glands",
+        "induration",
+        "like"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, opacity of cornea",
+        "Eye, inflammation, iris",
+        "Eye, inflammation, iris, tubercular",
+        "Eye, cornea",
+        "Eye, iris"
+      ],
+      "generalizations": [
+        "inflammation",
+        "iris",
+        "cornea",
+        "opacity",
+        "tubercular"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

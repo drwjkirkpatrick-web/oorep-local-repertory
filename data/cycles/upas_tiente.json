@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Upas Tiente",
+  "remedy_abbrev": "Upa.",
+  "sentence": "Driven by limb expression, Upas Tiente manifests a dynamic cycle through eye and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, numbness, foot",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, weakness",
+        "Extremities, itching",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "aching",
+        "foot",
+        "weakness"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, heaviness, lids, morning",
+        "Eye, lid",
+        "Eye, morning",
+        "Eye, itching",
+        "Eye, pain",
+        "Eye, redness"
+      ],
+      "generalizations": [
+        "heaviness",
+        "lids",
+        "itching",
+        "redness"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, swallowing, difficult",
+        "Throat, swallowing",
+        "Throat, swallowing, difficult, liquids",
+        "Throat, swallow",
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, pain, sore"
+      ],
+      "generalizations": [
+        "throat",
+        "swallowing",
+        "difficult",
+        "liquids",
+        "swallow"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, dim",
+        "Vision, colors, white",
+        "Vision, foggy",
+        "Vision, loss of vision (blindness)",
+        "Vision, colors",
+        "Vision, dim, air, open",
+        "Vision, dim, air",
+        "Vision, loss of vision (blindness), stooping"
+      ],
+      "generalizations": [
+        "vision",
+        "colors",
+        "loss",
+        "blindness",
+        "white"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, pulsation, externally",
+        "Generalities, weakness, evening agg.",
+        "Generalities, evening",
+        "Generalities, weakness, evening",
+        "Generalities, weakness, waking, on",
+        "Generalities, weakness, waking",
+        "Generalities, pulsation, externally, bed, in"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "pulsation",
+        "externally",
+        "waking"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, restless",
+        "Sleep, unrefreshing",
+        "Sleep, waking, frequent",
+        "Sleep, dreams",
+        "Sleep, waking",
+        "Sleep, sleepiness, morning",
+        "Sleep, dreams, disease"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleepiness",
+        "waking",
+        "dreams",
+        "restless"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

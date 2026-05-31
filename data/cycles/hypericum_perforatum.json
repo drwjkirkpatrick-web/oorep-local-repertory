@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hypericum Perforatum",
+  "remedy_abbrev": "Hyper.",
+  "sentence": "Driven by limb expression, Hypericum Perforatum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, hip",
+        "Extremities, injuries",
+        "Extremities, injuries, fingers",
+        "Extremities, injuries, fingers, nails, of",
+        "Extremities, injuries, fingers, nails, of, lacerations",
+        "Extremities, pain, hip, confinement, after",
+        "Extremities, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "injuries",
+        "fingers",
+        "nails",
+        "lacerations"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, concussion of brain",
+        "Head, brain",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, vertex",
+        "Head, pain, dull",
+        "Head, pain, extending"
+      ],
+      "generalizations": [
+        "head",
+        "brain",
+        "concussion",
+        "heat",
+        "shooting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, tearing",
+        "Back, pain, sore",
+        "Back, pain, coccyx",
+        "Back, pain, sore, coccyx",
+        "Back, injuries of the spine",
+        "Back, pain, tearing, spine"
+      ],
+      "generalizations": [
+        "back",
+        "tearing",
+        "sore",
+        "coccyx",
+        "spine"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, memory",
+        "Mind, confusion",
+        "Mind, mistakes",
+        "Mind, fright, complaints from",
+        "Mind, mistakes, writing, in",
+        "Mind, mistakes, writing, in, omitting letters",
+        "Mind, fright, agg.",
+        "Mind, fright"
+      ],
+      "generalizations": [
+        "mind",
+        "mistakes",
+        "fright",
+        "writing",
+        "memory"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg.",
+        "Generalities, pain, tearing, externally",
+        "Generalities, shocks from injury",
+        "Generalities, cold",
+        "Generalities, pain, tearing",
+        "Generalities, foggy weather agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "tearing",
+        "general",
+        "externally"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, nausea, morning",
+        "Stomach, heat, flushes"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "nausea",
+        "burning",
+        "empty"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

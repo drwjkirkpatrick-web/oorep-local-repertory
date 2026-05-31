@@ -1,0 +1,55 @@
+{
+  "remedy_name": "Radium Bromatum",
+  "remedy_abbrev": "Rad-br.",
+  "sentence": "Driven by face, Radium Bromatum manifests a dynamic cycle through clinical and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, acne",
+        "Face, eruptions, acne, rosacea"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "acne",
+        "rosacea"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, hypotension"
+      ],
+      "generalizations": [
+        "clinical",
+        "hypotension"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, bones",
+        "Generalities, bones, protruding as if"
+      ],
+      "generalizations": [
+        "generalities",
+        "bones",
+        "protruding"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    }
+  ]
+}

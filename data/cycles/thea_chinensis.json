@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Thea Chinensis",
+  "remedy_abbrev": "Thea",
+  "sentence": "Driven by mind, Thea Chinensis manifests a dynamic cycle through head and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, irritability",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "excitement",
+        "restlessness",
+        "excitable",
+        "irritability"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, eruption",
+        "Extremities, eruption, lower limbs",
+        "Extremities, eruption, upper limbs",
+        "Extremities, eruption, upper limbs, pimples"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "limbs",
+        "upper",
+        "convulsion"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, heaviness",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, waterbrash",
+        "Stomach, thirst",
+        "Stomach, vomiting, night"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "heaviness",
+        "vomiting",
+        "weight"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, numbness, externally",
+        "Generalities, trembling, externally",
+        "Generalities, numbness",
+        "Generalities, trembling",
+        "Generalities, menses, during agg.",
+        "Generalities, wine, amel.",
+        "Generalities, menses"
+      ],
+      "generalizations": [
+        "generalities",
+        "numbness",
+        "externally",
+        "trembling",
+        "menses"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, trembling, heart",
+        "Heart & Circulation, pulse, intermittent",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pulse, irregular",
+        "Heart & Circulation, pain, heart, region of",
+        "Heart & Circulation, palpitation, night"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "palpitation",
+        "trembling"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

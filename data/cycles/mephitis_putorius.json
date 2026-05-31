@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mephitis Putorius",
+  "remedy_abbrev": "Meph.",
+  "sentence": "Driven by limb expression, Mephitis Putorius manifests a dynamic cycle through respiration and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, eruption",
+        "Extremities, eruption, upper limbs",
+        "Extremities, heat",
+        "Extremities, heat, leg",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "heat",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, difficult, lying",
+        "Respiration, difficult, lying, while agg.",
+        "Respiration, asthmatic",
+        "Respiration, asthmatic, cold",
+        "Respiration, asthmatic, morning",
+        "Respiration, asthmatic, evening",
+        "Respiration, asthmatic, spasmodic"
+      ],
+      "generalizations": [
+        "respiration",
+        "asthmatic",
+        "difficult",
+        "lying",
+        "while"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes",
+        "Head, heaviness, occiput",
+        "Head, forehead",
+        "Head, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heaviness",
+        "eyes",
+        "occiput"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, paroxysmal",
+        "Cough, lying, agg.",
+        "Cough, morning, agg.",
+        "Cough, spasmodic",
+        "Cough, whooping",
+        "Cough, lying",
+        "Cough, morning",
+        "Cough, paroxysmal, night"
+      ],
+      "generalizations": [
+        "cough",
+        "paroxysmal",
+        "lying",
+        "spasmodic",
+        "whooping"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, indolence, aversion to work",
+        "Mind, indolence",
+        "Mind, exertion, from mental, agg.",
+        "Mind, exertion",
+        "Mind, exertion, from mental",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "exertion",
+        "indolence",
+        "mental",
+        "restlessness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, cervical region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, motion, during agg.",
+        "Back, pain, motion, on agg.",
+        "Back, pain, spine",
+        "Back, pain, stitching, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "motion",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

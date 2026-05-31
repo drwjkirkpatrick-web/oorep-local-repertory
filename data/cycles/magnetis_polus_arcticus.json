@@ -1,0 +1,138 @@
+{
+  "remedy_name": "Magnetis Polus Arcticus",
+  "remedy_abbrev": "M-arct.",
+  "sentence": "Driven by cough, Magnetis Polus Arcticus manifests a dynamic cycle through nose and teeth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, night",
+        "Cough, dry",
+        "Cough, air, open agg.",
+        "Cough, constant",
+        "Cough, dry, air, open air agg.",
+        "Cough, irritation in air passages, from",
+        "Cough, air",
+        "Cough, air, open"
+      ],
+      "generalizations": [
+        "cough",
+        "open",
+        "constant",
+        "irritation",
+        "passages"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, discoloration, redness",
+        "Nose, discoloration",
+        "Nose, discoloration, redness, tip",
+        "Nose, odors",
+        "Nose, odors, putrid",
+        "Nose, heat in",
+        "Nose, odors, putrid, eggs, of"
+      ],
+      "generalizations": [
+        "nose",
+        "discoloration",
+        "odors",
+        "redness",
+        "putrid"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain, toothache in general",
+        "Teeth, pain",
+        "Teeth, pain, lower teeth",
+        "Teeth, pain, molars",
+        "Teeth, pain, warm",
+        "Teeth, pain, incisors",
+        "Teeth, pain, upper teeth",
+        "Teeth, pain, warm, food, from"
+      ],
+      "generalizations": [
+        "teeth",
+        "warm",
+        "toothache",
+        "general",
+        "lower"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety",
+        "Mind, anxiety, menses, before",
+        "Mind, anxiety, menses",
+        "Mind, men",
+        "Mind, slowness",
+        "Mind, slowness, work, in",
+        "Mind, cautious",
+        "Mind, menses, before, agg."
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "menses",
+        "before",
+        "slowness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, eruptions",
+        "Face, pain (aching, prosopalgia, etc.), motion",
+        "Face, eruptions, pimples",
+        "Face, eruptions, pimples, nose",
+        "Face, pain (aching, prosopalgia, etc.), motion, of lower jaw agg.",
+        "Face, jaw",
+        "Face, pain (aching, prosopalgia"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "eruptions",
+        "motion"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, burning",
+        "Extremities, pain, burning, thumb"
+      ],
+      "generalizations": [
+        "extremities",
+        "burning",
+        "thumb"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chloralum Hydratum",
+  "remedy_abbrev": "Chlol.",
+  "sentence": "Driven by mind, Chloralum Hydratum manifests a dynamic cycle through skin and eye, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, hysteria",
+        "Mind, mania, madness",
+        "Mind, memory, weakness of",
+        "Mind, mania",
+        "Mind, anxiety",
+        "Mind, irresolution",
+        "Mind, memory",
+        "Mind, irritability"
+      ],
+      "generalizations": [
+        "mind",
+        "mania",
+        "memory",
+        "hysteria",
+        "madness"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, urticaria",
+        "Skin, itching",
+        "Skin, itching, burning",
+        "Skin, itching, stinging",
+        "Skin, itching, night",
+        "Skin, itching, burning, as from nettles",
+        "Skin, night"
+      ],
+      "generalizations": [
+        "skin",
+        "itching",
+        "eruptions",
+        "burning",
+        "urticaria"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, swollen",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, ecchymosis",
+        "Eye, inflammation, catarrhal from cold",
+        "Eye, pain, burning, smarting, biting"
+      ],
+      "generalizations": [
+        "inflammation",
+        "swollen",
+        "redness",
+        "conjunctiva",
+        "ecchymosis"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, lower limbs",
+        "Extremities, eruption, urticaria",
+        "Extremities, eruption, lower limbs, urticaria",
+        "Extremities, eruption, upper limbs",
+        "Extremities, eruption, upper limbs, urticaria",
+        "Extremities, chorea",
+        "Extremities, eruption, rash"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "limbs",
+        "urticaria",
+        "lower"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, urticaria",
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "eruptions",
+        "discoloration",
+        "prosopalgia"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), frequent",
+        "Bladder, urination, involuntary, night (incontinence in bed)",
+        "Bladder, night",
+        "Bladder, urination, frequent",
+        "Bladder, urination, frequent, night"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "frequent",
+        "involuntary",
+        "urging"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Asa Foetida",
+  "remedy_abbrev": "Asaf.",
+  "sentence": "Driven by limb expression, Asa Foetida manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, inflammation",
+        "Extremities, inflammation, leg",
+        "Extremities, pain, bones",
+        "Extremities, caries of bone",
+        "Extremities, inflammation, leg, periosteum",
+        "Extremities, coldness"
+      ],
+      "generalizations": [
+        "extremities",
+        "inflammation",
+        "stiffness",
+        "bones",
+        "caries"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, pain, pressing",
+        "Generalities, pain, jerking externally",
+        "Generalities, pain, pressing, internally",
+        "Generalities, pain, pressing, within outward, from",
+        "Generalities, pain, stitching, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "externally",
+        "faintness",
+        "side"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, nervous",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, outward",
+        "Head, pain, pressing, outward",
+        "Head, pain, hysterical headache",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "forehead",
+        "outward",
+        "nervous"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, heat",
+        "Abdomen, heat, spleen",
+        "Abdomen, sides, left",
+        "Abdomen, hips and loin region",
+        "Abdomen, congestion",
+        "Abdomen, walking, agg.",
+        "Abdomen, sides"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "heat",
+        "sides",
+        "left"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain, aching",
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, burning",
+        "Back, pain, burning, spine",
+        "Back, pain, stitching, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dorsal",
+        "region",
+        "burning"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, itching",
+        "Skin, stinging",
+        "Skin, ulcers",
+        "Skin, ulcers, stinging, areola, in",
+        "Skin, ulcers, suppurating",
+        "Skin, itching, scratching",
+        "Skin, ulcers, discharges",
+        "Skin, ulcers, stinging"
+      ],
+      "generalizations": [
+        "skin",
+        "ulcers",
+        "stinging",
+        "itching",
+        "areola"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

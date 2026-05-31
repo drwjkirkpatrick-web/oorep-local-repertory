@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Strychninum",
+  "remedy_abbrev": "Stry.",
+  "sentence": "Driven by limb expression, Strychninum manifests a dynamic cycle through back and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, stiffness",
+        "Extremities, convulsion, upper limbs",
+        "Extremities, twitching",
+        "Extremities, stiffness, knee",
+        "Extremities, convulsion, clonic",
+        "Extremities, convulsion, lower limbs",
+        "Extremities, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "convulsion",
+        "stiffness",
+        "limbs",
+        "knee"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, opisthotonos",
+        "Back, bending",
+        "Back, bending, backward (opisthotonos)",
+        "Back, bending, back",
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "bending",
+        "opisthotonos",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, confusion",
+        "Mind, mania",
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, mania-a-potu",
+        "Mind, delirium, tremens",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "mania",
+        "excitement",
+        "irritability",
+        "confusion"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, dull",
+        "Head, fullness",
+        "Head, pain, occiput",
+        "Head, pain, pain in neck, with",
+        "Head, pain, dull pain"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "dull",
+        "hyperemia",
+        "fullness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, distortion",
+        "Face, lockjaw",
+        "Face, stiffness, muscles",
+        "Face, stiffness, muscles, lower jaw",
+        "Face, jaw",
+        "Face, stiffness",
+        "Face, discoloration",
+        "Face, expression"
+      ],
+      "generalizations": [
+        "face",
+        "stiffness",
+        "muscles",
+        "distortion",
+        "lockjaw"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, dragging, bearing down",
+        "Abdomen, pain, dragging",
+        "Abdomen, pain, cramping",
+        "Abdomen, rumbling",
+        "Abdomen, pain, aching, dull pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "dragging",
+        "griping",
+        "cutting"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

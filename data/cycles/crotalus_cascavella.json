@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Crotalus Cascavella",
+  "remedy_abbrev": "Crot-c.",
+  "sentence": "Driven by limb expression, Crotalus Cascavella manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, numbness, hand",
+        "Extremities, paralysis, hemiplegia",
+        "Extremities, coldness, foot, icy cold"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "foot",
+        "numbness"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, fear, alone, of being",
+        "Mind, indifference, apathy",
+        "Mind, fear, alone"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "indifference",
+        "sadness",
+        "apathy"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heat",
+        "Head, heaviness",
+        "Head, motions",
+        "Head, pain, forehead",
+        "Head, constriction, tension",
+        "Head, heat, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "headache",
+        "general",
+        "heaviness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, saliva",
+        "Mouth, inflammation",
+        "Mouth, inflammation, tongue",
+        "Mouth, saliva, bloody",
+        "Mouth, speech, difficult",
+        "Mouth, speech",
+        "Mouth, speech, thick"
+      ],
+      "generalizations": [
+        "mouth",
+        "speech",
+        "saliva",
+        "inflammation",
+        "dryness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, constriction, contraction, etc., hypochondria",
+        "Abdomen, sensitive (to touch), clothing, sensitive to, after eating, desires to uncover",
+        "Abdomen, sensitive (to touch), clothing, sensitive to, after eating",
+        "Abdomen, pain, bruised, tenderness"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sensitive",
+        "bruised",
+        "tenderness",
+        "constriction"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, pain, sore",
+        "Throat, foreign body, sensation of",
+        "Throat, foreign body",
+        "Throat, choking, constricting",
+        "Throat, pain, burning",
+        "Throat, choking",
+        "Throat, membrane, exudation, diphtheria, etc."
+      ],
+      "generalizations": [
+        "throat",
+        "foreign",
+        "body",
+        "choking",
+        "sore"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "remedy_name": "Symphytum Officinale",
+  "remedy_abbrev": "Symph.",
+  "sentence": "Driven by eye, Symphytum Officinale manifests a dynamic cycle through clinical and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, injuries, from",
+        "Eye, pain, sore",
+        "Eye, pain, blow, from a",
+        "Eye, pain, sore, blow, from",
+        "Eye, pain, sore, bruised, tender"
+      ],
+      "generalizations": [
+        "sore",
+        "blow",
+        "injuries",
+        "bruised",
+        "tender"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, injuries (including blows, falls and bruises)",
+        "Clinical, brittle bones",
+        "Clinical, injuries (including blows, falls and bruises), bone",
+        "Clinical, injuries (including blows",
+        "Clinical, inflammation",
+        "Clinical, abscess"
+      ],
+      "generalizations": [
+        "clinical",
+        "injuries",
+        "including",
+        "blows",
+        "falls"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, bones",
+        "Generalities, bones, sensitive (to touch)",
+        "Generalities, bones, fracture",
+        "Generalities, bones, fracture, slow union, slow formation of callous",
+        "Generalities, bones, fracture, callous, deficient"
+      ],
+      "generalizations": [
+        "generalities",
+        "bones",
+        "fracture",
+        "slow",
+        "callous"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, sore",
+        "Chest, pain, sore, mammae",
+        "Chest, mammae"
+      ],
+      "generalizations": [
+        "chest",
+        "sore",
+        "mammae"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, abscess",
+        "Extremities, abscess, lower limbs",
+        "Extremities, abscess, lower limbs, psoas",
+        "Extremities, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "abscess",
+        "lower",
+        "limbs",
+        "psoas"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, inflammation",
+        "Face, inflammation, bone of",
+        "Face, inflammation, periosteum"
+      ],
+      "generalizations": [
+        "face",
+        "inflammation",
+        "bone",
+        "periosteum"
+      ],
+      "next_segment": "Visual and ocular strain"
+    }
+  ]
+}

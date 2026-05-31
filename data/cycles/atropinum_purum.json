@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Atropinum Purum",
+  "remedy_abbrev": "Atro.",
+  "sentence": "Driven by mind, Atropinum Purum manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, delirium, frightful",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness",
+        "Mind, dream, as if in a",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "delirium",
+        "frightful",
+        "nervousness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, stiffness, lower limbs",
+        "Extremities, stiffness, knee",
+        "Extremities, stiffness, toes",
+        "Extremities, stiffness, toes, first",
+        "Extremities, toes",
+        "Extremities, knee",
+        "Extremities, perspiration"
+      ],
+      "generalizations": [
+        "extremities",
+        "stiffness",
+        "toes",
+        "knee",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions",
+        "Head, pain, temples",
+        "Head, motions of head (shaking, nodding, waving, etc.), turning, side, to",
+        "Head, motions of head (shaking, nodding, waving, etc.), turning, side, to, wrong side, when spoken to",
+        "Head, temples",
+        "Head, motions of head (shaking, nodding, waving"
+      ],
+      "generalizations": [
+        "head",
+        "motions",
+        "shaking",
+        "nodding",
+        "waving"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, stiffness",
+        "Generalities, pain",
+        "Generalities, uncovering, agg.",
+        "Generalities, air, open, amel.",
+        "Generalities, motion, amel.",
+        "Generalities, pain, stitching, transversely",
+        "Generalities, walking, agg.",
+        "Generalities, air"
+      ],
+      "generalizations": [
+        "generalities",
+        "amel",
+        "stiffness",
+        "uncovering",
+        "open"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, induration, tongue",
+        "Mouth, induration",
+        "Mouth, tongue",
+        "Mouth, dryness, tongue",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, saliva"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "dryness",
+        "induration",
+        "discoloration"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness",
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, disturbed",
+        "Sleep, sleeplessness, night, midnight, before",
+        "Sleep, sleeplessness, night",
+        "Sleep, sleeplessness, night, midnight",
+        "Sleep, sleeplessness, night, midnight, before, until"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness",
+        "midnight",
+        "before",
+        "sleepiness"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Arsenicum Hydrogenisatum",
+  "remedy_abbrev": "Ars-h.",
+  "sentence": "Driven by limb expression, Arsenicum Hydrogenisatum manifests a dynamic cycle through mouth and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, lower limbs",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, lameness",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, tongue",
+        "Mouth, pain",
+        "Mouth, salivation",
+        "Mouth, ulcers",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "dryness",
+        "discoloration",
+        "salivation"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, anxiety",
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, impatience",
+        "Mind, starting, sleep, during",
+        "Mind, starting, startled"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "excitement",
+        "starting",
+        "nervousness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, thirst",
+        "Stomach, thirst, extreme",
+        "Stomach, eructations",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, vomiting"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "burning",
+        "extreme",
+        "eructations"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, expression",
+        "Face, expression, sickly",
+        "Face, discoloration",
+        "Face, discoloration, yellow",
+        "Face, drawn",
+        "Face, expression, old looking",
+        "Face, discoloration, pale",
+        "Face, discoloration, red"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "expression",
+        "sickly",
+        "yellow"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, eruptions",
+        "Genitalia male, ulcers",
+        "Genitalia male, ulcers, penis",
+        "Genitalia male, ulcers, penis, prepuce",
+        "Genitalia male, eruptions, penis",
+        "Genitalia male, eruptions, penis, prepuce",
+        "Genitalia male, eruptions, penis, pustules",
+        "Genitalia male, ulcers, penis, glans"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "penis",
+        "eruptions",
+        "ulcers"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

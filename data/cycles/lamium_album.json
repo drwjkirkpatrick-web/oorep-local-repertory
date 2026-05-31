@@ -1,0 +1,129 @@
+{
+  "remedy_name": "Lamium Album",
+  "remedy_abbrev": "Lam.",
+  "sentence": "Driven by head, Lamium Album manifests a dynamic cycle through mind and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions",
+        "Head, pain, pressing",
+        "Head, pain, pressing, sides",
+        "Head, pain, pressing, sides, both sides",
+        "Head, pain, stitching",
+        "Head, pain, walking in open air, while agg."
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "sides",
+        "motions",
+        "shaking"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, anxiety",
+        "Mind, anxiety, chill, during",
+        "Mind, concentration, difficult",
+        "Mind, confusion, intoxicated, as after being",
+        "Mind, thoughts, persistent"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "confusion",
+        "anxiety",
+        "mental"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, thigh",
+        "Extremities, pain, tearing, thigh, posterior part",
+        "Extremities, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "thigh",
+        "posterior",
+        "part"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, acrid, excoriating",
+        "Genitalia female, leucorrhea, acrid",
+        "Genitalia female, menses",
+        "Genitalia female, menses, scanty",
+        "Genitalia female, leucorrhea, offensive"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "leucorrhea",
+        "acrid",
+        "menses"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, bending",
+        "Back, pain, bending backward agg.",
+        "Back, sacrum"
+      ],
+      "generalizations": [
+        "back",
+        "bending",
+        "sacral",
+        "region",
+        "backward"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, hawked up, mucus",
+        "Expectoration, hawked up"
+      ],
+      "generalizations": [
+        "expectoration",
+        "hawked",
+        "mucus"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

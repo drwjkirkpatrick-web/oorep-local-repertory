@@ -1,0 +1,111 @@
+{
+  "remedy_name": "Brucea Antidysenterica",
+  "remedy_abbrev": "Bruc.",
+  "sentence": "Driven by limb expression, Brucea Antidysenterica manifests a dynamic cycle through chest and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, upper limbs",
+        "Extremities, eruption, hand, between index finger and thumb",
+        "Extremities, eruption, hand, between",
+        "Extremities, eruption, upper limbs, vesicles",
+        "Extremities, upper limbs",
+        "Extremities, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "hand",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, mammae",
+        "Chest, pain, stitching, mammae, under",
+        "Chest, pain, stitching, mammae, under, right",
+        "Chest, mammae",
+        "Chest, mammae, right"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "stitching",
+        "under",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, sun, from exposure to agg.",
+        "Head, pain, sun"
+      ],
+      "generalizations": [
+        "head",
+        "exposure"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, sleepiness, headache, during"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleepiness",
+        "headache",
+        "during"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, taste",
+        "Mouth, taste, pappy"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "pappy"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, foggy"
+      ],
+      "generalizations": [
+        "vision",
+        "foggy"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "remedy_name": "Kalium Muriaticum",
+  "remedy_abbrev": "Kali-m.",
+  "sentence": "Driven by throat, Kalium Muriaticum manifests a dynamic cycle through general state and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, hawks up cheesy lumps",
+        "Throat, hawk",
+        "Throat, caseous deposits in tonsils",
+        "Throat, tonsils"
+      ],
+      "generalizations": [
+        "throat",
+        "tonsils",
+        "hawks",
+        "cheesy",
+        "lumps"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, night",
+        "Generalities, bones",
+        "Generalities, bones, ganglion, bursae",
+        "Generalities, bones, pain",
+        "Generalities, bones, pain, cutting"
+      ],
+      "generalizations": [
+        "generalities",
+        "bones",
+        "ganglion",
+        "bursae",
+        "cutting"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, weakness, sensation of",
+        "Abdomen, weakness, sensation of, eructations amel.",
+        "Abdomen, weakness"
+      ],
+      "generalizations": [
+        "abdomen",
+        "weakness",
+        "eructations",
+        "amel"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, obstruction",
+        "Nose, obstruction, diphtheria, in"
+      ],
+      "generalizations": [
+        "nose",
+        "obstruction",
+        "diphtheria"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, croupy"
+      ],
+      "generalizations": [
+        "cough",
+        "croupy"
+      ],
+      "next_segment": "Blood state"
+    },
+    {
+      "name": "Blood state",
+      "description": "Hemorrhage, anemia, coagulation, circulation.",
+      "symptoms": [
+        "Blood, clotted",
+        "Blood, thrombus",
+        "Blood, clotted, quickly"
+      ],
+      "generalizations": [
+        "blood",
+        "clotted",
+        "thrombus",
+        "quickly"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    }
+  ]
+}

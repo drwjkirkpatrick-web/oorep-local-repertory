@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Elaps Corallinus",
+  "remedy_abbrev": "Elaps",
+  "sentence": "Driven by limb expression, Elaps Corallinus manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, coldness, foot, icy cold",
+        "Extremities, paralysis",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, swelling, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "swelling",
+        "cold"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, hysteria",
+        "Mind, delusions",
+        "Mind, speech",
+        "Mind, speech, shrieking",
+        "Mind, company, desire for",
+        "Mind, fear, alone, of being",
+        "Mind, delusions, voices, hears"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "delusions",
+        "speech",
+        "hysteria"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, vertex",
+        "Head, hair",
+        "Head, pain, occiput",
+        "Head, pain, stitching",
+        "Head, pain, stitching, forehead",
+        "Head, hair, falling"
+      ],
+      "generalizations": [
+        "head",
+        "hair",
+        "stitching",
+        "heaviness",
+        "vertex"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, epistaxis, blow, from a",
+        "Nose, coryza",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, epistaxis, blood, bright",
+        "Nose, epistaxis, blood, dark, black",
+        "Nose, obstruction",
+        "Nose, pain, in"
+      ],
+      "generalizations": [
+        "nose",
+        "epistaxis",
+        "coryza",
+        "blood",
+        "blow"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, discharges",
+        "Ear, pain",
+        "Ear, discoloration, redness",
+        "Ear, discoloration",
+        "Ear, heat",
+        "Ear, itching, in",
+        "Ear, noises, buzzing",
+        "Ear, noises, crackling"
+      ],
+      "generalizations": [
+        "discoloration",
+        "noises",
+        "discharges",
+        "redness",
+        "heat"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, pain",
+        "Chest, phthisis pulmonalis",
+        "Chest, inflammation",
+        "Chest, inflammation, lungs",
+        "Chest, oppression, ascending",
+        "Chest, pain, cutting (sudden sharp pain)",
+        "Chest, pain, stitching"
+      ],
+      "generalizations": [
+        "chest",
+        "oppression",
+        "inflammation",
+        "phthisis",
+        "pulmonalis"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

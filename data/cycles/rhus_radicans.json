@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Rhus Radicans",
+  "remedy_abbrev": "Rhus-r.",
+  "sentence": "Driven by head, Rhus Radicans manifests a dynamic cycle through mind and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, rheumatic",
+        "Head, pain, occiput",
+        "Head, occiput",
+        "Head, heat",
+        "Head, pain, exertion of body, etc. agg.",
+        "Head, pain, forehead, right side",
+        "Head, pain, nervous"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "rheumatic",
+        "heat",
+        "exertion"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, unconsciousness",
+        "Mind, delusions",
+        "Mind, mistakes, speaking",
+        "Mind, mistakes",
+        "Mind, concentration, difficult"
+      ],
+      "generalizations": [
+        "mind",
+        "mistakes",
+        "dullness",
+        "sadness",
+        "confusion"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, copious (increased)",
+        "Urine, color",
+        "Urine, burning (includes hot)",
+        "Urine, color, red",
+        "Urine, color, red, deep-red",
+        "Urine, scanty",
+        "Urine, sediment",
+        "Urine, copious (increased), night"
+      ],
+      "generalizations": [
+        "urine",
+        "color",
+        "copious",
+        "increased",
+        "burning"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, sneezing",
+        "Nose, epistaxis",
+        "Nose, coryza",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, epistaxis, morning",
+        "Nose, coryza, discharge",
+        "Nose, discharge",
+        "Nose, tingling"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "discharge",
+        "epistaxis",
+        "sneezing"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), frequent",
+        "Bladder, urging to urinate (morbid desire), painful",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "urging",
+        "urinate",
+        "morbid",
+        "desire"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, drawing",
+        "Back, pain, stitching, cervical region",
+        "Back, pain, stitching",
+        "Back, pain, stitching, cervical region, extending",
+        "Back, pain, stitching, cervical region, extending, vertex",
+        "Back, sacrum"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "stitching",
+        "cervical",
+        "extending"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

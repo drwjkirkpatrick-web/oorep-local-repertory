@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Nux Moschata",
+  "remedy_abbrev": "Nux-m.",
+  "sentence": "Driven by mind, Nux Moschata manifests a dynamic cycle through head and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, dream, as if in a",
+        "Mind, hysteria",
+        "Mind, memory, weakness of",
+        "Mind, unconsciousness",
+        "Mind, dream"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "dream",
+        "sluggishness",
+        "difficulty"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, tearing, occiput",
+        "Head, pain, temples",
+        "Head, pain, air",
+        "Head, pain, tea"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "pressing",
+        "forehead",
+        "tearing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "coldness",
+        "hands",
+        "numbness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, uncovering, agg.",
+        "Generalities, air, open agg.",
+        "Generalities, cold, air agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "fainting",
+        "lying",
+        "pressing"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, flatulence",
+        "Abdomen, tension",
+        "Abdomen, pain, warm",
+        "Abdomen, pain, warmth amel.",
+        "Abdomen, tension, menses, during",
+        "Abdomen, liver",
+        "Abdomen, evening"
+      ],
+      "generalizations": [
+        "abdomen",
+        "tension",
+        "flatulence",
+        "warm",
+        "warmth"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, menses, during",
+        "Back, pain, lumbar region, menses",
+        "Back, pain, sacral region, motion",
+        "Back, pain, sacral region, motion, amel. during"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "sacral",
+        "lumbar",
+        "menses"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

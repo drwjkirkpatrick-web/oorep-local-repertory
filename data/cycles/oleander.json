@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Oleander",
+  "remedy_abbrev": "Olnd.",
+  "sentence": "Driven by limb expression, Oleander manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, paralysis, lower limbs",
+        "Extremities, paralysis, lower limbs, painless",
+        "Extremities, pain",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "coldness",
+        "painless",
+        "lower"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, numbness, externally",
+        "Generalities, irritability",
+        "Generalities, numbness",
+        "Generalities, pain, benumbing"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "numbness",
+        "enervation",
+        "side"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, eruption",
+        "Head, itching of scalp",
+        "Head, itching of scalp, night",
+        "Head, eruption, scales",
+        "Head, eruption, scurfy",
+        "Head, eruption, desquamating",
+        "Head, itching of scalp, daytime",
+        "Head, night"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "itching",
+        "scalp",
+        "scales"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, desquamating",
+        "Skin, dry",
+        "Skin, anesthesia",
+        "Skin, burning",
+        "Skin, itching",
+        "Skin, numbness",
+        "Skin, biting"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "desquamating",
+        "anesthesia",
+        "burning"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, size",
+        "Mind, comprehension",
+        "Mind, comprehension, difficult",
+        "Mind, concentration",
+        "Mind, contradiction",
+        "Mind, size distance and form",
+        "Mind, contradiction, desires",
+        "Mind, heedless"
+      ],
+      "generalizations": [
+        "mind",
+        "size",
+        "comprehension",
+        "contradiction",
+        "difficult"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, flatulence",
+        "Abdomen, gurgling",
+        "Abdomen, gurgling, stool, before",
+        "Abdomen, gurgling, stool",
+        "Abdomen, emptiness",
+        "Abdomen, navicular region",
+        "Abdomen, pinching",
+        "Abdomen, pain, pinching"
+      ],
+      "generalizations": [
+        "abdomen",
+        "gurgling",
+        "stool",
+        "pinching",
+        "flatulence"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ruta Graveolens",
+  "remedy_abbrev": "Ruta",
+  "sentence": "Driven by limb expression, Ruta Graveolens manifests a dynamic cycle through general state and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, lameness",
+        "Extremities, lameness, wrist",
+        "Extremities, pain",
+        "Extremities, discoloration, upper limbs, redness",
+        "Extremities, pain, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "lameness",
+        "hands"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, food",
+        "Generalities, evening, agg.",
+        "Generalities, lassitude",
+        "Generalities, lying, side on, painful, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "weakness",
+        "pressing",
+        "food"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lying",
+        "Back, pain, sore, bruised, beaten",
+        "Back, pain, spine",
+        "Back, pain, sore",
+        "Back, pain, lameness",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "spine",
+        "lying",
+        "bruised"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, crushed, as if shattered, beaten to pieces",
+        "Head, pain, sore, bruised",
+        "Head, pain, sore, bruised, sides",
+        "Head, pain, straining eyes, from",
+        "Head, pain, sore",
+        "Head, eruption",
+        "Head, pain, alcoholic drinks, from agg."
+      ],
+      "generalizations": [
+        "head",
+        "sore",
+        "bruised",
+        "crushed",
+        "shattered"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, heat in",
+        "Eye, pain, aching",
+        "Eye, pain, burning, evening",
+        "Eye, pain, burning, smarting, biting",
+        "Eye, paralysis of muscles, ciliary",
+        "Eye, tension",
+        "Eye, pain, burning"
+      ],
+      "generalizations": [
+        "burning",
+        "heat",
+        "aching",
+        "smarting",
+        "biting"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, fear, death, of",
+        "Mind, fear, death, of, heat, during",
+        "Mind, fear, death",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "death",
+        "restlessness",
+        "heat"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

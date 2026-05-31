@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cuprum Arsenicosum",
+  "remedy_abbrev": "Cupr-ar.",
+  "sentence": "Driven by limb expression, Cuprum Arsenicosum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, eruption",
+        "Extremities, itching",
+        "Extremities, eruption, leg",
+        "Extremities, itching, leg",
+        "Extremities, cramps, toes",
+        "Extremities, cramps, fingers",
+        "Extremities, tumors"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "eruption",
+        "itching",
+        "toes"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pulsating, temples",
+        "Head, pain, sore, bruised",
+        "Head, pulsating",
+        "Head, pulsating, temples, right",
+        "Head, pain, sore, bruised, morning",
+        "Head, pain, sore, bruised, morning, waking, on"
+      ],
+      "generalizations": [
+        "head",
+        "pulsating",
+        "sore",
+        "bruised",
+        "temples"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, opisthotonos",
+        "Back, pain, aching, dull pain",
+        "Back, stiffness",
+        "Back, stiffness, moving agg.",
+        "Back, stiffness, moving",
+        "Back, pain, lameness",
+        "Back, pain, lameness, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "stiffness",
+        "moving",
+        "lameness",
+        "opisthotonos"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain",
+        "Abdomen, pain, aching",
+        "Abdomen, spasms",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, cramping, griping, hypogastrium",
+        "Abdomen, pain, paroxysmal"
+      ],
+      "generalizations": [
+        "abdomen",
+        "aching",
+        "cramping",
+        "griping",
+        "dull"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, thirst",
+        "Stomach, thirst, extreme",
+        "Stomach, nausea, pregnancy, during",
+        "Stomach, pain, violent"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "thirst",
+        "burning",
+        "vomiting"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain",
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, expression",
+        "Face, pain (aching, prosopalgia, etc.), jaw"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "discoloration",
+        "pale"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

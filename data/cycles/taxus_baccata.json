@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Taxus Baccata",
+  "remedy_abbrev": "Tax.",
+  "sentence": "Driven by limb expression, Taxus Baccata manifests a dynamic cycle through head and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, forearm",
+        "Extremities, eruption, forearm, pimples",
+        "Extremities, forearm",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, dryness, hands",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "forearm",
+        "pimples",
+        "coldness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, drawn",
+        "Head, pain, forehead",
+        "Head, heat, forehead",
+        "Head, heaviness, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heat",
+        "heaviness",
+        "headache"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, retching",
+        "Stomach, thirst",
+        "Stomach, thirst, heat, during",
+        "Stomach, vomiting, bile",
+        "Stomach, vomiting, mucus",
+        "Stomach, emptiness"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "thirst",
+        "nausea",
+        "retching"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, itching",
+        "Eye, lachrymation",
+        "Eye, pain",
+        "Eye, pupils",
+        "Eye, falling of lids",
+        "Eye, pain, tearing",
+        "Eye, itching, canthi",
+        "Eye, lachrymation, headache, during"
+      ],
+      "generalizations": [
+        "itching",
+        "lachrymation",
+        "pupils",
+        "falling",
+        "lids"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, froth",
+        "Mouth, saliva",
+        "Mouth, heat",
+        "Mouth, heat, tongue",
+        "Mouth, froth, convulsions, during",
+        "Mouth, saliva, sour",
+        "Mouth, saliva, salty",
+        "Mouth, saliva, thick"
+      ],
+      "generalizations": [
+        "mouth",
+        "saliva",
+        "froth",
+        "heat",
+        "tongue"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, ravenous",
+        "Appetite, aversion",
+        "Appetite, wanting",
+        "Appetite, aversion, food",
+        "Appetite, ravenous, eating",
+        "Appetite, wanting, hunger, with",
+        "Appetite, aversion, food, hunger, with"
+      ],
+      "generalizations": [
+        "appetite",
+        "hunger",
+        "aversion",
+        "ravenous",
+        "wanting"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

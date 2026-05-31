@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Magnesium Phosphoricum",
+  "remedy_abbrev": "Mag-p.",
+  "sentence": "Driven by limb expression, Magnesium Phosphoricum manifests a dynamic cycle through face and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, cramps, hand",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, forearm",
+        "Extremities, pain, drawing, upper limbs",
+        "Extremities, pain, forearm",
+        "Extremities, pain, forearm, writing, while"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "forearm",
+        "cramps",
+        "hand"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), lancinating",
+        "Face, pain (aching, prosopalgia, etc.), cold air agg.",
+        "Face, pain (aching, prosopalgia, etc.), wind, dry cold",
+        "Face, pain (aching, prosopalgia, etc.), cold",
+        "Face, pain (aching, prosopalgia, etc.), wind",
+        "Face, pain (aching, prosopalgia, etc.), tearing",
+        "Face, pain (aching, prosopalgia, etc.), cold applications agg."
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "cold",
+        "wind"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pressure, amel.",
+        "Generalities, pressure",
+        "Generalities, heat",
+        "Generalities, uncovering, agg.",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg.",
+        "Generalities, constriction, internally",
+        "Generalities, touch, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "pressure",
+        "cold",
+        "amel",
+        "heat"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, pain, warm",
+        "Abdomen, pain, warmth amel.",
+        "Abdomen, pain, drawing, warmth amel.",
+        "Abdomen, pain, cramping",
+        "Abdomen, spasms"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "drawing",
+        "warmth",
+        "amel"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, cold, becoming, from",
+        "Head, pain, cold",
+        "Head, pain, heat",
+        "Head, pain, pressure, amel.",
+        "Head, pain, pressure",
+        "Head, pain, pressure, hard, amel."
+      ],
+      "generalizations": [
+        "head",
+        "pressure",
+        "cold",
+        "amel",
+        "headache"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, pain, warm",
+        "Teeth, pain, warmth",
+        "Teeth, pain, warmth, external, amel.",
+        "Teeth, pain, neuralgic",
+        "Teeth, pain, nervous patients",
+        "Teeth, pain, rheumatic",
+        "Teeth, pain, stitching, stinging"
+      ],
+      "generalizations": [
+        "teeth",
+        "warmth",
+        "warm",
+        "external",
+        "amel"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

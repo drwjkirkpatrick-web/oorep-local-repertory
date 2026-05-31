@@ -1,0 +1,141 @@
+{
+  "remedy_name": "Derris Pinnata",
+  "remedy_abbrev": "Der.",
+  "sentence": "Driven by mind, Derris Pinnata manifests a dynamic cycle through limb disturbance and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, death, desires",
+        "Mind, fear",
+        "Mind, fear, killing, of",
+        "Mind, foolish behavior",
+        "Mind, death",
+        "Mind, delusions",
+        "Mind, weeping"
+      ],
+      "generalizations": [
+        "mind",
+        "death",
+        "fear",
+        "irritability",
+        "desires"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, discoloration, fingers",
+        "Extremities, discoloration",
+        "Extremities, shocks",
+        "Extremities, shocks, lower limbs",
+        "Extremities, discoloration, fingers, tips",
+        "Extremities, discoloration, fingers, tips, white",
+        "Extremities, cramps, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "discoloration",
+        "fingers",
+        "cramps",
+        "shocks"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, bearing down",
+        "Genitalia female, pain, cramping",
+        "Genitalia female, pain, cramping, uterus",
+        "Genitalia female, pain, cramping, uterus, menses, during",
+        "Genitalia female, pain, bearing down, uterus",
+        "Genitalia female, pain, cramping, uterus, menses",
+        "Genitalia female, pain, bearing down, uterus, and region of"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "uterus",
+        "cramping",
+        "bearing"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, inflammation",
+        "Genitalia male, inflammation, testes",
+        "Genitalia male, itching",
+        "Genitalia male, pain",
+        "Genitalia male, itching, penis",
+        "Genitalia male, pain, testes",
+        "Genitalia male, pain, testes, left",
+        "Genitalia male, penis"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "testes",
+        "inflammation",
+        "itching"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, constriction, contraction, closure, etc.",
+        "Rectum, pain, tenesmus",
+        "Rectum, constriction, contraction",
+        "Rectum, constriction"
+      ],
+      "generalizations": [
+        "rectum",
+        "constriction",
+        "contraction",
+        "burning",
+        "closure"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, noises",
+        "Ear, pain, lancinating",
+        "Ear, noises, cracking",
+        "Ear, noises, cracking, swallowing, when",
+        "Ear, pain, pinching in"
+      ],
+      "generalizations": [
+        "noises",
+        "cracking",
+        "lancinating",
+        "swallowing",
+        "when"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

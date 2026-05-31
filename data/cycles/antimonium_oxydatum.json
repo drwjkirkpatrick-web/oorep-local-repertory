@@ -1,0 +1,120 @@
+{
+  "remedy_name": "Antimonium Oxydatum",
+  "remedy_abbrev": "Ant-o.",
+  "sentence": "Driven by genitalia male, Antimonium Oxydatum manifests a dynamic cycle through cough and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, atrophy",
+        "Genitalia male, eruptions",
+        "Genitalia male, flaccidity",
+        "Genitalia male, flaccidity, penis",
+        "Genitalia male, pain, burning",
+        "Genitalia male, pain, burning, penis",
+        "Genitalia male, pain, testes"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "flaccidity",
+        "penis",
+        "burning"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, irritation in air passages, from",
+        "Cough, pain",
+        "Cough, painful",
+        "Cough, irritation in air passages, from, chest, in",
+        "Cough, irritation in air passages",
+        "Cough, irritation in air passages, from, chest"
+      ],
+      "generalizations": [
+        "cough",
+        "irritation",
+        "passages",
+        "chest",
+        "painful"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore, lumbar region",
+        "Back, pain, sore",
+        "Back, pain, lancinating",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "lumbar",
+        "region",
+        "lancinating"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, pain",
+        "Bladder, pain, neck",
+        "Bladder, bladder in general",
+        "Bladder, neck of bladder"
+      ],
+      "generalizations": [
+        "bladder",
+        "neck",
+        "general"
+      ],
+      "next_segment": "Perspiration state"
+    },
+    {
+      "name": "Perspiration state",
+      "description": "Sweat character, time, odor, staining.",
+      "symptoms": [
+        "Perspiration, sleep",
+        "Perspiration, sleep, waking, after agg.",
+        "Perspiration, sleep, waking"
+      ],
+      "generalizations": [
+        "perspiration",
+        "sleep",
+        "waking",
+        "after"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, discharge",
+        "Urethra, discharge, white"
+      ],
+      "generalizations": [
+        "urethra",
+        "discharge",
+        "white"
+      ],
+      "next_segment": "Male genital state"
+    }
+  ]
+}

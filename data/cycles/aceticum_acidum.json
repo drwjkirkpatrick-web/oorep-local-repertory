@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aceticum Acidum",
+  "remedy_abbrev": "Acet-ac.",
+  "sentence": "Driven by stomach, Aceticum Acidum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, thirst",
+        "Stomach, thirst, burning, vehement",
+        "Stomach, thirst, extreme",
+        "Stomach, thirst, burning",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, cancer",
+        "Stomach, eructations, putrid"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "burning",
+        "eructations",
+        "vehement"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, hysteria",
+        "Mind, anxiety",
+        "Mind, lamenting, bemoaning, wailing etc.",
+        "Mind, lamenting",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness"
+      ],
+      "generalizations": [
+        "mind",
+        "lamenting",
+        "dullness",
+        "irritability",
+        "hysteria"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, distension, blood vessels",
+        "Head, drawn backward",
+        "Head, eruption"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, corns",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, convulsion",
+        "Extremities, motion",
+        "Extremities, swelling",
+        "Extremities, convulsion, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "convulsion",
+        "corns",
+        "hands"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, lips",
+        "Face, lip",
+        "Face, discoloration, pale",
+        "Face, chlorotic",
+        "Face, discoloration, bluish, eyes, circles around",
+        "Face, discoloration, red"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "bluish",
+        "lips",
+        "pale"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, biting, tongue",
+        "Mouth, froth, foam, from",
+        "Mouth, pain",
+        "Mouth, protruded, tongue",
+        "Mouth, biting",
+        "Mouth, froth",
+        "Mouth, aphthae",
+        "Mouth, cold, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "biting",
+        "froth",
+        "foam"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

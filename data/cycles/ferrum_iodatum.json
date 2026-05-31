@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ferrum Iodatum",
+  "remedy_abbrev": "Ferr-i.",
+  "sentence": "Driven by limb expression, Ferrum Iodatum manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, paralysis",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, swelling, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "swelling",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, forehead",
+        "Head, pain, forehead, air, open, amel.",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pulsating",
+        "Head, pain, wrapping up head agg."
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, night",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, lying, bed, in, agg.",
+        "Generalities, pulsation, externally",
+        "Generalities, pulsation, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "lying",
+        "pulsation",
+        "enervation"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses",
+        "Genitalia female, menses, absent, amenorrhea",
+        "Genitalia female, menses, suppressed",
+        "Genitalia female, menses, absent",
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, abortion",
+        "Genitalia female, leucorrhea"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "absent",
+        "amenorrhea"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, eating",
+        "Stomach, pain, eating, after",
+        "Stomach, pain, sore",
+        "Stomach, nausea"
+      ],
+      "generalizations": [
+        "stomach",
+        "eating",
+        "after",
+        "sore",
+        "eructations"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, inguinal region",
+        "Abdomen, pain, inguinal region, extending",
+        "Abdomen, cord connecting anus and navel sensation of, with cutting when straightening up, when bent forward",
+        "Abdomen, pain, inguinal region, extending, hypogastrium, across",
+        "Abdomen, hypogastrium",
+        "Abdomen, inguinal region",
+        "Abdomen, rumbling"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inguinal",
+        "region",
+        "extending",
+        "when"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

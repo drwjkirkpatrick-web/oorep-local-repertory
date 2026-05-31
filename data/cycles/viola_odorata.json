@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Viola Odorata",
+  "remedy_abbrev": "Viol-o.",
+  "sentence": "Driven by mind, Viola Odorata manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, weeping",
+        "Mind, weeping, chill, during the",
+        "Mind, eat, refuses to",
+        "Mind, comprehension",
+        "Mind, ideas, instability of",
+        "Mind, comprehension, easy, acute",
+        "Mind, hysteria",
+        "Mind, memory, weakness of"
+      ],
+      "generalizations": [
+        "mind",
+        "weeping",
+        "comprehension",
+        "chill",
+        "during"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, side, left",
+        "Generalities, tension, externally",
+        "Generalities, weakness, nervous",
+        "Generalities, pain, stitching",
+        "Generalities, tension"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "weakness",
+        "tension",
+        "left"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, wrist",
+        "Extremities, pain, wrist, right",
+        "Extremities, wrist",
+        "Extremities, pain, hand",
+        "Extremities, pain, hand, rheumatic",
+        "Extremities, pain, wrist, rheumatic",
+        "Extremities, stiffness"
+      ],
+      "generalizations": [
+        "extremities",
+        "wrist",
+        "hand",
+        "rheumatic",
+        "right"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, constriction",
+        "Head, constriction, occiput",
+        "Head, prickling",
+        "Head, prickling, forehead",
+        "Head, constriction, occiput, alternating with tension of face",
+        "Head, forehead",
+        "Head, occiput",
+        "Head, heat"
+      ],
+      "generalizations": [
+        "head",
+        "constriction",
+        "occiput",
+        "prickling",
+        "forehead"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, dim",
+        "Vision, weak",
+        "Vision, acute",
+        "Vision, foggy",
+        "Vision, loss of vision (blindness)",
+        "Vision, sparks",
+        "Vision, colors",
+        "Vision, exertion, of vision, agg."
+      ],
+      "generalizations": [
+        "vision",
+        "weak",
+        "acute",
+        "foggy",
+        "loss"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, yawning",
+        "Sleep, sleepiness",
+        "Sleep, sleeplessness",
+        "Sleep, position, back, on",
+        "Sleep, position",
+        "Sleep, position, arms, under head",
+        "Sleep, position, head inclined forwards",
+        "Sleep, sleeplessness, sleepiness, with"
+      ],
+      "generalizations": [
+        "sleep",
+        "position",
+        "sleepiness",
+        "sleeplessness",
+        "head"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

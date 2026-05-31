@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Arsenicum Metallicum",
+  "remedy_abbrev": "Ars-met.",
+  "sentence": "Driven by limb expression, Arsenicum Metallicum manifests a dynamic cycle through nose and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, lameness",
+        "Extremities, heaviness",
+        "Extremities, heaviness, upper limbs",
+        "Extremities, lameness, thigh",
+        "Extremities, thigh",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, stiffness"
+      ],
+      "generalizations": [
+        "extremities",
+        "lameness",
+        "heaviness",
+        "thigh",
+        "coldness"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, swelling",
+        "Nose, swelling, of",
+        "Nose, discharge, yellow",
+        "Nose, discharge",
+        "Nose, discharge, burning",
+        "Nose, coryza",
+        "Nose, coryza, inflammation larynx, with",
+        "Nose, discharge, hot"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "swelling",
+        "coryza",
+        "yellow"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, white",
+        "Mouth, tongue",
+        "Mouth, pain",
+        "Mouth, pain, sore",
+        "Mouth, salivation"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "dryness",
+        "white"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, swelling",
+        "Face, swelling, edematous",
+        "Face, pain (aching, prosopalgia, etc.), burning, cold water amel.",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "burning",
+        "swelling"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, formication",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, burning",
+        "Back, pain, burning, dorsal region",
+        "Back, pain, burning, dorsal region, scapulae",
+        "Back, pain, burning, dorsal region, scapulae, between"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "burning",
+        "dorsal",
+        "aching"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pterygium",
+        "Eye, pain",
+        "Eye, pain, burning",
+        "Eye, pain, reading",
+        "Eye, pain, evening, agg.",
+        "Eye, pain, evening",
+        "Eye, pain, morning",
+        "Eye, pain, sewing, while"
+      ],
+      "generalizations": [
+        "pterygium",
+        "burning",
+        "reading",
+        "sewing",
+        "while"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

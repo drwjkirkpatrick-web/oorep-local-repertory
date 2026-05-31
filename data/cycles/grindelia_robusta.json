@@ -1,0 +1,138 @@
+{
+  "remedy_name": "Grindelia Robusta",
+  "remedy_abbrev": "Grin.",
+  "sentence": "Driven by respiration, Grindelia Robusta manifests a dynamic cycle through skin and clinical, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, arrested",
+        "Respiration, difficult, sleep",
+        "Respiration, difficult, waking with",
+        "Respiration, arrested, sleep, during",
+        "Respiration, difficult, sleep, falling asleep, when",
+        "Respiration, arrested, sleep",
+        "Respiration, arrested, sleep, on going to"
+      ],
+      "generalizations": [
+        "respiration",
+        "sleep",
+        "difficult",
+        "arrested",
+        "waking"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, rhus poisoning",
+        "Skin, eruptions, papular",
+        "Skin, ulcers",
+        "Skin, ulcers, discharges",
+        "Skin, eruptions, vesicular",
+        "Skin, ulcers, discharges, offensive",
+        "Skin, ulcers, varicose"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "ulcers",
+        "discharges",
+        "rhus"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation",
+        "Clinical, ulcers",
+        "Clinical, poisoning, rhus from",
+        "Clinical, poisoning",
+        "Clinical, hypertension"
+      ],
+      "generalizations": [
+        "clinical",
+        "poisoning",
+        "inflammation",
+        "ulcers",
+        "rhus"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, discharges",
+        "Eye, discharges, purulent",
+        "Eye, pain",
+        "Eye, pain, motion of eyes, on agg.",
+        "Eye, pain, motion of eyes"
+      ],
+      "generalizations": [
+        "discharges",
+        "motion",
+        "eyes",
+        "inflammation",
+        "purulent"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, sleep",
+        "Generalities, sleep, at beginning of, agg.",
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, lying, agg.",
+        "Generalities, lying"
+      ],
+      "generalizations": [
+        "generalities",
+        "sleep",
+        "faintness",
+        "lying",
+        "beginning"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, fear, suffocation, of",
+        "Mind, light, desire for",
+        "Mind, frightened",
+        "Mind, light",
+        "Mind, longing, sunshine, light and society, for",
+        "Mind, longing",
+        "Mind, fear, suffocation"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "light",
+        "suffocation",
+        "longing"
+      ],
+      "next_segment": "Respiratory rhythm"
+    }
+  ]
+}

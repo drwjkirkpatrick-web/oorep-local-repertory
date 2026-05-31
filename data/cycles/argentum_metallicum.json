@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Argentum Metallicum",
+  "remedy_abbrev": "Arg.",
+  "sentence": "Driven by limb expression, Argentum Metallicum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, heaviness, tired limbs",
+        "Extremities, pain, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "limbs",
+        "lower",
+        "weakness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "weakness",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, crushed, as if shattered, beaten to pieces",
+        "Head, pain, pinching",
+        "Head, pain, temples",
+        "Head, exostoses",
+        "Head, pain, pinching, temples",
+        "Head, temples"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "pinching",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, pain, lumbar region, walking",
+        "Back, pain, walking",
+        "Back, pain, lumbar region, sitting",
+        "Back, pain, sitting"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "stiffness",
+        "walking"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, exertion, from mental, agg.",
+        "Mind, prostration of mind",
+        "Mind, exertion",
+        "Mind, exertion, from mental",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "exertion",
+        "restlessness",
+        "mental",
+        "prostration"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, pain, rawness in air passages",
+        "Larynx and trachea, pain, rawness, larynx",
+        "Larynx and trachea, pain, rawness, trachea",
+        "Larynx and trachea, pain, soreness"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "rawness",
+        "voice",
+        "irritation"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

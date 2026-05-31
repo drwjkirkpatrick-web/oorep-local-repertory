@@ -1,0 +1,81 @@
+{
+  "remedy_name": "Gallicum Acidum",
+  "remedy_abbrev": "Gall-ac.",
+  "sentence": "Driven by mind, Gallicum Acidum manifests a dynamic cycle through rectum and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental anger",
+      "description": "The remedy's dominant mental pattern: anger. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, speech",
+        "Mind, jumping",
+        "Mind, jumping, bed, out of",
+        "Mind, speech, cursing",
+        "Mind, rudeness",
+        "Mind, jealousy",
+        "Mind, speech, strange",
+        "Mind, jumping, bed"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "jumping",
+        "cursing",
+        "rudeness"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, hemorrhoids",
+        "Rectum, hemorrhoids, large",
+        "Rectum, pain, sore"
+      ],
+      "generalizations": [
+        "rectum",
+        "hemorrhoids",
+        "large",
+        "sore"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pain in neck, with",
+        "Head, pain, pain in neck"
+      ],
+      "generalizations": [
+        "head",
+        "neck"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, roughness",
+        "Nose, roughness, posterior nares"
+      ],
+      "generalizations": [
+        "nose",
+        "roughness",
+        "posterior",
+        "nares"
+      ],
+      "next_segment": "Mental anger"
+    }
+  ]
+}

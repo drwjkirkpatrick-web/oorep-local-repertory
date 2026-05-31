@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aurum Muriaticum Natronatum",
+  "remedy_abbrev": "Aur-m-n.",
+  "sentence": "Driven by limb expression, Aurum Muriaticum Natronatum manifests a dynamic cycle through head and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, leg",
+        "Extremities, pain, drawing, leg, tibia",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, drawing, leg, tibia, motion amel.",
+        "Extremities, pain, leg",
+        "Extremities, pain, elbow"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "tibia",
+        "rheumatic",
+        "motion"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, drawing",
+        "Head, pain, drawing, forehead",
+        "Head, pain, drawing, forehead, sitting, while",
+        "Head, pain, winter headaches",
+        "Head, forehead",
+        "Head, heat",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "drawing",
+        "forehead",
+        "sitting",
+        "while"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, caries of bone",
+        "Face, caries of bone, lower jaw",
+        "Face, jaw",
+        "Face, discoloration, pale",
+        "Face, lockjaw",
+        "Face, discoloration",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), drawing"
+      ],
+      "generalizations": [
+        "face",
+        "caries",
+        "bone",
+        "discoloration",
+        "aching"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, ulcers",
+        "Nose, ulcers, inside",
+        "Nose, discharge, blood",
+        "Nose, discharge",
+        "Nose, swelling",
+        "Nose, discharge, offensive",
+        "Nose, discharge, offensive, fetid",
+        "Nose, ozena"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "ulcers",
+        "offensive",
+        "inside"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, syphilis",
+        "Generalities, motion, amel.",
+        "Generalities, sitting, while, agg.",
+        "Generalities, cold",
+        "Generalities, motion",
+        "Generalities, sitting",
+        "Generalities, cold, wet weather agg.",
+        "Generalities, bones"
+      ],
+      "generalizations": [
+        "generalities",
+        "motion",
+        "sitting",
+        "cold",
+        "syphilis"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses",
+        "Genitalia female, induration",
+        "Genitalia female, induration, uterus",
+        "Genitalia female, induration, uterus, cervix",
+        "Genitalia female, menses, irregular",
+        "Genitalia female, tumors",
+        "Genitalia female, tumors, uterus",
+        "Genitalia female, tumors, uterus, fibroid"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "uterus",
+        "induration",
+        "tumors"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

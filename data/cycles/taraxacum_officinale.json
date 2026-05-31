@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Taraxacum Officinale",
+  "remedy_abbrev": "Tarax.",
+  "sentence": "Driven by limb expression, Taraxacum Officinale manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, pain",
+        "Extremities, coldness, fingers",
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, joints",
+        "Extremities, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "fingers",
+        "heat",
+        "stitching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, food",
+        "Generalities, food, fat agg.",
+        "Generalities, motion, amel.",
+        "Generalities, pain, jerking externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "food",
+        "side",
+        "motion"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, occiput",
+        "Head, pain, temples",
+        "Head, pain, pressing, lying",
+        "Head, pain, pressing, lying, while agg.",
+        "Head, pain, pressing, occiput, lying, down, after",
+        "Head, temples"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "lying",
+        "occiput",
+        "temples"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, cheerful, happy",
+        "Mind, mirth, hilarity, liveliness, etc.",
+        "Mind, sit, inclination to",
+        "Mind, cheerful",
+        "Mind, mirth",
+        "Mind, delirium, muttering",
+        "Mind, walking"
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "cheerful",
+        "mirth",
+        "happy"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, right",
+        "Back, bubbling sensation in",
+        "Back, bubbling sensation in, dorsal region, scapula",
+        "Back, bubbling sensation in, dorsal region, scapula, right",
+        "Back, scapula"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "right",
+        "bubbling"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, sides, left",
+        "Abdomen, sides",
+        "Abdomen, sides, of",
+        "Abdomen, lower abdomen",
+        "Abdomen, sticking, stitches, etc., sides",
+        "Abdomen, pain, stitching, lower abdomen",
+        "Abdomen, pain",
+        "Abdomen, pain, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "lower",
+        "left",
+        "sticking"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

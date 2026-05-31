@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kreosotum",
+  "remedy_abbrev": "Kreos.",
+  "sentence": "Driven by limb expression, Kreosotum manifests a dynamic cycle through genitalia female and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, pain, thumb",
+        "Extremities, pain, sprained",
+        "Extremities, excoriation, thighs, between",
+        "Extremities, stiffness, thumb"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "stiffness",
+        "thumb",
+        "foot"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, inflammation",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, yellow",
+        "Genitalia female, lochia, offensive, fetid",
+        "Genitalia female, pain, bearing down"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "leucorrhea",
+        "metrorrhagia",
+        "menses"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, coccyx",
+        "Back, dorsal region, back, left, right",
+        "Back, scapula",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, lumbar region",
+        "Back, scapula, scapulae, about"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapula",
+        "coccyx"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side",
+        "Generalities, pulsation, externally",
+        "Generalities, side, left",
+        "Generalities, menses",
+        "Generalities, side, symptoms on one side",
+        "Generalities, menses, after",
+        "Generalities, stiffness",
+        "Generalities, pulsation"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "pulsation",
+        "menses",
+        "externally"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, navicular region",
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "navicular",
+        "region",
+        "rumbling",
+        "spleen"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, menses, before",
+        "Head, pain, menses, during agg.",
+        "Head, pain, pressing",
+        "Head, pain, pressing, menses, during",
+        "Head, pain, temples",
+        "Head, pain, menses",
+        "Head, pain, pressing, menses"
+      ],
+      "generalizations": [
+        "head",
+        "menses",
+        "pressing",
+        "during",
+        "before"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

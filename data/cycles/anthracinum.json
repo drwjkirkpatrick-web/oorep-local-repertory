@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Anthracinum",
+  "remedy_abbrev": "Anthr.",
+  "sentence": "Driven by limb expression, Anthracinum manifests a dynamic cycle through skin and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, ulcers",
+        "Extremities, ulcers, lower limbs",
+        "Extremities, carbuncles",
+        "Extremities, felon, panaritium",
+        "Extremities, felon",
+        "Extremities, ulcers, leg",
+        "Extremities, felon, panaritium, burning",
+        "Extremities, felon, sloughing, with"
+      ],
+      "generalizations": [
+        "extremities",
+        "felon",
+        "ulcers",
+        "panaritium",
+        "lower"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, ulcers",
+        "Skin, gangrene",
+        "Skin, eruptions, pustules",
+        "Skin, gangrene, from burns or gangrenous sores",
+        "Skin, ulcers, burning",
+        "Skin, eruptions, pustules, black",
+        "Skin, eruptions, pustules, malignant"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "pustules",
+        "ulcers",
+        "gangrene"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, pustules",
+        "Face, eruptions, pustules, lips",
+        "Face, eruptions, pustules, lips, black",
+        "Face, lip",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, erysipelas",
+        "Face, swelling"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "pustules",
+        "lips",
+        "black"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, burns",
+        "Clinical, ulcers",
+        "Clinical, abscess",
+        "Clinical, abscess, burning",
+        "Clinical, swelling, glands",
+        "Clinical, wounds",
+        "Clinical, inflammation",
+        "Clinical, swelling"
+      ],
+      "generalizations": [
+        "clinical",
+        "abscess",
+        "swelling",
+        "burns",
+        "ulcers"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, odor (breath), offensive",
+        "Mouth, swelling",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, odor (breath)",
+        "Mouth, discoloration, tongue, brown",
+        "Mouth, tongue",
+        "Mouth, salivation"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "odor",
+        "breath"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, blackness of external parts",
+        "Generalities, pain, burning externally",
+        "Generalities, indurations",
+        "Generalities, indurations, muscles",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "indurations",
+        "weakness",
+        "blackness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ptelea Trifoliata",
+  "remedy_abbrev": "Ptel.",
+  "sentence": "Driven by abdomen, Ptelea Trifoliata manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, inflammation",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, inflammation, liver",
+        "Abdomen, pain, cramping, griping, umbilicus, region of",
+        "Abdomen, pain, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inflammation",
+        "cramping",
+        "griping",
+        "spleen"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, thigh",
+        "Extremities, thigh",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness"
+      ],
+      "generalizations": [
+        "extremities",
+        "stitching",
+        "thigh",
+        "coldness",
+        "paralysis"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead, left side",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "shooting",
+        "heat",
+        "headache"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, heaviness, eating, after",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, pressing",
+        "Stomach, pain, pressing, weight, as from",
+        "Stomach, stone, sensation of"
+      ],
+      "generalizations": [
+        "stomach",
+        "heaviness",
+        "eating",
+        "after",
+        "weight"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, food",
+        "Generalities, heat",
+        "Generalities, afternoon, agg.",
+        "Generalities, air, open, amel.",
+        "Generalities, air, open, desire for",
+        "Generalities, evening, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "eating",
+        "open",
+        "after",
+        "food"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, aching, dull pain, sacrum"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "dorsal"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

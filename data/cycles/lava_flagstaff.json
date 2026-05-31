@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lava Flagstaff",
+  "remedy_abbrev": "Lava-f.",
+  "sentence": "Driven by mind, Lava Flagstaff manifests a dynamic cycle through sleep and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, cruelty",
+        "Mind, dream, as if in a",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, memory, weakness of"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "sadness",
+        "confusion",
+        "cruelty"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams, falling of",
+        "Sleep, dreams, falling of, from high places",
+        "Sleep, dreams, men",
+        "Sleep, heavy",
+        "Sleep, restless",
+        "Sleep, dreams",
+        "Sleep, waking",
+        "Sleep, waking, early"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "falling",
+        "waking",
+        "high"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, vertex",
+        "Head, tingling",
+        "Head, pain, forehead",
+        "Head, constriction, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "above",
+        "heaviness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, dryness",
+        "Face, dryness, lips",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, pain (aching, prosopalgia, etc.), burning, lips"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "discoloration",
+        "dryness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, dryness",
+        "Mouth, pain, burning, tongue",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, pain, burning",
+        "Mouth, taste",
+        "Mouth, prickling"
+      ],
+      "generalizations": [
+        "mouth",
+        "burning",
+        "tongue",
+        "swelling",
+        "dryness"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, aversion",
+        "Appetite, desires",
+        "Appetite, wanting",
+        "Appetite, desires, cold, drinks",
+        "Appetite, desires, alcoholic drinks",
+        "Appetite, capricious (hunger, but knows not for what, or refuses things when offered)",
+        "Appetite, wanting, thirst, with"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "hunger",
+        "wanting",
+        "drinks"
+      ],
+      "next_segment": "Mental withdrawal"
+    }
+  ]
+}

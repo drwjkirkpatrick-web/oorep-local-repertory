@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Natrium Phosphoricum",
+  "remedy_abbrev": "Nat-p.",
+  "sentence": "Driven by limb expression, Natrium Phosphoricum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, weakness",
+        "Extremities, trembling",
+        "Extremities, weakness, ankle",
+        "Extremities, trembling, emissions, after",
+        "Extremities, ankle",
+        "Extremities, coldness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "trembling",
+        "ankle"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, starting",
+        "Mind, prostration of mind",
+        "Mind, starting, noise, from",
+        "Mind, starting, easily",
+        "Mind, indifference, apathy",
+        "Mind, noise, agg."
+      ],
+      "generalizations": [
+        "mind",
+        "indifference",
+        "starting",
+        "apathy",
+        "noise"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, mental exertion, from agg.",
+        "Head, pain, mental exertion",
+        "Head, pain, forehead, mental exertion",
+        "Head, forehead",
+        "Head, heaviness",
+        "Head, fullness"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "mental",
+        "exertion",
+        "heaviness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, evening, agg.",
+        "Generalities, nursing children",
+        "Generalities, sensitiveness, externally",
+        "Generalities, sexual excesses, after",
+        "Generalities, weakness, nervous",
+        "Generalities, evening"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "nursing",
+        "children"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour",
+        "Stomach, vomiting, sour",
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "vomiting",
+        "sour",
+        "sore"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine",
+        "Back, spine",
+        "Back, pain, aching, dull pain",
+        "Back, pain, burning",
+        "Back, pain, burning, spine"
+      ],
+      "generalizations": [
+        "back",
+        "spine",
+        "sore",
+        "burning",
+        "spinal"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

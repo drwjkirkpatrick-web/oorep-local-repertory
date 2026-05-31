@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Fluoricum Acidum",
+  "remedy_abbrev": "Fl-ac.",
+  "sentence": "Driven by limb expression, Fluoricum Acidum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, inflammation",
+        "Extremities, perspiration",
+        "Extremities, perspiration, foot",
+        "Extremities, perspiration, hand",
+        "Extremities, varices, lower limbs",
+        "Extremities, varices, lower limbs, pregnancy, during",
+        "Extremities, varices",
+        "Extremities, felon, panaritium"
+      ],
+      "generalizations": [
+        "extremities",
+        "perspiration",
+        "varices",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, hair",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, occiput",
+        "Head, inflammation",
+        "Head, pain, occiput, sides of",
+        "Head, hair, falling"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "hair",
+        "pressing",
+        "inflammation"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, fear",
+        "Mind, memory, weakness of",
+        "Mind, delusions",
+        "Mind, indifference",
+        "Mind, speech",
+        "Mind, anxiety",
+        "Mind, forgetful"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "fear",
+        "memory",
+        "weakness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, heat",
+        "Generalities, walking, in open air, amel.",
+        "Generalities, winter, in",
+        "Generalities, cold",
+        "Generalities, walking",
+        "Generalities, summer, in",
+        "Generalities, heat, sensation of",
+        "Generalities, cold, heat and cold"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "cold",
+        "walking",
+        "open"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, right",
+        "Back, pain",
+        "Back, heat",
+        "Back, pain, aching, dull pain",
+        "Back, pain, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "right",
+        "left"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, salivation",
+        "Mouth, saliva",
+        "Mouth, cracked",
+        "Mouth, cracked, tongue fissured",
+        "Mouth, fistula, gums",
+        "Mouth, cracked, tongue fissured, in all directions",
+        "Mouth, gums",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "cracked",
+        "tongue",
+        "fissured",
+        "gums"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

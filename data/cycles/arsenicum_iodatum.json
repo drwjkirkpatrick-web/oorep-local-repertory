@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Arsenicum Iodatum",
+  "remedy_abbrev": "Ars-i.",
+  "sentence": "Driven by constitutional vulnerability, Arsenicum Iodatum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, night",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, warm, agg.",
+        "Generalities, exertion, physical",
+        "Generalities, warm"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "exertion",
+        "physical",
+        "warm"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, trembling",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, swelling, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "swelling",
+        "hands"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, anxiety",
+        "Mind, irritability",
+        "Mind, restlessness, night",
+        "Mind, excitement, excitable"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "nervousness",
+        "mental"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, excrescences",
+        "Skin, ulcers",
+        "Skin, ulcers, discharges",
+        "Skin, eruptions, crusty",
+        "Skin, ulcers, discharges, corrosive",
+        "Skin, eruptions, dry",
+        "Skin, eruptions, eczema"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "ulcers",
+        "discharges",
+        "excrescences"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, forehead",
+        "Head, pain, catarrhal",
+        "Head, pain, forehead, nose, above root of",
+        "Head, pain, occiput",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "forehead",
+        "crusts",
+        "scabs"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pulse, abnormal",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable, rapid)",
+        "Heart & Circulation, constriction, heart",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "frequent",
+        "accelerated"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

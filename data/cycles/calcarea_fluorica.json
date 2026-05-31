@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Calcarea Fluorica",
+  "remedy_abbrev": "Calc-f.",
+  "sentence": "Driven by constitutional vulnerability, Calcarea Fluorica manifests a dynamic cycle through back and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, cold, in general agg.",
+        "Generalities, cold",
+        "Generalities, indurations",
+        "Generalities, indurations, glands",
+        "Generalities, heat",
+        "Generalities, heat, vital, lack of",
+        "Generalities, indurations, muscles",
+        "Generalities, bones"
+      ],
+      "generalizations": [
+        "generalities",
+        "indurations",
+        "cold",
+        "heat",
+        "general"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, curvature of spine",
+        "Back, spine",
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, motion",
+        "Back, pain, motion, amel.",
+        "Back, restlessness, lumbar region",
+        "Back, pain, motion, amel. by gentle"
+      ],
+      "generalizations": [
+        "back",
+        "motion",
+        "spine",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, liver",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, flatulence",
+        "Abdomen, pain, hypochondria",
+        "Abdomen, pain, liver",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, pressing, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "hypochondria",
+        "pressing",
+        "cutting"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, tickling",
+        "Cough, tickling, larynx, in, from",
+        "Cough, tickling, larynx, in",
+        "Cough, tickling, larynx",
+        "Cough, hacking",
+        "Cough, dry",
+        "Cough, eating, from agg.",
+        "Cough, irritation in air passages, from"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "larynx",
+        "hacking",
+        "eating"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, tickling in the air passages",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, voice",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, tickling, larynx, in",
+        "Larynx and trachea, tickling, larynx",
+        "Larynx and trachea, scraping, clearing larynx",
+        "Larynx and trachea, foreign substance, sensation, larynx"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "tickling",
+        "voice",
+        "passages"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, exostosis",
+        "Face, exostosis, lower jaw",
+        "Face, jaw",
+        "Face, eruptions",
+        "Face, swelling",
+        "Face, swelling, jaw, lower",
+        "Face, swelling, jaw",
+        "Face, eruptions, herpes"
+      ],
+      "generalizations": [
+        "face",
+        "swelling",
+        "exostosis",
+        "lower",
+        "eruptions"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Indigo Tinctoria",
+  "remedy_abbrev": "Indg.",
+  "sentence": "Driven by limb expression, Indigo Tinctoria manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, hip",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, thigh",
+        "Extremities, pain, stitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, forehead, right side",
+        "Head, pain, gastric"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, mildness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "restlessness",
+        "dullness",
+        "irritability"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, epileptic aura",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, pain, extending, back"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "epileptic",
+        "aura",
+        "burning"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, motion, amel.",
+        "Generalities, pain, stitching, externally",
+        "Generalities, pain, tearing, externally",
+        "Generalities, motion",
+        "Generalities, pain, stitching"
+      ],
+      "generalizations": [
+        "generalities",
+        "eating",
+        "motion",
+        "stitching",
+        "externally"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, flatulence",
+        "Abdomen, heat",
+        "Abdomen, pain, cramping, griping, umbilicus, region of"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "rumbling",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

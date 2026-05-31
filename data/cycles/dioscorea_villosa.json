@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Dioscorea Villosa",
+  "remedy_abbrev": "Dios.",
+  "sentence": "Driven by limb expression, Dioscorea Villosa manifests a dynamic cycle through abdomen and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, felon, panaritium",
+        "Extremities, felon",
+        "Extremities, cramps, fingers",
+        "Extremities, cramps, fingers, parturition, during",
+        "Extremities, fingers",
+        "Extremities, pain",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "fingers",
+        "felon",
+        "panaritium"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cramping, griping, umbilicus, region of",
+        "Abdomen, pain, umbilicus",
+        "Abdomen, pain, umbilicus, region of",
+        "Abdomen, pain, diarrhea"
+      ],
+      "generalizations": [
+        "abdomen",
+        "umbilicus",
+        "cramping",
+        "griping",
+        "region"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, drawing",
+        "Back, pain, drawing, sacral region",
+        "Back, pain, sore",
+        "Back, pain, chill, before"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "sacral",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, dull",
+        "Head, pain, forehead",
+        "Head, fullness",
+        "Head, pain, dull pain",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "dull",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, cutting",
+        "Stomach, eructations",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, eructations, ameliorate",
+        "Stomach, eructations, sour",
+        "Stomach, hiccough"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "cutting",
+        "burning",
+        "empty"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, cutting, internally",
+        "Generalities, pain, cutting",
+        "Generalities, pain, burning, internally",
+        "Generalities, pain, burning",
+        "Generalities, morning",
+        "Generalities, air, open, amel.",
+        "Generalities, motion, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "cutting",
+        "internally",
+        "burning",
+        "amel"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

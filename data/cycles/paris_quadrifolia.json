@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Paris Quadrifolia",
+  "remedy_abbrev": "Par.",
+  "sentence": "Driven by head, Paris Quadrifolia manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, drawing",
+        "Head, pain, drawing, forehead",
+        "Head, pain, temples",
+        "Head, pain, drawing, forehead, eyes, above",
+        "Head, forehead",
+        "Head, temples",
+        "Head, brain"
+      ],
+      "generalizations": [
+        "head",
+        "drawing",
+        "forehead",
+        "temples",
+        "eyes"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, tingling",
+        "Extremities, tingling, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "tingling",
+        "foot",
+        "swelling"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, pain, pressing",
+        "Generalities, swollen sensation",
+        "Generalities, tension, internally",
+        "Generalities, tension",
+        "Generalities, pressure, amel.",
+        "Generalities, pressure"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "tension",
+        "pressure",
+        "load"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, pressing",
+        "Back, pain, sore, cervical region",
+        "Back, pain, sore",
+        "Back, heaviness, cervical region",
+        "Back, pain, pressing, cervical region",
+        "Back, heaviness"
+      ],
+      "generalizations": [
+        "back",
+        "cervical",
+        "region",
+        "pressing",
+        "sore"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, sides, left",
+        "Abdomen, sides",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, coldness",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, cramping",
+        "Abdomen, walls of abdomen (muscles, etc.)"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "cramping",
+        "left",
+        "griping"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, imbecility",
+        "Mind, laughing",
+        "Mind, scorn, ailments from",
+        "Mind, confusion, dream, as if in",
+        "Mind, laughing, silly",
+        "Mind, insanity, loquacious",
+        "Mind, irritability",
+        "Mind, restlessness, night"
+      ],
+      "generalizations": [
+        "mind",
+        "laughing",
+        "imbecility",
+        "scorn",
+        "ailments"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

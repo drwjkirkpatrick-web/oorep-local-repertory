@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Xantoxylum Fraxineum",
+  "remedy_abbrev": "Xan.",
+  "sentence": "Driven by limb expression, Xantoxylum Fraxineum manifests a dynamic cycle through genitalia female and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, thigh",
+        "Extremities, pain, thigh, menses, during",
+        "Extremities, pain, thigh, menses",
+        "Extremities, thigh",
+        "Extremities, swelling",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "thigh",
+        "menses",
+        "during",
+        "swelling"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, menses",
+        "Genitalia female, menses, painful, dysmenorrhea",
+        "Genitalia female, menses, scanty",
+        "Genitalia female, pain, after-pains",
+        "Genitalia female, pain, ovaries",
+        "Genitalia female, menses, pain",
+        "Genitalia female, menses, painful"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "painful",
+        "dysmenorrhea"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, fullness",
+        "Head, pain, menses, before",
+        "Head, pain, menses",
+        "Head, fullness, menses, during",
+        "Head, fullness, menses",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "menses",
+        "fullness",
+        "heat",
+        "before"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, menses, during",
+        "Back, pain, lumbar region, menses",
+        "Back, lumbar region",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, sacral region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "menses",
+        "dorsal"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, anguish",
+        "Mind, anxiety"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "indifference",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, hypogastrium, menses, during",
+        "Abdomen, pain, hypogastrium, menses",
+        "Abdomen, hypogastrium",
+        "Abdomen, rumbling",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc."
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "menses",
+        "during",
+        "rumbling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

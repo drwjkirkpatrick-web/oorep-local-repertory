@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Oleum Jecoris Aselli",
+  "remedy_abbrev": "Ol-j.",
+  "sentence": "Driven by limb expression, Oleum Jecoris Aselli manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, heat, hand, palm",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, knee",
+        "Extremities, pain, ankle"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "hand",
+        "aching",
+        "swelling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, coughing agg.",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes",
+        "Head, pain, forehead, eyes, above, coughing, after",
+        "Head, forehead",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "coughing",
+        "above"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, hypochondria",
+        "Abdomen, pain, sore, liver, in",
+        "Abdomen, pain, sore, hypochondria",
+        "Abdomen, pain, sore, hypochondria, right",
+        "Abdomen, pain, hypochondria, right",
+        "Abdomen, enlarged"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sore",
+        "hypochondria",
+        "right",
+        "liver"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine",
+        "Back, spine",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, sacrum"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "spine",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, phthisis pulmonalis",
+        "Chest, pain, wandering",
+        "Chest, oppression",
+        "Chest, hemorrhage",
+        "Chest, pain, burning",
+        "Chest, heat",
+        "Chest, pain, cough, during"
+      ],
+      "generalizations": [
+        "chest",
+        "phthisis",
+        "pulmonalis",
+        "wandering",
+        "oppression"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, loose",
+        "Cough, tickling",
+        "Cough, dry, night",
+        "Cough, hacking",
+        "Cough, irritation in air passages, from",
+        "Cough, lying, agg.",
+        "Cough, morning, agg."
+      ],
+      "generalizations": [
+        "cough",
+        "loose",
+        "tickling",
+        "hacking",
+        "irritation"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

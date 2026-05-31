@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Helonias Dioica",
+  "remedy_abbrev": "Helon.",
+  "sentence": "Driven by genitalia female, Helonias Dioica manifests a dynamic cycle through back and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses",
+        "Genitalia female, menses, copious",
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, abortion",
+        "Genitalia female, heat",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, copious"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "copious",
+        "leucorrhea"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, aching, dull pain, sacrum",
+        "Back, pain, burning",
+        "Back, pain, burning, lumbar region",
+        "Back, pain, drawing"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "lumbar"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, stooping",
+        "Head, fullness",
+        "Head, fullness, forehead",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, occiput, morning"
+      ],
+      "generalizations": [
+        "head",
+        "stooping",
+        "fullness",
+        "occiput",
+        "forehead"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, memory, weakness of",
+        "Mind, contradiction, is intolerant of",
+        "Mind, occupation, amel.",
+        "Mind, thinking, complaints, of, agg.",
+        "Mind, exertion"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "irritability",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, air, open agg.",
+        "Generalities, cold, in general agg.",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, air",
+        "Generalities, air, open",
+        "Generalities, cold",
+        "Generalities, exertion, physical"
+      ],
+      "generalizations": [
+        "generalities",
+        "open",
+        "cold",
+        "exertion",
+        "physical"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, sore",
+        "Mouth, salivation",
+        "Mouth, salivation, pregnancy, during",
+        "Mouth, saliva",
+        "Mouth, taste",
+        "Mouth, inflammation",
+        "Mouth, taste, bitter"
+      ],
+      "generalizations": [
+        "mouth",
+        "salivation",
+        "taste",
+        "sore",
+        "pregnancy"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

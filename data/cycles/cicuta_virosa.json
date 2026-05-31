@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cicuta Virosa",
+  "remedy_abbrev": "Cic.",
+  "sentence": "Driven by mind, Cicuta Virosa manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, weeping",
+        "Mind, anxiety",
+        "Mind, excitement",
+        "Mind, anxiety, future, about",
+        "Mind, childish behavior",
+        "Mind, company aversion to"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "sadness",
+        "fear",
+        "weeping"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, jerking",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "stitching",
+        "convulsion",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, drawn backward",
+        "Head, drawn",
+        "Head, shocks, blows",
+        "Head, shocks, blows, extending extremities, to",
+        "Head, concussion of brain",
+        "Head, drawn backward, convulsions, in",
+        "Head, brain",
+        "Head, shocks"
+      ],
+      "generalizations": [
+        "head",
+        "drawn",
+        "shocks",
+        "backward",
+        "blows"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, lying",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, convulsive movements",
+        "Generalities, jar, stepping, agg.",
+        "Generalities, jerking, muscles",
+        "Generalities, lying, bed, in, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "trembling",
+        "externally",
+        "convulsive"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, opisthotonos",
+        "Back, pain, cervical region",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, tension",
+        "Back, tension, cervical region",
+        "Back, pain, cramp-like"
+      ],
+      "generalizations": [
+        "back",
+        "cervical",
+        "region",
+        "stiffness",
+        "tension"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, lockjaw",
+        "Face, convulsions",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, convulsions, spasms",
+        "Face, eruptions",
+        "Face, eruptions, eczema",
+        "Face, eruptions, pustules"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "convulsions",
+        "discoloration",
+        "lockjaw"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

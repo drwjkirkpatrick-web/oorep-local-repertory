@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Niccolum Metallicum",
+  "remedy_abbrev": "Nicc.",
+  "sentence": "Driven by limb expression, Niccolum Metallicum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, forearm",
+        "Extremities, forearm",
+        "Extremities, cramps",
+        "Extremities, heaviness, hand",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "forearm",
+        "heaviness",
+        "cramps"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, fullness",
+        "Head, pain, air, open, amel.",
+        "Head, pain, coughing, on agg.",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, pain, air"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "heaviness",
+        "fullness",
+        "open"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, menses, during",
+        "Back, pain, stitching, lumbar region",
+        "Back, pain, lumbar region, menses",
+        "Back, pain, stitching",
+        "Back, cracking, cervical region, rising from stooping, on, stooping, on",
+        "Back, cracking"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "menses",
+        "stitching"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, hiccough",
+        "Stomach, hiccough, evening",
+        "Stomach, hiccough, violent",
+        "Stomach, evening",
+        "Stomach, nausea",
+        "Stomach, thirst",
+        "Stomach, hiccough, painful",
+        "Stomach, thirst, evening"
+      ],
+      "generalizations": [
+        "stomach",
+        "hiccough",
+        "thirst",
+        "violent",
+        "nausea"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain",
+        "Abdomen, pain, menses, during",
+        "Abdomen, pain, menses",
+        "Abdomen, pain, dragging, bearing down",
+        "Abdomen, pain, dragging",
+        "Abdomen, distension, menses",
+        "Abdomen, distension, menses, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "menses",
+        "distension",
+        "during",
+        "dragging"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, irritability, headache, during",
+        "Mind, anger",
+        "Mind, anger, contradiction, from",
+        "Mind, anger, evening",
+        "Mind, evening",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night"
+      ],
+      "generalizations": [
+        "mind",
+        "anger",
+        "irritability",
+        "restlessness",
+        "headache"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

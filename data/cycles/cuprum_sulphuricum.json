@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cuprum Sulphuricum",
+  "remedy_abbrev": "Cupr-s.",
+  "sentence": "Driven by mouth, Cuprum Sulphuricum manifests a dynamic cycle through stomach and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, cold, tongue",
+        "Mouth, taste",
+        "Mouth, taste, metallic",
+        "Mouth, tongue",
+        "Mouth, cold",
+        "Mouth, pain",
+        "Mouth, biting",
+        "Mouth, pain, burning, raw and smarting"
+      ],
+      "generalizations": [
+        "mouth",
+        "cold",
+        "tongue",
+        "taste",
+        "metallic"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations",
+        "Stomach, vomiting, food",
+        "Stomach, vomiting, mucus",
+        "Stomach, vomiting, water"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "pressing",
+        "nausea",
+        "eructations"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, coldness",
+        "Abdomen, heaviness",
+        "Abdomen, pain, sore, hypochondria",
+        "Abdomen, pain, cramping, griping, stool, before",
+        "Abdomen, pain, cramping, griping, stool"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "sore",
+        "stool"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, convulsion, leg",
+        "Extremities, convulsion, upper limbs",
+        "Extremities, heat",
+        "Extremities, heat, foot",
+        "Extremities, convulsion, clonic"
+      ],
+      "generalizations": [
+        "extremities",
+        "convulsion",
+        "coldness",
+        "heat",
+        "hands"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, hemorrhage",
+        "Chest, pain",
+        "Chest, anxiety, in",
+        "Chest, anxiety",
+        "Chest, constriction, tension, tightness",
+        "Chest, pain, aching",
+        "Chest, constriction"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety",
+        "constriction",
+        "oppression",
+        "hemorrhage"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, pain, pulsating",
+        "Head, waving sensation",
+        "Head, pain, come off, pain as if top of head would",
+        "Head, pain, shooting, pressure amel.",
+        "Head, temples"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "temples",
+        "pulsating",
+        "waving"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

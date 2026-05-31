@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Morphinum and salts",
+  "remedy_abbrev": "Morph.",
+  "sentence": "Driven by limb expression, Morphinum and salts manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, perspiration",
+        "Extremities, perspiration, cold",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, convulsion",
+        "Extremities, motion"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "perspiration",
+        "cold",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, pulsating",
+        "Head, pain, violent pains",
+        "Head, pain, occiput, morning",
+        "Head, pain, occiput, morning, waking, on",
+        "Head, pain, occiput, morning, waking",
+        "Head, morning"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "waking",
+        "pulsating",
+        "violent"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, speech, incoherent",
+        "Mind, speech",
+        "Mind, starting, sleep, during",
+        "Mind, starting",
+        "Mind, starting, sleep",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "starting",
+        "restlessness",
+        "speech",
+        "sleep"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, paralysis of muscles of eyeball",
+        "Eye, paralysis of muscles of eyeball, internal recti",
+        "Eye, unsteady look",
+        "Eye, open",
+        "Eye, open, half open",
+        "Eye, spasms, ciliary muscle",
+        "Eye, spasms",
+        "Eye, paralysis of lids"
+      ],
+      "generalizations": [
+        "paralysis",
+        "open",
+        "muscles",
+        "eyeball",
+        "spasms"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, pale",
+        "Face, convulsions",
+        "Face, expression",
+        "Face, discoloration, red",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "bluish",
+        "pale",
+        "convulsions"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, opisthotonos",
+        "Back, pain, aching, dull pain",
+        "Back, bending",
+        "Back, bending, backward (opisthotonos)",
+        "Back, bending, back",
+        "Back, pain, aching",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "bending",
+        "opisthotonos",
+        "dull"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Amylenum Nitrosum",
+  "remedy_abbrev": "Aml-n.",
+  "sentence": "Driven by limb expression, Amylenum Nitrosum manifests a dynamic cycle through heart & circulation and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, numbness, fingers",
+        "Extremities, trembling",
+        "Extremities, trembling, hand",
+        "Extremities, fingers",
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "fingers",
+        "trembling",
+        "hand"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, anxiety, heart, region of",
+        "Heart & Circulation, hypertrophy of heart",
+        "Heart & Circulation, oppression, heart",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, palpitation, tumultuous, violent, vehement",
+        "Heart & Circulation, orgasm of blood"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "anxiety",
+        "region"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, orgasm of blood",
+        "Chest, oppression",
+        "Chest, angina pectoris",
+        "Chest, anxiety",
+        "Chest, constriction, band, as from",
+        "Chest, fluttering",
+        "Chest, constriction"
+      ],
+      "generalizations": [
+        "chest",
+        "constriction",
+        "orgasm",
+        "blood",
+        "oppression"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, air, open, amel.",
+        "Generalities, anxiety general physical",
+        "Generalities, constriction, externally",
+        "Generalities, pulsation, internally",
+        "Generalities, air",
+        "Generalities, air, open",
+        "Generalities, constriction",
+        "Generalities, stiffness"
+      ],
+      "generalizations": [
+        "generalities",
+        "open",
+        "constriction",
+        "amel",
+        "anxiety"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, congestion",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, heat",
+        "Face, stiffness, muscles",
+        "Face, dryness",
+        "Face, dryness, lips",
+        "Face, stiffness, muscles, lips"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "stiffness",
+        "muscles",
+        "dryness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, heat",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, cervical region",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "dorsal"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

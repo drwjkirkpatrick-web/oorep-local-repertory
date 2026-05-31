@@ -1,0 +1,142 @@
+{
+  "remedy_name": "Erigeron Canadense",
+  "remedy_abbrev": "Erig.",
+  "sentence": "Driven by genitalia female, Erigeron Canadense manifests a dynamic cycle through limb disturbance and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, abortion",
+        "Genitalia female, lochia, bloody",
+        "Genitalia female, menses, bright-red",
+        "Genitalia female, menses, copious",
+        "Genitalia female, metrorrhagia, bright red",
+        "Genitalia female, metrorrhagia, labor, during and after"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "metrorrhagia",
+        "menses",
+        "bright"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, leg",
+        "Extremities, pain, aching, leg, evening",
+        "Extremities, evening",
+        "Extremities, numbness",
+        "Extremities, pain, knee",
+        "Extremities, pain, aching, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "aching",
+        "knee",
+        "numbness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, drawing",
+        "Back, pain, drawing, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, extending",
+        "Back, pain, aching, dull pain, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, evening agg.",
+        "Head, pain, forehead, morning agg.",
+        "Head, pain, forehead, morning, waking, on",
+        "Head, pain, morning, agg.",
+        "Head, pain, forehead, evening",
+        "Head, pain, forehead, morning"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "waking"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, hemorrhage, anus, from",
+        "Rectum, hemorrhoids",
+        "Rectum, hemorrhage",
+        "Rectum, bladder symptoms, during",
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, pain, tenesmus",
+        "Rectum, pain, tenesmus, stool"
+      ],
+      "generalizations": [
+        "rectum",
+        "hemorrhage",
+        "tenesmus",
+        "anus",
+        "hemorrhoids"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, vomiting",
+        "Stomach, vomiting, blood",
+        "Stomach, vomiting, blood, motion",
+        "Stomach, vomiting, blood, thin",
+        "Stomach, eructations",
+        "Stomach, eructations, empty"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "blood",
+        "eructations",
+        "burning"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

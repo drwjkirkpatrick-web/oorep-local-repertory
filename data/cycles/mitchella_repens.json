@@ -1,0 +1,90 @@
+{
+  "remedy_name": "Mitchella Repens",
+  "remedy_abbrev": "Mit.",
+  "sentence": "Driven by bladder, Mitchella Repens manifests a dynamic cycle through urethra and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, pain",
+        "Bladder, pain, burning",
+        "Bladder, pain, burning, neck",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urination, dysuria",
+        "Bladder, bladder in general",
+        "Bladder, neck of bladder"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "burning",
+        "neck",
+        "urging"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, swelling"
+      ],
+      "generalizations": [
+        "urethra",
+        "swelling"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, stretching",
+        "Generalities, stretching, forenoon",
+        "Generalities, stretching, forenoon, 11 a.m.",
+        "Generalities, forenoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "stretching",
+        "forenoon"
+      ],
+      "next_segment": "Renal function"
+    },
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, pain",
+        "Kidneys, pain, aching",
+        "Kidneys, pain, aching, region of"
+      ],
+      "generalizations": [
+        "kidneys",
+        "aching",
+        "region"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, congestion"
+      ],
+      "generalizations": [
+        "face",
+        "congestion"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

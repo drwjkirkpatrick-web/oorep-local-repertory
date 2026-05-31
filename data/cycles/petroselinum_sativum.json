@@ -1,0 +1,122 @@
+{
+  "remedy_name": "Petroselinum Sativum",
+  "remedy_abbrev": "Petros.",
+  "sentence": "Driven by urethra, Petroselinum Sativum manifests a dynamic cycle through bladder and genitalia male, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, biting",
+        "Urethra, crawling",
+        "Urethra, discharge, gleety",
+        "Urethra, itching",
+        "Urethra, itching, fossa navicularis",
+        "Urethra, discharge",
+        "Urethra, discharge, gonorrheal"
+      ],
+      "generalizations": [
+        "urethra",
+        "discharge",
+        "itching",
+        "biting",
+        "crawling"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urination, dysuria",
+        "Bladder, urging to urinate (morbid desire), sudden",
+        "Bladder, inflammation",
+        "Bladder, urging to urinate (morbid desire), frequent",
+        "Bladder, urging to urinate (morbid desire), ineffectual",
+        "Bladder, urging to urinate (morbid desire), painful"
+      ],
+      "generalizations": [
+        "bladder",
+        "urging",
+        "urinate",
+        "morbid",
+        "desire"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, penis",
+        "Genitalia male, erections",
+        "Genitalia male, erections, painful",
+        "Genitalia male, pain, penis, root",
+        "Genitalia male, penis",
+        "Genitalia male, seminal emissions (nightly)"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "penis",
+        "erections",
+        "painful"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, biting"
+      ],
+      "generalizations": [
+        "generalities",
+        "biting"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, gonorrhea",
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "gonorrhea",
+        "inflammation"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, copious (increased)",
+        "Urine, burning (includes hot)",
+        "Urine, milky"
+      ],
+      "generalizations": [
+        "urine",
+        "copious",
+        "increased",
+        "burning",
+        "includes"
+      ],
+      "next_segment": "Urethral state"
+    }
+  ]
+}

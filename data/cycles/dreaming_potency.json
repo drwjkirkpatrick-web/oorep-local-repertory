@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Dreaming Potency",
+  "remedy_abbrev": "Dream.",
+  "sentence": "Driven by mind, Dreaming Potency manifests a dynamic cycle through limb disturbance and sleep, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, concentration, difficult",
+        "Mind, time, passes too slowly",
+        "Mind, time",
+        "Mind, concentration",
+        "Mind, calmness",
+        "Mind, restlessness",
+        "Mind, anxiety",
+        "Mind, absent-minded"
+      ],
+      "generalizations": [
+        "mind",
+        "concentration",
+        "time",
+        "difficult",
+        "passes"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, swelling",
+        "Extremities, dryness, hands",
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, tingling, upper limbs",
+        "Extremities, dryness",
+        "Extremities, tingling"
+      ],
+      "generalizations": [
+        "extremities",
+        "dryness",
+        "tingling",
+        "coldness",
+        "swelling"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, yawning",
+        "Sleep, sleeplessness",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, vivid",
+        "Sleep, restless",
+        "Sleep, unrefreshing",
+        "Sleep, dreams",
+        "Sleep, waking"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "yawning",
+        "sleeplessness",
+        "amorous"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, menses",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, yellow",
+        "Genitalia female, menses, absent, amenorrhea",
+        "Genitalia female, menses, copious"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "leucorrhea",
+        "stitching"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, heaviness",
+        "Head, pain, shooting",
+        "Head, hair",
+        "Head, pain, dull",
+        "Head, pain, forehead",
+        "Head, perspiration"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heaviness",
+        "shooting",
+        "hair"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, flatulence",
+        "Abdomen, heat"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "distension",
+        "burning",
+        "cramping"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

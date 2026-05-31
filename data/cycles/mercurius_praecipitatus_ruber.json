@@ -1,0 +1,73 @@
+{
+  "remedy_name": "Mercurius Praecipitatus Ruber",
+  "remedy_abbrev": "Merc-pr-r.",
+  "sentence": "Driven by mouth, Mercurius Praecipitatus Ruber manifests a dynamic cycle through limb disturbance and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, ulcers",
+        "Mouth, ulcers, gums",
+        "Mouth, ulcers, spreading",
+        "Mouth, ulcers, gums, sloughing",
+        "Mouth, gums"
+      ],
+      "generalizations": [
+        "mouth",
+        "ulcers",
+        "gums",
+        "spreading",
+        "sloughing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, cramps, lower limbs",
+        "Extremities, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, ulcers"
+      ],
+      "generalizations": [
+        "clinical",
+        "ulcers"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "remedy_name": "Origanum Majorana",
+  "remedy_abbrev": "Orig.",
+  "sentence": "Driven by genitalia female, Origanum Majorana manifests a dynamic cycle through mind and genitalia male, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, itching",
+        "Genitalia female, itching, voluptuous",
+        "Genitalia female, tingling, voluptuous",
+        "Genitalia female, desire",
+        "Genitalia female, masturbation, disposition",
+        "Genitalia female, desire, violent",
+        "Genitalia female, desire, widows, in",
+        "Genitalia female, desire, violent, masturbation, driving her to"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "desire",
+        "itching",
+        "voluptuous"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, lasciviousness, lustful",
+        "Mind, nymphomania",
+        "Mind, lasciviousness",
+        "Mind, insanity",
+        "Mind, concentration, difficult",
+        "Mind, despair",
+        "Mind, discontented, displeased, dissatisfied, etc.",
+        "Mind, discontented"
+      ],
+      "generalizations": [
+        "mind",
+        "lasciviousness",
+        "discontented",
+        "lustful",
+        "nymphomania"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, masturbation, disposition",
+        "Genitalia male, masturbation",
+        "Genitalia male, seminal emissions (nightly)"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "masturbation",
+        "disposition",
+        "seminal"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, masturbation, from"
+      ],
+      "generalizations": [
+        "generalities",
+        "masturbation"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Origanum Majorana"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "origanum",
+        "majorana"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, cramps, leg, evening",
+        "Extremities, evening"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

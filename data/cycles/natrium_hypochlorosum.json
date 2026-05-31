@@ -1,0 +1,140 @@
+{
+  "remedy_name": "Natrium Hypochlorosum",
+  "remedy_abbrev": "Nat-hchls.",
+  "sentence": "Driven by genitalia female, Natrium Hypochlorosum manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, bearing down",
+        "Genitalia female, prolapse, uterus",
+        "Genitalia female, pain, bearing down, uterus",
+        "Genitalia female, pain, bearing down, uterus, and region of",
+        "Genitalia female, pain, bearing down, uterus, come out, as if everything would",
+        "Genitalia female, pain, bearing down, uterus, walking agg.",
+        "Genitalia female, pushes up when she sits down, the uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "down",
+        "uterus",
+        "bearing"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, wet",
+        "Generalities, wet, weather",
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, stitching, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "faintness",
+        "enervation",
+        "weather"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, hip",
+        "Extremities, pain, stitching",
+        "Extremities, felon, panaritium",
+        "Extremities, felon, run-around",
+        "Extremities, felon",
+        "Extremities, pain, stitching, morning",
+        "Extremities, pain, hip, ovarian complaints"
+      ],
+      "generalizations": [
+        "extremities",
+        "felon",
+        "stitching",
+        "panaritium",
+        "around"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, swelling",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), drawing",
+        "Face, pain (aching, prosopalgia, etc.), left",
+        "Face, pain (aching, prosopalgia, etc.), stitching",
+        "Face, pain (aching, prosopalgia, etc.), stitching, extending",
+        "Face, pain (aching, prosopalgia, etc.), morning",
+        "Face, pain (aching, prosopalgia, etc.), drawing, cold air amel."
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "drawing",
+        "stitching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, dragging, bearing down",
+        "Abdomen, pain, dragging",
+        "Abdomen, fullness",
+        "Abdomen, fullness, eating, after",
+        "Abdomen, fullness, eating"
+      ],
+      "generalizations": [
+        "abdomen",
+        "fullness",
+        "dragging",
+        "eating",
+        "bearing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, shooting, morning",
+        "Head, pain, shooting, morning, rising",
+        "Head, pain, shooting, morning, rising, before, agg.",
+        "Head, morning"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "rising",
+        "before"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

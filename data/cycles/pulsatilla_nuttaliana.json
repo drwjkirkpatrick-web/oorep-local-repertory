@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Pulsatilla Nuttaliana",
+  "remedy_abbrev": "Puls-n.",
+  "sentence": "Driven by limb expression, Pulsatilla Nuttaliana manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, restlessness",
+        "Extremities, restlessness, leg",
+        "Extremities, restlessness, leg, night",
+        "Extremities, restlessness, leg, night, bed, in",
+        "Extremities, night",
+        "Extremities, stiffness",
+        "Extremities, lameness",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "restlessness",
+        "stiffness",
+        "lameness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, vertex, noon",
+        "Head, vertex",
+        "Head, noon",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eminence, frontal",
+        "Head, pain, forehead, night agg."
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "forehead",
+        "noon",
+        "eminence"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, umbilicus",
+        "Abdomen, pain, cutting, umbilicus",
+        "Abdomen, pain, afternoon",
+        "Abdomen, pain, iliac region",
+        "Abdomen, pain, umbilicus, stool",
+        "Abdomen, pain, iliac region, left"
+      ],
+      "generalizations": [
+        "abdomen",
+        "umbilicus",
+        "cutting",
+        "iliac",
+        "region"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, weakness, evening agg.",
+        "Generalities, weakness, morning",
+        "Generalities, weakness, walking, from agg.",
+        "Generalities, afternoon",
+        "Generalities, evening",
+        "Generalities, weakness, evening"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "walking",
+        "afternoon"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, sadness",
+        "Mind, sadness, afternoon agg.",
+        "Mind, spoken to, averse to being",
+        "Mind, irritability, noise, from",
+        "Mind, irritability, noise",
+        "Mind, noise, agg.",
+        "Mind, afternoon"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "noise",
+        "sadness",
+        "afternoon"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, nausea",
+        "Stomach, eructations, sour",
+        "Stomach, nausea, forenoon",
+        "Stomach, nausea, forenoon, 11 a.m.",
+        "Stomach, eructations, sour, eating, after",
+        "Stomach, eructations, sour, eating",
+        "Stomach, forenoon"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "nausea",
+        "sour",
+        "forenoon"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

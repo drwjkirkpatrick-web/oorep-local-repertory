@@ -1,0 +1,99 @@
+{
+  "remedy_name": "Platinum Muriaticum",
+  "remedy_abbrev": "Plat-m.",
+  "sentence": "Driven by limb expression, Platinum Muriaticum manifests a dynamic cycle through genitalia male and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, caries of bone",
+        "Extremities, caries of bone, ankle bones",
+        "Extremities, caries of bone, foot",
+        "Extremities, caries of bone, foot, heel",
+        "Extremities, feet",
+        "Extremities, ankle"
+      ],
+      "generalizations": [
+        "extremities",
+        "caries",
+        "bone",
+        "ankle",
+        "foot"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, heat",
+        "Genitalia male, heat, penis",
+        "Genitalia male, heat, penis, prepuce",
+        "Genitalia male, penis",
+        "Genitalia male, prepuce"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "heat",
+        "penis",
+        "prepuce"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, delusions, poisoned, thought he had been",
+        "Mind, delusions, poisoned"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "poisoned",
+        "thought",
+        "been"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, urination, during",
+        "Urethra, pain, urination"
+      ],
+      "generalizations": [
+        "urethra",
+        "urination",
+        "during"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Platinum Muriaticum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "platinum",
+        "muriaticum"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Medorrhinum",
+  "remedy_abbrev": "Med.",
+  "sentence": "Driven by limb expression, Medorrhinum manifests a dynamic cycle through mind and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, restlessness",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, heat",
+        "Extremities, heat, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "foot",
+        "heat",
+        "restlessness"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, memory, weakness of",
+        "Mind, hurry",
+        "Mind, memory",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "memory",
+        "weakness",
+        "hurry"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, sacral region",
+        "Back, heat",
+        "Back, heat, flushes",
+        "Back, pain, burning"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "heat",
+        "coldness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, irritability, excessive physical",
+        "Generalities, irritability",
+        "Generalities, sensitiveness, to pain",
+        "Generalities, cold",
+        "Generalities, sensitiveness",
+        "Generalities, cold, wet weather agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "irritability",
+        "sensitiveness",
+        "cold"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, drawn backward",
+        "Head, pain, forehead, in",
+        "Head, drawn",
+        "Head, hair",
+        "Head, motions of head (shaking, nodding, waving, etc.)"
+      ],
+      "generalizations": [
+        "head",
+        "drawn",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, ovaries",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, inflammation, ovaries, suppressed gonorrhea, after",
+        "Genitalia female, ovaries",
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "inflammation",
+        "ovaries",
+        "leucorrhea"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

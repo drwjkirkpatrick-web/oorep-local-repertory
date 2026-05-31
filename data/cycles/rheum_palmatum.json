@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Rheum Palmatum",
+  "remedy_abbrev": "Rheum",
+  "sentence": "Driven by constitutional vulnerability, Rheum Palmatum manifests a dynamic cycle through mind and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, eating, after agg.",
+        "Generalities, morning",
+        "Generalities, pain, cutting, internally",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, eating",
+        "Generalities, lying"
+      ],
+      "generalizations": [
+        "generalities",
+        "eating",
+        "burning",
+        "after",
+        "cutting"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, irritability, chill, during",
+        "Mind, playful",
+        "Mind, irritability, perspiration, during",
+        "Mind, playful, indisposition to play, in children",
+        "Mind, perspiration, during, agg.",
+        "Mind, perspiration",
+        "Mind, quiet, quiet disposition"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "during",
+        "perspiration",
+        "playful"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching",
+        "Abdomen, navicular region",
+        "Abdomen, sides, left",
+        "Abdomen, hips and loin region",
+        "Abdomen, children, in",
+        "Abdomen, sides",
+        "Abdomen, diarrhea",
+        "Abdomen, afternoon"
+      ],
+      "generalizations": [
+        "abdomen",
+        "region",
+        "sides",
+        "aching",
+        "navicular"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, tingling, upper limbs",
+        "Extremities, weakness",
+        "Extremities, tingling",
+        "Extremities, pain, joints",
+        "Extremities, weakness, thigh",
+        "Extremities, tingling, upper limbs, side lain on",
+        "Extremities, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "tingling",
+        "upper",
+        "limbs",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, perspiration",
+        "Head, perspiration scalp",
+        "Head, heaviness",
+        "Head, pulsating, beating, throbbing",
+        "Head, pulsating",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "pulsating",
+        "scalp",
+        "heaviness"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, children, in",
+        "Rectum, diarrhea, dentition, during",
+        "Rectum, urging",
+        "Rectum, urging, stool, after",
+        "Rectum, urging, stool",
+        "Rectum, pain",
+        "Rectum, pain, tenesmus"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "urging",
+        "stool",
+        "children"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Natrium Sulphuricum",
+  "remedy_abbrev": "Nat-s.",
+  "sentence": "Driven by limb expression, Natrium Sulphuricum manifests a dynamic cycle through abdomen and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, itching",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, forearm",
+        "Extremities, pain, tearing, hand",
+        "Extremities, pain, tearing, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "weakness",
+        "itching",
+        "forearm"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, inflammation",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting",
+        "Abdomen, flatulence"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "inflammation",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, injuries of the head, after",
+        "Head, pain, injuries, mechanical, after",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, eruption"
+      ],
+      "generalizations": [
+        "head",
+        "injuries",
+        "after",
+        "congestion",
+        "mechanical"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, cutting",
+        "Back, pain, dorsal region, scapulae, between",
+        "Back, pain, sore, cervical region",
+        "Back, pain, sore"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "sore"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, starting, fright, from",
+        "Mind, cheerful",
+        "Mind, loathing",
+        "Mind, starting",
+        "Mind, loathing, life",
+        "Mind, suicidal disposition"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "starting",
+        "loathing",
+        "mental"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, lying, agg.",
+        "Generalities, morning",
+        "Generalities, lying",
+        "Generalities, heat, flushes of",
+        "Generalities, food"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "lying",
+        "enervation",
+        "heat"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

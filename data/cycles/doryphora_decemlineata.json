@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Doryphora Decemlineata",
+  "remedy_abbrev": "Dor.",
+  "sentence": "Driven by abdomen, Doryphora Decemlineata manifests a dynamic cycle through limb disturbance and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, burning, umbilicus",
+        "Abdomen, pain, burning, umbilicus, region of",
+        "Abdomen, pain, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "burning",
+        "umbilicus",
+        "rumbling",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, weakness",
+        "Extremities, pain, stitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "swelling",
+        "hands"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, mottled",
+        "Face, discoloration, pale",
+        "Face, expression",
+        "Face, discoloration, red",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, bloated",
+        "Face, erysipelas"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "mottled",
+        "pale",
+        "expression"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, burning",
+        "Genitalia male, redness",
+        "Genitalia male, pain, burning, penis",
+        "Genitalia male, pain, burning, penis, glans",
+        "Genitalia male, redness, glans",
+        "Genitalia male, penis",
+        "Genitalia male, glans"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "burning",
+        "penis",
+        "glans"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, comatose",
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, night, midnight, before",
+        "Sleep, sleeplessness, night",
+        "Sleep, sleeplessness, night, midnight",
+        "Sleep, dreams, frightful",
+        "Sleep, restless",
+        "Sleep, dreams"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness",
+        "midnight",
+        "dreams",
+        "comatose"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, collapse",
+        "Generalities, weakness, exertion, from slight",
+        "Generalities, weakness, exertion",
+        "Generalities, weakness, talking, from",
+        "Generalities, weakness, talking"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "exertion",
+        "talking",
+        "enervation"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

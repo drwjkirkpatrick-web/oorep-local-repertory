@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Antimonium Tartaricum",
+  "remedy_abbrev": "Ant-t.",
+  "sentence": "Driven by limb expression, Antimonium Tartaricum manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, eruption",
+        "Extremities, eruption, vesicles",
+        "Extremities, trembling",
+        "Extremities, trembling, hand",
+        "Extremities, coldness, hands",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "eruption",
+        "trembling",
+        "foot"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, evening, agg.",
+        "Generalities, pulsation, internally",
+        "Generalities, evening",
+        "Generalities, pulsation"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "trembling",
+        "pulsation",
+        "enervation"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, drawn backward",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, forehead, in",
+        "Head, pain, tobacco, smoking, from agg.",
+        "Head, drawn"
+      ],
+      "generalizations": [
+        "head",
+        "drawn",
+        "eruption",
+        "heat",
+        "backward"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cutting, stool, before",
+        "Abdomen, pulsation",
+        "Abdomen, pain, cutting, stool",
+        "Abdomen, sides, left",
+        "Abdomen, sides"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "stool",
+        "sides",
+        "inflammation"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, unconsciousness",
+        "Mind, speech"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "irritability",
+        "nervousness",
+        "dullness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, ameliorate",
+        "Stomach, thirst",
+        "Stomach, thirstless",
+        "Stomach, inflammation",
+        "Stomach, pulsation"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "nausea",
+        "vomiting",
+        "ameliorate"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

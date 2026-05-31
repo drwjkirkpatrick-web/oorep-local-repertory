@@ -1,0 +1,124 @@
+{
+  "remedy_name": "Calcarea Acetica",
+  "remedy_abbrev": "Calc-acet.",
+  "sentence": "Driven by head, Calcarea Acetica manifests a dynamic cycle through eye and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, extending",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eminence, frontal",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, stitching",
+        "Head, pain, temples"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "extending",
+        "eminence"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, canthi",
+        "Eye, inflammation, canthi, outer",
+        "Eye, inflammation, canthi, outer, with ulceration",
+        "Eye, canthi",
+        "Eye, pain",
+        "Eye, pain, sore",
+        "Eye, pain, sore, canthi"
+      ],
+      "generalizations": [
+        "canthi",
+        "inflammation",
+        "outer",
+        "sore",
+        "ulceration"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, gurgling",
+        "Abdomen, gurgling, stool",
+        "Abdomen, pain, inguinal region",
+        "Abdomen, pain, inguinal region, walking, while agg.",
+        "Abdomen, pain, inguinal region, walking",
+        "Abdomen, gurgling, stool, during",
+        "Abdomen, colic"
+      ],
+      "generalizations": [
+        "abdomen",
+        "gurgling",
+        "inguinal",
+        "region",
+        "stool"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation",
+        "Clinical, colic"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation",
+        "colic"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, drawing, testes",
+        "Genitalia male, pain, drawing",
+        "Genitalia male, testes"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "drawing",
+        "testes"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, thinking",
+        "Mind, thinking, unable to"
+      ],
+      "generalizations": [
+        "mind",
+        "thinking",
+        "unable"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

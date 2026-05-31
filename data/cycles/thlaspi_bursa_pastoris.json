@@ -1,0 +1,58 @@
+{
+  "remedy_name": "Thlaspi Bursa Pastoris",
+  "remedy_abbrev": "Thlaspi",
+  "sentence": "Driven by back, Thlaspi Bursa Pastoris manifests a dynamic cycle through vision and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, weakness",
+        "Back, weakness, dorsal region, scapulae",
+        "Back, weakness, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "weakness",
+        "dorsal",
+        "region",
+        "scapulae"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, run together, letters",
+        "Vision, run together"
+      ],
+      "generalizations": [
+        "vision",
+        "together",
+        "letters"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, coryza, left"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "left"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

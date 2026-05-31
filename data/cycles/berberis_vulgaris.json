@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Berberis Vulgaris",
+  "remedy_abbrev": "Berb.",
+  "sentence": "Driven by limb expression, Berberis Vulgaris manifests a dynamic cycle through back and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, stiffness, lower limbs",
+        "Extremities, swelling, knee",
+        "Extremities, heaviness, lower limbs, walking, while",
+        "Extremities, heaviness, lower limbs, walking"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "lower",
+        "limbs",
+        "stiffness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, numbness",
+        "Back, numbness, lumbar region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, rheumatic"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "numbness",
+        "aching"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, heaviness, stooping, on agg.",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, outward",
+        "Head, pain, stitching",
+        "Head, pain, stitching, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "forehead",
+        "heaviness",
+        "stitching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, liver",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, liver",
+        "Abdomen, pain, inguinal region",
+        "Abdomen, pain, liver, colic, gall-stones",
+        "Abdomen, liver",
+        "Abdomen, colic"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "stitching",
+        "colic",
+        "inguinal"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, seminal emissions (nightly)",
+        "Genitalia male, inflammation",
+        "Genitalia male, inflammation, testes",
+        "Genitalia male, pain",
+        "Genitalia male, pain, stitching",
+        "Genitalia male, swelling",
+        "Genitalia male, pain, drawing",
+        "Genitalia male, retraction"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "inflammation",
+        "seminal",
+        "emissions"
+      ],
+      "next_segment": "Renal function"
+    },
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, pain",
+        "Kidneys, pain, aching",
+        "Kidneys, pain, aching, region of",
+        "Kidneys, pain, cutting",
+        "Kidneys, pain, sore, bruised",
+        "Kidneys, pain, stitching, stinging, sticking",
+        "Kidneys, pain, stitching",
+        "Kidneys, pain, cutting, ureters"
+      ],
+      "generalizations": [
+        "kidneys",
+        "aching",
+        "cutting",
+        "stitching",
+        "region"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "remedy_name": "Alstonia Constricta",
+  "remedy_abbrev": "Alst-c.",
+  "sentence": "Driven by chill, Alstonia Constricta manifests a dynamic cycle through back and fever, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, time",
+        "Chill, 9 a.m.",
+        "Chill, 9 a.m., to, 11 a.m.",
+        "Chill, coldness in general",
+        "Chill, forenoon",
+        "Chill, 10 a.m.",
+        "Chill, postponing"
+      ],
+      "generalizations": [
+        "chill",
+        "time",
+        "coldness",
+        "general",
+        "forenoon"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, fever, during"
+      ],
+      "generalizations": [
+        "back",
+        "fever",
+        "during"
+      ],
+      "next_segment": "Febrile dynamic"
+    },
+    {
+      "name": "Febrile dynamic",
+      "description": "Chill, heat, sweat, stages, periodicity.",
+      "symptoms": [
+        "Fever, heat in general"
+      ],
+      "generalizations": [
+        "fever",
+        "heat",
+        "general"
+      ],
+      "next_segment": "Perspiration state"
+    },
+    {
+      "name": "Perspiration state",
+      "description": "Sweat character, time, odor, staining.",
+      "symptoms": [
+        "Perspiration, in general"
+      ],
+      "generalizations": [
+        "perspiration",
+        "general"
+      ],
+      "next_segment": "Chill pattern"
+    }
+  ]
+}

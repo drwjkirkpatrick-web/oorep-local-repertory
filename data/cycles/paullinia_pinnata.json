@@ -1,0 +1,125 @@
+{
+  "remedy_name": "Paullinia Pinnata",
+  "remedy_abbrev": "Paull-p.",
+  "sentence": "Driven by back, Paullinia Pinnata manifests a dynamic cycle through stool and sleep, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, constriction, contraction, etc., band, hoop, etc., as of, cervical region",
+        "Back, constriction, contraction, etc.",
+        "Back, constriction, contraction",
+        "Back, constriction",
+        "Back, constriction, contraction, etc., band, hoop, etc., as of",
+        "Back, constriction, contraction, etc., cervical region",
+        "Back, constriction, contraction, etc., cervical region, lumbar region, as from a tight band, scapula",
+        "Back, constriction, contraction, etc., band, hoop, etc."
+      ],
+      "generalizations": [
+        "back",
+        "constriction",
+        "contraction",
+        "band",
+        "region"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, copious",
+        "Stool, odor",
+        "Stool, watery",
+        "Stool, green",
+        "Stool, mucous, green",
+        "Stool, mucous",
+        "Stool, odorless",
+        "Stool, flaky"
+      ],
+      "generalizations": [
+        "stool",
+        "green",
+        "mucous",
+        "copious",
+        "odor"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, night, midnight, before",
+        "Sleep, sleeplessness, night",
+        "Sleep, sleeplessness, night, midnight",
+        "Sleep, dreams",
+        "Sleep, dreams, dogs",
+        "Sleep, night",
+        "Sleep, midnight"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness",
+        "midnight",
+        "dreams",
+        "before"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, coffee, from agg.",
+        "Head, pain, coffee"
+      ],
+      "generalizations": [
+        "head",
+        "coffee"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, heat, during"
+      ],
+      "generalizations": [
+        "heat",
+        "during"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), evening",
+        "Bladder, spasm",
+        "Bladder, bladder in general",
+        "Bladder, evening"
+      ],
+      "generalizations": [
+        "bladder",
+        "urging",
+        "urinate",
+        "morbid",
+        "desire"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

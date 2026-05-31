@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Onosmodium Virginianum",
+  "remedy_abbrev": "Onos.",
+  "sentence": "Driven by mind, Onosmodium Virginianum manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, irresolution",
+        "Mind, irresolution, acts, in",
+        "Mind, indifference, apathy",
+        "Mind, fear",
+        "Mind, memory, weakness of"
+      ],
+      "generalizations": [
+        "mind",
+        "indifference",
+        "apathy",
+        "irresolution",
+        "confusion"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, numbness, leg",
+        "Extremities, numbness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, heaviness, tired limbs",
+        "Extremities, heaviness, upper limbs",
+        "Extremities, numbness, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "limbs",
+        "numbness",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, looking",
+        "Head, pain, occiput and forehead",
+        "Head, pain, looking fixedly at anything",
+        "Head, pain, looking fixedly at anything, from agg.",
+        "Head, pain, occiput and forehead, morning, on waking",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "looking",
+        "forehead",
+        "fixedly"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, morning",
+        "Generalities, waking, on agg.",
+        "Generalities, waking",
+        "Generalities, clothing, intolerance of",
+        "Generalities, clothing",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, eating"
+      ],
+      "generalizations": [
+        "generalities",
+        "waking",
+        "clothing",
+        "intolerance",
+        "side"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, menses",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, copious",
+        "Genitalia female, pain, sore",
+        "Genitalia female, menses, appear, as if would",
+        "Genitalia female, leucorrhea, acrid, excoriating"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "leucorrhea",
+        "menses",
+        "uterus"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, bending double agg.",
+        "Abdomen, pain, bending double",
+        "Abdomen, pain, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "bending",
+        "double",
+        "rumbling",
+        "cramping"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

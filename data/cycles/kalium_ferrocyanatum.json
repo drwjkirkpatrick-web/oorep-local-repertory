@@ -1,0 +1,115 @@
+{
+  "remedy_name": "Kalium Ferrocyanatum",
+  "remedy_abbrev": "Kali-fcy.",
+  "sentence": "Driven by genitalia female, Kalium Ferrocyanatum manifests a dynamic cycle through general state and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, metrorrhagia, passive",
+        "Genitalia female, metrorrhagia, painless",
+        "Genitalia female, pain",
+        "Genitalia female, menses",
+        "Genitalia female, menses, copious",
+        "Genitalia female, pain, bearing down",
+        "Genitalia female, pain, bearing down, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "metrorrhagia",
+        "menses",
+        "bearing"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, pain",
+        "Generalities, numbness, externally",
+        "Generalities, trembling, externally",
+        "Generalities, numbness",
+        "Generalities, trembling",
+        "Generalities, numbness, single parts in"
+      ],
+      "generalizations": [
+        "generalities",
+        "numbness",
+        "weakness",
+        "externally",
+        "trembling"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, sinking",
+        "Stomach, emptiness"
+      ],
+      "generalizations": [
+        "stomach",
+        "emptiness",
+        "feeling",
+        "weak",
+        "faintness"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, chlorosis"
+      ],
+      "generalizations": [
+        "clinical",
+        "chlorosis"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Kalium Ferrocyanatum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "kalium",
+        "ferrocyanatum"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

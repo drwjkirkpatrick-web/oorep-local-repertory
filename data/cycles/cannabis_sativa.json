@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cannabis Sativa",
+  "remedy_abbrev": "Cann-s.",
+  "sentence": "Driven by mind, Cannabis Sativa manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, ecstasy",
+        "Mind, indolence, aversion to work",
+        "Mind, exertion, from mental, agg.",
+        "Mind, lasciviousness, lustful",
+        "Mind, delusions, spectres",
+        "Mind, exertion"
+      ],
+      "generalizations": [
+        "mind",
+        "excitement",
+        "exertion",
+        "excitable",
+        "ecstasy"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, heat",
+        "Generalities, weariness",
+        "Generalities, motion",
+        "Generalities, heat, sensation of",
+        "Generalities, motion, after, agg.",
+        "Generalities, forenoon, agg.",
+        "Generalities, trickling sensation, like drops",
+        "Generalities, forenoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "motion",
+        "forenoon",
+        "weariness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, contraction",
+        "Extremities, contraction, foot",
+        "Extremities, contraction, leg",
+        "Extremities, contraction, leg, tendo achilles",
+        "Extremities, pain, foot",
+        "Extremities, pain, leg, tendo achilles"
+      ],
+      "generalizations": [
+        "extremities",
+        "contraction",
+        "foot",
+        "tendo",
+        "achilles"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, inflammation",
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg.",
+        "Urethra, pain, stitching",
+        "Urethra, pain, burning, urination",
+        "Urethra, pain, biting"
+      ],
+      "generalizations": [
+        "urethra",
+        "burning",
+        "urination",
+        "during",
+        "inflammation"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, coldness, chilliness, etc.",
+        "Head, constriction, temples",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "hyperemia",
+        "vertex",
+        "forehead"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, pain, stitching, hypochondria, left",
+        "Abdomen, hypochondria",
+        "Abdomen, sides, left",
+        "Abdomen, pinching"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "hypochondria",
+        "left",
+        "spleen"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

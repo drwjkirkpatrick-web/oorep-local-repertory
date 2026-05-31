@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Anagallis Arvensis",
+  "remedy_abbrev": "Anag.",
+  "sentence": "Driven by limb expression, Anagallis Arvensis manifests a dynamic cycle through ear and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, itching",
+        "Extremities, itching, palm",
+        "Extremities, itching, palm, rubbing amel.",
+        "Extremities, palms",
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, pain, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "itching",
+        "palm",
+        "eruption",
+        "rubbing"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, itching",
+        "Ear, itching, left",
+        "Ear, pain",
+        "Ear, itching, in",
+        "Ear, noises",
+        "Ear, noises, humming",
+        "Ear, pain, pressing",
+        "Ear, stopped sensation"
+      ],
+      "generalizations": [
+        "itching",
+        "noises",
+        "left",
+        "humming",
+        "pressing"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, eruptions, itching",
+        "Skin, itching",
+        "Skin, itching, scratching",
+        "Skin, eruptions, vesicular",
+        "Skin, eruptions, crusty",
+        "Skin, eruptions, scaly"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "itching",
+        "herpetic",
+        "scratching"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, discharge",
+        "Urethra, discharge, gonorrheal",
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg.",
+        "Urethra, pain, burning, urination",
+        "Urethra, tingling"
+      ],
+      "generalizations": [
+        "urethra",
+        "burning",
+        "urination",
+        "discharge",
+        "during"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, trembling",
+        "Chest, pain",
+        "Chest, anxiety",
+        "Chest, pain, pressing",
+        "Chest, itching",
+        "Chest, itching, mammae",
+        "Chest, itching, mammae, nipples",
+        "Chest, pain, eating, after, agg."
+      ],
+      "generalizations": [
+        "chest",
+        "itching",
+        "mammae",
+        "trembling",
+        "anxiety"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, lumbar region",
+        "Back, pain, pressing",
+        "Back, pain, pressing, lumbar region",
+        "Back, pain, lifting, from",
+        "Back, pain, sacral region, lifting, when"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "sacral",
+        "lumbar",
+        "pressing"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

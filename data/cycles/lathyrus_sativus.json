@@ -1,0 +1,81 @@
+{
+  "remedy_name": "Lathyrus Sativus",
+  "remedy_abbrev": "Lath.",
+  "sentence": "Driven by limb expression, Lathyrus Sativus manifests a dynamic cycle through back and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, stiffness",
+        "Extremities, paralysis, lower limbs",
+        "Extremities, stiffness, lower limbs",
+        "Extremities, trembling",
+        "Extremities, trembling, lower limbs",
+        "Extremities, paralysis, lower limbs, painless",
+        "Extremities, extension"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "paralysis",
+        "stiffness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, lumbar region",
+        "Back, myelitis",
+        "Back, myelitis, lumbar region",
+        "Back, lumbar region, radiating, from"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "myelitis",
+        "radiating"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, cold",
+        "Generalities, cold, wet weather agg.",
+        "Generalities, stiffness"
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "weather",
+        "stiffness"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, paralysis"
+      ],
+      "generalizations": [
+        "clinical",
+        "paralysis"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

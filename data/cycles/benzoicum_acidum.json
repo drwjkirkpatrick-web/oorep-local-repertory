@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Benzoicum Acidum",
+  "remedy_abbrev": "Benz-ac.",
+  "sentence": "Driven by limb expression, Benzoicum Acidum manifests a dynamic cycle through head and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, pain, rheumatic",
+        "Extremities, arthritic nodosities",
+        "Extremities, arthritic nodosities, finger joints",
+        "Extremities, pain, knee, gouty",
+        "Extremities, knee",
+        "Extremities, coldness"
+      ],
+      "generalizations": [
+        "extremities",
+        "knee",
+        "arthritic",
+        "nodosities",
+        "rheumatic"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, heat, vertex",
+        "Head, pain, occiput",
+        "Head, vertex",
+        "Head, occiput",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "heat",
+        "occiput",
+        "headache"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, odor",
+        "Urine, color",
+        "Urine, color, brown",
+        "Urine, color, dark",
+        "Urine, color, red",
+        "Urine, sediment",
+        "Urine, sediment, sand",
+        "Urine, odor, strong"
+      ],
+      "generalizations": [
+        "urine",
+        "color",
+        "odor",
+        "sediment",
+        "brown"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weariness",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, mucous secretions increased",
+        "Generalities, uncovering, agg.",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, lassitude"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "weariness",
+        "enervation",
+        "lying"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, heart, rheumatic",
+        "Heart & Circulation, palpitation, waking, on",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable, rapid)",
+        "Heart & Circulation, pulse, hard",
+        "Heart & Circulation, palpitation, waking"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "pulse",
+        "waking"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, inflammation, bronchial tubes (bronchitis)",
+        "Chest, pain",
+        "Chest, inflammation",
+        "Chest, inflammation, lungs",
+        "Chest, weakness",
+        "Chest, inflammation, lungs, typhoid",
+        "Chest, lungs",
+        "Chest, night"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "lungs",
+        "bronchial",
+        "tubes"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "remedy_name": "Cascarilla",
+  "remedy_abbrev": "Casc.",
+  "sentence": "Driven by rectum, Cascarilla manifests a dynamic cycle through back and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, hemorrhage, anus, from",
+        "Rectum, hemorrhage",
+        "Rectum, constipation",
+        "Rectum, constipation, alternating with diarrhea",
+        "Rectum, diarrhea",
+        "Rectum, pain",
+        "Rectum, hemorrhoids",
+        "Rectum, flatus"
+      ],
+      "generalizations": [
+        "rectum",
+        "hemorrhage",
+        "constipation",
+        "diarrhea",
+        "anus"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, weakness",
+        "Back, weakness, lying, amel.",
+        "Back, pain, aching",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, perspiration",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "weakness",
+        "lumbar"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, anxiety",
+        "Mind, anxiety, fever, during",
+        "Mind, anxiety, fever",
+        "Mind, thinking, aversion to",
+        "Mind, delusions, people",
+        "Mind, thinking",
+        "Mind, delusions, people, behind him, some one is"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "anxiety",
+        "fever",
+        "thinking"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty",
+        "Stomach, pain, pressing",
+        "Stomach, fullness, sensation of",
+        "Stomach, fullness"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "fullness",
+        "empty",
+        "pressing"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, taste",
+        "Mouth, taste, bitter",
+        "Mouth, roughness",
+        "Mouth, roughness, tongue",
+        "Mouth, taste, bitter, smoking",
+        "Mouth, gangrenous",
+        "Mouth, gangrenous, in children"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "bitter",
+        "roughness",
+        "gangrenous"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, desires",
+        "Appetite, desires, warm drinks",
+        "Appetite, desires, warm",
+        "Appetite, desires, warm drinks, fever, during"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "warm",
+        "drinks",
+        "fever"
+      ],
+      "next_segment": "Rectal and anal expression"
+    }
+  ]
+}

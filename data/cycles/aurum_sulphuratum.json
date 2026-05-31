@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aurum Sulphuratum",
+  "remedy_abbrev": "Aur-s.",
+  "sentence": "Driven by head, Aurum Sulphuratum manifests a dynamic cycle through nose and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, cutting",
+        "Head, pain, cutting, occiput",
+        "Head, occiput",
+        "Head, heat",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, hair"
+      ],
+      "generalizations": [
+        "head",
+        "cutting",
+        "occiput",
+        "congestion",
+        "heat"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, pain",
+        "Nose, pain, sore",
+        "Nose, pain, sore, bones",
+        "Nose, pain, sore, externally",
+        "Nose, pain, sore, externally, touch",
+        "Nose, pain, sore, bones, in",
+        "Nose, bones",
+        "Nose, coryza"
+      ],
+      "generalizations": [
+        "nose",
+        "sore",
+        "bones",
+        "externally",
+        "touch"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, fluid",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, heat, flushes",
+        "Stomach, vomiting, eating, after agg.",
+        "Stomach, vomiting, eating"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eructations",
+        "eating",
+        "fluid"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), parotid gland",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain",
+        "Face, parotid glands",
+        "Face, discoloration, pale",
+        "Face, discoloration"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "parotid",
+        "discoloration"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, heat",
+        "Back, pain, burning",
+        "Back, pain, cervical region",
+        "Back, pain, cervical region, turning head",
+        "Back, pain, lumbar region",
+        "Back, pain, spine",
+        "Back, pain, tearing"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "cervical",
+        "heat",
+        "burning"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, company aversion to",
+        "Mind, loathing",
+        "Mind, loathing, life",
+        "Mind, company",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, death, desires",
+        "Mind, death"
+      ],
+      "generalizations": [
+        "mind",
+        "company",
+        "loathing",
+        "sadness",
+        "death"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

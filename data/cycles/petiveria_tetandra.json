@@ -1,0 +1,115 @@
+{
+  "remedy_name": "Petiveria Tetandra",
+  "remedy_abbrev": "Peti.",
+  "sentence": "Driven by head, Petiveria Tetandra manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, pain, forehead, evening agg.",
+        "Head, pain, forehead, walking, while agg.",
+        "Head, pain, morning, agg.",
+        "Head, pain, pain in neck, with"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heat",
+        "vertex",
+        "walking"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, roughness",
+        "Extremities, roughness, forearm",
+        "Extremities, roughness, forearm, evening",
+        "Extremities, forearm",
+        "Extremities, evening"
+      ],
+      "generalizations": [
+        "extremities",
+        "roughness",
+        "forearm"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, weakness, morning",
+        "Generalities, afternoon",
+        "Generalities, weakness, morning, 9 a.m. agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "afternoon"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, spine",
+        "Back, pain, spine, bending backward",
+        "Back, spine"
+      ],
+      "generalizations": [
+        "back",
+        "spine",
+        "bending",
+        "backward"
+      ],
+      "next_segment": "Auditory function"
+    },
+    {
+      "name": "Auditory function",
+      "description": "Hearing loss, noises, sensitivity, deafness.",
+      "symptoms": [
+        "Hearing, distant, sounds seem",
+        "Hearing, distant"
+      ],
+      "generalizations": [
+        "hearing",
+        "distant",
+        "sounds",
+        "seem"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, dim",
+        "Vision, dim, dinner, after"
+      ],
+      "generalizations": [
+        "vision",
+        "dinner",
+        "after"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

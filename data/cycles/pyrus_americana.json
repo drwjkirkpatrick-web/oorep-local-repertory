@@ -1,0 +1,121 @@
+{
+  "remedy_name": "Pyrus Americana",
+  "remedy_abbrev": "Pyrus",
+  "sentence": "Driven by limb expression, Pyrus Americana manifests a dynamic cycle through mind and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, drawn, upwards",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, knee",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, leg",
+        "Extremities, pain, drawing, leg, calf"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "aching",
+        "swelling",
+        "drawn"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion",
+        "Mind, fear",
+        "Mind, delusions",
+        "Mind, clairvoyance",
+        "Mind, discouraged",
+        "Mind, reading, averse to",
+        "Mind, reading",
+        "Mind, selfishness"
+      ],
+      "generalizations": [
+        "mind",
+        "reading",
+        "confusion",
+        "fear",
+        "delusions"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, extending, down back",
+        "Back, coldness, extending",
+        "Back, cold"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "extending",
+        "down",
+        "cold"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, desires",
+        "Appetite, desires, tea",
+        "Appetite, desires, warm drinks",
+        "Appetite, desires, warm"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "warm",
+        "drinks"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, morning, agg.",
+        "Cough, morning"
+      ],
+      "generalizations": [
+        "cough"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pain, aching, heart",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pain",
+        "Heart & Circulation, pain, aching"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

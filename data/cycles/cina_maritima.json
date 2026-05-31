@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cina Maritima",
+  "remedy_abbrev": "Cina",
+  "sentence": "Driven by limb expression, Cina Maritima manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, convulsion",
+        "Extremities, stiffness",
+        "Extremities, jerking",
+        "Extremities, twitching",
+        "Extremities, jerking, upper limbs",
+        "Extremities, jerking, lower limbs",
+        "Extremities, jerking, fingers",
+        "Extremities, stiffness, cough"
+      ],
+      "generalizations": [
+        "extremities",
+        "jerking",
+        "stiffness",
+        "limbs",
+        "convulsion"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, quiet",
+        "Mind, indifference",
+        "Mind, capriciousness",
+        "Mind, irritability, children, in",
+        "Mind, striking",
+        "Mind, weeping, whimpering",
+        "Mind, striking, children, in"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "children",
+        "striking",
+        "quiet"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, side",
+        "Generalities, morning",
+        "Generalities, pain, paralytic",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, stitching, muscles",
+        "Generalities, pressure, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "pressure",
+        "side",
+        "paralytic",
+        "sore"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, drawn backward",
+        "Head, perspiration, forehead",
+        "Head, perspiration, forehead, cold",
+        "Head, drawn",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions"
+      ],
+      "generalizations": [
+        "head",
+        "drawn",
+        "perspiration",
+        "forehead",
+        "motions"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, gnawing",
+        "Stomach, vomiting",
+        "Stomach, retching",
+        "Stomach, thirst",
+        "Stomach, thirstless",
+        "Stomach, thirst, chill, during",
+        "Stomach, emptiness"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "gnawing",
+        "vomiting",
+        "retching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, burrowing",
+        "Abdomen, upper abdomen",
+        "Abdomen, navicular region",
+        "Abdomen, sides, left",
+        "Abdomen, worms, from, agg.",
+        "Abdomen, sides",
+        "Abdomen, twisting",
+        "Abdomen, eyes, circles about eyes, with"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "eyes",
+        "burrowing",
+        "upper"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

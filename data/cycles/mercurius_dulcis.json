@@ -1,0 +1,129 @@
+{
+  "remedy_name": "Mercurius Dulcis",
+  "remedy_abbrev": "Merc-d.",
+  "sentence": "Driven by stool, Mercurius Dulcis manifests a dynamic cycle through eye and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, black",
+        "Stool, watery, Stool, watery",
+        "Stool, watery",
+        "Stool, chopped",
+        "Stool, green",
+        "Stool, watery, green",
+        "Stool, chopped, eggs"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "chopped",
+        "green",
+        "black"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, inflammation, conjunctiva, pustular (including cornea)",
+        "Eye, inflammation, choroid",
+        "Eye, conjunctiva",
+        "Eye, ulceration, cornea",
+        "Eye, ulceration",
+        "Eye, cornea"
+      ],
+      "generalizations": [
+        "inflammation",
+        "conjunctiva",
+        "cornea",
+        "ulceration",
+        "pustular"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, inflammation",
+        "Throat, inflammation, tonsils",
+        "Throat, tonsils",
+        "Throat, ulcers"
+      ],
+      "generalizations": [
+        "throat",
+        "inflammation",
+        "tonsils",
+        "ulcers"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, inflammation",
+        "Ear, inflammation, media",
+        "Ear, catarrh, eustachian tube",
+        "Ear, eustachian tube"
+      ],
+      "generalizations": [
+        "inflammation",
+        "eustachian",
+        "tube",
+        "media",
+        "catarrh"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation",
+        "Clinical, colic",
+        "Clinical, ulcers",
+        "Clinical, swelling, glands",
+        "Clinical, swelling"
+      ],
+      "generalizations": [
+        "clinical",
+        "swelling",
+        "inflammation",
+        "colic",
+        "ulcers"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, constipation",
+        "Rectum, dysentery",
+        "Rectum, urging",
+        "Rectum, urging, constant",
+        "Rectum, condylomata"
+      ],
+      "generalizations": [
+        "rectum",
+        "urging",
+        "constipation",
+        "dysentery",
+        "constant"
+      ],
+      "next_segment": "Stool pattern"
+    }
+  ]
+}

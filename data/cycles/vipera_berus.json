@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Vipera Berus",
+  "remedy_abbrev": "Vip.",
+  "sentence": "Driven by limb expression, Vipera Berus manifests a dynamic cycle through mind and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, fullness",
+        "Extremities, fullness, hand",
+        "Extremities, fullness, hand, veins of",
+        "Extremities, swelling",
+        "Extremities, swelling, hand",
+        "Extremities, discoloration",
+        "Extremities, hang down, letting limbs",
+        "Extremities, hang down, letting limbs, agg."
+      ],
+      "generalizations": [
+        "extremities",
+        "fullness",
+        "hand",
+        "swelling",
+        "hang"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, head",
+        "Mind, headache, during, agg.",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness",
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "head",
+        "headache",
+        "during"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, discoloration",
+        "Skin, discoloration, blackish",
+        "Skin, ulcers",
+        "Skin, ulcers, swollen",
+        "Skin, discoloration, blackish, spots",
+        "Skin, eruptions, vesicular",
+        "Skin, eruptions, vesicular, cracked, breaking"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discoloration",
+        "blackish",
+        "ulcers"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, pale",
+        "Face, distortion",
+        "Face, convulsions",
+        "Face, expression",
+        "Face, clenched jaw",
+        "Face, discoloration, bluish, lips"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "bluish",
+        "pale",
+        "distortion"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, tongue",
+        "Mouth, tongue",
+        "Mouth, protruded, tongue",
+        "Mouth, trembling, tongue",
+        "Mouth, discoloration, tongue, red",
+        "Mouth, swelling",
+        "Mouth, discoloration"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "discoloration",
+        "protruded",
+        "trembling"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, fermentation",
+        "Abdomen, colic",
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore"
+      ],
+      "generalizations": [
+        "abdomen",
+        "fermentation",
+        "colic",
+        "distension",
+        "inflammation"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

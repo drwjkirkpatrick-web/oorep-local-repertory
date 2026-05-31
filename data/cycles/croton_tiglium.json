@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Croton Tiglium",
+  "remedy_abbrev": "Croto-t.",
+  "sentence": "Driven by limb expression, Croton Tiglium manifests a dynamic cycle through abdomen and rectum, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, numbness, leg",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, eruption"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "weakness",
+        "foot"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, gurgling",
+        "Abdomen, pain, extending",
+        "Abdomen, pain, umbilicus",
+        "Abdomen, swashing",
+        "Abdomen, pain, extending, anus",
+        "Abdomen, pain, extending, downward",
+        "Abdomen, pain, umbilicus, extending to anus"
+      ],
+      "generalizations": [
+        "abdomen",
+        "extending",
+        "umbilicus",
+        "anus",
+        "gurgling"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, hot weather",
+        "Rectum, flatus",
+        "Rectum, pain, pressing",
+        "Rectum, urging",
+        "Rectum, diarrhea, eating, after",
+        "Rectum, urging, constant"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "urging",
+        "weather",
+        "flatus"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, eruption, crusts",
+        "Head, heat",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "crusts",
+        "motions",
+        "scabs"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, violent",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, nausea",
+        "Stomach, thirst"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "sore",
+        "violent",
+        "burning"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, drawing",
+        "Chest, pain, sore",
+        "Chest, pain, sore, mammae",
+        "Chest, pain, sore, mammae, nipples",
+        "Chest, pain, mammae",
+        "Chest, pain, mammae, nipples",
+        "Chest, pain, drawing, mammae"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "sore",
+        "drawing",
+        "nipples"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

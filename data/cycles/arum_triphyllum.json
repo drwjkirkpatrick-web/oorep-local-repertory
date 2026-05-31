@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Arum Triphyllum",
+  "remedy_abbrev": "Arum-t.",
+  "sentence": "Driven by mouth, Arum Triphyllum manifests a dynamic cycle through nose and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, burning, raw and smarting",
+        "Mouth, pain, burning, tongue",
+        "Mouth, pain, sore",
+        "Mouth, salivation",
+        "Mouth, mucous membrane",
+        "Mouth, pain, burning",
+        "Mouth, saliva"
+      ],
+      "generalizations": [
+        "mouth",
+        "burning",
+        "smarting",
+        "tongue",
+        "sore"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, discharge, watery",
+        "Nose, discharge, yellow",
+        "Nose, obstruction",
+        "Nose, pain, rawness",
+        "Nose, coryza, discharge",
+        "Nose, discharge"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "coryza",
+        "fluent",
+        "watery"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, pain (aching, prosopalgia, etc.), burning, lips",
+        "Face, picking",
+        "Face, picking, lips",
+        "Face, swelling",
+        "Face, swelling, jaw, lower"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "burning",
+        "lips"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, heat, coryza, during",
+        "Head, pain",
+        "Head, eruption",
+        "Head, coldness, vertex",
+        "Head, pain, heated, from becoming",
+        "Head, pain, pressing",
+        "Head, pain, sun, from exposure to agg."
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "coryza",
+        "during",
+        "eruption"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, pain, swallowing, on",
+        "Throat, pain, swallowing",
+        "Throat, gangrene",
+        "Throat, liquids taken are forced into nose",
+        "Throat, pain, burning",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, swallowing, impossible"
+      ],
+      "generalizations": [
+        "throat",
+        "swallowing",
+        "gangrene",
+        "liquids",
+        "taken"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, inflammation, larynx",
+        "Larynx and trachea, pain, soreness",
+        "Larynx and trachea, pain, soreness, larynx",
+        "Larynx and trachea, voice, hoarseness, overuse of the voice",
+        "Larynx and trachea, inflammation",
+        "Larynx and trachea, mucus"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "voice",
+        "hoarseness",
+        "inflammation"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

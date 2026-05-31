@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Selenium Metallicum",
+  "remedy_abbrev": "Sel.",
+  "sentence": "Driven by constitutional vulnerability, Selenium Metallicum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, food",
+        "Generalities, air, draft agg.",
+        "Generalities, alcoholic stimulants",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, lie down, inclination to"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "side",
+        "food"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, emaciation",
+        "Extremities, emaciation, hand",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, tingling, hand",
+        "Extremities, tingling",
+        "Extremities, cramps, calf",
+        "Extremities, eruption"
+      ],
+      "generalizations": [
+        "extremities",
+        "emaciation",
+        "hand",
+        "cramps",
+        "tingling"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion",
+        "Mind, speech",
+        "Mind, ideas, deficiency of",
+        "Mind, ideas",
+        "Mind, work",
+        "Mind, exertion, from mental, agg.",
+        "Mind, exertion",
+        "Mind, men"
+      ],
+      "generalizations": [
+        "mind",
+        "ideas",
+        "exertion",
+        "confusion",
+        "speech"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, hair",
+        "Head, pain, afternoon, agg.",
+        "Head, pain, stitching",
+        "Head, pain, stitching, forehead",
+        "Head, pain, afternoon",
+        "Head, pain, stitching, forehead, eyes over",
+        "Head, hair, painful when touched"
+      ],
+      "generalizations": [
+        "head",
+        "stitching",
+        "hair",
+        "afternoon",
+        "forehead"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, scabies",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, rash",
+        "Skin, sensitiveness",
+        "Skin, ulcers",
+        "Skin, eruptions, vesicular",
+        "Skin, electric, sparks, as from sensation"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "scabies",
+        "itching",
+        "rash"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, weakness",
+        "Back, weakness, lumbar region",
+        "Back, weakness, sexual excesses",
+        "Back, weakness, emissions, from",
+        "Back, weakness, typhoid fever, after",
+        "Back, lumbar region",
+        "Back, eruptions",
+        "Back, eruptions, pimples"
+      ],
+      "generalizations": [
+        "back",
+        "weakness",
+        "lumbar",
+        "region",
+        "eruptions"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

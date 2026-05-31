@@ -1,0 +1,83 @@
+{
+  "remedy_name": "Cocainum Hydrochloricum",
+  "remedy_abbrev": "Cocain.",
+  "sentence": "Driven by constitutional vulnerability, Cocainum Hydrochloricum manifests a dynamic cycle through mind and genitalia male, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, foreign bodies, sensation as if small foreign bodies or grains of sand were under the skin",
+        "Generalities, worms under the skin sensation",
+        "Generalities, indurations",
+        "Generalities, indurations, glands",
+        "Generalities, indurations, glands, sensation of small foreign bodies"
+      ],
+      "generalizations": [
+        "generalities",
+        "foreign",
+        "bodies",
+        "indurations",
+        "small"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, talking",
+        "Mind, talks",
+        "Mind, talks, of one subject",
+        "Mind, delusions, worms",
+        "Mind, delusions, worms, imagines he is covered with"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "talks",
+        "worms",
+        "talking"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, absent, sensation as if penis were",
+        "Genitalia male, penis"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "penis",
+        "absent",
+        "were"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Cocainum Hydrochloricum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "cocainum",
+        "hydrochloricum"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

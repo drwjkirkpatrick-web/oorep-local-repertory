@@ -1,0 +1,134 @@
+{
+  "remedy_name": "Baryta Acetica",
+  "remedy_abbrev": "Bar-acet.",
+  "sentence": "Driven by head, Baryta Acetica manifests a dynamic cycle through back and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, vertex",
+        "Head, pain, drawing",
+        "Head, pain, drawing, sides",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, shooting, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "drawing",
+        "pressing",
+        "forehead"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, lumbar region",
+        "Back, pain, aching",
+        "Back, shivering",
+        "Back, stiffness",
+        "Back, stiffness, sacral region"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "region",
+        "dull",
+        "lumbar"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, pain",
+        "Extremities, coldness, upper limbs",
+        "Extremities, formication",
+        "Extremities, formication, fingers",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, forearm",
+        "Extremities, formication, fingers, back of"
+      ],
+      "generalizations": [
+        "extremities",
+        "formication",
+        "coldness",
+        "fingers",
+        "sore"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, aching",
+        "Eye, pain, aching, pressure, after",
+        "Eye, pain, aching, pressure",
+        "Eye, pain, pressure",
+        "Eye, pain, pressure, after"
+      ],
+      "generalizations": [
+        "pressure",
+        "aching",
+        "after"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urination, frequent",
+        "Bladder, urination, frequent, morning",
+        "Bladder, bladder in general",
+        "Bladder, morning"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "frequent",
+        "involuntary",
+        "general"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, increased (hunger in general), morning",
+        "Appetite, increased (hunger in general), morning, early"
+      ],
+      "generalizations": [
+        "appetite",
+        "increased",
+        "hunger",
+        "general",
+        "early"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

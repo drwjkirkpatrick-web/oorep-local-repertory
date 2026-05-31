@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Polyporus Officinalis",
+  "remedy_abbrev": "Bol.",
+  "sentence": "Driven by back, Polyporus Officinalis manifests a dynamic cycle through limb disturbance and chill, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, dorsal region",
+        "Back, coldness, dorsal region, scapulae",
+        "Back, coldness, dorsal region, scapulae, between",
+        "Back, pain",
+        "Back, heat",
+        "Back, heat, flushes",
+        "Back, pain, chill"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "dorsal",
+        "region",
+        "scapulae"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, knee",
+        "Extremities, pain, ankle",
+        "Extremities, pain, joints",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, upper limbs",
+        "Extremities, weakness, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "knee",
+        "limbs",
+        "ankle"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, beginning in and extending from",
+        "Chill, beginning in and extending from, back",
+        "Chill, chilliness",
+        "Chill, coldness in general",
+        "Chill, creeping",
+        "Chill, exposure, after",
+        "Chill, quotidian",
+        "Chill, shaking, shivering, rigors"
+      ],
+      "generalizations": [
+        "chill",
+        "beginning",
+        "extending",
+        "back",
+        "chilliness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, heaviness",
+        "Abdomen, heaviness, liver, in",
+        "Abdomen, liver",
+        "Abdomen, pain, aching",
+        "Abdomen, pain, bruised, tenderness, etc."
+      ],
+      "generalizations": [
+        "abdomen",
+        "aching",
+        "heaviness",
+        "liver",
+        "dull"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste",
+        "Mouth, discoloration, tongue, yellow",
+        "Mouth, taste, bitter",
+        "Mouth, tongue",
+        "Mouth, coldness, sensation of",
+        "Mouth, discoloration, tongue, white"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "tongue",
+        "taste",
+        "yellow"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, exertion, physical",
+        "Generalities, stiffness",
+        "Generalities, exertion",
+        "Generalities, afternoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "exertion",
+        "weakness",
+        "physical",
+        "enervation"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "remedy_name": "Thallium Metallicum (+ -act.)",
+  "remedy_abbrev": "Thal.",
+  "sentence": "Driven by constitutional vulnerability, Thallium Metallicum (+ -act.) manifests a dynamic cycle through limb disturbance and clinical, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, stitching, internally",
+        "Generalities, shocks, electric-like",
+        "Generalities, pain, stitching",
+        "Generalities, shocks"
+      ],
+      "generalizations": [
+        "generalities",
+        "stitching",
+        "shocks",
+        "internally",
+        "electric"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, paralysis, lower limbs",
+        "Extremities, paralysis, lower limbs, fulgurating pains in abdomen, with",
+        "Extremities, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "lower",
+        "limbs",
+        "fulgurating"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, paralysis"
+      ],
+      "generalizations": [
+        "clinical",
+        "paralysis"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, lancinating"
+      ],
+      "generalizations": [
+        "stomach",
+        "lancinating"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, shocks",
+        "Abdomen, shocks, paralysis of lower limbs"
+      ],
+      "generalizations": [
+        "abdomen",
+        "shocks",
+        "paralysis",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

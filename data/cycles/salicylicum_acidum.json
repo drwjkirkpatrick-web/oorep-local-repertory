@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Salicylicum Acidum",
+  "remedy_abbrev": "Sal-ac.",
+  "sentence": "Driven by limb expression, Salicylicum Acidum manifests a dynamic cycle through mouth and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, ankle",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic",
+        "Extremities, pain, rheumatic",
+        "Extremities, swelling, joints",
+        "Extremities, swelling, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "joints",
+        "rheumatic",
+        "ankle"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, taste",
+        "Mouth, heat",
+        "Mouth, taste, bitter",
+        "Mouth, pain",
+        "Mouth, aphthae",
+        "Mouth, dryness",
+        "Mouth, odor (breath), offensive",
+        "Mouth, pain, burning, raw and smarting"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "heat",
+        "bitter",
+        "aphthae"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, morning",
+        "Generalities, pain, wandering",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, night"
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "wandering",
+        "burning",
+        "side"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises",
+        "Ear, noises, roaring",
+        "Ear, discharges",
+        "Ear, noises, ringing",
+        "Ear, noises, buzzing",
+        "Ear, discharges, purulent",
+        "Ear, boring fingers in, agg.",
+        "Ear, noises, rushing"
+      ],
+      "generalizations": [
+        "noises",
+        "discharges",
+        "roaring",
+        "ringing",
+        "buzzing"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, quiet",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, delusions",
+        "Mind, excitement, excitable",
+        "Mind, forgetful"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "quiet",
+        "sluggishness",
+        "difficulty"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, urticaria",
+        "Skin, itching",
+        "Skin, itching, scratching",
+        "Skin, eruptions, vesicular",
+        "Skin, itching, scratching, amel."
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "itching",
+        "scratching",
+        "urticaria"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Castor Equi",
+  "remedy_abbrev": "Cast-eq.",
+  "sentence": "Driven by limb expression, Castor Equi manifests a dynamic cycle through chest and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, leg, tibia",
+        "Extremities, numbness",
+        "Extremities, pain, knee",
+        "Extremities, chilliness",
+        "Extremities, eruption",
+        "Extremities, numbness, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "tibia",
+        "knee",
+        "chilliness"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, sore",
+        "Chest, pain, sore, mammae",
+        "Chest, pain, sore, mammae, nipples",
+        "Chest, cracks of nipples",
+        "Chest, ulcer",
+        "Chest, ulceration, of mammae",
+        "Chest, ulceration, of mammae, nipples"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "sore",
+        "nipples",
+        "ulceration"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, fullness, sensation of",
+        "Stomach, fullness",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty",
+        "Stomach, pain, ulcerative",
+        "Stomach, pain, dinner, after",
+        "Stomach, emptiness"
+      ],
+      "generalizations": [
+        "stomach",
+        "fullness",
+        "eructations",
+        "empty",
+        "ulcerative"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, coccyx",
+        "Back, pain, coccyx, evening",
+        "Back, pain, coccyx, sitting, while",
+        "Back, pain, coccyx, sitting",
+        "Back, evening",
+        "Back, coccyx",
+        "Back, numbness"
+      ],
+      "generalizations": [
+        "back",
+        "coccyx",
+        "sitting",
+        "while",
+        "numbness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, formication",
+        "Head, pain, morning, agg.",
+        "Head, pain, pressing",
+        "Head, pain, pressing, temples",
+        "Head, pain, pressing, temples, outward",
+        "Head, pain, temples",
+        "Head, pain, morning"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "temples",
+        "formication",
+        "outward"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, morning",
+        "Abdomen, pain, stitching",
+        "Abdomen, movements",
+        "Abdomen, pain, morning, waking, on",
+        "Abdomen, pain, stitching, inguinal region",
+        "Abdomen, pain, stitching, inguinal region, left",
+        "Abdomen, movements, forenoon"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "movements",
+        "inguinal",
+        "region"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

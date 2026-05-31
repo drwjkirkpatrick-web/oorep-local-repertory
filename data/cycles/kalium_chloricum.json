@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Chloricum",
+  "remedy_abbrev": "Kali-chl.",
+  "sentence": "Driven by mouth, Kalium Chloricum manifests a dynamic cycle through limb disturbance and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, swelling",
+        "Mouth, inflammation",
+        "Mouth, scorbutic gums",
+        "Mouth, inflammation, follicular, ulcerative",
+        "Mouth, gums",
+        "Mouth, dryness",
+        "Mouth, salivation"
+      ],
+      "generalizations": [
+        "mouth",
+        "inflammation",
+        "gums",
+        "aphthae",
+        "swelling"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, swelling, leg",
+        "Extremities, eruption",
+        "Extremities, numbness, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "swelling",
+        "numbness",
+        "eruption"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, mouth, around",
+        "Face, eruptions, mouth",
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, heat",
+        "Face, heat, lips",
+        "Face, twitching"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "mouth",
+        "discoloration",
+        "heat"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, ulcers",
+        "Skin, eruptions, scaly",
+        "Skin, eruptions, scaly, bran-like",
+        "Skin, eruptions, mealy",
+        "Skin, eruptions, scaly, white",
+        "Skin, eruptions, mealy, white",
+        "Skin, eruptions, herpetic"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "scaly",
+        "mealy",
+        "white"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, membrane",
+        "Throat, membrane, white",
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, discoloration",
+        "Throat, ulcers",
+        "Throat, dryness"
+      ],
+      "generalizations": [
+        "throat",
+        "membrane",
+        "discoloration",
+        "exudation",
+        "diphtheria"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, inflammation, conjunctiva, pustular (including cornea)",
+        "Eye, conjunctiva",
+        "Eye, bleeding from eyes",
+        "Eye, ecchymosis",
+        "Eye, vesicles on the cornea",
+        "Eye, eruptions"
+      ],
+      "generalizations": [
+        "inflammation",
+        "conjunctiva",
+        "cornea",
+        "pustular",
+        "including"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

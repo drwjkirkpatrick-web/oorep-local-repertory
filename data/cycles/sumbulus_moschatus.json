@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sumbulus Moschatus",
+  "remedy_abbrev": "Sumb.",
+  "sentence": "Driven by limb expression, Sumbulus Moschatus manifests a dynamic cycle through general state and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, heaviness, upper limbs",
+        "Extremities, numbness, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "heaviness",
+        "upper"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, heat, flushes of",
+        "Generalities, heat",
+        "Generalities, faintness, excitement, on",
+        "Generalities, weakness",
+        "Generalities, air, draft agg.",
+        "Generalities, cold, in general agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "heat",
+        "fainting",
+        "flushes"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, heat",
+        "Back, heat, flushes",
+        "Back, heat, flushes, extending to body",
+        "Back, coldness",
+        "Back, coldness, spine",
+        "Back, heat, cervical region",
+        "Back, heat, spine in",
+        "Back, heat, flushes, spine, in"
+      ],
+      "generalizations": [
+        "back",
+        "heat",
+        "flushes",
+        "spine",
+        "coldness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain",
+        "Abdomen, heat",
+        "Abdomen, distension, tympanitic",
+        "Abdomen, pain, gnawing",
+        "Abdomen, heat, flashes of",
+        "Abdomen, pain, gnawing, hypogastrium",
+        "Abdomen, heat, flashes of, as of hot water flowing in"
+      ],
+      "generalizations": [
+        "abdomen",
+        "heat",
+        "distension",
+        "gnawing",
+        "flashes"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, inflammation",
+        "Genitalia male, swelling",
+        "Genitalia male, sexual passion",
+        "Genitalia male, sexual passion, wanting",
+        "Genitalia male, inflammation, penis",
+        "Genitalia male, swelling, penis",
+        "Genitalia male, inflammation, penis, prepuce",
+        "Genitalia male, swelling, penis, prepuce"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "penis",
+        "inflammation",
+        "swelling"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness",
+        "Mind, anxiety",
+        "Mind, ideas",
+        "Mind, mistakes",
+        "Mind, work",
+        "Mind, ideas, abundant",
+        "Mind, dullness, morning",
+        "Mind, ideas, abundant, evening"
+      ],
+      "generalizations": [
+        "mind",
+        "ideas",
+        "dullness",
+        "abundant",
+        "anxiety"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

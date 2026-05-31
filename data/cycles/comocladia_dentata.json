@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Comocladia Dentata",
+  "remedy_abbrev": "Com.",
+  "sentence": "Driven by limb expression, Comocladia Dentata manifests a dynamic cycle through eye and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, knee",
+        "Extremities, inflammation",
+        "Extremities, inflammation, foot",
+        "Extremities, pain, burning",
+        "Extremities, weakness, shoulder",
+        "Extremities, ulcers"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "inflammation",
+        "knee",
+        "foot"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, protrusion",
+        "Eye, enlargement, sensation of",
+        "Eye, pain, right",
+        "Eye, enlargement, sensation of, right feels larger than left",
+        "Eye, protrusion, right eye more than left",
+        "Eye, enlargement",
+        "Eye, heaviness"
+      ],
+      "generalizations": [
+        "enlargement",
+        "right",
+        "protrusion",
+        "than",
+        "left"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, ulcer",
+        "Chest, ulceration, of mammae",
+        "Chest, ulceration, of mammae, right",
+        "Chest, mammae",
+        "Chest, ulceration",
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, pain, clavicle"
+      ],
+      "generalizations": [
+        "chest",
+        "ulceration",
+        "mammae",
+        "ulcer",
+        "right"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, rising from a seat",
+        "Back, pain, lumbar region, rising from a seat, amel.",
+        "Back, lumbar region",
+        "Back, coldness",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "rising",
+        "seat"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, heaviness",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, pain, stooping, from agg."
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, discoloration",
+        "Skin, discoloration, red",
+        "Skin, eruptions, rash",
+        "Skin, eruptions, red",
+        "Skin, itching",
+        "Skin, itching, burning",
+        "Skin, ulcers"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discoloration",
+        "itching",
+        "rash"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

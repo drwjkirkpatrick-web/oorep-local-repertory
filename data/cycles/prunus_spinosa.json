@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Prunus Spinosa",
+  "remedy_abbrev": "Prun.",
+  "sentence": "Driven by head, Prunus Spinosa manifests a dynamic cycle through limb disturbance and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, right side",
+        "Head, pain, shooting",
+        "Head, pain, extending",
+        "Head, pain, forehead",
+        "Head, pain, forehead, right",
+        "Head, pain, shooting, forehead",
+        "Head, pain, shooting, forehead, over eyes"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "shooting",
+        "right",
+        "side"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, sprained",
+        "Extremities, pain, sprained, ankle",
+        "Extremities, pain, sprained, joint",
+        "Extremities, ankle",
+        "Extremities, paralysis",
+        "Extremities, stiffness",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "sprained",
+        "ankle",
+        "joint",
+        "paralysis"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, dropsy, ascites",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cramping, griping, hypogastrium",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, liver",
+        "Abdomen, pain, pressing"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "hypogastrium",
+        "dropsy"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, stitching, lumbar region",
+        "Back, stiffness",
+        "Back, pain, stitching",
+        "Back, pain, lumbar region, sitting"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, tenesmus",
+        "Bladder, urination, retarded, press, must, a long time before he can begin",
+        "Bladder, urination",
+        "Bladder, urination, retarded",
+        "Bladder, urination, retarded, press, must",
+        "Bladder, pain",
+        "Bladder, pain, burning",
+        "Bladder, pain, burning, neck"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "retarded",
+        "press",
+        "must"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, night",
+        "Eye, pain, sore, bruised, tender",
+        "Eye, pain, stitching",
+        "Eye, pain, sore",
+        "Eye, pain, motion of eyes, on agg.",
+        "Eye, pain, motion of eyes",
+        "Eye, pain, stitching, extending, inward"
+      ],
+      "generalizations": [
+        "sore",
+        "stitching",
+        "motion",
+        "eyes",
+        "bruised"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

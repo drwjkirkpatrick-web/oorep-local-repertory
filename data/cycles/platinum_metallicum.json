@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Platinum Metallicum",
+  "remedy_abbrev": "Plat.",
+  "sentence": "Driven by mind, Platinum Metallicum manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy \u2014 its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, hysteria",
+        "Mind, indifference, apathy, etc.",
+        "Mind, memory, weakness of",
+        "Mind, delusions"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "irritability",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, numbness, leg",
+        "Extremities, bandaged, sensation as if",
+        "Extremities, constriction",
+        "Extremities, constriction, thigh",
+        "Extremities, constriction, thigh, as from a tightly drawn bandage"
+      ],
+      "generalizations": [
+        "extremities",
+        "constriction",
+        "numbness",
+        "thigh",
+        "stiffness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, trembling, externally",
+        "Generalities, numbness"
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "side",
+        "weakness",
+        "pressing"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, menses, copious",
+        "Genitalia female, menses, protracted",
+        "Genitalia female, pain, bearing down"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "uterus",
+        "metrorrhagia"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head \u2014 pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, numbness, forehead",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, temples",
+        "Head, pain, sides, one side",
+        "Head, pain, temples",
+        "Head, pain, warm room agg."
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "forehead",
+        "temples",
+        "numbness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, dragging",
+        "Abdomen, enlarged",
+        "Abdomen, pain, pressing, hypogastrium",
+        "Abdomen, formication"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "pressing",
+        "cutting",
+        "dragging"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

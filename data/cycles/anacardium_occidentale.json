@@ -1,0 +1,58 @@
+{
+  "remedy_name": "Anacardium Occidentale",
+  "remedy_abbrev": "Anac-oc.",
+  "sentence": "Driven by face, Anacardium Occidentale manifests a dynamic cycle through mind and gemüt, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, erysipelas",
+        "Face, itching",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, swelling",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "erysipelas",
+        "itching"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "confusion"
+      ],
+      "next_segment": "Core mental state / inner conflict"
+    },
+    {
+      "name": "Core mental state / inner conflict",
+      "description": "The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Gemüt, Verwirrung"
+      ],
+      "generalizations": [
+        "verwirrung"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    }
+  ]
+}

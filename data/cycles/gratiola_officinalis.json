@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Gratiola Officinalis",
+  "remedy_abbrev": "Grat.",
+  "sentence": "Driven by head, Gratiola Officinalis manifests a dynamic cycle through limb disturbance and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, constriction, forehead",
+        "Head, constriction, tension",
+        "Head, pulsating, temples",
+        "Head, smaller, feels",
+        "Head, constriction",
+        "Head, pulsating"
+      ],
+      "generalizations": [
+        "head",
+        "constriction",
+        "congestion",
+        "pulsating",
+        "hyperemia"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, lower limbs",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, elbow",
+        "Extremities, pain, tearing, forearm",
+        "Extremities, pain, tearing, upper arm",
+        "Extremities, forearm"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "stitching",
+        "forearm",
+        "lower"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, coldness",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, stitching",
+        "Abdomen, swelling",
+        "Abdomen, swelling, mesenteric glands",
+        "Abdomen, pain, cramping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "swelling",
+        "griping",
+        "coldness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, gnawing",
+        "Stomach, pain, pressing",
+        "Stomach, stone, sensation of",
+        "Stomach, loathing of food",
+        "Stomach, vomiting",
+        "Stomach, vomiting, sour"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eructations",
+        "gnawing",
+        "pressing"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, nymphomania",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, hysteria",
+        "Mind, anxiety",
+        "Mind, wearisome",
+        "Mind, anxiety, hypochondriacal",
+        "Mind, confusion, lying, when"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "anxiety",
+        "nymphomania",
+        "mental"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, dinner, after",
+        "Rectum, pain",
+        "Rectum, diarrhea, morning",
+        "Rectum, cholera",
+        "Rectum, diarrhea, night",
+        "Rectum, pain, sore",
+        "Rectum, pain, sore, stool, during"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "sore",
+        "dinner",
+        "after"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

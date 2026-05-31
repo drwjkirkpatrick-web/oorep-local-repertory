@@ -1,0 +1,132 @@
+{
+  "remedy_name": "Bufo Sahytiensis",
+  "remedy_abbrev": "Bufo-s.",
+  "sentence": "Driven by mind, Bufo Sahytiensis manifests a dynamic cycle through limb disturbance and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, memory, weakness of",
+        "Mind, imbecility",
+        "Mind, memory",
+        "Mind, fear",
+        "Mind, fear, people, of",
+        "Mind, forgetful",
+        "Mind, work, aversion to mental",
+        "Mind, work"
+      ],
+      "generalizations": [
+        "mind",
+        "memory",
+        "fear",
+        "work",
+        "weakness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, tingling",
+        "Extremities, tingling, toes",
+        "Extremities, eruption",
+        "Extremities, eruption, upper limbs",
+        "Extremities, eruption, upper limbs, pimples",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "tingling",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, formication",
+        "Back, formication, lumbar region",
+        "Back, pain, sacral region, stooping, when",
+        "Back, itching",
+        "Back, itching, lumbar region",
+        "Back, sacrum"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "sacral",
+        "formication",
+        "lumbar"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams",
+        "Sleep, dreams, unremembered",
+        "Sleep, sleeplessness",
+        "Sleep, dreams, poetic"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "unremembered",
+        "sleeplessness",
+        "poetic"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, enlargement, sensation of",
+        "Eye, pain, burning, smarting, biting",
+        "Eye, pain, burning",
+        "Eye, enlargement"
+      ],
+      "generalizations": [
+        "enlargement",
+        "burning",
+        "smarting",
+        "biting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, eruption",
+        "Head, eruption, pimples",
+        "Head, eruption, pimples, occiput, on",
+        "Head, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "pimples",
+        "occiput"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

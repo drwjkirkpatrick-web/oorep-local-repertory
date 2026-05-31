@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Corallium Rubrum",
+  "remedy_abbrev": "Cor-r.",
+  "sentence": "Driven by head, Corallium Rubrum manifests a dynamic cycle through nose and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, air or wind",
+        "Head, air or wind, passing through head, sensation as of",
+        "Head, air or wind, passing through head, sensation as of, rocking, on",
+        "Head, air or wind, passing through head",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, stooping, when",
+        "Head, empty, hollow sensation"
+      ],
+      "generalizations": [
+        "head",
+        "wind",
+        "passing",
+        "through",
+        "congestion"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, discharge, copious",
+        "Nose, discharge",
+        "Nose, coldness",
+        "Nose, coldness, inside, when inhaling",
+        "Nose, coldness, inside",
+        "Nose, discharge, posterior nares",
+        "Nose, discharge, copious, from posterior nares",
+        "Nose, catarrh"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "coldness",
+        "copious",
+        "inside"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, discoloration, black",
+        "Face, swelling",
+        "Face, swelling, lips",
+        "Face, chapped"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "swelling",
+        "bluish",
+        "heat"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, seminal emissions (nightly)",
+        "Genitalia male, perspiration",
+        "Genitalia male, inflammation",
+        "Genitalia male, swelling",
+        "Genitalia male, seminal emissions (nightly), dreams, without",
+        "Genitalia male, redness",
+        "Genitalia male, ulcers",
+        "Genitalia male, ulcers, penis"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "seminal",
+        "emissions",
+        "nightly"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, discoloration",
+        "Extremities, discoloration, hand",
+        "Extremities, pain, sprained",
+        "Extremities, discoloration, hand, redness",
+        "Extremities, pain, sprained, joint",
+        "Extremities, discoloration, hand, redness, spots"
+      ],
+      "generalizations": [
+        "extremities",
+        "discoloration",
+        "hand",
+        "sprained",
+        "redness"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, spasmodic",
+        "Cough, breathing",
+        "Cough, breathing, deep agg.",
+        "Cough, inhalation",
+        "Cough, paroxysmal",
+        "Cough, whooping",
+        "Cough, breathing, deep",
+        "Cough, constriction, larynx"
+      ],
+      "generalizations": [
+        "cough",
+        "breathing",
+        "deep",
+        "spasmodic",
+        "inhalation"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

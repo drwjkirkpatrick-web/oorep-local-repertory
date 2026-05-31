@@ -1,0 +1,65 @@
+{
+  "remedy_name": "Chenopodium Vulvaria",
+  "remedy_abbrev": "Chen-v.",
+  "sentence": "Driven by back, Chenopodium Vulvaria manifests a dynamic cycle through head and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, left",
+        "Back, pain, dorsal region, scapulae, left, under",
+        "Back, dorsal region, back, left, right",
+        "Back, scapula",
+        "Back, dorsal region, back"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "scapulae",
+        "left"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, occiput, paroxysmal",
+        "Head, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "paroxysmal"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, saliva",
+        "Mouth, saliva, cool"
+      ],
+      "generalizations": [
+        "mouth",
+        "saliva",
+        "cool"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

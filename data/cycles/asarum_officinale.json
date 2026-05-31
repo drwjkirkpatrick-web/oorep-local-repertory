@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Asarum Officinale",
+  "remedy_abbrev": "Asar.",
+  "sentence": "Driven by constitutional vulnerability, Asarum Officinale manifests a dynamic cycle through head and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, irritability, excessive physical",
+        "Generalities, irritability",
+        "Generalities, alcoholic stimulants",
+        "Generalities, bathing, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "irritability",
+        "side",
+        "lying",
+        "pressing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead, left side",
+        "Head, pain, nervous",
+        "Head, hair",
+        "Head, pain, forehead",
+        "Head, pain, forehead, left",
+        "Head, constriction, tension"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "left",
+        "side",
+        "nervous"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, heat, hand, palm",
+        "Extremities, palms",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "coldness",
+        "hand",
+        "palm"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sensitive, noise, to",
+        "Mind, sensitive, noise, to, slightest",
+        "Mind, sensitive",
+        "Mind, aversion, everything, to",
+        "Mind, aversion",
+        "Mind, work, cannot",
+        "Mind, sensitive, noise",
+        "Mind, thoughts, vanishing"
+      ],
+      "generalizations": [
+        "mind",
+        "sensitive",
+        "noise",
+        "aversion",
+        "slightest"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, menses, before",
+        "Back, pain, lumbar region, menses, beginning, at the",
+        "Back, pain, menses, on appearance of",
+        "Back, pain, lumbar region, menses",
+        "Back, pain, menses"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "menses",
+        "lumbar",
+        "cervical"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, coldness",
+        "Abdomen, hernia, inguinal",
+        "Abdomen, pain, cutting, stool, before"
+      ],
+      "generalizations": [
+        "abdomen",
+        "aching",
+        "cutting",
+        "dull",
+        "cramping"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

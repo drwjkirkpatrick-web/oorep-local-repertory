@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Melilotus Officinalis",
+  "remedy_abbrev": "Meli.",
+  "sentence": "Driven by head, Melilotus Officinalis manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, violent pains",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, congestion, menses, before"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "forehead",
+        "hyperemia",
+        "violent"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, full feeling, internally",
+        "Generalities, pulsation, externally",
+        "Generalities, pulsation, internally",
+        "Generalities, full feeling",
+        "Generalities, pulsation",
+        "Generalities, pain",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, pain, pressing"
+      ],
+      "generalizations": [
+        "generalities",
+        "pulsation",
+        "full",
+        "feeling",
+        "internally"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, delirium",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, weeping",
+        "Mind, weeping, tearful mood, etc."
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "indifference",
+        "weeping",
+        "sluggishness"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, colors, black",
+        "Vision, colors, black, spots",
+        "Vision, colors",
+        "Vision, colors, black, spots, headache, during",
+        "Vision, colors, black, spots, headache",
+        "Vision, headache, during, agg.",
+        "Vision, headache",
+        "Vision, headache, during"
+      ],
+      "generalizations": [
+        "vision",
+        "colors",
+        "headache",
+        "black",
+        "spots"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, coldness, foot, headache, during",
+        "Extremities, coldness, foot, headache",
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "headache",
+        "stitching"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, broken, as if",
+        "Back, pain, broken, as if, sacrum",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, walking",
+        "Back, pain, lumbar region, sitting",
+        "Back, pain, lumbar region, sitting, while agg."
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "broken",
+        "sitting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

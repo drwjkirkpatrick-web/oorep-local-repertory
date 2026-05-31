@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Plantago Major",
+  "remedy_abbrev": "Plan.",
+  "sentence": "Driven by limb expression, Plantago Major manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, joints",
+        "Extremities, pain, lower limbs, motion, amel.",
+        "Extremities, pain, left then right"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "lower",
+        "limbs",
+        "stitching"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, boring",
+        "Head, pain, sore, bruised",
+        "Head, pain, boring, forehead",
+        "Head, pain, sore, bruised, morning",
+        "Head, pain, sore, bruised, morning, waking, on",
+        "Head, pain, boring, forehead, eminence, frontal",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "boring",
+        "sore",
+        "bruised",
+        "forehead"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, impatience",
+        "Mind, morose",
+        "Mind, prostration of mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "impatience",
+        "morose",
+        "prostration"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, rumbling, eating, after",
+        "Abdomen, rumbling, eating",
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "eating",
+        "after",
+        "distension"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, tobacco, agg.",
+        "Generalities, tobacco",
+        "Generalities, morning",
+        "Generalities, cold, air agg.",
+        "Generalities, pulsation, internally",
+        "Generalities, walking, in open air agg.",
+        "Generalities, cold",
+        "Generalities, walking"
+      ],
+      "generalizations": [
+        "generalities",
+        "tobacco",
+        "cold",
+        "walking",
+        "pulsation"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), lancinating",
+        "Face, pain (aching, prosopalgia, etc.), stitching",
+        "Face, pain (aching, prosopalgia, etc.), stitching, left",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "discoloration",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

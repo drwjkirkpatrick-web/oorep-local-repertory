@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Coca",
+  "remedy_abbrev": "Coca",
+  "sentence": "Driven by head, Coca manifests a dynamic cycle through mind and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, constriction, forehead",
+        "Head, fullness",
+        "Head, fullness, occiput",
+        "Head, pain, occiput",
+        "Head, shocks, blows, jerks, etc.",
+        "Head, constriction",
+        "Head, shocks, blows"
+      ],
+      "generalizations": [
+        "head",
+        "constriction",
+        "fullness",
+        "occiput",
+        "shocks"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, timidity",
+        "Mind, timidity, bashful",
+        "Mind, fear",
+        "Mind, exhilaration",
+        "Mind, indolence, aversion to work",
+        "Mind, indolence",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness"
+      ],
+      "generalizations": [
+        "mind",
+        "timidity",
+        "indolence",
+        "bashful",
+        "fear"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, numbness, hand",
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, motion",
+        "Extremities, cramps",
+        "Extremities, numbness, foot",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "coldness",
+        "foot",
+        "hand"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, position, back, on",
+        "Sleep, position",
+        "Sleep, waking",
+        "Sleep, waking, late",
+        "Sleep, position, back",
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, disturbed"
+      ],
+      "generalizations": [
+        "sleep",
+        "position",
+        "back",
+        "waking",
+        "late"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, ascending, agg.",
+        "Generalities, old, people",
+        "Generalities, ascending",
+        "Generalities, morning",
+        "Generalities, cold, air agg.",
+        "Generalities, cold",
+        "Generalities, pain",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "ascending",
+        "cold",
+        "people",
+        "weakness"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, tickling",
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, air, cold agg.",
+        "Cough, dry, evening",
+        "Cough, dry, smoking, from",
+        "Cough, evening, bed, in",
+        "Cough, irritation in air passages, from"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "cold",
+        "smoking",
+        "irritation"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

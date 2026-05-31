@@ -1,0 +1,119 @@
+{
+  "remedy_name": "Castanea Vesca",
+  "remedy_abbrev": "Casta-v.",
+  "sentence": "Driven by abdomen, Castanea Vesca manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, relaxed feeling",
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, pressing, dinner, after",
+        "Abdomen, relaxed feeling, lying on back amel.",
+        "Abdomen, pain, pressing, dinner"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pressing",
+        "relaxed",
+        "feeling",
+        "dinner"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, night"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, sun, from exposure to agg.",
+        "Head, pain, lying",
+        "Head, pain, sun",
+        "Head, pain, lying, back, on",
+        "Head, pain, lying, back, on, amel.",
+        "Head, pain, lying, back"
+      ],
+      "generalizations": [
+        "head",
+        "lying",
+        "back",
+        "exposure",
+        "amel"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, heat",
+        "Vertigo, lying",
+        "Vertigo, heat of sun",
+        "Vertigo, lying, back",
+        "Vertigo, lying, back, on",
+        "Vertigo, lying, back, on, in a cool room amel."
+      ],
+      "generalizations": [
+        "vertigo",
+        "lying",
+        "back",
+        "heat",
+        "cool"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams",
+        "Sleep, dreams, disgusting",
+        "Sleep, dreams, soiling himself",
+        "Sleep, dreams, stool"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "disgusting",
+        "soiling",
+        "himself"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, soft"
+      ],
+      "generalizations": [
+        "stool",
+        "soft"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

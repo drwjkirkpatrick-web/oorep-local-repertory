@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Manganum Aceticum (+ -c.)",
+  "remedy_abbrev": "Mang.",
+  "sentence": "Driven by limb expression, Manganum Aceticum (+ -c.) manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, pressing",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, joints",
+        "Extremities, perspiration",
+        "Extremities, pain, pressing, forearm",
+        "Extremities, perspiration, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "pressing",
+        "stitching",
+        "perspiration",
+        "sore"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, forehead",
+        "Head, pain, stooping",
+        "Head, pain, air, open, amel.",
+        "Head, pain, forehead, stooping, from agg.",
+        "Head, pain, air",
+        "Head, pain, forehead, stooping"
+      ],
+      "generalizations": [
+        "head",
+        "stooping",
+        "forehead",
+        "open",
+        "amel"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, lying",
+        "Generalities, heat, flushes of",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, lying, amel.",
+        "Generalities, pain, stitching, muscles",
+        "Generalities, pain, stitching, muscles, tearing in muscles"
+      ],
+      "generalizations": [
+        "generalities",
+        "muscles",
+        "lying",
+        "heat",
+        "stitching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, damp weather, from",
+        "Abdomen, pain, cutting",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, pressing, hypochondria",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, cutting, umbilicus"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "pressing",
+        "damp",
+        "weather"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, voice",
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, tickling in the air passages",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, catarrh",
+        "Larynx and trachea, constriction"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "voice",
+        "irritation",
+        "tickling"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, itching, in",
+        "Ear, itching",
+        "Ear, pain",
+        "Ear, inflammation",
+        "Ear, pain, air, open, in agg.",
+        "Ear, pain, burning",
+        "Ear, pain, soreness",
+        "Ear, pain, soreness, external ear"
+      ],
+      "generalizations": [
+        "itching",
+        "soreness",
+        "inflammation",
+        "open",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

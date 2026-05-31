@@ -1,0 +1,42 @@
+{
+  "remedy_name": "Angophora Lanceolata",
+  "remedy_abbrev": "Ango.",
+  "sentence": "Driven by ear, Angophora Lanceolata manifests a dynamic cycle through clinical and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, discharges",
+        "Ear, inflammation",
+        "Ear, inflammation, inside",
+        "Ear, discharges, purulent"
+      ],
+      "generalizations": [
+        "discharges",
+        "inflammation",
+        "inside",
+        "purulent"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation"
+      ],
+      "next_segment": "Auditory disturbance"
+    }
+  ]
+}

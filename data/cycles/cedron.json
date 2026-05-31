@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Cedron",
+  "remedy_abbrev": "Cedr.",
+  "sentence": "Driven by head, Cedron manifests a dynamic cycle through limb disturbance and chill, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, shooting, forehead",
+        "Head, pain, shooting, forehead, over eyes",
+        "Head, pain, shooting, forehead, over eyes, left",
+        "Head, swollen, distended, feeling"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "shooting",
+        "eyes",
+        "over"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, pain",
+        "Extremities, chorea",
+        "Extremities, pain, upper arm",
+        "Extremities, pain, upper arm, deltoid region",
+        "Extremities, pain, upper arm, deltoid region, right",
+        "Extremities, coldness, forearm"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "upper",
+        "deltoid",
+        "region"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, coldness in general",
+        "Chill, exposure, after",
+        "Chill, morning",
+        "Chill, exposure",
+        "Chill, periodicity",
+        "Chill, periodicity, regular and distinct",
+        "Chill, 4 p.m.",
+        "Chill, time"
+      ],
+      "generalizations": [
+        "chill",
+        "exposure",
+        "periodicity",
+        "coldness",
+        "general"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, froth, foam, from",
+        "Mouth, paralysis, tongue",
+        "Mouth, froth",
+        "Mouth, paralysis",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, odor (breath), offensive",
+        "Mouth, salivation"
+      ],
+      "generalizations": [
+        "mouth",
+        "froth",
+        "paralysis",
+        "tongue",
+        "dryness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), evening agg.",
+        "Face, pain (aching, prosopalgia, etc.), evening",
+        "Face, pain (aching, prosopalgia, etc.), evening, 7 p.m. to 8 p.m.",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain",
+        "Face, evening"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, periodicity",
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, food",
+        "Generalities, pain, pressing, internally",
+        "Generalities, pain, tearing, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "trembling",
+        "externally",
+        "periodicity"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

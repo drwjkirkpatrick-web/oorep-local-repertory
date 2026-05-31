@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Colchicum Autumnale",
+  "remedy_abbrev": "Colch.",
+  "sentence": "Driven by limb expression, Colchicum Autumnale manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, swelling",
+        "Extremities, lameness",
+        "Extremities, pain",
+        "Extremities, pain, fingers",
+        "Extremities, pain, forearm",
+        "Extremities, pain, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "swelling",
+        "lameness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, night",
+        "Generalities, food",
+        "Generalities, formication, internally",
+        "Generalities, formication"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "formication",
+        "enervation",
+        "faintness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, cerebral hemorrhage",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, perspiration, forehead",
+        "Head, perspiration, forehead, cold",
+        "Head, tingling",
+        "Head, pain, forehead",
+        "Head, perspiration"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "forehead",
+        "cerebral",
+        "hemorrhage"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, flatulence"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "inflammation",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, loathing of food",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, retching"
+      ],
+      "generalizations": [
+        "stomach",
+        "sore",
+        "burning",
+        "bruised",
+        "beaten"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, memory, weakness of",
+        "Mind, forgetful",
+        "Mind, delusions, disease",
+        "Mind, memory",
+        "Mind, delusions, disease, sensation as being sick",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "memory",
+        "delusions",
+        "disease",
+        "restlessness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

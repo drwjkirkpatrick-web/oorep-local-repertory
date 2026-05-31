@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ranunculus Bulbosus",
+  "remedy_abbrev": "Ran-b.",
+  "sentence": "Driven by limb expression, Ranunculus Bulbosus manifests a dynamic cycle through general state and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, drawing up limbs, amel.",
+        "Extremities, eruption",
+        "Extremities, eruption, vesicles",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, shoulder",
+        "Extremities, pain, stitching, shoulder, right",
+        "Extremities, shoulder"
+      ],
+      "generalizations": [
+        "extremities",
+        "stitching",
+        "shoulder",
+        "eruption",
+        "drawing"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, pain, pressing",
+        "Generalities, alcoholic stimulants",
+        "Generalities, change of, temperature agg.",
+        "Generalities, cold, in general agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "pressing",
+        "enervation",
+        "load"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, pain, respiration",
+        "Chest, pain, respiration, deep agg.",
+        "Chest, pain, sides",
+        "Chest, pain, sore, bruised",
+        "Chest, pain, sore, coughing, from",
+        "Chest, pain, stitching"
+      ],
+      "generalizations": [
+        "chest",
+        "respiration",
+        "sore",
+        "burning",
+        "deep"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, alcoholic drinks, from agg.",
+        "Head, pain, forehead",
+        "Head, pain, alcoholic drinks",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right",
+        "Head, pain, forehead, eyes",
+        "Head, enlarged sensation"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "alcoholic",
+        "drinks"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, hypochondria",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, pain, stitching, hypochondria, inhalation, on",
+        "Abdomen, pain, stitching, hypochondria, right"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypochondria",
+        "stitching",
+        "spleen",
+        "sore"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain",
+        "Back, pain, cervical region",
+        "Back, pain, cervical region, rheumatic",
+        "Back, pain, dorsal region, scapulae, between",
+        "Back, pain, sore, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "cervical"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

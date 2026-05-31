@@ -1,0 +1,135 @@
+{
+  "remedy_name": "Cochlearia Armoracia",
+  "remedy_abbrev": "Coch.",
+  "sentence": "Driven by genitalia male, Cochlearia Armoracia manifests a dynamic cycle through urethra and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, burning",
+        "Genitalia male, pain, burning, penis",
+        "Genitalia male, pain, burning, penis, glans",
+        "Genitalia male, penis",
+        "Genitalia male, glans",
+        "Genitalia male, erections, wanting (impotency)",
+        "Genitalia male, erections"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "burning",
+        "penis",
+        "glans"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, discharge",
+        "Urethra, discharge, gonorrheal",
+        "Urethra, discharge, gonorrheal, chronic",
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, meatus",
+        "Urethra, hemorrhage",
+        "Urethra, hemorrhage, burning, with"
+      ],
+      "generalizations": [
+        "urethra",
+        "discharge",
+        "burning",
+        "gonorrheal",
+        "hemorrhage"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, biting, tongue",
+        "Mouth, pain, biting",
+        "Mouth, odor (breath), offensive",
+        "Mouth, pain, burning, tongue",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, odor (breath)"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "biting",
+        "odor",
+        "breath"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, excitement, emotional, ailments from",
+        "Mind, excitement",
+        "Mind, emotions, after, agg.",
+        "Mind, emotions"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "excitement",
+        "emotions",
+        "anxiety"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, pain, stinging"
+      ],
+      "generalizations": [
+        "rectum",
+        "burning",
+        "stinging"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain, toothache in general",
+        "Teeth, pain",
+        "Teeth, pain, rheumatic",
+        "Teeth, pain, dull",
+        "Teeth, soft, feel",
+        "Teeth, pain, dull, as if soft and became bent on chewing"
+      ],
+      "generalizations": [
+        "teeth",
+        "dull",
+        "soft",
+        "toothache",
+        "general"
+      ],
+      "next_segment": "Male genital state"
+    }
+  ]
+}

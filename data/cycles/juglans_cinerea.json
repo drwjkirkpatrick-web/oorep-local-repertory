@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Juglans Cinerea",
+  "remedy_abbrev": "Jug-c.",
+  "sentence": "Driven by limb expression, Juglans Cinerea manifests a dynamic cycle through head and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, hand, back of",
+        "Extremities, eruption, upper limbs",
+        "Extremities, itching",
+        "Extremities, pain, wrist",
+        "Extremities, pain, wrist, rheumatic"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "hand",
+        "wrist",
+        "back"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, occiput",
+        "Head, pain, shooting, occiput",
+        "Head, occiput",
+        "Head, eruption",
+        "Head, pain, morning, agg.",
+        "Head, pain, temples"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "shooting",
+        "eruption",
+        "temples"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, eczema",
+        "Skin, discoloration",
+        "Skin, discoloration, red",
+        "Skin, discoloration, red, spots",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, rash",
+        "Skin, eruptions, urticaria"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discoloration",
+        "eczema",
+        "spots"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, stitching",
+        "Back, pain, stitching, dorsal region, scapulae, under",
+        "Back, coldness",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "stitching",
+        "scapulae"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, erysipelas",
+        "Face, swelling",
+        "Face, eruptions, itching",
+        "Face, swelling, submaxillary glands",
+        "Face, erysipelas, extending",
+        "Face, erysipelas, extending, to ear",
+        "Face, submaxillary glands"
+      ],
+      "generalizations": [
+        "face",
+        "erysipelas",
+        "eruptions",
+        "swelling",
+        "submaxillary"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, angina pectoris",
+        "Chest, pain",
+        "Chest, constriction",
+        "Chest, pain, sternum",
+        "Chest, constriction, walking",
+        "Chest, constriction, walking, while agg.",
+        "Chest, pain, sternum, eating, after",
+        "Chest, pain, sternum, walking, on"
+      ],
+      "generalizations": [
+        "chest",
+        "constriction",
+        "sternum",
+        "walking",
+        "angina"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

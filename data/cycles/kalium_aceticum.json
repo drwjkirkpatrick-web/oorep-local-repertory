@@ -1,0 +1,123 @@
+{
+  "remedy_name": "Kalium Aceticum",
+  "remedy_abbrev": "Kali-acet.",
+  "sentence": "Driven by limb expression, Kalium Aceticum manifests a dynamic cycle through skin and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, hand",
+        "Extremities, paralysis, upper limbs",
+        "Extremities, trembling",
+        "Extremities, pain, stitching, hand, palm",
+        "Extremities, paralysis, upper limbs, partial"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "stitching",
+        "hand",
+        "upper"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, itching, warmth, of bed agg.",
+        "Skin, eruptions, itching, warmth"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "itching",
+        "warmth"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, specific gravity increased",
+        "Urine, odor",
+        "Urine, cloudy",
+        "Urine, watery, clear as water",
+        "Urine, watery",
+        "Urine, odor, sweetish"
+      ],
+      "generalizations": [
+        "urine",
+        "odor",
+        "watery",
+        "specific",
+        "gravity"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, delusions, masks, sees",
+        "Mind, delusions, sensory",
+        "Mind, delusions, visual"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "masks",
+        "sees",
+        "sensory"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, constipation",
+        "Rectum, constipation, ineffectual urging and straining",
+        "Rectum, urging",
+        "Rectum, urging, constant"
+      ],
+      "generalizations": [
+        "rectum",
+        "urging",
+        "constipation",
+        "ineffectual",
+        "straining"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, sore, lids",
+        "Eye, pain, sore",
+        "Eye, lid"
+      ],
+      "generalizations": [
+        "sore",
+        "lids"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "remedy_name": "Aluminium Silicicum",
+  "remedy_abbrev": "Alum-sil.",
+  "sentence": "Driven by mind, Aluminium Silicicum manifests a dynamic cycle through limb disturbance and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, excitement",
+        "Mind, talking, indisposed to, desire to be silent, taciturn",
+        "Mind, talking, indisposed to",
+        "Mind, talking",
+        "Mind, men",
+        "Mind, excitement, menses, before",
+        "Mind, excitement, menses",
+        "Mind, menses, before, agg."
+      ],
+      "generalizations": [
+        "mind",
+        "excitement",
+        "talking",
+        "menses",
+        "indisposed"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, cramps, hand",
+        "Extremities, cramps, hand, writing"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "hand",
+        "writing"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses",
+        "Genitalia female, menses, offensive",
+        "Genitalia female, menses, offensive, putrid"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "offensive",
+        "putrid"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation, nerves",
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation",
+        "nerves"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urination, involuntary, walking, while agg.",
+        "Bladder, urination, involuntary, walking",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "involuntary",
+        "walking",
+        "while"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, burning",
+        "Eye, pain, burning, canthi",
+        "Eye, pain, burning, canthi, inner",
+        "Eye, canthi"
+      ],
+      "generalizations": [
+        "burning",
+        "canthi",
+        "inner"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

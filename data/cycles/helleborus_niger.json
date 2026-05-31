@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Helleborus Niger",
+  "remedy_abbrev": "Hell.",
+  "sentence": "Driven by mind, Helleborus Niger manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, quiet, quiet disposition",
+        "Mind, quiet",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, indifference, apathy, etc.",
+        "Mind, memory, weakness of"
+      ],
+      "generalizations": [
+        "mind",
+        "quiet",
+        "dullness",
+        "sadness",
+        "disposition"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, heaviness, tired limbs",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, joints",
+        "Extremities, awkwardness",
+        "Extremities, awkwardness, hands",
+        "Extremities, pain, stitching, joints, chill, during"
+      ],
+      "generalizations": [
+        "extremities",
+        "stitching",
+        "heaviness",
+        "joints",
+        "awkwardness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, inflammation, of meninges",
+        "Head, inflammation",
+        "Head, meninges",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "inflammation",
+        "meninges",
+        "hyperemia"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, irritability",
+        "Generalities, cold, air agg.",
+        "Generalities, evening, agg.",
+        "Generalities, cold",
+        "Generalities, evening",
+        "Generalities, pain, stitching"
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "weakness",
+        "irritability",
+        "stitching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, colic",
+        "Abdomen, pinching",
+        "Abdomen, pain, pinching, navicular region",
+        "Abdomen, sensitive (to touch)",
+        "Abdomen, water within, as of",
+        "Abdomen, pain, pinching",
+        "Abdomen, water"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pinching",
+        "water",
+        "rumbling",
+        "colic"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, thirst",
+        "Stomach, thirst, extreme",
+        "Stomach, thirstless",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, sinking",
+        "Stomach, emptiness",
+        "Stomach, pain"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "emptiness",
+        "feeling",
+        "nausea"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "remedy_name": "Aconitum Ferox",
+  "remedy_abbrev": "Acon-f.",
+  "sentence": "Driven by constitutional vulnerability, Aconitum Ferox manifests a dynamic cycle through limb disturbance and respiration, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, weakness",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, food",
+        "Generalities, food, cold drinks, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "trembling",
+        "food",
+        "internally"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, tingling",
+        "Extremities, tingling, fingers",
+        "Extremities, tingling, fingers, tips",
+        "Extremities, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "tingling",
+        "fingers",
+        "tips"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, intermittent, unequal",
+        "Respiration, difficult, cardiac",
+        "Respiration, intermittent"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "intermittent",
+        "unequal",
+        "cardiac"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, heat, flushes",
+        "Stomach, heat, flushes, waking, on",
+        "Stomach, heat"
+      ],
+      "generalizations": [
+        "stomach",
+        "heat",
+        "flushes",
+        "waking"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, anxiety, in",
+        "Chest, anxiety"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

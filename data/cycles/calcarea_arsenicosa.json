@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Calcarea Arsenicosa",
+  "remedy_abbrev": "Calc-ar.",
+  "sentence": "Driven by limb expression, Calcarea Arsenicosa manifests a dynamic cycle through head and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, swelling, lower limbs",
+        "Extremities, swelling, lower limbs, dropsical"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "coldness",
+        "foot",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, air or wind, sensitive to draft",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, air or wind",
+        "Head, heaviness, occiput",
+        "Head, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "heaviness",
+        "wind",
+        "pressing",
+        "vertex"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, expression",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, eyes, circles around",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, dryness"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "bluish",
+        "pale",
+        "expression"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, oppression, heart",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, palpitation, tumultuous, violent, vehement",
+        "Heart & Circulation, orgasm of blood",
+        "Heart & Circulation, constriction, heart",
+        "Heart & Circulation, palpitation, excitement",
+        "Heart & Circulation, palpitation, excitement, after"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "excitement",
+        "oppression"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams, frightful",
+        "Sleep, restless",
+        "Sleep, dreams",
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, waking, frequent",
+        "Sleep, waking",
+        "Sleep, sleepiness, evening"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleepiness",
+        "waking",
+        "frightful"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, anxiety",
+        "Mind, anxiety, future, about",
+        "Mind, delirium, evening",
+        "Mind, delirium, dark, in",
+        "Mind, delirium, evening, dark, in the"
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "sadness",
+        "anxiety",
+        "dark"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

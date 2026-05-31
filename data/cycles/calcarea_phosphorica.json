@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Calcarea Phosphorica",
+  "remedy_abbrev": "Calc-p.",
+  "sentence": "Driven by limb expression, Calcarea Phosphorica manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, cramps, calf",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "cramps",
+        "joints",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, coldness, occiput",
+        "Head, coldness, vertex",
+        "Head, pain, mental exertion, from agg.",
+        "Head, pain, school girls",
+        "Head, coldness",
+        "Head, pain, mental exertion",
+        "Head, open fontanels"
+      ],
+      "generalizations": [
+        "head",
+        "coldness",
+        "mental",
+        "exertion",
+        "occiput"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, pain, cervical region, air, a draft of",
+        "Back, pain, cold weather, change to",
+        "Back, stiffness, cervical region, air, draft of",
+        "Back, pain, cervical region, air"
+      ],
+      "generalizations": [
+        "back",
+        "cervical",
+        "region",
+        "stiffness",
+        "draft"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, fear",
+        "Mind, speech",
+        "Mind, anxiety",
+        "Mind, discontented, displeased, dissatisfied, etc."
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "nervousness",
+        "sluggishness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, eating, after agg.",
+        "Generalities, morning",
+        "Generalities, eating",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, air, draft agg.",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "eating",
+        "cold",
+        "after",
+        "heat"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, menses, during",
+        "Abdomen, pain, menses",
+        "Abdomen, pain, menses, before",
+        "Abdomen, liver",
+        "Abdomen, sunken",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning"
+      ],
+      "generalizations": [
+        "abdomen",
+        "menses",
+        "during",
+        "before",
+        "liver"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

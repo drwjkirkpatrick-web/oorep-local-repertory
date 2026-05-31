@@ -1,0 +1,47 @@
+{
+  "remedy_name": "Ether",
+  "remedy_abbrev": "Ether",
+  "sentence": "Driven by mind, Ether manifests a dynamic cycle through clinical and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, fear",
+        "Mind, speech, incoherent",
+        "Mind, unconsciousness",
+        "Mind, delusions",
+        "Mind, speech",
+        "Mind, delirium, night",
+        "Mind, delirium, raging, raving"
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "speech",
+        "fear",
+        "incoherent"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, hypertension"
+      ],
+      "generalizations": [
+        "clinical",
+        "hypertension"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

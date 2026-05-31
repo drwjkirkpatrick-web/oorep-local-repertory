@@ -1,0 +1,127 @@
+{
+  "remedy_name": "Zincum Sulphuricum",
+  "remedy_abbrev": "Zinc-s.",
+  "sentence": "Driven by abdomen, Zincum Sulphuricum manifests a dynamic cycle through face and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, sides, stool, during",
+        "Abdomen, pain, stitching, sides",
+        "Abdomen, retraction",
+        "Abdomen, retraction, umbilicus",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, stool, diarrhea, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "stool",
+        "sides",
+        "during"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, heat",
+        "Face, wrinkled",
+        "Face, contraction",
+        "Face, heat, evening",
+        "Face, swelling",
+        "Face, shrivelled",
+        "Face, evening"
+      ],
+      "generalizations": [
+        "face",
+        "heat",
+        "wrinkled",
+        "contraction",
+        "swelling"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, motion",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, motion, upper limbs",
+        "Extremities, motion, upper limbs, convulsive",
+        "Extremities, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "motion",
+        "upper",
+        "limbs",
+        "cramps"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, eruptions",
+        "Back, eruptions, vesicles",
+        "Back, eruptions, vesicles, cervical region",
+        "Back, cervix"
+      ],
+      "generalizations": [
+        "back",
+        "eruptions",
+        "vesicles",
+        "cervical",
+        "region"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, palpitation, motion agg.",
+        "Heart & Circulation, palpitation, motion",
+        "Heart & Circulation, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "motion"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, burning"
+      ],
+      "generalizations": [
+        "head",
+        "headache",
+        "general",
+        "burning"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

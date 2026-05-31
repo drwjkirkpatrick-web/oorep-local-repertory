@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Curare",
+  "remedy_abbrev": "Cur.",
+  "sentence": "Driven by limb expression, Curare manifests a dynamic cycle through mind and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, swelling",
+        "Extremities, corns",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, heaviness, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "paralysis",
+        "swelling",
+        "corns"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, kleptomania",
+        "Mind, hydrophobia",
+        "Mind, starting, startled",
+        "Mind, starting",
+        "Mind, irresolution",
+        "Mind, restlessness, nervousness"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "starting",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, vagina",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, copious",
+        "Genitalia female, swollen",
+        "Genitalia female, swollen, vagina",
+        "Genitalia female, vagina",
+        "Genitalia female, pain"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "vagina",
+        "inflammation",
+        "leucorrhea"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lying",
+        "Back, pain, aching, dull pain",
+        "Back, pain, lumbar region",
+        "Back, pain, lying, while agg.",
+        "Back, pain, aching, dull pain, lying",
+        "Back, lumbar region",
+        "Back, pain, aching"
+      ],
+      "generalizations": [
+        "back",
+        "lying",
+        "aching",
+        "dull",
+        "lumbar"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, eating",
+        "Stomach, pain, eating, after",
+        "Stomach, nausea",
+        "Stomach, nausea, morning",
+        "Stomach, vomiting",
+        "Stomach, vomiting, green"
+      ],
+      "generalizations": [
+        "stomach",
+        "eating",
+        "after",
+        "nausea",
+        "vomiting"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, pressing",
+        "Chest, pain, sides",
+        "Chest, pain, sore, bruised",
+        "Chest, pain, sore, coughing, from",
+        "Chest, pain, sore",
+        "Chest, perspiration",
+        "Chest, perspiration, axilla"
+      ],
+      "generalizations": [
+        "chest",
+        "sore",
+        "perspiration",
+        "pressing",
+        "sides"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

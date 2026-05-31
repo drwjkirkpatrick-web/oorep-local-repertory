@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mercurius Sulphuricus",
+  "remedy_abbrev": "Merc-s.",
+  "sentence": "Driven by limb expression, Mercurius Sulphuricus manifests a dynamic cycle through mouth and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, swelling, dropsical",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, numbness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "coldness",
+        "numbness",
+        "dropsical"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, sore",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, pain, burning, raw and smarting",
+        "Mouth, pain, burning, tongue",
+        "Mouth, pain, sore, tongue",
+        "Mouth, swelling"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "sore",
+        "dryness",
+        "burning"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, dropsy",
+        "Chest, edema, pulmonary",
+        "Chest, edema",
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, pain, inhalation, during agg.",
+        "Chest, pain, pressing",
+        "Chest, pain, respiration"
+      ],
+      "generalizations": [
+        "chest",
+        "edema",
+        "dropsy",
+        "pulmonary",
+        "burning"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, night",
+        "Sleep, sleeplessness, night, midnight",
+        "Sleep, dreams, frightful",
+        "Sleep, dreams, vivid",
+        "Sleep, sleepiness, afternoon",
+        "Sleep, sleeplessness, night, midnight, after"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleeplessness",
+        "sleepiness",
+        "midnight",
+        "dreams"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, discoloration, black",
+        "Face, discoloration, black, lips",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, pain (aching, prosopalgia, etc.), burning, chilliness",
+        "Face, pain (aching, prosopalgia, etc.), burning, chilliness, after"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "aching",
+        "prosopalgia",
+        "burning"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, watery, Stool, watery",
+        "Stool, watery",
+        "Stool, yellow",
+        "Stool, hard",
+        "Stool, brown",
+        "Stool, scanty",
+        "Stool, soft",
+        "Stool, watery, yellow"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "yellow",
+        "hard",
+        "brown"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

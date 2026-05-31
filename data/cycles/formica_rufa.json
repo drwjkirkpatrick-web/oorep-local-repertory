@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Formica Rufa",
+  "remedy_abbrev": "Form.",
+  "sentence": "Driven by limb expression, Formica Rufa manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, rheumatic, perspiration, with",
+        "Extremities, paralysis",
+        "Extremities, stiffness",
+        "Extremities, lameness"
+      ],
+      "generalizations": [
+        "extremities",
+        "rheumatic",
+        "joints",
+        "perspiration",
+        "paralysis"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, pain, vertex",
+        "Head, hair",
+        "Head, pain, forehead",
+        "Head, bubbling sensation is"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "heat",
+        "temples",
+        "vertex"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, perspiration, gives no relief",
+        "Generalities, perspiration",
+        "Generalities, faintness, fainting",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, cold, tendency to take",
+        "Generalities, lassitude"
+      ],
+      "generalizations": [
+        "generalities",
+        "perspiration",
+        "faintness",
+        "weakness",
+        "gives"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, flatulence",
+        "Abdomen, pain, liver",
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, mesenterics",
+        "Abdomen, pain, liver, jarring agg.",
+        "Abdomen, liver",
+        "Abdomen, rumbling"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "enlarged",
+        "flatulence",
+        "mesenterics"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, arthritic (gouty and rheumatic)",
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, pain",
+        "Eye, pain, aching",
+        "Eye, pain, cold water amel.",
+        "Eye, spots specks, etc., on the cornea"
+      ],
+      "generalizations": [
+        "inflammation",
+        "heaviness",
+        "arthritic",
+        "gouty",
+        "rheumatic"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, ilium",
+        "Back, pain, lumbar region, ilium, attachment of muscles",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "dorsal",
+        "ilium"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "remedy_name": "Nuphar Luteum",
+  "remedy_abbrev": "Nuph.",
+  "sentence": "Driven by genitalia male, Nuphar Luteum manifests a dynamic cycle through rectum and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, seminal emissions (nightly)",
+        "Genitalia male, seminal emissions (nightly), erections, without",
+        "Genitalia male, seminal emissions (nightly), stool, during",
+        "Genitalia male, seminal emissions (nightly), stool",
+        "Genitalia male, itching",
+        "Genitalia male, itching, scrotum",
+        "Genitalia male, sexual passion, diminished",
+        "Genitalia male, retraction"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "seminal",
+        "emissions",
+        "nightly"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, night",
+        "Rectum, diarrhea, painless",
+        "Rectum, pain, burning, diarrhea",
+        "Rectum, diarrhea, night, 5 a.m. to 6 a.m.",
+        "Rectum, diarrhea, morning"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "burning",
+        "painless"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, hair",
+        "Head, motions",
+        "Head, pain, forehead",
+        "Head, motions, in head, walking, while",
+        "Head, pain, forehead, air, open, amel.",
+        "Head, pain, forehead, evening agg.",
+        "Head, pain, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "motions",
+        "hair",
+        "walking"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, weakness",
+        "Extremities, weakness, evening",
+        "Extremities, evening",
+        "Extremities, pain",
+        "Extremities, weakness, leg",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, thigh",
+        "Extremities, pain, stitching, thigh, posterior part"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "stitching",
+        "thigh",
+        "posterior"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, thin, liquid",
+        "Stool, thin",
+        "Stool, watery",
+        "Stool, soft",
+        "Stool, yellow",
+        "Stool, watery, yellow"
+      ],
+      "generalizations": [
+        "stool",
+        "thin",
+        "watery",
+        "yellow",
+        "liquid"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, rhus poisoning",
+        "Skin, eruptions, leprosy",
+        "Skin, eruptions, psoriasis"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "rhus",
+        "poisoning",
+        "leprosy"
+      ],
+      "next_segment": "Male genital state"
+    }
+  ]
+}

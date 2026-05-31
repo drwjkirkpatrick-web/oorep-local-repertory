@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Iodatum",
+  "remedy_abbrev": "Kali-i.",
+  "sentence": "Driven by limb expression, Kalium Iodatum manifests a dynamic cycle through head and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, lower limbs, sciatica, lying",
+        "Extremities, pain, rheumatic, syphilitic",
+        "Extremities, pain, lower limbs, sciatica, lying, on painful side agg.",
+        "Extremities, pain, lower limbs, sciatica, air, open, amel."
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "sciatica",
+        "rheumatic"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, pain, forehead",
+        "Head, pain, burning",
+        "Head, pain, burning, forehead",
+        "Head, pain, catarrhal",
+        "Head, pain, cutting, temples"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "burning",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, coryza",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, discharge, blood",
+        "Nose, discharge, copious",
+        "Nose, discharge, copious, with stuffing of head",
+        "Nose, discharge, yellow",
+        "Nose, obstruction"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "coryza",
+        "copious",
+        "epistaxis"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, tongue",
+        "Mouth, ulcers",
+        "Mouth, vesicles",
+        "Mouth, ulcers, tongue",
+        "Mouth, stomacace",
+        "Mouth, vesicles, burning",
+        "Mouth, pain, tongue, root"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "ulcers",
+        "vesicles",
+        "stomacace"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, sore, liver, in",
+        "Abdomen, liver",
+        "Abdomen, pain, sore, liver",
+        "Abdomen, distension",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, pressing"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sore",
+        "liver",
+        "distension",
+        "cutting"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, night",
+        "Generalities, air, open, amel.",
+        "Generalities, air, open, desire for",
+        "Generalities, walking, amel.",
+        "Generalities, walking, in open air, amel.",
+        "Generalities, warm, room agg.",
+        "Generalities, air"
+      ],
+      "generalizations": [
+        "generalities",
+        "open",
+        "amel",
+        "walking",
+        "desire"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

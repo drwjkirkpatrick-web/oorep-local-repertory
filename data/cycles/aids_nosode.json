@@ -1,0 +1,145 @@
+{
+  "remedy_name": "AIDS Nosode",
+  "remedy_abbrev": "AIDS",
+  "sentence": "Driven by mind, AIDS Nosode manifests a dynamic cycle through sleep and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, memory, weakness of",
+        "Mind, forgetful",
+        "Mind, company aversion to",
+        "Mind, slowness",
+        "Mind, memory",
+        "Mind, company",
+        "Mind, calmness",
+        "Mind, irritability"
+      ],
+      "generalizations": [
+        "mind",
+        "memory",
+        "company",
+        "weakness",
+        "forgetful"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, position, back, on",
+        "Sleep, position",
+        "Sleep, heavy",
+        "Sleep, restless",
+        "Sleep, unrefreshing",
+        "Sleep, position, back",
+        "Sleep, sleepiness",
+        "Sleep, sleeplessness"
+      ],
+      "generalizations": [
+        "sleep",
+        "position",
+        "back",
+        "heavy",
+        "restless"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heat",
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, lameness",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "heat",
+        "foot",
+        "stiffness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side",
+        "Generalities, side, left",
+        "Generalities, sleep, after, agg.",
+        "Generalities, waking, on agg.",
+        "Generalities, sleep, after",
+        "Generalities, sleep",
+        "Generalities, waking",
+        "Generalities, restlessness"
+      ],
+      "generalizations": [
+        "generalities",
+        "sleep",
+        "side",
+        "after",
+        "waking"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead, right side",
+        "Head, perspiration, forehead",
+        "Head, pain, extending",
+        "Head, pain, forehead",
+        "Head, pain, forehead, right",
+        "Head, perspiration"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "right",
+        "perspiration",
+        "heaviness"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, coryza",
+        "Nose, sneezing",
+        "Nose, itching",
+        "Nose, discharge, clear",
+        "Nose, discharge, thick",
+        "Nose, epistaxis, blood, bright",
+        "Nose, epistaxis, blood, clotted, coagulated"
+      ],
+      "generalizations": [
+        "nose",
+        "epistaxis",
+        "discharge",
+        "blood",
+        "coryza"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

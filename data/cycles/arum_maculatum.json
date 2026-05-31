@@ -1,0 +1,122 @@
+{
+  "remedy_name": "Arum Maculatum",
+  "remedy_abbrev": "Arum-m.",
+  "sentence": "Driven by mouth, Arum Maculatum manifests a dynamic cycle through face and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, stitching, tongue",
+        "Mouth, pain, stitching",
+        "Mouth, tongue",
+        "Mouth, pain, tongue",
+        "Mouth, salivation",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "stitching",
+        "swelling",
+        "salivation"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, red, sleep, during"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "sleep",
+        "during"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, emptiness",
+        "Abdomen, emptiness, eating",
+        "Abdomen, emptiness, breakfast, after",
+        "Abdomen, emptiness, eating, after",
+        "Abdomen, breakfast"
+      ],
+      "generalizations": [
+        "abdomen",
+        "emptiness",
+        "eating",
+        "breakfast",
+        "after"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, vomiting",
+        "Stomach, pain, cramping, griping, constricting",
+        "Stomach, pain, cramping"
+      ],
+      "generalizations": [
+        "stomach",
+        "cramping",
+        "vomiting",
+        "griping",
+        "constricting"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, odor",
+        "Urine, watery, clear as water",
+        "Urine, watery",
+        "Urine, odor, burnt horn"
+      ],
+      "generalizations": [
+        "urine",
+        "odor",
+        "watery",
+        "clear",
+        "water"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, sleepiness, eating, after",
+        "Sleep, sleepiness, eating"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleepiness",
+        "eating",
+        "after"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "remedy_name": "Myristica Sebifera",
+  "remedy_abbrev": "Myris.",
+  "sentence": "Driven by sleep, Myristica Sebifera manifests a dynamic cycle through vertigo and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness",
+        "Sleep, dreams",
+        "Sleep, dreams, business",
+        "Sleep, dreams, disconnected",
+        "Sleep, dreams, anger",
+        "Sleep, dreams, business, neglected"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "business",
+        "sleeplessness",
+        "disconnected"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, morning",
+        "Vertigo, morning, waking, on",
+        "Vertigo, left, swaying toward",
+        "Vertigo, left, swaying toward, morning, on waking",
+        "Vertigo, left"
+      ],
+      "generalizations": [
+        "vertigo",
+        "left",
+        "waking",
+        "swaying",
+        "toward"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, sides",
+        "Chest, pain, sides, night",
+        "Chest, night"
+      ],
+      "generalizations": [
+        "chest",
+        "sides"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aphis Chenopodii Glauci",
+  "remedy_abbrev": "Aphis.",
+  "sentence": "Driven by teeth, Aphis Chenopodii Glauci manifests a dynamic cycle through nose and larynx and trachea, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, pain, bed, in",
+        "Teeth, pain, bed",
+        "Teeth, pain, toothache in general",
+        "Teeth, pain, tearing",
+        "Teeth, pain, extending",
+        "Teeth, pain, drawing",
+        "Teeth, pain, perspiration, amel."
+      ],
+      "generalizations": [
+        "teeth",
+        "toothache",
+        "general",
+        "tearing",
+        "extending"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, coryza, chilliness, with",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, discharge, watery",
+        "Nose, sneezing",
+        "Nose, sneezing, violent",
+        "Nose, coryza, discharge",
+        "Nose, discharge"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "discharge",
+        "sneezing",
+        "chilliness"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, irritation, larynx",
+        "Larynx and trachea, irritation",
+        "Larynx and trachea, larynx in general",
+        "Larynx and trachea, voice",
+        "Larynx and trachea, voice, hoarseness",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, pain, burning",
+        "Larynx and trachea, pain, burning, larynx"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "irritation",
+        "voice",
+        "burning"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, froth, foam, from",
+        "Mouth, pain",
+        "Mouth, froth",
+        "Mouth, dryness",
+        "Mouth, salivation",
+        "Mouth, discoloration",
+        "Mouth, saliva",
+        "Mouth, discoloration, palate, red"
+      ],
+      "generalizations": [
+        "mouth",
+        "froth",
+        "discoloration",
+        "foam",
+        "dryness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, convulsion",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, coldness, leg",
+        "Extremities, pain, drawing"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "heaviness",
+        "foot",
+        "convulsion"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, left",
+        "Back, coldness",
+        "Back, coldness, extending",
+        "Back, coldness, extending, up and down the back",
+        "Back, foreign body, sensation of"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "coldness",
+        "left"
+      ],
+      "next_segment": "Dental state"
+    }
+  ]
+}

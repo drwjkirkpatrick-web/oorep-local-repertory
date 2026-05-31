@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cyclamen Europaeum",
+  "remedy_abbrev": "Cycl.",
+  "sentence": "Driven by limb expression, Cyclamen Europaeum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, heaviness",
+        "Extremities, heaviness, foot",
+        "Extremities, heaviness, foot, menses",
+        "Extremities, heaviness, foot, menses, during, amel.",
+        "Extremities, paralysis",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "foot",
+        "coldness",
+        "menses"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety, hypochondriacal",
+        "Mind, comprehension",
+        "Mind, comprehension, difficult",
+        "Mind, irritability",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness"
+      ],
+      "generalizations": [
+        "mind",
+        "comprehension",
+        "restlessness",
+        "sadness",
+        "anxiety"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, temples",
+        "Head, pain, morning",
+        "Head, pain, morning, rising, on agg.",
+        "Head, pain, morning, rising",
+        "Head, skull-cap, sensation of",
+        "Head, pain, blinding",
+        "Head, temples"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "rising",
+        "skull",
+        "blinding"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, night",
+        "Generalities, food",
+        "Generalities, evening, agg.",
+        "Generalities, food, fat agg.",
+        "Generalities, food, pork agg.",
+        "Generalities, motion, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "food",
+        "pressing",
+        "pork",
+        "motion"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, lower abdomen",
+        "Abdomen, rumbling",
+        "Abdomen, rumbling, eating, after",
+        "Abdomen, rumbling, eating",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "eating",
+        "lower",
+        "after"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, hiccough",
+        "Stomach, thirst",
+        "Stomach, nausea, throat, in",
+        "Stomach, thirst, evening",
+        "Stomach, nausea, throat",
+        "Stomach, indigestion (includes complaints after substances not otherwise described)",
+        "Stomach, indigestion (includes complaints after substances not otherwise described), pork, after"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "after",
+        "thirst",
+        "throat"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

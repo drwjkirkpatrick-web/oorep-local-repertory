@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Aralia Racemosa",
+  "remedy_abbrev": "Aral.",
+  "sentence": "Driven by cough, Aralia Racemosa manifests a dynamic cycle through head and respiration, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, sleep, wakens from",
+        "Cough, waking, on",
+        "Cough, lying",
+        "Cough, sleep",
+        "Cough, lying, night",
+        "Cough, sleep, after",
+        "Cough, lying, night, midnight",
+        "Cough, lying, night, midnight, before"
+      ],
+      "generalizations": [
+        "cough",
+        "lying",
+        "sleep",
+        "midnight",
+        "wakens"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, temples",
+        "Head, pain, walking in open air",
+        "Head, pain, walking",
+        "Head, pain, temples, pressure, amel.",
+        "Head, pain, walking in open air, amel.",
+        "Head, pain, temples, pressure"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "walking",
+        "open",
+        "pressure"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, arrested",
+        "Respiration, arrested, coughing",
+        "Respiration, whistling",
+        "Respiration, asthmatic",
+        "Respiration, difficult, cough, with",
+        "Respiration, wheezing",
+        "Respiration, asthmatic, evening"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "arrested",
+        "asthmatic",
+        "coughing"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, leucorrhea",
+        "Genitalia female, leucorrhea, offensive",
+        "Genitalia female, menses",
+        "Genitalia female, lochia, suppressed",
+        "Genitalia female, menses, suppressed",
+        "Genitalia female, lochia",
+        "Genitalia female, menses, suppressed, cold",
+        "Genitalia female, leucorrhea, acrid, excoriating"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "leucorrhea",
+        "menses",
+        "suppressed"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, night",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, constriction, externally",
+        "Generalities, constriction",
+        "Generalities, sleep",
+        "Generalities, sleep, at beginning of, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "constriction",
+        "sleep",
+        "externally"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, morning",
+        "Expectoration, frothy",
+        "Expectoration, mucous",
+        "Expectoration, taste, salty",
+        "Expectoration, taste",
+        "Expectoration, mucous, morning",
+        "Expectoration, difficult"
+      ],
+      "generalizations": [
+        "expectoration",
+        "mucous",
+        "taste",
+        "frothy",
+        "salty"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

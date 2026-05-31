@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sinapis Nigra",
+  "remedy_abbrev": "Sin-n.",
+  "sentence": "Driven by nose, Sinapis Nigra manifests a dynamic cycle through mouth and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, discoloration, redness",
+        "Nose, discoloration",
+        "Nose, coryza, annual (hay fever)",
+        "Nose, discoloration, redness, wings",
+        "Nose, wings",
+        "Nose, discharge, blood",
+        "Nose, obstruction"
+      ],
+      "generalizations": [
+        "nose",
+        "discoloration",
+        "coryza",
+        "redness",
+        "wings"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, ulcers",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, discoloration, tongue, yellow",
+        "Mouth, discoloration, tongue, yellow, base",
+        "Mouth, ulcers, tongue",
+        "Mouth, tongue",
+        "Mouth, pain"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "discoloration",
+        "ulcers",
+        "yellow"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, ulcers",
+        "Extremities, ulcers, lower limbs",
+        "Extremities, ulcers, leg",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, swelling, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "ulcers",
+        "swelling",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, perspiration, forehead",
+        "Head, pain, forehead",
+        "Head, perspiration",
+        "Head, pain, air, open, amel.",
+        "Head, pain, forehead, evening agg.",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "perspiration",
+        "eyes",
+        "above"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, afternoon, agg.",
+        "Generalities, evening, agg.",
+        "Generalities, afternoon",
+        "Generalities, evening",
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness"
+      ],
+      "generalizations": [
+        "generalities",
+        "afternoon",
+        "faintness",
+        "fainting",
+        "burning"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, evening",
+        "Cough, air, cold agg.",
+        "Cough, hacking",
+        "Cough, lying, amel.",
+        "Cough, short",
+        "Cough, air",
+        "Cough, air, cold",
+        "Cough, eating"
+      ],
+      "generalizations": [
+        "cough",
+        "cold",
+        "hacking",
+        "lying",
+        "amel"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

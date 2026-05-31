@@ -1,0 +1,141 @@
+{
+  "remedy_name": "Sulphur Iodatum",
+  "remedy_abbrev": "Sul-i.",
+  "sentence": "Driven by limb expression, Sulphur Iodatum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, eruption, upper limbs",
+        "Extremities, pain, burning",
+        "Extremities, pain, burning, foot",
+        "Extremities, pain, burning, foot, sole",
+        "Extremities, eruption, upper limbs, rash",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "burning",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, sore, bruised, sensitive to pressure",
+        "Head, pain, sore, bruised",
+        "Head, pain, sore",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, pain, vertex",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "sore",
+        "bruised",
+        "shooting",
+        "sensitive"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, fear",
+        "Mind, excitement",
+        "Mind, suspicious",
+        "Mind, frightened",
+        "Mind, starting",
+        "Mind, business"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "fear",
+        "excitement",
+        "suspicious"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, desires, pickles",
+        "Appetite, desires",
+        "Appetite, desires, sour, acids, etc.",
+        "Appetite, desires, lemonade",
+        "Appetite, desires, sour, acids",
+        "Appetite, desires, sour",
+        "Appetite, desires, alcoholic drinks, wine",
+        "Appetite, desires, alcoholic drinks"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "sour",
+        "acids",
+        "alcoholic"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, heat",
+        "Generalities, heat, sensation of",
+        "Generalities, syphilis",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, bones",
+        "Generalities, bones, ganglion, bursae"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "weakness",
+        "bones",
+        "syphilis"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, eczema",
+        "Skin, eruptions, urticaria",
+        "Skin, eruptions, discharging, moist",
+        "Skin, eruptions, discharging"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discharging",
+        "eczema",
+        "urticaria"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "remedy_name": "Natrium Nitricum",
+  "remedy_abbrev": "Nat-n.",
+  "sentence": "Driven by limb expression, Natrium Nitricum manifests a dynamic cycle through ear and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, coldness, foot, evening",
+        "Extremities, pain, burning",
+        "Extremities, pain, hand",
+        "Extremities, pain, sore, bruised"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "weakness",
+        "burning"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, heat",
+        "Ear, coldness",
+        "Ear, heat, evening",
+        "Ear, coldness, burning hot yet cold to touch",
+        "Ear, coldness, right",
+        "Ear, coldness, sensation of, in external ear",
+        "Ear, coldness, right, and burning of left",
+        "Ear, left"
+      ],
+      "generalizations": [
+        "coldness",
+        "heat",
+        "burning",
+        "right",
+        "left"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, stitching",
+        "Chest, pain, cough, during",
+        "Chest, pain, cutting (sudden sharp pain)",
+        "Chest, itching",
+        "Chest, pain, cutting (sudden sharp pain), coughing"
+      ],
+      "generalizations": [
+        "chest",
+        "cutting",
+        "sudden",
+        "sharp",
+        "stitching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, stitching",
+        "Abdomen, retraction"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pressing",
+        "stitching",
+        "retraction"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, weakness, evening agg.",
+        "Generalities, evening",
+        "Generalities, weakness, evening",
+        "Generalities, weakness, sleep, after",
+        "Generalities, weakness, sleep"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "sleep",
+        "enervation",
+        "after"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urination, frequent, perspiration, during",
+        "Bladder, urging to urinate (morbid desire), pressure in rectum, with",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "frequent",
+        "urging",
+        "urinate"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

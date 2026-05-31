@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Arundo Donax",
+  "remedy_abbrev": "Arund-d.",
+  "sentence": "Driven by limb expression, Arundo Donax manifests a dynamic cycle through nose and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heat",
+        "Extremities, heat, foot",
+        "Extremities, coldness",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "cramps",
+        "foot",
+        "coldness"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, itching",
+        "Nose, itching, inside",
+        "Nose, coryza, annual (hay fever)",
+        "Nose, dryness, inside",
+        "Nose, sneezing",
+        "Nose, dryness",
+        "Nose, pain"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "itching",
+        "inside",
+        "dryness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, formication",
+        "Back, formication, lumbar region",
+        "Back, formication, spine",
+        "Back, heat",
+        "Back, pain, aching, dull pain"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "formication",
+        "dorsal",
+        "scapulae"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, inflammation",
+        "Eye, inflammation, catarrhal from cold",
+        "Eye, pain, looking, when",
+        "Eye, pain, looking, when, steadily",
+        "Eye, pain, looking",
+        "Eye, heaviness",
+        "Eye, heaviness, lids"
+      ],
+      "generalizations": [
+        "looking",
+        "inflammation",
+        "when",
+        "heaviness",
+        "catarrhal"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, stomacace",
+        "Mouth, pain",
+        "Mouth, pain, burning, raw and smarting",
+        "Mouth, pain, sore",
+        "Mouth, salivation",
+        "Mouth, swelling",
+        "Mouth, discoloration",
+        "Mouth, discoloration, gums"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "stomacace",
+        "burning",
+        "smarting"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, pain",
+        "Chest, anxiety",
+        "Chest, formication",
+        "Chest, heat",
+        "Chest, pain, clavicle",
+        "Chest, pain, sides",
+        "Chest, pain, stitching"
+      ],
+      "generalizations": [
+        "chest",
+        "oppression",
+        "anxiety",
+        "formication",
+        "heat"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

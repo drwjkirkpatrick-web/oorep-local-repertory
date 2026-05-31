@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Magnesium Sulphuricum",
+  "remedy_abbrev": "Mag-s.",
+  "sentence": "Driven by head, Magnesium Sulphuricum manifests a dynamic cycle through limb disturbance and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, stitching",
+        "Head, heaviness, menses",
+        "Head, heaviness, menses, during",
+        "Head, heat"
+      ],
+      "generalizations": [
+        "head",
+        "heaviness",
+        "congestion",
+        "menses",
+        "hyperemia"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, formication",
+        "Extremities, formication, fingers",
+        "Extremities, pain, fingers",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, fingers",
+        "Extremities, eruption, forearm"
+      ],
+      "generalizations": [
+        "extremities",
+        "fingers",
+        "eruption",
+        "formication",
+        "tearing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, tension",
+        "Back, tension, cervical region",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, sacral region",
+        "Back, pain, lying",
+        "Back, formication"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "tension",
+        "dorsal",
+        "cervical"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, spleen",
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "stitching",
+        "rumbling",
+        "distension"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "anxiety",
+        "irritability"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness",
+        "Sleep, dreams, anxious",
+        "Sleep, dreams",
+        "Sleep, dreams, fire",
+        "Sleep, dreams, horses",
+        "Sleep, dreams, horses, kicking",
+        "Sleep, sleepiness",
+        "Sleep, disturbed"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "horses",
+        "sleeplessness",
+        "anxious"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

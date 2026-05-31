@@ -1,0 +1,57 @@
+{
+  "remedy_name": "Salix Nigra",
+  "remedy_abbrev": "Salx-n.",
+  "sentence": "Driven by heart & circulation, Salix Nigra manifests a dynamic cycle through chest and heart, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, anxiety, heart, region of",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, anxiety, heart",
+        "Heart & Circulation, anxiety"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "anxiety",
+        "region"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, anxiety"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety"
+      ],
+      "next_segment": "Heart state"
+    },
+    {
+      "name": "Heart state",
+      "description": "Characteristic heart symptoms.",
+      "symptoms": [
+        "heart symptoms characteristic of Salix Nigra"
+      ],
+      "generalizations": [
+        "heart",
+        "symptoms",
+        "characteristic",
+        "salix",
+        "nigra"
+      ],
+      "next_segment": "Cardiac rhythm"
+    }
+  ]
+}

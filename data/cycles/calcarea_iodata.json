@@ -1,0 +1,139 @@
+{
+  "remedy_name": "Calcarea Iodata",
+  "remedy_abbrev": "Calc-i.",
+  "sentence": "Driven by constitutional vulnerability, Calcarea Iodata manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, irritability",
+        "Generalities, night",
+        "Generalities, air, open, desire for",
+        "Generalities, air",
+        "Generalities, air, open",
+        "Generalities, irritability, lack of",
+        "Generalities, heat",
+        "Generalities, heat, sensation of"
+      ],
+      "generalizations": [
+        "generalities",
+        "irritability",
+        "open",
+        "heat",
+        "desire"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, boring",
+        "Extremities, pain, boring, knee",
+        "Extremities, pain, boring, knee, night",
+        "Extremities, knee",
+        "Extremities, night",
+        "Extremities, numbness",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "boring",
+        "knee",
+        "numbness",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, wind, from exposure to",
+        "Head, pain, wind, from exposure to, cold",
+        "Head, pain, wind, from exposure to, cold, riding in",
+        "Head, pain, wind",
+        "Head, pain, forehead",
+        "Head, pain, forehead, riding in a carriage agg.",
+        "Head, pain, temples"
+      ],
+      "generalizations": [
+        "head",
+        "wind",
+        "exposure",
+        "cold",
+        "riding"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, emaciation",
+        "Clinical, swelling, glands",
+        "Clinical, swelling",
+        "Clinical, abscess",
+        "Clinical, syphilis",
+        "Clinical, inflammation",
+        "Clinical, polypus"
+      ],
+      "generalizations": [
+        "clinical",
+        "swelling",
+        "emaciation",
+        "glands",
+        "abscess"
+      ],
+      "next_segment": "External throat state"
+    },
+    {
+      "name": "External throat state",
+      "description": "External throat symptoms, glands, cervical region.",
+      "symptoms": [
+        "External throat, induration of glands",
+        "External throat, induration of glands, like knotted cords",
+        "External throat, goiter",
+        "External throat, glands"
+      ],
+      "generalizations": [
+        "external",
+        "throat",
+        "glands",
+        "induration",
+        "like"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, lancinating",
+        "Abdomen, pain, lancinating, hypochondria",
+        "Abdomen, pain, lancinating, hypochondria, right",
+        "Abdomen, hypochondrium",
+        "Abdomen, hypochondrium, right",
+        "Abdomen, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "lancinating",
+        "hypochondria",
+        "right",
+        "hypochondrium"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

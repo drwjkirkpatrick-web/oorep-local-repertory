@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Viola Tricolor",
+  "remedy_abbrev": "Viol-t.",
+  "sentence": "Driven by constitutional vulnerability, Viola Tricolor manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, sitting, while, agg.",
+        "Generalities, sitting",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, side",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, pain, cutting"
+      ],
+      "generalizations": [
+        "generalities",
+        "sitting",
+        "lying",
+        "while",
+        "pressure"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, heaviness",
+        "Head, eruption, eczema",
+        "Head, eruption, moist",
+        "Head, eruption, scurfy",
+        "Head, eruption, impetigo",
+        "Head, eruption, excoriating"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "crusts",
+        "scabs",
+        "heaviness"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, anxiety",
+        "Mind, anxiety, fever, during",
+        "Mind, disobedience",
+        "Mind, impatience"
+      ],
+      "generalizations": [
+        "mind",
+        "indifference",
+        "anxiety",
+        "dullness",
+        "confusion"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, itching",
+        "Skin, itching, stinging",
+        "Skin, sticking",
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, formication",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, stinging"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "itching",
+        "stinging",
+        "sticking"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, thigh",
+        "Extremities, pain, drawing, thigh, walking, while agg.",
+        "Extremities, pain, drawing, thigh, walking",
+        "Extremities, thigh",
+        "Extremities, pain, leg",
+        "Extremities, contraction"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "thigh",
+        "walking",
+        "while"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, itching",
+        "Face, eruptions, crusty, scabby",
+        "Face, eruptions, eczema",
+        "Face, eruptions, pustules",
+        "Face, eruptions, pustules, chin",
+        "Face, eruptions, pustules, lips",
+        "Face, eruptions, pustules, lips, upper"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "pustules",
+        "lips",
+        "itching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

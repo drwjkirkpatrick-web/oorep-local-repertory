@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Guajacum Officinale",
+  "remedy_abbrev": "Guai.",
+  "sentence": "Driven by limb expression, Guajacum Officinale manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, contraction",
+        "Extremities, contraction, thigh",
+        "Extremities, contraction, thigh, hamstrings",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, tearing"
+      ],
+      "generalizations": [
+        "extremities",
+        "contraction",
+        "thigh",
+        "numbness",
+        "hamstrings"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, air, open agg.",
+        "Generalities, motion, agg.",
+        "Generalities, motion, aversion to",
+        "Generalities, pain, stitching, muscles",
+        "Generalities, pain, stitching, muscles, tearing in muscles",
+        "Generalities, swollen sensation",
+        "Generalities, touch, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "muscles",
+        "motion",
+        "stitching",
+        "open"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, perspiration",
+        "Head, perspiration scalp",
+        "Head, pain",
+        "Head, perspiration, forehead",
+        "Head, pain, drawing",
+        "Head, pain, drawing, forehead",
+        "Head, pain, pressing",
+        "Head, pain, pressing, temples"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "forehead",
+        "drawing",
+        "pressing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, drawing",
+        "Back, pain, drawing, dorsal region",
+        "Back, pain, drawing, dorsal region, scapulae",
+        "Back, pain, drawing, dorsal region, scapulae, between",
+        "Back, pain, contracting",
+        "Back, pain, contracting, dorsal region",
+        "Back, pain, contracting, dorsal region, scapulae, between"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "drawing",
+        "scapulae"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, expression",
+        "Face, expression, old looking",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, emaciation",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), lancinating"
+      ],
+      "generalizations": [
+        "face",
+        "expression",
+        "discoloration",
+        "aching",
+        "prosopalgia"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, sit, inclination to",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, memory, weakness of",
+        "Mind, speech",
+        "Mind, forgetful"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "restlessness",
+        "sluggishness",
+        "difficulty"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

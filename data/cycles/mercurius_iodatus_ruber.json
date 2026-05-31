@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mercurius Iodatus Ruber",
+  "remedy_abbrev": "Merc-i-r.",
+  "sentence": "Driven by limb expression, Mercurius Iodatus Ruber manifests a dynamic cycle through head and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, aching",
+        "Extremities, pain, tearing",
+        "Extremities, cracks skin, hands",
+        "Extremities, cracks skin",
+        "Extremities, pain, tearing, foot",
+        "Extremities, pain, aching, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "aching",
+        "tearing",
+        "cracks",
+        "skin"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, heat, vertex",
+        "Head, heat, vertex, 11 p.m.",
+        "Head, vertex",
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, coryza, with",
+        "Head, pain, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "heat",
+        "coryza",
+        "occiput"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, discoloration",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, swallowing, difficult",
+        "Throat, ulcers",
+        "Throat, membrane"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "membrane",
+        "redness",
+        "burning"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, catarrh",
+        "Nose, catarrh, post nasal",
+        "Nose, coryza",
+        "Nose, coryza, inflammation larynx, with",
+        "Nose, discharge, blood",
+        "Nose, dryness, inside",
+        "Nose, pain, rawness",
+        "Nose, pain, rawness, posterior nares"
+      ],
+      "generalizations": [
+        "nose",
+        "catarrh",
+        "coryza",
+        "rawness",
+        "post"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, swelling",
+        "Abdomen, bubo",
+        "Abdomen, swelling, inguinal region",
+        "Abdomen, swelling, inguinal region, glands, of",
+        "Abdomen, bubo, suppurating",
+        "Abdomen, inflammation, inguinal glands"
+      ],
+      "generalizations": [
+        "abdomen",
+        "swelling",
+        "inguinal",
+        "inflammation",
+        "bubo"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, salivation",
+        "Mouth, saliva",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, swelling",
+        "Mouth, ulcers",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "dryness",
+        "tongue",
+        "discoloration",
+        "salivation"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

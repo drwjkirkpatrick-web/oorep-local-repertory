@@ -1,0 +1,101 @@
+{
+  "remedy_name": "Acalypha Indica",
+  "remedy_abbrev": "Acal.",
+  "sentence": "Driven by expectoration, Acalypha Indica manifests a dynamic cycle through clinical and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, bloody, spitting of blood",
+        "Expectoration, bloody",
+        "Expectoration, bloody, bright-red",
+        "Expectoration, bloody, dark",
+        "Expectoration, bloody, morning",
+        "Expectoration, morning"
+      ],
+      "generalizations": [
+        "expectoration",
+        "bloody",
+        "spitting",
+        "blood",
+        "bright"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, hemoptysis",
+        "Clinical, hemorrhage"
+      ],
+      "generalizations": [
+        "clinical",
+        "hemoptysis",
+        "hemorrhage"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, hemorrhage",
+        "Chest, hemorrhage, coagulated"
+      ],
+      "generalizations": [
+        "chest",
+        "hemorrhage",
+        "coagulated"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)"
+      ],
+      "generalizations": [
+        "appetite",
+        "increased",
+        "hunger",
+        "general"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry"
+      ],
+      "generalizations": [
+        "cough"
+      ],
+      "next_segment": "Expectoration state"
+    }
+  ]
+}

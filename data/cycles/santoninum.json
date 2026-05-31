@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Santoninum",
+  "remedy_abbrev": "Sant.",
+  "sentence": "Driven by vision, Santoninum manifests a dynamic cycle through limb disturbance and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, colors",
+        "Vision, colors, green",
+        "Vision, flickering",
+        "Vision, colors, yellow",
+        "Vision, light",
+        "Vision, dancing",
+        "Vision, colors, blindness, color",
+        "Vision, flames"
+      ],
+      "generalizations": [
+        "vision",
+        "colors",
+        "green",
+        "flickering",
+        "yellow"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, convulsion",
+        "Extremities, pain",
+        "Extremities, twitching",
+        "Extremities, twitching, upper limbs",
+        "Extremities, twitching, foot",
+        "Extremities, twitching, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "twitching",
+        "motion",
+        "convulsive",
+        "convulsion"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, color",
+        "Urine, color, greenish",
+        "Urine, color, greenish, dark",
+        "Urine, cloudy",
+        "Urine, sediment",
+        "Urine, sediment, sand",
+        "Urine, color, yellow",
+        "Urine, color, yellow, lemon"
+      ],
+      "generalizations": [
+        "urine",
+        "color",
+        "greenish",
+        "sediment",
+        "yellow"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, delusions, animals, of",
+        "Mind, delusions",
+        "Mind, delusions, animals",
+        "Mind, delirium, sleep, during",
+        "Mind, delirium, sleep",
+        "Mind, delusions, figures, sees",
+        "Mind, delusions, sensory"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "delirium",
+        "animals",
+        "sleep"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, eyes, over",
+        "Head, water, sensation as of",
+        "Head, water, sensation as of, warm water, in",
+        "Head, heat, afternoon"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "water",
+        "heat",
+        "forehead"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, brilliant",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, protrusion",
+        "Eye, distorted",
+        "Eye, movement, eyeballs, constant",
+        "Eye, movement, eyeballs, constant, rolling",
+        "Eye, pain, pressing, pressure, etc."
+      ],
+      "generalizations": [
+        "movement",
+        "eyeballs",
+        "constant",
+        "brilliant",
+        "redness"
+      ],
+      "next_segment": "Visual function"
+    }
+  ]
+}

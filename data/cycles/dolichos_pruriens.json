@@ -1,0 +1,137 @@
+{
+  "remedy_name": "Dolichos Pruriens",
+  "remedy_abbrev": "Dol.",
+  "sentence": "Driven by skin, Dolichos Pruriens manifests a dynamic cycle through mouth and cough, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, burning",
+        "Skin, itching",
+        "Skin, itching, scratching",
+        "Skin, itching, warm, on becoming",
+        "Skin, itching, warm",
+        "Skin, itching, scratching agg.",
+        "Skin, itching, night",
+        "Skin, itching, eruption, without"
+      ],
+      "generalizations": [
+        "skin",
+        "itching",
+        "scratching",
+        "warm",
+        "burning"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, sore",
+        "Mouth, swelling",
+        "Mouth, discoloration",
+        "Mouth, discoloration, gums",
+        "Mouth, pain, gums",
+        "Mouth, pain, sore, gums",
+        "Mouth, swelling, gums"
+      ],
+      "generalizations": [
+        "mouth",
+        "gums",
+        "sore",
+        "swelling",
+        "discoloration"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, evening",
+        "Cough, asthmatic",
+        "Cough, constant",
+        "Cough, evening, bed, in",
+        "Cough, lying, agg.",
+        "Cough, night",
+        "Cough, ringing (clear)",
+        "Cough, lying"
+      ],
+      "generalizations": [
+        "cough",
+        "lying",
+        "asthmatic",
+        "constant",
+        "ringing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, leg",
+        "Extremities, eruption, leg, dry",
+        "Extremities, pain",
+        "Extremities, eruption, upper limbs",
+        "Extremities, pain, aching",
+        "Extremities, eruption, upper limbs, herpes",
+        "Extremities, pain, aching, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "upper",
+        "limbs",
+        "aching"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, cervical region",
+        "Back, pain, dorsal region, scapulae, left",
+        "Back, pain, dorsal region, scapulae, left, under",
+        "Back, dorsal region, back, left, right",
+        "Back, scapula"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "left"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, pain, splinter, as from a",
+        "Throat, pain, splinter"
+      ],
+      "generalizations": [
+        "throat",
+        "splinter"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    }
+  ]
+}

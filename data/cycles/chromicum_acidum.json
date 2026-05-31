@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chromicum Acidum",
+  "remedy_abbrev": "Chr-ac.",
+  "sentence": "Driven by back, Chromicum Acidum manifests a dynamic cycle through face and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, burning",
+        "Back, pain, lumbar region",
+        "Back, pain, dorsal region, scapulae, left",
+        "Back, pain, dorsal region, scapulae, left, inner angle of left"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "left"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, heat",
+        "Face, heat, evening",
+        "Face, heat, evening, 10 p.m.",
+        "Face, evening",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, red, cough, during",
+        "Face, dryness"
+      ],
+      "generalizations": [
+        "face",
+        "heat",
+        "discoloration",
+        "cough",
+        "during"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, numbness, upper limbs",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, foot",
+        "Extremities, pain, sore, bruised, foot, sole"
+      ],
+      "generalizations": [
+        "extremities",
+        "foot",
+        "sore",
+        "bruised",
+        "coldness"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, pain, extending",
+        "Teeth, pain, extending, ear",
+        "Teeth, pain, right",
+        "Teeth, elongation, sensation of",
+        "Teeth, pain, evening",
+        "Teeth, pain, evening, in bed agg.",
+        "Teeth, pain, extending, forehead"
+      ],
+      "generalizations": [
+        "teeth",
+        "extending",
+        "right",
+        "elongation",
+        "forehead"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, odor (breath)",
+        "Mouth, taste",
+        "Mouth, prickling",
+        "Mouth, prickling, tongue",
+        "Mouth, odor (breath), putrid",
+        "Mouth, taste, metallic",
+        "Mouth, scorbutic gums",
+        "Mouth, ranula"
+      ],
+      "generalizations": [
+        "mouth",
+        "odor",
+        "breath",
+        "taste",
+        "prickling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, fullness",
+        "Head, fullness, forehead",
+        "Head, pain, sides",
+        "Head, fullness, vertex",
+        "Head, pain, sides, morning",
+        "Head, fullness, morning",
+        "Head, fullness, vertigo, during"
+      ],
+      "generalizations": [
+        "head",
+        "fullness",
+        "sides",
+        "forehead",
+        "vertex"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

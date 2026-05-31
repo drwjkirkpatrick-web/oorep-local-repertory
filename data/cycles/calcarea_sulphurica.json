@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Calcarea Sulphurica",
+  "remedy_abbrev": "Calc-s.",
+  "sentence": "Driven by limb expression, Calcarea Sulphurica manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, corns",
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, perspiration",
+        "Extremities, perspiration, foot",
+        "Extremities, ulcers",
+        "Extremities, ulcers, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "perspiration",
+        "ulcers",
+        "stiffness",
+        "corns"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, weeping",
+        "Mind, anxiety",
+        "Mind, anxiety, evening agg."
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "anxiety",
+        "irritability"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, itching of scalp",
+        "Head, pain, catarrhal",
+        "Head, heat",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, eruption"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "headache",
+        "general",
+        "itching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, night",
+        "Generalities, food",
+        "Generalities, heat",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, motion, aversion to",
+        "Generalities, perspiration, suppression of",
+        "Generalities, walking, agg.",
+        "Generalities, warm, room agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "food",
+        "heat",
+        "exertion",
+        "physical"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, discharge, blood",
+        "Nose, discharge, thick",
+        "Nose, discharge, yellow",
+        "Nose, discharge",
+        "Nose, smell",
+        "Nose, discharge, purulent",
+        "Nose, smell, diminished"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "smell",
+        "epistaxis",
+        "blood"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, thirst",
+        "Stomach, thirst, extreme",
+        "Stomach, indigestion (includes complaints after substances not otherwise described)",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour"
+      ],
+      "generalizations": [
+        "stomach",
+        "thirst",
+        "eructations",
+        "extreme",
+        "indigestion"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

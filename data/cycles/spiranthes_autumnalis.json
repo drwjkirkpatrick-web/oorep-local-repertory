@@ -1,0 +1,124 @@
+{
+  "remedy_name": "Spiranthes Autumnalis",
+  "remedy_abbrev": "Spira.",
+  "sentence": "Driven by cough, Spiranthes Autumnalis manifests a dynamic cycle through head and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, loose",
+        "Cough, tickling",
+        "Cough, dry, evening",
+        "Cough, hacking",
+        "Cough, hacking, tickling in larynx, from",
+        "Cough, tickling, larynx, in, from"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "hacking",
+        "larynx",
+        "loose"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, hair",
+        "Head, pain, nail, as from a",
+        "Head, pain, night",
+        "Head, hair, painful when touched",
+        "Head, pain, nail, as from a, temples",
+        "Head, pain, night, amel.",
+        "Head, pain, nail, as from a, temples, right"
+      ],
+      "generalizations": [
+        "head",
+        "nail",
+        "hair",
+        "temples",
+        "painful"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, dryness",
+        "Genitalia female, dryness, vagina",
+        "Genitalia female, pain, burning",
+        "Genitalia female, pain, burning, vagina",
+        "Genitalia female, pain, burning, vagina, coition, during",
+        "Genitalia female, pain, burning, vagina, coition",
+        "Genitalia female, vagina"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "vagina",
+        "burning",
+        "dryness"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, tickling, larynx, in",
+        "Larynx and trachea, tickling, larynx",
+        "Larynx and trachea, larynx in general"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "tickling",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, weakness",
+        "Extremities, weakness, urination, after, amel."
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "urination",
+        "after",
+        "amel"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, noon"
+      ],
+      "generalizations": [
+        "chill",
+        "noon"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

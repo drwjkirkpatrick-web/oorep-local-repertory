@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Gambogia",
+  "remedy_abbrev": "Gamb.",
+  "sentence": "Driven by abdomen, Gambogia manifests a dynamic cycle through rectum and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, diarrhea",
+        "Abdomen, pain, diarrhea, during (colic)",
+        "Abdomen, pain, stool, after, amel.",
+        "Abdomen, distension",
+        "Abdomen, pain, burning"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stool",
+        "diarrhea",
+        "rumbling",
+        "during"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, hot weather",
+        "Rectum, pain, tenesmus",
+        "Rectum, pain, tenesmus, stool, after, amel.",
+        "Rectum, urging, rising, after, amel.",
+        "Rectum, pain, tenesmus, stool"
+      ],
+      "generalizations": [
+        "rectum",
+        "tenesmus",
+        "diarrhea",
+        "stool",
+        "after"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, pain",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, shoulder",
+        "Extremities, shoulder",
+        "Extremities, convulsion",
+        "Extremities, cramps",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "shoulder",
+        "coldness",
+        "convulsion"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, diarrhea, during",
+        "Stomach, vomiting, diarrhea",
+        "Stomach, pain",
+        "Stomach, pain, gnawing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, loathing of food"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "diarrhea",
+        "sore",
+        "during"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, cutting, internally",
+        "Generalities, pain, cutting",
+        "Generalities, stool, after, amel.",
+        "Generalities, stool, agg.",
+        "Generalities, stool",
+        "Generalities, pain, burning, internally",
+        "Generalities, faintness"
+      ],
+      "generalizations": [
+        "generalities",
+        "stool",
+        "cutting",
+        "internally",
+        "after"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, copious",
+        "Stool, odor, offensive",
+        "Stool, thin, liquid",
+        "Stool, watery, Stool, watery",
+        "Stool, odor",
+        "Stool, watery",
+        "Stool, green",
+        "Stool, mucous, green"
+      ],
+      "generalizations": [
+        "stool",
+        "watery",
+        "odor",
+        "green",
+        "copious"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

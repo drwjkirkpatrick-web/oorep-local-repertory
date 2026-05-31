@@ -1,0 +1,125 @@
+{
+  "remedy_name": "Bartfelder Aqua",
+  "remedy_abbrev": "Bart.",
+  "sentence": "Driven by limb expression, Bartfelder Aqua manifests a dynamic cycle through sleep and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, contraction",
+        "Extremities, contraction, leg",
+        "Extremities, eruption",
+        "Extremities, contraction, leg, calf",
+        "Extremities, eruption, nates",
+        "Extremities, eruption, nates, boils",
+        "Extremities, contraction, leg, calf, spasmodic",
+        "Extremities, calf (calves)"
+      ],
+      "generalizations": [
+        "extremities",
+        "contraction",
+        "eruption",
+        "calf",
+        "nates"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, dreams, anxious",
+        "Sleep, dreams",
+        "Sleep, sleepiness, morning",
+        "Sleep, sleepiness, forenoon",
+        "Sleep, dreams, funerals",
+        "Sleep, morning",
+        "Sleep, forenoon"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleepiness",
+        "dreams",
+        "forenoon",
+        "anxious"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lameness",
+        "Back, pain, lameness, lumbar region",
+        "Back, pain, lameness, lumbar region, evening",
+        "Back, lumbar region",
+        "Back, evening"
+      ],
+      "generalizations": [
+        "back",
+        "lameness",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, twinging",
+        "Urethra, pain, twinging, meatus",
+        "Urethra, pain, twinging, meatus, during a bath",
+        "Urethra, meatus"
+      ],
+      "generalizations": [
+        "urethra",
+        "twinging",
+        "meatus",
+        "during",
+        "bath"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, palpitation, coffee, after",
+        "Heart & Circulation, heart"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "coffee",
+        "after"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, coition, after"
+      ],
+      "generalizations": [
+        "coition",
+        "after"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

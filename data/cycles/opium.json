@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Opium",
+  "remedy_abbrev": "Op.",
+  "sentence": "Driven by mind, Opium manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, delusions, animals, of",
+        "Mind, delusions, visions",
+        "Mind, dream, as if in a",
+        "Mind, indifference, apathy, etc."
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "delusions",
+        "sluggishness",
+        "difficulty"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, convulsion",
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, numbness",
+        "Extremities, heat",
+        "Extremities, heat, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "motion",
+        "heat",
+        "coldness",
+        "paralysis"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, perspiration, forehead",
+        "Head, perspiration, forehead, cold",
+        "Head, perspiration",
+        "Head, cerebral hemorrhage",
+        "Head, heat, chill, during",
+        "Head, heat, chill",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "perspiration",
+        "forehead",
+        "chill"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, numbness, externally",
+        "Generalities, trembling, externally",
+        "Generalities, irritability",
+        "Generalities, numbness",
+        "Generalities, trembling"
+      ],
+      "generalizations": [
+        "generalities",
+        "numbness",
+        "externally",
+        "trembling",
+        "faintness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, flatulence",
+        "Abdomen, hernia, inguinal"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inflammation",
+        "aching",
+        "dull",
+        "cramping"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, thirst",
+        "Stomach, vomiting, bile",
+        "Stomach, vomiting, fecal",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, pain, pressing"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "thirst",
+        "bile",
+        "fecal"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Verbascum Thapsus",
+  "remedy_abbrev": "Verb.",
+  "sentence": "Driven by head, Verbascum Thapsus manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pinching",
+        "Head, pain, sides, one side",
+        "Head, pain, temples",
+        "Head, pain, sides",
+        "Head, pain, sore, bruised",
+        "Head, pain, sore, bruised, temples",
+        "Head, pain, pinching, temples"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "pinching",
+        "sides",
+        "sore"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, pain, pressing",
+        "Generalities, change of, temperature agg.",
+        "Generalities, pain, benumbing",
+        "Generalities, pain, pinching",
+        "Generalities, pain, pinching, externally",
+        "Generalities, pain, pinching, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "pinching",
+        "side",
+        "pressing",
+        "change"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, cramps, foot",
+        "Extremities, cramps, foot, sole",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, thigh",
+        "Extremities, pain, pressing"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "foot",
+        "drawing",
+        "knee"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, navicular region",
+        "Abdomen, stooping, agg.",
+        "Abdomen, stooping",
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, pressing, umbilicus, region of",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, umbilicus"
+      ],
+      "generalizations": [
+        "abdomen",
+        "region",
+        "stooping",
+        "pressing",
+        "umbilicus"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), cheek",
+        "Face, pain (aching, prosopalgia, etc.), left",
+        "Face, pain (aching, prosopalgia, etc.), pressing",
+        "Face, pain (aching, prosopalgia, etc.), pressing, cheek bones",
+        "Face, pain (aching, prosopalgia, etc.), pressing, left",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "pressing",
+        "cheek"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, imbecility",
+        "Mind, delusions, imaginations, hallucinations",
+        "Mind, delusions, imaginations",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "imaginations",
+        "restlessness",
+        "irritability"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

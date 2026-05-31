@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sambucus Nigra",
+  "remedy_abbrev": "Samb.",
+  "sentence": "Driven by constitutional vulnerability, Sambucus Nigra manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, uncovering, agg.",
+        "Generalities, lying, after, agg.",
+        "Generalities, motion, amel.",
+        "Generalities, rising, amel.",
+        "Generalities, walking, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "amel",
+        "weakness",
+        "uncovering"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, swelling, leg",
+        "Extremities, swelling, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "coldness",
+        "foot",
+        "hands"
+      ],
+      "next_segment": "Mental anger"
+    },
+    {
+      "name": "Mental anger",
+      "description": "The remedy's dominant mental pattern: anger. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium, fever, during",
+        "Mind, fever, during, agg.",
+        "Mind, perspiration, during, agg.",
+        "Mind, fever",
+        "Mind, perspiration",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "fever",
+        "during",
+        "perspiration",
+        "restlessness"
+      ],
+      "next_segment": "Perspiration state"
+    },
+    {
+      "name": "Perspiration state",
+      "description": "Sweat character, time, odor, staining.",
+      "symptoms": [
+        "Perspiration, in general",
+        "Perspiration, night",
+        "Perspiration, profuse",
+        "Perspiration, morning",
+        "Perspiration, morning, waking, after",
+        "Perspiration, coughing, from",
+        "Perspiration, profuse, debilitating",
+        "Perspiration, uncovering, aversion to"
+      ],
+      "generalizations": [
+        "perspiration",
+        "profuse",
+        "general",
+        "waking",
+        "after"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, arrested",
+        "Respiration, asthmatic",
+        "Respiration, asthmatic, children",
+        "Respiration, difficult, inhalation",
+        "Respiration, difficult, night, during",
+        "Respiration, difficult, night, midnight",
+        "Respiration, loud"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "asthmatic",
+        "arrested",
+        "children"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, agg.",
+        "Back, dorsal region, right",
+        "Back, rest, during, agg.",
+        "Back, rest, during",
+        "Back, rest"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "rest",
+        "right"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

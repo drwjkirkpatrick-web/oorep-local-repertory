@@ -1,0 +1,129 @@
+{
+  "remedy_name": "Uva Ursi",
+  "remedy_abbrev": "Uva",
+  "sentence": "Driven by bladder, Uva Ursi manifests a dynamic cycle through urethra and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, catarrh muco-pus",
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), frequent",
+        "Bladder, urging to urinate (morbid desire), painful",
+        "Bladder, urination, dysuria",
+        "Bladder, pain"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "urging",
+        "urinate",
+        "morbid"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg.",
+        "Urethra, pain, burning, urination",
+        "Urethra, clogged by pieces of coagulated mucus",
+        "Urethra, mucus, clogged up with coagulated"
+      ],
+      "generalizations": [
+        "urethra",
+        "burning",
+        "urination",
+        "during",
+        "clogged"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, burning (includes hot)",
+        "Urine, sediment",
+        "Urine, sediment, purulent",
+        "Urine, sediment, mucous",
+        "Urine, cloudy",
+        "Urine, bloody",
+        "Urine, sediment, bloody",
+        "Urine, muddy"
+      ],
+      "generalizations": [
+        "urine",
+        "sediment",
+        "bloody",
+        "burning",
+        "includes"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, pain, tearing, internally",
+        "Generalities, pain, tearing"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "internally",
+        "tearing"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, pain, rawness",
+        "Nose, pain",
+        "Nose, pain, rawness, coryza, during"
+      ],
+      "generalizations": [
+        "nose",
+        "rawness",
+        "coryza",
+        "during"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, tickling, larynx, in",
+        "Larynx and trachea, tickling, larynx",
+        "Larynx and trachea, larynx in general"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "tickling",
+        "general"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

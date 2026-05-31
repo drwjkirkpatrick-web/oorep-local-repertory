@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Antimonium Crudum",
+  "remedy_abbrev": "Ant-c.",
+  "sentence": "Driven by limb expression, Antimonium Crudum manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, corns",
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, eruption, vesicles",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "eruption",
+        "drawing",
+        "foot"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, food",
+        "Generalities, heat",
+        "Generalities, evening, agg.",
+        "Generalities, heated, becoming",
+        "Generalities, bathing",
+        "Generalities, evening",
+        "Generalities, wet"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "food",
+        "heat",
+        "heated"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, ecstasy",
+        "Mind, obstinate",
+        "Mind, sentimental",
+        "Mind, touched, aversion to being",
+        "Mind, loathing",
+        "Mind, touched",
+        "Mind, loathing, life"
+      ],
+      "generalizations": [
+        "mind",
+        "touched",
+        "loathing",
+        "irritability",
+        "ecstasy"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, excrescences",
+        "Skin, warts",
+        "Skin, eruptions, chicken-pox",
+        "Skin, eruptions, pimples",
+        "Skin, eruptions, urticaria",
+        "Skin, swelling",
+        "Skin, swelling, dropsical"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "swelling",
+        "excrescences",
+        "warts"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, gastric",
+        "Head, pain, heated, from becoming",
+        "Head, pain, sun, from exposure to agg.",
+        "Head, pain, heat",
+        "Head, pain, sun",
+        "Head, pain, walking in open air",
+        "Head, pain, walking"
+      ],
+      "generalizations": [
+        "head",
+        "walking",
+        "gastric",
+        "heated",
+        "becoming"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, loathing of food",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, vomiting, sour",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, nausea, headache, during"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "nausea",
+        "vomiting",
+        "feeling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

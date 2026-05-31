@@ -1,0 +1,139 @@
+{
+  "remedy_name": "Anthemis Nobilis",
+  "remedy_abbrev": "Anth.",
+  "sentence": "Driven by cough, Anthemis Nobilis manifests a dynamic cycle through bladder and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, tickling",
+        "Cough, paroxysmal",
+        "Cough, tickling, larynx, in, from",
+        "Cough, warm, room",
+        "Cough, warm, room, entering, from open air",
+        "Cough, air",
+        "Cough, air, open"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "warm",
+        "room",
+        "open"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, pain",
+        "Bladder, pain, neck",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), night",
+        "Bladder, urging to urinate (morbid desire), painful",
+        "Bladder, pain, extending"
+      ],
+      "generalizations": [
+        "bladder",
+        "urging",
+        "urinate",
+        "morbid",
+        "desire"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, fear, approaching him",
+        "Mind, work",
+        "Mind, thoughts, wandering",
+        "Mind, thoughts",
+        "Mind, work, mental, desire for mental",
+        "Mind, work, mental",
+        "Mind, going out, aversion to"
+      ],
+      "generalizations": [
+        "mind",
+        "work",
+        "mental",
+        "fear",
+        "thoughts"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, heat, flushes",
+        "Stomach, heat",
+        "Stomach, nausea",
+        "Stomach, nausea, air",
+        "Stomach, nausea, air, in open, amel."
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "heat",
+        "flushes",
+        "open"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, coldness, dressing, when",
+        "Back, cold",
+        "Back, lumbar region",
+        "Back, pain, aching"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "coldness",
+        "dull",
+        "lumbar"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, gangrene",
+        "Throat, swallowing, difficult",
+        "Throat, swallowing",
+        "Throat, swallowing, difficult, liquids",
+        "Throat, swallow"
+      ],
+      "generalizations": [
+        "throat",
+        "swallowing",
+        "difficult",
+        "gangrene",
+        "liquids"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

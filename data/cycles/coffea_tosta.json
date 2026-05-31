@@ -1,0 +1,82 @@
+{
+  "remedy_name": "Coffea Tosta",
+  "remedy_abbrev": "Coff-t.",
+  "sentence": "Driven by mind, Coffea Tosta manifests a dynamic cycle through rectum and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, speech",
+        "Mind, speech, answers",
+        "Mind, kill",
+        "Mind, killed, desires to be",
+        "Mind, speech, answers, incoherently",
+        "Mind, speech, answers, unintelligibly"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "answers",
+        "restlessness",
+        "nervousness"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, tenesmus",
+        "Rectum, pain, tenesmus, stool, during",
+        "Rectum, pain, tenesmus, stool"
+      ],
+      "generalizations": [
+        "rectum",
+        "tenesmus",
+        "stool",
+        "during"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, shivering",
+        "Back, shivering, lumbar region",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "shivering",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Visual function"
+    },
+    {
+      "name": "Visual function",
+      "description": "Vision changes, blindness, diplopia, colors.",
+      "symptoms": [
+        "Vision, foggy",
+        "Vision, myopia"
+      ],
+      "generalizations": [
+        "vision",
+        "foggy",
+        "myopia"
+      ],
+      "next_segment": "Mental mental disturbance"
+    }
+  ]
+}

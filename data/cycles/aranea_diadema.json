@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aranea Diadema",
+  "remedy_abbrev": "Aran.",
+  "sentence": "Driven by limb expression, Aranea Diadema manifests a dynamic cycle through chill and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, numbness, leg",
+        "Extremities, heaviness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "heaviness",
+        "numbness",
+        "foot"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, coldness in general",
+        "Chill, quotidian",
+        "Chill, warmth, desire for, which does not relieve",
+        "Chill, periodicity",
+        "Chill, shaking",
+        "Chill, warm",
+        "Chill, warmth",
+        "Chill, periodicity, regular and distinct"
+      ],
+      "generalizations": [
+        "chill",
+        "warmth",
+        "periodicity",
+        "coldness",
+        "general"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, heat",
+        "Generalities, lassitude",
+        "Generalities, lie down, inclination to",
+        "Generalities, heat, vital, lack of",
+        "Generalities, lie down",
+        "Generalities, heat, vital",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "down",
+        "vital",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, tobacco, smoking",
+        "Head, pain, air, open, amel.",
+        "Head, pain, chill, during",
+        "Head, pain, talking, while agg.",
+        "Head, pain, air",
+        "Head, pain, chill",
+        "Head, pain, talking"
+      ],
+      "generalizations": [
+        "head",
+        "chill",
+        "talking",
+        "tobacco",
+        "smoking"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, pain, stool",
+        "Abdomen, swelling",
+        "Abdomen, pain, stool, during",
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, spleen",
+        "Abdomen, swelling, spleen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "stool",
+        "swelling",
+        "enlarged"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, eyes, circles around",
+        "Face, swelling",
+        "Face, swelling, sensation of",
+        "Face, discoloration, pale, lips",
+        "Face, lip"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "pale",
+        "bluish",
+        "swelling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

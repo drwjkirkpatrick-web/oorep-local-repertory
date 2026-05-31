@@ -1,0 +1,142 @@
+{
+  "remedy_name": "Mygale Lasiodora",
+  "remedy_abbrev": "Mygal.",
+  "sentence": "Driven by limb expression, Mygale Lasiodora manifests a dynamic cycle through head and ear, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, chorea",
+        "Extremities, paralysis",
+        "Extremities, motion",
+        "Extremities, motion, leg",
+        "Extremities, motion, leg, convulsive",
+        "Extremities, pain",
+        "Extremities, pain, knee",
+        "Extremities, jerking"
+      ],
+      "generalizations": [
+        "extremities",
+        "motion",
+        "chorea",
+        "paralysis",
+        "convulsive"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, falling",
+        "Head, falling, sideways of head",
+        "Head, forehead",
+        "Head, motions of head (shaking, nodding, waving, etc.), throwing head, backward",
+        "Head, pain, dull, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "falling",
+        "sideways",
+        "motions"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, pain, night",
+        "Ear, pain, night, midnight",
+        "Ear, pain, night, midnight, after",
+        "Ear, pain, night, midnight, after, driving her out of bed",
+        "Ear, night",
+        "Ear, midnight"
+      ],
+      "generalizations": [
+        "midnight",
+        "after",
+        "driving"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, convulsive movements",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, twitching",
+        "Generalities, evening"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "trembling",
+        "convulsive",
+        "movements"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, chorea",
+        "Clinical, paralysis",
+        "Clinical, convulsions",
+        "Clinical, convulsions, clonic",
+        "Clinical, inflammation",
+        "Clinical, ulcers",
+        "Clinical, chorea, spinal",
+        "Clinical, chorea, imitation, from"
+      ],
+      "generalizations": [
+        "clinical",
+        "chorea",
+        "convulsions",
+        "paralysis",
+        "clonic"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, fear",
+        "Mind, hysteria",
+        "Mind, anxiety",
+        "Mind, fear, death, of",
+        "Mind, hatred"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "fear",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

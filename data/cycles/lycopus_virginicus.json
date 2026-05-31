@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lycopus Virginicus",
+  "remedy_abbrev": "Lycps.",
+  "sentence": "Driven by limb expression, Lycopus Virginicus manifests a dynamic cycle through heart & circulation and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, varices, lower limbs",
+        "Extremities, varices",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "swelling",
+        "varices"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, palpitation, exertion agg.",
+        "Heart & Circulation, palpitation, exertion",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "pulse",
+        "frequent",
+        "accelerated"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eminence, frontal",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, forehead, eminence, frontal, left",
+        "Head, pain, alternating with pain in teeth",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eminence",
+        "frontal",
+        "occiput"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, dorsal region, scapulae, right, under",
+        "Back, pain, rheumatic",
+        "Back, weakness",
+        "Back, weakness, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "scapulae",
+        "right"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, hemorrhage",
+        "Chest, pain",
+        "Chest, phthisis pulmonalis",
+        "Chest, phthisis pulmonalis, incipient",
+        "Chest, constriction, tension, tightness",
+        "Chest, fullness",
+        "Chest, pain, aching"
+      ],
+      "generalizations": [
+        "chest",
+        "phthisis",
+        "pulmonalis",
+        "oppression",
+        "hemorrhage"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, uncovering, agg.",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, exertion, physical",
+        "Generalities, uncovering",
+        "Generalities, exertion",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain"
+      ],
+      "generalizations": [
+        "generalities",
+        "exertion",
+        "uncovering",
+        "physical",
+        "weakness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

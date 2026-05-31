@@ -1,0 +1,47 @@
+{
+  "remedy_name": "Cinchoninum Sulphuricum",
+  "remedy_abbrev": "Cinch.",
+  "sentence": "Driven by back, Cinchoninum Sulphuricum manifests a dynamic cycle through general state and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, stitching",
+        "Back, pain, stitching, extending",
+        "Back, pain, stitching, extending, to",
+        "Back, pain, stitching, extending, to hypochondrium, on lying or coughing, amel. by standing or sitting"
+      ],
+      "generalizations": [
+        "back",
+        "stitching",
+        "extending",
+        "hypochondrium",
+        "lying"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, afternoon",
+        "Generalities, afternoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "afternoon"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

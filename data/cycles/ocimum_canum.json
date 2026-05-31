@@ -1,0 +1,130 @@
+{
+  "remedy_name": "Ocimum Canum",
+  "remedy_abbrev": "Oci.",
+  "sentence": "Driven by kidneys, Ocimum Canum manifests a dynamic cycle through genitalia male and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, inflammation",
+        "Kidneys, pain",
+        "Kidneys, pain, cutting",
+        "Kidneys, pain, cutting, ureters",
+        "Kidneys, pain, ureters",
+        "Kidneys, pain, cutting, ureters, vomiting, with",
+        "Kidneys, pain, ureters, vomiting, with",
+        "Kidneys, pain, ureters, right side"
+      ],
+      "generalizations": [
+        "kidneys",
+        "ureters",
+        "cutting",
+        "vomiting",
+        "inflammation"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, heat",
+        "Genitalia male, heat, testes",
+        "Genitalia male, inflammation",
+        "Genitalia male, inflammation, testes",
+        "Genitalia male, pain",
+        "Genitalia male, pain, sore, testes",
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, testes"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "testes",
+        "heat",
+        "inflammation"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, sediment",
+        "Urine, sediment, sand",
+        "Urine, sediment, sand, red (brick-dust)",
+        "Urine, odor",
+        "Urine, sediment, albuminous",
+        "Urine, sediment, renal calculi",
+        "Urine, odor, musk"
+      ],
+      "generalizations": [
+        "urine",
+        "sediment",
+        "sand",
+        "odor",
+        "brick"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, trembling",
+        "Back, pain, cramp-like",
+        "Back, pain, cramp-like, lumbar region",
+        "Back, trembling, lumbar region",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "trembling",
+        "cramp"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, pain",
+        "Bladder, pain, stitching, stinging",
+        "Bladder, pain, stitching, stinging, extending",
+        "Bladder, pain, stitching, stinging, extending, to kidneys",
+        "Bladder, bladder in general",
+        "Bladder, pain, stitching"
+      ],
+      "generalizations": [
+        "bladder",
+        "stitching",
+        "stinging",
+        "extending",
+        "kidneys"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation"
+      ],
+      "next_segment": "Renal function"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Magnesium Muriaticum",
+  "remedy_abbrev": "Mag-m.",
+  "sentence": "Driven by limb expression, Magnesium Muriaticum manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, hip",
+        "Extremities, pain, tearing, upper limbs",
+        "Extremities, weakness, lower limbs, walking, after",
+        "Extremities, weakness, lower limbs, walking"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "limbs",
+        "lower",
+        "tearing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head \u2014 pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, temples",
+        "Head, pain, bursting",
+        "Head, pain, temples, pressure, amel.",
+        "Head, pain, temples, pressure",
+        "Head, pain, pressure, amel.",
+        "Head, pain, pressure",
+        "Head, pain, bursting, weeks, every six"
+      ],
+      "generalizations": [
+        "head",
+        "pressure",
+        "temples",
+        "bursting",
+        "amel"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, hypochondria",
+        "Abdomen, pain, liver",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, pressing, hypochondria",
+        "Abdomen, pain, pressing, hypochondria, right",
+        "Abdomen, pain, pressing, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pressing",
+        "hypochondria",
+        "liver",
+        "cramping"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy \u2014 its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness",
+        "Mind, hysteria",
+        "Mind, restlessness, evening",
+        "Mind, bed",
+        "Mind, anxiety, hypochondriacal",
+        "Mind, restlessness, evening, bed, in",
+        "Mind, restlessness, eyes, on closing at night, agg.",
+        "Mind, night"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "hysteria",
+        "anxiety",
+        "hypochondriacal"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pressure, amel.",
+        "Generalities, pressure",
+        "Generalities, night",
+        "Generalities, food",
+        "Generalities, air, open, amel.",
+        "Generalities, air",
+        "Generalities, air, open",
+        "Generalities, food, milk agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "pressure",
+        "amel",
+        "food",
+        "open"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, burning",
+        "Back, pain, burning, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, menses, during",
+        "Back, pain, menses, during",
+        "Back, pain, sore, bruised, beaten",
+        "Back, pain, sore, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "burning",
+        "menses"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "remedy_name": "Apium Graveolens",
+  "remedy_abbrev": "Ap-g.",
+  "sentence": "Driven by head, Apium Graveolens manifests a dynamic cycle through back and teeth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, air, open, amel.",
+        "Head, pain, air",
+        "Head, pain, breakfast",
+        "Head, pain, eating",
+        "Head, pain, eating, during, amel.",
+        "Head, pain, breakfast, amel."
+      ],
+      "generalizations": [
+        "head",
+        "amel",
+        "breakfast",
+        "eating",
+        "headache"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lying",
+        "Back, pain, walking",
+        "Back, pain, lying, back",
+        "Back, pain, walking, amel.",
+        "Back, pain, lying, back, on agg."
+      ],
+      "generalizations": [
+        "back",
+        "lying",
+        "walking",
+        "amel"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, pain, cold",
+        "Teeth, pain, cold, cold water amel."
+      ],
+      "generalizations": [
+        "teeth",
+        "cold",
+        "water",
+        "amel"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, retention of urine",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "retention",
+        "urine",
+        "general"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

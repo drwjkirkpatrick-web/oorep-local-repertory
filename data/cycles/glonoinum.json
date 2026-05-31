@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Glonoinum",
+  "remedy_abbrev": "Glon.",
+  "sentence": "Driven by head, Glonoinum manifests a dynamic cycle through mind and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, motions",
+        "Head, pain, forehead",
+        "Head, congestion, menses, suppressed, from"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, memory, weakness of",
+        "Mind, speech",
+        "Mind, forgetful",
+        "Mind, mistakes",
+        "Mind, recognize",
+        "Mind, recognize, does not"
+      ],
+      "generalizations": [
+        "mind",
+        "recognize",
+        "dullness",
+        "confusion",
+        "memory"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, coldness, hands, hot head, with",
+        "Extremities, coldness, hands, hot head",
+        "Extremities, coldness, foot",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "weakness",
+        "head"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, heat, flushes of",
+        "Generalities, heat",
+        "Generalities, full feeling, internally",
+        "Generalities, jerking, internally",
+        "Generalities, pulsation, externally",
+        "Generalities, pulsation, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "internally",
+        "faintness",
+        "heat",
+        "pulsation"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, left",
+        "Back, pain",
+        "Back, heat",
+        "Back, pain, burning",
+        "Back, pain, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "left",
+        "right"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, congestion, heart",
+        "Heart & Circulation, palpitation, tumultuous, violent, vehement",
+        "Heart & Circulation, orgasm of blood",
+        "Heart & Circulation, pulse, frequent (accelerated, elevated, exalted, fast, innumerable, rapid)",
+        "Heart & Circulation, heat, heart, in region of",
+        "Heart & Circulation, heat, heart, in region of, flushes of"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "pulse",
+        "heat"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

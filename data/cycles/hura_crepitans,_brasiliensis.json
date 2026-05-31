@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hura Crepitans, Brasiliensis",
+  "remedy_abbrev": "Hura",
+  "sentence": "Driven by limb expression, Hura Crepitans, Brasiliensis manifests a dynamic cycle through mind and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, weakness, leg, ascending, stairs, while",
+        "Extremities, weakness, leg, ascending",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "coldness",
+        "ascending",
+        "stairs"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, death, desires",
+        "Mind, delusions, imaginations, hallucinations, illusions"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "restlessness",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, weakness, dorsal region, scapulae",
+        "Back, lumbar region",
+        "Back, pain, aching",
+        "Back, weakness, dorsal region",
+        "Back, pain, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dorsal",
+        "dull"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, pale",
+        "Face, expression",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, eyes, circles around",
+        "Face, emaciation",
+        "Face, heat"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "bluish",
+        "pale",
+        "expression"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, sleeplessness",
+        "Sleep, interrupted",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, business, of",
+        "Sleep, restless",
+        "Sleep, sleepiness, afternoon"
+      ],
+      "generalizations": [
+        "sleep",
+        "sleepiness",
+        "dreams",
+        "yawning",
+        "sleeplessness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

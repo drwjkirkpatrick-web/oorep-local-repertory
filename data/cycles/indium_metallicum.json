@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Indium Metallicum",
+  "remedy_abbrev": "Ind.",
+  "sentence": "Driven by limb expression, Indium Metallicum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, thigh",
+        "Extremities, trembling",
+        "Extremities, trembling, knee",
+        "Extremities, stiffness, shoulder",
+        "Extremities, trembling, knee, walking"
+      ],
+      "generalizations": [
+        "extremities",
+        "trembling",
+        "stiffness",
+        "stitching",
+        "knee"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, dull",
+        "Head, pain, temples",
+        "Head, pain, dull pain",
+        "Head, pain, stool",
+        "Head, pain, stool, from pressing, at",
+        "Head, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "dull",
+        "stool",
+        "temples"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, dorsal region, scapulae, left"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "stiffness",
+        "scapulae"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, stiffness",
+        "Generalities, warm, agg.",
+        "Generalities, warm, room agg.",
+        "Generalities, warm",
+        "Generalities, warm, air agg.",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "warm",
+        "weakness",
+        "stiffness",
+        "room"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, events, previous",
+        "Sleep, dreams, nightmare",
+        "Sleep, dreams, vivid",
+        "Sleep, sleepiness, afternoon",
+        "Sleep, sleepiness, headache, during"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleepiness",
+        "yawning",
+        "amorous"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "sadness",
+        "irritability"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

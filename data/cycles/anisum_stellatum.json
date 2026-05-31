@@ -1,0 +1,123 @@
+{
+  "remedy_name": "Anisum Stellatum",
+  "remedy_abbrev": "Anis.",
+  "sentence": "Driven by limb expression, Anisum Stellatum manifests a dynamic cycle through mouth and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, hand",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, hand",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, hand",
+        "Extremities, pain, broken, sensation as if",
+        "Extremities, pain, hand, palm"
+      ],
+      "generalizations": [
+        "extremities",
+        "hand",
+        "stitching",
+        "tearing",
+        "broken"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, aphthae, tongue",
+        "Mouth, tongue",
+        "Mouth, folded like little bags on edges, tongue",
+        "Mouth, folded like little bags on edges"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "aphthae",
+        "folded",
+        "like"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, sides",
+        "Chest, pain, sides, right",
+        "Chest, emptiness, sensation of",
+        "Chest, emptiness, sensation of, cough, after",
+        "Chest, emptiness, sensation of, cough",
+        "Chest, emptiness"
+      ],
+      "generalizations": [
+        "chest",
+        "emptiness",
+        "sides",
+        "cough",
+        "right"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, pain, stitching",
+        "Nose, sneezing",
+        "Nose, pain",
+        "Nose, pain, stitching, tip",
+        "Nose, tip"
+      ],
+      "generalizations": [
+        "nose",
+        "stitching",
+        "coryza",
+        "sneezing"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises, ringing",
+        "Ear, noises",
+        "Ear, noises, hissing",
+        "Ear, noises, roaring"
+      ],
+      "generalizations": [
+        "noises",
+        "ringing",
+        "hissing",
+        "roaring"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

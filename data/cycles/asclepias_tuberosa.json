@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Asclepias Tuberosa",
+  "remedy_abbrev": "Asc-t.",
+  "sentence": "Driven by limb expression, Asclepias Tuberosa manifests a dynamic cycle through chest and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, cramps, foot",
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, pain, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "foot",
+        "coldness",
+        "swelling"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, inflammation, bronchial tubes (bronchitis)",
+        "Chest, pain",
+        "Chest, inflammation",
+        "Chest, pain, cutting (sudden sharp pain)",
+        "Chest, pain, stitching",
+        "Chest, pain, bending",
+        "Chest, pain, stitching, mammae",
+        "Chest, pain, cutting (sudden sharp pain), sides"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "cutting",
+        "sudden",
+        "sharp"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain",
+        "Abdomen, rumbling, stool",
+        "Abdomen, pain, cough, during",
+        "Abdomen, rumbling, stool, before",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, sore"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "stool",
+        "cough",
+        "during"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, coryza",
+        "Nose, coryza, discharge, with (fluent)",
+        "Nose, coryza, discharge",
+        "Nose, snuffles",
+        "Nose, epistaxis",
+        "Nose, coryza, discharge, without (dry)",
+        "Nose, discharge, blood",
+        "Nose, obstruction"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "discharge",
+        "fluent",
+        "snuffles"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, pain, stitching, transversely",
+        "Generalities, side, left",
+        "Generalities, pain, stitching",
+        "Generalities, pain, stitching, downward",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "stitching",
+        "side",
+        "weakness",
+        "transversely"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, bilious",
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, constipation",
+        "Rectum, diarrhea, night",
+        "Rectum, pain, tenesmus",
+        "Rectum, pain, tenesmus, stool, during"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "tenesmus",
+        "bilious",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

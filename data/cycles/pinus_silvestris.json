@@ -1,0 +1,107 @@
+{
+  "remedy_name": "Pinus Silvestris",
+  "remedy_abbrev": "Pin-s.",
+  "sentence": "Driven by limb expression, Pinus Silvestris manifests a dynamic cycle through back and kidneys, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, cramps, calf",
+        "Extremities, heaviness, tired limbs",
+        "Extremities, pain, hand",
+        "Extremities, stiffness, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "stiffness",
+        "cramps",
+        "heaviness",
+        "calf"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, drawing",
+        "Back, pain, drawing, cervical region",
+        "Back, pain, drawing, cervical region, extending",
+        "Back, pain, drawing, cervical region, extending, occiput",
+        "Back, cervix"
+      ],
+      "generalizations": [
+        "back",
+        "drawing",
+        "cervical",
+        "region",
+        "extending"
+      ],
+      "next_segment": "Renal function"
+    },
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, pain",
+        "Kidneys, pain, burning",
+        "Kidneys, pain, burning, along ureters",
+        "Kidneys, pain, burning, ureters"
+      ],
+      "generalizations": [
+        "kidneys",
+        "burning",
+        "ureters",
+        "along"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, stiffness"
+      ],
+      "generalizations": [
+        "generalities",
+        "stiffness"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, diminished"
+      ],
+      "generalizations": [
+        "appetite",
+        "diminished"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises"
+      ],
+      "generalizations": [
+        "noises"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

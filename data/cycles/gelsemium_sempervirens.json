@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Gelsemium Sempervirens",
+  "remedy_abbrev": "Gels.",
+  "sentence": "Driven by head, Gelsemium Sempervirens manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, nervous",
+        "Head, pain, dull",
+        "Head, cerebral hemorrhage"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "headache",
+        "general",
+        "hyperemia"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, coldness, foot",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "painless",
+        "foot"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, quiet",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, hysteria",
+        "Mind, excitement, emotional, ailments from"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "quiet",
+        "sluggishness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, trembling, externally",
+        "Generalities, irritability",
+        "Generalities, numbness",
+        "Generalities, trembling",
+        "Generalities, heat"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "trembling",
+        "enervation",
+        "externally"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, coldness, extending",
+        "Back, pain, sacral region",
+        "Back, inflammation, cord",
+        "Back, inflammation, membranes, spinal meningitis"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "coldness",
+        "dorsal",
+        "inflammation"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, redness",
+        "Eye, pupils, dilated",
+        "Eye, pupils",
+        "Eye, falling of lids",
+        "Eye, photomania",
+        "Eye, redness, lids"
+      ],
+      "generalizations": [
+        "lids",
+        "heaviness",
+        "redness",
+        "pupils",
+        "dilated"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

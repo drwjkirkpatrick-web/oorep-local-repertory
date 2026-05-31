@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chimaphila Umbellata",
+  "remedy_abbrev": "Chim.",
+  "sentence": "Driven by bladder, Chimaphila Umbellata manifests a dynamic cycle through urine and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), frequent",
+        "Bladder, urging to urinate (morbid desire), ineffectual",
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, urination, retarded",
+        "Bladder, inflammation",
+        "Bladder, pain"
+      ],
+      "generalizations": [
+        "bladder",
+        "urging",
+        "urinate",
+        "morbid",
+        "desire"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, sediment",
+        "Urine, sediment, bloody",
+        "Urine, sediment, mucous",
+        "Urine, sediment, mucous, thick, ropy, bloody mucous, great quantity of",
+        "Urine, odor",
+        "Urine, copious (increased)",
+        "Urine, color",
+        "Urine, albuminous"
+      ],
+      "generalizations": [
+        "urine",
+        "sediment",
+        "mucous",
+        "bloody",
+        "thick"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, lower limbs",
+        "Extremities, swelling, lower limbs, dropsical",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic",
+        "Extremities, pain, shoulder",
+        "Extremities, pain, shoulder, rheumatic"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "lower",
+        "limbs",
+        "joints"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, inflammation",
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg.",
+        "Urethra, stricture",
+        "Urethra, pain, burning, urination",
+        "Urethra, discharge, mucous"
+      ],
+      "generalizations": [
+        "urethra",
+        "burning",
+        "urination",
+        "during",
+        "inflammation"
+      ],
+      "next_segment": "Prostatic state"
+    },
+    {
+      "name": "Prostatic state",
+      "description": "Prostate symptoms, urination difficulty, discharge.",
+      "symptoms": [
+        "Prostate gland, inflammation",
+        "Prostate gland, pain",
+        "Prostate gland, pain, soreness",
+        "Prostate gland, swelling",
+        "Prostate gland, enlargement",
+        "Prostate gland, fullness",
+        "Prostate gland, ball, sensation of sitting on a",
+        "Prostate gland, pain, sitting, while"
+      ],
+      "generalizations": [
+        "prostate",
+        "gland",
+        "sitting",
+        "inflammation",
+        "soreness"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, cancer, mammae",
+        "Chest, cancer",
+        "Chest, atrophy, mammae",
+        "Chest, nodules",
+        "Chest, nodules, mammae",
+        "Chest, nodules, mammae, in",
+        "Chest, mammae",
+        "Chest, atrophy"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "nodules",
+        "cancer",
+        "atrophy"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

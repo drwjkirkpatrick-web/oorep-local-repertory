@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cobaltum Metallicum",
+  "remedy_abbrev": "Cob.",
+  "sentence": "Driven by head, Cobaltum Metallicum manifests a dynamic cycle through back and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, pain, wrapping up head agg.",
+        "Head, pulsating",
+        "Head, pain, occiput, forenoon",
+        "Head, pulsating, morning",
+        "Head, pain, bending head",
+        "Head, pain, bending head, forward"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "pulsating",
+        "bending",
+        "wrapping"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, rising from a seat agg.",
+        "Back, pain, lumbar region, rising from a seat",
+        "Back, pain, lumbar region, sitting",
+        "Back, pain, aching, dull pain, lumbar region, sitting, while agg."
+      ],
+      "generalizations": [
+        "back",
+        "lumbar",
+        "region",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, pain, stitching, hypochondria, right",
+        "Abdomen, fullness",
+        "Abdomen, fullness, eating, after",
+        "Abdomen, fullness, eating"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "fullness",
+        "hypochondria",
+        "eating"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, knee",
+        "Extremities, eruption",
+        "Extremities, eruption, pimples",
+        "Extremities, eruption, upper limbs",
+        "Extremities, eruption, upper limbs, pimples",
+        "Extremities, heat"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "pimples",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, excitement, emotional, ailments from",
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, emotions, after, agg.",
+        "Mind, emotions",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "excitement",
+        "emotions",
+        "restlessness",
+        "emotional"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, eating",
+        "Stomach, pain, eating, after",
+        "Stomach, eructations, sour",
+        "Stomach, eructations, empty",
+        "Stomach, pain, sore"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "eating",
+        "after",
+        "sour"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

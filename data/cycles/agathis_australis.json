@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Agathis Australis",
+  "remedy_abbrev": "Agath-a.",
+  "sentence": "Driven by mind, Agathis Australis manifests a dynamic cycle through head and sleep, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness",
+        "Mind, anxiety",
+        "Mind, excitement",
+        "Mind, affectionate",
+        "Mind, calmness",
+        "Mind, detached",
+        "Mind, dullness",
+        "Mind, sadness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "anxiety",
+        "excitement",
+        "affectionate"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, dull",
+        "Head, boiling sensation",
+        "Head, pain, temples",
+        "Head, intoxication, as from",
+        "Head, pain, dull pain",
+        "Head, congestion",
+        "Head, pain, dull, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "dull",
+        "boiling",
+        "temples",
+        "intoxication"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams",
+        "Sleep, dreams, unremembered",
+        "Sleep, dreams, fragmented",
+        "Sleep, sleepiness",
+        "Sleep, sleepiness, afternoon",
+        "Sleep, sleepiness, forenoon",
+        "Sleep, dreams, water",
+        "Sleep, dreams, water, sea, of"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleepiness",
+        "water",
+        "unremembered"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, digging",
+        "Back, pain, drawing",
+        "Back, pain, drawing, dorsal region",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, spine",
+        "Back, pain, digging, right side",
+        "Back, pain, digging, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "digging",
+        "drawing",
+        "dorsal"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, shoulder",
+        "Extremities, pain, drawing, shoulder, extending, neck",
+        "Extremities, pain, drawing, shoulder, extending, neck, nape of",
+        "Extremities, pain, drawing, shoulder, extending",
+        "Extremities, coldness",
+        "Extremities, coldness, hands"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "shoulder",
+        "extending",
+        "neck"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, anxiety, in",
+        "Chest, anxiety",
+        "Chest, oppression",
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, constriction, sides",
+        "Chest, pain, burning, sternum",
+        "Chest, pain, cutting (sudden sharp pain)"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety",
+        "burning",
+        "oppression",
+        "constriction"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

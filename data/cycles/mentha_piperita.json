@@ -1,0 +1,61 @@
+{
+  "remedy_name": "Mentha Piperita",
+  "remedy_abbrev": "Menth.",
+  "sentence": "Driven by cough, Mentha Piperita manifests a dynamic cycle through general state and expectoration, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, inhalation",
+        "Cough, smoking agg.",
+        "Cough, talking",
+        "Cough, smoke of all kinds agg."
+      ],
+      "generalizations": [
+        "cough",
+        "inhalation",
+        "smoking",
+        "talking",
+        "smoke"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, sensitiveness, externally",
+        "Generalities, sensitiveness"
+      ],
+      "generalizations": [
+        "generalities",
+        "sensitiveness",
+        "externally"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, lumpy",
+        "Expectoration, lumpy, lump, like core of boil"
+      ],
+      "generalizations": [
+        "expectoration",
+        "lumpy",
+        "lump",
+        "like",
+        "core"
+      ],
+      "next_segment": "Cough pattern"
+    }
+  ]
+}

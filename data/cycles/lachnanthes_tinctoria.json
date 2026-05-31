@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lachnanthes Tinctoria",
+  "remedy_abbrev": "Lachn.",
+  "sentence": "Driven by limb expression, Lachnanthes Tinctoria manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, burning",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, elbow",
+        "Extremities, pain, tearing, shoulder",
+        "Extremities, pain, burning, foot",
+        "Extremities, pain, burning, foot, sole",
+        "Extremities, pain, burning, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "burning",
+        "tearing",
+        "foot",
+        "elbow"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, drawn",
+        "Head, heat, coldness of body, with",
+        "Head, heat, coldness",
+        "Head, drawn, sideways",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, hair, bristling"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "drawn",
+        "coldness",
+        "body"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, coldness",
+        "Back, coldness, dorsal region",
+        "Back, coldness, dorsal region, scapulae",
+        "Back, coldness, dorsal region, scapulae, between",
+        "Back, coldness, dorsal region, scapulae, between, ice, like",
+        "Back, cold"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "coldness",
+        "dorsal",
+        "scapulae"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, delirium, loquacious",
+        "Mind, speech",
+        "Mind, delirium, night",
+        "Mind, speech, loquacity",
+        "Mind, speech, loquacity, night",
+        "Mind, delirium, night, 1 a.m. to 2 a.m.",
+        "Mind, speech, loquacity, night, 1 to 2 a.m."
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "speech",
+        "loquacity",
+        "loquacious"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, brilliant",
+        "Eye, twitching",
+        "Eye, close",
+        "Eye, closed",
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, itching",
+        "Eye, lachrymation"
+      ],
+      "generalizations": [
+        "heaviness",
+        "brilliant",
+        "twitching",
+        "close",
+        "closed"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, warm",
+        "Chill, warmth",
+        "Chill, warmth, bed, amel., hot irons amel.",
+        "Chill, warmth, bed, amel.",
+        "Chill, warmth, bed",
+        "Chill, coldness in general",
+        "Chill, bed in",
+        "Chill, warmth, external, amel."
+      ],
+      "generalizations": [
+        "chill",
+        "warmth",
+        "amel",
+        "warm",
+        "irons"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

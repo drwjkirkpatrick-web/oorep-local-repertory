@@ -1,0 +1,128 @@
+{
+  "remedy_name": "Iberis Amara",
+  "remedy_abbrev": "Iber.",
+  "sentence": "Driven by head, Iberis Amara manifests a dynamic cycle through heart & circulation and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, afternoon, agg.",
+        "Head, pain, forehead, evening agg.",
+        "Head, pain, forehead, morning agg.",
+        "Head, pain, temples",
+        "Head, pain, afternoon",
+        "Head, pain, forehead, evening"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "afternoon",
+        "temples"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, hypertrophy of heart",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, palpitation",
+        "Heart & Circulation, pulse",
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, stitching, heart",
+        "Heart & Circulation, palpitation, motion agg.",
+        "Heart & Circulation, palpitation, motion"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "palpitation",
+        "motion",
+        "hypertrophy"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, pain",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, upper limbs, left",
+        "Extremities, pain, upper limbs, left, heart symptoms, with",
+        "Extremities, upper limbs",
+        "Extremities, upper limbs, left"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "left",
+        "coldness"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, stitching",
+        "Chest, murmurs"
+      ],
+      "generalizations": [
+        "chest",
+        "stitching",
+        "murmurs"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, viscid",
+        "Expectoration, mucous",
+        "Expectoration, stringy",
+        "Expectoration, thin"
+      ],
+      "generalizations": [
+        "expectoration",
+        "viscid",
+        "mucous",
+        "stringy",
+        "thin"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, fear, medicine, of taking too much",
+        "Mind, fear, medicine"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "medicine",
+        "taking",
+        "much"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

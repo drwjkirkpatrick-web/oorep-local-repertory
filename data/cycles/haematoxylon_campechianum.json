@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Haematoxylon Campechianum",
+  "remedy_abbrev": "Haem.",
+  "sentence": "Driven by head, Haematoxylon Campechianum manifests a dynamic cycle through abdomen and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead, left side",
+        "Head, pain, forehead",
+        "Head, pain, forehead, left",
+        "Head, constriction, forehead",
+        "Head, heaviness, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heaviness",
+        "left",
+        "heat"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, sides",
+        "Abdomen, tension",
+        "Abdomen, fullness",
+        "Abdomen, fullness, sensation of",
+        "Abdomen, tension, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "tension",
+        "fullness",
+        "distension"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, anxiety",
+        "Mind, anxiety, night",
+        "Mind, night",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, mistakes, speaking"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "restlessness",
+        "sadness",
+        "nervousness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, dryness, hands",
+        "Extremities, dryness",
+        "Extremities, perspiration",
+        "Extremities, perspiration, foot",
+        "Extremities, perspiration, foot, suppressed",
+        "Extremities, dryness, hands, palm",
+        "Extremities, hands",
+        "Extremities, feet"
+      ],
+      "generalizations": [
+        "extremities",
+        "dryness",
+        "hands",
+        "perspiration",
+        "foot"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, dorsal region",
+        "Back, coldness, dorsal region, spine",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, cold",
+        "Back, dorsal region",
+        "Back, spine"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "coldness",
+        "spine"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, swallowing, difficult",
+        "Throat, swallowing",
+        "Throat, pain, sore",
+        "Throat, swallow, constant disposition to",
+        "Throat, swallowing, difficult, saliva",
+        "Throat, swallow"
+      ],
+      "generalizations": [
+        "throat",
+        "swallowing",
+        "difficult",
+        "swallow",
+        "sore"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

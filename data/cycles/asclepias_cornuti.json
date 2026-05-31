@@ -1,0 +1,132 @@
+{
+  "remedy_name": "Asclepias Cornuti",
+  "remedy_abbrev": "Asc-c.",
+  "sentence": "Driven by head, Asclepias Cornuti manifests a dynamic cycle through clinical and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, pain, temples",
+        "Head, pain, temples, extending",
+        "Head, pain, shooting, temples, extending from temple to temple",
+        "Head, pain, shooting, temples, extending",
+        "Head, pain, temples, extending, temple to temple"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "shooting",
+        "extending",
+        "temple"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, dropsy, external",
+        "Clinical, dropsy",
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "dropsy",
+        "external",
+        "inflammation"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, rheumatic, acute",
+        "Extremities, pain, boring",
+        "Extremities, pain, boring, leg",
+        "Extremities, pain, boring, leg, tibia",
+        "Extremities, pain, boring, leg, tibia, left"
+      ],
+      "generalizations": [
+        "extremities",
+        "boring",
+        "rheumatic",
+        "tibia",
+        "acute"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cutting",
+        "Back, pain, cutting, dorsal region",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "cutting",
+        "left"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, increased (hunger in general)",
+        "Appetite, ravenous",
+        "Appetite, increased (hunger in general), eating, after",
+        "Appetite, ravenous, eating, after, soon",
+        "Appetite, increased (hunger in general), eating",
+        "Appetite, ravenous, eating"
+      ],
+      "generalizations": [
+        "appetite",
+        "eating",
+        "increased",
+        "hunger",
+        "general"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, copious (increased)",
+        "Urine, burning (includes hot)",
+        "Urine, scanty",
+        "Urine, copious (increased), headache",
+        "Urine, copious (increased), headache, after",
+        "Urine, scanty, headache, during, copious after"
+      ],
+      "generalizations": [
+        "urine",
+        "copious",
+        "increased",
+        "headache",
+        "scanty"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Iris Versicolor",
+  "remedy_abbrev": "Iris",
+  "sentence": "Driven by head, Iris Versicolor manifests a dynamic cycle through limb disturbance and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, gastric",
+        "Head, pain, cutting, darting, stabbing",
+        "Head, pulsating, forehead",
+        "Head, pain, cutting",
+        "Head, pain, sides",
+        "Head, pulsating"
+      ],
+      "generalizations": [
+        "head",
+        "cutting",
+        "pulsating",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, lameness",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "coldness",
+        "sciatica"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, sour",
+        "Stomach, vomiting, sour",
+        "Stomach, nausea, headache, during",
+        "Stomach, vomiting, bile",
+        "Stomach, vomiting, bile, headache, with"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eructations",
+        "nausea",
+        "sour"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, eruptions",
+        "Abdomen, eruptions, herpes",
+        "Abdomen, eruptions, herpes, zoster, zona",
+        "Abdomen, eruptions, herpes, zoster, zona, right side",
+        "Abdomen, eruptions, herpes, zoster",
+        "Abdomen, rumbling",
+        "Abdomen, inflammation",
+        "Abdomen, pain, aching, dull pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "eruptions",
+        "herpes",
+        "zoster",
+        "zona"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, night",
+        "Rectum, pain, sore",
+        "Rectum, pain, sticking",
+        "Rectum, pain, burning, stool",
+        "Rectum, pain, burning, stool, during"
+      ],
+      "generalizations": [
+        "rectum",
+        "burning",
+        "diarrhea",
+        "stool",
+        "sore"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, pain, burning externally",
+        "Generalities, pain, burning, as from",
+        "Generalities, pain, burning, internally",
+        "Generalities, side, right",
+        "Generalities, side",
+        "Generalities, food"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "side",
+        "externally",
+        "internally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

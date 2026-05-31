@@ -268,14 +268,25 @@ def build_cycle_for_remedy(
 
     top_chapters = score_chapters(entries)
 
-    # Select 4-6 segments from top chapters
-    num_segments = min(6, max(4, len(top_chapters)))
-    selected = top_chapters[:num_segments]
+    # Select 4-6 segments from top chapters, deduplicating by segment name
+    seen_names = set()
+    selected = []
+    for ch, score in top_chapters:
+        seg_name, _ = CHAPTER_TO_SEGMENT.get(ch, (f"{ch.title()} state", ""))
+        if ch == "mind":
+            seg_name = f"Mental {mind_subtheme(entries)}"
+        if seg_name in seen_names:
+            continue
+        seen_names.add(seg_name)
+        selected.append((ch, score))
+        if len(selected) >= 6:
+            break
 
-    # If MIND is present, use the sub-theme for the first segment
-    has_mind = any(ch == "mind" for ch, _ in selected)
+    if len(selected) < 2:
+        return None  # Cannot build a meaningful cycle
+
+    # Build segments
     segments = []
-
     for i, (chapter, score) in enumerate(selected):
         # Get segment template
         seg_name, seg_desc_template = CHAPTER_TO_SEGMENT.get(
@@ -298,16 +309,16 @@ def build_cycle_for_remedy(
         if not generalizations:
             generalizations = [chapter]
 
-        # Next segment: the next one in selected list, or first to close loop
+        # Next segment: reference the actual next segment's computed name
         if i < len(selected) - 1:
             next_ch = selected[i + 1][0]
-            next_name, _ = CHAPTER_TO_SEGMENT.get(next_ch, (next_ch.title(), ""))
+            next_name, _ = CHAPTER_TO_SEGMENT.get(next_ch, (f"{next_ch.title()} state", ""))
             if next_ch == "mind":
                 next_name = f"Mental {mind_subtheme(entries)}"
         else:
             # Loop back to first
             first_ch = selected[0][0]
-            next_name, _ = CHAPTER_TO_SEGMENT.get(first_ch, (first_ch.title(), ""))
+            next_name, _ = CHAPTER_TO_SEGMENT.get(first_ch, (f"{first_ch.title()} state", ""))
             if first_ch == "mind":
                 next_name = f"Mental {mind_subtheme(entries)}"
 

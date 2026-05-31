@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Tuberculinum Bovinum Kent",
+  "remedy_abbrev": "Tub.",
+  "sentence": "Driven by limb expression, Tuberculinum Bovinum Kent manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, pain, aching",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, tearing",
+        "Extremities, restlessness, leg",
+        "Extremities, pain, aching, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "restlessness",
+        "aching",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, heat, flushes of",
+        "Generalities, heat, flushes of, perspiration, with",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, cold, tendency to take",
+        "Generalities, weakness, perspiration, from"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "heat",
+        "flushes",
+        "perspiration"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, fear",
+        "Mind, idiocy",
+        "Mind, memory, weakness of",
+        "Mind, anxiety",
+        "Mind, forgetful",
+        "Mind, ideas"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sluggishness",
+        "difficulty",
+        "thinking"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, sickly color",
+        "Face, heat",
+        "Face, discoloration, red, circumscribed",
+        "Face, eruptions",
+        "Face, eruptions, herpes"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "eruptions",
+        "pale",
+        "sickly"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, phthisis pulmonalis",
+        "Chest, phthisis pulmonalis, incipient",
+        "Chest, milk, thin",
+        "Chest, pain",
+        "Chest, milk",
+        "Chest, catarrh",
+        "Chest, pain, sore"
+      ],
+      "generalizations": [
+        "chest",
+        "phthisis",
+        "pulmonalis",
+        "milk",
+        "oppression"
+      ],
+      "next_segment": "Febrile dynamic"
+    },
+    {
+      "name": "Febrile dynamic",
+      "description": "Chill, heat, sweat, stages, periodicity.",
+      "symptoms": [
+        "Fever, hectic fever",
+        "Fever, burning heat",
+        "Fever, chilliness, with",
+        "Fever, perspiration absent",
+        "Fever, uncovering, aversion to",
+        "Fever, uncovering, chilliness, from",
+        "Fever, shivering",
+        "Fever, uncovering"
+      ],
+      "generalizations": [
+        "fever",
+        "uncovering",
+        "chilliness",
+        "hectic",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

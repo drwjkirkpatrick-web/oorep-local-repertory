@@ -1,0 +1,43 @@
+{
+  "remedy_name": "Canchalagua",
+  "remedy_abbrev": "Canch.",
+  "sentence": "Driven by limb expression, Canchalagua manifests a dynamic cycle through chill and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, shrivelled (shrunken)",
+        "Extremities, shrivelled (shrunken), fingers",
+        "Extremities, shrivelled (shrunken), fingers, perspiration, during",
+        "Extremities, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "shrivelled",
+        "shrunken",
+        "fingers",
+        "perspiration"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, night",
+        "Chill, night, bed, in"
+      ],
+      "generalizations": [
+        "chill"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

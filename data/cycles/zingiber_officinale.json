@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Zingiber Officinale",
+  "remedy_abbrev": "Zing.",
+  "sentence": "Driven by limb expression, Zingiber Officinale manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, weakness",
+        "Extremities, weakness, joints",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, heaviness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "joints",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, exertion of body, etc. agg.",
+        "Head, pain, forehead, in"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, descends",
+        "Back, pain, drawing",
+        "Back, pain, drawing, dorsal region",
+        "Back, pain, drawing, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "drawing",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, melons, from",
+        "Abdomen, pain, cramping",
+        "Abdomen, pain, drawing",
+        "Abdomen, flatulence",
+        "Abdomen, pain, drawing, night",
+        "Abdomen, night"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "drawing",
+        "melons"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, pain, pressing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, stone, sensation of",
+        "Stomach, heaviness"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "heaviness",
+        "empty",
+        "weight"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, dry, night",
+        "Cough, evening",
+        "Cough, tickling",
+        "Cough, asthmatic",
+        "Cough, burning, larynx",
+        "Cough, dry, evening",
+        "Cough, morning, agg."
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "asthmatic",
+        "burning",
+        "larynx"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

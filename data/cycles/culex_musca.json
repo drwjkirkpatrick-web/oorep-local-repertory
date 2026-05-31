@@ -1,0 +1,72 @@
+{
+  "remedy_name": "Culex Musca",
+  "remedy_abbrev": "Culx.",
+  "sentence": "Driven by nose, Culex Musca manifests a dynamic cycle through throat and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, discharge",
+        "Nose, discharge, crusts, scabs, inside",
+        "Nose, discharge, crusts",
+        "Nose, discharge, crusts, posterior nares",
+        "Nose, discharge, greenish"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "crusts",
+        "scabs",
+        "inside"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, swallow, constant disposition to",
+        "Throat, swallow"
+      ],
+      "generalizations": [
+        "throat",
+        "swallow",
+        "constant",
+        "disposition"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, coldness"
+      ],
+      "generalizations": [
+        "chest",
+        "coldness"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, blowing the nose"
+      ],
+      "generalizations": [
+        "vertigo",
+        "blowing",
+        "nose"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    }
+  ]
+}

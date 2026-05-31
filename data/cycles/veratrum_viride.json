@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Veratrum Viride",
+  "remedy_abbrev": "Verat-v.",
+  "sentence": "Driven by limb expression, Veratrum Viride manifests a dynamic cycle through stomach and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, swelling, knee",
+        "Extremities, swelling, knee, hot",
+        "Extremities, knee",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "knee",
+        "coldness",
+        "hands"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, drinking",
+        "Stomach, vomiting, drinking, cold water after",
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, hiccough",
+        "Stomach, thirst",
+        "Stomach, vomiting, blood"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "drinking",
+        "cold",
+        "water"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions",
+        "Head, pain, occiput",
+        "Head, pulsating, beating, throbbing",
+        "Head, pulsating",
+        "Head, motions of head (shaking, nodding, waving, etc.), backward and forward"
+      ],
+      "generalizations": [
+        "head",
+        "motions",
+        "shaking",
+        "nodding",
+        "waving"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pulsating",
+        "Back, pain, lancinating",
+        "Back, pain, lancinating, lumbar region",
+        "Back, pain, lancinating, lumbar region, thrusts, like",
+        "Back, pulsating, cervical region",
+        "Back, pulsating, cervical region, menses, during",
+        "Back, pulsating, cervical region, menses"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "pulsating",
+        "lancinating",
+        "cervical"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, pain, pressing",
+        "Generalities, constriction, internally",
+        "Generalities, constriction, of orifices"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "constriction",
+        "fainting",
+        "weakness"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, delirium",
+        "Mind, lamenting, bemoaning, wailing etc.",
+        "Mind, lamenting",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, quarrelsome",
+        "Mind, striking"
+      ],
+      "generalizations": [
+        "mind",
+        "lamenting",
+        "sadness",
+        "irritability",
+        "delirium"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

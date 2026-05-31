@@ -1,0 +1,126 @@
+{
+  "remedy_name": "Kalium Permanganatum",
+  "remedy_abbrev": "Kali-ma.",
+  "sentence": "Driven by throat, Kalium Permanganatum manifests a dynamic cycle through larynx and trachea and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, inflammation",
+        "Throat, mucus",
+        "Throat, mucus, bloody",
+        "Throat, liquids taken are forced into nose",
+        "Throat, pain",
+        "Throat, pain, burning",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, swallowing, difficult"
+      ],
+      "generalizations": [
+        "throat",
+        "mucus",
+        "inflammation",
+        "bloody",
+        "liquids"
+      ],
+      "next_segment": "Laryngeal state"
+    },
+    {
+      "name": "Laryngeal state",
+      "description": "Larynx, trachea, croup, hoarseness.",
+      "symptoms": [
+        "Larynx and trachea, tickling in the air passages",
+        "Larynx and trachea, tickling",
+        "Larynx and trachea, croup",
+        "Larynx and trachea, pain, larynx",
+        "Larynx and trachea, pain, rawness, larynx",
+        "Larynx and trachea, pain",
+        "Larynx and trachea, pain, rawness",
+        "Larynx and trachea, croup, membranous"
+      ],
+      "generalizations": [
+        "larynx",
+        "trachea",
+        "tickling",
+        "croup",
+        "rawness"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, pressing",
+        "Chest, pain, pressing, sternum",
+        "Chest, sternum"
+      ],
+      "generalizations": [
+        "chest",
+        "pressing",
+        "sternum"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, liquids come out through nose on attempting to swallow",
+        "Nose, coryza",
+        "Nose, pain",
+        "Nose, coryza, diphtheria, during",
+        "Nose, pain, posterior nares"
+      ],
+      "generalizations": [
+        "nose",
+        "coryza",
+        "liquids",
+        "come",
+        "through"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, tickling",
+        "Cough, constant",
+        "Cough, hacking",
+        "Cough, short",
+        "Cough, swallowing, agg.",
+        "Cough, swallowing"
+      ],
+      "generalizations": [
+        "cough",
+        "swallowing",
+        "tickling",
+        "constant",
+        "hacking"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation",
+        "Clinical, ulcers"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation",
+        "ulcers"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    }
+  ]
+}

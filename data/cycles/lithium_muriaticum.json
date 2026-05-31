@@ -1,0 +1,69 @@
+{
+  "remedy_name": "Lithium Muriaticum",
+  "remedy_abbrev": "Lith-m.",
+  "sentence": "Driven by limb expression, Lithium Muriaticum manifests a dynamic cycle through back and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, ankle",
+        "Extremities, pain, burning",
+        "Extremities, pain, burning, upper limbs",
+        "Extremities, pain, ankle, pulsating",
+        "Extremities, upper limbs",
+        "Extremities, ankle"
+      ],
+      "generalizations": [
+        "extremities",
+        "ankle",
+        "burning",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, sitting",
+        "Back, pain, aching, dull pain, sitting, long, after",
+        "Back, pain, aching"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "sitting",
+        "long"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, heat, flushes",
+        "Stomach, heat, flushes, morning",
+        "Stomach, morning",
+        "Stomach, heat"
+      ],
+      "generalizations": [
+        "stomach",
+        "heat",
+        "flushes"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

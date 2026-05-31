@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Theridion Curassavicum",
+  "remedy_abbrev": "Ther.",
+  "sentence": "Driven by head, Theridion Curassavicum manifests a dynamic cycle through mind and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, noise, from",
+        "Head, pain, noise",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, nervous",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, behind"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "noise",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, speech",
+        "Mind, sensitive, noise, to",
+        "Mind, sensitive, noise, to, slightest",
+        "Mind, sensitive, oversensitive",
+        "Mind, sensitive",
+        "Mind, fright",
+        "Mind, sensitive, noise",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "sensitive",
+        "noise",
+        "speech",
+        "slightest"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, fingers",
+        "Extremities, eruption, thumb",
+        "Extremities, eruption, fingers, pimples",
+        "Extremities, eruption, thumb, pimples",
+        "Extremities, caries of bone",
+        "Extremities, fingers",
+        "Extremities, coldness"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "fingers",
+        "thumb",
+        "pimples"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore, dorsal region",
+        "Back, pain, sore",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine",
+        "Back, pain, sore, spine, leaning against a chair agg.",
+        "Back, pain, noise agg.",
+        "Back, pain, sore, spine, jar of bed"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "spine",
+        "dorsal",
+        "region"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, jar, stepping, agg.",
+        "Generalities, jar, stepping",
+        "Generalities, bones",
+        "Generalities, jar",
+        "Generalities, bones, caries",
+        "Generalities, weakness, enervation"
+      ],
+      "generalizations": [
+        "generalities",
+        "trembling",
+        "stepping",
+        "bones",
+        "externally"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, thirst",
+        "Stomach, vomiting, headache, during",
+        "Stomach, nausea, exertion",
+        "Stomach, nausea, riding in a carriage or on the cars, while agg.",
+        "Stomach, nausea, riding",
+        "Stomach, nausea, noise, from"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "vomiting",
+        "riding",
+        "thirst"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

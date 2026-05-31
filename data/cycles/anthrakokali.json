@@ -1,0 +1,122 @@
+{
+  "remedy_name": "Anthrakokali",
+  "remedy_abbrev": "Anthro.",
+  "sentence": "Driven by mouth, Anthrakokali manifests a dynamic cycle through perspiration and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste",
+        "Mouth, taste, bad",
+        "Mouth, taste, nauseous",
+        "Mouth, taste, acrid",
+        "Mouth, discoloration, tongue, dirty"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "discoloration",
+        "tongue",
+        "dryness"
+      ],
+      "next_segment": "Perspiration state"
+    },
+    {
+      "name": "Perspiration state",
+      "description": "Sweat character, time, odor, staining.",
+      "symptoms": [
+        "Perspiration, in general",
+        "Perspiration, night",
+        "Perspiration, profuse",
+        "Perspiration, profuse, night",
+        "Perspiration, evening",
+        "Perspiration, sticky",
+        "Perspiration, long-lasting",
+        "Perspiration, evening, every, evening, lasting all night"
+      ],
+      "generalizations": [
+        "perspiration",
+        "profuse",
+        "lasting",
+        "general",
+        "sticky"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, ulcers",
+        "Nose, cracks",
+        "Nose, cracks in nostrils"
+      ],
+      "generalizations": [
+        "nose",
+        "cracks",
+        "ulcers",
+        "nostrils"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, itching",
+        "Urethra, itching, meatus",
+        "Urethra, itching, meatus, urging, during",
+        "Urethra, itching, meatus, urging",
+        "Urethra, meatus"
+      ],
+      "generalizations": [
+        "urethra",
+        "itching",
+        "meatus",
+        "urging",
+        "during"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, pustules",
+        "Skin, eruptions, pustules, itching",
+        "Skin, eruptions, pustules, lumpy"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "pustules",
+        "itching",
+        "lumpy"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, ulcers"
+      ],
+      "generalizations": [
+        "clinical",
+        "ulcers"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

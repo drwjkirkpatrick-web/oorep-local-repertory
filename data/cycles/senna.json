@@ -1,0 +1,126 @@
+{
+  "remedy_name": "Senna",
+  "remedy_abbrev": "Senn.",
+  "sentence": "Driven by abdomen, Senna manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, colic",
+        "Abdomen, pain, aching",
+        "Abdomen, flatulence",
+        "Abdomen, pain, cramping, griping, stool"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, speech",
+        "Mind, speech, shrieking",
+        "Mind, speech, shrieking, children, in",
+        "Mind, speech, shrieking, children",
+        "Mind, restlessness",
+        "Mind, restlessness, bed, tossing about in",
+        "Mind, restlessness, bed"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "shrieking",
+        "restlessness",
+        "children"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, extending",
+        "Head, pain, stooping",
+        "Head, heaviness, stooping, on agg.",
+        "Head, pain, pressing",
+        "Head, heaviness, stooping"
+      ],
+      "generalizations": [
+        "head",
+        "stooping",
+        "heaviness",
+        "extending",
+        "pressing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, cervical region, raising the head",
+        "Back, cervix"
+      ],
+      "generalizations": [
+        "back",
+        "cervical",
+        "region",
+        "raising",
+        "head"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, vesicles",
+        "Face, eruptions, vesicles, mouth, corners",
+        "Face, eruptions, vesicles, mouth"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "vesicles",
+        "mouth",
+        "corners"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, colic"
+      ],
+      "generalizations": [
+        "clinical",
+        "colic"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

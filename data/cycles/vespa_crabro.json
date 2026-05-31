@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Vespa Crabro",
+  "remedy_abbrev": "Vesp.",
+  "sentence": "Driven by limb expression, Vespa Crabro manifests a dynamic cycle through face and eye, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, rash",
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous"
+      ],
+      "generalizations": [
+        "extremities",
+        "foot",
+        "swelling",
+        "eruption",
+        "coldness"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, swelling",
+        "Face, swelling, edematous",
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, expression",
+        "Face, discoloration, bluish",
+        "Face, discoloration, red",
+        "Face, pain (aching, prosopalgia, etc.)"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "swelling",
+        "edematous",
+        "pale"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, swelling, edematous",
+        "Eye, swelling",
+        "Eye, itching",
+        "Eye, lachrymation",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, swollen",
+        "Eye, swollen, lids"
+      ],
+      "generalizations": [
+        "swelling",
+        "swollen",
+        "edematous",
+        "itching",
+        "lachrymation"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, cervical region",
+        "Back, pain, burning",
+        "Back, pain, cervical region",
+        "Back, pain, sore, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, tongue",
+        "Mouth, inflammation",
+        "Mouth, tongue",
+        "Mouth, paralysis, tongue",
+        "Mouth, protruded, tongue",
+        "Mouth, paralysis",
+        "Mouth, pain, burning, raw and smarting"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "paralysis",
+        "inflammation",
+        "protruded"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, penis",
+        "Genitalia male, swelling, penis, prepuce",
+        "Genitalia male, penis",
+        "Genitalia male, prepuce",
+        "Genitalia male, swelling, scrotum",
+        "Genitalia male, swelling, penis, edematous",
+        "Genitalia male, scrotum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "swelling",
+        "penis",
+        "prepuce"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

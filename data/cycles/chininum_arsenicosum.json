@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chininum Arsenicosum",
+  "remedy_abbrev": "Chin-ar.",
+  "sentence": "Driven by mind, Chininum Arsenicosum manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sensitive, noise, to",
+        "Mind, sensitive, oversensitive",
+        "Mind, sensitive",
+        "Mind, sensitive, noise",
+        "Mind, irritability",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "sensitive",
+        "noise",
+        "restlessness",
+        "oversensitive"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "hands",
+        "foot"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, fullness",
+        "Head, pain, coryza, with",
+        "Head, pain, excitement of the emotions, after",
+        "Head, pain, fright, after",
+        "Head, pain, noise, from",
+        "Head, pain, occiput",
+        "Head, pain, air"
+      ],
+      "generalizations": [
+        "head",
+        "after",
+        "fullness",
+        "coryza",
+        "excitement"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, vomiting",
+        "Stomach, vomiting, eating, after agg.",
+        "Stomach, vomiting, eating",
+        "Stomach, vomiting, eating, after",
+        "Stomach, eructations",
+        "Stomach, pain, eating, after agg."
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eating",
+        "after",
+        "pressing"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, periodicity",
+        "Generalities, afternoon",
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, food"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "trembling",
+        "periodicity",
+        "afternoon"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, dropsy, ascites",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, flatulence",
+        "Abdomen, pain, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "distension",
+        "dropsy",
+        "ascites"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

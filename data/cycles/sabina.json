@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sabina",
+  "remedy_abbrev": "Sabin.",
+  "sentence": "Driven by limb expression, Sabina manifests a dynamic cycle through general state and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, joints",
+        "Extremities, pain, thigh",
+        "Extremities, pain, thigh, middle, of"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "joints",
+        "stitching",
+        "thigh"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, air, open, amel.",
+        "Generalities, motion, agg.",
+        "Generalities, pain, paralytic",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, externally",
+        "Generalities, touch, agg.",
+        "Generalities, warm, room agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "sore",
+        "bruised",
+        "open",
+        "amel"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, uterus",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, abortion",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, ovaries",
+        "Genitalia female, inflammation, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "inflammation",
+        "uterus",
+        "metrorrhagia"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, drawing",
+        "Back, pain, drawing, lumbar region",
+        "Back, pain, labor-like",
+        "Back, pain, lumbar region",
+        "Back, pain, pressing",
+        "Back, pain, pressing, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "drawing",
+        "pressing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, temples",
+        "Head, temples",
+        "Head, heaviness",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, sides"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "temples",
+        "heaviness",
+        "occiput"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, lasciviousness, lustful",
+        "Mind, lasciviousness",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, anxiety",
+        "Mind, anxiety, future, about",
+        "Mind, imbecility",
+        "Mind, indolence, aversion to work"
+      ],
+      "generalizations": [
+        "mind",
+        "lasciviousness",
+        "anxiety",
+        "lustful",
+        "dullness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

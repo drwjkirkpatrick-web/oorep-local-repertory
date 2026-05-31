@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Pyrogenium",
+  "remedy_abbrev": "Pyrog.",
+  "sentence": "Driven by limb expression, Pyrogenium manifests a dynamic cycle through general state and fever, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, pain, aching",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, thigh",
+        "Extremities, pain, aching, leg",
+        "Extremities, pain, motion",
+        "Extremities, pain, lower limbs, walking, amel."
+      ],
+      "generalizations": [
+        "extremities",
+        "aching",
+        "lower",
+        "limbs",
+        "thigh"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, heat",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, becoming, agg.",
+        "Generalities, cold, becoming, after, agg.",
+        "Generalities, motion, amel.",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "becoming",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Febrile dynamic"
+    },
+    {
+      "name": "Febrile dynamic",
+      "description": "Chill, heat, sweat, stages, periodicity.",
+      "symptoms": [
+        "Fever, septic fever",
+        "Fever, external heat",
+        "Fever, external heat, chilliness, with",
+        "Fever, intense heat",
+        "Fever, perspiration absent",
+        "Fever, uncovering, aversion to",
+        "Fever, uncovering",
+        "Fever, intermittent, chronic"
+      ],
+      "generalizations": [
+        "fever",
+        "heat",
+        "external",
+        "uncovering",
+        "septic"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, evening",
+        "Chill, shaking, evening",
+        "Chill, shaking, shivering, rigors",
+        "Chill, bed in",
+        "Chill, shaking",
+        "Chill, time",
+        "Chill, 7 p.m.",
+        "Chill, bed in, amel."
+      ],
+      "generalizations": [
+        "chill",
+        "shaking",
+        "shivering",
+        "rigors",
+        "time"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, perspiration",
+        "Head, pain, occiput",
+        "Head, perspiration scalp",
+        "Head, pulsating, beating, throbbing",
+        "Head, pulsating",
+        "Head, pain, pressure, amel.",
+        "Head, pain, pressure"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "pulsating",
+        "pressure",
+        "occiput"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, constipation",
+        "Rectum, diarrhea",
+        "Rectum, involuntary stool",
+        "Rectum, diarrhea, fever",
+        "Rectum, inactivity",
+        "Rectum, constipation, insufficient, incomplete, unsatisfactory stools",
+        "Rectum, diarrhea, painless",
+        "Rectum, diarrhea, septic conditions, from"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "constipation",
+        "involuntary",
+        "stool"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

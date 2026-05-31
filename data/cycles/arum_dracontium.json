@@ -1,0 +1,143 @@
+{
+  "remedy_name": "Arum Dracontium",
+  "remedy_abbrev": "Arum-d.",
+  "sentence": "Driven by limb expression, Arum Dracontium manifests a dynamic cycle through cough and ear, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, tingling, hand",
+        "Extremities, tingling",
+        "Extremities, tingling, toes",
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, itching"
+      ],
+      "generalizations": [
+        "extremities",
+        "tingling",
+        "hand",
+        "heat",
+        "swelling"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, night",
+        "Cough, croupy",
+        "Cough, evening",
+        "Cough, loose",
+        "Cough, morning, agg.",
+        "Cough, night, midnight",
+        "Cough, night, midnight, after agg.",
+        "Cough, lying"
+      ],
+      "generalizations": [
+        "cough",
+        "midnight",
+        "croupy",
+        "loose",
+        "after"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, heat",
+        "Ear, pain, behind ear",
+        "Ear, pain, stitching, in",
+        "Ear, fullness, sensation of",
+        "Ear, fullness",
+        "Ear, pain, aching",
+        "Ear, fullness, swallowing, from"
+      ],
+      "generalizations": [
+        "fullness",
+        "heat",
+        "behind",
+        "stitching",
+        "aching"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, taste",
+        "Mouth, taste, bad",
+        "Mouth, mucus",
+        "Mouth, aphthae, tongue",
+        "Mouth, mucus, tongue",
+        "Mouth, mucus, tongue, collection of, on",
+        "Mouth, taste, bad, morning"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "mucus",
+        "tongue",
+        "aphthae"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, itching",
+        "Genitalia male, itching, scrotum",
+        "Genitalia male, scrotum",
+        "Genitalia male, pain",
+        "Genitalia male, pain, stitching",
+        "Genitalia male, pain, stitching, spermatic cords",
+        "Genitalia male, spermatic cord"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "itching",
+        "scrotum",
+        "stitching"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, aching, dull pain, lumbar region, menses",
+        "Back, pain, aching, dull pain, lumbar region, menses, before",
+        "Back, lumbar region",
+        "Back, pain, aching"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "remedy_name": "Saccharum Lactis",
+  "remedy_abbrev": "Sac-l.",
+  "sentence": "Driven by mind, Saccharum Lactis manifests a dynamic cycle through back and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, delusions, people",
+        "Mind, delusions, people, beside him are",
+        "Mind, homesickness",
+        "Mind, home",
+        "Mind, delusions, behind him"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "people",
+        "beside",
+        "homesickness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, pain, zigzag, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "left",
+        "right"
+      ],
+      "next_segment": "Mental mental disturbance"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "remedy_name": "Prunus Padus",
+  "remedy_abbrev": "Prun-p.",
+  "sentence": "Driven by heart & circulation, Prunus Padus manifests a dynamic cycle through chest and heart, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, oppression, heart",
+        "Heart & Circulation, oppression, heart, standing",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, oppression"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "oppression",
+        "standing"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression"
+      ],
+      "generalizations": [
+        "chest",
+        "oppression"
+      ],
+      "next_segment": "Heart state"
+    },
+    {
+      "name": "Heart state",
+      "description": "Characteristic heart symptoms.",
+      "symptoms": [
+        "heart symptoms characteristic of Prunus Padus"
+      ],
+      "generalizations": [
+        "heart",
+        "symptoms",
+        "characteristic",
+        "prunus",
+        "padus"
+      ],
+      "next_segment": "Cardiac rhythm"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Hippomanes",
+  "remedy_abbrev": "Hipp.",
+  "sentence": "Driven by head, Hippomanes manifests a dynamic cycle through mind and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, temples",
+        "Head, temples",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, heaviness",
+        "Head, pain, forehead, in"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, sit, inclination to",
+        "Mind, sits",
+        "Mind, sits, still",
+        "Mind, company aversion to",
+        "Mind, talking, indisposed to, desire to be silent, taciturn",
+        "Mind, talking, indisposed to"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "sits",
+        "talking",
+        "indisposed"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "paralysis",
+        "foot"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, itching",
+        "Back, itching, dorsal region, scapulae",
+        "Back, itching, dorsal region, scapulae, between",
+        "Back, itching, dorsal region",
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "itching",
+        "region",
+        "dorsal",
+        "scapulae"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, constriction, contraction",
+        "Rectum, constriction, contraction, spasmodic",
+        "Rectum, constriction",
+        "Rectum, pain",
+        "Rectum, constriction, contraction, closure, etc.",
+        "Rectum, flatus",
+        "Rectum, pain, tenesmus",
+        "Rectum, pain, tenesmus, stool, during"
+      ],
+      "generalizations": [
+        "rectum",
+        "constriction",
+        "contraction",
+        "tenesmus",
+        "spasmodic"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, formication",
+        "Genitalia male, itching",
+        "Genitalia male, itching, scrotum",
+        "Genitalia male, pain",
+        "Genitalia male, pain, drawing, testes",
+        "Genitalia male, pain, penis",
+        "Genitalia male, sexual passion, increased",
+        "Genitalia male, pain, drawing"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "itching",
+        "drawing",
+        "formication"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

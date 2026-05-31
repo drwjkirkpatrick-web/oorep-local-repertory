@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Terebinthiniae Oleum",
+  "remedy_abbrev": "Ter.",
+  "sentence": "Driven by limb expression, Terebinthiniae Oleum manifests a dynamic cycle through abdomen and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous",
+        "Extremities, swelling, leg",
+        "Extremities, swelling, lower limbs",
+        "Extremities, swelling, lower limbs, dropsical"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "foot",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, dropsy, ascites",
+        "Abdomen, inflammation",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, sore, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sore",
+        "distension",
+        "dropsy",
+        "ascites"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, tongue",
+        "Mouth, pain",
+        "Mouth, aphthae",
+        "Mouth, discoloration, tongue, red",
+        "Mouth, pain, sore",
+        "Mouth, pain, sore, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "dryness",
+        "sore",
+        "aphthae"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, cloudy",
+        "Urine, cloudy, standing, on",
+        "Urine, sugar",
+        "Urine, color",
+        "Urine, albuminous",
+        "Urine, bloody",
+        "Urine, color, dark",
+        "Urine, scanty"
+      ],
+      "generalizations": [
+        "urine",
+        "cloudy",
+        "color",
+        "standing",
+        "sugar"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, inflammation",
+        "Bladder, pain",
+        "Bladder, pain, burning",
+        "Bladder, pain, sore, tender",
+        "Bladder, tenesmus",
+        "Bladder, urination, dribbling (by drops)"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "frequent",
+        "inflammation",
+        "burning"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, shooting",
+        "Head, constriction, band or hoop",
+        "Head, fullness",
+        "Head, constriction",
+        "Head, pulsating",
+        "Head, pulsating, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "constriction",
+        "pulsating",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "remedy_name": "Rhus Aromatica",
+  "remedy_abbrev": "Rhus-a.",
+  "sentence": "Driven by bladder, Rhus Aromatica manifests a dynamic cycle through urine and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), painful",
+        "Bladder, urination, dysuria",
+        "Bladder, urination, involuntary, daytime",
+        "Bladder, urination, involuntary, daytime, and night",
+        "Bladder, night"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "involuntary",
+        "urging",
+        "urinate"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, bloody"
+      ],
+      "generalizations": [
+        "urine",
+        "bloody"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

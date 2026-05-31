@@ -1,0 +1,61 @@
+{
+  "remedy_name": "Homarus Gammarus",
+  "remedy_abbrev": "Hom.",
+  "sentence": "Driven by face, Homarus Gammarus manifests a dynamic cycle through stomach and rectum, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), right",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "right"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, indigestion (includes complaints after substances not otherwise described)"
+      ],
+      "generalizations": [
+        "stomach",
+        "indigestion",
+        "includes",
+        "complaints",
+        "after"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, constipation",
+        "Rectum, constipation, alternating with diarrhea"
+      ],
+      "generalizations": [
+        "rectum",
+        "constipation",
+        "alternating",
+        "diarrhea"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    }
+  ]
+}

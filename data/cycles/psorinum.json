@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Psorinum",
+  "remedy_abbrev": "Psor.",
+  "sentence": "Driven by limb expression, Psorinum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, lower limbs",
+        "Extremities, eruption, upper limbs",
+        "Extremities, itching",
+        "Extremities, pain, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "limbs",
+        "weakness",
+        "hand"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, coughing, on agg.",
+        "Head, pain, pressing",
+        "Head, pain, pulsating"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "headache",
+        "general",
+        "congestion"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, anxiety",
+        "Mind, anxiety, fear, with",
+        "Mind, despair",
+        "Mind, fear, evil of",
+        "Mind, fear, misfortune, of"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "sadness",
+        "anxiety",
+        "mental"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, irritability",
+        "Generalities, heat, flushes of",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "heat",
+        "cold",
+        "enervation"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), jaw",
+        "Face, eruptions",
+        "Face, eruptions, vesicles",
+        "Face, eruptions, eczema",
+        "Face, eruptions, scurfy",
+        "Face, eruptions, acne"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "aching",
+        "prosopalgia",
+        "discoloration"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, pressing",
+        "Back, pain, pressing, lumbar region",
+        "Back, pain, aching, dull pain, walking, while",
+        "Back, pain, aching, dull pain, walking",
+        "Back, eruptions",
+        "Back, pain, pressing, lumbar region, motion, during"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "pressing",
+        "lumbar"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

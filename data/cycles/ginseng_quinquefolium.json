@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ginseng Quinquefolium",
+  "remedy_abbrev": "Gins.",
+  "sentence": "Driven by limb expression, Ginseng Quinquefolium manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "stiffness",
+        "cramps"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, exertion of body, etc. agg.",
+        "Head, pain, forehead, in",
+        "Head, pain, exertion of body",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "exertion",
+        "body",
+        "forehead",
+        "heat"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lancinating",
+        "Back, pain, lancinating, dorsal region",
+        "Back, pain, lancinating, dorsal region, scapulae, between",
+        "Back, pain, lancinating, dorsal region, scapulae",
+        "Back, coldness",
+        "Back, pain, dorsal region",
+        "Back, coldness, extending"
+      ],
+      "generalizations": [
+        "back",
+        "lancinating",
+        "dorsal",
+        "region",
+        "scapulae"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, lancinating",
+        "Abdomen, pain, hypogastrium, extending",
+        "Abdomen, pain, hypogastrium, right",
+        "Abdomen, pain, hypogastrium, extending, groin",
+        "Abdomen, pain, hypogastrium, extending, lower limbs with painful tingling",
+        "Abdomen, pain, lancinating, right"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "extending",
+        "lancinating",
+        "right"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, fear",
+        "Mind, anxiety"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "nervousness",
+        "sluggishness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, lancinating",
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, pain, pressing",
+        "Stomach, eructations, sour",
+        "Stomach, thirst",
+        "Stomach, distension"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "lancinating",
+        "empty",
+        "pressing"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

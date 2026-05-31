@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Agnus Castus",
+  "remedy_abbrev": "Agn.",
+  "sentence": "Driven by limb expression, Agnus Castus manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, pain",
+        "Extremities, coldness, knee",
+        "Extremities, pain, joints",
+        "Extremities, perspiration",
+        "Extremities, perspiration, hand",
+        "Extremities, pain, joints, gouty",
+        "Extremities, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "knee",
+        "joints",
+        "perspiration"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, gnawing",
+        "Generalities, pain, gnawing, externally",
+        "Generalities, pressure, amel.",
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, pressure",
+        "Generalities, side"
+      ],
+      "generalizations": [
+        "generalities",
+        "gnawing",
+        "pressure",
+        "side",
+        "externally"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, memory, weakness of",
+        "Mind, death",
+        "Mind, indifference",
+        "Mind, forgetful"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "indifference",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, stitching",
+        "Head, pain, stitching, forehead",
+        "Head, pain, tearing, temples",
+        "Head, pain, tea",
+        "Head, pain, tearing",
+        "Head, pain, tearing, forehead",
+        "Head, pain, tearing, rending"
+      ],
+      "generalizations": [
+        "head",
+        "tearing",
+        "stitching",
+        "forehead",
+        "temples"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, sexual passion, diminished",
+        "Genitalia male, sexual passion",
+        "Genitalia male, coldness",
+        "Genitalia male, coldness, penis",
+        "Genitalia male, erections, incomplete",
+        "Genitalia male, erections, wanting (impotency)",
+        "Genitalia male, flaccidity",
+        "Genitalia male, flaccidity, penis"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "sexual",
+        "passion",
+        "coldness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, stitching, hips and loin region",
+        "Abdomen, pain, stitching, hip",
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, dropsy, ascites",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, heaviness"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "hips",
+        "loin",
+        "region"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

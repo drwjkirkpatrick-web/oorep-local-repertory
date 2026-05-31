@@ -1,0 +1,111 @@
+{
+  "remedy_name": "Cereus Serpentinus",
+  "remedy_abbrev": "Cere-s.",
+  "sentence": "Driven by limb expression, Cereus Serpentinus manifests a dynamic cycle through genitalia male and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, aching",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, aching, hand",
+        "Extremities, pain, upper limbs, writing, while",
+        "Extremities, pain, aching, hand, extending to elbow",
+        "Extremities, upper limbs",
+        "Extremities, elbow"
+      ],
+      "generalizations": [
+        "extremities",
+        "aching",
+        "upper",
+        "limbs",
+        "hand"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, atrophy",
+        "Genitalia male, coldness",
+        "Genitalia male, coldness, testes",
+        "Genitalia male, pain, testes",
+        "Genitalia male, pain, testes, night",
+        "Genitalia male, testes",
+        "Genitalia male, night"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "testes",
+        "coldness",
+        "atrophy"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, mucus"
+      ],
+      "generalizations": [
+        "throat",
+        "mucus"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, heart, exertion",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pain"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "exertion"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain"
+      ],
+      "generalizations": [
+        "chest"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Cereus Serpentinus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "cereus",
+        "serpentinus"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

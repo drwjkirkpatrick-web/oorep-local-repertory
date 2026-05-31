@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Crotalus Horridus",
+  "remedy_abbrev": "Crot-h.",
+  "sentence": "Driven by limb expression, Crotalus Horridus manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, numbness, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "hands",
+        "paralysis"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, shooting",
+        "Head, pain, vertex",
+        "Head, pain, dull",
+        "Head, pain, extending"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "headache",
+        "general",
+        "heaviness"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, delirium",
+        "Mind, delusions, animals, of"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "irritability",
+        "sluggishness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, protruded, tongue",
+        "Mouth, swelling",
+        "Mouth, swelling, tongue",
+        "Mouth, bleeding",
+        "Mouth, inflammation",
+        "Mouth, inflammation, tongue",
+        "Mouth, bleeding, gums",
+        "Mouth, bleeding, gums, easily"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "bleeding",
+        "swelling",
+        "inflammation"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, vomiting, blood",
+        "Stomach, nausea, deathly",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, fluid",
+        "Stomach, heaviness, weight, oppression"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "vomiting",
+        "eructations",
+        "blood"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, side, right",
+        "Generalities, faintness",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, weakness, exertion, from slight",
+        "Generalities, weakness, sudden",
+        "Generalities, sleep"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "faintness",
+        "side",
+        "fainting"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

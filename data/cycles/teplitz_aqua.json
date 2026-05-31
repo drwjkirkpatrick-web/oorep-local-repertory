@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Teplitz Aqua",
+  "remedy_abbrev": "Tep.",
+  "sentence": "Driven by limb expression, Teplitz Aqua manifests a dynamic cycle through back and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, thigh",
+        "Extremities, thigh",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, motion",
+        "Extremities, stiffness",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "thigh",
+        "hands",
+        "paralysis"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, drawing",
+        "Back, pain, drawing, cervical region",
+        "Back, pain, drawing, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "drawing",
+        "dorsal",
+        "aching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, extending",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, pain, stitching, hypochondria, right",
+        "Abdomen, tension"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "hypochondria",
+        "extending",
+        "hypogastrium"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, testes",
+        "Genitalia male, pain, drawing",
+        "Genitalia male, pain, sore",
+        "Genitalia male, eruptions",
+        "Genitalia male, pain, drawing, spermatic cords",
+        "Genitalia male, pain, sore, penis"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "swelling",
+        "drawing",
+        "sore"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, thirst",
+        "Stomach, fullness, sensation of",
+        "Stomach, nausea, headache, during"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "eructations",
+        "burning",
+        "vomiting"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, memory, weakness of",
+        "Mind, company aversion to",
+        "Mind, reading",
+        "Mind, spoken to, averse to being",
+        "Mind, memory, weakness of, business, for",
+        "Mind, memory, weakness of, read, for what has",
+        "Mind, memory, weakness of, said, for what has"
+      ],
+      "generalizations": [
+        "mind",
+        "memory",
+        "weakness",
+        "what",
+        "irritability"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

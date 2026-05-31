@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Juglans Regia",
+  "remedy_abbrev": "Jug-r.",
+  "sentence": "Driven by limb expression, Juglans Regia manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, upper limbs",
+        "Extremities, eruption, upper limbs, scabs",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "upper",
+        "limbs",
+        "scabs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, forehead",
+        "Head, itching of scalp",
+        "Head, pain, burning",
+        "Head, pain, cutting, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "spleen",
+        "distension",
+        "aching"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, eczema",
+        "Skin, eruptions, itching",
+        "Skin, itching",
+        "Skin, eruptions, vesicular",
+        "Skin, eruptions, vesicular, itching",
+        "Skin, eruptions, herpetic",
+        "Skin, eruptions, boils"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "itching",
+        "vesicular",
+        "eczema"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, confusion",
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, concentration, difficult",
+        "Mind, confusion, morning",
+        "Mind, indolence, aversion to work",
+        "Mind, talking, indisposed to, desire to be silent, taciturn"
+      ],
+      "generalizations": [
+        "mind",
+        "confusion",
+        "excitement",
+        "irritability",
+        "excitable"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, oppression",
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, pain, stitching",
+        "Chest, eruptions",
+        "Chest, itching",
+        "Chest, itching, mammae",
+        "Chest, itching, axilla"
+      ],
+      "generalizations": [
+        "chest",
+        "itching",
+        "oppression",
+        "burning",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

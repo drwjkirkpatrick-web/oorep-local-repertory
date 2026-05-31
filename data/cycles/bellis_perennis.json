@@ -1,0 +1,113 @@
+{
+  "remedy_name": "Bellis Perennis",
+  "remedy_abbrev": "Bell-p.",
+  "sentence": "Driven by chest, Bellis Perennis manifests a dynamic cycle through genitalia female and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, cancer, mammae",
+        "Chest, induration, mammae",
+        "Chest, cancer",
+        "Chest, nodules",
+        "Chest, nodules, mammae",
+        "Chest, cancer, mammae, contusion, from",
+        "Chest, induration, mammae, contusion, after",
+        "Chest, nodules, mammae, in"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "cancer",
+        "nodules",
+        "induration"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, sore",
+        "Genitalia female, pain, sore, uterus",
+        "Genitalia female, pain, sore, uterus, pregnancy",
+        "Genitalia female, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "sore",
+        "uterus",
+        "pregnancy"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, walls of abdomen (muscles, etc.)"
+      ],
+      "generalizations": [
+        "abdomen",
+        "walls",
+        "muscles"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, injuries (including blows, falls and bruises)",
+        "Clinical, injuries (including blows"
+      ],
+      "generalizations": [
+        "clinical",
+        "injuries",
+        "including",
+        "blows",
+        "falls"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Bellis Perennis"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "bellis",
+        "perennis"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "generalities symptoms characteristic of Bellis Perennis"
+      ],
+      "generalizations": [
+        "generalities",
+        "symptoms",
+        "characteristic",
+        "bellis",
+        "perennis"
+      ],
+      "next_segment": "Thoracic condition"
+    }
+  ]
+}

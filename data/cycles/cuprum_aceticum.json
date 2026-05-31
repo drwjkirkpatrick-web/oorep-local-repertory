@@ -1,0 +1,140 @@
+{
+  "remedy_name": "Cuprum Aceticum",
+  "remedy_abbrev": "Cupr-acet.",
+  "sentence": "Driven by mouth, Cuprum Aceticum manifests a dynamic cycle through stomach and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, speech, difficult",
+        "Mouth, speech",
+        "Mouth, speech, difficult, chorea, from",
+        "Mouth, discoloration, redness",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste",
+        "Mouth, discoloration, palate, red"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "speech",
+        "difficult",
+        "chorea"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, nausea",
+        "Stomach, nausea, morning",
+        "Stomach, vomiting",
+        "Stomach, pain, extending"
+      ],
+      "generalizations": [
+        "stomach",
+        "sore",
+        "nausea",
+        "eructations",
+        "bruised"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, discoloration",
+        "Throat, membrane, exudation, diphtheria, etc.",
+        "Throat, membrane",
+        "Throat, discoloration, redness, dark red",
+        "Throat, inflammation",
+        "Throat, pain, swallowing, on"
+      ],
+      "generalizations": [
+        "throat",
+        "discoloration",
+        "redness",
+        "membrane",
+        "exudation"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, anxiety, in",
+        "Chest, anxiety",
+        "Chest, pain",
+        "Chest, pain, sore",
+        "Chest, coldness",
+        "Chest, pain, sore, sides",
+        "Chest, pain, sore, sides, right",
+        "Chest, coldness, sternum"
+      ],
+      "generalizations": [
+        "chest",
+        "sore",
+        "anxiety",
+        "coldness",
+        "sides"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, drawing",
+        "Head, pain, drawing, sides",
+        "Head, swollen, distended, feeling",
+        "Head, swollen",
+        "Head, pain, drawing, sides, extending",
+        "Head, pain, drawing, sides, extending, neck",
+        "Head, swollen, distended"
+      ],
+      "generalizations": [
+        "head",
+        "drawing",
+        "sides",
+        "swollen",
+        "distended"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, sobbing",
+        "Respiration, impeded",
+        "Respiration, impeded, constriction of chest"
+      ],
+      "generalizations": [
+        "respiration",
+        "impeded",
+        "sobbing",
+        "constriction",
+        "chest"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

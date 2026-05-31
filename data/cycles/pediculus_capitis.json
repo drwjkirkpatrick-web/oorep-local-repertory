@@ -1,0 +1,47 @@
+{
+  "remedy_name": "Pediculus Capitis",
+  "remedy_abbrev": "Ped.",
+  "sentence": "Driven by head, Pediculus Capitis manifests a dynamic cycle through general state and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, evening agg.",
+        "Head, pain, forehead, evening",
+        "Head, forehead",
+        "Head, evening"
+      ],
+      "generalizations": [
+        "head",
+        "forehead"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, weakness, morning",
+        "Generalities, weakness, morning, 9 a.m. agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "remedy_name": "Narcotinum",
+  "remedy_abbrev": "Narcot.",
+  "sentence": "Driven by appetite, Narcotinum manifests a dynamic cycle through stomach and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, diminished",
+        "Appetite, diminished, morning"
+      ],
+      "generalizations": [
+        "appetite",
+        "diminished"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, morning"
+      ],
+      "generalizations": [
+        "stomach"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, heat"
+      ],
+      "generalizations": [
+        "face",
+        "heat"
+      ],
+      "next_segment": "Appetite state"
+    }
+  ]
+}

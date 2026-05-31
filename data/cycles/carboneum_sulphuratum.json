@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Carboneum Sulphuratum",
+  "remedy_abbrev": "Carbn-s.",
+  "sentence": "Driven by limb expression, Carboneum Sulphuratum manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, cramps, calf",
+        "Extremities, cramps, foot",
+        "Extremities, cramps, foot, sole"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "foot",
+        "coldness",
+        "numbness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, morning",
+        "Generalities, numbness, externally",
+        "Generalities, numbness",
+        "Generalities, collapse",
+        "Generalities, night"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "numbness",
+        "internally",
+        "externally"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, memory, weakness of",
+        "Mind, weeping",
+        "Mind, anxiety",
+        "Mind, forgetful"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "irritability",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, eruption",
+        "Head, heaviness",
+        "Head, hair",
+        "Head, fullness",
+        "Head, fullness, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "fullness",
+        "hyperemia",
+        "eruption"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, eructations, ameliorate",
+        "Stomach, eructations, eating, after",
+        "Stomach, fullness, sensation of"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "empty",
+        "pressing",
+        "nausea"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, inflammation, lids",
+        "Eye, pain, burning, smarting, biting",
+        "Eye, photophobia",
+        "Eye, redness, lids"
+      ],
+      "generalizations": [
+        "inflammation",
+        "redness",
+        "lids",
+        "conjunctiva",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

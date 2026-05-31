@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Asterias Rubens",
+  "remedy_abbrev": "Aster.",
+  "sentence": "Driven by limb expression, Asterias Rubens manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, lameness",
+        "Extremities, contraction",
+        "Extremities, contraction, leg",
+        "Extremities, coldness",
+        "Extremities, convulsion",
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, stiffness"
+      ],
+      "generalizations": [
+        "extremities",
+        "contraction",
+        "motion",
+        "lameness",
+        "coldness"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, fear",
+        "Mind, unconsciousness",
+        "Mind, anxiety",
+        "Mind, excitement",
+        "Mind, anxiety, night",
+        "Mind, excitement, night",
+        "Mind, fear, apoplexy, of"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "anxiety",
+        "excitement",
+        "irritability"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, congestion",
+        "Head, fullness",
+        "Head, congestion, night",
+        "Head, fullness, night",
+        "Head, night",
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion, hyperemia, etc."
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "fullness",
+        "heat",
+        "hyperemia"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, drawing",
+        "Chest, pulsation",
+        "Chest, cancer, mammae",
+        "Chest, induration, mammae",
+        "Chest, cancer",
+        "Chest, pain, mammae",
+        "Chest, pain, drawing, extending"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "drawing",
+        "cancer",
+        "pulsation"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side",
+        "Generalities, side, left",
+        "Generalities, cold",
+        "Generalities, cold, wet weather agg.",
+        "Generalities, sycosis",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "cold",
+        "weakness",
+        "left"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, convulsions, consciousness, with",
+        "Clinical, convulsions, consciousness, without",
+        "Clinical, convulsions, epileptic",
+        "Clinical, convulsions, consciousness",
+        "Clinical, cancer",
+        "Clinical, convulsions, excitement, from",
+        "Clinical, convulsions, falling, with"
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "consciousness",
+        "epileptic",
+        "cancer"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

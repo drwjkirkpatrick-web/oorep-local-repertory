@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Paeonia Officinalis",
+  "remedy_abbrev": "Paeon.",
+  "sentence": "Driven by limb expression, Paeonia Officinalis manifests a dynamic cycle through rectum and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, ulcers",
+        "Extremities, swelling, toes",
+        "Extremities, ulcers, toes",
+        "Extremities, ulcers, toes, first",
+        "Extremities, toes",
+        "Extremities, coldness",
+        "Extremities, convulsion"
+      ],
+      "generalizations": [
+        "extremities",
+        "toes",
+        "ulcers",
+        "swelling",
+        "first"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, hemorrhoids",
+        "Rectum, hemorrhoids, congested",
+        "Rectum, hemorrhoids, strangulated",
+        "Rectum, hemorrhoids, wiping after stool agg.",
+        "Rectum, pain, sore",
+        "Rectum, pain, burning",
+        "Rectum, itching"
+      ],
+      "generalizations": [
+        "rectum",
+        "hemorrhoids",
+        "congested",
+        "strangulated",
+        "wiping"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, fullness",
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, forehead",
+        "Head, heaviness, morning"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heaviness",
+        "fullness",
+        "heat"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, swollen sensation",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, weakness",
+        "Generalities, eating",
+        "Generalities, eating, after, amel."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "eating",
+        "swollen",
+        "enervation"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams, nightmare",
+        "Sleep, dreams",
+        "Sleep, sleepiness",
+        "Sleep, disturbed",
+        "Sleep, disturbed, dreams, by",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, anxious",
+        "Sleep, dreams, frightful"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "disturbed",
+        "nightmare",
+        "sleepiness"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, ulcers",
+        "Skin, ulcers, discharges",
+        "Skin, ulcers, discharges, offensive",
+        "Skin, ulcers, pressing",
+        "Skin, itching",
+        "Skin, cracks",
+        "Skin, itching, biting",
+        "Skin, ulcers, sensitive"
+      ],
+      "generalizations": [
+        "skin",
+        "ulcers",
+        "discharges",
+        "itching",
+        "offensive"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Inula Helenium",
+  "remedy_abbrev": "Inul.",
+  "sentence": "Driven by limb expression, Inula Helenium manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, cramps",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, cramps, calf",
+        "Extremities, discoloration, hand, blueness",
+        "Extremities, itching"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "cramps",
+        "hands",
+        "numbness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, morning agg.",
+        "Head, pain, stitching",
+        "Head, pain, stitching, forehead",
+        "Head, pain, temples",
+        "Head, pain, temples, evening",
+        "Head, pain, forehead, morning"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "stitching",
+        "temples"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, umbilicus, region of",
+        "Abdomen, pain, menses, during",
+        "Abdomen, pain, menses",
+        "Abdomen, pain, menses, appear, as if, would",
+        "Abdomen, pain, cramping, griping, umbilicus, region of, evening",
+        "Abdomen, pain, cramping, griping, umbilicus, region of, evening, stool, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "umbilicus",
+        "region"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, menses",
+        "Genitalia female, pain, bearing down",
+        "Genitalia female, pain, stitching, uterus",
+        "Genitalia female, prolapse, uterus",
+        "Genitalia female, pain, bearing down, uterus",
+        "Genitalia female, menses, appear, as if would"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "uterus",
+        "stitching",
+        "menses"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, pain, stitching",
+        "Nose, pain, stitching, root",
+        "Nose, pain",
+        "Nose, itching",
+        "Nose, itching, inside",
+        "Nose, pain, extending",
+        "Nose, pain, extending to",
+        "Nose, itching, inside, root"
+      ],
+      "generalizations": [
+        "nose",
+        "itching",
+        "stitching",
+        "root",
+        "inside"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, menses, during",
+        "Back, pain, breathing, when",
+        "Back, pain, aching, dull pain, menses",
+        "Back, pain, aching, dull pain, breathing",
+        "Back, pain, aching, dull pain, breathing, when",
+        "Back, dorsal region, back, left, right"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "breathing",
+        "menses"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

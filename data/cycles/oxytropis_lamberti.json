@@ -1,0 +1,68 @@
+{
+  "remedy_name": "Oxytropis Lamberti",
+  "remedy_abbrev": "Oxyt.",
+  "sentence": "Driven by mind, Oxytropis Lamberti manifests a dynamic cycle through general state and gemüt, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, company aversion to",
+        "Mind, imbecility",
+        "Mind, thinking, complaints, of, agg.",
+        "Mind, thinking",
+        "Mind, thinking, complaints, of",
+        "Mind, company",
+        "Mind, thinking, complaints",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "thinking",
+        "complaints",
+        "company",
+        "aversion"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, cutting",
+        "Generalities, numbness, externally",
+        "Generalities, numbness",
+        "Generalities, lassitude",
+        "Generalities, pain, cutting externally",
+        "Generalities, sleep, after, amel.",
+        "Generalities, warm, room agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "cutting",
+        "numbness",
+        "externally",
+        "lassitude"
+      ],
+      "next_segment": "Core mental state / inner conflict"
+    },
+    {
+      "name": "Core mental state / inner conflict",
+      "description": "The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Gemüt, Sprechen"
+      ],
+      "generalizations": [
+        "sprechen"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

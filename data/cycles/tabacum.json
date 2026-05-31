@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Tabacum",
+  "remedy_abbrev": "Tab.",
+  "sentence": "Driven by limb expression, Tabacum manifests a dynamic cycle through mind and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, convulsion",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, coldness, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "paralysis",
+        "convulsion"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, size",
+        "Mind, comprehension",
+        "Mind, comprehension, difficult",
+        "Mind, size distance and form",
+        "Mind, weeping, amel.",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending"
+      ],
+      "generalizations": [
+        "mind",
+        "size",
+        "comprehension",
+        "restlessness",
+        "difficult"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, hiccough",
+        "Stomach, vomiting, pregnancy, during",
+        "Stomach, vomiting, sour",
+        "Stomach, emptiness, weak feeling, faintness, goneness, hungry feeling",
+        "Stomach, nausea, pregnancy, during"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "nausea",
+        "pregnancy",
+        "during"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, gastric",
+        "Head, perspiration, forehead",
+        "Head, perspiration, forehead, cold",
+        "Head, perspiration"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "congestion",
+        "forehead",
+        "hyperemia"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, emptiness",
+        "Abdomen, colic",
+        "Abdomen, pain",
+        "Abdomen, coldness",
+        "Abdomen, heat",
+        "Abdomen, hernia, inguinal",
+        "Abdomen, hernia, inguinal, inflammation",
+        "Abdomen, hernia, inguinal, inflammation, with vomiting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hernia",
+        "inguinal",
+        "inflammation",
+        "emptiness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, opisthotonos",
+        "Back, pain, cervical region",
+        "Back, pain, sore, lumbar region",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, pain, sore",
+        "Back, pulsating, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "cervical",
+        "sore",
+        "stiffness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

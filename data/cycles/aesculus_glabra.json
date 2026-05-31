@@ -1,0 +1,48 @@
+{
+  "remedy_name": "Aesculus Glabra",
+  "remedy_abbrev": "Aesc-g.",
+  "sentence": "Driven by mouth, Aesculus Glabra manifests a dynamic cycle through limb disturbance and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, speech",
+        "Mouth, lame tongue",
+        "Mouth, lame tongue, as if",
+        "Mouth, speech, thick",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "speech",
+        "lame",
+        "thick"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, lameness",
+        "Extremities, lameness, lower limbs",
+        "Extremities, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "lameness",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Borax Veneta",
+  "remedy_abbrev": "Bor.",
+  "sentence": "Driven by mind, Borax Veneta manifests a dynamic cycle through general state and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fear",
+        "Mind, speech",
+        "Mind, anxiety",
+        "Mind, mildness",
+        "Mind, sensitive, noise, to",
+        "Mind, sensitive, oversensitive",
+        "Mind, speech, shrieking",
+        "Mind, starting, fright, from"
+      ],
+      "generalizations": [
+        "mind",
+        "speech",
+        "sensitive",
+        "fear",
+        "anxiety"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, descending agg.",
+        "Generalities, nursing children",
+        "Generalities, pain, stitching, internally",
+        "Generalities, sleep, during, agg.",
+        "Generalities, menses"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "right",
+        "descending",
+        "nursing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, foot",
+        "Extremities, pain, thigh",
+        "Extremities, pain, stitching, foot, sole",
+        "Extremities, pain, thigh, chill, during",
+        "Extremities, thigh",
+        "Extremities, corns"
+      ],
+      "generalizations": [
+        "extremities",
+        "stitching",
+        "thigh",
+        "foot",
+        "sole"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, fullness",
+        "Head, pain, forenoon",
+        "Head, pain, forenoon, 10 a.m.",
+        "Head, fullness, descending, on",
+        "Head, forenoon",
+        "Head, pain, headache in general"
+      ],
+      "generalizations": [
+        "head",
+        "forenoon",
+        "fullness",
+        "heat",
+        "descending"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, cough, during",
+        "Chest, pain, inhalation, during agg.",
+        "Chest, pain, respiration",
+        "Chest, pain, sides",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, coughing",
+        "Chest, pain, stitching, inhaling"
+      ],
+      "generalizations": [
+        "chest",
+        "stitching",
+        "during",
+        "cough",
+        "inhalation"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cramping, griping, menses, during",
+        "Abdomen, pain, evening",
+        "Abdomen, pain, menses, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "menses",
+        "during"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "remedy_name": "Gettysburg Aqua",
+  "remedy_abbrev": "Get.",
+  "sentence": "Driven by mind, Gettysburg Aqua manifests a dynamic cycle through limb disturbance and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, restlessness, night, 1 a.m.",
+        "Mind, night"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, hand",
+        "Extremities, pain, hand, grasping anything"
+      ],
+      "generalizations": [
+        "extremities",
+        "hand",
+        "grasping",
+        "anything"
+      ],
+      "next_segment": "Mental mental disturbance"
+    }
+  ]
+}

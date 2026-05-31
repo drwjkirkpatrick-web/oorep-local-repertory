@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cimicifuga Racemosa",
+  "remedy_abbrev": "Cimic.",
+  "sentence": "Driven by head, Cimicifuga Racemosa manifests a dynamic cycle through back and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, pain, vertex",
+        "Head, pain, forehead",
+        "Head, congestion, menses, suppressed, from",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "vertex",
+        "pressing",
+        "forehead"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, cervical region",
+        "Back, pain, cervical region, rheumatic",
+        "Back, pain, drawing",
+        "Back, pain, drawing, cervical region",
+        "Back, pain, drawing, dorsal region",
+        "Back, pain, drawing, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "drawing",
+        "dorsal",
+        "cervical"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore",
+        "Extremities, motion",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "sore",
+        "bruised",
+        "motion",
+        "stiffness"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, fear",
+        "Mind, delusions",
+        "Mind, excitement, excitable"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "nervousness",
+        "mental"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, stitching",
+        "Genitalia female, menses",
+        "Genitalia female, contractions",
+        "Genitalia female, contractions, os, spasmodic, during labor",
+        "Genitalia female, menses, painful, dysmenorrhea",
+        "Genitalia female, pain, cramping",
+        "Genitalia female, pain, cramping, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "contractions",
+        "cramping"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, cold, air agg.",
+        "Generalities, constriction, externally",
+        "Generalities, full feeling, internally",
+        "Generalities, pain, pressing, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "trembling",
+        "externally",
+        "internally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

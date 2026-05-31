@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Heroinum",
+  "remedy_abbrev": "Herin.",
+  "sentence": "Driven by mind, Heroinum manifests a dynamic cycle through sleep and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, heedless",
+        "Mind, irritability",
+        "Mind, quiet",
+        "Mind, restlessness",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, cruelty"
+      ],
+      "generalizations": [
+        "mind",
+        "heedless",
+        "irritability",
+        "quiet",
+        "restlessness"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, disturbed",
+        "Sleep, sleeplessness",
+        "Sleep, interrupted",
+        "Sleep, position",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, anxious",
+        "Sleep, dreams, clairvoyant"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleepiness",
+        "disturbed",
+        "sleeplessness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, tingling, hand",
+        "Extremities, tingling, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "tingling",
+        "hands",
+        "foot"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, vertex",
+        "Head, tingling",
+        "Head, pain, forehead",
+        "Head, constriction, band or hoop"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "congestion",
+        "heaviness",
+        "vertex"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, eating",
+        "Generalities, numbness, externally",
+        "Generalities, trembling, externally",
+        "Generalities, irritability"
+      ],
+      "generalizations": [
+        "generalities",
+        "externally",
+        "faintness",
+        "weakness",
+        "eating"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, inflammation",
+        "Chest, anxiety, in",
+        "Chest, anxiety",
+        "Chest, constriction, sides",
+        "Chest, heat",
+        "Chest, pain, cough, during"
+      ],
+      "generalizations": [
+        "chest",
+        "anxiety",
+        "burning",
+        "inflammation",
+        "constriction"
+      ],
+      "next_segment": "Mental withdrawal"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "remedy_name": "Cereus Bonplandii",
+  "remedy_abbrev": "Cere-b.",
+  "sentence": "Driven by mind, Cereus Bonplandii manifests a dynamic cycle through eye and heart & circulation, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delusions",
+        "Mind, mistakes",
+        "Mind, mistakes, in",
+        "Mind, loathing",
+        "Mind, loathing, life",
+        "Mind, industrious",
+        "Mind, men",
+        "Mind, praying"
+      ],
+      "generalizations": [
+        "mind",
+        "mistakes",
+        "loathing",
+        "delusions",
+        "life"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, pain, aching",
+        "Eye, pain, pressing, pressure, etc.",
+        "Eye, photophobia",
+        "Eye, pain, pressing",
+        "Eye, pain, rising, when"
+      ],
+      "generalizations": [
+        "pressing",
+        "aching",
+        "pressure",
+        "photophobia",
+        "rising"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pain"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, numbness, upper limbs",
+        "Extremities, pain, upper limbs",
+        "Extremities, numbness, upper limbs, writing, while",
+        "Extremities, pain, upper limbs, writing, while",
+        "Extremities, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "numbness",
+        "writing"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain"
+      ],
+      "generalizations": [
+        "chest"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, weakness",
+        "Back, weakness, lumbar region",
+        "Back, weakness, lumbar region, riding",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "weakness",
+        "lumbar",
+        "region",
+        "riding"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

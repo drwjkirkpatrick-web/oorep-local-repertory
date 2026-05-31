@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Eryngium Aquaticum",
+  "remedy_abbrev": "Ery-a.",
+  "sentence": "Driven by bladder, Eryngium Aquaticum manifests a dynamic cycle through limb disturbance and ear, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urging to urinate (morbid desire), constant",
+        "Bladder, urination, frequent",
+        "Bladder, urination",
+        "Bladder, inflammation",
+        "Bladder, urging to urinate (morbid desire), frequent",
+        "Bladder, urging to urinate (morbid desire), night",
+        "Bladder, urination, dribbling (by drops)",
+        "Bladder, urging to urinate (morbid desire), frequent, night and day"
+      ],
+      "generalizations": [
+        "bladder",
+        "urging",
+        "urinate",
+        "morbid",
+        "desire"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, pain, knee",
+        "Extremities, pain, hand",
+        "Extremities, pain, knee, patella",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, shoulder"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "lower",
+        "limbs",
+        "knee"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, discharges",
+        "Ear, pain",
+        "Ear, noises, ringing",
+        "Ear, inflammation",
+        "Ear, noises",
+        "Ear, noises, singing",
+        "Ear, pain, left",
+        "Ear, pain, soreness"
+      ],
+      "generalizations": [
+        "noises",
+        "discharges",
+        "ringing",
+        "inflammation",
+        "singing"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, inflammation, conjunctiva, granular",
+        "Eye, conjunctiva",
+        "Eye, pain",
+        "Eye, swollen",
+        "Eye, pain, aching",
+        "Eye, pain, stitching"
+      ],
+      "generalizations": [
+        "inflammation",
+        "conjunctiva",
+        "granular",
+        "swollen",
+        "aching"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg.",
+        "Urethra, pain, burning, urination",
+        "Urethra, discharge, gleety",
+        "Urethra, sensation, urine, remained in, after urinating as if some",
+        "Urethra, discharge"
+      ],
+      "generalizations": [
+        "urethra",
+        "burning",
+        "urination",
+        "during",
+        "discharge"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, seminal emissions (nightly)",
+        "Genitalia male, seminal emissions (nightly), erections, without",
+        "Genitalia male, pain",
+        "Genitalia male, sexual passion",
+        "Genitalia male, pain, burning",
+        "Genitalia male, erections",
+        "Genitalia male, erections, painful",
+        "Genitalia male, sexual passion, wanting"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "erections",
+        "seminal",
+        "emissions"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

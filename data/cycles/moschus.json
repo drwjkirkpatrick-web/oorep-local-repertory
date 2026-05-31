@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Moschus",
+  "remedy_abbrev": "Mosch.",
+  "sentence": "Driven by constitutional vulnerability, Moschus manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg.",
+        "Generalities, cold, becoming, agg.",
+        "Generalities, full feeling, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "faintness",
+        "fainting",
+        "pressing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions",
+        "Head, constriction, tension",
+        "Head, pain, brain, aching deep in",
+        "Head, pain, drawing",
+        "Head, pain, drawing, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "motions",
+        "drawing",
+        "heat",
+        "shaking"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, unconsciousness",
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, speech, loquacity",
+        "Mind, rage, fury",
+        "Mind, rage",
+        "Mind, delusions, disease",
+        "Mind, delusions, disease, sensation as being sick"
+      ],
+      "generalizations": [
+        "mind",
+        "excitement",
+        "rage",
+        "delusions",
+        "disease"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, stiffness, convulsion, during",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, convulsion",
+        "Extremities, swelling",
+        "Extremities, restlessness",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "stiffness",
+        "convulsion",
+        "coldness",
+        "during"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, navicular region",
+        "Abdomen, spasms",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, hysterical",
+        "Abdomen, spasms muscles",
+        "Abdomen, spasms muscles, in hysterical women",
+        "Abdomen, pain, cramping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spasms",
+        "cramping",
+        "griping",
+        "hysterical"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain, tearing",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, spine",
+        "Back, dorsal region, left",
+        "Back, spine, vertebrae",
+        "Back, pain, vertebrae"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "left",
+        "spine"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

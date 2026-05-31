@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ferrum Phosphoricum",
+  "remedy_abbrev": "Ferr-p.",
+  "sentence": "Driven by head, Ferrum Phosphoricum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, forehead, in",
+        "Head, pain, vertex",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "forehead",
+        "heat",
+        "headache"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "joints",
+        "hands",
+        "rheumatic"
+      ],
+      "next_segment": "Mental anger"
+    },
+    {
+      "name": "Mental anger",
+      "description": "The remedy's dominant mental pattern: anger. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, anxiety",
+        "Mind, excitement, excitable",
+        "Mind, forgetful",
+        "Mind, excitement",
+        "Mind, anxiety, future, about"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "anxiety",
+        "excitement",
+        "mental"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, heartburn",
+        "Stomach, eructations, food (regurgitation)",
+        "Stomach, eructations, food",
+        "Stomach, pain",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, nausea"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "food",
+        "sore",
+        "heartburn"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, discoloration, earthy",
+        "Face, discoloration, red",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, discoloration, red, headache, during",
+        "Face, discoloration, red, toothache, with"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "pale",
+        "earthy",
+        "heat"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, morning",
+        "Generalities, night",
+        "Generalities, anxiety general physical",
+        "Generalities, evening, agg.",
+        "Generalities, hard bed, sensation of",
+        "Generalities, menses, during agg.",
+        "Generalities, evening",
+        "Generalities, menses"
+      ],
+      "generalizations": [
+        "generalities",
+        "menses",
+        "anxiety",
+        "general",
+        "physical"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

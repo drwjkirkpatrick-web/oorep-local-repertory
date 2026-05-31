@@ -1,0 +1,124 @@
+{
+  "remedy_name": "Latrodectus Mactans",
+  "remedy_abbrev": "Lat-m.",
+  "sentence": "Driven by limb expression, Latrodectus Mactans manifests a dynamic cycle through heart & circulation and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, numbness, hand",
+        "Extremities, numbness, hand, left",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, upper limbs, left",
+        "Extremities, pain, upper limbs, left, heart symptoms, with"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "left",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, heart, region of",
+        "Heart & Circulation, pain, tearing, heart, region of",
+        "Heart & Circulation, pain, heart, region of, extending to left arm",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pain",
+        "Heart & Circulation, pain, tearing, heart",
+        "Heart & Circulation, pain, tearing"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "region",
+        "tearing",
+        "extending"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, angina pectoris",
+        "Chest, pain",
+        "Chest, pain, tearing",
+        "Chest, axilla"
+      ],
+      "generalizations": [
+        "chest",
+        "angina",
+        "pectoris",
+        "tearing",
+        "axilla"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, paralysis",
+        "Clinical, hemorrhage, agg.",
+        "Clinical, hemorrhage",
+        "Clinical, hemorrhage, blood does not coagulate",
+        "Clinical, hypertension"
+      ],
+      "generalizations": [
+        "clinical",
+        "hemorrhage",
+        "paralysis",
+        "blood",
+        "does"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, arrested",
+        "Respiration, gasping"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "arrested",
+        "gasping"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, expression",
+        "Face, expression, anxious"
+      ],
+      "generalizations": [
+        "face",
+        "expression",
+        "anxious"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

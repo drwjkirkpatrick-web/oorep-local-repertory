@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Ammoniacum Gummi",
+  "remedy_abbrev": "Ammc.",
+  "sentence": "Driven by limb expression, Ammoniacum Gummi manifests a dynamic cycle through abdomen and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, lameness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, tingling",
+        "Extremities, pain, knee",
+        "Extremities, heaviness, tired limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "swelling",
+        "lameness",
+        "weakness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, heaviness",
+        "Abdomen, heaviness, hypogastrium",
+        "Abdomen, hypogastrium",
+        "Abdomen, rumbling",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, flatulence",
+        "Abdomen, pain, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "heaviness",
+        "rumbling",
+        "drawing"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, mucous secretions increased",
+        "Generalities, night",
+        "Generalities, constriction, externally",
+        "Generalities, old, people",
+        "Generalities, pain, pressing externally",
+        "Generalities, constriction"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "constriction",
+        "externally",
+        "mucous"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, dreams, frightful",
+        "Sleep, dreams",
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, sleeplessness",
+        "Sleep, sleeplessness, night",
+        "Sleep, dreams, anxious",
+        "Sleep, dreams, confused"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleeplessness",
+        "frightful",
+        "sleepiness"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, copious",
+        "Expectoration, mucous",
+        "Expectoration, difficult",
+        "Expectoration, copious, old people",
+        "Expectoration, difficult, old people",
+        "Expectoration, mucous, old people",
+        "Expectoration, mucous, cold weather"
+      ],
+      "generalizations": [
+        "expectoration",
+        "mucous",
+        "people",
+        "copious",
+        "difficult"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

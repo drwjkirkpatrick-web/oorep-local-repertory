@@ -1,0 +1,139 @@
+{
+  "remedy_name": "Calendula Officinalis",
+  "remedy_abbrev": "Calen.",
+  "sentence": "Driven by limb expression, Calendula Officinalis manifests a dynamic cycle through back and fever, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, chapped hand",
+        "Extremities, injuries",
+        "Extremities, injuries, hand",
+        "Extremities, injuries, hand, lacerations",
+        "Extremities, chapped",
+        "Extremities, heat",
+        "Extremities, heat, foot",
+        "Extremities, inflammation"
+      ],
+      "generalizations": [
+        "extremities",
+        "hand",
+        "injuries",
+        "chapped",
+        "heat"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, rheumatic",
+        "Back, pain, sore, dorsal region",
+        "Back, pain, sore",
+        "Back, pain, sore, dorsal region, scapulae",
+        "Back, pain, aching, dull pain, rheumatic",
+        "Back, pain, sore, dorsal region, scapulae, right"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "dorsal",
+        "region",
+        "aching"
+      ],
+      "next_segment": "Febrile dynamic"
+    },
+    {
+      "name": "Febrile dynamic",
+      "description": "Chill, heat, sweat, stages, periodicity.",
+      "symptoms": [
+        "Fever, afternoon",
+        "Fever, bed, in agg.",
+        "Fever, evening",
+        "Fever, evening, bed, in",
+        "Fever, bed",
+        "Fever, evening, bed",
+        "Fever, drinking",
+        "Fever, drinking, cold water, shivering from"
+      ],
+      "generalizations": [
+        "fever",
+        "drinking",
+        "afternoon",
+        "cold",
+        "water"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, afternoon",
+        "Chill, creeping",
+        "Chill, morning",
+        "Chill, air",
+        "Chill, air, in the open",
+        "Chill, forenoon",
+        "Chill, air, in the open agg.",
+        "Chill, creeping, afternoon"
+      ],
+      "generalizations": [
+        "chill",
+        "afternoon",
+        "creeping",
+        "open",
+        "forenoon"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, sore, bruised",
+        "Generalities, afternoon",
+        "Generalities, bones",
+        "Generalities, pain, sore",
+        "Generalities, bones, fracture",
+        "Generalities, bones, fracture, compound"
+      ],
+      "generalizations": [
+        "generalities",
+        "bones",
+        "sore",
+        "fracture",
+        "bruised"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, calculi",
+        "Bladder, calculi, after operation for",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "calculi",
+        "after",
+        "operation",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

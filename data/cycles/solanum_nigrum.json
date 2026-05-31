@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Solanum Nigrum",
+  "remedy_abbrev": "Sol-n.",
+  "sentence": "Driven by head, Solanum Nigrum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, noise, from",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, violent pains"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "eyes",
+        "above"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, pain, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "stiffness",
+        "cramps",
+        "foot"
+      ],
+      "next_segment": "Mental anger"
+    },
+    {
+      "name": "Mental anger",
+      "description": "The remedy's dominant mental pattern: anger. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, unconsciousness",
+        "Mind, delirium, raging, raving",
+        "Mind, rage, fury",
+        "Mind, gestures",
+        "Mind, gestures, hands",
+        "Mind, rage",
+        "Mind, gestures, hands, grasping or reaching at something"
+      ],
+      "generalizations": [
+        "mind",
+        "gestures",
+        "delirium",
+        "rage",
+        "hands"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, pain, extending"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "burning",
+        "empty",
+        "pressing"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, distortion",
+        "Face, lockjaw",
+        "Face, discoloration",
+        "Face, expression",
+        "Face, discoloration, red",
+        "Face, heat",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), jaw"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "aching",
+        "prosopalgia",
+        "distortion"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, lachrymation",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, pupils, alternately contracted and dilated in the same light",
+        "Eye, pupils, dilated",
+        "Eye, pupils",
+        "Eye, pain, burning, smarting, biting",
+        "Eye, pain, sand, as from"
+      ],
+      "generalizations": [
+        "pupils",
+        "dilated",
+        "lachrymation",
+        "redness",
+        "alternately"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

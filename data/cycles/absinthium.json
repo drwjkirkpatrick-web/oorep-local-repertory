@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Absinthium",
+  "remedy_abbrev": "Absin.",
+  "sentence": "Driven by mind, Absinthium manifests a dynamic cycle through clinical and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, fancies, exaltation of",
+        "Mind, kleptomania",
+        "Mind, fancies",
+        "Mind, irritability",
+        "Mind, confusion",
+        "Mind, cruelty",
+        "Mind, death, desires",
+        "Mind, death, desires, convalescence, during"
+      ],
+      "generalizations": [
+        "mind",
+        "fancies",
+        "death",
+        "desires",
+        "exaltation"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, convulsions, epileptic",
+        "Clinical, convulsions, epileptiform",
+        "Clinical, convulsions, epileptiform, old people",
+        "Clinical, convulsions, begin in, face",
+        "Clinical, convulsions, consciousness, with",
+        "Clinical, convulsions, consciousness, without",
+        "Clinical, convulsions, hysterical"
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "epileptiform",
+        "consciousness",
+        "epileptic"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, lying",
+        "Generalities, irritability, excessive physical",
+        "Generalities, numbness, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "faintness",
+        "lying"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, heaviness, eating, after",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, heaviness",
+        "Stomach, heaviness, eating",
+        "Stomach, coldness",
+        "Stomach, loathing of food"
+      ],
+      "generalizations": [
+        "stomach",
+        "heaviness",
+        "eating",
+        "eructations",
+        "after"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, convulsion",
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, stiffness",
+        "Extremities, stiffness, tetanic",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "motion",
+        "stiffness",
+        "foot"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, brilliant",
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, itching",
+        "Eye, lachrymation",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, swollen"
+      ],
+      "generalizations": [
+        "heaviness",
+        "brilliant",
+        "lids",
+        "itching",
+        "lachrymation"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

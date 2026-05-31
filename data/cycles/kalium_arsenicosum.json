@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Arsenicosum",
+  "remedy_abbrev": "Kali-ar.",
+  "sentence": "Driven by limb expression, Kalium Arsenicosum manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, pain",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, elbow",
+        "Extremities, pain, tearing, lower limbs",
+        "Extremities, elbow"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "tearing",
+        "elbow",
+        "hands"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, fear",
+        "Mind, anxiety",
+        "Mind, anxiety, health, about",
+        "Mind, restlessness, anxious, etc.",
+        "Mind, suspicious",
+        "Mind, restlessness, anxious"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "anxiety",
+        "anxious",
+        "fear"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, uncovering, agg.",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, air agg.",
+        "Generalities, cold, becoming, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "cold",
+        "weakness",
+        "enervation",
+        "heat"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, itching of scalp",
+        "Head, pain, burning",
+        "Head, pain, catarrhal",
+        "Head, pain, coughing, on agg."
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "headache",
+        "general",
+        "crusts"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, loathing of food",
+        "Stomach, nausea",
+        "Stomach, eructations",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty"
+      ],
+      "generalizations": [
+        "stomach",
+        "sore",
+        "eructations",
+        "bruised",
+        "beaten"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, dry",
+        "Skin, eruptions",
+        "Skin, eruptions, desquamating",
+        "Skin, eruptions, herpetic",
+        "Skin, coldness",
+        "Skin, dry, burning",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, pimples"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "desquamating",
+        "herpetic",
+        "coldness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

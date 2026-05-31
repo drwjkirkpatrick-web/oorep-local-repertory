@@ -1,0 +1,48 @@
+{
+  "remedy_name": "Coriaria Ruscifolia",
+  "remedy_abbrev": "Cori-r.",
+  "sentence": "Driven by mind, Coriaria Ruscifolia manifests a dynamic cycle through vertigo and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, delirium",
+        "Mind, memory, weakness of",
+        "Mind, stupefaction",
+        "Mind, insanity",
+        "Mind, delirium, maniacal",
+        "Mind, laughing",
+        "Mind, rage, fury",
+        "Mind, rage"
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "rage",
+        "memory",
+        "weakness"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, intoxicated, as if",
+        "Vertigo, intoxicated"
+      ],
+      "generalizations": [
+        "vertigo",
+        "intoxicated"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

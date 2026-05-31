@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Apis Mellifera",
+  "remedy_abbrev": "Apis",
+  "sentence": "Driven by limb expression, Apis Mellifera manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, swelling, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "swelling",
+        "paralysis"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head \u2014 pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, vertex",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy \u2014 its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, delirium",
+        "Mind, indifference, apathy, etc.",
+        "Mind, stupefaction",
+        "Mind, unconsciousness",
+        "Mind, death",
+        "Mind, indifference",
+        "Mind, insanity"
+      ],
+      "generalizations": [
+        "mind",
+        "indifference",
+        "irritability",
+        "delirium",
+        "apathy"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, swollen",
+        "Eye, swollen, lids",
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, swelling, edematous",
+        "Eye, inflammation, acute"
+      ],
+      "generalizations": [
+        "inflammation",
+        "swollen",
+        "redness",
+        "lids",
+        "conjunctiva"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, abortion",
+        "Genitalia female, congestion",
+        "Genitalia female, congestion, ovaries",
+        "Genitalia female, inflammation",
+        "Genitalia female, inflammation, ovaries",
+        "Genitalia female, inflammation, uterus",
+        "Genitalia female, pain, ovaries"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "ovaries",
+        "inflammation",
+        "congestion"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, pressure",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, lying, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "weakness",
+        "right",
+        "enervation"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

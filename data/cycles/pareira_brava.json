@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Pareira Brava",
+  "remedy_abbrev": "Pareir.",
+  "sentence": "Driven by bladder, Pareira Brava manifests a dynamic cycle through genitalia male and urine, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, tenesmus",
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), constant",
+        "Bladder, urging to urinate (morbid desire), painful",
+        "Bladder, urination, dysuria",
+        "Bladder, retention of urine",
+        "Bladder, urination, retarded"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "urging",
+        "urinate",
+        "morbid"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, penis",
+        "Genitalia male, pain, penis, glans",
+        "Genitalia male, penis",
+        "Genitalia male, glans",
+        "Genitalia male, pain, burning",
+        "Genitalia male, pain, burning, penis",
+        "Genitalia male, pain, burning, penis, glans"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "penis",
+        "glans",
+        "burning"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, sediment",
+        "Urine, sediment, sand",
+        "Urine, sediment, sand, red (brick-dust)",
+        "Urine, sediment, mucous",
+        "Urine, sediment, renal calculi",
+        "Urine, color",
+        "Urine, color, red",
+        "Urine, frothy"
+      ],
+      "generalizations": [
+        "urine",
+        "sediment",
+        "sand",
+        "color",
+        "brick"
+      ],
+      "next_segment": "Renal function"
+    },
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, pain",
+        "Kidneys, pain, cutting",
+        "Kidneys, pain, cutting, ureters",
+        "Kidneys, pain, sore, bruised",
+        "Kidneys, pain, ureters, left side",
+        "Kidneys, pain, ureters",
+        "Kidneys, pain, sore",
+        "Kidneys, inflammation"
+      ],
+      "generalizations": [
+        "kidneys",
+        "ureters",
+        "cutting",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, discharge, mucous",
+        "Urethra, discharge",
+        "Urethra, discharge, gonorrheal",
+        "Urethra, inflammation",
+        "Urethra, pain",
+        "Urethra, pain, burning",
+        "Urethra, pain, burning, urination, during",
+        "Urethra, pain, burning, urination, during agg."
+      ],
+      "generalizations": [
+        "urethra",
+        "discharge",
+        "burning",
+        "urination",
+        "during"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, cramps, leg, urinate, on attempting to",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, pain, foot",
+        "Extremities, pain, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "swelling",
+        "foot",
+        "urinate"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

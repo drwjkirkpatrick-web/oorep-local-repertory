@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Tilia Europaea",
+  "remedy_abbrev": "Til.",
+  "sentence": "Driven by limb expression, Tilia Europaea manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, pain, rheumatic",
+        "Extremities, eruption, nates",
+        "Extremities, eruption, thigh",
+        "Extremities, eruption, thigh, herpes",
+        "Extremities, eruption, thigh, herpes, itching",
+        "Extremities, eruption, thigh, pimples"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "thigh",
+        "herpes",
+        "rheumatic"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting",
+        "Head, pain, coffee",
+        "Head, pain, extending"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "headache",
+        "general",
+        "heaviness"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, anxiety",
+        "Mind, anxiety, air",
+        "Mind, irritability, morning",
+        "Mind, anxiety, air, in open, amel.",
+        "Mind, anxiety, house, in agg.",
+        "Mind, anxiety, house",
+        "Mind, morning"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "irritability",
+        "house",
+        "open"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, burning",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, pimples",
+        "Skin, eruptions, urticaria",
+        "Skin, itching",
+        "Skin, itching, burning",
+        "Skin, itching, stinging"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "itching",
+        "burning",
+        "pimples"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, flatulence",
+        "Abdomen, pain, burning, umbilicus"
+      ],
+      "generalizations": [
+        "abdomen",
+        "burning",
+        "distension",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, pimples",
+        "Face, eruptions, pimples, itching",
+        "Face, eruptions, pimples, itching, when warm",
+        "Face, discoloration, pale",
+        "Face, distortion",
+        "Face, discoloration",
+        "Face, expression"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "pimples",
+        "itching",
+        "discoloration"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

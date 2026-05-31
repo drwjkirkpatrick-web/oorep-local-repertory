@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cladonia Rangiferina",
+  "remedy_abbrev": "Clad-r.",
+  "sentence": "Driven by mind, Cladonia Rangiferina manifests a dynamic cycle through limb disturbance and sleep, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, cruelty",
+        "Mind, death, desires",
+        "Mind, delirium",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "restlessness",
+        "sadness",
+        "confusion"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, dryness, hands",
+        "Extremities, numbness",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "foot",
+        "swelling"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, yawning",
+        "Sleep, disturbed",
+        "Sleep, sleeplessness",
+        "Sleep, position",
+        "Sleep, disturbed, dreams, by",
+        "Sleep, dreams, amorous",
+        "Sleep, dreams, anxious"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "disturbed",
+        "sleepiness",
+        "yawning"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead, left side",
+        "Head, pain, forehead, right side",
+        "Head, hair",
+        "Head, motions"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "side",
+        "heat",
+        "heaviness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, flatulence",
+        "Abdomen, pain, cramping, griping, bending forward amel."
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "rumbling",
+        "distension"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, pain",
+        "Throat, swallowing, difficult",
+        "Throat, swallowing",
+        "Throat, dryness",
+        "Throat, inflammation",
+        "Throat, mucus",
+        "Throat, pain, rawness",
+        "Throat, pain, sore"
+      ],
+      "generalizations": [
+        "throat",
+        "swallowing",
+        "difficult",
+        "dryness",
+        "inflammation"
+      ],
+      "next_segment": "Mental withdrawal"
+    }
+  ]
+}

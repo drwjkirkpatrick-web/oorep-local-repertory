@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Bromatum",
+  "remedy_abbrev": "Kali-br.",
+  "sentence": "Driven by mind, Kalium Bromatum manifests a dynamic cycle through limb disturbance and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, mania, madness",
+        "Mind, delusions",
+        "Mind, mania",
+        "Mind, weeping"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "mania",
+        "sluggishness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, restlessness, hand",
+        "Extremities, pain, lower limbs",
+        "Extremities, pain, lower limbs, sciatica",
+        "Extremities, trembling",
+        "Extremities, pain, lower limbs, sciatica, suddenly, come and go",
+        "Extremities, trembling, something is to be done, when"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "restlessness",
+        "sciatica"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, subinvolution",
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, menses, copious",
+        "Genitalia female, pain, ovaries",
+        "Genitalia female, coition, aversion to",
+        "Genitalia female, desire, increased"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "menses",
+        "subinvolution",
+        "metrorrhagia"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, constriction, tension",
+        "Head, inflammation, of meninges",
+        "Head, pain, occiput",
+        "Head, pain, sides, one side",
+        "Head, pain, violent pains"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "hyperemia",
+        "constriction",
+        "tension"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, numbness",
+        "Generalities, trembling",
+        "Generalities, numbness, whole body",
+        "Generalities, trembling, something is to be done, when",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, trembling, externally",
+        "Generalities, night"
+      ],
+      "generalizations": [
+        "generalities",
+        "trembling",
+        "numbness",
+        "lying",
+        "whole"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, aphthae",
+        "Mouth, numbness",
+        "Mouth, speech, stammering",
+        "Mouth, motion, tongue",
+        "Mouth, speech",
+        "Mouth, motion, tongue, difficult",
+        "Mouth, speech, wanting",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "speech",
+        "tongue",
+        "motion",
+        "aphthae"
+      ],
+      "next_segment": "Mental confusion"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Angustura Vera",
+  "remedy_abbrev": "Ang.",
+  "sentence": "Driven by limb expression, Angustura Vera manifests a dynamic cycle through back and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, heaviness",
+        "Extremities, heaviness, thigh",
+        "Extremities, thigh",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, pain, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "thigh",
+        "weakness",
+        "cramps"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, bending",
+        "Back, bending, backward (opisthotonos)",
+        "Back, bending, back",
+        "Back, spasms, cramps",
+        "Back, spasms"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "bending",
+        "spasms"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, heat, during the agg.",
+        "Head, pain, heat",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "during",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, fancies, exaltation of",
+        "Mind, fancies",
+        "Mind, dullness, mental exertion, from",
+        "Mind, exertion, from mental",
+        "Mind, comprehension",
+        "Mind, ideas, instability of"
+      ],
+      "generalizations": [
+        "mind",
+        "fancies",
+        "mental",
+        "exertion",
+        "sadness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, umbilicus",
+        "Abdomen, diarrhea, sensation as if",
+        "Abdomen, pain, umbilicus, extending",
+        "Abdomen, pain, cutting, warm milk, after"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "umbilicus",
+        "drawing",
+        "stitching"
+      ],
+      "next_segment": "Chill pattern"
+    },
+    {
+      "name": "Chill pattern",
+      "description": "Chill stages, time, character, shaking.",
+      "symptoms": [
+        "Chill, morning",
+        "Chill, time",
+        "Chill, forenoon",
+        "Chill, 3 p.m.",
+        "Chill, afternoon",
+        "Chill, air, in the open, amel.",
+        "Chill, bed in, agg.",
+        "Chill, creeping"
+      ],
+      "generalizations": [
+        "chill",
+        "time",
+        "forenoon",
+        "afternoon",
+        "open"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

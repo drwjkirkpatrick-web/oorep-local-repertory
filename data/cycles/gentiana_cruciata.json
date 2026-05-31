@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Gentiana Cruciata",
+  "remedy_abbrev": "Gent-c.",
+  "sentence": "Driven by head, Gentiana Cruciata manifests a dynamic cycle through abdomen and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, fullness",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, vertex",
+        "Head, constriction, tension",
+        "Head, pain, jerking",
+        "Head, pain, menses, during agg.",
+        "Head, pain, motion, from agg."
+      ],
+      "generalizations": [
+        "head",
+        "fullness",
+        "headache",
+        "general",
+        "vertex"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cramping, griping, umbilicus, region of",
+        "Abdomen, pain, drawing, umbilicus",
+        "Abdomen, tension",
+        "Abdomen, pain, inguinal region"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "drawing",
+        "umbilicus"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, nausea",
+        "Stomach, eructations",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, eructations, fluid",
+        "Stomach, heaviness, weight, oppression"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "pressing",
+        "nausea",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, cramps, foot",
+        "Extremities, cramps, foot, sole",
+        "Extremities, eruption",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, shoulder",
+        "Extremities, pain, stitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "foot",
+        "drawing",
+        "sole"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, choking, constricting",
+        "Throat, discoloration, redness",
+        "Throat, pain",
+        "Throat, choking",
+        "Throat, discoloration",
+        "Throat, swallowing, difficult",
+        "Throat, swallowing",
+        "Throat, choking, swallowing, on"
+      ],
+      "generalizations": [
+        "throat",
+        "choking",
+        "swallowing",
+        "discoloration",
+        "constricting"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, confusion",
+        "Mind, fear",
+        "Mind, weeping",
+        "Mind, weeping, tearful mood, etc.",
+        "Mind, restlessness, headache, during",
+        "Mind, restlessness, headache"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "weeping",
+        "headache",
+        "nervousness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

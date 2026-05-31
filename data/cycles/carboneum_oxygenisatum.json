@@ -1,0 +1,144 @@
+{
+  "remedy_name": "Carboneum Oxygenisatum",
+  "remedy_abbrev": "Carbn-o.",
+  "sentence": "Driven by limb expression, Carboneum Oxygenisatum manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, relaxation",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, convulsion",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "relaxation",
+        "paralysis",
+        "foot"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, unconsciousness",
+        "Mind, unconsciousness, sudden",
+        "Mind, anxiety",
+        "Mind, confusion, intoxicated, as if",
+        "Mind, confusion, intoxicated",
+        "Mind, intoxicated, as if",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness"
+      ],
+      "generalizations": [
+        "mind",
+        "intoxicated",
+        "unconsciousness",
+        "confusion",
+        "dullness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, sexual",
+        "Generalities, sexual, desire, suppression of agg.",
+        "Generalities, sexual, desire",
+        "Generalities, pain",
+        "Generalities, trembling",
+        "Generalities, pain, appears gradually"
+      ],
+      "generalizations": [
+        "generalities",
+        "sexual",
+        "faintness",
+        "desire",
+        "fainting"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises, ringing",
+        "Ear, pulsation",
+        "Ear, discoloration",
+        "Ear, noises",
+        "Ear, noises, singing",
+        "Ear, pulsation, left",
+        "Ear, noises, thundering",
+        "Ear, discoloration, livid"
+      ],
+      "generalizations": [
+        "noises",
+        "pulsation",
+        "discoloration",
+        "ringing",
+        "singing"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, short",
+        "Cough, spasmodic",
+        "Cough, spasmodic, evening",
+        "Cough, motion",
+        "Cough, dryness air passages, from",
+        "Cough, dryness air passages, from, larynx"
+      ],
+      "generalizations": [
+        "cough",
+        "spasmodic",
+        "dryness",
+        "passages",
+        "short"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, convulsions, touched, when",
+        "Clinical, convulsions, tetanic rigidity",
+        "Clinical, paralysis",
+        "Clinical, convulsions, clonic",
+        "Clinical, convulsions, tonic",
+        "Clinical, abscess"
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "touched",
+        "when",
+        "tetanic"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

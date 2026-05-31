@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Polygonum Hydropiperoides",
+  "remedy_abbrev": "Polyg.",
+  "sentence": "Driven by bladder, Polygonum Hydropiperoides manifests a dynamic cycle through genitalia male and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, dysuria",
+        "Bladder, retention of urine",
+        "Bladder, pain",
+        "Bladder, tenesmus",
+        "Bladder, urination, dribbling (by drops)",
+        "Bladder, pain, cutting",
+        "Bladder, constriction"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "dysuria",
+        "retention",
+        "urine"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, sore, testes",
+        "Genitalia male, pain, sore",
+        "Genitalia male, pain, sore, testes, extending, left",
+        "Genitalia male, testes",
+        "Genitalia male, pain, stitching",
+        "Genitalia male, pain, stitching, testes",
+        "Genitalia male, pain, spermatic cords"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "testes",
+        "sore",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, lower limbs",
+        "Extremities, pain, fingers",
+        "Extremities, pain, foot",
+        "Extremities, pain, hip",
+        "Extremities, pain, wrist",
+        "Extremities, pain, fingers, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "fingers",
+        "lower",
+        "limbs"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, cold",
+        "Rectum, diarrhea, cold, weather, from",
+        "Rectum, constipation",
+        "Rectum, constipation, alternating with diarrhea",
+        "Rectum, pulsation",
+        "Rectum, pulsation, perineum",
+        "Rectum, perineum"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "cold",
+        "constipation",
+        "pulsation"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, pain, wandering",
+        "Generalities, weakness, walking, from agg.",
+        "Generalities, afternoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "trembling",
+        "enervation",
+        "externally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, afternoon, agg.",
+        "Head, pain, forehead, eminence, frontal",
+        "Head, pain, afternoon",
+        "Head, pain, forenoon",
+        "Head, forehead",
+        "Head, afternoon"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "afternoon",
+        "eminence",
+        "frontal"
+      ],
+      "next_segment": "Bladder state"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "remedy_name": "Aluminium Metallicum",
+  "remedy_abbrev": "Alum-met.",
+  "sentence": "Driven by back, Aluminium Metallicum manifests a dynamic cycle through abdomen and clinical, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, heat",
+        "Back, inflammation, cord",
+        "Back, inflammation"
+      ],
+      "generalizations": [
+        "back",
+        "inflammation",
+        "heat",
+        "cord"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, constriction",
+        "Abdomen, constriction, contraction"
+      ],
+      "generalizations": [
+        "abdomen",
+        "constriction",
+        "contraction"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, inflammation",
+        "Clinical, paralysis"
+      ],
+      "generalizations": [
+        "clinical",
+        "inflammation",
+        "paralysis"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, paralysis, lower limbs",
+        "Extremities, paralysis, lower limbs, jerking of eyes, with",
+        "Extremities, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "lower",
+        "limbs",
+        "jerking"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

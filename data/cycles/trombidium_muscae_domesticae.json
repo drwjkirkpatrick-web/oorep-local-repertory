@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Trombidium Muscae Domesticae",
+  "remedy_abbrev": "Trom.",
+  "sentence": "Driven by limb expression, Trombidium Muscae Domesticae manifests a dynamic cycle through rectum and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, pain, knee",
+        "Extremities, cramps, calf",
+        "Extremities, heat",
+        "Extremities, heat, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "heat",
+        "weakness",
+        "heaviness"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, diarrhea, eating, after",
+        "Rectum, diarrhea, eating",
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, dysentery",
+        "Rectum, pain, tenesmus",
+        "Rectum, pain, tenesmus, stool, during"
+      ],
+      "generalizations": [
+        "rectum",
+        "diarrhea",
+        "eating",
+        "tenesmus",
+        "after"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, diarrhea",
+        "Abdomen, pain, cramping, griping, stool, before",
+        "Abdomen, pain, inguinal region",
+        "Abdomen, pain, stool, before"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stool",
+        "cramping",
+        "griping",
+        "before"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, stool",
+        "Back, coldness, stool, during",
+        "Back, cold",
+        "Back, pain",
+        "Back, coldness, spine",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "stool",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Stool pattern"
+    },
+    {
+      "name": "Stool pattern",
+      "description": "Stool character, consistency, color, urging.",
+      "symptoms": [
+        "Stool, bloody",
+        "Stool, constant discharge",
+        "Stool, bloody, streaks, in",
+        "Stool, frequent",
+        "Stool, thin, liquid",
+        "Stool, watery",
+        "Stool, brown",
+        "Stool, mucous, bloody"
+      ],
+      "generalizations": [
+        "stool",
+        "bloody",
+        "constant",
+        "discharge",
+        "streaks"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, discoloration, redness",
+        "Ear, discoloration",
+        "Ear, pain, stitching, in",
+        "Ear, pain, stitching, in, right",
+        "Ear, itching",
+        "Ear, pain, blowing nose, on",
+        "Ear, pain, afternoon"
+      ],
+      "generalizations": [
+        "discoloration",
+        "stitching",
+        "redness",
+        "right",
+        "itching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

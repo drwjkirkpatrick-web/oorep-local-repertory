@@ -1,0 +1,118 @@
+{
+  "remedy_name": "Ferrum Sulphuricum",
+  "remedy_abbrev": "Ferr-s.",
+  "sentence": "Driven by teeth, Ferrum Sulphuricum manifests a dynamic cycle through limb disturbance and rectum, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, pain, menses",
+        "Teeth, pain, menses, during",
+        "Teeth, pain, menses, during, menorrhagia"
+      ],
+      "generalizations": [
+        "teeth",
+        "menses",
+        "during",
+        "menorrhagia"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, contraction",
+        "Extremities, contraction, foot",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, leg",
+        "Extremities, contraction, hand",
+        "Extremities, contraction, toes",
+        "Extremities, contraction, toes, drawn, up"
+      ],
+      "generalizations": [
+        "extremities",
+        "contraction",
+        "aching",
+        "toes",
+        "foot"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, worm",
+        "Rectum, worm, lumbricoides"
+      ],
+      "generalizations": [
+        "rectum",
+        "worm",
+        "diarrhea",
+        "lumbricoides"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, sore",
+        "Mouth, pain, sore, palate",
+        "Mouth, palate"
+      ],
+      "generalizations": [
+        "mouth",
+        "sore",
+        "palate"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, descends",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "descends",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, swelling",
+        "Genitalia male, swelling, scrotum",
+        "Genitalia male, swelling, scrotum, edematous",
+        "Genitalia male, scrotum"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "swelling",
+        "scrotum",
+        "edematous"
+      ],
+      "next_segment": "Dental state"
+    }
+  ]
+}

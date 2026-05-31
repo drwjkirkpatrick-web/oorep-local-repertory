@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lobelia Inflata",
+  "remedy_abbrev": "Lob.",
+  "sentence": "Driven by stomach, Lobelia Inflata manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, sinking",
+        "Stomach, emptiness",
+        "Stomach, nausea, deathly",
+        "Stomach, vomiting, paroxysmal",
+        "Stomach, nausea, salivation, with",
+        "Stomach, emptiness, extending to heart"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "vomiting",
+        "emptiness",
+        "sinking"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, tobacco, smoking, from agg.",
+        "Head, pain, tobacco, smoking",
+        "Head, perspiration",
+        "Head, pain, coughing, on agg.",
+        "Head, perspiration scalp",
+        "Head, perspiration scalp, cold",
+        "Head, pain, coughing"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "tobacco",
+        "smoking",
+        "coughing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, extending, down back",
+        "Back, pain",
+        "Back, coldness, extending",
+        "Back, pain, sacral region",
+        "Back, pain, menses, during",
+        "Back, pain, sore, sacral region",
+        "Back, pain, menses"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "extending",
+        "sacral",
+        "region"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, difficult, lying",
+        "Respiration, difficult, lying, while agg.",
+        "Respiration, asthmatic",
+        "Respiration, difficult, air",
+        "Respiration, asthmatic, spasmodic",
+        "Respiration, difficult, exertion, after",
+        "Respiration, difficult, air, in cold agg."
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "lying",
+        "asthmatic",
+        "while"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, inflammation",
+        "Chest, constriction, tension, tightness",
+        "Chest, inflammation, lungs",
+        "Chest, constriction",
+        "Chest, emphysema",
+        "Chest, cease",
+        "Chest, lungs",
+        "Chest, oppression"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "constriction",
+        "lungs",
+        "tension"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, leg",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, dryness, hands"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "coldness",
+        "paralysis",
+        "stiffness"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

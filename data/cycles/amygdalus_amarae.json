@@ -1,0 +1,140 @@
+{
+  "remedy_name": "Amygdalus Amarae",
+  "remedy_abbrev": "Amyg-am.",
+  "sentence": "Driven by limb expression, Amygdalus Amarae manifests a dynamic cycle through eye and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, numbness",
+        "Extremities, heaviness",
+        "Extremities, coldness, upper limbs",
+        "Extremities, drawn, upwards",
+        "Extremities, formication"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "paralysis",
+        "numbness"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, turned",
+        "Eye, turned, upward",
+        "Eye, movement, eyeballs, constant",
+        "Eye, movement, eyeballs, constant, rolling",
+        "Eye, movement, eyeballs, constant, rolling, upward",
+        "Eye, coldness, in",
+        "Eye, coldness",
+        "Eye, open"
+      ],
+      "generalizations": [
+        "movement",
+        "eyeballs",
+        "constant",
+        "turned",
+        "upward"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion",
+        "Mind, speech, incoherent",
+        "Mind, stupefaction",
+        "Mind, unconsciousness",
+        "Mind, speech",
+        "Mind, weeping",
+        "Mind, confusion, intoxicated, as if",
+        "Mind, weeping, tearful mood, etc."
+      ],
+      "generalizations": [
+        "mind",
+        "confusion",
+        "speech",
+        "weeping",
+        "incoherent"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, lockjaw",
+        "Face, convulsions",
+        "Face, discoloration",
+        "Face, discoloration, bluish",
+        "Face, discoloration, bluish, lips",
+        "Face, convulsions, spasms",
+        "Face, perspiration"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "convulsions",
+        "bluish",
+        "pale"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, coldness, extending",
+        "Back, opisthotonos",
+        "Back, coldness, extending, body, over whole",
+        "Back, cold",
+        "Back, bending",
+        "Back, bending, backward (opisthotonos)",
+        "Back, bending, back"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "bending",
+        "extending",
+        "opisthotonos"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, collapse",
+        "Generalities, weakness, afternoon",
+        "Generalities, afternoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "afternoon",
+        "collapse"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "remedy_name": "Genista Tinctoria",
+  "remedy_abbrev": "Genist.",
+  "sentence": "Driven by head, Genista Tinctoria manifests a dynamic cycle through vertigo and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, looseness of brain, sensation of",
+        "Head, pain, afternoon, agg.",
+        "Head, pain, cutting, temples",
+        "Head, pain, moving, head, on agg.",
+        "Head, pain, sun, from exposure to agg.",
+        "Head, pain, temples"
+      ],
+      "generalizations": [
+        "head",
+        "temples",
+        "forehead",
+        "looseness",
+        "brain"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, rising, on agg.",
+        "Vertigo, rising",
+        "Vertigo, shaking the head",
+        "Vertigo, air, open",
+        "Vertigo, turning",
+        "Vertigo, air, open, in, amel.",
+        "Vertigo, turning, on",
+        "Vertigo, air"
+      ],
+      "generalizations": [
+        "vertigo",
+        "rising",
+        "open",
+        "turning",
+        "shaking"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, waterbrash",
+        "Stomach, eructations, waterbrash, night",
+        "Stomach, night",
+        "Stomach, eructations, water"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "waterbrash",
+        "water"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, foot",
+        "Extremities, eruption, hand, confluent"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "hand",
+        "foot",
+        "confluent"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, afternoon"
+      ],
+      "generalizations": [
+        "generalities",
+        "afternoon"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

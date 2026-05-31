@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Phellandrium Aquaticum",
+  "remedy_abbrev": "Phel.",
+  "sentence": "Driven by head, Phellandrium Aquaticum manifests a dynamic cycle through chest and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, drawn backward",
+        "Head, heaviness",
+        "Head, drawn",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, falling",
+        "Head, falling backward of head"
+      ],
+      "generalizations": [
+        "head",
+        "drawn",
+        "backward",
+        "pressing",
+        "falling"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, mammae",
+        "Chest, pain, mammae",
+        "Chest, pain, stitching, mammae, right",
+        "Chest, pain, mammae, right",
+        "Chest, pain, stitching, mammae, extending, to back",
+        "Chest, mammae"
+      ],
+      "generalizations": [
+        "chest",
+        "mammae",
+        "stitching",
+        "right",
+        "extending"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, stitching",
+        "Extremities, pain, stitching, foot",
+        "Extremities, pain, upper limbs",
+        "Extremities, swelling, hand",
+        "Extremities, pain, upper limbs, chill",
+        "Extremities, pain, upper limbs, chill, before"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "swelling",
+        "stitching"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, weeping",
+        "Mind, hydrophobia",
+        "Mind, weeping, tearful mood, etc.",
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "weeping",
+        "sadness",
+        "hydrophobia",
+        "tearful"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, spasms, cramps",
+        "Back, spasms, cramps, cervical region",
+        "Back, spasms, cramps, cervical region, head bent back",
+        "Back, spasms",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, heat",
+        "Back, pain, boring"
+      ],
+      "generalizations": [
+        "back",
+        "spasms",
+        "cramps",
+        "region",
+        "cervical"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, pain",
+        "Ear, pain, inside (in meatus)",
+        "Ear, noises, ringing",
+        "Ear, itching, evening",
+        "Ear, noises",
+        "Ear, noises, singing",
+        "Ear, pain, behind ear",
+        "Ear, pain, burning"
+      ],
+      "generalizations": [
+        "noises",
+        "inside",
+        "meatus",
+        "ringing",
+        "itching"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

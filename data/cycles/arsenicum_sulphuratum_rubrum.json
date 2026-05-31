@@ -1,0 +1,129 @@
+{
+  "remedy_name": "Arsenicum Sulphuratum Rubrum",
+  "remedy_abbrev": "Ars-s-r.",
+  "sentence": "Driven by limb expression, Arsenicum Sulphuratum Rubrum manifests a dynamic cycle through stomach and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, numbness, upper limbs",
+        "Extremities, paralysis, upper limbs",
+        "Extremities, paralysis, upper limbs, right",
+        "Extremities, numbness, upper limbs, intermittent fever, in",
+        "Extremities, pain, upper arm"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "paralysis",
+        "numbness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, pain, burning, cold drinks",
+        "Stomach, pain, burning, cold drinks, after",
+        "Stomach, pain, burning, night",
+        "Stomach, night"
+      ],
+      "generalizations": [
+        "stomach",
+        "burning",
+        "cold",
+        "drinks",
+        "after"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, taste",
+        "Mouth, inflammation",
+        "Mouth, inflammation, tongue",
+        "Mouth, taste, bitter",
+        "Mouth, taste, bitter, morning",
+        "Mouth, taste, bitter, morning, on waking",
+        "Mouth, inflammation, tongue, left side",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "inflammation",
+        "tongue",
+        "bitter"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, sneezing",
+        "Nose, discharge",
+        "Nose, tingling",
+        "Nose, discharge, white",
+        "Nose, tingling, inside",
+        "Nose, tingling, inside, right"
+      ],
+      "generalizations": [
+        "nose",
+        "tingling",
+        "discharge",
+        "inside",
+        "sneezing"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises",
+        "Ear, pulsation",
+        "Ear, noises, snapping",
+        "Ear, noises, snapping, synchronous with the pulse"
+      ],
+      "generalizations": [
+        "noises",
+        "snapping",
+        "pulsation",
+        "synchronous",
+        "pulse"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, paralysis",
+        "Clinical, inflammation"
+      ],
+      "generalizations": [
+        "clinical",
+        "paralysis",
+        "inflammation"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

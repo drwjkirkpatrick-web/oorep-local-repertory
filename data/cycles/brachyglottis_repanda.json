@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Brachyglottis Repanda",
+  "remedy_abbrev": "Brach.",
+  "sentence": "Driven by limb expression, Brachyglottis Repanda manifests a dynamic cycle through back and bladder, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, weakness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "hands",
+        "foot"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, weakness",
+        "Back, pain",
+        "Back, opisthotonos",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, cervical region",
+        "Back, pain, lumbar region",
+        "Back, pain, sore, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "lumbar"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, pain",
+        "Bladder, pain, urinating",
+        "Bladder, pain, urinating, after",
+        "Bladder, urination",
+        "Bladder, pain, neck",
+        "Bladder, pain, pressing, pressure in",
+        "Bladder, pain, sore, tender",
+        "Bladder, urging to urinate (morbid desire)"
+      ],
+      "generalizations": [
+        "bladder",
+        "urinating",
+        "after",
+        "urination",
+        "neck"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, axilla",
+        "Chest, axilla, right",
+        "Chest, pain",
+        "Chest, pain, axilla",
+        "Chest, pain, axilla, region of",
+        "Chest, pain, axilla, region of, extending to pectoral muscles",
+        "Chest, pain, axilla, region of, extending",
+        "Chest, oppression"
+      ],
+      "generalizations": [
+        "chest",
+        "axilla",
+        "region",
+        "extending",
+        "right"
+      ],
+      "next_segment": "Urine character"
+    },
+    {
+      "name": "Urine character",
+      "description": "Urine color, quantity, sediment, odor.",
+      "symptoms": [
+        "Urine, albuminous",
+        "Urine, color, pale",
+        "Urine, copious (increased)",
+        "Urine, color",
+        "Urine, color, dark",
+        "Urine, sediment",
+        "Urine, sediment, white",
+        "Urine, sediment, mucous"
+      ],
+      "generalizations": [
+        "urine",
+        "color",
+        "sediment",
+        "albuminous",
+        "pale"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, sickly color",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), lancinating",
+        "Face, dryness",
+        "Face, dryness, lips",
+        "Face, itching"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "aching",
+        "prosopalgia",
+        "dryness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

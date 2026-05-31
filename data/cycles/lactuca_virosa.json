@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lactuca Virosa",
+  "remedy_abbrev": "Lact.",
+  "sentence": "Driven by head, Lactuca Virosa manifests a dynamic cycle through limb disturbance and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heaviness",
+        "Head, shaking sensation",
+        "Head, shaking sensation, cough during",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc."
+      ],
+      "generalizations": [
+        "head",
+        "shaking",
+        "congestion",
+        "heaviness",
+        "cough"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, heaviness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "cramps",
+        "hands",
+        "paralysis"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, bursting",
+        "Chest, pain, bursting, coughing, on",
+        "Chest, oppression",
+        "Chest, dropsy",
+        "Chest, anxiety",
+        "Chest, catarrh",
+        "Chest, constriction, tension, tightness"
+      ],
+      "generalizations": [
+        "chest",
+        "bursting",
+        "coughing",
+        "oppression",
+        "dropsy"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, hypochondria",
+        "Abdomen, pain, cramping",
+        "Abdomen, hypochondria",
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, dropsy, ascites"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "hypochondria",
+        "rumbling"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "sadness",
+        "irritability"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, spasmodic",
+        "Cough, whooping",
+        "Cough, racking",
+        "Cough, dry",
+        "Cough, evening",
+        "Cough, tickling",
+        "Cough, asthmatic",
+        "Cough, barking"
+      ],
+      "generalizations": [
+        "cough",
+        "spasmodic",
+        "whooping",
+        "racking",
+        "tickling"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

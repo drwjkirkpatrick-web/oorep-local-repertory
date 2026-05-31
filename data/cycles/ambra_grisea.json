@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ambra Grisea",
+  "remedy_abbrev": "Ambr.",
+  "sentence": "Driven by limb expression, Ambra Grisea manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, perspiration",
+        "Extremities, perspiration, thigh",
+        "Extremities, thigh",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, cramps",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "perspiration",
+        "thigh",
+        "coldness",
+        "hands"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness",
+        "Mind, memory, weakness of",
+        "Mind, anxiety",
+        "Mind, forgetful",
+        "Mind, anxiety, fever, during",
+        "Mind, company aversion to",
+        "Mind, conversation agg.",
+        "Mind, imbecility"
+      ],
+      "generalizations": [
+        "mind",
+        "anxiety",
+        "dullness",
+        "memory",
+        "weakness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, lying",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, evening, agg.",
+        "Generalities, jerking, convulsions, as in",
+        "Generalities, lying, after, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "trembling",
+        "side",
+        "externally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, heat, music, from",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, hair",
+        "Head, constriction, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "congestion",
+        "music",
+        "hyperemia"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, coldness",
+        "Abdomen, perspiration",
+        "Abdomen, walls of abdomen (muscles, etc.)",
+        "Abdomen, sides",
+        "Abdomen, cold",
+        "Abdomen, walking",
+        "Abdomen, sides, right",
+        "Abdomen, lower abdomen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "coldness",
+        "perspiration",
+        "walls"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, heartburn",
+        "Stomach, eructations, coughing, after",
+        "Stomach, eructations, empty, cough, after",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, pain, pressing"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "empty",
+        "after",
+        "heartburn"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

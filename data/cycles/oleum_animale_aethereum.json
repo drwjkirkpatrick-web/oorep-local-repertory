@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Oleum Animale Aethereum",
+  "remedy_abbrev": "Ol-an.",
+  "sentence": "Driven by limb expression, Oleum Animale Aethereum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, heaviness",
+        "Extremities, heaviness, foot",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, foot",
+        "Extremities, pain, drawing, thigh",
+        "Extremities, pain, tearing"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "heaviness",
+        "foot",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, forehead, eyes",
+        "Head, pain, tea"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "above",
+        "pressing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cutting",
+        "Back, tension",
+        "Back, tension, cervical region",
+        "Back, pain, cutting, lumbar region",
+        "Back, pain, cutting, lumbar region, menses",
+        "Back, pain, aching, dull pain, rheumatic",
+        "Back, pain, cutting, lumbar region, menses, before"
+      ],
+      "generalizations": [
+        "back",
+        "cutting",
+        "region",
+        "lumbar",
+        "tension"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), drawing",
+        "Face, pain (aching, prosopalgia, etc.), drawing, upward",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching",
+        "Face, pain",
+        "Face, discoloration, pale",
+        "Face, convulsions"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "drawing",
+        "upward"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, loathing of food",
+        "Stomach, nausea",
+        "Stomach, fullness, sensation of",
+        "Stomach, water, sensation as if full of",
+        "Stomach, fullness",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning"
+      ],
+      "generalizations": [
+        "stomach",
+        "fullness",
+        "loathing",
+        "food",
+        "nausea"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cutting, menses",
+        "Abdomen, pain, cutting, menses, during",
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, pain, burning"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "menses",
+        "during",
+        "rumbling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

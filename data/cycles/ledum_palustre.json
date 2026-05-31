@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ledum Palustre",
+  "remedy_abbrev": "Led.",
+  "sentence": "Driven by limb expression, Ledum Palustre manifests a dynamic cycle through general state and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, leg",
+        "Extremities, swelling, lower limbs",
+        "Extremities, pain, knee"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "coldness",
+        "stiffness",
+        "foot"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, bathing, amel.",
+        "Generalities, distension blood vessels",
+        "Generalities, motion, agg.",
+        "Generalities, motion, of affected part agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "motion",
+        "side",
+        "heat",
+        "bathing"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, dry",
+        "Skin, coldness",
+        "Skin, eruptions, urticaria",
+        "Skin, itching",
+        "Skin, purpura hemorrhagica",
+        "Skin, stings of insects"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "herpetic",
+        "coldness",
+        "urticaria"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, eruption",
+        "Head, perspiration, forehead",
+        "Head, perspiration",
+        "Head, pain, motion, from agg.",
+        "Head, pain, occiput",
+        "Head, pain, motion",
+        "Head, eruption, pimples"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "perspiration",
+        "motion",
+        "forehead"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, motion, on agg.",
+        "Back, stiffness",
+        "Back, pain, motion",
+        "Back, lumbar region",
+        "Back, sacral region",
+        "Back, coldness"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "motion",
+        "stiffness"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, talking",
+        "Mind, dipsomania (alcoholism)",
+        "Mind, fear, people",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, fear",
+        "Mind, stupefaction"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "restlessness",
+        "talking",
+        "dipsomania"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

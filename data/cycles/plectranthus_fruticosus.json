@@ -1,0 +1,133 @@
+{
+  "remedy_name": "Plectranthus Fruticosus",
+  "remedy_abbrev": "Plect.",
+  "sentence": "Driven by head, Plectranthus Fruticosus manifests a dynamic cycle through mind and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, stooping",
+        "Head, pain, drawing",
+        "Head, pain, pain in neck, with",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, eyes, over"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "stooping",
+        "forehead",
+        "drawing"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, weeping",
+        "Mind, concentration, difficult",
+        "Mind, thoughts, wandering",
+        "Mind, thoughts",
+        "Mind, weeping, aloud",
+        "Mind, irritability, noise, from",
+        "Mind, irritability, noise"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "weeping",
+        "thoughts",
+        "noise"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, cervical region",
+        "Back, pain, aching, dull pain, cervical region, extending",
+        "Back, pain, aching, dull pain, cervical region, extending to arms",
+        "Back, cervix",
+        "Back, pain, aching",
+        "Back, nape"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "cervical",
+        "region"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness",
+        "Extremities, heaviness, upper limbs",
+        "Extremities, heaviness, upper limbs, dinner, after",
+        "Extremities, weakness, lower limbs, stool, after",
+        "Extremities, upper limbs",
+        "Extremities, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "limbs",
+        "weakness",
+        "lower",
+        "heaviness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, coldness",
+        "Abdomen, coldness, morning",
+        "Abdomen, morning",
+        "Abdomen, cold"
+      ],
+      "generalizations": [
+        "abdomen",
+        "coldness",
+        "cold"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, dinner",
+        "Generalities, weakness, dinner, after"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "dinner",
+        "after"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

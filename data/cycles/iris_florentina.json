@@ -1,0 +1,121 @@
+{
+  "remedy_name": "Iris Florentina",
+  "remedy_abbrev": "Iris-fl.",
+  "sentence": "Driven by limb expression, Iris Florentina manifests a dynamic cycle through head and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, eruption",
+        "Extremities, eruption, lower limbs",
+        "Extremities, eruption, pimples",
+        "Extremities, itching",
+        "Extremities, coldness, elbow",
+        "Extremities, eruption, leg",
+        "Extremities, eruption, leg, pimples"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "coldness",
+        "pimples",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, perspiration, forehead",
+        "Head, perspiration",
+        "Head, pulsating, forehead",
+        "Head, pulsating",
+        "Head, pulsating, forehead, eminence frontal",
+        "Head, perspiration, forehead, sitting, while",
+        "Head, pulsating, forehead, eminence frontal, evening",
+        "Head, pulsating, forehead, eminence frontal, evening, 8 p.m."
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pulsating",
+        "perspiration",
+        "eminence"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, burning, raw and smarting",
+        "Mouth, pain, burning",
+        "Mouth, pain, burning, extending, stomach",
+        "Mouth, pain, burning, extending"
+      ],
+      "generalizations": [
+        "mouth",
+        "burning",
+        "extending",
+        "smarting",
+        "stomach"
+      ],
+      "next_segment": "Renal function"
+    },
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, pain",
+        "Kidneys, pain, aching",
+        "Kidneys, pain, aching, region of",
+        "Kidneys, pain, aching, region of, 10 p.m."
+      ],
+      "generalizations": [
+        "kidneys",
+        "aching",
+        "region"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, objects seem",
+        "Vertigo, objects seem, move",
+        "Vertigo, objects seem, move, run into each other"
+      ],
+      "generalizations": [
+        "vertigo",
+        "objects",
+        "seem",
+        "move",
+        "into"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

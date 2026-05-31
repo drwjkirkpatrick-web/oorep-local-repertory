@@ -1,0 +1,135 @@
+{
+  "remedy_name": "Viscum Album",
+  "remedy_abbrev": "Visc.",
+  "sentence": "Driven by mind, Viscum Album manifests a dynamic cycle through clinical and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, dream, as if in a",
+        "Mind, stupefaction",
+        "Mind, unconsciousness",
+        "Mind, dream",
+        "Mind, violent, vehement, etc.",
+        "Mind, thoughts"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "dream",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, convulsions, consciousness, with",
+        "Clinical, convulsions, consciousness, without",
+        "Clinical, convulsions, epileptic",
+        "Clinical, convulsions, consciousness",
+        "Clinical, convulsions, epileptiform",
+        "Clinical, hypotension",
+        "Clinical, chorea"
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "consciousness",
+        "epileptic",
+        "epileptiform"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, jerking",
+        "Extremities, trembling",
+        "Extremities, twitching",
+        "Extremities, jerking, night",
+        "Extremities, glow, sensation of, from foot to head",
+        "Extremities, night",
+        "Extremities, convulsion",
+        "Extremities, convulsion, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "jerking",
+        "convulsion",
+        "trembling",
+        "twitching"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, jerking, muscles",
+        "Generalities, motion, agg.",
+        "Generalities, twitching",
+        "Generalities, jerking",
+        "Generalities, motion"
+      ],
+      "generalizations": [
+        "generalities",
+        "trembling",
+        "jerking",
+        "motion",
+        "externally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, walking",
+        "Head, pain, walking, slowly, amel.",
+        "Head, pain, walking, slowly"
+      ],
+      "generalizations": [
+        "head",
+        "walking",
+        "slowly",
+        "amel"
+      ],
+      "next_segment": "Respiratory rhythm"
+    },
+    {
+      "name": "Respiratory rhythm",
+      "description": "Dyspnea, cough, asthma, suffocation.",
+      "symptoms": [
+        "Respiration, difficult",
+        "Respiration, difficult, lying, on, left side agg.",
+        "Respiration, difficult, lying",
+        "Respiration, difficult, lying, on"
+      ],
+      "generalizations": [
+        "respiration",
+        "difficult",
+        "lying",
+        "left",
+        "side"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

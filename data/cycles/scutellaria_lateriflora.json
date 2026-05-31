@@ -1,0 +1,99 @@
+{
+  "remedy_name": "Scutellaria Lateriflora",
+  "remedy_abbrev": "Scut.",
+  "sentence": "Driven by head, Scutellaria Lateriflora manifests a dynamic cycle through mind and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, nervous",
+        "Head, pain, shooting",
+        "Head, pain, forehead",
+        "Head, pain, excitement of the emotions, after",
+        "Head, pain, forehead, morning agg.",
+        "Head, pain, morning, agg.",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "nervous",
+        "shooting",
+        "excitement"
+      ],
+      "next_segment": "Mental withdrawal"
+    },
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, work, aversion to mental",
+        "Mind, work",
+        "Mind, restlessness, evening",
+        "Mind, starting, sleep, from sleep",
+        "Mind, starting",
+        "Mind, starting, sleep"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "starting",
+        "sleep",
+        "work"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, red, evening",
+        "Face, evening"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, eating, after",
+        "Vertigo, eating"
+      ],
+      "generalizations": [
+        "vertigo",
+        "eating",
+        "after"
+      ],
+      "next_segment": "Renal function"
+    },
+    {
+      "name": "Renal function",
+      "description": "Kidney pain, stones, suppression, albuminuria.",
+      "symptoms": [
+        "Kidneys, pain",
+        "Kidneys, pain, aching"
+      ],
+      "generalizations": [
+        "kidneys",
+        "aching"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

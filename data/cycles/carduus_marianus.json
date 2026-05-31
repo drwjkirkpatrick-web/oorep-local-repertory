@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Carduus Marianus",
+  "remedy_abbrev": "Card-m.",
+  "sentence": "Driven by abdomen, Carduus Marianus manifests a dynamic cycle through limb disturbance and chest, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, liver",
+        "Abdomen, pain, liver, colic, gall-stones",
+        "Abdomen, liver",
+        "Abdomen, colic",
+        "Abdomen, foreign body, sensation of",
+        "Abdomen, foreign body",
+        "Abdomen, spleen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "liver",
+        "colic",
+        "foreign",
+        "body"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, forearm",
+        "Extremities, pain, hip",
+        "Extremities, hip-joint disease",
+        "Extremities, pain, drawing, forearm, radial side",
+        "Extremities, forearm",
+        "Extremities, hip"
+      ],
+      "generalizations": [
+        "extremities",
+        "drawing",
+        "forearm",
+        "joint",
+        "disease"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest, pain",
+        "Chest, pain, stitching",
+        "Chest, pain, stitching, sides",
+        "Chest, pain, stitching, sides, coughing",
+        "Chest, hemorrhage",
+        "Chest, inflammation",
+        "Chest, inflammation, mammae",
+        "Chest, pain, stitching, extending"
+      ],
+      "generalizations": [
+        "chest",
+        "stitching",
+        "sides",
+        "inflammation",
+        "coughing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, drawing",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, dorsal region, scapulae, right, under",
+        "Back, pain, drawing, dorsal region",
+        "Back, pain, drawing, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "scapulae",
+        "drawing"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, pain, burning",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, vomiting, sour",
+        "Stomach, vomiting, green",
+        "Stomach, vomiting, green, fluid"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "green",
+        "pressing",
+        "burning"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, constriction, forehead",
+        "Head, fullness",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, pressing, forehead, eyes, over",
+        "Head, constriction"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressing",
+        "constriction",
+        "heaviness"
+      ],
+      "next_segment": "Abdominal state"
+    }
+  ]
+}

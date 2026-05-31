@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Sanicula Aqua",
+  "remedy_abbrev": "Sanic.",
+  "sentence": "Driven by limb expression, Sanicula Aqua manifests a dynamic cycle through head and eye, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, shoulder",
+        "Extremities, pain, shoulder, putting the arm behind him agg.",
+        "Extremities, shoulder",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, heat",
+        "Extremities, heat, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "shoulder",
+        "eruption",
+        "heat",
+        "putting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, perspiration",
+        "Head, air or wind, sensitive to draft",
+        "Head, coldness, chilliness, etc.",
+        "Head, itching of scalp",
+        "Head, pain, air, draft of, from",
+        "Head, pain, forehead, eyes, above"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "draft",
+        "perspiration",
+        "wind"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, inflammation",
+        "Eye, inflammation, lids",
+        "Eye, inflammation, lids, margins",
+        "Eye, ulceration",
+        "Eye, ulceration, lids",
+        "Eye, ulceration, lids, margins",
+        "Eye, lid",
+        "Eye, margin"
+      ],
+      "generalizations": [
+        "lids",
+        "inflammation",
+        "ulceration",
+        "margins",
+        "margin"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, coldness",
+        "Back, pain",
+        "Back, coldness, spine",
+        "Back, pain, stitching",
+        "Back, pain, turning",
+        "Back, coldness, sacral region",
+        "Back, pain, turning, when",
+        "Back, emaciation"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "turning",
+        "spine",
+        "stitching"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, memory, weakness of",
+        "Mind, delusions"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, ulcers",
+        "Mouth, ulcers, tongue",
+        "Mouth, ulcers, tongue, under",
+        "Mouth, tongue",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste",
+        "Mouth, discoloration, tongue, yellow"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "ulcers",
+        "discoloration",
+        "under"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

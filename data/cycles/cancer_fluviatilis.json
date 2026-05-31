@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cancer Fluviatilis",
+  "remedy_abbrev": "Astac.",
+  "sentence": "Driven by mouth, Cancer Fluviatilis manifests a dynamic cycle through face and skin, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, scorbutic gums",
+        "Mouth, stomacace",
+        "Mouth, gums",
+        "Mouth, pain",
+        "Mouth, pain, tongue",
+        "Mouth, taste",
+        "Mouth, taste, fishy",
+        "Mouth, taste, sweetish"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "gums",
+        "scorbutic",
+        "stomacace"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, discoloration, red, glowing red",
+        "Face, erysipelas",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, pain (aching, prosopalgia, etc.), burning",
+        "Face, pain (aching, prosopalgia",
+        "Face, pain (aching"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "discoloration",
+        "prosopalgia",
+        "glowing"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, urticaria",
+        "Skin, itching",
+        "Skin, discoloration",
+        "Skin, discoloration, yellow, jaundice, etc.",
+        "Skin, erysipelas",
+        "Skin, discoloration, yellow",
+        "Skin, eruptions, eczema"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discoloration",
+        "yellow",
+        "urticaria"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, chilliness",
+        "Extremities, pain, tearing",
+        "Extremities, pain, upper limbs",
+        "Extremities, trembling",
+        "Extremities, trembling, upper limbs",
+        "Extremities, pain, upper limbs, rheumatic",
+        "Extremities, pain, tearing, thumb"
+      ],
+      "generalizations": [
+        "extremities",
+        "upper",
+        "limbs",
+        "tearing",
+        "trembling"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, tickling",
+        "Cough, tickling, larynx, in, from",
+        "Cough, afternoon",
+        "Cough, sitting, while",
+        "Cough, sitting",
+        "Cough, walking",
+        "Cough, walking, amel.",
+        "Cough, tickling, larynx, in"
+      ],
+      "generalizations": [
+        "cough",
+        "tickling",
+        "larynx",
+        "sitting",
+        "walking"
+      ],
+      "next_segment": "Dental state"
+    },
+    {
+      "name": "Dental state",
+      "description": "Toothache, caries, grinding, dentition.",
+      "symptoms": [
+        "Teeth, pain",
+        "Teeth, coldness",
+        "Teeth, pain, right",
+        "Teeth, pain, lower teeth",
+        "Teeth, pain, drawing",
+        "Teeth, pain, pulled out, feel as if, were being",
+        "Teeth, pain, intermittent",
+        "Teeth, pain, pulled out, feel as if"
+      ],
+      "generalizations": [
+        "teeth",
+        "pulled",
+        "feel",
+        "coldness",
+        "right"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

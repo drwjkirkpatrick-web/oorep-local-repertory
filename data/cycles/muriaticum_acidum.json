@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Muriaticum Acidum",
+  "remedy_abbrev": "Mur-ac.",
+  "sentence": "Driven by limb expression, Muriaticum Acidum manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heat",
+        "Extremities, heat, hand",
+        "Extremities, heat, hand, palm"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "coldness",
+        "weakness",
+        "hand"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heaviness",
+        "Head, perspiration",
+        "Head, perspiration scalp",
+        "Head, heat",
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, hair, bristling"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "eruption",
+        "heaviness",
+        "scalp"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, weakness, walking, from agg.",
+        "Generalities, touch",
+        "Generalities, weakness, walking",
+        "Generalities, weakness, paralytic",
+        "Generalities, touch, amel.",
+        "Generalities, weakness, paralytic, sliding down in bed"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "walking",
+        "touch",
+        "paralytic"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, hemorrhoids",
+        "Rectum, involuntary stool",
+        "Rectum, involuntary stool, urination, and stool",
+        "Rectum, paralysis",
+        "Rectum, involuntary stool, urination",
+        "Rectum, pain, stool"
+      ],
+      "generalizations": [
+        "rectum",
+        "stool",
+        "involuntary",
+        "urination",
+        "burning"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, unconsciousness",
+        "Mind, unconsciousness, fever, during",
+        "Mind, size",
+        "Mind, fever, during, agg.",
+        "Mind, fever",
+        "Mind, size distance and form",
+        "Mind, irritability",
+        "Mind, restlessness, night"
+      ],
+      "generalizations": [
+        "mind",
+        "fever",
+        "unconsciousness",
+        "during",
+        "size"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "spleen",
+        "distension",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "remedy_name": "Polygonum Sagittatum",
+  "remedy_abbrev": "Polyg-s.",
+  "sentence": "Driven by back, Polygonum Sagittatum manifests a dynamic cycle through rectum and appetite, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, aching, dull pain",
+        "Back, pain, cutting",
+        "Back, pain, aching, dull pain, dorsal region",
+        "Back, pain, aching, dull pain, dorsal region, scapulae",
+        "Back, pain, cutting, dorsal region"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, hemorrhoids",
+        "Rectum, hemorrhoids, itching"
+      ],
+      "generalizations": [
+        "rectum",
+        "hemorrhoids",
+        "itching"
+      ],
+      "next_segment": "Appetite state"
+    },
+    {
+      "name": "Appetite state",
+      "description": "Appetite changes, cravings, aversions.",
+      "symptoms": [
+        "Appetite, desires",
+        "Appetite, desires, cold, drinks",
+        "Appetite, desires, cold"
+      ],
+      "generalizations": [
+        "appetite",
+        "desires",
+        "cold",
+        "drinks"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    }
+  ]
+}

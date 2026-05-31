@@ -378,8 +378,13 @@ class CyclesAndSegmentsEngine:
 
     def get_cycle(self, remedy: str) -> Optional[RemedyCycle]:
         """Fetch a RemedyCycle by name or abbreviation (case-insensitive)."""
-        key = remedy.lower().rstrip(".")
-        return self._cycles.get(key)
+        key = remedy.lower()
+        # Try exact match first (handles names with trailing periods like "L.")
+        result = self._cycles.get(key)
+        if result:
+            return result
+        # Fall back: strip trailing period for abbreviation flexibility
+        return self._cycles.get(key.rstrip("."))
 
     def match_case_to_cycle(
         self,

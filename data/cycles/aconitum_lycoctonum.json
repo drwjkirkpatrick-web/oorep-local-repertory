@@ -1,0 +1,45 @@
+{
+  "remedy_name": "Aconitum Lycoctonum",
+  "remedy_abbrev": "Acon-l.",
+  "sentence": "Driven by ear, Aconitum Lycoctonum manifests a dynamic cycle through abdomen and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, discoloration, redness",
+        "Ear, discoloration, redness, behind ears",
+        "Ear, discoloration"
+      ],
+      "generalizations": [
+        "discoloration",
+        "redness",
+        "behind",
+        "ears"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, cutting, pork, after"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cutting",
+        "pork",
+        "after"
+      ],
+      "next_segment": "Auditory disturbance"
+    }
+  ]
+}

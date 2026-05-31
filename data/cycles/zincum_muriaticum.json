@@ -1,0 +1,123 @@
+{
+  "remedy_name": "Zincum Muriaticum",
+  "remedy_abbrev": "Zinc-m.",
+  "sentence": "Driven by stomach, Zincum Muriaticum manifests a dynamic cycle through general state and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, vomiting",
+        "Stomach, heat, flushes",
+        "Stomach, vomiting, bile",
+        "Stomach, twisting",
+        "Stomach, vomiting, easy",
+        "Stomach, pain, clawing",
+        "Stomach, heat"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "heat",
+        "flushes",
+        "bile"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, weakness",
+        "Generalities, weakness, lying",
+        "Generalities, weakness, nervous",
+        "Generalities, weakness, lying agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "faintness",
+        "lying",
+        "fainting"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, taste",
+        "Mouth, taste, alkaline",
+        "Mouth, membrane, palate covered with a false",
+        "Mouth, membrane",
+        "Mouth, membrane, palate covered with a false, white",
+        "Mouth, palate"
+      ],
+      "generalizations": [
+        "mouth",
+        "membrane",
+        "palate",
+        "taste",
+        "covered"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, discoloration",
+        "Extremities, discoloration, upper limbs",
+        "Extremities, discoloration, upper limbs, livid",
+        "Extremities, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "discoloration",
+        "upper",
+        "limbs",
+        "livid"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, occiput",
+        "Head, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "occiput"
+      ],
+      "next_segment": "Cardiac rhythm"
+    },
+    {
+      "name": "Cardiac rhythm",
+      "description": "Palpitation, angina, pulse, hypertension.",
+      "symptoms": [
+        "Heart & Circulation, pain, heart",
+        "Heart & Circulation, pain, heart, region of",
+        "Heart & Circulation, heart",
+        "Heart & Circulation, pain"
+      ],
+      "generalizations": [
+        "heart",
+        "circulation",
+        "region"
+      ],
+      "next_segment": "Gastric center"
+    }
+  ]
+}

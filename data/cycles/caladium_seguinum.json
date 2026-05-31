@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Caladium Seguinum",
+  "remedy_abbrev": "Calad.",
+  "sentence": "Driven by constitutional vulnerability, Caladium Seguinum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, lying",
+        "Generalities, lassitude",
+        "Generalities, lie down, inclination to",
+        "Generalities, lying, side on, painful, agg.",
+        "Generalities, motion, aversion to",
+        "Generalities, lying, side on",
+        "Generalities, lying, side on, painful",
+        "Generalities, motion"
+      ],
+      "generalizations": [
+        "generalities",
+        "lying",
+        "side",
+        "painful",
+        "motion"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, lower limbs",
+        "Extremities, pain",
+        "Extremities, heat",
+        "Extremities, heat, foot",
+        "Extremities, pain, shoulder",
+        "Extremities, heat, foot, cold",
+        "Extremities, heat, foot, cold body"
+      ],
+      "generalizations": [
+        "extremities",
+        "heat",
+        "foot",
+        "coldness",
+        "cold"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, mania, madness",
+        "Mind, unconsciousness",
+        "Mind, mania",
+        "Mind, absent-minded",
+        "Mind, speech, loquacity",
+        "Mind, mildness",
+        "Mind, moaning, groaning",
+        "Mind, starting, sleep, from sleep"
+      ],
+      "generalizations": [
+        "mind",
+        "mania",
+        "sleep",
+        "madness",
+        "unconsciousness"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, sexual passion, increased",
+        "Genitalia male, swelling",
+        "Genitalia male, sexual passion",
+        "Genitalia male, erections, wanting (impotency)",
+        "Genitalia male, sexual passion, increased, erection, without",
+        "Genitalia male, erections",
+        "Genitalia male, swelling, penis",
+        "Genitalia male, swelling, penis, prepuce"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "sexual",
+        "passion",
+        "swelling"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, upper abdomen",
+        "Abdomen, inflammation",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, burning, hypogastrium",
+        "Abdomen, inflammation, typhlitis"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inflammation",
+        "burning",
+        "upper",
+        "drawing"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, smoking, from",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, nervous",
+        "Head, pain, tobacco, smoking, from agg."
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "smoking",
+        "heat",
+        "headache"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    }
+  ]
+}

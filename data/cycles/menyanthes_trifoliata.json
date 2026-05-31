@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Menyanthes Trifoliata",
+  "remedy_abbrev": "Meny.",
+  "sentence": "Driven by limb expression, Menyanthes Trifoliata manifests a dynamic cycle through general state and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, coldness, foot, icy cold",
+        "Extremities, coldness, foot, icy cold, chill, during",
+        "Extremities, congestion, upper extremities",
+        "Extremities, congestion",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "cold",
+        "congestion"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pressure, amel.",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, lying, agg.",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, evening, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "pressure",
+        "lying",
+        "pressing",
+        "amel"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, agg.",
+        "Back, pain, boring, dorsal region",
+        "Back, stooping, agg.",
+        "Back, sitting",
+        "Back, stooping",
+        "Back, sitting, agg.",
+        "Back, rest, during, agg.",
+        "Back, rest, during"
+      ],
+      "generalizations": [
+        "back",
+        "stooping",
+        "sitting",
+        "rest",
+        "during"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, pain, pressing, weight, as from",
+        "Head, pain, pressing, ascending steps, on",
+        "Head, pain, pressing, vertex, ascending steps",
+        "Head, vertex",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "vertex",
+        "ascending",
+        "steps"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, coldness",
+        "Abdomen, fullness",
+        "Abdomen, coldness, chill, during",
+        "Abdomen, fullness, smoking, from",
+        "Abdomen, pinching",
+        "Abdomen, cold",
+        "Abdomen, pain, pinching",
+        "Abdomen, pain, pinching, lower abdomen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "pinching",
+        "coldness",
+        "fullness",
+        "chill"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, confusion",
+        "Mind, delusions",
+        "Mind, delusions, deserted, forsaken",
+        "Mind, comprehension",
+        "Mind, comprehension, difficult",
+        "Mind, slowness",
+        "Mind, delirium, fever, during",
+        "Mind, fever, during, agg."
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "comprehension",
+        "fever",
+        "during"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

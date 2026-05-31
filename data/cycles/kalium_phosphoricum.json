@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Phosphoricum",
+  "remedy_abbrev": "Kali-p.",
+  "sentence": "Driven by mind, Kalium Phosphoricum manifests a dynamic cycle through head and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, hysteria",
+        "Mind, memory, weakness of",
+        "Mind, anxiety",
+        "Mind, starting, fright, from",
+        "Mind, starting",
+        "Mind, exertion, from mental, agg."
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "mental",
+        "starting",
+        "depression"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, sides, one side",
+        "Head, pain, stitching",
+        "Head, pain, sides",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, nervous",
+        "Head, perspiration"
+      ],
+      "generalizations": [
+        "head",
+        "sides",
+        "side",
+        "stitching",
+        "headache"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, heaviness, tired limbs",
+        "Extremities, heaviness, upper limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "coldness",
+        "limbs",
+        "hands"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, heat",
+        "Generalities, cold, in general agg.",
+        "Generalities, cold, tendency to take",
+        "Generalities, pain, stitching, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "cold",
+        "enervation",
+        "side"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, sore",
+        "Back, pain, sore, spine, spinal irritation",
+        "Back, pain, sore, spine",
+        "Back, softening of cord",
+        "Back, spine",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "spine",
+        "dorsal",
+        "region"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, menses",
+        "Genitalia female, leucorrhea",
+        "Genitalia female, lochia, offensive, fetid",
+        "Genitalia female, lochia",
+        "Genitalia female, lochia, offensive",
+        "Genitalia female, menses, offensive",
+        "Genitalia female, leucorrhea, offensive",
+        "Genitalia female, leucorrhea, offensive, putrid"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "offensive",
+        "leucorrhea",
+        "lochia"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

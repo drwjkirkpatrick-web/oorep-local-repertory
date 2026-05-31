@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Jacaranda Caroba",
+  "remedy_abbrev": "Jac-c.",
+  "sentence": "Driven by genitalia male, Jacaranda Caroba manifests a dynamic cycle through limb disturbance and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, inflammation",
+        "Genitalia male, blennorrhea of glans",
+        "Genitalia male, inflammation, penis",
+        "Genitalia male, inflammation, penis, glans",
+        "Genitalia male, inflammation, penis, prepuce",
+        "Genitalia male, penis",
+        "Genitalia male, glans",
+        "Genitalia male, prepuce"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "inflammation",
+        "penis",
+        "glans"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, pain, knee",
+        "Extremities, discoloration, upper limbs, redness",
+        "Extremities, eruption",
+        "Extremities, pain, aching",
+        "Extremities, pain, elbow",
+        "Extremities, pain, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "knee",
+        "discoloration",
+        "upper"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, dryness",
+        "Mouth, pain, burning, tongue",
+        "Mouth, taste, sour",
+        "Mouth, pain, burning",
+        "Mouth, taste",
+        "Mouth, taste, insipid",
+        "Mouth, pain, burnt, as if"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "burning",
+        "dryness",
+        "tongue"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, pressure agg.",
+        "Abdomen, pain, sore, hypogastrium",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, umbilicus",
+        "Abdomen, swelling"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sore",
+        "stitching",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, nausea, eating",
+        "Stomach, nausea, eating, while",
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, fullness, sensation of",
+        "Stomach, pain, stitching",
+        "Stomach, pulsation"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "eating",
+        "while",
+        "pressing"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleepiness",
+        "Sleep, sleeplessness",
+        "Sleep, dreams, frightful",
+        "Sleep, restless",
+        "Sleep, unrefreshing",
+        "Sleep, dreams",
+        "Sleep, dreams, fights",
+        "Sleep, dreams, storms"
+      ],
+      "generalizations": [
+        "sleep",
+        "dreams",
+        "sleepiness",
+        "sleeplessness",
+        "frightful"
+      ],
+      "next_segment": "Male genital state"
+    }
+  ]
+}

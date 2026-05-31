@@ -1,0 +1,72 @@
+{
+  "remedy_name": "Arum Italicum",
+  "remedy_abbrev": "Arum-i.",
+  "sentence": "Driven by mouth, Arum Italicum manifests a dynamic cycle through limb disturbance and throat, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, swelling",
+        "Mouth, swelling, palate",
+        "Mouth, swelling, palate, sensation of",
+        "Mouth, palate"
+      ],
+      "generalizations": [
+        "mouth",
+        "swelling",
+        "palate"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, discoloration, fingers",
+        "Extremities, discoloration",
+        "Extremities, discoloration, fingers, redness",
+        "Extremities, fingers"
+      ],
+      "generalizations": [
+        "extremities",
+        "discoloration",
+        "fingers",
+        "redness"
+      ],
+      "next_segment": "Pharyngeal reaction"
+    },
+    {
+      "name": "Pharyngeal reaction",
+      "description": "Sore throat, hoarseness, swallowing, larynx.",
+      "symptoms": [
+        "Throat, choking, constricting",
+        "Throat, choking"
+      ],
+      "generalizations": [
+        "throat",
+        "choking",
+        "constricting"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, stringy"
+      ],
+      "generalizations": [
+        "expectoration",
+        "stringy"
+      ],
+      "next_segment": "Oral disturbance"
+    }
+  ]
+}

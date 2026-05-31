@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Piper Methysticum",
+  "remedy_abbrev": "Pip-m.",
+  "sentence": "Driven by head, Piper Methysticum manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead",
+        "Head, pain, stitching",
+        "Head, pain, stitching, temples",
+        "Head, pain, stitching, temples, extending",
+        "Head, pain, stitching, temples, afternoon",
+        "Head, pain, stitching, temples, extending, occiput, to",
+        "Head, pain, forehead, diversion"
+      ],
+      "generalizations": [
+        "head",
+        "stitching",
+        "temples",
+        "forehead",
+        "extending"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, upper limbs",
+        "Extremities, pain, toes",
+        "Extremities, pain, toes, first",
+        "Extremities, pain, upper limbs, wandering",
+        "Extremities, pain, upper limbs, writing, while",
+        "Extremities, pain, toes, first, right, then left",
+        "Extremities, toes"
+      ],
+      "generalizations": [
+        "extremities",
+        "toes",
+        "upper",
+        "limbs",
+        "first"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, excitement",
+        "Mind, exhilaration",
+        "Mind, occupation, amel.",
+        "Mind, thinking, complaints, of, agg.",
+        "Mind, thinking",
+        "Mind, thinking, complaints, of",
+        "Mind, ennui, boredom",
+        "Mind, ennui, boredom, entertainment amel."
+      ],
+      "generalizations": [
+        "mind",
+        "thinking",
+        "amel",
+        "complaints",
+        "ennui"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, swelling",
+        "Face, swelling, sensation of",
+        "Face, pain (aching, prosopalgia, etc.), lying",
+        "Face, pain (aching, prosopalgia, etc.), lying, while agg.",
+        "Face, pain (aching, prosopalgia, etc.), evening agg.",
+        "Face, pain (aching, prosopalgia, etc.), evening",
+        "Face, pain (aching, prosopalgia, etc.), afternoon"
+      ],
+      "generalizations": [
+        "face",
+        "aching",
+        "prosopalgia",
+        "swelling",
+        "lying"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, urging, desire",
+        "Rectum, urging",
+        "Rectum, urging, constant",
+        "Rectum, diarrhea",
+        "Rectum, urging, stool, during",
+        "Rectum, urging, stool",
+        "Rectum, diarrhea, sensation as before a",
+        "Rectum, urging, night"
+      ],
+      "generalizations": [
+        "rectum",
+        "urging",
+        "diarrhea",
+        "stool",
+        "desire"
+      ],
+      "next_segment": "Vertiginous state"
+    },
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, closing eyes, on agg.",
+        "Vertigo, closing eyes",
+        "Vertigo, closing eyes, on",
+        "Vertigo, closing eyes, on, amel.",
+        "Vertigo, morning",
+        "Vertigo, meditating, thinking of something else amel.",
+        "Vertigo, meditating",
+        "Vertigo, morning, bed, in"
+      ],
+      "generalizations": [
+        "vertigo",
+        "closing",
+        "eyes",
+        "amel",
+        "meditating"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

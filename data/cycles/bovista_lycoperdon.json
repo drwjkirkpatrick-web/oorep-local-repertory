@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Bovista Lycoperdon",
+  "remedy_abbrev": "Bov.",
+  "sentence": "Driven by limb expression, Bovista Lycoperdon manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, eruption",
+        "Extremities, eruption, lower limbs",
+        "Extremities, eruption, upper limbs",
+        "Extremities, itching",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, elbow",
+        "Extremities, awkwardness"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "limbs",
+        "tearing",
+        "lower"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, enlarged sensation",
+        "Head, enlarged",
+        "Head, pain",
+        "Head, eruption",
+        "Head, heaviness",
+        "Head, heaviness, forehead",
+        "Head, itching of scalp",
+        "Head, pain, menses, before"
+      ],
+      "generalizations": [
+        "head",
+        "enlarged",
+        "heaviness",
+        "eruption",
+        "forehead"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, menses, during agg.",
+        "Generalities, menses",
+        "Generalities, menses, before",
+        "Generalities, stiffness",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, morning",
+        "Generalities, eating"
+      ],
+      "generalizations": [
+        "generalities",
+        "menses",
+        "during",
+        "before",
+        "stiffness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, sensitive (to touch), clothing, sensitive to, after eating, desires to uncover",
+        "Abdomen, sensitive (to touch), clothing, sensitive to, after eating",
+        "Abdomen, colic",
+        "Abdomen, navicular region",
+        "Abdomen, sensitive (to touch)",
+        "Abdomen, sensitive (to touch), clothing, sensitive to",
+        "Abdomen, sensitive (to touch), clothing",
+        "Abdomen, distension"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sensitive",
+        "touch",
+        "clothing",
+        "after"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, mood, alternating",
+        "Mind, mood",
+        "Mind, comprehension",
+        "Mind, comprehension, difficult",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending"
+      ],
+      "generalizations": [
+        "mind",
+        "mood",
+        "comprehension",
+        "restlessness",
+        "irritability"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, itching",
+        "Skin, intended easily from pressure",
+        "Skin, eruptions, desquamating",
+        "Skin, warts",
+        "Skin, discoloration",
+        "Skin, discoloration, yellow, new born children"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discoloration",
+        "herpetic",
+        "itching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

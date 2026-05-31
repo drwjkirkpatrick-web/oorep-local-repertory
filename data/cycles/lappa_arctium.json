@@ -1,0 +1,94 @@
+{
+  "remedy_name": "Lappa Arctium",
+  "remedy_abbrev": "Lappa",
+  "sentence": "Driven by skin, Lappa Arctium manifests a dynamic cycle through face and genitalia female, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, eruptions, eczema",
+        "Skin, eruptions, crusty"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "eczema",
+        "crusty"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, boils",
+        "Face, eruptions, crusty, scabby",
+        "Face, eruptions, crusty"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "crusty",
+        "boils",
+        "scabby"
+      ],
+      "next_segment": "Female genital state"
+    },
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, pain, sore",
+        "Genitalia female, pain, sore, uterus",
+        "Genitalia female, pain, sore, uterus, jarring, sensitive to",
+        "Genitalia female, pain, sore, uterus, standing",
+        "Genitalia female, uterus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "sore",
+        "uterus",
+        "jarring"
+      ],
+      "next_segment": "Cough pattern"
+    },
+    {
+      "name": "Cough pattern",
+      "description": "Cough character, time, aggravation, expectation.",
+      "symptoms": [
+        "Cough, loose"
+      ],
+      "generalizations": [
+        "cough",
+        "loose"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Lappa Arctium"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "lappa",
+        "arctium"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    }
+  ]
+}

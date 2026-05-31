@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mercurialis Perennis",
+  "remedy_abbrev": "Merl.",
+  "sentence": "Driven by limb expression, Mercurialis Perennis manifests a dynamic cycle through head and eye, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, tearing",
+        "Extremities, pain, tearing, forearm",
+        "Extremities, pain, tearing, thigh",
+        "Extremities, pain, wandering shifting",
+        "Extremities, forearm",
+        "Extremities, thigh",
+        "Extremities, coldness"
+      ],
+      "generalizations": [
+        "extremities",
+        "tearing",
+        "forearm",
+        "thigh",
+        "wandering"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, numbness, sensation of",
+        "Head, pain, shooting, forehead",
+        "Head, numbness",
+        "Head, pain, tea"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "numbness",
+        "heaviness",
+        "temples"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, heaviness",
+        "Eye, heaviness, lids",
+        "Eye, lachrymation",
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, inflammation",
+        "Eye, pupils, dilated",
+        "Eye, pupils"
+      ],
+      "generalizations": [
+        "heaviness",
+        "pupils",
+        "lids",
+        "lachrymation",
+        "redness"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, pain, burning, tongue",
+        "Mouth, pain, burning",
+        "Mouth, tongue",
+        "Mouth, biting, tongue",
+        "Mouth, paralysis, tongue",
+        "Mouth, biting",
+        "Mouth, paralysis"
+      ],
+      "generalizations": [
+        "mouth",
+        "tongue",
+        "burning",
+        "biting",
+        "paralysis"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, morose",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "sadness",
+        "morose"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, spleen",
+        "Abdomen, pain, pressing, spleen",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "pressing",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

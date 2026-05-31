@@ -1,0 +1,121 @@
+{
+  "remedy_name": "Vaccininum",
+  "remedy_abbrev": "Vac.",
+  "sentence": "Driven by limb expression, Vaccininum manifests a dynamic cycle through face and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, wrist",
+        "Extremities, pain, wrist, rheumatic",
+        "Extremities, wrist",
+        "Extremities, eruption",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, leg",
+        "Extremities, pain, broken, sensation as if"
+      ],
+      "generalizations": [
+        "extremities",
+        "wrist",
+        "aching",
+        "rheumatic",
+        "eruption"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, eruptions",
+        "Face, swelling",
+        "Face, discoloration, red, forehead",
+        "Face, eruptions, crusty, scabby",
+        "Face, discoloration, brown",
+        "Face, discoloration, brown, yellowish"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "eruptions",
+        "brown",
+        "swelling"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, taste, sour",
+        "Mouth, taste",
+        "Mouth, taste, sour, coffee tastes",
+        "Mouth, tongue"
+      ],
+      "generalizations": [
+        "mouth",
+        "taste",
+        "dryness",
+        "tongue",
+        "sour"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin, eruptions",
+        "Skin, nevi",
+        "Skin, eruptions, crusty"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "nevi",
+        "crusty"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, impatience"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "impatience"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose, epistaxis",
+        "Nose, coryza"
+      ],
+      "generalizations": [
+        "nose",
+        "epistaxis",
+        "coryza"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

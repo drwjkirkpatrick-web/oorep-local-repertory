@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Daphne Indica",
+  "remedy_abbrev": "Daph.",
+  "sentence": "Driven by limb expression, Daphne Indica manifests a dynamic cycle through head and stomach, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, pain, sore, bruised",
+        "Extremities, swelling, toes",
+        "Extremities, toes",
+        "Extremities, pain, sore",
+        "Extremities, coldness",
+        "Extremities, coldness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "sore",
+        "toes",
+        "coldness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, heat",
+        "Head, pain",
+        "Head, heat, vertex",
+        "Head, pain, temples",
+        "Head, separated",
+        "Head, separated from body, were, as if",
+        "Head, separated from body, were, as if, night",
+        "Head, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "separated",
+        "heat",
+        "vertex",
+        "body"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, vomiting",
+        "Stomach, eructations, waterbrash",
+        "Stomach, retching",
+        "Stomach, vomiting, sour"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "vomiting",
+        "burning",
+        "empty"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, eating, after agg.",
+        "Back, pain, eating",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, lying",
+        "Back, pain, aching, dull pain"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "eating",
+        "dorsal",
+        "cervical"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, size",
+        "Mind, size distance and form",
+        "Mind, excitement, excitable",
+        "Mind, excitement",
+        "Mind, heedless",
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, delusions, cats, sees"
+      ],
+      "generalizations": [
+        "mind",
+        "size",
+        "excitement",
+        "distance",
+        "form"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, discoloration",
+        "Mouth, discoloration, palate, red",
+        "Mouth, discoloration, palate",
+        "Mouth, palate",
+        "Mouth, pain",
+        "Mouth, dryness",
+        "Mouth, dryness, tongue",
+        "Mouth, odor (breath), offensive"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "palate",
+        "dryness",
+        "tongue"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "remedy_name": "Wiesbaden Aqua",
+  "remedy_abbrev": "Wies.",
+  "sentence": "Driven by limb expression, Wiesbaden Aqua manifests a dynamic cycle through expectoration and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, pain, foot",
+        "Extremities, cramps, thigh",
+        "Extremities, cramps, thigh, menses, during",
+        "Extremities, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "thigh",
+        "foot",
+        "menses"
+      ],
+      "next_segment": "Expectoration state"
+    },
+    {
+      "name": "Expectoration state",
+      "description": "Mucus color, consistency, quantity, taste.",
+      "symptoms": [
+        "Expectoration, viscid",
+        "Expectoration, lumpy",
+        "Expectoration, taste, salty",
+        "Expectoration, taste",
+        "Expectoration, copious"
+      ],
+      "generalizations": [
+        "expectoration",
+        "taste",
+        "viscid",
+        "lumpy",
+        "salty"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore"
+      ],
+      "generalizations": [
+        "generalities",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, eruptions",
+        "Back, eruptions, vesicles"
+      ],
+      "generalizations": [
+        "back",
+        "eruptions",
+        "vesicles"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Wiesbaden Aqua"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "wiesbaden",
+        "aqua"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, swelling"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "swelling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

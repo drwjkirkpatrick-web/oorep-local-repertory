@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ustilago Maydis",
+  "remedy_abbrev": "Ust.",
+  "sentence": "Driven by genitalia female, Ustilago Maydis manifests a dynamic cycle through back and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Female genital state",
+      "description": "Menses, leucorrhea, pregnancy, uterine symptoms.",
+      "symptoms": [
+        "Genitalia female, pain",
+        "Genitalia female, metrorrhagia",
+        "Genitalia female, menses",
+        "Genitalia female, pain, cramping",
+        "Genitalia female, pain, cramping, uterus",
+        "Genitalia female, pain, ovaries",
+        "Genitalia female, pain, ovaries, left",
+        "Genitalia female, irritation"
+      ],
+      "generalizations": [
+        "genitalia",
+        "female",
+        "cramping",
+        "ovaries",
+        "metrorrhagia"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, menses, before",
+        "Back, pain, menses",
+        "Back, pain, sacral region",
+        "Back, pain, lying, abdomen",
+        "Back, pain, lying",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "menses",
+        "region",
+        "lying",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, exfoliation, nails",
+        "Extremities, thick nails",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, restlessness",
+        "Extremities, tingling, hand",
+        "Extremities, tingling, upper limbs",
+        "Extremities, tingling"
+      ],
+      "generalizations": [
+        "extremities",
+        "tingling",
+        "nails",
+        "exfoliation",
+        "thick"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, menses, during",
+        "Abdomen, pain, menses",
+        "Abdomen, pain, menses, during, hard, steady",
+        "Abdomen, pain, bruised, tenderness",
+        "Abdomen, pain, bruised"
+      ],
+      "generalizations": [
+        "abdomen",
+        "bruised",
+        "menses",
+        "tenderness",
+        "during"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, seminal emissions (nightly)",
+        "Genitalia male, sexual passion, increased",
+        "Genitalia male, sexual passion",
+        "Genitalia male, sexual passion, increased, excessive",
+        "Genitalia male, masturbation, disposition",
+        "Genitalia male, masturbation",
+        "Genitalia male, perspiration",
+        "Genitalia male, inflammation"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "sexual",
+        "passion",
+        "increased"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, nervous",
+        "Head, pain, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "headache",
+        "general",
+        "crusts"
+      ],
+      "next_segment": "Female genital state"
+    }
+  ]
+}

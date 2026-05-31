@@ -1,0 +1,40 @@
+{
+  "remedy_name": "Penthorum Sedoides",
+  "remedy_abbrev": "Pen.",
+  "sentence": "Driven by vertigo, Penthorum Sedoides manifests a dynamic cycle through ear and general disturbance, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Vertiginous state",
+      "description": "Dizziness, falling, turning, nausea with vertigo.",
+      "symptoms": [
+        "Vertigo, closing eyes, on agg.",
+        "Vertigo, closing eyes",
+        "Vertigo, closing eyes, on"
+      ],
+      "generalizations": [
+        "vertigo",
+        "closing",
+        "eyes"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, fullness, sensation of",
+        "Ear, fullness"
+      ],
+      "generalizations": [
+        "fullness"
+      ],
+      "next_segment": "Vertiginous state"
+    }
+  ]
+}

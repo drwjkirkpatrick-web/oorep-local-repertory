@@ -1,0 +1,128 @@
+{
+  "remedy_name": "Citrus Aurantium L.",
+  "remedy_abbrev": "Cit-a.",
+  "sentence": "Driven by limb expression, Citrus Aurantium L. manifests a dynamic cycle through mind and ear, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, discoloration, fingers",
+        "Extremities, eruption",
+        "Extremities, itching",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, fingers",
+        "Extremities, perspiration"
+      ],
+      "generalizations": [
+        "extremities",
+        "fingers",
+        "drawing",
+        "swelling",
+        "discoloration"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, restlessness, night",
+        "Mind, night",
+        "Mind, delusions",
+        "Mind, restlessness, lying, while",
+        "Mind, restlessness, lying",
+        "Mind, delusions, disabled, that she is"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "delusions",
+        "lying",
+        "nervousness"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises, ringing",
+        "Ear, noises",
+        "Ear, pain",
+        "Ear, discoloration, redness",
+        "Ear, discoloration",
+        "Ear, pain, lancinating",
+        "Ear, noises, mill, sound of",
+        "Ear, noises, mill"
+      ],
+      "generalizations": [
+        "noises",
+        "discoloration",
+        "mill",
+        "ringing",
+        "redness"
+      ],
+      "next_segment": "Sleep and dream pattern"
+    },
+    {
+      "name": "Sleep and dream pattern",
+      "description": "Insomnia, position, dreams, unrefreshing sleep.",
+      "symptoms": [
+        "Sleep, sleeplessness",
+        "Sleep, yawning",
+        "Sleep, yawning, frequent"
+      ],
+      "generalizations": [
+        "sleep",
+        "yawning",
+        "sleeplessness",
+        "frequent"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, enlarged",
+        "Abdomen, enlarged, spleen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "enlarged"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, nausea",
+        "Stomach, nausea, oranges, odor of",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, heaviness"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "heaviness",
+        "oranges",
+        "odor"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

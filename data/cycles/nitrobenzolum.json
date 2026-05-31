@@ -1,0 +1,120 @@
+{
+  "remedy_name": "Nitrobenzolum",
+  "remedy_abbrev": "Nitrob.",
+  "sentence": "Driven by eye, Nitrobenzolum manifests a dynamic cycle through limb disturbance and face, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, turned",
+        "Eye, enlargement, sensation of",
+        "Eye, glassy appearance",
+        "Eye, movement, eyeballs, constant",
+        "Eye, movement, eyeballs, constant, rolling",
+        "Eye, staring",
+        "Eye, movement, eyeballs, constant, pendulum like, from side to side",
+        "Eye, strabismus"
+      ],
+      "generalizations": [
+        "movement",
+        "eyeballs",
+        "constant",
+        "side",
+        "turned"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, discoloration, fingers",
+        "Extremities, discoloration, hand, blueness",
+        "Extremities, discoloration",
+        "Extremities, discoloration, hand",
+        "Extremities, coldness, hands, blue",
+        "Extremities, extended arms"
+      ],
+      "generalizations": [
+        "extremities",
+        "discoloration",
+        "coldness",
+        "hands",
+        "hand"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, discoloration, pale",
+        "Face, discoloration",
+        "Face, discoloration, lead-colored"
+      ],
+      "generalizations": [
+        "face",
+        "discoloration",
+        "pale",
+        "lead",
+        "colored"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, convulsions",
+        "Clinical, convulsions, tetanic rigidity",
+        "Clinical, convulsions, tetanic rigidity, dashing cold water on face amel."
+      ],
+      "generalizations": [
+        "clinical",
+        "convulsions",
+        "tetanic",
+        "rigidity",
+        "dashing"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, vomiting",
+        "Stomach, vomiting, unconsciousness, during"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "unconsciousness",
+        "during"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, speech, stammering",
+        "Mouth, speech"
+      ],
+      "generalizations": [
+        "mouth",
+        "speech",
+        "stammering"
+      ],
+      "next_segment": "Visual and ocular strain"
+    }
+  ]
+}

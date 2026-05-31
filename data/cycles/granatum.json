@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Granatum",
+  "remedy_abbrev": "Gran.",
+  "sentence": "Driven by limb expression, Granatum manifests a dynamic cycle through abdomen and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, paralysis",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, leg",
+        "Extremities, itching",
+        "Extremities, pain, fingers",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, sore, bruised, shoulder"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "sore",
+        "bruised",
+        "paralysis"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, pain, evening",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, diarrhea",
+        "Abdomen, movements, in"
+      ],
+      "generalizations": [
+        "abdomen",
+        "aching",
+        "dull",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, tea",
+        "Head, pain, tearing",
+        "Head, pain, tearing, sides",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc."
+      ],
+      "generalizations": [
+        "head",
+        "tearing",
+        "congestion",
+        "sides",
+        "heat"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, diarrhea",
+        "Rectum, hemorrhoids",
+        "Rectum, worm, ascarides",
+        "Rectum, worm",
+        "Rectum, itching",
+        "Rectum, worm, lumbricoides",
+        "Rectum, hemorrhoids, external",
+        "Rectum, pain"
+      ],
+      "generalizations": [
+        "rectum",
+        "worm",
+        "hemorrhoids",
+        "diarrhea",
+        "ascarides"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, formication",
+        "Generalities, formication, external parts",
+        "Generalities, pain, sore, bruised",
+        "Generalities, pain, sore, bruised, externally",
+        "Generalities, pain, tearing, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "eating",
+        "formication",
+        "sore",
+        "bruised"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, nausea, abdomen",
+        "Stomach, nausea, abdomen, during pain in",
+        "Stomach, eructations",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty"
+      ],
+      "generalizations": [
+        "stomach",
+        "nausea",
+        "abdomen",
+        "eructations",
+        "vomiting"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

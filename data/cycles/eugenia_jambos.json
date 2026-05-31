@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Eugenia Jambos",
+  "remedy_abbrev": "Eug.",
+  "sentence": "Driven by head, Eugenia Jambos manifests a dynamic cycle through limb disturbance and eye, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, burning",
+        "Head, pain, rheumatic",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, motions"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "burning",
+        "rheumatic",
+        "headache"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, pain",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, knee",
+        "Extremities, knee",
+        "Extremities, paralysis",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, pain, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "aching",
+        "knee",
+        "cramps",
+        "paralysis"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, lachrymation",
+        "Eye, pain",
+        "Eye, pain, burning",
+        "Eye, pain, burning, headache, during",
+        "Eye, itching",
+        "Eye, inflammation",
+        "Eye, itching, evening",
+        "Eye, lachrymation, evening"
+      ],
+      "generalizations": [
+        "lachrymation",
+        "burning",
+        "itching",
+        "headache",
+        "during"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face, eruptions",
+        "Face, eruptions, pimples",
+        "Face, eruptions, acne",
+        "Face, eruptions, acne, rosacea",
+        "Face, eruptions, comedones",
+        "Face, expression",
+        "Face, pain (aching, prosopalgia, etc.)",
+        "Face, eruptions, painful"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "acne",
+        "pimples",
+        "rosacea"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, seminal discharge",
+        "Genitalia male, seminal discharge, failing during coition",
+        "Genitalia male, coition, enjoyment absent",
+        "Genitalia male, erections, wanting (impotency)",
+        "Genitalia male, seminal discharge, late, too",
+        "Genitalia male, coition",
+        "Genitalia male, erections",
+        "Genitalia male, erections, painful"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "seminal",
+        "discharge",
+        "coition"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, delusions",
+        "Mind, speech",
+        "Mind, company aversion to"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "nervousness",
+        "mental"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

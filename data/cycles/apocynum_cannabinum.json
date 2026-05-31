@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Apocynum Cannabinum",
+  "remedy_abbrev": "Apoc.",
+  "sentence": "Driven by limb expression, Apocynum Cannabinum manifests a dynamic cycle through stomach and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, motion",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, pain",
+        "Extremities, pain, leg",
+        "Extremities, swelling, foot",
+        "Extremities, swelling, foot, edematous"
+      ],
+      "generalizations": [
+        "extremities",
+        "swelling",
+        "foot",
+        "motion",
+        "stiffness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, vomiting",
+        "Stomach, pain, drinking, after",
+        "Stomach, pain, drinking",
+        "Stomach, vomiting, menses, during",
+        "Stomach, vomiting, menses",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, heaviness"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "drinking",
+        "menses",
+        "heaviness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, pain",
+        "Generalities, pain, pressing",
+        "Generalities, pain, pressing externally",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, food",
+        "Generalities, food, cold drinks",
+        "Generalities, cold, in general agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "pressing",
+        "lying",
+        "food",
+        "cold"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, dropsy, ascites",
+        "Abdomen, dropsy",
+        "Abdomen, distension",
+        "Abdomen, anxiety in, stool, after",
+        "Abdomen, dropsy, ascites, with chronic diarrhea",
+        "Abdomen, anxiety in, stool",
+        "Abdomen, liver",
+        "Abdomen, anxiety in"
+      ],
+      "generalizations": [
+        "abdomen",
+        "dropsy",
+        "anxiety",
+        "ascites",
+        "stool"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urging to urinate (morbid desire)",
+        "Bladder, urging to urinate (morbid desire), ineffectual",
+        "Bladder, urination",
+        "Bladder, urination, involuntary",
+        "Bladder, urination, dysuria",
+        "Bladder, urination, involuntary, night (incontinence in bed)",
+        "Bladder, retention of urine",
+        "Bladder, night"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "urging",
+        "urinate",
+        "morbid"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum, flatus",
+        "Rectum, involuntary stool",
+        "Rectum, involuntary stool, flatus, on passing",
+        "Rectum, pain",
+        "Rectum, pain, burning",
+        "Rectum, diarrhea",
+        "Rectum, hemorrhoids",
+        "Rectum, hemorrhoids, congested"
+      ],
+      "generalizations": [
+        "rectum",
+        "flatus",
+        "involuntary",
+        "stool",
+        "hemorrhoids"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

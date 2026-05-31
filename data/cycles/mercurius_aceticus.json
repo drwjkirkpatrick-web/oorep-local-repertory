@@ -1,0 +1,83 @@
+{
+  "remedy_name": "Mercurius Aceticus",
+  "remedy_abbrev": "Merc-acet.",
+  "sentence": "Driven by genitalia male, Mercurius Aceticus manifests a dynamic cycle through bladder and urethra, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, pain",
+        "Genitalia male, pain, contracting, testes",
+        "Genitalia male, pain, contracting",
+        "Genitalia male, pain, constricting",
+        "Genitalia male, pain, constricting, testes",
+        "Genitalia male, testes"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "testes",
+        "contracting",
+        "constricting"
+      ],
+      "next_segment": "Bladder state"
+    },
+    {
+      "name": "Bladder state",
+      "description": "Bladder symptoms, retention, pain, incontinence.",
+      "symptoms": [
+        "Bladder, urination",
+        "Bladder, urination, feeble stream (slow)",
+        "Bladder, urination, feeble stream (slow), rising, after",
+        "Bladder, bladder in general"
+      ],
+      "generalizations": [
+        "bladder",
+        "urination",
+        "feeble",
+        "stream",
+        "slow"
+      ],
+      "next_segment": "Urethral state"
+    },
+    {
+      "name": "Urethral state",
+      "description": "Urethral discharge, pain, burning during urination.",
+      "symptoms": [
+        "Urethra, pain",
+        "Urethra, pain, cutting",
+        "Urethra, pain, cutting, urination",
+        "Urethra, pain, cutting, urination, close of urination, at"
+      ],
+      "generalizations": [
+        "urethra",
+        "cutting",
+        "urination",
+        "close"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Mercurius Aceticus"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "mercurius",
+        "aceticus"
+      ],
+      "next_segment": "Male genital state"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "remedy_name": "Ferrum Picricum",
+  "remedy_abbrev": "Ferr-pic.",
+  "sentence": "Driven by head, Ferrum Picricum manifests a dynamic cycle through general state and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, vertex, mental exertion",
+        "Head, pain, vertex, noise, from",
+        "Head, pain, vertex, voices agg.",
+        "Head, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "mental",
+        "exertion",
+        "noise"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness",
+        "Generalities, weakness, mental exertion"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "mental",
+        "exertion"
+      ],
+      "next_segment": "Mental mental disturbance"
+    },
+    {
+      "name": "Mental mental disturbance",
+      "description": "The remedy's dominant mental pattern: mental disturbance. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, prostration of mind"
+      ],
+      "generalizations": [
+        "mind",
+        "prostration"
+      ],
+      "next_segment": "Auditory disturbance"
+    },
+    {
+      "name": "Auditory disturbance",
+      "description": "Hearing changes, ear pain, tinnitus, otitis.",
+      "symptoms": [
+        "Ear, noises",
+        "Ear, noises, buzzing",
+        "Ear, noises, hissing",
+        "Ear, noises, mental exertion",
+        "Ear, noises, buzzing, mental exertion, after"
+      ],
+      "generalizations": [
+        "noises",
+        "buzzing",
+        "mental",
+        "exertion",
+        "hissing"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, warts, hand",
+        "Extremities, warts"
+      ],
+      "generalizations": [
+        "extremities",
+        "warts",
+        "hand"
+      ],
+      "next_segment": "Prostate state"
+    },
+    {
+      "name": "Prostate state",
+      "description": "Characteristic prostate symptoms.",
+      "symptoms": [
+        "prostate symptoms characteristic of Ferrum Picricum"
+      ],
+      "generalizations": [
+        "prostate",
+        "symptoms",
+        "characteristic",
+        "ferrum",
+        "picricum"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

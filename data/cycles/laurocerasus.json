@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Laurocerasus",
+  "remedy_abbrev": "Laur.",
+  "sentence": "Driven by head, Laurocerasus manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, forehead",
+        "Head, heat",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "congestion",
+        "heat",
+        "hyperemia"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, contraction",
+        "Extremities, coldness, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "painless",
+        "stiffness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, eating",
+        "Generalities, irritability",
+        "Generalities, eating, before",
+        "Generalities, exertion, physical, agg.",
+        "Generalities, exertion, physical"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "eating",
+        "exertion",
+        "physical"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, absorbed, buried in thought",
+        "Mind, absorbed",
+        "Mind, dipsomania (alcoholism)",
+        "Mind, delusions, imaginations, hallucinations",
+        "Mind, delusions, imaginations"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "imaginations",
+        "dullness",
+        "hallucinations"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, hips and loin region",
+        "Abdomen, sides",
+        "Abdomen, sides, of",
+        "Abdomen, spleen",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "inflammation",
+        "hips",
+        "loin"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, right",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, pressing",
+        "Back, pain, coccyx"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "right",
+        "left"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

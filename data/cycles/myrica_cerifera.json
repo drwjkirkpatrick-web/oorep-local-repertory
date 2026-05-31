@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Myrica Cerifera",
+  "remedy_abbrev": "Myric.",
+  "sentence": "Driven by head, Myrica Cerifera manifests a dynamic cycle through limb disturbance and mouth, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head, pain",
+        "Head, congestion",
+        "Head, heaviness",
+        "Head, pain, vertex",
+        "Head, pain, vertex and forehead",
+        "Head, pain, forehead",
+        "Head, coldness, vertex",
+        "Head, congestion, stooping, when"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "congestion",
+        "forehead",
+        "heaviness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, lameness",
+        "Extremities, pain",
+        "Extremities, itching",
+        "Extremities, pain, aching",
+        "Extremities, pain, aching, shoulder",
+        "Extremities, pain, burning",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, thigh"
+      ],
+      "generalizations": [
+        "extremities",
+        "aching",
+        "drawing",
+        "lameness",
+        "itching"
+      ],
+      "next_segment": "Oral disturbance"
+    },
+    {
+      "name": "Oral disturbance",
+      "description": "Taste, saliva, tongue, ulcers, bleeding gums.",
+      "symptoms": [
+        "Mouth, pain",
+        "Mouth, aphthae",
+        "Mouth, dryness",
+        "Mouth, pain, sore",
+        "Mouth, discoloration",
+        "Mouth, discoloration, tongue",
+        "Mouth, taste",
+        "Mouth, bleeding"
+      ],
+      "generalizations": [
+        "mouth",
+        "discoloration",
+        "aphthae",
+        "dryness",
+        "sore"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach, pain",
+        "Stomach, pain, pressing",
+        "Stomach, emptiness",
+        "Stomach, emptiness, eating, after",
+        "Stomach, emptiness, eating",
+        "Stomach, eructations",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty"
+      ],
+      "generalizations": [
+        "stomach",
+        "emptiness",
+        "eating",
+        "eructations",
+        "pressing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, cervical region",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, cervical region",
+        "Back, pain, sore, bruised, beaten",
+        "Back, stiffness",
+        "Back, stiffness, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "cervical"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "sadness",
+        "irritability"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

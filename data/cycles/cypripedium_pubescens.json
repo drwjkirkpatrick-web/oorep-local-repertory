@@ -1,0 +1,107 @@
+{
+  "remedy_name": "Cypripedium Pubescens",
+  "remedy_abbrev": "Cypr.",
+  "sentence": "Driven by mind, Cypripedium Pubescens manifests a dynamic cycle through back and genitalia, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental withdrawal",
+      "description": "The remedy's dominant mental pattern: withdrawal. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, ecstasy",
+        "Mind, ecstasy, night",
+        "Mind, ecstasy, night, waking, on",
+        "Mind, night",
+        "Mind, waking, on, agg.",
+        "Mind, waking",
+        "Mind, hysteria",
+        "Mind, indifference, apathy, etc."
+      ],
+      "generalizations": [
+        "mind",
+        "ecstasy",
+        "waking",
+        "hysteria",
+        "indifference"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, eruptions",
+        "Back, eruptions, boils",
+        "Back, eruptions, boils, cervical region",
+        "Back, cervix"
+      ],
+      "generalizations": [
+        "back",
+        "eruptions",
+        "boils",
+        "cervical",
+        "region"
+      ],
+      "next_segment": "Genital and sexual state"
+    },
+    {
+      "name": "Genital and sexual state",
+      "description": "Libido, eruptions, menses, discharges.",
+      "symptoms": [
+        "genitalia symptoms characteristic of Cypripedium Pubescens"
+      ],
+      "generalizations": [
+        "genitalia",
+        "symptoms",
+        "characteristic",
+        "cypripedium",
+        "pubescens"
+      ],
+      "next_segment": "Male genital state"
+    },
+    {
+      "name": "Male genital state",
+      "description": "Erections, emissions, prostate, testicular symptoms.",
+      "symptoms": [
+        "Genitalia male, seminal emissions (nightly)"
+      ],
+      "generalizations": [
+        "genitalia",
+        "male",
+        "seminal",
+        "emissions",
+        "nightly"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities, twitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "twitching"
+      ],
+      "next_segment": "Clinical condition"
+    },
+    {
+      "name": "Clinical condition",
+      "description": "Disease names, pathology, clinical presentations.",
+      "symptoms": [
+        "Clinical, chorea"
+      ],
+      "generalizations": [
+        "clinical",
+        "chorea"
+      ],
+      "next_segment": "Mental withdrawal"
+    }
+  ]
+}
