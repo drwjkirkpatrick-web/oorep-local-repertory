@@ -1,8 +1,8 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **24 advanced practitioner modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **38 specialized modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
 
-> **Version:** 2.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Tests:** 186 passing | **Coverage:** 50 of 58 LLM-Hermes benefits implemented
+> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 38 Python modules | **Tests:** 222 passing | **Coverage:** **58 of 58 (100%)** LLM-Hermes benefits implemented
 
 ---
 
@@ -387,7 +387,7 @@ report = audit.export_for_review(practitioner_id="dr-kirkpatrick")
 
 ```
 oorep-local-repertory/
-├── oorep/                          # Core Python package (32 modules)
+├── oorep/                          # Core Python package (38 modules)
 │   ├── __init__.py                 # Unified import surface
 │   ├── homeopathic_repertory.py    # Main repertory API
 │   ├── clinical_rubric_mapper.py   # Patient phrase → rubric mapping
@@ -421,11 +421,17 @@ oorep-local-repertory/
 │   ├── remedy_freshness_tracker.py # Staleness alerts (#39)
 │   ├── rubric_gap_analyzer.py    # Gap detection (#40)
 │   ├── subagent_orchestrator.py  # Case analysis plans (#35-37)
-│   └── model_router.py           # Local/cloud routing (#57)
+│   ├── model_router.py           # Local/cloud routing (#57)
+│   ├── materia_medica.py         # Full-text proving DB (#18, #21)
+│   ├── kingdom_taxonomy.py       # Mineral/Plant/Animal tags (#22)
+│   ├── botanical_bridge.py       # WHO Monograph cross-map (#28)
+│   ├── genomic_hypothesis.py     # SNP → remedy outcomes (#29)
+│   ├── flashcard_srs.py          # SM-2 spaced repetition (#44)
+│   └── cron_tasks.py             # Follow-ups, rebuild, backup (#33, #42, #43)
 ├── scripts/
 │   ├── extract_oorep.py          # Extract OOREP SQL → JSON
 │   └── remedy_feedback.py        # Prescription outcome tracking
-├── tests/                        # 186 pytest tests
+├── tests/                        # 222 pytest tests
 │   ├── conftest.py
 │   ├── test_clinical_rubric_mapper.py
 │   ├── test_hybrid_repertory.py
@@ -433,7 +439,8 @@ oorep-local-repertory/
 │   ├── test_batch_a.py           # Phase 3 batch A
 │   ├── test_batch_b.py           # Phase 3 batch B
 │   ├── test_batch_c.py           # Phase 3 batch C
-│   └── test_batch_d.py           # Phase 3 batch D
+│   ├── test_batch_d.py           # Phase 4 batch D
+│   └── test_batch_e.py           # Phase 5 batch E (final benefits)
 ├── examples/
 │   └── basic_usage.py            # Copy-paste starter code
 ├── data/                         # Extracted OOREP JSON (gitignored)
@@ -491,17 +498,13 @@ Full suite: **186 tests** covering all 32 modules.
 See `OOREP_Gap_Analysis.md` for the complete 58-benefit audit with build phases.
 
 **Coverage summary:**
-- **50 of 58 benefits** implemented (86.2%)
-- **32 Python modules** built
-- **186/186 tests** passing
+- **58 of 58 benefits** implemented (**100%**)
+- **38 Python modules** built
+- **222/222 tests** passing
 
-**Remaining (require external data import):**
-- Materia medica proving text integration (Kent/Boericke/Allen)
-- Kingdom/taxonomy classification tags
-- Botanical repertory cross-mapping (WHO Monographs)
-- Metabolic SNP → remedy outcome genomic hypothesis engine
-- Vector index auto-rebuild scheduling
-- Encrypted GitHub backup cron
+**Phase 5 Complete:** Materia medica proving texts, kingdom taxonomy (75-remedy seed), botanical bridge (WHO Monograph), genomic SNP hypothesis (14-SNP seed), flashcard spaced repetition, and cron automation (follow-up alerts, vector auto-rebuild, GitHub backup) are all built and tested.
+
+All remaining items are seeded with PD-compatible classical data and ready for expansion with your own corpus.
 
 ---
 
