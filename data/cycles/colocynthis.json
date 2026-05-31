@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Colocynthis",
+  "remedy_abbrev": "Coloc.",
+  "sentence": "Driven by limb expression, Colocynthis manifests a dynamic cycle through abdomen and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, contraction, muscles and tendons, of",
+        "Extremities, contraction",
+        "Extremities, cramps, calf"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "contraction",
+        "weakness",
+        "muscles"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, bending double",
+        "Abdomen, pain, cutting",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, pain, cramping, griping, bending forward amel."
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "bending",
+        "distension"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, rheumatic",
+        "Head, pain, periodic headache",
+        "Head, pain, periodic",
+        "Head, heat",
+        "Head, pain, headache in general",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "periodic",
+        "headache",
+        "rheumatic",
+        "heat"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pressure, amel.",
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, side",
+        "Generalities, eating, after agg.",
+        "Generalities, pain, cutting, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressure",
+        "side",
+        "amel",
+        "right"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, lying",
+        "Back, pain, breathing, when",
+        "Back, pain, drawing"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "scapulae",
+        "right"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, pain",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, pain, cramping, griping, constricting",
+        "Stomach, pain, cramping",
+        "Stomach, pain, cutting",
+        "Stomach, pain, tearing"
+      ],
+      "generalizations": [
+        "stomach",
+        "cramping",
+        "nausea",
+        "vomiting",
+        "griping"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

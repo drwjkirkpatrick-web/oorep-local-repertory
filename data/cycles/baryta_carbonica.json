@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Baryta Carbonica",
+  "remedy_abbrev": "Bar-c.",
+  "sentence": "Driven by limb expression, Baryta Carbonica manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, dryness, hands",
+        "Extremities, pain",
+        "Extremities, dryness",
+        "Extremities, itching",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, lower limbs",
+        "Extremities, pain, sore, bruised"
+      ],
+      "generalizations": [
+        "extremities",
+        "dryness",
+        "drawing",
+        "hands",
+        "itching"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, fear",
+        "Mind, memory, weakness of",
+        "Mind, unconsciousness",
+        "Mind, anxiety",
+        "Mind, fear, people, of"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "fear",
+        "sluggishness",
+        "difficulty"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, pressure",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, heat",
+        "Generalities, alcoholic stimulants",
+        "Generalities, cold, in general agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "pressure",
+        "lying"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, eruption",
+        "Head, hair",
+        "Head, itching of scalp",
+        "Head, swollen",
+        "Head, eruption, moist",
+        "Head, hair baldness",
+        "Head, swollen, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "hair",
+        "swollen",
+        "itching"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, burning",
+        "Back, pain, burning, dorsal region",
+        "Back, pain, burning, dorsal region, scapulae",
+        "Back, pain, drawing",
+        "Back, pain, drawing, sacral region",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "burning",
+        "dorsal",
+        "drawing"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, tension",
+        "Abdomen, enlarged",
+        "Abdomen, hard",
+        "Abdomen, distension, children, in",
+        "Abdomen, enlarged, children",
+        "Abdomen",
+        "Abdomen, colic"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "enlarged",
+        "children",
+        "tension"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

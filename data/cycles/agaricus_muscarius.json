@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Agaricus Muscarius",
+  "remedy_abbrev": "Agar.",
+  "sentence": "Driven by limb expression, Agaricus Muscarius manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, motion",
+        "Extremities, motion, convulsive",
+        "Extremities, stiffness",
+        "Extremities, numbness",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "motion",
+        "coldness",
+        "paralysis",
+        "convulsive"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, nervous",
+        "Head, pain, alcoholic drinks, from agg.",
+        "Head, motions of head (shaking, nodding, waving, etc.)",
+        "Head, motions",
+        "Head, pain, alcoholic drinks",
+        "Head, coldness, chilliness, etc."
+      ],
+      "generalizations": [
+        "head",
+        "alcoholic",
+        "drinks",
+        "motions",
+        "nervous"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, coldness",
+        "Back, coldness, extending, down back",
+        "Back, pain",
+        "Back, coldness, extending",
+        "Back, pain, sacral region",
+        "Back, formication",
+        "Back, formication, spine"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "extending",
+        "formication",
+        "down"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, delirium",
+        "Mind, mania",
+        "Mind, delirium, raging, raving",
+        "Mind, mania-a-potu",
+        "Mind, rage, fury",
+        "Mind, rage",
+        "Mind, talking"
+      ],
+      "generalizations": [
+        "mind",
+        "delirium",
+        "mania",
+        "rage",
+        "raging"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, side",
+        "Generalities, morning",
+        "Generalities, pain, pressing",
+        "Generalities, cold, air agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "pressure",
+        "side",
+        "pressing"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, drawing",
+        "Abdomen, pain",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, umbilicus",
+        "Abdomen, tension"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "rumbling",
+        "distension",
+        "cramping"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

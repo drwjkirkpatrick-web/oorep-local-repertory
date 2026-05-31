@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ignatia Amara",
+  "remedy_abbrev": "Ign.",
+  "sentence": "Driven by mind, Ignatia Amara manifests a dynamic cycle through general state and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, fear",
+        "Mind, foolish behavior",
+        "Mind, hysteria"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "irritability",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, eating",
+        "Generalities, food",
+        "Generalities, ball internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "fainting",
+        "pressure",
+        "eating"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, nervous",
+        "Head, pain, forehead",
+        "Head, pain, crushed, as if shattered, beaten to pieces",
+        "Head, pain, fright, after",
+        "Head, pain, nail, as from a"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "nervous",
+        "crushed",
+        "shattered"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, paralysis",
+        "Extremities, corns",
+        "Extremities, jerking",
+        "Extremities, perspiration",
+        "Extremities, perspiration, hand",
+        "Extremities, perspiration, hand, palm",
+        "Extremities, twitching"
+      ],
+      "generalizations": [
+        "extremities",
+        "perspiration",
+        "hand",
+        "paralysis",
+        "corns"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, excitement, after",
+        "Abdomen, hanging down, as if intestines were",
+        "Abdomen, weakness, sensation of",
+        "Abdomen, pain, pressing, sides, left",
+        "Abdomen, distension, sides"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "spleen",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Rectal and anal expression"
+    },
+    {
+      "name": "Rectal and anal expression",
+      "description": "Diarrhea, constipation, hemorrhoids, urging.",
+      "symptoms": [
+        "Rectum",
+        "Rectum, pain",
+        "Rectum, hemorrhoids",
+        "Rectum, constriction, contraction, closure, etc.",
+        "Rectum, flatus",
+        "Rectum, pain, pressing",
+        "Rectum, pain, stitching",
+        "Rectum, urging, desire"
+      ],
+      "generalizations": [
+        "rectum",
+        "hemorrhoids",
+        "constriction",
+        "contraction",
+        "closure"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

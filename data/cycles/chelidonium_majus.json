@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chelidonium Majus",
+  "remedy_abbrev": "Chel.",
+  "sentence": "Driven by limb expression, Chelidonium Majus manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, convulsion",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "convulsion",
+        "stiffness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead",
+        "Head, coldness, occiput",
+        "Head, pain, forehead, eyes, above",
+        "Head, pain, forehead, eyes, above, right",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eyes",
+        "above",
+        "heaviness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, dorsal region, scapulae",
+        "Back, pain, dorsal region, scapulae, right",
+        "Back, pain, dorsal region, scapulae, right, under",
+        "Back, pain, aching, dull pain",
+        "Back, pain, drawing"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "scapulae",
+        "right"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, inflammation, liver",
+        "Abdomen, pain, burning, hypochondria",
+        "Abdomen, pain, extending"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inflammation",
+        "burning",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, constriction, band, sensation of a"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "weakness",
+        "right",
+        "enervation"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest",
+        "Chest, oppression",
+        "Chest, hemorrhage",
+        "Chest, pain",
+        "Chest, inflammation",
+        "Chest, constriction, tension, tightness",
+        "Chest, inflammation, lungs",
+        "Chest, pain, sides"
+      ],
+      "generalizations": [
+        "chest",
+        "inflammation",
+        "oppression",
+        "hemorrhage",
+        "constriction"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

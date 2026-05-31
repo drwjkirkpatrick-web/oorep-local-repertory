@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Staphysagria",
+  "remedy_abbrev": "Staph.",
+  "sentence": "Driven by limb expression, Staphysagria manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, lower limbs",
+        "Extremities, heat",
+        "Extremities, heat, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "hand",
+        "heat",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, eruption",
+        "Head, pain, forehead",
+        "Head, pain, drawing",
+        "Head, pain, excitement of the emotions, after",
+        "Head, pain, forehead, nose, above root of",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "eruption",
+        "drawing",
+        "excitement"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, pain, pressing",
+        "Generalities, irritability, excessive physical",
+        "Generalities, irritability",
+        "Generalities, trembling"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "irritability",
+        "enervation",
+        "pressing"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, indifference, apathy, etc.",
+        "Mind, memory, weakness of"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin",
+        "Skin, eruptions",
+        "Skin, excrescences",
+        "Skin, warts",
+        "Skin, eruptions, itching",
+        "Skin, itching",
+        "Skin, itching, crawling",
+        "Skin, stinging"
+      ],
+      "generalizations": [
+        "skin",
+        "itching",
+        "eruptions",
+        "excrescences",
+        "warts"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, swelling, dorsal region",
+        "Back, pain, sexual excesses",
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "swelling",
+        "sexual"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

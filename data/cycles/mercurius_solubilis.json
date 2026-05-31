@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mercurius Solubilis",
+  "remedy_abbrev": "Merc.",
+  "sentence": "Driven by limb expression, Mercurius Solubilis manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, shrivelled (shrunken)",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, lameness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "shrivelled",
+        "shrunken"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, insanity, madness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "nervousness",
+        "mental"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, pain, forehead, in",
+        "Head, pain, stooping, from agg.",
+        "Head, pain, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "forehead",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, weakness",
+        "Generalities, pain, cutting, internally",
+        "Generalities, lying"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "internally",
+        "weakness",
+        "enervation"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin",
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, excrescences",
+        "Skin, discoloration",
+        "Skin, burning",
+        "Skin, discoloration, red",
+        "Skin, discoloration, red, spots"
+      ],
+      "generalizations": [
+        "skin",
+        "discoloration",
+        "eruptions",
+        "herpetic",
+        "excrescences"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, distension, painful",
+        "Abdomen, pain, hypochondria",
+        "Abdomen, pain, liver"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "inflammation",
+        "bruised",
+        "tenderness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

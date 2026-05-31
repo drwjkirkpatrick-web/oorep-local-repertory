@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aurum Metallicum",
+  "remedy_abbrev": "Aur.",
+  "sentence": "Driven by mind, Aurum Metallicum manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, death, desires",
+        "Mind, fear",
+        "Mind, hysteria",
+        "Mind, death"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "death",
+        "irritability",
+        "mental"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "weakness",
+        "hands",
+        "paralysis"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, lying, agg.",
+        "Generalities, morning",
+        "Generalities, lying",
+        "Generalities, irritability, excessive physical"
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "lying",
+        "right",
+        "irritability"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, hair",
+        "Head, pain, mental exertion, from agg.",
+        "Head, pain, air",
+        "Head, pain, mental exertion",
+        "Head, pain, tea",
+        "Head, pain, tearing"
+      ],
+      "generalizations": [
+        "head",
+        "mental",
+        "exertion",
+        "hair",
+        "tearing"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, flatulence",
+        "Abdomen, hernia, inguinal",
+        "Abdomen, hernia",
+        "Abdomen, flatulence, obstructed",
+        "Abdomen, atrophy, liver",
+        "Abdomen, hernia, inguinal, children, in",
+        "Abdomen, liver",
+        "Abdomen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hernia",
+        "flatulence",
+        "inguinal",
+        "liver"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose",
+        "Nose, catarrh",
+        "Nose, discharge, yellow",
+        "Nose, obstruction",
+        "Nose, pain, in",
+        "Nose, smell, acute",
+        "Nose, smell, acute, strong odors",
+        "Nose, discharge"
+      ],
+      "generalizations": [
+        "nose",
+        "discharge",
+        "smell",
+        "acute",
+        "catarrh"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

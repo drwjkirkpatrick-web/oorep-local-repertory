@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Veratrum Album",
+  "remedy_abbrev": "Verat.",
+  "sentence": "Driven by mind, Veratrum Album manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, quiet, quiet disposition",
+        "Mind, quiet",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, hysteria",
+        "Mind, insanity, madness"
+      ],
+      "generalizations": [
+        "mind",
+        "quiet",
+        "sadness",
+        "disposition",
+        "mental"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, shrivelled (shrunken)",
+        "Extremities, shrivelled (shrunken), hand",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "shrivelled",
+        "shrunken",
+        "hands"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, pain, cutting, internally",
+        "Generalities, pain, cutting"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "weakness",
+        "cutting",
+        "fainting"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, perspiration, forehead",
+        "Head, perspiration, forehead, cold",
+        "Head, perspiration",
+        "Head, coldness, vertex",
+        "Head, coldness"
+      ],
+      "generalizations": [
+        "head",
+        "perspiration",
+        "vertex",
+        "forehead",
+        "coldness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting",
+        "Abdomen, coldness",
+        "Abdomen, flatulence"
+      ],
+      "generalizations": [
+        "abdomen",
+        "aching",
+        "dull",
+        "burning",
+        "cramping"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty",
+        "Stomach, nausea",
+        "Stomach, vomiting",
+        "Stomach, eructations, waterbrash",
+        "Stomach, hiccough"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "empty",
+        "nausea",
+        "vomiting"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

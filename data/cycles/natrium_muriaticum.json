@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Natrium Muriaticum",
+  "remedy_abbrev": "Nat-m.",
+  "sentence": "Driven by limb expression, Natrium Muriaticum manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, corns",
+        "Extremities, lameness",
+        "Extremities, pain",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "foot",
+        "corns"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, nervous"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "headache",
+        "general",
+        "crusts"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, delirium"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "irritability",
+        "sluggishness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, weakness",
+        "Generalities, eating, after agg.",
+        "Generalities, morning",
+        "Generalities, pain, cutting, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "burning",
+        "eating"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, hypogastrium, menses",
+        "Abdomen, pain, hypogastrium, menses, before",
+        "Abdomen, distension, sides",
+        "Abdomen",
+        "Abdomen, hypogastrium"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "distension",
+        "menses",
+        "before"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, lying",
+        "Back, pain, aching, dull pain",
+        "Back, pain, broken, as if",
+        "Back, pain, cutting",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "lying",
+        "aching",
+        "dull"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

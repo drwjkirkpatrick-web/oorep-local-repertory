@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Phosphoricum Acidum",
+  "remedy_abbrev": "Ph-ac.",
+  "sentence": "Driven by limb expression, Phosphoricum Acidum manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, numbness, foot",
+        "Extremities, pain",
+        "Extremities, pain, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "numbness",
+        "hands"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, quiet, quiet disposition",
+        "Mind, quiet",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, delusions, imaginations, hallucinations, illusions"
+      ],
+      "generalizations": [
+        "mind",
+        "quiet",
+        "dullness",
+        "irritability",
+        "disposition"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, numbness, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "burning",
+        "side"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, perspiration",
+        "Head, pain, excitement of the emotions, after",
+        "Head, pain, mental exertion, from agg.",
+        "Head, pain, occiput",
+        "Head, pain, pain in neck, with"
+      ],
+      "generalizations": [
+        "head",
+        "heaviness",
+        "perspiration",
+        "excitement",
+        "emotions"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, burning",
+        "Back, pain, cervical region",
+        "Back, pain, drawing",
+        "Back, pain, drawing, lumbar region",
+        "Back, pain, sore, cervical region",
+        "Back, perspiration"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "cervical",
+        "drawing",
+        "burning"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, constriction, contraction, etc.",
+        "Abdomen, swashing",
+        "Abdomen, fullness",
+        "Abdomen, fullness, sensation of"
+      ],
+      "generalizations": [
+        "abdomen",
+        "fullness",
+        "rumbling",
+        "distension",
+        "cramping"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

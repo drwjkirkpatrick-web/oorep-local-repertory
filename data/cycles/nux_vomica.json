@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Nux Vomica",
+  "remedy_abbrev": "Nux-v.",
+  "sentence": "Driven by limb expression, Nux Vomica manifests a dynamic cycle through mind and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, convulsion",
+        "Extremities, stiffness",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "paralysis",
+        "foot"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, sadness",
+        "Mind, confusion",
+        "Mind, hysteria",
+        "Mind, insanity, madness",
+        "Mind, mania, madness",
+        "Mind, stupefaction"
+      ],
+      "generalizations": [
+        "mind",
+        "madness",
+        "irritability",
+        "sadness",
+        "confusion"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "distension",
+        "inflammation",
+        "cramping"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, pain, gastric",
+        "Head, pain, nervous"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "headache",
+        "general",
+        "heaviness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, side, right",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "burning",
+        "side",
+        "fainting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, coldness",
+        "Back, pain",
+        "Back, opisthotonos",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, drawing"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "coldness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

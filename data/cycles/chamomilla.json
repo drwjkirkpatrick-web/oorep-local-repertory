@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Chamomilla",
+  "remedy_abbrev": "Cham.",
+  "sentence": "Driven by mind, Chamomilla manifests a dynamic cycle through limb disturbance and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, quiet",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, weeping",
+        "Mind, carried, desires to be",
+        "Mind, excitement, excitable"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "irritability",
+        "quiet",
+        "mental"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, cramps",
+        "Extremities, cramps, leg",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, cramps, calf",
+        "Extremities, heat"
+      ],
+      "generalizations": [
+        "extremities",
+        "cramps",
+        "numbness",
+        "weakness",
+        "calf"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, lying, agg.",
+        "Generalities, morning",
+        "Generalities, lying",
+        "Generalities, numbness"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "lying",
+        "fainting",
+        "numbness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, congestion, vertex",
+        "Head, pain",
+        "Head, perspiration",
+        "Head, pain, cold, becoming, from",
+        "Head, pain, pressing",
+        "Head, pain, pressing, temples",
+        "Head, pain, pressing, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "vertex",
+        "congestion",
+        "perspiration"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, flatulence",
+        "Abdomen, pain, warm"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "aching",
+        "dull",
+        "cramping"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, bending",
+        "Back, bending, backward (opisthotonos)",
+        "Back, bending, back",
+        "Back, lumbar region",
+        "Back"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "bending",
+        "left"
+      ],
+      "next_segment": "Mental sadness"
+    }
+  ]
+}

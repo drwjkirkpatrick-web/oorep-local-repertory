@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Plumbum Metallicum",
+  "remedy_abbrev": "Plb.",
+  "sentence": "Driven by limb expression, Plumbum Metallicum manifests a dynamic cycle through abdomen and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, motion",
+        "Extremities, cramps",
+        "Extremities, motion, leg",
+        "Extremities, numbness",
+        "Extremities, numbness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "motion",
+        "numbness",
+        "painless"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, obstruction of bowels, intussusception",
+        "Abdomen, pain, extending",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, umbilicus",
+        "Abdomen, pain, umbilicus",
+        "Abdomen, pain, umbilicus, region of"
+      ],
+      "generalizations": [
+        "abdomen",
+        "umbilicus",
+        "stitching",
+        "cramping",
+        "griping"
+      ],
+      "next_segment": "Mental mania"
+    },
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, delirium",
+        "Mind, memory, weakness of",
+        "Mind, sensitive, oversensitive"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "nervousness",
+        "sluggishness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, pressure, amel.",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "pressure",
+        "weakness",
+        "fainting"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, scapula",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, dorsal region, right",
+        "Back, scapula, scapulae, about",
+        "Back",
+        "Back, pain"
+      ],
+      "generalizations": [
+        "back",
+        "dorsal",
+        "region",
+        "right",
+        "scapula"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, forehead, in"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

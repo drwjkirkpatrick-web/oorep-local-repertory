@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ferrum Metallicum",
+  "remedy_abbrev": "Ferr.",
+  "sentence": "Driven by limb expression, Ferrum Metallicum manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, lameness",
+        "Extremities, lameness, upper limbs",
+        "Extremities, lameness, upper limbs, right",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "lameness",
+        "upper",
+        "limbs"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, forehead",
+        "Head, congestion, menses, suppressed, from",
+        "Head, pain, moving, head, on agg.",
+        "Head, pain, pulsating"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "hyperemia",
+        "forehead",
+        "menses"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, lying, agg.",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, night"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "lying",
+        "enervation",
+        "pressing"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, mood, alternating",
+        "Mind, restlessness, bed, tossing about in"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "nervousness",
+        "mental"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, eructations",
+        "Stomach, vomiting",
+        "Stomach, vomiting, blood",
+        "Stomach, vomiting, night",
+        "Stomach, vomiting, night, midnight",
+        "Stomach, vomiting, eating",
+        "Stomach, eructations, eating, after"
+      ],
+      "generalizations": [
+        "stomach",
+        "vomiting",
+        "eructations",
+        "eating",
+        "blood"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, hypogastrium",
+        "Abdomen, pain, hypogastrium, motion",
+        "Abdomen",
+        "Abdomen, hypogastrium",
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, inflammation"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hypogastrium",
+        "motion",
+        "rumbling",
+        "spleen"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

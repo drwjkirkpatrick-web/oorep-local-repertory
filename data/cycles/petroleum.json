@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Petroleum",
+  "remedy_abbrev": "Petr.",
+  "sentence": "Driven by limb expression, Petroleum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, pain",
+        "Extremities, tingling",
+        "Extremities, chilliness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "foot",
+        "stiffness"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, confusion",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, delusions",
+        "Mind, forgetful",
+        "Mind, mistakes",
+        "Mind, recognize"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "irritability",
+        "confusion",
+        "imaginations"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, eruption",
+        "Head, heaviness",
+        "Head, pain, occiput",
+        "Head, pain, pressing",
+        "Head, pain, pressing, occiput",
+        "Head, heaviness, occiput"
+      ],
+      "generalizations": [
+        "head",
+        "occiput",
+        "heaviness",
+        "pressing",
+        "eruption"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain",
+        "Generalities, morning",
+        "Generalities, pain, cutting",
+        "Generalities, pain, pressing",
+        "Generalities, mucous secretions increased",
+        "Generalities, food",
+        "Generalities, heaviness, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "cutting",
+        "pressing",
+        "mucous",
+        "secretions"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, aching, dull pain, sacrum",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, stitching, dorsal region, scapulae, between",
+        "Back, pain, stitching",
+        "Back, pain, stitching, dorsal region, scapulae, between, spine"
+      ],
+      "generalizations": [
+        "back",
+        "stitching",
+        "dorsal",
+        "region",
+        "scapulae"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin",
+        "Skin, eruptions",
+        "Skin, discoloration",
+        "Skin, dry",
+        "Skin, eruptions, suppressed",
+        "Skin, itching",
+        "Skin, sensitiveness",
+        "Skin, sore, becomes (decubitus)"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discoloration",
+        "suppressed",
+        "itching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

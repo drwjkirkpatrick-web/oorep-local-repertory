@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1091,
+    "name": "Sulphur",
+    "abbrev": "Sulph.",
+    "rubric_count": 22991
+  },
+  {
+    "id": 884,
+    "name": "Phosphorus",
+    "abbrev": "Phos.",
+    "rubric_count": 19135
+  },
+  {
+    "id": 699,
+    "name": "Lycopodium Clavatum",
+    "abbrev": "Lyc.",
+    "rubric_count": 18321
+  },
+  {
+    "id": 1032,
+    "name": "Sepia Officinalis",
+    "abbrev": "Sep.",
+    "rubric_count": 17456
+  },
+  {
+    "id": 223,
+    "name": "Calcarea Carbonica",
+    "abbrev": "Calc.",
+    "rubric_count": 17022
+  },
+  {
+    "id": 945,
+    "name": "Pulsatilla Pratensis",
+    "abbrev": "Puls.",
+    "rubric_count": 16705
+  },
+  {
+    "id": 801,
+    "name": "Natrium Muriaticum",
+    "abbrev": "Nat-m.",
+    "rubric_count": 16573
+  },
+  {
+    "id": 123,
+    "name": "Arsenicum Album",
+    "abbrev": "Ars.",
+    "rubric_count": 16080
+  },
+  {
+    "id": 823,
+    "name": "Nux Vomica",
+    "abbrev": "Nux-v.",
+    "rubric_count": 15896
+  },
+  {
+    "id": 974,
+    "name": "Rhus Toxicodendron",
+    "abbrev": "Rhus-t.",
+    "rubric_count": 15264
+  },
+  {
+    "id": 742,
+    "name": "Mercurius Solubilis",
+    "abbrev": "Merc.",
+    "rubric_count": 14830
+  },
+  {
+    "id": 1035,
+    "name": "Silicea Terra",
+    "abbrev": "Sil.",
+    "rubric_count": 14763
+  },
+  {
+    "id": 179,
+    "name": "Belladonna",
+    "abbrev": "Bell.",
+    "rubric_count": 14537
+  },
+  {
+    "id": 652,
+    "name": "Lachesis Muta",
+    "abbrev": "Lach.",
+    "rubric_count": 13848
+  },
+  {
+    "id": 1120,
+    "name": "Thuja Occidentalis",
+    "abbrev": "Thuj.",
+    "rubric_count": 13707
+  },
+  {
+    "id": 275,
+    "name": "Causticum",
+    "abbrev": "Caust.",
+    "rubric_count": 13377
+  },
+  {
+    "id": 209,
+    "name": "Bryonia Alba",
+    "abbrev": "Bry.",
+    "rubric_count": 13155
+  },
+  {
+    "id": 616,
+    "name": "Kalium Carbonicum",
+    "abbrev": "Kali-c.",
+    "rubric_count": 13087
+  },
+  {
+    "id": 1194,
+    "name": "Zincum Metallicum",
+    "abbrev": "Zinc.",
+    "rubric_count": 11924
+  },
+  {
+    "id": 816,
+    "name": "Nitricum Acidum",
+    "abbrev": "Nit-ac.",
+    "rubric_count": 11875
+  },
+  {
+    "id": 263,
+    "name": "Carbo Vegetabilis",
+    "abbrev": "Carb-v.",
+    "rubric_count": 11486
+  },
+  {
+    "id": 46,
+    "name": "Alumina",
+    "abbrev": "Alum.",
+    "rubric_count": 11047
+  },
+  {
+    "id": 526,
+    "name": "Graphites",
+    "abbrev": "Graph.",
+    "rubric_count": 10939
+  },
+  {
+    "id": 25,
+    "name": "Agaricus Muscarius",
+    "abbrev": "Agar.",
+    "rubric_count": 10884
+  },
+  {
+    "id": 299,
+    "name": "China Officinalis",
+    "abbrev": "Chin.",
+    "rubric_count": 10816
+  },
+  {
+    "id": 352,
+    "name": "Conium Maculatum",
+    "abbrev": "Con.",
+    "rubric_count": 10657
+  },
+  {
+    "id": 878,
+    "name": "Phosphoricum Acidum",
+    "abbrev": "Ph-ac.",
+    "rubric_count": 9807
+  },
+  {
+    "id": 794,
+    "name": "Natrium Carbonicum",
+    "abbrev": "Nat-c.",
+    "rubric_count": 9741
+  },
+  {
+    "id": 551,
+    "name": "Hepar Sulphur",
+    "abbrev": "Hep.",
+    "rubric_count": 9734
+  },
+  {
+    "id": 9,
+    "name": "Aconitum Napellus",
+    "abbrev": "Acon.",
+    "rubric_count": 9682
+  },
+  {
+    "id": 290,
+    "name": "Chelidonium Majus",
+    "abbrev": "Chel.",
+    "rubric_count": 8896
+  },
+  {
+    "id": 286,
+    "name": "Chamomilla",
+    "abbrev": "Cham.",
+    "rubric_count": 8754
+  },
+  {
+    "id": 765,
+    "name": "Mezereum",
+    "abbrev": "Mez.",
+    "rubric_count": 8739
+  },
+  {
+    "id": 1068,
+    "name": "Staphysagria",
+    "abbrev": "Staph.",
+    "rubric_count": 8607
+  },
+  {
+    "id": 1164,
+    "name": "Veratrum Album",
+    "abbrev": "Verat.",
+    "rubric_count": 8538
+  },
+  {
+    "id": 57,
+    "name": "Ammonium Carbonicum",
+    "abbrev": "Am-c.",
+    "rubric_count": 8451
+  },
+  {
+    "id": 876,
+    "name": "Petroleum",
+    "abbrev": "Petr.",
+    "rubric_count": 8329
+  },
+  {
+    "id": 172,
+    "name": "Baryta Carbonica",
+    "abbrev": "Bar-c.",
+    "rubric_count": 8280
+  },
+  {
+    "id": 122,
+    "name": "Arnica Montana",
+    "abbrev": "Arn.",
+    "rubric_count": 8239
+  },
+  {
+    "id": 614,
+    "name": "Kalium Bichromicum",
+    "abbrev": "Kali-bi.",
+    "rubric_count": 8227
+  },
+  {
+    "id": 707,
+    "name": "Magnesium Carbonicum",
+    "abbrev": "Mag-c.",
+    "rubric_count": 8192
+  },
+  {
+    "id": 576,
+    "name": "Ignatia Amara",
+    "abbrev": "Ign.",
+    "rubric_count": 8182
+  },
+  {
+    "id": 913,
+    "name": "Plumbum Metallicum",
+    "abbrev": "Plb.",
+    "rubric_count": 8103
+  },
+  {
+    "id": 339,
+    "name": "Cocculus Indicus",
+    "abbrev": "Cocc.",
+    "rubric_count": 7726
+  },
+  {
+    "id": 100,
+    "name": "Apis Mellifera",
+    "abbrev": "Apis",
+    "rubric_count": 7637
+  },
+  {
+    "id": 465,
+    "name": "Ferrum Metallicum",
+    "abbrev": "Ferr.",
+    "rubric_count": 7605
+  },
+  {
+    "id": 257,
+    "name": "Carbo Animalis",
+    "abbrev": "Carb-an.",
+    "rubric_count": 7590
+  },
+  {
+    "id": 117,
+    "name": "Argentum Nitricum",
+    "abbrev": "Arg-n.",
+    "rubric_count": 7310
+  },
+  {
+    "id": 152,
+    "name": "Aurum Metallicum",
+    "abbrev": "Aur.",
+    "rubric_count": 7156
+  },
+  {
+    "id": 348,
+    "name": "Colocynthis",
+    "abbrev": "Coloc.",
+    "rubric_count": 7093
+  },
+  {
+    "id": 1073,
+    "name": "Stramonium",
+    "abbrev": "Stram.",
+    "rubric_count": 7088
+  },
+  {
+    "id": 708,
+    "name": "Magnesium Muriaticum",
+    "abbrev": "Mag-m.",
+    "rubric_count": 6983
+  },
+  {
+    "id": 909,
+    "name": "Platinum Metallicum",
+    "abbrev": "Plat.",
+    "rubric_count": 6874
+  },
+  {
+    "id": 254,
+    "name": "Cantharis Vesicatoria",
+    "abbrev": "Canth.",
+    "rubric_count": 6780
+  },
+  {
+    "id": 1058,
+    "name": "Spigelia Anthelmia",
+    "abbrev": "Spig.",
+    "rubric_count": 6596
+  },
+  {
+    "id": 187,
+    "name": "Berberis Vulgaris",
+    "abbrev": "Berb.",
+    "rubric_count": 6566
+  },
+  {
+    "id": 585,
+    "name": "Iodium",
+    "abbrev": "Iod.",
+    "rubric_count": 6553
+  },
+  {
+    "id": 1065,
+    "name": "Stannum Metallicum",
+    "abbrev": "Stann.",
+    "rubric_count": 6541
+  },
+  {
+    "id": 403,
+    "name": "Digitalis Purpurea",
+    "abbrev": "Dig.",
+    "rubric_count": 6479
+  },
+  {
+    "id": 805,
+    "name": "Natrium Sulphuricum",
+    "abbrev": "Nat-s.",
+    "rubric_count": 6470
+  },
+  {
+    "id": 71,
+    "name": "Anacardium Orientale",
+    "abbrev": "Anac.",
+    "rubric_count": 6439
+  },
+  {
+    "id": 569,
+    "name": "Hyoscyamus Niger",
+    "abbrev": "Hyos.",
+    "rubric_count": 6365
+  },
+  {
+    "id": 774,
+    "name": "Muriaticum Acidum",
+    "abbrev": "Mur-ac.",
+    "rubric_count": 6337
+  },
+  {
+    "id": 345,
+    "name": "Colchicum Autumnale",
+    "abbrev": "Colch.",
+    "rubric_count": 6234
+  },
+  {
+    "id": 838,
+    "name": "Opium",
+    "abbrev": "Op.",
+    "rubric_count": 6205
+  },
+  {
+    "id": 417,
+    "name": "Dulcamara",
+    "abbrev": "Dulc.",
+    "rubric_count": 6189
+  },
+  {
+    "id": 1013,
+    "name": "Sarsaparilla Officinalis",
+    "abbrev": "Sars.",
+    "rubric_count": 6126
+  },
+  {
+    "id": 942,
+    "name": "Psorinum",
+    "abbrev": "Psor.",
+    "rubric_count": 6112
+  },
+  {
+    "id": 381,
+    "name": "Cuprum Metallicum",
+    "abbrev": "Cupr.",
+    "rubric_count": 6110
+  },
+  {
+    "id": 61,
+    "name": "Ammonium Muriaticum",
+    "abbrev": "Am-m.",
+    "rubric_count": 6046
+  },
+  {
+    "id": 718,
+    "name": "Manganum Aceticum (+ -c.)",
+    "abbrev": "Mang.",
+    "rubric_count": 5917
+  },
+  {
+    "id": 84,
+    "name": "Antimonium Crudum",
+    "abbrev": "Ant-c.",
+    "rubric_count": 5913
+  },
+  {
+    "id": 1062,
+    "name": "Spongia Tosta",
+    "abbrev": "Spong.",
+    "rubric_count": 5902
+  },
+  {
+    "id": 1086,
+    "name": "Sulphuricum Acidum",
+    "abbrev": "Sul-ac.",
+    "rubric_count": 5871
+  },
+  {
+    "id": 644,
+    "name": "Kreosotum",
+    "abbrev": "Kreos.",
+    "rubric_count": 5861
+  },
+  {
+    "id": 822,
+    "name": "Nux Moschata",
+    "abbrev": "Nux-m.",
+    "rubric_count": 5798
+  },
+  {
+    "id": 668,
+    "name": "Ledum Palustre",
+    "abbrev": "Led.",
+    "rubric_count": 5780
+  },
+  {
+    "id": 236,
+    "name": "Calcarea Phosphorica",
+    "abbrev": "Calc-p.",
+    "rubric_count": 5700
+  },
+  {
+    "id": 261,
+    "name": "Carboneum Sulphuratum",
+    "abbrev": "Carbn-s.",
+    "rubric_count": 5607
+  },
+  {
+    "id": 511,
+    "name": "Gelsemium Sempervirens",
+    "abbrev": "Gels.",
+    "rubric_count": 5586
+  },
+  {
+    "id": 96,
+    "name": "Antimonium Tartaricum",
+    "abbrev": "Ant-t.",
+    "rubric_count": 5546
+  },
+  {
+    "id": 198,
+    "name": "Borax Veneta",
+    "abbrev": "Bor.",
+    "rubric_count": 5520
+  },
+  {
+    "id": 203,
+    "name": "Bovista Lycoperdon",
+    "abbrev": "Bov.",
+    "rubric_count": 5484
+  },
+  {
+    "id": 664,
+    "name": "Laurocerasus",
+    "abbrev": "Laur.",
+    "rubric_count": 5476
+  },
+  {
+    "id": 626,
+    "name": "Kalium Nitricum",
+    "abbrev": "Kali-n.",
+    "rubric_count": 5282
+  },
+  {
+    "id": 55,
+    "name": "Ambra Grisea",
+    "abbrev": "Ambr.",
+    "rubric_count": 5176
+  },
+  {
+    "id": 112,
+    "name": "Argentum Metallicum",
+    "abbrev": "Arg.",
+    "rubric_count": 5172
+  },
+  {
+    "id": 968,
+    "name": "Rhododendron Chrysanthum",
+    "abbrev": "Rhod.",
+    "rubric_count": 5138
+  },
+  {
+    "id": 246,
+    "name": "Camphora Officinalis",
+    "abbrev": "Camph.",
+    "rubric_count": 5075
+  },
+  {
+    "id": 984,
+    "name": "Sabadilla",
+    "abbrev": "Sabad.",
+    "rubric_count": 5064
+  },
+  {
+    "id": 1104,
+    "name": "Tarentula Hispanica",
+    "abbrev": "Tarent.",
+    "rubric_count": 4997
+  },
+  {
+    "id": 546,
+    "name": "Helleborus Niger",
+    "abbrev": "Hell.",
+    "rubric_count": 4974
+  },
+  {
+    "id": 1023,
+    "name": "Secale Cornutum",
+    "abbrev": "Sec.",
+    "rubric_count": 4872
+  },
+  {
+    "id": 588,
+    "name": "Ipecacuanha",
+    "abbrev": "Ip.",
+    "rubric_count": 4813
+  },
+  {
+    "id": 392,
+    "name": "Cyclamen Europaeum",
+    "abbrev": "Cycl.",
+    "rubric_count": 4810
+  },
+  {
+    "id": 333,
+    "name": "Clematis Erecta",
+    "abbrev": "Clem.",
+    "rubric_count": 4807
+  },
+  {
+    "id": 490,
+    "name": "Fluoricum Acidum",
+    "abbrev": "Fl-ac.",
+    "rubric_count": 4791
+  },
+  {
+    "id": 623,
+    "name": "Kalium Iodatum",
+    "abbrev": "Kali-i.",
+    "rubric_count": 4778
+  },
+  {
+    "id": 983,
+    "name": "Ruta Graveolens",
+    "abbrev": "Ruta",
+    "rubric_count": 4748
+  },
+  {
+    "id": 255,
+    "name": "Capsicum Annuum",
+    "abbrev": "Caps.",
+    "rubric_count": 4678
+  },
+  {
+    "id": 138,
+    "name": "Asa Foetida",
+    "abbrev": "Asaf.",
+    "rubric_count": 4615
+  },
+  {
+    "id": 43,
+    "name": "Aloe Socotrina",
+    "abbrev": "Aloe",
+    "rubric_count": 4338
+  },
+  {
+    "id": 324,
+    "name": "Cina Maritima",
+    "abbrev": "Cina",
+    "rubric_count": 4324
+  },
+  {
+    "id": 319,
+    "name": "Cicuta Virosa",
+    "abbrev": "Cic.",
+    "rubric_count": 4254
+  },
+  {
+    "id": 338,
+    "name": "Coccus Cacti",
+    "abbrev": "Coc-c.",
+    "rubric_count": 4221
+  },
+  {
+    "id": 519,
+    "name": "Glonoinum",
+    "abbrev": "Glon.",
+    "rubric_count": 4212
+  },
+  {
+    "id": 888,
+    "name": "Phytolacca Decandra",
+    "abbrev": "Phyt.",
+    "rubric_count": 4184
+  },
+  {
+    "id": 1100,
+    "name": "Tabacum",
+    "abbrev": "Tab.",
+    "rubric_count": 4180
+  },
+  {
+    "id": 207,
+    "name": "Bromum",
+    "abbrev": "Brom.",
+    "rubric_count": 4176
+  },
+  {
+    "id": 1002,
+    "name": "Sanguinaria Canadensis",
+    "abbrev": "Sang.",
+    "rubric_count": 4175
+  },
+  {
+    "id": 629,
+    "name": "Kalium Phosphoricum",
+    "abbrev": "Kali-p.",
+    "rubric_count": 4168
+  },
+  {
+    "id": 415,
+    "name": "Drosera Rotundifolia",
+    "abbrev": "Dros.",
+    "rubric_count": 4115
+  },
+  {
+    "id": 958,
+    "name": "Ranunculus Bulbosus",
+    "abbrev": "Ran-b.",
+    "rubric_count": 4062
+  },
+  {
+    "id": 372,
+    "name": "Crotalus Horridus",
+    "abbrev": "Crot-h.",
+    "rubric_count": 4039
+  },
+  {
+    "id": 343,
+    "name": "Coffea Cruda",
+    "abbrev": "Coff.",
+    "rubric_count": 4008
+  },
+  {
+    "id": 986,
+    "name": "Sabina",
+    "abbrev": "Sabin.",
+    "rubric_count": 3945
+  },
+  {
+    "id": 792,
+    "name": "Natrium Arsenicosum",
+    "abbrev": "Nat-ar.",
+    "rubric_count": 3856
+  },
+  {
+    "id": 253,
+    "name": "Cannabis Sativa",
+    "abbrev": "Cann-s.",
+    "rubric_count": 3844
+  },
+  {
+    "id": 322,
+    "name": "Cimicifuga Racemosa",
+    "abbrev": "Cimic.",
+    "rubric_count": 3743
+  },
+  {
+    "id": 746,
+    "name": "Mercurius Corrosivus",
+    "abbrev": "Merc-c.",
+    "rubric_count": 3736
+  },
+  {
+    "id": 804,
+    "name": "Natrium Phosphoricum",
+    "abbrev": "Nat-p.",
+    "rubric_count": 3714
+  },
+  {
+    "id": 1030,
+    "name": "Senega",
+    "abbrev": "Seneg.",
+    "rubric_count": 3686
+  },
+  {
+    "id": 373,
+    "name": "Croton Tiglium",
+    "abbrev": "Croto-t.",
+    "rubric_count": 3621
+  },
+  {
+    "id": 305,
+    "name": "Chininum Sulphuricum",
+    "abbrev": "Chin-s.",
+    "rubric_count": 3602
+  },
+  {
+    "id": 211,
+    "name": "Bufo Rana",
+    "abbrev": "Bufo",
+    "rubric_count": 3601
+  },
+  {
+    "id": 648,
+    "name": "Lac Caninum",
+    "abbrev": "Lac-c.",
+    "rubric_count": 3599
+  },
+  {
+    "id": 1160,
+    "name": "Valeriana Officinalis",
+    "abbrev": "Valer.",
+    "rubric_count": 3539
+  },
+  {
+    "id": 1076,
+    "name": "Strontium Carbonicum",
+    "abbrev": "Stront-c.",
+    "rubric_count": 3499
+  },
+  {
+    "id": 527,
+    "name": "Gratiola Officinalis",
+    "abbrev": "Grat.",
+    "rubric_count": 3474
+  },
+  {
+    "id": 772,
+    "name": "Moschus",
+    "abbrev": "Mosch.",
+    "rubric_count": 3434
+  },
+  {
+    "id": 19,
+    "name": "Aesculus Hippocastanum",
+    "abbrev": "Aesc.",
+    "rubric_count": 3421
+  },
+  {
+    "id": 238,
+    "name": "Calcarea Sulphurica",
+    "abbrev": "Calc-s.",
+    "rubric_count": 3414
+  },
+  {
+    "id": 370,
+    "name": "Crocus Sativus",
+    "abbrev": "Croc.",
+    "rubric_count": 3392
+  },
+  {
+    "id": 631,
+    "name": "Kalium Sulphuricum",
+    "abbrev": "Kali-s.",
+    "rubric_count": 3358
+  },
+  {
+    "id": 613,
+    "name": "Kalium Arsenicosum",
+    "abbrev": "Kali-ar.",
+    "rubric_count": 3344
+  },
+  {
+    "id": 833,
+    "name": "Oleander",
+    "abbrev": "Olnd.",
+    "rubric_count": 3342
+  },
+  {
+    "id": 852,
+    "name": "Oxalicum Acidum",
+    "abbrev": "Ox-ac.",
+    "rubric_count": 3330
+  },
+  {
+    "id": 406,
+    "name": "Dioscorea Villosa",
+    "abbrev": "Dios.",
+    "rubric_count": 3317
+  },
+  {
+    "id": 675,
+    "name": "Lilium Tigrinum",
+    "abbrev": "Lil-t.",
+    "rubric_count": 3267
+  },
+  {
+    "id": 1026,
+    "name": "Selenium Metallicum",
+    "abbrev": "Sel.",
+    "rubric_count": 3223
+  },
+  {
+    "id": 862,
+    "name": "Paris Quadrifolia",
+    "abbrev": "Par.",
+    "rubric_count": 3197
+  },
+  {
+    "id": 139,
+    "name": "Asarum Officinale",
+    "abbrev": "Asar.",
+    "rubric_count": 3164
+  },
+  {
+    "id": 813,
+    "name": "Niccolum Metallicum",
+    "abbrev": "Nicc.",
+    "rubric_count": 3149
+  },
+  {
+    "id": 214,
+    "name": "Cactus Grandiflorus",
+    "abbrev": "Cact.",
+    "rubric_count": 3141
+  },
+  {
+    "id": 222,
+    "name": "Caladium Seguinum",
+    "abbrev": "Calad.",
+    "rubric_count": 3099
+  },
+  {
+    "id": 729,
+    "name": "Medorrhinum",
+    "abbrev": "Med.",
+    "rubric_count": 3081
+  },
+  {
+    "id": 1063,
+    "name": "Squilla Maritima",
+    "abbrev": "Squil.",
+    "rubric_count": 3070
+  },
+  {
+    "id": 455,
+    "name": "Euphrasia Officinalis",
+    "abbrev": "Euphr.",
+    "rubric_count": 3055
+  },
+  {
+    "id": 704,
+    "name": "Hydrophobinum",
+    "abbrev": "Lyss.",
+    "rubric_count": 3020
+  },
+  {
+    "id": 252,
+    "name": "Cannabis Indica",
+    "abbrev": "Cann-i.",
+    "rubric_count": 3013
+  },
+  {
+    "id": 713,
+    "name": "Magnesium Sulphuricum",
+    "abbrev": "Mag-s.",
+    "rubric_count": 2915
+  },
+  {
+    "id": 922,
+    "name": "Podophyllum Peltatum",
+    "abbrev": "Podo.",
+    "rubric_count": 2856
+  },
+  {
+    "id": 328,
+    "name": "Cinnabaris",
+    "abbrev": "Cinnb.",
+    "rubric_count": 2849
+  },
+  {
+    "id": 637,
+    "name": "Kalmia Latifolia",
+    "abbrev": "Kalm.",
+    "rubric_count": 2806
+  },
+  {
+    "id": 479,
+    "name": "Ferrum Phosphoricum",
+    "abbrev": "Ferr-p.",
+    "rubric_count": 2783
+  },
+  {
+    "id": 421,
+    "name": "Elaps Corallinus",
+    "abbrev": "Elaps",
+    "rubric_count": 2775
+  },
+  {
+    "id": 559,
+    "name": "Hydrastis Canadensis",
+    "abbrev": "Hydr.",
+    "rubric_count": 2770
+  },
+  {
+    "id": 785,
+    "name": "Naja Tripudians",
+    "abbrev": "Naja",
+    "rubric_count": 2765
+  },
+  {
+    "id": 21,
+    "name": "Aethusa Cynapium",
+    "abbrev": "Aeth.",
+    "rubric_count": 2743
+  },
+  {
+    "id": 449,
+    "name": "Euphorbium Officinarum",
+    "abbrev": "Euph.",
+    "rubric_count": 2705
+  },
+  {
+    "id": 256,
+    "name": "Carbolicum Acidum",
+    "abbrev": "Carb-ac.",
+    "rubric_count": 2695
+  },
+  {
+    "id": 571,
+    "name": "Hypericum Perforatum",
+    "abbrev": "Hyper.",
+    "rubric_count": 2656
+  },
+  {
+    "id": 126,
+    "name": "Arsenicum Iodatum",
+    "abbrev": "Ars-i.",
+    "rubric_count": 2631
+  },
+  {
+    "id": 530,
+    "name": "Guajacum Officinale",
+    "abbrev": "Guai.",
+    "rubric_count": 2631
+  },
+  {
+    "id": 300,
+    "name": "Chininum Arsenicosum",
+    "abbrev": "Chin-ar.",
+    "rubric_count": 2628
+  },
+  {
+    "id": 49,
+    "name": "Alumen",
+    "abbrev": "Alumn.",
+    "rubric_count": 2620
+  },
+  {
+    "id": 981,
+    "name": "Rumex Crispus",
+    "abbrev": "Rumx.",
+    "rubric_count": 2612
+  },
+  {
+    "id": 156,
+    "name": "Aurum Muriaticum",
+    "abbrev": "Aur-m.",
+    "rubric_count": 2609
+  },
+  {
+    "id": 77,
+    "name": "Angustura Vera",
+    "abbrev": "Ang.",
+    "rubric_count": 2599
+  },
+  {
+    "id": 169,
+    "name": "Baptisia Tinctoria",
+    "abbrev": "Bapt.",
+    "rubric_count": 2593
+  },
+  {
+    "id": 830,
+    "name": "Oleum Animale Aethereum",
+    "abbrev": "Ol-an.",
+    "rubric_count": 2560
+  },
+  {
+    "id": 740,
+    "name": "Menyanthes Trifoliata",
+    "abbrev": "Meny.",
+    "rubric_count": 2543
+  },
+  {
+    "id": 1000,
+    "name": "Sambucus Nigra",
+    "abbrev": "Samb.",
+    "rubric_count": 2526
+  },
+  {
+    "id": 540,
+    "name": "Hamamelis Virginiana",
+    "abbrev": "Ham.",
+    "rubric_count": 2500
+  },
+  {
+    "id": 1103,
+    "name": "Taraxacum Officinale",
+    "abbrev": "Tarax.",
+    "rubric_count": 2400
+  },
+  {
+    "id": 886,
+    "name": "Physostigma Venenosum",
+    "abbrev": "Phys.",
+    "rubric_count": 2309
+  },
+  {
+    "id": 592,
+    "name": "Iris Versicolor",
+    "abbrev": "Iris",
+    "rubric_count": 2300
+  },
+  {
+    "id": 1167,
+    "name": "Verbascum Thapsus",
+    "abbrev": "Verb.",
+    "rubric_count": 2273
+  },
+  {
+    "id": 964,
+    "name": "Ratanhia Peruviana",
+    "abbrev": "Rat.",
+    "rubric_count": 2264
+  },
+  {
+    "id": 358,
+    "name": "Copaiva Officinalis",
+    "abbrev": "Cop.",
+    "rubric_count": 2260
+  },
+  {
+    "id": 40,
+    "name": "Allium Cepa",
+    "abbrev": "All-c.",
+    "rubric_count": 2229
+  },
+  {
+    "id": 1112,
+    "name": "Teucrium Marum Verum",
+    "abbrev": "Teucr.",
+    "rubric_count": 2224
+  },
+  {
+    "id": 1110,
+    "name": "Terebinthiniae Oleum",
+    "abbrev": "Ter.",
+    "rubric_count": 2221
+  },
+  {
+    "id": 1094,
+    "name": "Sumbulus Moschatus",
+    "abbrev": "Sumb.",
+    "rubric_count": 2219
+  },
+  {
+    "id": 908,
+    "name": "Plantago Major",
+    "abbrev": "Plan.",
+    "rubric_count": 2189
+  },
+  {
+    "id": 889,
+    "name": "Picricum Acidum",
+    "abbrev": "Pic-ac.",
+    "rubric_count": 2185
+  },
+  {
+    "id": 749,
+    "name": "Mercurius Iodatus Flavus",
+    "abbrev": "Merc-i-f.",
+    "rubric_count": 2162
+  },
+  {
+    "id": 943,
+    "name": "Ptelea Trifoliata",
+    "abbrev": "Ptel.",
+    "rubric_count": 2157
+  },
+  {
+    "id": 174,
+    "name": "Baryta Muriatica",
+    "abbrev": "Bar-m.",
+    "rubric_count": 2146
+  },
+  {
+    "id": 473,
+    "name": "Ferrum Iodatum",
+    "abbrev": "Ferr-i.",
+    "rubric_count": 2118
+  },
+  {
+    "id": 716,
+    "name": "Mancinella",
+    "abbrev": "Manc.",
+    "rubric_count": 2104
+  },
+  {
+    "id": 31,
+    "name": "Agnus Castus",
+    "abbrev": "Agn.",
+    "rubric_count": 2086
+  },
+  {
+    "id": 962,
+    "name": "Ranunculus Sceleratus",
+    "abbrev": "Ran-s.",
+    "rubric_count": 2084
+  },
+  {
+    "id": 695,
+    "name": "LSD",
+    "abbrev": "LSD.",
+    "rubric_count": 2064
+  },
+  {
+    "id": 580,
+    "name": "Indigo Tinctoria",
+    "abbrev": "Indg.",
+    "rubric_count": 2059
+  },
+  {
+    "id": 1079,
+    "name": "Strychninum",
+    "abbrev": "Stry.",
+    "rubric_count": 2055
+  },
+  {
+    "id": 467,
+    "name": "Ferrum Arsenicosum",
+    "abbrev": "Ferr-ar.",
+    "rubric_count": 2053
+  },
+  {
+    "id": 457,
+    "name": "Eupatorium Perfoliatum",
+    "abbrev": "Eup-per.",
+    "rubric_count": 2000
+  },
+  {
+    "id": 558,
+    "name": "Hura Crepitans, Brasiliensis",
+    "abbrev": "Hura",
+    "rubric_count": 1965
+  },
+  {
+    "id": 967,
+    "name": "Rheum Palmatum",
+    "abbrev": "Rheum",
+    "rubric_count": 1955
+  },
+  {
+    "id": 190,
+    "name": "Bismuthum Oxydatum",
+    "abbrev": "Bism-ox.",
+    "rubric_count": 1911
+  },
+  {
+    "id": 277,
+    "name": "Cedron",
+    "abbrev": "Cedr.",
+    "rubric_count": 1907
+  },
+  {
+    "id": 654,
+    "name": "Lactuca Virosa",
+    "abbrev": "Lact.",
+    "rubric_count": 1901
+  },
+  {
+    "id": 182,
+    "name": "Benzoicum Acidum",
+    "abbrev": "Benz-ac.",
+    "rubric_count": 1883
+  },
+  {
+    "id": 933,
+    "name": "Positronum",
+    "abbrev": "Posit.",
+    "rubric_count": 1839
+  },
+  {
+    "id": 1178,
+    "name": "Viola Tricolor",
+    "abbrev": "Viol-t.",
+    "rubric_count": 1839
+  },
+  {
+    "id": 615,
+    "name": "Kalium Bromatum",
+    "abbrev": "Kali-br.",
+    "rubric_count": 1830
+  },
+  {
+    "id": 1141,
+    "name": "Tuberculinum Bovinum Kent",
+    "abbrev": "Tub.",
+    "rubric_count": 1828
+  },
+  {
+    "id": 963,
+    "name": "Raphanus Sativus",
+    "abbrev": "Raph.",
+    "rubric_count": 1821
+  },
+  {
+    "id": 975,
+    "name": "Rhus Venenata",
+    "abbrev": "Rhus-v.",
+    "rubric_count": 1815
+  },
+  {
+    "id": 617,
+    "name": "Kalium Chloricum",
+    "abbrev": "Kali-chl.",
+    "rubric_count": 1799
+  },
+  {
+    "id": 507,
+    "name": "Gambogia",
+    "abbrev": "Gamb.",
+    "rubric_count": 1757
+  },
+  {
+    "id": 857,
+    "name": "Palladium Metallicum",
+    "abbrev": "Pall.",
+    "rubric_count": 1745
+  },
+  {
+    "id": 371,
+    "name": "Crotalus Cascavella",
+    "abbrev": "Crot-c.",
+    "rubric_count": 1738
+  },
+  {
+    "id": 1117,
+    "name": "Theridion Curassavicum",
+    "abbrev": "Ther.",
+    "rubric_count": 1687
+  },
+  {
+    "id": 75,
+    "name": "Anantherum Muricatum",
+    "abbrev": "Anan.",
+    "rubric_count": 1666
+  },
+  {
+    "id": 461,
+    "name": "Fagopyrum Esculentum",
+    "abbrev": "Fago.",
+    "rubric_count": 1653
+  },
+  {
+    "id": 335,
+    "name": "Cobaltum Metallicum",
+    "abbrev": "Cob.",
+    "rubric_count": 1652
+  },
+  {
+    "id": 686,
+    "name": "Lobelia Inflata",
+    "abbrev": "Lob.",
+    "rubric_count": 1645
+  },
+  {
+    "id": 881,
+    "name": "Phellandrium Aquaticum",
+    "abbrev": "Phel.",
+    "rubric_count": 1645
+  },
+  {
+    "id": 1166,
+    "name": "Veratrum Viride",
+    "abbrev": "Verat-v.",
+    "rubric_count": 1644
+  },
+  {
+    "id": 35,
+    "name": "Ailanthus Glandulosa",
+    "abbrev": "Ail.",
+    "rubric_count": 1639
+  },
+  {
+    "id": 939,
+    "name": "Prunus Spinosa",
+    "abbrev": "Prun.",
+    "rubric_count": 1638
+  },
+  {
+    "id": 1108,
+    "name": "Tellurium",
+    "abbrev": "Tell.",
+    "rubric_count": 1637
+  },
+  {
+    "id": 270,
+    "name": "Castoreum Canadense",
+    "abbrev": "Cast.",
+    "rubric_count": 1609
+  },
+  {
+    "id": 491,
+    "name": "Formica Rufa",
+    "abbrev": "Form.",
+    "rubric_count": 1600
+  },
+  {
+    "id": 647,
+    "name": "Lacticum Acidum",
+    "abbrev": "Lac-ac.",
+    "rubric_count": 1596
+  },
+  {
+    "id": 136,
+    "name": "Arum Triphyllum",
+    "abbrev": "Arum-t.",
+    "rubric_count": 1585
+  },
+  {
+    "id": 329,
+    "name": "Cistus Canadensis",
+    "abbrev": "Cist.",
+    "rubric_count": 1519
+  },
+  {
+    "id": 456,
+    "name": "Eupionum",
+    "abbrev": "Eupi.",
+    "rubric_count": 1512
+  },
+  {
+    "id": 750,
+    "name": "Mercurius Iodatus Ruber",
+    "abbrev": "Merc-i-r.",
+    "rubric_count": 1507
+  },
+  {
+    "id": 351,
+    "name": "Comocladia Dentata",
+    "abbrev": "Com.",
+    "rubric_count": 1488
+  },
+  {
+    "id": 1208,
+    "name": "Zingiber Officinale",
+    "abbrev": "Zing.",
+    "rubric_count": 1481
+  },
+  {
+    "id": 683,
+    "name": "Lithium Carbonicum",
+    "abbrev": "Lith-c.",
+    "rubric_count": 1435
+  },
+  {
+    "id": 336,
+    "name": "Coca",
+    "abbrev": "Coca",
+    "rubric_count": 1426
+  },
+  {
+    "id": 1098,
+    "name": "Syphilinum",
+    "abbrev": "Syph.",
+    "rubric_count": 1423
+  },
+  {
+    "id": 579,
+    "name": "Indium Metallicum",
+    "abbrev": "Ind.",
+    "rubric_count": 1418
+  },
+  {
+    "id": 391,
+    "name": "Curare",
+    "abbrev": "Cur.",
+    "rubric_count": 1408
+  },
+  {
+    "id": 761,
+    "name": "Mercurialis Perennis",
+    "abbrev": "Merl.",
+    "rubric_count": 1408
+  },
+  {
+    "id": 1005,
+    "name": "Sanicula Aqua",
+    "abbrev": "Sanic.",
+    "rubric_count": 1395
+  },
+  {
+    "id": 1124,
+    "name": "Tilia Europaea",
+    "abbrev": "Til.",
+    "rubric_count": 1392
+  },
+  {
+    "id": 463,
+    "name": "Falco Peregrinus Disciplinatus",
+    "abbrev": "Falco-p.",
+    "rubric_count": 1385
+  },
+  {
+    "id": 147,
+    "name": "Asterias Rubens",
+    "abbrev": "Aster.",
+    "rubric_count": 1342
+  },
+  {
+    "id": 847,
+    "name": "Osmium Metallicum (+ -ac.)",
+    "abbrev": "Osm.",
+    "rubric_count": 1327
+  },
+  {
+    "id": 712,
+    "name": "Magnesium Phosphoricum",
+    "abbrev": "Mag-p.",
+    "rubric_count": 1316
+  },
+  {
+    "id": 101,
+    "name": "Apocynum Cannabinum",
+    "abbrev": "Apoc.",
+    "rubric_count": 1299
+  },
+  {
+    "id": 1156,
+    "name": "Ustilago Maydis",
+    "abbrev": "Ust.",
+    "rubric_count": 1298
+  },
+  {
+    "id": 267,
+    "name": "Carlsbad Aqua",
+    "abbrev": "Carl.",
+    "rubric_count": 1293
+  },
+  {
+    "id": 653,
+    "name": "Lachnanthes Tinctoria",
+    "abbrev": "Lachn.",
+    "rubric_count": 1292
+  },
+  {
+    "id": 560,
+    "name": "Hydrocyanicum Acidum",
+    "abbrev": "Hydr-ac.",
+    "rubric_count": 1288
+  },
+  {
+    "id": 34,
+    "name": "AIDS Nosode",
+    "abbrev": "AIDS",
+    "rubric_count": 1284
+  },
+  {
+    "id": 29,
+    "name": "Agathis Australis",
+    "abbrev": "Agath-a.",
+    "rubric_count": 1282
+  },
+  {
+    "id": 266,
+    "name": "Carduus Marianus",
+    "abbrev": "Card-m.",
+    "rubric_count": 1254
+  },
+  {
+    "id": 766,
+    "name": "Millefolium Herba",
+    "abbrev": "Mill.",
+    "rubric_count": 1212
+  },
+  {
+    "id": 365,
+    "name": "Corallium Rubrum",
+    "abbrev": "Cor-r.",
+    "rubric_count": 1188
+  },
+  {
+    "id": 1028,
+    "name": "Senecio Aureus",
+    "abbrev": "Senec.",
+    "rubric_count": 1186
+  },
+  {
+    "id": 741,
+    "name": "Mephitis Putorius",
+    "abbrev": "Meph.",
+    "rubric_count": 1184
+  },
+  {
+    "id": 554,
+    "name": "Heroinum",
+    "abbrev": "Herin.",
+    "rubric_count": 1180
+  },
+  {
+    "id": 218,
+    "name": "Cadmium Sulphuratum",
+    "abbrev": "Cadm-s.",
+    "rubric_count": 1174
+  },
+  {
+    "id": 1179,
+    "name": "Vipera Berus",
+    "abbrev": "Vip.",
+    "rubric_count": 1173
+  },
+  {
+    "id": 603,
+    "name": "Jatropha Curcas",
+    "abbrev": "Jatr.",
+    "rubric_count": 1146
+  },
+  {
+    "id": 397,
+    "name": "Daphne Indica",
+    "abbrev": "Daph.",
+    "rubric_count": 1128
+  },
+  {
+    "id": 137,
+    "name": "Arundo Donax",
+    "abbrev": "Arund-d.",
+    "rubric_count": 1115
+  },
+  {
+    "id": 7,
+    "name": "Aceticum Acidum",
+    "abbrev": "Acet-ac.",
+    "rubric_count": 1096
+  },
+  {
+    "id": 142,
+    "name": "Asclepias Tuberosa",
+    "abbrev": "Asc-t.",
+    "rubric_count": 1096
+  },
+  {
+    "id": 360,
+    "name": "Cornus Circinata",
+    "abbrev": "Corn.",
+    "rubric_count": 1096
+  },
+  {
+    "id": 158,
+    "name": "Aurum Muriaticum Natronatum",
+    "abbrev": "Aur-m-n.",
+    "rubric_count": 1062
+  },
+  {
+    "id": 996,
+    "name": "Salix Fragilis",
+    "abbrev": "Salx-f.",
+    "rubric_count": 1056
+  },
+  {
+    "id": 1050,
+    "name": "Solanum Nigrum",
+    "abbrev": "Sol-n.",
+    "rubric_count": 1050
+  },
+  {
+    "id": 780,
+    "name": "Myrica Cerifera",
+    "abbrev": "Myric.",
+    "rubric_count": 1049
+  },
+  {
+    "id": 3,
+    "name": "Abrotanum",
+    "abbrev": "Abrot.",
+    "rubric_count": 1030
+  },
+  {
+    "id": 525,
+    "name": "Granatum",
+    "abbrev": "Gran.",
+    "rubric_count": 1027
+  },
+  {
+    "id": 649,
+    "name": "Lac Vaccinum Defloratum",
+    "abbrev": "Lac-d.",
+    "rubric_count": 1020
+  },
+  {
+    "id": 702,
+    "name": "Lycopus Virginicus",
+    "abbrev": "Lycps.",
+    "rubric_count": 1014
+  },
+  {
+    "id": 550,
+    "name": "Helonias Dioica",
+    "abbrev": "Helon.",
+    "rubric_count": 1013
+  },
+  {
+    "id": 166,
+    "name": "Badiaga",
+    "abbrev": "Bad.",
+    "rubric_count": 1008
+  },
+  {
+    "id": 310,
+    "name": "Chlorum",
+    "abbrev": "Chlor.",
+    "rubric_count": 1008
+  },
+  {
+    "id": 323,
+    "name": "Cimex Lectularius",
+    "abbrev": "Cimx.",
+    "rubric_count": 1007
+  },
+  {
+    "id": 383,
+    "name": "Cuprum Arsenicosum",
+    "abbrev": "Cupr-ar.",
+    "rubric_count": 994
+  },
+  {
+    "id": 332,
+    "name": "Cladonia Rangiferina",
+    "abbrev": "Clad-r.",
+    "rubric_count": 993
+  },
+  {
+    "id": 555,
+    "name": "Hippomanes",
+    "abbrev": "Hipp.",
+    "rubric_count": 982
+  },
+  {
+    "id": 109,
+    "name": "Aranea Diadema",
+    "abbrev": "Aran.",
+    "rubric_count": 979
+  },
+  {
+    "id": 150,
+    "name": "Atropinum Purum",
+    "abbrev": "Atro.",
+    "rubric_count": 979
+  },
+  {
+    "id": 41,
+    "name": "Allium Sativum",
+    "abbrev": "All-s.",
+    "rubric_count": 947
+  },
+  {
+    "id": 775,
+    "name": "Murex Purpurea",
+    "abbrev": "Murx.",
+    "rubric_count": 940
+  },
+  {
+    "id": 856,
+    "name": "Paeonia Officinalis",
+    "abbrev": "Paeon.",
+    "rubric_count": 930
+  },
+  {
+    "id": 837,
+    "name": "Onosmodium Virginianum",
+    "abbrev": "Onos.",
+    "rubric_count": 927
+  },
+  {
+    "id": 517,
+    "name": "Ginseng Quinquefolium",
+    "abbrev": "Gins.",
+    "rubric_count": 899
+  },
+  {
+    "id": 770,
+    "name": "Morphinum and salts",
+    "abbrev": "Morph.",
+    "rubric_count": 878
+  },
+  {
+    "id": 220,
+    "name": "Cainca",
+    "abbrev": "Cahin.",
+    "rubric_count": 873
+  },
+  {
+    "id": 1012,
+    "name": "Sarracenia Purpurea",
+    "abbrev": "Sarr.",
+    "rubric_count": 869
+  },
+  {
+    "id": 458,
+    "name": "Eupatorium Purpureum",
+    "abbrev": "Eup-pur.",
+    "rubric_count": 867
+  },
+  {
+    "id": 1177,
+    "name": "Viola Odorata",
+    "abbrev": "Viol-o.",
+    "rubric_count": 867
+  },
+  {
+    "id": 1109,
+    "name": "Teplitz Aqua",
+    "abbrev": "Tep.",
+    "rubric_count": 866
+  },
+  {
+    "id": 125,
+    "name": "Arsenicum Hydrogenisatum",
+    "abbrev": "Ars-h.",
+    "rubric_count": 863
+  },
+  {
+    "id": 1186,
+    "name": "Xantoxylum Fraxineum",
+    "abbrev": "Xan.",
+    "rubric_count": 863
+  },
+  {
+    "id": 225,
+    "name": "Calcarea Arsenicosa",
+    "abbrev": "Calc-ar.",
+    "rubric_count": 857
+  },
+  {
+    "id": 375,
+    "name": "Cubeba Officinalis",
+    "abbrev": "Cub.",
+    "rubric_count": 854
+  },
+  {
+    "id": 274,
+    "name": "Caulophyllum Thalictroides",
+    "abbrev": "Caul.",
+    "rubric_count": 829
+  },
+  {
+    "id": 230,
+    "name": "Calcarea Fluorica",
+    "abbrev": "Calc-f.",
+    "rubric_count": 812
+  },
+  {
+    "id": 1138,
+    "name": "Trombidium Muscae Domesticae",
+    "abbrev": "Trom.",
+    "rubric_count": 808
+  },
+  {
+    "id": 950,
+    "name": "Pyrogenium",
+    "abbrev": "Pyrog.",
+    "rubric_count": 795
+  },
+  {
+    "id": 827,
+    "name": "Oenanthe Crocata",
+    "abbrev": "Oena.",
+    "rubric_count": 772
+  },
+  {
+    "id": 1071,
+    "name": "Sticta Pulmonaria",
+    "abbrev": "Stict.",
+    "rubric_count": 771
+  },
+  {
+    "id": 1173,
+    "name": "Viburnum Opulus",
+    "abbrev": "Vib.",
+    "rubric_count": 769
+  },
+  {
+    "id": 309,
+    "name": "Chloralum Hydratum",
+    "abbrev": "Chlol.",
+    "rubric_count": 751
+  },
+  {
+    "id": 445,
+    "name": "Eugenia Jambos",
+    "abbrev": "Eug.",
+    "rubric_count": 747
+  },
+  {
+    "id": 902,
+    "name": "Piper Methysticum",
+    "abbrev": "Pip-m.",
+    "rubric_count": 747
+  },
+  {
+    "id": 414,
+    "name": "Dreaming Potency",
+    "abbrev": "Dream.",
+    "rubric_count": 742
+  },
+  {
+    "id": 606,
+    "name": "Juglans Cinerea",
+    "abbrev": "Jug-c.",
+    "rubric_count": 713
+  },
+  {
+    "id": 62,
+    "name": "Ammoniacum Gummi",
+    "abbrev": "Ammc.",
+    "rubric_count": 708
+  },
+  {
+    "id": 475,
+    "name": "Ferrum Muriaticum",
+    "abbrev": "Ferr-m.",
+    "rubric_count": 698
+  },
+  {
+    "id": 1040,
+    "name": "Sinapis Nigra",
+    "abbrev": "Sin-n.",
+    "rubric_count": 697
+  },
+  {
+    "id": 607,
+    "name": "Juglans Regia",
+    "abbrev": "Jug-r.",
+    "rubric_count": 694
+  },
+  {
+    "id": 144,
+    "name": "Asparagus Officinalis",
+    "abbrev": "Aspar.",
+    "rubric_count": 689
+  },
+  {
+    "id": 1172,
+    "name": "Vespa Crabro",
+    "abbrev": "Vesp.",
+    "rubric_count": 678
+  },
+  {
+    "id": 533,
+    "name": "Guarea Trichiloides",
+    "abbrev": "Guare.",
+    "rubric_count": 674
+  },
+  {
+    "id": 204,
+    "name": "Brachyglottis Repanda",
+    "abbrev": "Brach.",
+    "rubric_count": 651
+  },
+  {
+    "id": 831,
+    "name": "Oleum Jecoris Aselli",
+    "abbrev": "Ol-j.",
+    "rubric_count": 642
+  },
+  {
+    "id": 88,
+    "name": "Anthracinum",
+    "abbrev": "Anthr.",
+    "rubric_count": 630
+  },
+  {
+    "id": 476,
+    "name": "Ferrum Magneticum",
+    "abbrev": "Ferr-ma.",
+    "rubric_count": 625
+  },
+  {
+    "id": 1154,
+    "name": "Urtica Urens",
+    "abbrev": "Urt-u.",
+    "rubric_count": 608
+  },
+  {
+    "id": 418,
+    "name": "Echinacea Angustifolia",
+    "abbrev": "Echi.",
+    "rubric_count": 606
+  },
+  {
+    "id": 667,
+    "name": "Lecithinum",
+    "abbrev": "Lec.",
+    "rubric_count": 604
+  },
+  {
+    "id": 15,
+    "name": "Actaea Spicata",
+    "abbrev": "Act-sp.",
+    "rubric_count": 603
+  },
+  {
+    "id": 279,
+    "name": "Cenchris Contortrix",
+    "abbrev": "Cench.",
+    "rubric_count": 602
+  },
+  {
+    "id": 1072,
+    "name": "Stillingia Sylvatica",
+    "abbrev": "Still.",
+    "rubric_count": 583
+  },
+  {
+    "id": 127,
+    "name": "Arsenicum Metallicum",
+    "abbrev": "Ars-met.",
+    "rubric_count": 582
+  },
+  {
+    "id": 422,
+    "name": "Elaterium",
+    "abbrev": "Elat.",
+    "rubric_count": 580
+  },
+  {
+    "id": 733,
+    "name": "Melilotus Officinalis",
+    "abbrev": "Meli.",
+    "rubric_count": 571
+  },
+  {
+    "id": 73,
+    "name": "Anagallis Arvensis",
+    "abbrev": "Anag.",
+    "rubric_count": 570
+  },
+  {
+    "id": 1115,
+    "name": "Thea Chinensis",
+    "abbrev": "Thea",
+    "rubric_count": 543
+  },
+  {
+    "id": 1053,
+    "name": "Solanum Tuberosum Aegrotans",
+    "abbrev": "Sol-t-ae.",
+    "rubric_count": 541
+  },
+  {
+    "id": 977,
+    "name": "Robinia Pseudacacia",
+    "abbrev": "Rob.",
+    "rubric_count": 529
+  },
+  {
+    "id": 1176,
+    "name": "Vinca Minor",
+    "abbrev": "Vinc.",
+    "rubric_count": 525
+  },
+  {
+    "id": 672,
+    "name": "Leptandra Virginica",
+    "abbrev": "Lept.",
+    "rubric_count": 520
+  },
+  {
+    "id": 411,
+    "name": "Dirca Palustris",
+    "abbrev": "Dirc.",
+    "rubric_count": 514
+  },
+  {
+    "id": 535,
+    "name": "Gymnocladus Canadensis",
+    "abbrev": "Gymn.",
+    "rubric_count": 510
+  },
+  {
+    "id": 347,
+    "name": "Collinsonia Canadensis",
+    "abbrev": "Coll.",
+    "rubric_count": 509
+  },
+  {
+    "id": 756,
+    "name": "Mercurius Sulphuricus",
+    "abbrev": "Merc-s.",
+    "rubric_count": 509
+  },
+  {
+    "id": 60,
+    "name": "Amylenum Nitrosum",
+    "abbrev": "Aml-n.",
+    "rubric_count": 507
+  },
+  {
+    "id": 434,
+    "name": "Erigeron Canadense",
+    "abbrev": "Erig.",
+    "rubric_count": 505
+  },
+  {
+    "id": 430,
+    "name": "Equisetum Hyemale",
+    "abbrev": "Equis.",
+    "rubric_count": 502
+  },
+  {
+    "id": 296,
+    "name": "Chimaphila Umbellata",
+    "abbrev": "Chim.",
+    "rubric_count": 497
+  },
+  {
+    "id": 4,
+    "name": "Absinthium",
+    "abbrev": "Absin.",
+    "rubric_count": 483
+  },
+  {
+    "id": 599,
+    "name": "Jaborandi",
+    "abbrev": "Jab.",
+    "rubric_count": 481
+  },
+  {
+    "id": 1107,
+    "name": "Taxus Baccata",
+    "abbrev": "Tax.",
+    "rubric_count": 476
+  },
+  {
+    "id": 393,
+    "name": "Cygnus Bewickii",
+    "abbrev": "Cygnus-b.",
+    "rubric_count": 462
+  },
+  {
+    "id": 565,
+    "name": "Hydrocotyle Asiatica",
+    "abbrev": "Hydrc.",
+    "rubric_count": 453
+  },
+  {
+    "id": 438,
+    "name": "Eryngium Aquaticum",
+    "abbrev": "Ery-a.",
+    "rubric_count": 452
+  },
+  {
+    "id": 193,
+    "name": "Polyporus Officinalis",
+    "abbrev": "Bol.",
+    "rubric_count": 452
+  },
+  {
+    "id": 556,
+    "name": "Hippozaeninum",
+    "abbrev": "Hippoz.",
+    "rubric_count": 434
+  },
+  {
+    "id": 665,
+    "name": "Lava Flagstaff",
+    "abbrev": "Lava-f.",
+    "rubric_count": 432
+  },
+  {
+    "id": 159,
+    "name": "Aurum Sulphuratum",
+    "abbrev": "Aur-s.",
+    "rubric_count": 423
+  },
+  {
+    "id": 973,
+    "name": "Rhus Radicans",
+    "abbrev": "Rhus-r.",
+    "rubric_count": 423
+  },
+  {
+    "id": 260,
+    "name": "Carboneum Oxygenisatum",
+    "abbrev": "Carbn-o.",
+    "rubric_count": 422
+  },
+  {
+    "id": 747,
+    "name": "Mercurius Cyanatus",
+    "abbrev": "Merc-cy.",
+    "rubric_count": 422
+  },
+  {
+    "id": 98,
+    "name": "Aphis Chenopodii Glauci",
+    "abbrev": "Aphis.",
+    "rubric_count": 420
+  },
+  {
+    "id": 1151,
+    "name": "Uranium Nitricum",
+    "abbrev": "Uran-n.",
+    "rubric_count": 417
+  },
+  {
+    "id": 272,
+    "name": "Castor Equi",
+    "abbrev": "Cast-eq.",
+    "rubric_count": 399
+  },
+  {
+    "id": 990,
+    "name": "Salicylicum Acidum",
+    "abbrev": "Sal-ac.",
+    "rubric_count": 378
+  },
+  {
+    "id": 1132,
+    "name": "Trillium Pendulum",
+    "abbrev": "Tril.",
+    "rubric_count": 375
+  },
+  {
+    "id": 446,
+    "name": "Euonymus Europaea",
+    "abbrev": "Euon.",
+    "rubric_count": 374
+  },
+  {
+    "id": 513,
+    "name": "Gentiana Cruciata",
+    "abbrev": "Gent-c.",
+    "rubric_count": 372
+  },
+  {
+    "id": 413,
+    "name": "Doryphora Decemlineata",
+    "abbrev": "Dor.",
+    "rubric_count": 365
+  },
+  {
+    "id": 1148,
+    "name": "Upas Tiente",
+    "abbrev": "Upa.",
+    "rubric_count": 365
+  },
+  {
+    "id": 1089,
+    "name": "Sulphur Iodatum",
+    "abbrev": "Sul-i.",
+    "rubric_count": 364
+  },
+  {
+    "id": 54,
+    "name": "Ammonium Bromatum",
+    "abbrev": "Am-br.",
+    "rubric_count": 351
+  },
+  {
+    "id": 601,
+    "name": "Jacaranda Caroba",
+    "abbrev": "Jac-c.",
+    "rubric_count": 342
+  },
+  {
+    "id": 379,
+    "name": "Cundurango",
+    "abbrev": "Cund.",
+    "rubric_count": 341
+  },
+  {
+    "id": 584,
+    "name": "Inula Helenium",
+    "abbrev": "Inul.",
+    "rubric_count": 326
+  },
+  {
+    "id": 390,
+    "name": "Cuprum Sulphuricum",
+    "abbrev": "Cupr-s.",
+    "rubric_count": 318
+  },
+  {
+    "id": 1209,
+    "name": "Zizia Aurea",
+    "abbrev": "Ziz.",
+    "rubric_count": 312
+  },
+  {
+    "id": 797,
+    "name": "Natrium Hypochlorosum",
+    "abbrev": "Nat-hchls.",
+    "rubric_count": 311
+  },
+  {
+    "id": 778,
+    "name": "Mygale Lasiodora",
+    "abbrev": "Mygal.",
+    "rubric_count": 305
+  },
+  {
+    "id": 924,
+    "name": "Polygonum Hydropiperoides",
+    "abbrev": "Polyg.",
+    "rubric_count": 302
+  },
+  {
+    "id": 221,
+    "name": "Cajuputum",
+    "abbrev": "Caj.",
+    "rubric_count": 295
+  },
+  {
+    "id": 864,
+    "name": "Pareira Brava",
+    "abbrev": "Pareir.",
+    "rubric_count": 291
+  },
+  {
+    "id": 268,
+    "name": "Cascarilla",
+    "abbrev": "Casc.",
+    "rubric_count": 289
+  },
+  {
+    "id": 821,
+    "name": "Nuphar Luteum",
+    "abbrev": "Nuph.",
+    "rubric_count": 280
+  },
+  {
+    "id": 946,
+    "name": "Pulsatilla Nuttaliana",
+    "abbrev": "Puls-n.",
+    "rubric_count": 277
+  },
+  {
+    "id": 412,
+    "name": "Dolichos Pruriens",
+    "abbrev": "Dol.",
+    "rubric_count": 266
+  },
+  {
+    "id": 600,
+    "name": "Jacaranda Gualandai",
+    "abbrev": "Jac.",
+    "rubric_count": 264
+  },
+  {
+    "id": 132,
+    "name": "Artemisia Vulgaris",
+    "abbrev": "Art-v.",
+    "rubric_count": 262
+  },
+  {
+    "id": 146,
+    "name": "Cancer Fluviatilis",
+    "abbrev": "Astac.",
+    "rubric_count": 262
+  },
+  {
+    "id": 308,
+    "name": "Chloroformum",
+    "abbrev": "Chlf.",
+    "rubric_count": 242
+  },
+  {
+    "id": 877,
+    "name": "Petroselinum Sativum",
+    "abbrev": "Petros.",
+    "rubric_count": 240
+  },
+  {
+    "id": 1006,
+    "name": "Santoninum",
+    "abbrev": "Sant.",
+    "rubric_count": 238
+  },
+  {
+    "id": 521,
+    "name": "Gnaphalium Polycephalum",
+    "abbrev": "Gnaph.",
+    "rubric_count": 237
+  },
+  {
+    "id": 314,
+    "name": "Chromicum Acidum",
+    "abbrev": "Chr-ac.",
+    "rubric_count": 236
+  },
+  {
+    "id": 382,
+    "name": "Cuprum Aceticum",
+    "abbrev": "Cupr-acet.",
+    "rubric_count": 234
+  },
+  {
+    "id": 95,
+    "name": "Antimonium Sulphuratum Auratum",
+    "abbrev": "Ant-s.",
+    "rubric_count": 232
+  },
+  {
+    "id": 228,
+    "name": "Calcarea Caustica",
+    "abbrev": "Calc-caust.",
+    "rubric_count": 231
+  },
+  {
+    "id": 401,
+    "name": "Derris Pinnata",
+    "abbrev": "Der.",
+    "rubric_count": 226
+  },
+  {
+    "id": 1,
+    "name": "Abies Canadensis",
+    "abbrev": "Abies-c.",
+    "rubric_count": 223
+  },
+  {
+    "id": 2,
+    "name": "Abies Nigra",
+    "abbrev": "Abies-n.",
+    "rubric_count": 222
+  },
+  {
+    "id": 38,
+    "name": "Aletris Farinosa",
+    "abbrev": "Alet.",
+    "rubric_count": 220
+  },
+  {
+    "id": 133,
+    "name": "Arum Dracontium",
+    "abbrev": "Arum-d.",
+    "rubric_count": 217
+  },
+  {
+    "id": 356,
+    "name": "Convallaria Majalis",
+    "abbrev": "Conv.",
+    "rubric_count": 214
+  },
+  {
+    "id": 341,
+    "name": "Cochlearia Armoracia",
+    "abbrev": "Coch.",
+    "rubric_count": 214
+  },
+  {
+    "id": 69,
+    "name": "Amygdalus Amarae",
+    "abbrev": "Amyg-am.",
+    "rubric_count": 214
+  },
+  {
+    "id": 620,
+    "name": "Kalium Cyanatum",
+    "abbrev": "Kali-cy.",
+    "rubric_count": 210
+  },
+  {
+    "id": 538,
+    "name": "Haematoxylon Campechianum",
+    "abbrev": "Haem.",
+    "rubric_count": 204
+  },
+  {
+    "id": 259,
+    "name": "Carboneum Hydrogenisatum",
+    "abbrev": "Carbn-h.",
+    "rubric_count": 201
+  },
+  {
+    "id": 86,
+    "name": "Anthemis Nobilis",
+    "abbrev": "Anth.",
+    "rubric_count": 200
+  },
+  {
+    "id": 173,
+    "name": "Baryta Iodata",
+    "abbrev": "Bar-i.",
+    "rubric_count": 200
+  },
+  {
+    "id": 988,
+    "name": "Saccharum Album",
+    "abbrev": "Sac-alb.",
+    "rubric_count": 200
+  },
+  {
+    "id": 1039,
+    "name": "Sinapis Alba",
+    "abbrev": "Sin-a.",
+    "rubric_count": 199
+  },
+  {
+    "id": 575,
+    "name": "Ictodes Foetida",
+    "abbrev": "Ictod.",
+    "rubric_count": 199
+  },
+  {
+    "id": 58,
+    "name": "Ammonium Causticum",
+    "abbrev": "Am-caust.",
+    "rubric_count": 192
+  },
+  {
+    "id": 342,
+    "name": "Codeinum",
+    "abbrev": "Cod.",
+    "rubric_count": 190
+  },
+  {
+    "id": 330,
+    "name": "Citrus Aurantium L.",
+    "abbrev": "Cit-a.",
+    "rubric_count": 190
+  },
+  {
+    "id": 307,
+    "name": "Chionanthus Virginica",
+    "abbrev": "Chion.",
+    "rubric_count": 189
+  },
+  {
+    "id": 524,
+    "name": "Gossypium Herbaceum",
+    "abbrev": "Goss.",
+    "rubric_count": 188
+  },
+  {
+    "id": 108,
+    "name": "Aralia Racemosa",
+    "abbrev": "Aral.",
+    "rubric_count": 187
+  },
+  {
+    "id": 292,
+    "name": "Chenopodium Ambrosioides & Var. Anthelminticum",
+    "abbrev": "Chen-a.",
+    "rubric_count": 177
+  },
+  {
+    "id": 232,
+    "name": "Calcarea Iodata",
+    "abbrev": "Calc-i.",
+    "rubric_count": 175
+  },
+  {
+    "id": 549,
+    "name": "Heloderma (+ -h., + -s.)",
+    "abbrev": "Helo.",
+    "rubric_count": 172
+  },
+  {
+    "id": 594,
+    "name": "Iris Foetidissima",
+    "abbrev": "Iris-foe.",
+    "rubric_count": 170
+  },
+  {
+    "id": 1102,
+    "name": "Tanacetum Vulgare",
+    "abbrev": "Tanac.",
+    "rubric_count": 168
+  },
+  {
+    "id": 748,
+    "name": "Mercurius Dulcis",
+    "abbrev": "Merc-d.",
+    "rubric_count": 167
+  },
+  {
+    "id": 671,
+    "name": "Lepidium Bonariense",
+    "abbrev": "Lepi.",
+    "rubric_count": 166
+  },
+  {
+    "id": 224,
+    "name": "Calcarea Acetica",
+    "abbrev": "Calc-acet.",
+    "rubric_count": 161
+  },
+  {
+    "id": 212,
+    "name": "Bufo Sahytiensis",
+    "abbrev": "Bufo-s.",
+    "rubric_count": 158
+  },
+  {
+    "id": 692,
+    "name": "Lobelia Syphilitica",
+    "abbrev": "Lob-s.",
+    "rubric_count": 158
+  },
+  {
+    "id": 514,
+    "name": "Gentiana Lutea",
+    "abbrev": "Gent-l.",
+    "rubric_count": 155
+  },
+  {
+    "id": 140,
+    "name": "Asclepias Cornuti",
+    "abbrev": "Asc-c.",
+    "rubric_count": 154
+  },
+  {
+    "id": 951,
+    "name": "Pyrus Americana",
+    "abbrev": "Pyrus",
+    "rubric_count": 153
+  },
+  {
+    "id": 1163,
+    "name": "Variolinum",
+    "abbrev": "Vario.",
+    "rubric_count": 152
+  },
+  {
+    "id": 201,
+    "name": "Bothrops Lanceolatus",
+    "abbrev": "Both-l.",
+    "rubric_count": 150
+  },
+  {
+    "id": 663,
+    "name": "Latrodectus Mactans",
+    "abbrev": "Lat-m.",
+    "rubric_count": 148
+  },
+  {
+    "id": 135,
+    "name": "Arum Maculatum",
+    "abbrev": "Arum-m.",
+    "rubric_count": 147
+  },
+  {
+    "id": 1181,
+    "name": "Viscum Album",
+    "abbrev": "Visc.",
+    "rubric_count": 147
+  },
+  {
+    "id": 1185,
+    "name": "Wyethia Helenoides",
+    "abbrev": "Wye.",
+    "rubric_count": 146
+  },
+  {
+    "id": 875,
+    "name": "Petiveria Tetandra",
+    "abbrev": "Peti.",
+    "rubric_count": 141
+  },
+  {
+    "id": 240,
+    "name": "Calendula Officinalis",
+    "abbrev": "Calen.",
+    "rubric_count": 140
+  },
+  {
+    "id": 171,
+    "name": "Baryta Acetica",
+    "abbrev": "Bar-acet.",
+    "rubric_count": 138
+  },
+  {
+    "id": 625,
+    "name": "Kalium Permanganatum",
+    "abbrev": "Kali-ma.",
+    "rubric_count": 134
+  },
+  {
+    "id": 826,
+    "name": "Ocimum Canum",
+    "abbrev": "Oci.",
+    "rubric_count": 133
+  },
+  {
+    "id": 189,
+    "name": "Bismutum Subnitricum (+ -o.)",
+    "abbrev": "Bism.",
+    "rubric_count": 132
+  },
+  {
+    "id": 602,
+    "name": "Jalapa",
+    "abbrev": "Jal.",
+    "rubric_count": 130
+  },
+  {
+    "id": 802,
+    "name": "Natrium Nitricum",
+    "abbrev": "Nat-n.",
+    "rubric_count": 130
+  },
+  {
+    "id": 724,
+    "name": "Magnetis Polus Arcticus",
+    "abbrev": "M-arct.",
+    "rubric_count": 129
+  },
+  {
+    "id": 919,
+    "name": "Plectranthus Fruticosus",
+    "abbrev": "Plect.",
+    "rubric_count": 129
+  },
+  {
+    "id": 658,
+    "name": "Lapis Albus",
+    "abbrev": "Lap-a.",
+    "rubric_count": 123
+  },
+  {
+    "id": 528,
+    "name": "Grindelia Robusta",
+    "abbrev": "Grin.",
+    "rubric_count": 121
+  },
+  {
+    "id": 593,
+    "name": "Iris Florentina",
+    "abbrev": "Iris-fl.",
+    "rubric_count": 119
+  },
+  {
+    "id": 82,
+    "name": "Anisum Stellatum",
+    "abbrev": "Anis.",
+    "rubric_count": 117
+  },
+  {
+    "id": 143,
+    "name": "Asimina Triloba",
+    "abbrev": "Asim.",
+    "rubric_count": 116
+  },
+  {
+    "id": 573,
+    "name": "Iberis Amara",
+    "abbrev": "Iber.",
+    "rubric_count": 116
+  },
+  {
+    "id": 587,
+    "name": "Iodoformium",
+    "abbrev": "Iodof.",
+    "rubric_count": 115
+  },
+  {
+    "id": 1157,
+    "name": "Uva Ursi",
+    "abbrev": "Uva",
+    "rubric_count": 113
+  },
+  {
+    "id": 181,
+    "name": "Benzolum",
+    "abbrev": "Benz.",
+    "rubric_count": 112
+  },
+  {
+    "id": 657,
+    "name": "Lamium Album",
+    "abbrev": "Lam.",
+    "rubric_count": 111
+  },
+  {
+    "id": 444,
+    "name": "Eucalyptus Globulus",
+    "abbrev": "Eucal.",
+    "rubric_count": 108
+  },
+  {
+    "id": 10,
+    "name": "Aconitum Cammarum",
+    "abbrev": "Acon-c.",
+    "rubric_count": 107
+  },
+  {
+    "id": 512,
+    "name": "Genista Tinctoria",
+    "abbrev": "Genist.",
+    "rubric_count": 106
+  },
+  {
+    "id": 327,
+    "name": "Cinnamomum Zeylanicum",
+    "abbrev": "Cinnam.",
+    "rubric_count": 105
+  },
+  {
+    "id": 1105,
+    "name": "Tarentula Cubensis",
+    "abbrev": "Tarent-c.",
+    "rubric_count": 104
+  },
+  {
+    "id": 869,
+    "name": "Paullinia Pinnata",
+    "abbrev": "Paull-p.",
+    "rubric_count": 102
+  },
+  {
+    "id": 1022,
+    "name": "Scutellaria Lateriflora",
+    "abbrev": "Scut.",
+    "rubric_count": 101
+  },
+  {
+    "id": 1206,
+    "name": "Zincum Sulphuricum",
+    "abbrev": "Zinc-s.",
+    "rubric_count": 94
+  },
+  {
+    "id": 130,
+    "name": "Arsenicum Sulphuratum Flavum",
+    "abbrev": "Ars-s-f.",
+    "rubric_count": 93
+  },
+  {
+    "id": 271,
+    "name": "Castanea Vesca",
+    "abbrev": "Casta-v.",
+    "rubric_count": 91
+  },
+  {
+    "id": 721,
+    "name": "Manganum Muriaticum",
+    "abbrev": "Mang-m.",
+    "rubric_count": 91
+  },
+  {
+    "id": 1202,
+    "name": "Zincum Muriaticum",
+    "abbrev": "Zinc-m.",
+    "rubric_count": 91
+  },
+  {
+    "id": 666,
+    "name": "Lava Hekla",
+    "abbrev": "Lava-h.",
+    "rubric_count": 91
+  },
+  {
+    "id": 1060,
+    "name": "Spiranthes Autumnalis",
+    "abbrev": "Spira.",
+    "rubric_count": 89
+  },
+  {
+    "id": 612,
+    "name": "Kalium Aceticum",
+    "abbrev": "Kali-acet.",
+    "rubric_count": 89
+  },
+  {
+    "id": 791,
+    "name": "Natrium Aceticum",
+    "abbrev": "Nat-acet.",
+    "rubric_count": 88
+  },
+  {
+    "id": 1096,
+    "name": "Symphytum Officinale",
+    "abbrev": "Symph.",
+    "rubric_count": 88
+  },
+  {
+    "id": 131,
+    "name": "Arsenicum Sulphuratum Rubrum",
+    "abbrev": "Ars-s-r.",
+    "rubric_count": 86
+  },
+  {
+    "id": 782,
+    "name": "Myrtus Communis",
+    "abbrev": "Myrt-c.",
+    "rubric_count": 85
+  },
+  {
+    "id": 818,
+    "name": "Nitrobenzolum",
+    "abbrev": "Nitrob.",
+    "rubric_count": 85
+  },
+  {
+    "id": 844,
+    "name": "Origanum Majorana",
+    "abbrev": "Orig.",
+    "rubric_count": 85
+  },
+  {
+    "id": 177,
+    "name": "Bartfelder Aqua",
+    "abbrev": "Bart.",
+    "rubric_count": 83
+  },
+  {
+    "id": 239,
+    "name": "Calcarea Silicata",
+    "abbrev": "Calc-sil.",
+    "rubric_count": 83
+  },
+  {
+    "id": 728,
+    "name": "Magnetis Polus Australis",
+    "abbrev": "M-aust.",
+    "rubric_count": 82
+  },
+  {
+    "id": 11,
+    "name": "Aconitum Ferox",
+    "abbrev": "Acon-f.",
+    "rubric_count": 81
+  },
+  {
+    "id": 1158,
+    "name": "Vaccininum",
+    "abbrev": "Vac.",
+    "rubric_count": 80
+  },
+  {
+    "id": 281,
+    "name": "Cereus Bonplandii",
+    "abbrev": "Cere-b.",
+    "rubric_count": 79
+  },
+  {
+    "id": 94,
+    "name": "Antimonium Oxydatum",
+    "abbrev": "Ant-o.",
+    "rubric_count": 78
+  },
+  {
+    "id": 89,
+    "name": "Anthrakokali",
+    "abbrev": "Anthro.",
+    "rubric_count": 78
+  },
+  {
+    "id": 661,
+    "name": "Lathyrus Sativus",
+    "abbrev": "Lath.",
+    "rubric_count": 75
+  },
+  {
+    "id": 1031,
+    "name": "Senna",
+    "abbrev": "Senn.",
+    "rubric_count": 75
+  },
+  {
+    "id": 1146,
+    "name": "Tussilago Petasites",
+    "abbrev": "Tus-p.",
+    "rubric_count": 74
+  },
+  {
+    "id": 900,
+    "name": "Pinus Silvestris",
+    "abbrev": "Pin-s.",
+    "rubric_count": 72
+  },
+  {
+    "id": 483,
+    "name": "Ferrum Sulphuricum",
+    "abbrev": "Ferr-s.",
+    "rubric_count": 68
+  },
+  {
+    "id": 50,
+    "name": "Aluminium Silicicum",
+    "abbrev": "Alum-sil.",
+    "rubric_count": 63
+  },
+  {
+    "id": 752,
+    "name": "Mercurius Nitricus",
+    "abbrev": "Merc-n.",
+    "rubric_count": 63
+  },
+  {
+    "id": 651,
+    "name": "Lac Felinum",
+    "abbrev": "Lac-f.",
+    "rubric_count": 62
+  },
+  {
+    "id": 621,
+    "name": "Kalium Ferrocyanatum",
+    "abbrev": "Kali-fcy.",
+    "rubric_count": 60
+  },
+  {
+    "id": 1034,
+    "name": "Serpentaria Aristolochia",
+    "abbrev": "Serp.",
+    "rubric_count": 59
+  },
+  {
+    "id": 442,
+    "name": "Ether",
+    "abbrev": "Ether",
+    "rubric_count": 59
+  },
+  {
+    "id": 116,
+    "name": "Argentum Muriaticum",
+    "abbrev": "Arg-m.",
+    "rubric_count": 58
+  },
+  {
+    "id": 687,
+    "name": "Lobelia Cardinalis",
+    "abbrev": "Lob-c.",
+    "rubric_count": 56
+  },
+  {
+    "id": 191,
+    "name": "Blatta Orientalis",
+    "abbrev": "Blatta",
+    "rubric_count": 55
+  },
+  {
+    "id": 608,
+    "name": "Juncus Effusus",
+    "abbrev": "Junc.",
+    "rubric_count": 55
+  },
+  {
+    "id": 208,
+    "name": "Brucea Antidysenterica",
+    "abbrev": "Bruc.",
+    "rubric_count": 54
+  },
+  {
+    "id": 854,
+    "name": "Oxytropis Lamberti",
+    "abbrev": "Oxyt.",
+    "rubric_count": 51
+  },
+  {
+    "id": 1069,
+    "name": "Stellaria Media",
+    "abbrev": "Stel.",
+    "rubric_count": 51
+  },
+  {
+    "id": 242,
+    "name": "Calotropis Gigantea",
+    "abbrev": "Calo.",
+    "rubric_count": 50
+  },
+  {
+    "id": 340,
+    "name": "Coccinella Septempunctata",
+    "abbrev": "Cocci-s.",
+    "rubric_count": 50
+  },
+  {
+    "id": 394,
+    "name": "Cypripedium Pubescens",
+    "abbrev": "Cypr.",
+    "rubric_count": 48
+  },
+  {
+    "id": 97,
+    "name": "Apium Graveolens",
+    "abbrev": "Ap-g.",
+    "rubric_count": 47
+  },
+  {
+    "id": 282,
+    "name": "Cereus Serpentinus",
+    "abbrev": "Cere-s.",
+    "rubric_count": 47
+  },
+  {
+    "id": 624,
+    "name": "Kalium Muriaticum",
+    "abbrev": "Kali-m.",
+    "rubric_count": 47
+  },
+  {
+    "id": 180,
+    "name": "Bellis Perennis",
+    "abbrev": "Bell-p.",
+    "rubric_count": 43
+  },
+  {
+    "id": 276,
+    "name": "Ceanothus Americanus",
+    "abbrev": "Cean.",
+    "rubric_count": 43
+  },
+  {
+    "id": 480,
+    "name": "Ferrum Picricum",
+    "abbrev": "Ferr-pic.",
+    "rubric_count": 42
+  },
+  {
+    "id": 768,
+    "name": "Mitchella Repens",
+    "abbrev": "Mit.",
+    "rubric_count": 42
+  },
+  {
+    "id": 1183,
+    "name": "Wiesbaden Aqua",
+    "abbrev": "Wies.",
+    "rubric_count": 42
+  },
+  {
+    "id": 957,
+    "name": "Ranunculus Acris",
+    "abbrev": "Ran-a.",
+    "rubric_count": 41
+  },
+  {
+    "id": 970,
+    "name": "Rhus Aromatica",
+    "abbrev": "Rhus-a.",
+    "rubric_count": 41
+  },
+  {
+    "id": 344,
+    "name": "Coffea Tosta",
+    "abbrev": "Coff-t.",
+    "rubric_count": 40
+  },
+  {
+    "id": 362,
+    "name": "Cornus Florida",
+    "abbrev": "Corn-f.",
+    "rubric_count": 40
+  },
+  {
+    "id": 505,
+    "name": "Gallicum Acidum",
+    "abbrev": "Gall-ac.",
+    "rubric_count": 40
+  },
+  {
+    "id": 5,
+    "name": "Acalypha Indica",
+    "abbrev": "Acal.",
+    "rubric_count": 39
+  },
+  {
+    "id": 639,
+    "name": "Kaolinum",
+    "abbrev": "Kaol.",
+    "rubric_count": 39
+  },
+  {
+    "id": 466,
+    "name": "Ferrum Aceticum",
+    "abbrev": "Ferr-acet.",
+    "rubric_count": 38
+  },
+  {
+    "id": 911,
+    "name": "Platinum Muriaticum",
+    "abbrev": "Plat-m.",
+    "rubric_count": 38
+  },
+  {
+    "id": 416,
+    "name": "Duboisinum",
+    "abbrev": "Dubin.",
+    "rubric_count": 37
+  },
+  {
+    "id": 903,
+    "name": "Piper Nigrum",
+    "abbrev": "Pip-n.",
+    "rubric_count": 36
+  },
+  {
+    "id": 583,
+    "name": "Ingluvin",
+    "abbrev": "Ingluv.",
+    "rubric_count": 34
+  },
+  {
+    "id": 781,
+    "name": "Myristica Sebifera",
+    "abbrev": "Myris.",
+    "rubric_count": 34
+  },
+  {
+    "id": 1114,
+    "name": "Thallium Metallicum (+ -act.)",
+    "abbrev": "Thal.",
+    "rubric_count": 34
+  },
+  {
+    "id": 659,
+    "name": "Lappa Arctium",
+    "abbrev": "Lappa",
+    "rubric_count": 34
+  },
+  {
+    "id": 155,
+    "name": "Aurum Iodatum",
+    "abbrev": "Aur-i.",
+    "rubric_count": 33
+  },
+  {
+    "id": 501,
+    "name": "Gadus Morrhua",
+    "abbrev": "Gad.",
+    "rubric_count": 33
+  },
+  {
+    "id": 685,
+    "name": "Lithium Muriaticum",
+    "abbrev": "Lith-m.",
+    "rubric_count": 33
+  },
+  {
+    "id": 817,
+    "name": "Nitromuriaticum Acidum",
+    "abbrev": "Nit-m-ac.",
+    "rubric_count": 33
+  },
+  {
+    "id": 16,
+    "name": "Adonis Vernalis",
+    "abbrev": "Adon.",
+    "rubric_count": 32
+  },
+  {
+    "id": 295,
+    "name": "Chenopodium Vulvaria",
+    "abbrev": "Chen-v.",
+    "rubric_count": 32
+  },
+  {
+    "id": 714,
+    "name": "Malandrinum",
+    "abbrev": "Maland.",
+    "rubric_count": 32
+  },
+  {
+    "id": 743,
+    "name": "Mercurius Aceticus",
+    "abbrev": "Merc-acet.",
+    "rubric_count": 32
+  },
+  {
+    "id": 44,
+    "name": "Alstonia Constricta",
+    "abbrev": "Alst-c.",
+    "rubric_count": 30
+  },
+  {
+    "id": 301,
+    "name": "China Boliviana",
+    "abbrev": "Chin-b.",
+    "rubric_count": 30
+  },
+  {
+    "id": 83,
+    "name": "Antimonium Arsenicosum",
+    "abbrev": "Ant-ar.",
+    "rubric_count": 30
+  },
+  {
+    "id": 297,
+    "name": "Chimaphila Maculata",
+    "abbrev": "Chim-m.",
+    "rubric_count": 29
+  },
+  {
+    "id": 589,
+    "name": "Ipomoea Purpurea",
+    "abbrev": "Ipom.",
+    "rubric_count": 29
+  },
+  {
+    "id": 928,
+    "name": "Polygonum Sagittatum",
+    "abbrev": "Polyg-s.",
+    "rubric_count": 29
+  },
+  {
+    "id": 1184,
+    "name": "Wildbad Aqua",
+    "abbrev": "Wild.",
+    "rubric_count": 29
+  },
+  {
+    "id": 199,
+    "name": "Boricum Acidum",
+    "abbrev": "Bor-ac.",
+    "rubric_count": 29
+  },
+  {
+    "id": 28,
+    "name": "Agaricus Phalloides",
+    "abbrev": "Agar-ph.",
+    "rubric_count": 28
+  },
+  {
+    "id": 128,
+    "name": "Arsenicum Nitricum",
+    "abbrev": "Ars-n.",
+    "rubric_count": 28
+  },
+  {
+    "id": 134,
+    "name": "Arum Italicum",
+    "abbrev": "Arum-i.",
+    "rubric_count": 28
+  },
+  {
+    "id": 337,
+    "name": "Cocainum Hydrochloricum",
+    "abbrev": "Cocain.",
+    "rubric_count": 28
+  },
+  {
+    "id": 1192,
+    "name": "Yucca Filamentosa",
+    "abbrev": "Yuc.",
+    "rubric_count": 28
+  },
+  {
+    "id": 985,
+    "name": "Sabal Serrulata",
+    "abbrev": "Sabal",
+    "rubric_count": 27
+  },
+  {
+    "id": 48,
+    "name": "Aluminium Metallicum",
+    "abbrev": "Alum-met.",
+    "rubric_count": 26
+  },
+  {
+    "id": 65,
+    "name": "Amphisbaena Vermicularis",
+    "abbrev": "Amph.",
+    "rubric_count": 26
+  },
+  {
+    "id": 359,
+    "name": "Coriaria Ruscifolia",
+    "abbrev": "Cori-r.",
+    "rubric_count": 26
+  },
+  {
+    "id": 755,
+    "name": "Mercurius Praecipitatus Ruber",
+    "abbrev": "Merc-pr-r.",
+    "rubric_count": 26
+  },
+  {
+    "id": 378,
+    "name": "Culex Musca",
+    "abbrev": "Culx.",
+    "rubric_count": 25
+  },
+  {
+    "id": 1130,
+    "name": "Trifolium Pratense",
+    "abbrev": "Trif-p.",
+    "rubric_count": 25
+  },
+  {
+    "id": 350,
+    "name": "Colostrum",
+    "abbrev": "Colos.",
+    "rubric_count": 24
+  },
+  {
+    "id": 561,
+    "name": "Hydrangea Arborescens",
+    "abbrev": "Hydrang.",
+    "rubric_count": 24
+  },
+  {
+    "id": 931,
+    "name": "Populus Tremuloides",
+    "abbrev": "Pop.",
+    "rubric_count": 24
+  },
+  {
+    "id": 311,
+    "name": "Cholesterinum",
+    "abbrev": "Chol.",
+    "rubric_count": 23
+  },
+  {
+    "id": 871,
+    "name": "Pediculus Capitis",
+    "abbrev": "Ped.",
+    "rubric_count": 23
+  },
+  {
+    "id": 920,
+    "name": "Plumbago Littoralis",
+    "abbrev": "Plumbg.",
+    "rubric_count": 23
+  },
+  {
+    "id": 53,
+    "name": "Ammonium Benzoicum",
+    "abbrev": "Am-be.",
+    "rubric_count": 22
+  },
+  {
+    "id": 110,
+    "name": "Aranea Scinencia",
+    "abbrev": "Aran-s.",
+    "rubric_count": 22
+  },
+  {
+    "id": 736,
+    "name": "Mentha Piperita",
+    "abbrev": "Menth.",
+    "rubric_count": 22
+  },
+  {
+    "id": 786,
+    "name": "Naphthalinum",
+    "abbrev": "Naphtin.",
+    "rubric_count": 22
+  },
+  {
+    "id": 72,
+    "name": "Anacardium Occidentale",
+    "abbrev": "Anac-oc.",
+    "rubric_count": 20
+  },
+  {
+    "id": 1203,
+    "name": "Zincum Oxydatum",
+    "abbrev": "Zinc-o.",
+    "rubric_count": 20
+  },
+  {
+    "id": 280,
+    "name": "Centaurea Tagana",
+    "abbrev": "Cent.",
+    "rubric_count": 19
+  },
+  {
+    "id": 325,
+    "name": "Cinchoninum Sulphuricum",
+    "abbrev": "Cinch.",
+    "rubric_count": 19
+  },
+  {
+    "id": 557,
+    "name": "Homarus Gammarus",
+    "abbrev": "Hom.",
+    "rubric_count": 19
+  },
+  {
+    "id": 849,
+    "name": "Oophorinum",
+    "abbrev": "Ov.",
+    "rubric_count": 19
+  },
+  {
+    "id": 1049,
+    "name": "Solanum Mammosum",
+    "abbrev": "Sol-m.",
+    "rubric_count": 19
+  },
+  {
+    "id": 701,
+    "name": "Lycopersicon Esculentum",
+    "abbrev": "Lycpr.",
+    "rubric_count": 19
+  },
+  {
+    "id": 20,
+    "name": "Aesculus Glabra",
+    "abbrev": "Aesc-g.",
+    "rubric_count": 18
+  },
+  {
+    "id": 36,
+    "name": "Alcoholus",
+    "abbrev": "Alco.",
+    "rubric_count": 18
+  },
+  {
+    "id": 367,
+    "name": "Cotyledon Umbilicus",
+    "abbrev": "Cot.",
+    "rubric_count": 18
+  },
+  {
+    "id": 693,
+    "name": "Lolium Temulentum",
+    "abbrev": "Lol.",
+    "rubric_count": 18
+  },
+  {
+    "id": 819,
+    "name": "Nitrogenium Oxygenatum",
+    "abbrev": "Nitro-o.",
+    "rubric_count": 18
+  },
+  {
+    "id": 516,
+    "name": "Gettysburg Aqua",
+    "abbrev": "Get.",
+    "rubric_count": 17
+  },
+  {
+    "id": 972,
+    "name": "Rhus Glabra",
+    "abbrev": "Rhus-g.",
+    "rubric_count": 17
+  },
+  {
+    "id": 1003,
+    "name": "Sanguinarinum Nitricum",
+    "abbrev": "Sanguin-n.",
+    "rubric_count": 17
+  },
+  {
+    "id": 13,
+    "name": "Aconitum Lycoctonum",
+    "abbrev": "Acon-l.",
+    "rubric_count": 16
+  },
+  {
+    "id": 81,
+    "name": "Anilinum",
+    "abbrev": "Anil.",
+    "rubric_count": 16
+  },
+  {
+    "id": 113,
+    "name": "Argentum Cyanatum",
+    "abbrev": "Arg-cy.",
+    "rubric_count": 16
+  },
+  {
+    "id": 779,
+    "name": "Myosotis Symphytifolia",
+    "abbrev": "Myos.",
+    "rubric_count": 16
+  },
+  {
+    "id": 989,
+    "name": "Saccharum Lactis",
+    "abbrev": "Sac-l.",
+    "rubric_count": 16
+  },
+  {
+    "id": 251,
+    "name": "Canchalagua",
+    "abbrev": "Canch.",
+    "rubric_count": 15
+  },
+  {
+    "id": 315,
+    "name": "Chromium Oxydatum",
+    "abbrev": "Chr-o.",
+    "rubric_count": 15
+  },
+  {
+    "id": 735,
+    "name": "Menispermum Canadense",
+    "abbrev": "Menis.",
+    "rubric_count": 15
+  },
+  {
+    "id": 1195,
+    "name": "Zincum Aceticum",
+    "abbrev": "Zinc-acet.",
+    "rubric_count": 15
+  },
+  {
+    "id": 669,
+    "name": "Lemna Minor",
+    "abbrev": "Lem-m.",
+    "rubric_count": 14
+  },
+  {
+    "id": 873,
+    "name": "Penthorum Sedoides",
+    "abbrev": "Pen.",
+    "rubric_count": 14
+  },
+  {
+    "id": 1126,
+    "name": "Tongo Odorata",
+    "abbrev": "Tong.",
+    "rubric_count": 14
+  },
+  {
+    "id": 363,
+    "name": "Cornus Sericea",
+    "abbrev": "Corn-s.",
+    "rubric_count": 13
+  },
+  {
+    "id": 788,
+    "name": "Narcotinum",
+    "abbrev": "Narcot.",
+    "rubric_count": 13
+  },
+  {
+    "id": 956,
+    "name": "Radium Bromatum",
+    "abbrev": "Rad-br.",
+    "rubric_count": 13
+  },
+  {
+    "id": 1119,
+    "name": "Thlaspi Bursa Pastoris",
+    "abbrev": "Thlaspi",
+    "rubric_count": 13
+  },
+  {
+    "id": 1135,
+    "name": "Triosteum Perfoliatum",
+    "abbrev": "Trio.",
+    "rubric_count": 13
+  },
+  {
+    "id": 79,
+    "name": "Angophora Lanceolata",
+    "abbrev": "Ango.",
+    "rubric_count": 12
+  },
+  {
+    "id": 331,
+    "name": "Citricum Acidum",
+    "abbrev": "Cit-ac.",
+    "rubric_count": 12
+  },
+  {
+    "id": 642,
+    "name": "Kissingen Aqua",
+    "abbrev": "Kiss.",
+    "rubric_count": 12
+  },
+  {
+    "id": 678,
+    "name": "Linum Catharticum",
+    "abbrev": "Linu-c.",
+    "rubric_count": 12
+  },
+  {
+    "id": 820,
+    "name": "Nitri Spiritus Dulcis",
+    "abbrev": "Nit-s-d.",
+    "rubric_count": 12
+  },
+  {
+    "id": 991,
+    "name": "Salamandra Maculata",
+    "abbrev": "Salam.",
+    "rubric_count": 12
+  },
+  {
+    "id": 628,
+    "name": "Kalium Oxalicum",
+    "abbrev": "Kali-ox.",
+    "rubric_count": 12
+  },
+  {
+    "id": 432,
+    "name": "Erechthites Hieracifolia",
+    "abbrev": "Erech.",
+    "rubric_count": 11
+  },
+  {
+    "id": 814,
+    "name": "Niccolum Sulphuricum",
+    "abbrev": "Nicc-s.",
+    "rubric_count": 11
+  },
+  {
+    "id": 940,
+    "name": "Prunus Padus",
+    "abbrev": "Prun-p.",
+    "rubric_count": 11
+  },
+  {
+    "id": 997,
+    "name": "Salix Nigra",
+    "abbrev": "Salx-n.",
+    "rubric_count": 10
+  },
+  {
+    "id": 93,
+    "name": "Antimonium Muriaticum",
+    "abbrev": "Ant-m.",
+    "rubric_count": 9
+  },
+  {
+    "id": 26,
+    "name": "Agaricus Emeticus",
+    "abbrev": "Agar-em.",
+    "rubric_count": 8
+  },
+  {
+    "id": 241,
+    "name": "Calliandra Houstoni",
+    "abbrev": "Calli.",
+    "rubric_count": 8
+  },
+  {
+    "id": 265,
+    "name": "Carduus Benedictus",
+    "abbrev": "Card-b.",
+    "rubric_count": 8
+  },
+  {
+    "id": 357,
+    "name": "Convolvulus Duartinus",
+    "abbrev": "Convo-d.",
+    "rubric_count": 8
+  },
+  {
+    "id": 427,
+    "name": "Epigea Repens",
+    "abbrev": "Epig.",
+    "rubric_count": 8
+  },
+  {
+    "id": 489,
+    "name": "Filix Mas",
+    "abbrev": "Fil.",
+    "rubric_count": 8
+  },
+  {
+    "id": 515,
+    "name": "Geranium Maculatum",
+    "abbrev": "Ger.",
+    "rubric_count": 8
+  },
+  {
+    "id": 541,
+    "name": "Hedeoma Pulegioides",
+    "abbrev": "Hedeo.",
+    "rubric_count": 8
+  },
+  {
+    "id": 698,
+    "name": "Lupulus Humulus",
+    "abbrev": "Lup.",
+    "rubric_count": 8
+  },
+  {
+    "id": 825,
+    "name": "Nymphaea Odorata",
+    "abbrev": "Nym.",
+    "rubric_count": 8
+  },
+  {
+    "id": 879,
+    "name": "Phallus Impudicus",
+    "abbrev": "Phal.",
+    "rubric_count": 8
+  },
+  {
+    "id": 947,
+    "name": "Pulex Irritans",
+    "abbrev": "Pulx.",
+    "rubric_count": 8
+  },
+  {
+    "id": 715,
+    "name": "Malaria Nosode",
+    "abbrev": "Malar.",
+    "rubric_count": 8
+  },
+  {
+    "id": 168,
+    "name": "Balsamum Peruvianum",
+    "abbrev": "Bals-p.",
+    "rubric_count": 7
+  },
+  {
+    "id": 1047,
+    "name": "Solidago Virgaurea",
+    "abbrev": "Solid.",
+    "rubric_count": 7
+  },
+  {
+    "id": 153,
+    "name": "Aurum Arsenicum",
+    "abbrev": "Aur-ar.",
+    "rubric_count": 7
+  },
+  {
+    "id": 70,
+    "name": "Amygdalus Persica",
+    "abbrev": "Amyg-p.",
+    "rubric_count": 7
+  },
+  {
+    "id": 103,
+    "name": "Apomorphinum Hydrochloricum",
+    "abbrev": "Apom.",
+    "rubric_count": 6
+  },
+  {
+    "id": 215,
+    "name": "Cadmium Bromatum",
+    "abbrev": "Cadm-br.",
+    "rubric_count": 6
+  },
+  {
+    "id": 494,
+    "name": "Fragaria Vesca",
+    "abbrev": "Frag.",
+    "rubric_count": 6
+  },
+  {
+    "id": 532,
+    "name": "Guano Australis",
+    "abbrev": "Guano",
+    "rubric_count": 6
+  },
+  {
+    "id": 1078,
+    "name": "Strophanthus Hispidus",
+    "abbrev": "Stroph.",
+    "rubric_count": 6
+  },
+  {
+    "id": 1097,
+    "name": "Symphoricarpus Racemosus",
+    "abbrev": "Sym-r.",
+    "rubric_count": 6
+  },
+  {
+    "id": 1106,
+    "name": "Tartaricum Acidum",
+    "abbrev": "Tart-ac.",
+    "rubric_count": 6
+  },
+  {
+    "id": 609,
+    "name": "Juniperus Virginiana",
+    "abbrev": "Juni-v.",
+    "rubric_count": 6
+  },
+  {
+    "id": 591,
+    "name": "Iridium Muriaticum",
+    "abbrev": "Irid-m.",
+    "rubric_count": 5
+  },
+  {
+    "id": 1204,
+    "name": "Zincum Phosphoricum",
+    "abbrev": "Zinc-p.",
+    "rubric_count": 5
+  },
+  {
+    "id": 497,
+    "name": "Fraxinus Americanus",
+    "abbrev": "Frax.",
+    "rubric_count": 5
+  },
+  {
+    "id": 1059,
+    "name": "Spigelia Marylandica",
+    "abbrev": "Spig-m.",
+    "rubric_count": 5
+  },
+  {
+    "id": 102,
+    "name": "Apocynum Androsaemifolium",
+    "abbrev": "Apoc-a.",
+    "rubric_count": 4
+  },
+  {
+    "id": 231,
+    "name": "Calcarea Hypophosphorosa",
+    "abbrev": "Calc-hp.",
+    "rubric_count": 4
+  },
+  {
+    "id": 387,
+    "name": "Cuprum Nitricum",
+    "abbrev": "Cupr-n.",
+    "rubric_count": 4
+  },
+  {
+    "id": 389,
+    "name": "Cuprum Phosphoricum",
+    "abbrev": "Cupr-phos.",
+    "rubric_count": 4
+  },
+  {
+    "id": 498,
+    "name": "Fucus Vesiculosus",
+    "abbrev": "Fuc.",
+    "rubric_count": 4
+  },
+  {
+    "id": 590,
+    "name": "Iridium Metallicum",
+    "abbrev": "Irid.",
+    "rubric_count": 4
+  },
+  {
+    "id": 627,
+    "name": "Kalium Oxydatum",
+    "abbrev": "Kali-o.",
+    "rubric_count": 4
+  },
+  {
+    "id": 855,
+    "name": "Ozonum",
+    "abbrev": "Ozone",
+    "rubric_count": 4
+  },
+  {
+    "id": 846,
+    "name": "Orobanche Ramosa",
+    "abbrev": "Orob-r.",
+    "rubric_count": 4
+  },
+  {
+    "id": 369,
+    "name": "Crataegus Oxyacantha",
+    "abbrev": "Crat.",
+    "rubric_count": 3
+  },
+  {
+    "id": 726,
+    "name": "Magnetis Poli Ambo",
+    "abbrev": "M-art.",
+    "rubric_count": 3
+  },
+  {
+    "id": 744,
+    "name": "Mercurius Auratus",
+    "abbrev": "Merc-aur.",
+    "rubric_count": 3
+  },
+  {
+    "id": 1045,
+    "name": "Sol",
+    "abbrev": "Sol",
+    "rubric_count": 3
+  },
+  {
+    "id": 1011,
+    "name": "Sarothamnus Scoparius",
+    "abbrev": "Saroth-s.",
+    "rubric_count": 3
+  },
+  {
+    "id": 12,
+    "name": "Aconitinum",
+    "abbrev": "Aconin.",
+    "rubric_count": 2
+  },
+  {
+    "id": 18,
+    "name": "Adrenalinum",
+    "abbrev": "Adren.",
+    "rubric_count": 2
+  },
+  {
+    "id": 39,
+    "name": "Alfalfa",
+    "abbrev": "Alf.",
+    "rubric_count": 2
+  },
+  {
+    "id": 402,
+    "name": "Dictamnus Albus",
+    "abbrev": "Dict.",
+    "rubric_count": 2
+  },
+  {
+    "id": 520,
+    "name": "Glycerinum",
+    "abbrev": "Glyc.",
+    "rubric_count": 2
+  },
+  {
+    "id": 866,
+    "name": "Parthenium Hysterophorus",
+    "abbrev": "Part-h.",
+    "rubric_count": 2
+  },
+  {
+    "id": 1008,
+    "name": "Saponinum",
+    "abbrev": "Sapin.",
+    "rubric_count": 2
+  },
+  {
+    "id": 893,
+    "name": "Pilocarpinum and salts",
+    "abbrev": "Piloc.",
+    "rubric_count": 2
+  },
+  {
+    "id": 1033,
+    "name": "Serum Anguillae",
+    "abbrev": "Ser-ang.",
+    "rubric_count": 2
+  },
+  {
+    "id": 1055,
+    "name": "Spartheinum",
+    "abbrev": "Spart.",
+    "rubric_count": 2
+  },
+  {
+    "id": 874,
+    "name": "Coqueluchinum",
+    "abbrev": "Per.",
+    "rubric_count": 2
+  },
+  {
+    "id": 447,
+    "name": "Euonymus Atropurpurea",
+    "abbrev": "Euon-a.",
+    "rubric_count": 2
+  },
+  {
+    "id": 1123,
+    "name": "Thyreoidinum",
+    "abbrev": "Thyr.",
+    "rubric_count": 2
+  },
+  {
+    "id": 905,
+    "name": "Pituitaria Glandula",
+    "abbrev": "Pitu-gl.",
+    "rubric_count": 2
+  },
+  {
+    "id": 8,
+    "name": "Acetanilidum",
+    "abbrev": "Acetan.",
+    "rubric_count": 2
+  },
+  {
+    "id": 1205,
+    "name": "Zincum Picricum",
+    "abbrev": "Zinc-pic.",
+    "rubric_count": 1
+  },
+  {
+    "id": 6,
+    "name": "Accipiter Nisus",
+    "abbrev": "Acci-n.",
+    "rubric_count": 0
+  },
+  {
+    "id": 14,
+    "name": "Aconitum Radix",
+    "abbrev": "Acon-r.",
+    "rubric_count": 0
+  },
+  {
+    "id": 17,
+    "name": "Adonis Aestivalis",
+    "abbrev": "Adon-ae.",
+    "rubric_count": 0
+  },
+  {
+    "id": 23,
+    "name": "Aethiops Antimonialis",
+    "abbrev": "Aethi-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 24,
+    "name": "Aethiops Mineralis",
+    "abbrev": "Aethi-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 27,
+    "name": "Agaricinum",
+    "abbrev": "Agarin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 30,
+    "name": "Agave Americana",
+    "abbrev": "Agav-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 32,
+    "name": "Agraphis Nutans",
+    "abbrev": "Agrap.",
+    "rubric_count": 0
+  },
+  {
+    "id": 33,
+    "name": "Agrostema Githago",
+    "abbrev": "Agro.",
+    "rubric_count": 0
+  },
+  {
+    "id": 45,
+    "name": "Alstonia Scholaris",
+    "abbrev": "Alst-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 47,
+    "name": "Aluminium Chloratum",
+    "abbrev": "Alum-chl.",
+    "rubric_count": 0
+  },
+  {
+    "id": 51,
+    "name": "Ammonium Aceticum",
+    "abbrev": "Am-act.",
+    "rubric_count": 0
+  },
+  {
+    "id": 56,
+    "name": "Ambrosia Artemisiaefolia",
+    "abbrev": "Ambro.",
+    "rubric_count": 0
+  },
+  {
+    "id": 59,
+    "name": "Ammonium Iodatum",
+    "abbrev": "Am-i.",
+    "rubric_count": 0
+  },
+  {
+    "id": 63,
+    "name": "Ammonium Phosphoricum",
+    "abbrev": "Am-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 64,
+    "name": "Ampelopsis Quinquefolia",
+    "abbrev": "Ampe-qu.",
+    "rubric_count": 0
+  },
+  {
+    "id": 66,
+    "name": "Ammonium Picricum",
+    "abbrev": "Am-pic.",
+    "rubric_count": 0
+  },
+  {
+    "id": 67,
+    "name": "Ammonium Valerianicum",
+    "abbrev": "Am-val.",
+    "rubric_count": 0
+  },
+  {
+    "id": 68,
+    "name": "Ammonium Vanadinicum",
+    "abbrev": "Am-van.",
+    "rubric_count": 0
+  },
+  {
+    "id": 74,
+    "name": "Analinum",
+    "abbrev": "Anal.",
+    "rubric_count": 0
+  },
+  {
+    "id": 76,
+    "name": "Androsteron",
+    "abbrev": "Androst.",
+    "rubric_count": 0
+  },
+  {
+    "id": 78,
+    "name": "Angelica Atropurpurea",
+    "abbrev": "Ange.",
+    "rubric_count": 0
+  },
+  {
+    "id": 80,
+    "name": "Anhalonium Lewinii",
+    "abbrev": "Anh.",
+    "rubric_count": 0
+  },
+  {
+    "id": 87,
+    "name": "Anthoxanthum Odoratum",
+    "abbrev": "Antho.",
+    "rubric_count": 0
+  },
+  {
+    "id": 90,
+    "name": "Antimonium Iodatum",
+    "abbrev": "Ant-i.",
+    "rubric_count": 0
+  },
+  {
+    "id": 92,
+    "name": "Antipyrinum",
+    "abbrev": "Antip.",
+    "rubric_count": 0
+  },
+  {
+    "id": 99,
+    "name": "Apiolum",
+    "abbrev": "Apiol.",
+    "rubric_count": 0
+  },
+  {
+    "id": 104,
+    "name": "Aqua Marina",
+    "abbrev": "Aq-mar.",
+    "rubric_count": 0
+  },
+  {
+    "id": 105,
+    "name": "Aqua Petra",
+    "abbrev": "Aq-pet.",
+    "rubric_count": 0
+  },
+  {
+    "id": 106,
+    "name": "Aquilegia Vulgaris",
+    "abbrev": "Aquil.",
+    "rubric_count": 0
+  },
+  {
+    "id": 107,
+    "name": "Aragallus Lamberti",
+    "abbrev": "Arag.",
+    "rubric_count": 0
+  },
+  {
+    "id": 111,
+    "name": "Arbutus Andrachne",
+    "abbrev": "Arb.",
+    "rubric_count": 0
+  },
+  {
+    "id": 114,
+    "name": "Argemone Mexicana",
+    "abbrev": "Arge.",
+    "rubric_count": 0
+  },
+  {
+    "id": 115,
+    "name": "Argentum Iodatum",
+    "abbrev": "Arg-i.",
+    "rubric_count": 0
+  },
+  {
+    "id": 118,
+    "name": "Argentum Oxydatum",
+    "abbrev": "Arg-o.",
+    "rubric_count": 0
+  },
+  {
+    "id": 119,
+    "name": "Argentum Phosphoricum",
+    "abbrev": "Arg-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 120,
+    "name": "Aristolochia Clematitis",
+    "abbrev": "Arist-cl.",
+    "rubric_count": 0
+  },
+  {
+    "id": 121,
+    "name": "Aristolochia Milhomens",
+    "abbrev": "Arist-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 124,
+    "name": "Arsenicum Bromatum",
+    "abbrev": "Ars-br.",
+    "rubric_count": 0
+  },
+  {
+    "id": 141,
+    "name": "Asclepias Incarnata",
+    "abbrev": "Asc-i.",
+    "rubric_count": 0
+  },
+  {
+    "id": 145,
+    "name": "Asperula Odorata",
+    "abbrev": "Asper.",
+    "rubric_count": 0
+  },
+  {
+    "id": 148,
+    "name": "Astragalus Mollissimus",
+    "abbrev": "Astra-mo.",
+    "rubric_count": 0
+  },
+  {
+    "id": 149,
+    "name": "Athamanta Oreoselinum",
+    "abbrev": "Atha.",
+    "rubric_count": 0
+  },
+  {
+    "id": 42,
+    "name": "Alnus Serrulata",
+    "abbrev": "Aln-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 151,
+    "name": "Atropinum Sulphuricum",
+    "abbrev": "Atro-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 154,
+    "name": "Aurum Bromatum",
+    "abbrev": "Aur-br.",
+    "rubric_count": 0
+  },
+  {
+    "id": 157,
+    "name": "Aurum Muriaticum Kalinatum",
+    "abbrev": "Aur-m-k.",
+    "rubric_count": 0
+  },
+  {
+    "id": 160,
+    "name": "Aurum Thiosulphuricum Natronatum",
+    "abbrev": "Aur-t-n.",
+    "rubric_count": 0
+  },
+  {
+    "id": 161,
+    "name": "Various Aurums",
+    "abbrev": "Aurums",
+    "rubric_count": 0
+  },
+  {
+    "id": 162,
+    "name": "Avena Sativa",
+    "abbrev": "Aven.",
+    "rubric_count": 0
+  },
+  {
+    "id": 163,
+    "name": "Azadirachta Indica",
+    "abbrev": "Aza.",
+    "rubric_count": 0
+  },
+  {
+    "id": 164,
+    "name": "Bacillinum Burnett",
+    "abbrev": "Bac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 165,
+    "name": "Bacillinum Testium",
+    "abbrev": "Bac-t.",
+    "rubric_count": 0
+  },
+  {
+    "id": 167,
+    "name": "Baja",
+    "abbrev": "Baj.",
+    "rubric_count": 0
+  },
+  {
+    "id": 175,
+    "name": "Baryta Nitrica",
+    "abbrev": "Bar-n.",
+    "rubric_count": 0
+  },
+  {
+    "id": 176,
+    "name": "Barosma Crenulata",
+    "abbrev": "Baros.",
+    "rubric_count": 0
+  },
+  {
+    "id": 178,
+    "name": "Various Barytas",
+    "abbrev": "Barytas",
+    "rubric_count": 0
+  },
+  {
+    "id": 183,
+    "name": "Benzinum Dinitricum",
+    "abbrev": "Benz-d.",
+    "rubric_count": 0
+  },
+  {
+    "id": 184,
+    "name": "Benzinum",
+    "abbrev": "Benzin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 185,
+    "name": "Benzinum Nitricum",
+    "abbrev": "Benz-n.",
+    "rubric_count": 0
+  },
+  {
+    "id": 186,
+    "name": "Benzoinoderiferum",
+    "abbrev": "Benzo.",
+    "rubric_count": 0
+  },
+  {
+    "id": 188,
+    "name": "Berberis Aquifolium",
+    "abbrev": "Berb-aq.",
+    "rubric_count": 0
+  },
+  {
+    "id": 192,
+    "name": "Blatta Americana",
+    "abbrev": "Blatta-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 194,
+    "name": "Boldo Fragrans",
+    "abbrev": "Bold.",
+    "rubric_count": 0
+  },
+  {
+    "id": 195,
+    "name": "Boletus Luridus",
+    "abbrev": "Bol-lu.",
+    "rubric_count": 0
+  },
+  {
+    "id": 196,
+    "name": "Bombyx Processionea",
+    "abbrev": "Bomb-pr.",
+    "rubric_count": 0
+  },
+  {
+    "id": 197,
+    "name": "Bondonneau Aqua",
+    "abbrev": "Bond.",
+    "rubric_count": 0
+  },
+  {
+    "id": 202,
+    "name": "Botulinum",
+    "abbrev": "Botul.",
+    "rubric_count": 0
+  },
+  {
+    "id": 205,
+    "name": "Brancaursina",
+    "abbrev": "Bran.",
+    "rubric_count": 0
+  },
+  {
+    "id": 206,
+    "name": "Brassica Napus",
+    "abbrev": "Brass-n.",
+    "rubric_count": 0
+  },
+  {
+    "id": 213,
+    "name": "Butyricum Acidum",
+    "abbrev": "But-ac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 216,
+    "name": "Cadmium Iodatum",
+    "abbrev": "Cadm-i.",
+    "rubric_count": 0
+  },
+  {
+    "id": 217,
+    "name": "Cadmium Muriaticum",
+    "abbrev": "Cadm-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 219,
+    "name": "Caffeine Citrated",
+    "abbrev": "Caff-citr.",
+    "rubric_count": 0
+  },
+  {
+    "id": 226,
+    "name": "Various Calcareas",
+    "abbrev": "Calcareas",
+    "rubric_count": 0
+  },
+  {
+    "id": 227,
+    "name": "Calcarea Bromata",
+    "abbrev": "Calc-br.",
+    "rubric_count": 0
+  },
+  {
+    "id": 229,
+    "name": "Calcarea Chlorinata",
+    "abbrev": "Calc-chln.",
+    "rubric_count": 0
+  },
+  {
+    "id": 233,
+    "name": "Calcarea Lactica",
+    "abbrev": "Calc-lac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 234,
+    "name": "Calcarea Muriatica",
+    "abbrev": "Calc-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 235,
+    "name": "Calcarea Oxalica",
+    "abbrev": "Calc-ox.",
+    "rubric_count": 0
+  },
+  {
+    "id": 237,
+    "name": "Calcarea Picrica",
+    "abbrev": "Calc-pic.",
+    "rubric_count": 0
+  },
+  {
+    "id": 243,
+    "name": "Calopteryx Splendens",
+    "abbrev": "Calop.",
+    "rubric_count": 0
+  },
+  {
+    "id": 245,
+    "name": "Caltha Palustris",
+    "abbrev": "Calth.",
+    "rubric_count": 0
+  },
+  {
+    "id": 247,
+    "name": "Camphoricum Acidum",
+    "abbrev": "Camph-ac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 250,
+    "name": "Camphorated Oil",
+    "abbrev": "Camph-oil.",
+    "rubric_count": 0
+  },
+  {
+    "id": 258,
+    "name": "Carboneum Chloratum",
+    "abbrev": "Carbn-chl.",
+    "rubric_count": 0
+  },
+  {
+    "id": 262,
+    "name": "Carboneum Tetrachloratum",
+    "abbrev": "Carbn-t.",
+    "rubric_count": 0
+  },
+  {
+    "id": 264,
+    "name": "Carcinosinum",
+    "abbrev": "Carc.",
+    "rubric_count": 0
+  },
+  {
+    "id": 269,
+    "name": "Cascara Sagrada",
+    "abbrev": "Cas-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 278,
+    "name": "Celtis Occidentalis",
+    "abbrev": "Celt.",
+    "rubric_count": 0
+  },
+  {
+    "id": 283,
+    "name": "Cerium Oxalicum",
+    "abbrev": "Cer-ox.",
+    "rubric_count": 0
+  },
+  {
+    "id": 284,
+    "name": "Cervus Brasilicus",
+    "abbrev": "Cerv.",
+    "rubric_count": 0
+  },
+  {
+    "id": 285,
+    "name": "Cetraria Islandica",
+    "abbrev": "Cetr.",
+    "rubric_count": 0
+  },
+  {
+    "id": 287,
+    "name": "Chaparro Amargoso",
+    "abbrev": "Chap.",
+    "rubric_count": 0
+  },
+  {
+    "id": 289,
+    "name": "Cheiranthus Cheiri",
+    "abbrev": "Cheir.",
+    "rubric_count": 0
+  },
+  {
+    "id": 291,
+    "name": "Chelone Glabra",
+    "abbrev": "Chelo.",
+    "rubric_count": 0
+  },
+  {
+    "id": 293,
+    "name": "Chenopodium Album",
+    "abbrev": "Chen-al.",
+    "rubric_count": 0
+  },
+  {
+    "id": 294,
+    "name": "Chenopodium Glaucum",
+    "abbrev": "Chen-g.",
+    "rubric_count": 0
+  },
+  {
+    "id": 248,
+    "name": "Camphora Bromata",
+    "abbrev": "Camph-br.",
+    "rubric_count": 0
+  },
+  {
+    "id": 210,
+    "name": "Bubo Bubo Omissus",
+    "abbrev": "Bubon.",
+    "rubric_count": 0
+  },
+  {
+    "id": 298,
+    "name": "Chimaphila Rotundifolia",
+    "abbrev": "Chim-rot.",
+    "rubric_count": 0
+  },
+  {
+    "id": 302,
+    "name": "Chininum Hydrocyanicum",
+    "abbrev": "Chin-h.",
+    "rubric_count": 0
+  },
+  {
+    "id": 303,
+    "name": "Chininum Muriaticum",
+    "abbrev": "Chin-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 306,
+    "name": "Chininum Salicylicum",
+    "abbrev": "Chin-sal.",
+    "rubric_count": 0
+  },
+  {
+    "id": 312,
+    "name": "Cholinum",
+    "abbrev": "Cholin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 316,
+    "name": "Chromium Sulphuricum",
+    "abbrev": "Chr-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 317,
+    "name": "Chrysanthemum Leucanthemum",
+    "abbrev": "Chrysan.",
+    "rubric_count": 0
+  },
+  {
+    "id": 318,
+    "name": "Chrysarobinum",
+    "abbrev": "Chrysar.",
+    "rubric_count": 0
+  },
+  {
+    "id": 320,
+    "name": "Cichorium Intybus",
+    "abbrev": "Cich.",
+    "rubric_count": 0
+  },
+  {
+    "id": 321,
+    "name": "Cicuta Maculata",
+    "abbrev": "Cic-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 326,
+    "name": "Cineraria Maritima",
+    "abbrev": "Cine.",
+    "rubric_count": 0
+  },
+  {
+    "id": 334,
+    "name": "Clematis Vitalba",
+    "abbrev": "Clem-vit.",
+    "rubric_count": 0
+  },
+  {
+    "id": 346,
+    "name": "Colchicinum",
+    "abbrev": "Colchin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 349,
+    "name": "Colocynthinum",
+    "abbrev": "Colocin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 353,
+    "name": "Conchiolinum",
+    "abbrev": "Conch.",
+    "rubric_count": 0
+  },
+  {
+    "id": 355,
+    "name": "Coniinum",
+    "abbrev": "Conin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 361,
+    "name": "Cornus Alternifolia",
+    "abbrev": "Corn-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 364,
+    "name": "Coronilla Varia",
+    "abbrev": "Coron-v.",
+    "rubric_count": 0
+  },
+  {
+    "id": 366,
+    "name": "Corydalis Formosa",
+    "abbrev": "Cory.",
+    "rubric_count": 0
+  },
+  {
+    "id": 374,
+    "name": "Cryptopinum",
+    "abbrev": "Cryp.",
+    "rubric_count": 0
+  },
+  {
+    "id": 376,
+    "name": "Cucurbita Citrullus",
+    "abbrev": "Cuc-c.",
+    "rubric_count": 0
+  },
+  {
+    "id": 377,
+    "name": "Cucurbita Pepo",
+    "abbrev": "Cuc-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 384,
+    "name": "Cuprum Cyanatum",
+    "abbrev": "Cupr-cy.",
+    "rubric_count": 0
+  },
+  {
+    "id": 385,
+    "name": "Cupressus Australis",
+    "abbrev": "Cupre-aust.",
+    "rubric_count": 0
+  },
+  {
+    "id": 386,
+    "name": "Cuprum Muriaticum",
+    "abbrev": "Cupr-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 388,
+    "name": "Cuprum Oxydatum Nigrum",
+    "abbrev": "Cupr-o.",
+    "rubric_count": 0
+  },
+  {
+    "id": 399,
+    "name": "Datura Arborea",
+    "abbrev": "Dat-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 400,
+    "name": "Delphininum Staphysagria",
+    "abbrev": "Delphin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 404,
+    "name": "Digitalinum",
+    "abbrev": "Digin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 405,
+    "name": "Digitoxinum",
+    "abbrev": "Digox.",
+    "rubric_count": 0
+  },
+  {
+    "id": 407,
+    "name": "Dipodium Punctatum",
+    "abbrev": "Dip.",
+    "rubric_count": 0
+  },
+  {
+    "id": 408,
+    "name": "Diphtherinum",
+    "abbrev": "Diph.",
+    "rubric_count": 0
+  },
+  {
+    "id": 409,
+    "name": "Diphterotoxinum",
+    "abbrev": "Diphtox.",
+    "rubric_count": 0
+  },
+  {
+    "id": 410,
+    "name": "Dipterocarpus",
+    "abbrev": "Dipterocarpus",
+    "rubric_count": 0
+  },
+  {
+    "id": 419,
+    "name": "Egg Vaccine",
+    "abbrev": "Egg-v.",
+    "rubric_count": 0
+  },
+  {
+    "id": 420,
+    "name": "Elaeis Guineensis",
+    "abbrev": "Elae.",
+    "rubric_count": 0
+  },
+  {
+    "id": 423,
+    "name": "Electricitas",
+    "abbrev": "Elec.",
+    "rubric_count": 0
+  },
+  {
+    "id": 424,
+    "name": "Emetinum Muriaticum",
+    "abbrev": "Emetin-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 425,
+    "name": "Eosinum",
+    "abbrev": "Eos.",
+    "rubric_count": 0
+  },
+  {
+    "id": 426,
+    "name": "Ephedra Vulgaris",
+    "abbrev": "Ephe.",
+    "rubric_count": 0
+  },
+  {
+    "id": 428,
+    "name": "Epilobium Palustre",
+    "abbrev": "Epil.",
+    "rubric_count": 0
+  },
+  {
+    "id": 431,
+    "name": "Equisetum Arvense",
+    "abbrev": "Equis-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 433,
+    "name": "Ergotinum",
+    "abbrev": "Ergot.",
+    "rubric_count": 0
+  },
+  {
+    "id": 436,
+    "name": "Erodium Cicutarium",
+    "abbrev": "Erod.",
+    "rubric_count": 0
+  },
+  {
+    "id": 439,
+    "name": "Eryngium Maritimum",
+    "abbrev": "Ery-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 440,
+    "name": "Eserinum",
+    "abbrev": "Esin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 441,
+    "name": "Eserinum Salicylicum",
+    "abbrev": "Esin-sal.",
+    "rubric_count": 0
+  },
+  {
+    "id": 395,
+    "name": "Cysticin",
+    "abbrev": "Cyst.",
+    "rubric_count": 0
+  },
+  {
+    "id": 448,
+    "name": "Eupatorium Aromaticum",
+    "abbrev": "Eup-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 450,
+    "name": "Euphorbia Amygdaloides",
+    "abbrev": "Euph-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 462,
+    "name": "Fagus Sylvatica",
+    "abbrev": "Fagu.",
+    "rubric_count": 0
+  },
+  {
+    "id": 464,
+    "name": "Fel Tauri",
+    "abbrev": "Fel",
+    "rubric_count": 0
+  },
+  {
+    "id": 469,
+    "name": "Ferrum Carbonicum",
+    "abbrev": "Ferr-c.",
+    "rubric_count": 0
+  },
+  {
+    "id": 471,
+    "name": "Ferrum Citricum",
+    "abbrev": "Ferr-cit.",
+    "rubric_count": 0
+  },
+  {
+    "id": 472,
+    "name": "Ferrum Cyanatum",
+    "abbrev": "Ferr-cy.",
+    "rubric_count": 0
+  },
+  {
+    "id": 474,
+    "name": "Ferrum Lacticum",
+    "abbrev": "Ferr-lact.",
+    "rubric_count": 0
+  },
+  {
+    "id": 477,
+    "name": "Ferrum Nitricum",
+    "abbrev": "Ferr-n.",
+    "rubric_count": 0
+  },
+  {
+    "id": 478,
+    "name": "Ferrum Oxydatum Rubrum",
+    "abbrev": "Ferr-o-r.",
+    "rubric_count": 0
+  },
+  {
+    "id": 481,
+    "name": "Ferrum Pyrophosphoricum",
+    "abbrev": "Ferr-py.",
+    "rubric_count": 0
+  },
+  {
+    "id": 482,
+    "name": "Ferrum Reductum",
+    "abbrev": "Ferr-r.",
+    "rubric_count": 0
+  },
+  {
+    "id": 484,
+    "name": "Ferrum Tartaricum",
+    "abbrev": "Ferr-t.",
+    "rubric_count": 0
+  },
+  {
+    "id": 486,
+    "name": "Various Ferrums",
+    "abbrev": "Ferrums",
+    "rubric_count": 0
+  },
+  {
+    "id": 487,
+    "name": "Ferula Glauca",
+    "abbrev": "Ferul.",
+    "rubric_count": 0
+  },
+  {
+    "id": 488,
+    "name": "Ficus Religiosa",
+    "abbrev": "Ficus",
+    "rubric_count": 0
+  },
+  {
+    "id": 492,
+    "name": "Formicicum Acidum",
+    "abbrev": "Form-ac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 493,
+    "name": "Formalinum",
+    "abbrev": "Formal.",
+    "rubric_count": 0
+  },
+  {
+    "id": 495,
+    "name": "Franciscea Uniflora",
+    "abbrev": "Franc.",
+    "rubric_count": 0
+  },
+  {
+    "id": 496,
+    "name": "Franzensbad Aqua",
+    "abbrev": "Franz.",
+    "rubric_count": 0
+  },
+  {
+    "id": 499,
+    "name": "Fuligo Ligni",
+    "abbrev": "Fuligo",
+    "rubric_count": 0
+  },
+  {
+    "id": 500,
+    "name": "Fuschina",
+    "abbrev": "Fuschina",
+    "rubric_count": 0
+  },
+  {
+    "id": 502,
+    "name": "Galanthus Nivalis",
+    "abbrev": "Galanth.",
+    "rubric_count": 0
+  },
+  {
+    "id": 503,
+    "name": "Galium Aparine",
+    "abbrev": "Gal-ap.",
+    "rubric_count": 0
+  },
+  {
+    "id": 504,
+    "name": "Galega Officinalis",
+    "abbrev": "Galega",
+    "rubric_count": 0
+  },
+  {
+    "id": 506,
+    "name": "Galvanismus",
+    "abbrev": "Galv.",
+    "rubric_count": 0
+  },
+  {
+    "id": 453,
+    "name": "Euphorbia Heterodoxa",
+    "abbrev": "Euph-h.",
+    "rubric_count": 0
+  },
+  {
+    "id": 429,
+    "name": "Epiphegus Virginicus",
+    "abbrev": "Epiph.",
+    "rubric_count": 0
+  },
+  {
+    "id": 508,
+    "name": "Gastein Aqua",
+    "abbrev": "Gast.",
+    "rubric_count": 0
+  },
+  {
+    "id": 509,
+    "name": "Gaultheria Procumbens",
+    "abbrev": "Gaul.",
+    "rubric_count": 0
+  },
+  {
+    "id": 510,
+    "name": "Gelatin",
+    "abbrev": "Gelat.",
+    "rubric_count": 0
+  },
+  {
+    "id": 518,
+    "name": "Glechonia Hedera",
+    "abbrev": "Glech.",
+    "rubric_count": 0
+  },
+  {
+    "id": 523,
+    "name": "Gonorrhin",
+    "abbrev": "Gon.",
+    "rubric_count": 0
+  },
+  {
+    "id": 534,
+    "name": "Gunpowder",
+    "abbrev": "Gunpowder",
+    "rubric_count": 0
+  },
+  {
+    "id": 536,
+    "name": "Gymnema Sylvestre",
+    "abbrev": "Gymnen.",
+    "rubric_count": 0
+  },
+  {
+    "id": 537,
+    "name": "Gynocardia Odorata",
+    "abbrev": "Gynocardia",
+    "rubric_count": 0
+  },
+  {
+    "id": 539,
+    "name": "Hall Aqua",
+    "abbrev": "Hall.",
+    "rubric_count": 0
+  },
+  {
+    "id": 542,
+    "name": "Helianthus Annuus",
+    "abbrev": "Helian.",
+    "rubric_count": 0
+  },
+  {
+    "id": 543,
+    "name": "Heloninum",
+    "abbrev": "Helin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 544,
+    "name": "Heliotropium Peruvianum",
+    "abbrev": "Helio.",
+    "rubric_count": 0
+  },
+  {
+    "id": 545,
+    "name": "Helix Tosta",
+    "abbrev": "Helix-t.",
+    "rubric_count": 0
+  },
+  {
+    "id": 547,
+    "name": "Helleborus Foetidus",
+    "abbrev": "Hell-foe.",
+    "rubric_count": 0
+  },
+  {
+    "id": 552,
+    "name": "Hepatica Triloba",
+    "abbrev": "Hepat.",
+    "rubric_count": 0
+  },
+  {
+    "id": 553,
+    "name": "Heracleum Sphondylium",
+    "abbrev": "Heracl.",
+    "rubric_count": 0
+  },
+  {
+    "id": 562,
+    "name": "Hydrastininum Muriaticum",
+    "abbrev": "Hydrastin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 563,
+    "name": "Hydrastinum Muriaticum",
+    "abbrev": "Hydrast-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 564,
+    "name": "Hydrastinum Sulphuricum",
+    "abbrev": "Hydrast-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 566,
+    "name": "Hydrobromicum Acidum",
+    "abbrev": "Hydrobr-ac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 568,
+    "name": "Hymosa",
+    "abbrev": "Hymosa",
+    "rubric_count": 0
+  },
+  {
+    "id": 570,
+    "name": "Hyoscin Hydrobromicum",
+    "abbrev": "Hyos-h.",
+    "rubric_count": 0
+  },
+  {
+    "id": 572,
+    "name": "Hysterion",
+    "abbrev": "Hysterion",
+    "rubric_count": 0
+  },
+  {
+    "id": 574,
+    "name": "Ichthyolum",
+    "abbrev": "Ichth.",
+    "rubric_count": 0
+  },
+  {
+    "id": 578,
+    "name": "Ilex Aquifolium",
+    "abbrev": "Ilex-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 581,
+    "name": "Indolum",
+    "abbrev": "Indol.",
+    "rubric_count": 0
+  },
+  {
+    "id": 582,
+    "name": "Influenzinum Nosode",
+    "abbrev": "Influ.",
+    "rubric_count": 0
+  },
+  {
+    "id": 586,
+    "name": "Various Iodites",
+    "abbrev": "Iodides",
+    "rubric_count": 0
+  },
+  {
+    "id": 460,
+    "name": "Fabiana Imbricata",
+    "abbrev": "Fab.",
+    "rubric_count": 0
+  },
+  {
+    "id": 485,
+    "name": "Ferula Galbanum",
+    "abbrev": "Ferula",
+    "rubric_count": 0
+  },
+  {
+    "id": 595,
+    "name": "Iris Germanica",
+    "abbrev": "Iris-g.",
+    "rubric_count": 0
+  },
+  {
+    "id": 596,
+    "name": "Irisin",
+    "abbrev": "Irisin",
+    "rubric_count": 0
+  },
+  {
+    "id": 597,
+    "name": "Iris Tenax",
+    "abbrev": "Iris-t.",
+    "rubric_count": 0
+  },
+  {
+    "id": 605,
+    "name": "Jonesia Asoka",
+    "abbrev": "Jon.",
+    "rubric_count": 0
+  },
+  {
+    "id": 610,
+    "name": "Justicia Adhatoda",
+    "abbrev": "Just.",
+    "rubric_count": 0
+  },
+  {
+    "id": 611,
+    "name": "Kalagua",
+    "abbrev": "Kalag.",
+    "rubric_count": 0
+  },
+  {
+    "id": 618,
+    "name": "Kalium Chromicum",
+    "abbrev": "Kali-chrom.",
+    "rubric_count": 0
+  },
+  {
+    "id": 622,
+    "name": "Kalium Hypophosphorosum",
+    "abbrev": "Kali-hyp.",
+    "rubric_count": 0
+  },
+  {
+    "id": 632,
+    "name": "Kalium Salicylicum",
+    "abbrev": "Kali-sal.",
+    "rubric_count": 0
+  },
+  {
+    "id": 634,
+    "name": "Kalium Silicum",
+    "abbrev": "Kali-sil.",
+    "rubric_count": 0
+  },
+  {
+    "id": 638,
+    "name": "Kamala",
+    "abbrev": "Kamala",
+    "rubric_count": 0
+  },
+  {
+    "id": 640,
+    "name": "Kerosolenum",
+    "abbrev": "Keroso.",
+    "rubric_count": 0
+  },
+  {
+    "id": 645,
+    "name": "Kresolum",
+    "abbrev": "Kres.",
+    "rubric_count": 0
+  },
+  {
+    "id": 650,
+    "name": "Lacerta Agilis",
+    "abbrev": "Lacert.",
+    "rubric_count": 0
+  },
+  {
+    "id": 655,
+    "name": "Lac Vaccinum Butyricum ",
+    "abbrev": "Lac-v-b.",
+    "rubric_count": 0
+  },
+  {
+    "id": 656,
+    "name": "Lac Vaccinum Coagulatum",
+    "abbrev": "Lac-v-c.",
+    "rubric_count": 0
+  },
+  {
+    "id": 660,
+    "name": "Lapsana Communis",
+    "abbrev": "Laps.",
+    "rubric_count": 0
+  },
+  {
+    "id": 670,
+    "name": "Leonurus Cardiaca",
+    "abbrev": "Leonu.",
+    "rubric_count": 0
+  },
+  {
+    "id": 673,
+    "name": "Liatris Spicata",
+    "abbrev": "Liatris",
+    "rubric_count": 0
+  },
+  {
+    "id": 674,
+    "name": "Lilium Superbum",
+    "abbrev": "Lil-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 676,
+    "name": "Limulus Cyclops",
+    "abbrev": "Limul.",
+    "rubric_count": 0
+  },
+  {
+    "id": 677,
+    "name": "Linaria Vulgaris",
+    "abbrev": "Linar.",
+    "rubric_count": 0
+  },
+  {
+    "id": 679,
+    "name": "Linum Usitatissimum",
+    "abbrev": "Linu-us.",
+    "rubric_count": 0
+  },
+  {
+    "id": 680,
+    "name": "Lippia Mexicana",
+    "abbrev": "Lippia",
+    "rubric_count": 0
+  },
+  {
+    "id": 681,
+    "name": "Lithium Arsenicicum",
+    "abbrev": "Lith-ac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 682,
+    "name": "Lithium Benzoicum",
+    "abbrev": "Lith-benz.",
+    "rubric_count": 0
+  },
+  {
+    "id": 684,
+    "name": "Lithium Lacticum",
+    "abbrev": "Lith-l.",
+    "rubric_count": 0
+  },
+  {
+    "id": 689,
+    "name": "Lobelia Dortmanna",
+    "abbrev": "Lob-d.",
+    "rubric_count": 0
+  },
+  {
+    "id": 690,
+    "name": "Lobelia Erinus",
+    "abbrev": "Lob-er.",
+    "rubric_count": 0
+  },
+  {
+    "id": 691,
+    "name": "Lobelia Purpurascens",
+    "abbrev": "Lob-purp.",
+    "rubric_count": 0
+  },
+  {
+    "id": 696,
+    "name": "Luffa Operculata",
+    "abbrev": "Luffa",
+    "rubric_count": 0
+  },
+  {
+    "id": 697,
+    "name": "Luna",
+    "abbrev": "Luna",
+    "rubric_count": 0
+  },
+  {
+    "id": 703,
+    "name": "Lysidinum",
+    "abbrev": "Lysd.",
+    "rubric_count": 0
+  },
+  {
+    "id": 706,
+    "name": "Magnesium Aceticum",
+    "abbrev": "Mag-ac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 709,
+    "name": "Magnolia Glauca",
+    "abbrev": "Magn-gl.",
+    "rubric_count": 0
+  },
+  {
+    "id": 710,
+    "name": "Magnolia Grandiflora",
+    "abbrev": "Magn-gr.",
+    "rubric_count": 0
+  },
+  {
+    "id": 711,
+    "name": "Magnesium Nitricum",
+    "abbrev": "Mag-nit.",
+    "rubric_count": 0
+  },
+  {
+    "id": 717,
+    "name": "Mandragora Officinarum",
+    "abbrev": "Mand.",
+    "rubric_count": 0
+  },
+  {
+    "id": 720,
+    "name": "Mangifera Indica",
+    "abbrev": "Mangif-ind.",
+    "rubric_count": 0
+  },
+  {
+    "id": 722,
+    "name": "Manganum Oxydatum Nativum",
+    "abbrev": "Mang-ox.",
+    "rubric_count": 0
+  },
+  {
+    "id": 725,
+    "name": "Marrubium Vulgaris",
+    "abbrev": "Marrub.",
+    "rubric_count": 0
+  },
+  {
+    "id": 727,
+    "name": "Matico",
+    "abbrev": "Matico",
+    "rubric_count": 0
+  },
+  {
+    "id": 731,
+    "name": "Melastoma Ackermani",
+    "abbrev": "Melast.",
+    "rubric_count": 0
+  },
+  {
+    "id": 732,
+    "name": "Mel Cum Sale",
+    "abbrev": "Mel-c-sale",
+    "rubric_count": 0
+  },
+  {
+    "id": 734,
+    "name": "Melilotus Alba",
+    "abbrev": "Meli-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 737,
+    "name": "Mentholum",
+    "abbrev": "Mentho.",
+    "rubric_count": 0
+  },
+  {
+    "id": 739,
+    "name": "Mentha Pulegium",
+    "abbrev": "Menth-pu.",
+    "rubric_count": 0
+  },
+  {
+    "id": 745,
+    "name": "Mercurius Bromatus",
+    "abbrev": "Merc-br.",
+    "rubric_count": 0
+  },
+  {
+    "id": 751,
+    "name": "Mercurius Methylenus",
+    "abbrev": "Merc-meth.",
+    "rubric_count": 0
+  },
+  {
+    "id": 753,
+    "name": "Mercurius Phosphoricus",
+    "abbrev": "Merc-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 754,
+    "name": "Mercurius Precipitatus",
+    "abbrev": "Merc-pre.",
+    "rubric_count": 0
+  },
+  {
+    "id": 758,
+    "name": "Mercurius Tannicus Oxydilatum",
+    "abbrev": "Merc-tan.",
+    "rubric_count": 0
+  },
+  {
+    "id": 759,
+    "name": "Various Mercuries",
+    "abbrev": "Mercuries",
+    "rubric_count": 0
+  },
+  {
+    "id": 643,
+    "name": "Kousso",
+    "abbrev": "Kousso",
+    "rubric_count": 0
+  },
+  {
+    "id": 730,
+    "name": "Medusa",
+    "abbrev": "Medusa",
+    "rubric_count": 0
+  },
+  {
+    "id": 762,
+    "name": "Metacortin",
+    "abbrev": "Met.",
+    "rubric_count": 0
+  },
+  {
+    "id": 764,
+    "name": "Methyl Salicylate",
+    "abbrev": "Methyl-sal.",
+    "rubric_count": 0
+  },
+  {
+    "id": 767,
+    "name": "Mimosa Humilis",
+    "abbrev": "Mimosa",
+    "rubric_count": 0
+  },
+  {
+    "id": 771,
+    "name": "Morphinum Aceticum",
+    "abbrev": "Morph-acet.",
+    "rubric_count": 0
+  },
+  {
+    "id": 773,
+    "name": "Mucuna Pruriens",
+    "abbrev": "Mucuna",
+    "rubric_count": 0
+  },
+  {
+    "id": 776,
+    "name": "Musa Sapientum",
+    "abbrev": "Musa.",
+    "rubric_count": 0
+  },
+  {
+    "id": 777,
+    "name": "Muscarine",
+    "abbrev": "Muscar.",
+    "rubric_count": 0
+  },
+  {
+    "id": 783,
+    "name": "Nabalus Albus",
+    "abbrev": "Nabul.",
+    "rubric_count": 0
+  },
+  {
+    "id": 784,
+    "name": "Nabalus Serpentarius",
+    "abbrev": "Nabul-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 787,
+    "name": "Narcissus Poeticus",
+    "abbrev": "Narcissus",
+    "rubric_count": 0
+  },
+  {
+    "id": 789,
+    "name": "Narzan Aqua",
+    "abbrev": "Narz.",
+    "rubric_count": 0
+  },
+  {
+    "id": 790,
+    "name": "Nasturtium Aqua",
+    "abbrev": "Nasturt.",
+    "rubric_count": 0
+  },
+  {
+    "id": 793,
+    "name": "Natrium Bromatum",
+    "abbrev": "Nat-br.",
+    "rubric_count": 0
+  },
+  {
+    "id": 796,
+    "name": "Natrium Choleinicum",
+    "abbrev": "Nat-chol.",
+    "rubric_count": 0
+  },
+  {
+    "id": 810,
+    "name": "Natrium Telluricum",
+    "abbrev": "Nat-t.",
+    "rubric_count": 0
+  },
+  {
+    "id": 811,
+    "name": "Negundium Americanum",
+    "abbrev": "Neg.",
+    "rubric_count": 0
+  },
+  {
+    "id": 769,
+    "name": "Momordica Charantia",
+    "abbrev": "Mom-ch.",
+    "rubric_count": 0
+  },
+  {
+    "id": 824,
+    "name": "Nyctanthes Arbor Tristis",
+    "abbrev": "Nyct.",
+    "rubric_count": 0
+  },
+  {
+    "id": 828,
+    "name": "Oenothera Biennis",
+    "abbrev": "Oeno.",
+    "rubric_count": 0
+  },
+  {
+    "id": 829,
+    "name": "Oestrus Ovis",
+    "abbrev": "Oestrus",
+    "rubric_count": 0
+  },
+  {
+    "id": 832,
+    "name": "Oleum Myristicae",
+    "abbrev": "Ol-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 834,
+    "name": "Oleum Santali",
+    "abbrev": "Ol-s.",
+    "rubric_count": 0
+  },
+  {
+    "id": 836,
+    "name": "Oniscus Asellus",
+    "abbrev": "Onisc.",
+    "rubric_count": 0
+  },
+  {
+    "id": 839,
+    "name": "Operculina Turpenthum",
+    "abbrev": "Oper.",
+    "rubric_count": 0
+  },
+  {
+    "id": 841,
+    "name": "Orchitinum",
+    "abbrev": "Orchit.",
+    "rubric_count": 0
+  },
+  {
+    "id": 842,
+    "name": "Oreodaphne Californica",
+    "abbrev": "Oreodaph.",
+    "rubric_count": 0
+  },
+  {
+    "id": 843,
+    "name": "Orexine Tannate",
+    "abbrev": "Orex-t.",
+    "rubric_count": 0
+  },
+  {
+    "id": 845,
+    "name": "Ornithogalum Umbellatum",
+    "abbrev": "Orni.",
+    "rubric_count": 0
+  },
+  {
+    "id": 848,
+    "name": "Ostrya Virginica",
+    "abbrev": "Ostr.",
+    "rubric_count": 0
+  },
+  {
+    "id": 851,
+    "name": "Ovi Gallinae Pellicula",
+    "abbrev": "Ov-g-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 853,
+    "name": "Oxydendron Arboreum",
+    "abbrev": "Oxydend.",
+    "rubric_count": 0
+  },
+  {
+    "id": 859,
+    "name": "Panacea Arvensis",
+    "abbrev": "Pana.",
+    "rubric_count": 0
+  },
+  {
+    "id": 860,
+    "name": "Pancreatinum",
+    "abbrev": "Pancreat.",
+    "rubric_count": 0
+  },
+  {
+    "id": 861,
+    "name": "Carica Papaya",
+    "abbrev": "Papaya",
+    "rubric_count": 0
+  },
+  {
+    "id": 863,
+    "name": "Paraffinum",
+    "abbrev": "Paraf.",
+    "rubric_count": 0
+  },
+  {
+    "id": 865,
+    "name": "Parietaria Officinalis",
+    "abbrev": "Pariet.",
+    "rubric_count": 0
+  },
+  {
+    "id": 867,
+    "name": "Passiflora Incarnata",
+    "abbrev": "Passif.",
+    "rubric_count": 0
+  },
+  {
+    "id": 868,
+    "name": "Pastinaca Sativa",
+    "abbrev": "Pastin.",
+    "rubric_count": 0
+  },
+  {
+    "id": 880,
+    "name": "Phaseolus Nanus",
+    "abbrev": "Phaseol.",
+    "rubric_count": 0
+  },
+  {
+    "id": 882,
+    "name": "Phenacetinum",
+    "abbrev": "Phenac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 885,
+    "name": "Phosphorus Hydrogenatus",
+    "abbrev": "Phos-h.",
+    "rubric_count": 0
+  },
+  {
+    "id": 858,
+    "name": "Pambotano",
+    "abbrev": "Pambot.",
+    "rubric_count": 0
+  },
+  {
+    "id": 887,
+    "name": "Physalia Pelagica",
+    "abbrev": "Physala-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 891,
+    "name": "Picrotoxinum",
+    "abbrev": "Picro.",
+    "rubric_count": 0
+  },
+  {
+    "id": 892,
+    "name": "Picrotoxinum acidum",
+    "abbrev": "Picro-ac.",
+    "rubric_count": 0
+  },
+  {
+    "id": 894,
+    "name": "Pilocarpinum Muriaticum",
+    "abbrev": "Piloc-m.",
+    "rubric_count": 0
+  },
+  {
+    "id": 895,
+    "name": "Pimenta Officinalis",
+    "abbrev": "Pime.",
+    "rubric_count": 0
+  },
+  {
+    "id": 896,
+    "name": "Pimpinella Saxifraga",
+    "abbrev": "Pimp.",
+    "rubric_count": 0
+  },
+  {
+    "id": 897,
+    "name": "Pinus Cupressus",
+    "abbrev": "Pin-c.",
+    "rubric_count": 0
+  },
+  {
+    "id": 899,
+    "name": "Pinus Lambertiana",
+    "abbrev": "Pin-l.",
+    "rubric_count": 0
+  },
+  {
+    "id": 901,
+    "name": "Piperazinum",
+    "abbrev": "Piperaz.",
+    "rubric_count": 0
+  },
+  {
+    "id": 904,
+    "name": "Piscidia Erythrina",
+    "abbrev": "Pisc.",
+    "rubric_count": 0
+  },
+  {
+    "id": 907,
+    "name": "Pix Liquida",
+    "abbrev": "Pix.",
+    "rubric_count": 0
+  },
+  {
+    "id": 910,
+    "name": "Platanus",
+    "abbrev": "Platanus",
+    "rubric_count": 0
+  },
+  {
+    "id": 912,
+    "name": "Platinum Muriaticum Natronatum",
+    "abbrev": "Plat-m-n.",
+    "rubric_count": 0
+  },
+  {
+    "id": 914,
+    "name": "Plumbum Aceticum",
+    "abbrev": "Plb-act.",
+    "rubric_count": 0
+  },
+  {
+    "id": 915,
+    "name": "Plumbum Carbonicum",
+    "abbrev": "Plb-c.",
+    "rubric_count": 0
+  },
+  {
+    "id": 916,
+    "name": "Plumbum Chromicum",
+    "abbrev": "Plb-chr.",
+    "rubric_count": 0
+  },
+  {
+    "id": 917,
+    "name": "Plumbum Iodatum",
+    "abbrev": "Plb-i.",
+    "rubric_count": 0
+  },
+  {
+    "id": 918,
+    "name": "Plumbum Phosphoricum",
+    "abbrev": "Plb-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 923,
+    "name": "Pollantin",
+    "abbrev": "Pollantin",
+    "rubric_count": 0
+  },
+  {
+    "id": 925,
+    "name": "Polygonum Aviculare",
+    "abbrev": "Polyg-a.",
+    "rubric_count": 0
+  },
+  {
+    "id": 927,
+    "name": "Polygonum Persica",
+    "abbrev": "Polyg-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 929,
+    "name": "Polymnia Uvedalia",
+    "abbrev": "Polym.",
+    "rubric_count": 0
+  },
+  {
+    "id": 930,
+    "name": "Polyporus Pinicola",
+    "abbrev": "Polyp-p.",
+    "rubric_count": 0
+  },
+  {
+    "id": 932,
+    "name": "Populus Candicans",
+    "abbrev": "Pop-c.",
+    "rubric_count": 0
+  },
+  {
+    "id": 935,
+    "name": "Primula Farinosa",
+    "abbrev": "Prim-f.",
+    "rubric_count": 0
+  },
+  {
+    "id": 937,
+    "name": "Primula Veris",
+    "abbrev": "Prim-v.",
+    "rubric_count": 0
+  },
+  {
+    "id": 941,
+    "name": "Prunus Virginiana",
+    "abbrev": "Prun-v.",
+    "rubric_count": 0
+  },
+  {
+    "id": 944,
+    "name": "Pulmonaria Officinalis",
+    "abbrev": "Pulm.",
+    "rubric_count": 0
+  }
+]

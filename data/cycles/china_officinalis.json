@@ -1,0 +1,145 @@
+{
+  "remedy_name": "China Officinalis",
+  "remedy_abbrev": "Chin.",
+  "sentence": "Driven by head, China Officinalis manifests a dynamic cycle through limb disturbance and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, distension, blood vessels",
+        "Head, heaviness",
+        "Head, pain, nervous",
+        "Head, motions",
+        "Head, pain, extending"
+      ],
+      "generalizations": [
+        "head",
+        "headache",
+        "general",
+        "distension",
+        "blood"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, swelling, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "swelling",
+        "hands",
+        "foot"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, delusions",
+        "Mind, indifference"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "indifference",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, pressure, amel.",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, weakness"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "pressure",
+        "weakness",
+        "fainting"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "spleen",
+        "distension",
+        "inflammation"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, heaviness, eating, after",
+        "Stomach, heaviness, weight, oppression",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, pressing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)"
+      ],
+      "generalizations": [
+        "stomach",
+        "heaviness",
+        "eating",
+        "after",
+        "eructations"
+      ],
+      "next_segment": "Cephalic disturbance"
+    }
+  ]
+}

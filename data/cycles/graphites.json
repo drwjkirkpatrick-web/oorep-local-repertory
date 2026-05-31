@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Graphites",
+  "remedy_abbrev": "Graph.",
+  "sentence": "Driven by limb expression, Graphites manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, cramps",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "paralysis",
+        "foot"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "irritability",
+        "restlessness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, hair",
+        "Head, perspiration",
+        "Head, heat, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "eruption",
+        "crusts",
+        "scabs"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, numbness, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "weakness",
+        "internally",
+        "enervation"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, flatulence",
+        "Abdomen, pain, cramping, griping, hypogastrium",
+        "Abdomen, pain, menses, during",
+        "Abdomen, fullness"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "distension",
+        "aching"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin",
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, excrescences",
+        "Skin, discoloration",
+        "Skin, dry",
+        "Skin, discoloration, red",
+        "Skin, dry, inability to perspire"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "discoloration",
+        "herpetic",
+        "excrescences"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

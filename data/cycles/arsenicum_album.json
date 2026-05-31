@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Arsenicum Album",
+  "remedy_abbrev": "Ars.",
+  "sentence": "Driven by limb expression, Arsenicum Album manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, numbness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "paralysis",
+        "foot"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "nervousness",
+        "mental"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, side, right",
+        "Generalities, weakness, enervation",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "burning",
+        "fainting",
+        "internally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, lies",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, spleen",
+        "Abdomen, distension",
+        "Abdomen, dropsy, ascites",
+        "Abdomen, inflammation",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc."
+      ],
+      "generalizations": [
+        "abdomen",
+        "spleen",
+        "distension",
+        "dropsy",
+        "ascites"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, pressing",
+        "Stomach, pain, sore, bruised, beaten (tenderness)"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "burning",
+        "empty",
+        "eating"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

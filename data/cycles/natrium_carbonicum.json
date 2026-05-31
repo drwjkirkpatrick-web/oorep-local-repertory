@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Natrium Carbonicum",
+  "remedy_abbrev": "Nat-c.",
+  "sentence": "Driven by limb expression, Natrium Carbonicum manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, corns",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, weakness"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "foot",
+        "corns"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "sadness",
+        "irritability",
+        "restlessness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pressure, amel.",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, weakness",
+        "Generalities, eating",
+        "Generalities, pain, cutting",
+        "Generalities, trembling"
+      ],
+      "generalizations": [
+        "generalities",
+        "pressure",
+        "amel",
+        "weakness",
+        "eating"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, perspiration, forehead",
+        "Head, pain, forehead",
+        "Head, perspiration",
+        "Head, pain, mental exertion, from agg."
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "perspiration",
+        "heaviness",
+        "mental"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, heat",
+        "Abdomen",
+        "Abdomen, navicular region",
+        "Abdomen, sides",
+        "Abdomen, sides, of",
+        "Abdomen, heat of body, with, agg.",
+        "Abdomen, spleen"
+      ],
+      "generalizations": [
+        "abdomen",
+        "heat",
+        "sides",
+        "distension",
+        "navicular"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back, dorsal region, back, left, right",
+        "Back, dorsal region, back",
+        "Back, dorsal region",
+        "Back, lumbar region",
+        "Back",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, formication"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "dorsal",
+        "left",
+        "right"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

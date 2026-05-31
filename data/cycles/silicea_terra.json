@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Silicea Terra",
+  "remedy_abbrev": "Sil.",
+  "sentence": "Driven by limb expression, Silicea Terra manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, corns",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "foot",
+        "stiffness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, eruption",
+        "Head, heaviness",
+        "Head, pain, forehead, in",
+        "Head, hair"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "headache",
+        "general",
+        "eruption"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pressure, amel.",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, pressure",
+        "Generalities, weakness",
+        "Generalities, eating, after agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "pressure",
+        "weakness",
+        "amel",
+        "enervation"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, hysteria"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, coldness",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, sacral region",
+        "Back, pain, cervical region",
+        "Back, pain, jarring agg.",
+        "Back, pain, sore, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "cervical",
+        "coldness",
+        "dorsal"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin",
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, excrescences",
+        "Skin, discoloration",
+        "Skin, dry",
+        "Skin, burning",
+        "Skin, dry, inability to perspire"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "herpetic",
+        "excrescences",
+        "discoloration"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

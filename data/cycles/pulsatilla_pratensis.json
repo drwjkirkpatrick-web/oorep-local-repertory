@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Pulsatilla Pratensis",
+  "remedy_abbrev": "Puls.",
+  "sentence": "Driven by limb expression, Pulsatilla Pratensis manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, numbness",
+        "Extremities, numbness, foot"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "numbness",
+        "hands"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, pressure, amel.",
+        "Generalities, side, right",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "burning",
+        "fainting",
+        "internally"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, pain, lies",
+        "Head, heaviness",
+        "Head, pain, forehead, in"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "headache",
+        "general",
+        "congestion"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, coldness",
+        "Back, coldness, extending, down back",
+        "Back, pain",
+        "Back, coldness, extending",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "coldness",
+        "extending",
+        "region",
+        "aching"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, bending double",
+        "Abdomen, pain, cutting",
+        "Abdomen, coldness",
+        "Abdomen, constriction, contraction, etc."
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "aching",
+        "dull",
+        "cramping"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

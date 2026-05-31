@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Rhus Toxicodendron",
+  "remedy_abbrev": "Rhus-t.",
+  "sentence": "Driven by limb expression, Rhus Toxicodendron manifests a dynamic cycle through general state and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, corns",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "coldness",
+        "painless",
+        "stiffness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, lying, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "weakness",
+        "internally",
+        "enervation"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, cervical region",
+        "Back, pain, cervical region, rheumatic",
+        "Back, pain, drawing"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "cervical"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, eruption",
+        "Head, motions",
+        "Head, perspiration",
+        "Head, coldness, chilliness, etc.",
+        "Head, pain, occiput",
+        "Head, pain, rheumatic"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "motions",
+        "perspiration",
+        "coldness"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, confusion"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin",
+        "Skin, eruptions",
+        "Skin, eruptions, herpetic",
+        "Skin, discoloration",
+        "Skin, formication",
+        "Skin, anesthesia",
+        "Skin, burning",
+        "Skin, coldness"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "herpetic",
+        "discoloration",
+        "formication"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

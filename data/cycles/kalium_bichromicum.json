@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Bichromicum",
+  "remedy_abbrev": "Kali-bi.",
+  "sentence": "Driven by limb expression, Kalium Bichromicum manifests a dynamic cycle through head and nose, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, pain",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, rheumatic",
+        "Extremities, pain, rheumatic",
+        "Extremities, pain, sore, bruised",
+        "Extremities, pain, warmth, amel.",
+        "Extremities, pain, warmth"
+      ],
+      "generalizations": [
+        "extremities",
+        "joints",
+        "rheumatic",
+        "warmth",
+        "sore"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, periodic",
+        "Head, pain, periodic, every day",
+        "Head, pain, periodic, every day, at same hour",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc."
+      ],
+      "generalizations": [
+        "head",
+        "periodic",
+        "every",
+        "congestion",
+        "same"
+      ],
+      "next_segment": "Nasal and olfactory state"
+    },
+    {
+      "name": "Nasal and olfactory state",
+      "description": "Coryza, obstruction, sneezing, smell changes.",
+      "symptoms": [
+        "Nose",
+        "Nose, catarrh",
+        "Nose, catarrh, post nasal",
+        "Nose, coryza",
+        "Nose, discharge, thick",
+        "Nose, discharge, yellow",
+        "Nose, dryness, inside",
+        "Nose, obstruction"
+      ],
+      "generalizations": [
+        "nose",
+        "catarrh",
+        "discharge",
+        "post",
+        "nasal"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, numbness",
+        "Back, numbness, lumbar region",
+        "Back, pain, burning",
+        "Back, pain, burning, dorsal region",
+        "Back, pain, burning, dorsal region, scapulae",
+        "Back, pain, burning, dorsal region, scapulae, between"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "burning",
+        "dorsal",
+        "numbness"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, eructations",
+        "Stomach, eructations, empty",
+        "Stomach, heaviness, eating, after",
+        "Stomach, heaviness",
+        "Stomach, heaviness, eating",
+        "Stomach, nausea",
+        "Stomach, vomiting"
+      ],
+      "generalizations": [
+        "stomach",
+        "heaviness",
+        "eructations",
+        "eating",
+        "empty"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, eating, after agg.",
+        "Generalities, morning",
+        "Generalities, eating",
+        "Generalities, pain, pressing"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "eating",
+        "internally",
+        "after"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

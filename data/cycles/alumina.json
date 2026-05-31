@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Alumina",
+  "remedy_abbrev": "Alum.",
+  "sentence": "Driven by limb expression, Alumina manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, paralysis",
+        "Extremities, corns",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, heaviness"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "lower",
+        "limbs",
+        "weakness"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, anxiety",
+        "Mind, contrary",
+        "Mind, fear, evil of",
+        "Mind, mood, alternating"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "irritability",
+        "sadness",
+        "anxiety"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, pressing",
+        "Head, pain, pressing, forehead",
+        "Head, pain, sides, one side",
+        "Head, pain, stitching",
+        "Head, pain, sides",
+        "Head, pain, periodic headache"
+      ],
+      "generalizations": [
+        "head",
+        "pressing",
+        "sides",
+        "forehead",
+        "side"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, pain, pressing",
+        "Generalities, air, open, amel.",
+        "Generalities, cold, tendency to take"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "side",
+        "weakness",
+        "pressing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, dorsal region",
+        "Back, pain, sore, bruised, beaten",
+        "Back, pain, sore, sacral region",
+        "Back, pain, tearing",
+        "Back, pain, tearing, lumbar region",
+        "Back, tension"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "sore",
+        "tearing",
+        "dorsal"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, pain, lead, from",
+        "Abdomen",
+        "Abdomen, morning",
+        "Abdomen, sides, left",
+        "Abdomen, sides",
+        "Abdomen, inguinal region",
+        "Abdomen, inguinal rings, internal"
+      ],
+      "generalizations": [
+        "abdomen",
+        "sides",
+        "inguinal",
+        "lead",
+        "left"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

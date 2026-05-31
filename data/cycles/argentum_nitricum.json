@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Argentum Nitricum",
+  "remedy_abbrev": "Arg-n.",
+  "sentence": "Driven by mind, Argentum Nitricum manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, fear",
+        "Mind, memory, weakness of"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "nervousness",
+        "sluggishness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, paralysis",
+        "Extremities, cramps",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, numbness, foot",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs"
+      ],
+      "generalizations": [
+        "extremities",
+        "lower",
+        "limbs",
+        "numbness",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, nervous",
+        "Head, formication",
+        "Head, pain, sides, one side",
+        "Head, pain, boring",
+        "Head, pain, sides",
+        "Head, enlarged sensation"
+      ],
+      "generalizations": [
+        "head",
+        "sides",
+        "nervous",
+        "formication",
+        "side"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, pain, pressing",
+        "Generalities, trembling, externally",
+        "Generalities, trembling",
+        "Generalities, night"
+      ],
+      "generalizations": [
+        "generalities",
+        "trembling",
+        "side",
+        "weakness",
+        "pressing"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, eructations, empty",
+        "Stomach, pain, eating, after agg.",
+        "Stomach, pain, eating",
+        "Stomach, pain, eating, after",
+        "Stomach, nausea"
+      ],
+      "generalizations": [
+        "stomach",
+        "eating",
+        "eructations",
+        "after",
+        "empty"
+      ],
+      "next_segment": "Visual and ocular strain"
+    },
+    {
+      "name": "Visual and ocular strain",
+      "description": "Eye symptoms, vision changes, periorbital conditions.",
+      "symptoms": [
+        "Eye, pain",
+        "Eye, redness",
+        "Eye, swollen",
+        "Eye, swollen, lids",
+        "Eye, inflammation",
+        "Eye, inflammation, conjunctiva",
+        "Eye, pupils, dilated",
+        "Eye, pupils"
+      ],
+      "generalizations": [
+        "swollen",
+        "inflammation",
+        "pupils",
+        "redness",
+        "lids"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

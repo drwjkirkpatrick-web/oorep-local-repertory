@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Arnica Montana",
+  "remedy_abbrev": "Arn.",
+  "sentence": "Driven by limb expression, Arnica Montana manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, discoloration, hand, blueness",
+        "Extremities, eruption",
+        "Extremities, pain, joints"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "weakness",
+        "discoloration"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, fear",
+        "Mind, unconsciousness",
+        "Mind, delusions",
+        "Mind, fear, approaching him, of others",
+        "Mind, forgetful",
+        "Mind, fear, approaching him"
+      ],
+      "generalizations": [
+        "mind",
+        "fear",
+        "approaching",
+        "irritability",
+        "unconsciousness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, heat, chill, during"
+      ],
+      "generalizations": [
+        "head",
+        "heat",
+        "congestion",
+        "forehead",
+        "hyperemia"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, pain, pressing",
+        "Generalities, irritability, excessive physical",
+        "Generalities, irritability",
+        "Generalities, night"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "irritability",
+        "enervation",
+        "pressing"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, sore, bruised, beaten",
+        "Back, pain, sore, lumbar region",
+        "Back, pain, sore",
+        "Back, pain, lameness",
+        "Back, pain, sprained, as if",
+        "Back, pain, sprained, as if, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "sore",
+        "lumbar",
+        "region",
+        "sprained"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, sore, inguinal region",
+        "Abdomen, pain, sore, inguinal region, walk bent, must",
+        "Abdomen",
+        "Abdomen, pain, bruised, tenderness",
+        "Abdomen, pain, bruised"
+      ],
+      "generalizations": [
+        "abdomen",
+        "bruised",
+        "sore",
+        "tenderness",
+        "inguinal"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

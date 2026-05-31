@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Ammonium Carbonicum",
+  "remedy_abbrev": "Am-c.",
+  "sentence": "Driven by limb expression, Ammonium Carbonicum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, restlessness",
+        "Extremities, coldness, foot, evening",
+        "Extremities, inflammation"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "paralysis",
+        "cramps"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind, stupefaction",
+        "Mind, restlessness, anxious",
+        "Mind, evening",
+        "Mind, fright",
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "stupefaction",
+        "anxious",
+        "fright"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, ulcerative",
+        "Head, pain, pressure, amel.",
+        "Head, pain, pressure",
+        "Head, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "pressure",
+        "ulcerative",
+        "amel"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, weakness",
+        "Generalities, eating",
+        "Generalities, collapse",
+        "Generalities, evening, agg.",
+        "Generalities, lassitude",
+        "Generalities, menses, during agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "eating",
+        "collapse"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cramping, griping, hypogastrium",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, cramping, griping, stool, before",
+        "Abdomen, pain, stool, before",
+        "Abdomen, pain, cramping, griping, stool",
+        "Abdomen, pain, cramping, griping, hypogastrium, menses, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "stool",
+        "hypogastrium"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, lumbar region",
+        "Back, pain, lumbar region, menses, during",
+        "Back, pain, stitching, dorsal region",
+        "Back, pain, stitching, dorsal region, scapulae",
+        "Back, pain, lumbar region, menses",
+        "Back, scapula"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "lumbar",
+        "menses",
+        "stitching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

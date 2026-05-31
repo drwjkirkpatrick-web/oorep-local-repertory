@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Lycopodium Clavatum",
+  "remedy_abbrev": "Lyc.",
+  "sentence": "Driven by limb expression, Lycopodium Clavatum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, coldness, foot",
+        "Extremities, stiffness",
+        "Extremities, swelling"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "hands",
+        "painless"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, eruption",
+        "Head, drawn",
+        "Head, hair",
+        "Head, motions of head (shaking, nodding, waving, etc.)"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "hyperemia",
+        "eruption",
+        "drawn"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, dropsy, ascites",
+        "Abdomen, inflammation",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore"
+      ],
+      "generalizations": [
+        "abdomen",
+        "rumbling",
+        "distension",
+        "dropsy",
+        "ascites"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, pressure",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, eating, after agg.",
+        "Generalities, lying, agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "side",
+        "right",
+        "pressure",
+        "weakness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, heat",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, broken, as if",
+        "Back, pain, burning"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "aching",
+        "dull",
+        "sacral"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

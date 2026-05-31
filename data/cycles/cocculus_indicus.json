@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Cocculus Indicus",
+  "remedy_abbrev": "Cocc.",
+  "sentence": "Driven by limb expression, Cocculus Indicus manifests a dynamic cycle through mind and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, paralysis",
+        "Extremities, paralysis, painless",
+        "Extremities, stiffness",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, numbness, foot",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "paralysis",
+        "numbness",
+        "painless",
+        "stiffness"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, confusion",
+        "Mind, delusions, imaginations, hallucinations, illusions",
+        "Mind, hysteria",
+        "Mind, memory, weakness of",
+        "Mind, stupefaction",
+        "Mind, unconsciousness",
+        "Mind, delusions"
+      ],
+      "generalizations": [
+        "mind",
+        "delusions",
+        "confusion",
+        "imaginations",
+        "hallucinations"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, weakness",
+        "Generalities, lying",
+        "Generalities, pain, pressing",
+        "Generalities, numbness, externally",
+        "Generalities, trembling, externally"
+      ],
+      "generalizations": [
+        "generalities",
+        "externally",
+        "faintness",
+        "weakness",
+        "lying"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, pain, occiput",
+        "Head, pain, pain in neck, with",
+        "Head, pain, pressing"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "headache",
+        "general",
+        "occiput"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, flatulence",
+        "Abdomen, pain, cramping, griping, hypogastrium",
+        "Abdomen, pain, cramping, griping, menses, during"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "distension",
+        "aching"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, weakness, cervical region",
+        "Back, weakness",
+        "Back, pain, lameness",
+        "Back, pain, lameness, lumbar region",
+        "Back, weakness, lumbar region",
+        "Back, paralysis of muscles",
+        "Back, weakness, lumbar region, walking"
+      ],
+      "generalizations": [
+        "back",
+        "weakness",
+        "region",
+        "lumbar",
+        "lameness"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

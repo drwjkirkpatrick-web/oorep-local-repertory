@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Carbo Vegetabilis",
+  "remedy_abbrev": "Carb-v.",
+  "sentence": "Driven by limb expression, Carbo Vegetabilis manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, cramps",
+        "Extremities, heaviness, lower limbs",
+        "Extremities, numbness",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "hands",
+        "foot",
+        "cramps"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, perspiration, forehead",
+        "Head, perspiration, forehead, cold",
+        "Head, hair"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "perspiration",
+        "forehead",
+        "hyperemia"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, morning",
+        "Generalities, eating",
+        "Generalities, pain, pressing",
+        "Generalities, irritability"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "burning",
+        "eating",
+        "pressing"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, anxiety"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "indifference",
+        "irritability",
+        "sluggishness"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, flatulence",
+        "Abdomen, flatulence, hypochondria"
+      ],
+      "generalizations": [
+        "abdomen",
+        "flatulence",
+        "rumbling",
+        "distension",
+        "burning"
+      ],
+      "next_segment": "Gastric center"
+    },
+    {
+      "name": "Gastric center",
+      "description": "Nausea, appetite, thirst, vomiting, stomach pain.",
+      "symptoms": [
+        "Stomach",
+        "Stomach, eructations",
+        "Stomach, pain",
+        "Stomach, pain, burning",
+        "Stomach, eructations, empty",
+        "Stomach, pain, sore, bruised, beaten (tenderness)",
+        "Stomach, pain, sore",
+        "Stomach, nausea"
+      ],
+      "generalizations": [
+        "stomach",
+        "eructations",
+        "sore",
+        "burning",
+        "empty"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

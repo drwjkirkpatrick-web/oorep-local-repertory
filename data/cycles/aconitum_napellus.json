@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Aconitum Napellus",
+  "remedy_abbrev": "Acon.",
+  "sentence": "Driven by mind, Aconitum Napellus manifests a dynamic cycle through limb disturbance and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, delirium",
+        "Mind, fear"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, numbness, leg",
+        "Extremities, pain",
+        "Extremities, tingling, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "paralysis",
+        "foot"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, forehead, in",
+        "Head, pain, forehead",
+        "Head, boiling sensation",
+        "Head, cerebral hemorrhage",
+        "Head, fullness"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "heat",
+        "boiling",
+        "cerebral"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, pain, burning, internally",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, pain, pressing, load, as from",
+        "Generalities, lying"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "burning",
+        "fainting",
+        "internally"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, inflammation",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting",
+        "Abdomen, distension, painful"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "inflammation",
+        "burning",
+        "bruised"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, formication",
+        "Back, formication, spine",
+        "Back, numbness",
+        "Back, numbness, lumbar region",
+        "Back, pain, stitching, lumbar region",
+        "Back, pain, tearing"
+      ],
+      "generalizations": [
+        "back",
+        "formication",
+        "numbness",
+        "lumbar",
+        "region"
+      ],
+      "next_segment": "Mental fear"
+    }
+  ]
+}

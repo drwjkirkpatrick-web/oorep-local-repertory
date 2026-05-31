@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Magnesium Carbonicum",
+  "remedy_abbrev": "Mag-c.",
+  "sentence": "Driven by limb expression, Magnesium Carbonicum manifests a dynamic cycle through head and abdomen, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, pain",
+        "Extremities, heaviness",
+        "Extremities, heaviness, foot",
+        "Extremities, pain, joints",
+        "Extremities, pain, joints, gouty",
+        "Extremities, heaviness, foot, sitting, while",
+        "Extremities, heaviness, foot, walking"
+      ],
+      "generalizations": [
+        "extremities",
+        "heaviness",
+        "foot",
+        "joints",
+        "gouty"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, drawn backward",
+        "Head, eruption",
+        "Head, heaviness"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "hyperemia",
+        "drawn"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, flatulence",
+        "Abdomen, pain, stool",
+        "Abdomen, pain, cramping, griping, stool, before"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "stool",
+        "rumbling"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, night",
+        "Generalities, air, open, amel.",
+        "Generalities, evening, agg.",
+        "Generalities, menses, during agg.",
+        "Generalities, air",
+        "Generalities, air, open",
+        "Generalities, evening"
+      ],
+      "generalizations": [
+        "generalities",
+        "open",
+        "amel",
+        "menses",
+        "during"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, anxiety",
+        "Mind, irritability, children, in",
+        "Mind, anxiety, warm bed yet limbs cold if uncovered",
+        "Mind, night",
+        "Mind, irritability, children",
+        "Mind, restlessness"
+      ],
+      "generalizations": [
+        "mind",
+        "irritability",
+        "anxiety",
+        "children",
+        "warm"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, stiffness",
+        "Back, stiffness, cervical region",
+        "Back, lumbar region",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, lumbar region",
+        "Back, pain, broken, as if"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "stiffness",
+        "lumbar",
+        "aching"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

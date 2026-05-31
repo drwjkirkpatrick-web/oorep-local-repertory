@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Causticum",
+  "remedy_abbrev": "Caust.",
+  "sentence": "Driven by limb expression, Causticum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, motion",
+        "Extremities, stiffness",
+        "Extremities, swelling",
+        "Extremities, cramps"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "paralysis",
+        "foot",
+        "motion"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, night",
+        "Mind, restlessness",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, hysteria"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "sadness",
+        "irritability",
+        "mental"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, constriction, tension",
+        "Head, empty, hollow sensation",
+        "Head, pain, occiput",
+        "Head, pain, stitching"
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "crusts",
+        "scabs",
+        "constriction"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, faintness, fainting",
+        "Generalities, faintness",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, eating, after agg.",
+        "Generalities, eating",
+        "Generalities, pain, pressing"
+      ],
+      "generalizations": [
+        "generalities",
+        "faintness",
+        "eating",
+        "fainting",
+        "burning"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, cervical region",
+        "Back, pain, drawing",
+        "Back, pain, drawing, sacral region",
+        "Back, pain, lumbar region",
+        "Back, pain, menses, during",
+        "Back, pain, pressing"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "drawing",
+        "cervical",
+        "sacral"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, rumbling",
+        "Abdomen, distension",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, distension, painful",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, hypochondria",
+        "Abdomen, pain, stitching, hypochondria, right"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "distension",
+        "hypochondria",
+        "rumbling"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Thuja Occidentalis",
+  "remedy_abbrev": "Thuj.",
+  "sentence": "Driven by limb expression, Thuja Occidentalis manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, foot",
+        "Extremities, swelling",
+        "Extremities, pain",
+        "Extremities, coldness, fingers",
+        "Extremities, drawing up limbs, amel.",
+        "Extremities, eruption"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "foot",
+        "swelling",
+        "fingers"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, forehead, left side",
+        "Head, pain, nervous",
+        "Head, hair",
+        "Head, pain, extending",
+        "Head, pain, forehead",
+        "Head, pain, forehead, left"
+      ],
+      "generalizations": [
+        "head",
+        "forehead",
+        "left",
+        "side",
+        "nervous"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, mistakes",
+        "Mind, loathing",
+        "Mind, loathing, life",
+        "Mind, mistakes, writing, in"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "mistakes",
+        "loathing",
+        "irritability"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, drawing",
+        "Back, pain, drawing, cervical region",
+        "Back, pain, sore, lumbar region",
+        "Back, pain, sore",
+        "Back, pain, stitching",
+        "Back, pain, sore, lumbar region, stepping"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "sore",
+        "drawing",
+        "lumbar"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain",
+        "Generalities, heat, flushes of",
+        "Generalities, night",
+        "Generalities, heat",
+        "Generalities, afternoon, agg.",
+        "Generalities, distension blood vessels",
+        "Generalities, night, midnight, after agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "heat",
+        "flushes",
+        "afternoon",
+        "distension"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain",
+        "Abdomen, pain, stool",
+        "Abdomen, movements, in",
+        "Abdomen, movements",
+        "Abdomen, pain, stool, diarrhea, during",
+        "Abdomen, pain, iliac region",
+        "Abdomen, inflammation, typhlitis"
+      ],
+      "generalizations": [
+        "abdomen",
+        "inflammation",
+        "stool",
+        "movements",
+        "diarrhea"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

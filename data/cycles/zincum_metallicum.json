@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Zincum Metallicum",
+  "remedy_abbrev": "Zinc.",
+  "sentence": "Driven by limb expression, Zincum Metallicum manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, restlessness",
+        "Extremities, weakness",
+        "Extremities, weakness, lower limbs",
+        "Extremities, chilliness",
+        "Extremities, eruption"
+      ],
+      "generalizations": [
+        "extremities",
+        "weakness",
+        "numbness",
+        "restlessness",
+        "lower"
+      ],
+      "next_segment": "Mental sadness"
+    },
+    {
+      "name": "Mental sadness",
+      "description": "The remedy's dominant mental pattern: sadness. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, sadness, mental depression",
+        "Mind, dullness",
+        "Mind, sadness"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "sadness",
+        "irritability"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, nervous",
+        "Head, inflammation, of meninges",
+        "Head, pain, air, open, amel.",
+        "Head, pain, sides, one side",
+        "Head, pain, tearing, temples",
+        "Head, inflammation"
+      ],
+      "generalizations": [
+        "head",
+        "inflammation",
+        "nervous",
+        "meninges",
+        "open"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, aching, dull pain, cervical region",
+        "Back, pain, burning",
+        "Back, pain, burning, spine",
+        "Back, pain, spine",
+        "Back, weakness, cervical region"
+      ],
+      "generalizations": [
+        "back",
+        "aching",
+        "dull",
+        "cervical",
+        "region"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, eating, after agg.",
+        "Generalities, pain, cutting, internally",
+        "Generalities, eating",
+        "Generalities, pain, cutting"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "internally",
+        "eating",
+        "cutting"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, cutting",
+        "Abdomen, pain, pressing",
+        "Abdomen, pain, pressing, hypochondria",
+        "Abdomen, pain, cramping, griping, breakfast, after",
+        "Abdomen, pain, cramping, griping, dinner, after",
+        "Abdomen, pain, cramping, griping, dinner"
+      ],
+      "generalizations": [
+        "abdomen",
+        "cramping",
+        "griping",
+        "pressing",
+        "after"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

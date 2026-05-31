@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Belladonna",
+  "remedy_abbrev": "Bell.",
+  "sentence": "Driven by mind, Belladonna manifests a dynamic cycle through head and limb symptoms, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Mental mania",
+      "description": "The remedy's dominant mental pattern: mania. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness, nervousness",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, confusion",
+        "Mind, delirium"
+      ],
+      "generalizations": [
+        "mind",
+        "restlessness",
+        "dullness",
+        "irritability",
+        "nervousness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, pain, forehead, in",
+        "Head, pain, shooting"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Limb expression"
+    },
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, coldness, foot",
+        "Extremities, convulsion",
+        "Extremities, motion",
+        "Extremities, motion, convulsive"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "motion",
+        "hands",
+        "paralysis"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, side, right",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, pain, cutting, internally",
+        "Generalities, pain, pressing, load, as from"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "internally",
+        "side",
+        "right"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, inflammation",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain, bruised, tenderness, etc.",
+        "Abdomen, pain",
+        "Abdomen, pain, sore",
+        "Abdomen, pain, cutting",
+        "Abdomen, hernia, inguinal",
+        "Abdomen, hernia, inguinal, strangulated"
+      ],
+      "generalizations": [
+        "abdomen",
+        "hernia",
+        "inguinal",
+        "inflammation",
+        "cramping"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, opisthotonos",
+        "Back, inflammation, membranes, spinal meningitis",
+        "Back, pain, aching, dull pain",
+        "Back, pain, broken, as if",
+        "Back, pain, cervical region",
+        "Back, pain, coughing, when"
+      ],
+      "generalizations": [
+        "back",
+        "opisthotonos",
+        "inflammation",
+        "membranes",
+        "spinal"
+      ],
+      "next_segment": "Mental mania"
+    }
+  ]
+}

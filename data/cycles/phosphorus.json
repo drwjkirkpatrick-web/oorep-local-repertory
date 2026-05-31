@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Phosphorus",
+  "remedy_abbrev": "Phos.",
+  "sentence": "Driven by limb expression, Phosphorus manifests a dynamic cycle through mind and head, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, paralysis",
+        "Extremities, shrivelled (shrunken)",
+        "Extremities, shrivelled (shrunken), hand",
+        "Extremities, coldness, foot",
+        "Extremities, heaviness, hand"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "shrivelled",
+        "shrunken",
+        "hand"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, delirium",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, memory, weakness of"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "irritability",
+        "sluggishness",
+        "difficulty"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, heat",
+        "Head, pain",
+        "Head, pain, headache in general",
+        "Head, congestion",
+        "Head, congestion, hyperemia, etc.",
+        "Head, heaviness",
+        "Head, pain, forehead, in"
+      ],
+      "generalizations": [
+        "head",
+        "congestion",
+        "heat",
+        "headache",
+        "general"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, eating, after agg."
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "weakness",
+        "internally",
+        "enervation"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, formication",
+        "Back, heat",
+        "Back, heat, flushes",
+        "Back, inflammation, cord",
+        "Back, pain, broken, as if",
+        "Back, pain, burning"
+      ],
+      "generalizations": [
+        "back",
+        "heat",
+        "formication",
+        "flushes",
+        "inflammation"
+      ],
+      "next_segment": "Thoracic condition"
+    },
+    {
+      "name": "Thoracic condition",
+      "description": "Heart, lungs, oppression, palpitation, pain.",
+      "symptoms": [
+        "Chest",
+        "Chest, oppression",
+        "Chest, angina pectoris",
+        "Chest, inflammation, bronchial tubes (bronchitis)",
+        "Chest, pain",
+        "Chest, pain, burning",
+        "Chest, phthisis pulmonalis",
+        "Chest, phthisis pulmonalis, incipient"
+      ],
+      "generalizations": [
+        "chest",
+        "phthisis",
+        "pulmonalis",
+        "oppression",
+        "angina"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

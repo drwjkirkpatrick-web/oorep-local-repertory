@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Kalium Carbonicum",
+  "remedy_abbrev": "Kali-c.",
+  "sentence": "Driven by limb expression, Kalium Carbonicum manifests a dynamic cycle through head and back, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, coldness, foot",
+        "Extremities, numbness",
+        "Extremities, numbness, foot",
+        "Extremities, numbness, lower limbs",
+        "Extremities, pain"
+      ],
+      "generalizations": [
+        "extremities",
+        "coldness",
+        "numbness",
+        "foot",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, shooting",
+        "Head, pain, shooting, temples",
+        "Head, hair",
+        "Head, pain, forehead",
+        "Head, pain, drawing",
+        "Head, pain, drawing, forehead"
+      ],
+      "generalizations": [
+        "head",
+        "shooting",
+        "forehead",
+        "drawing",
+        "temples"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, aching, dull pain",
+        "Back, pain, drawing",
+        "Back, pain, drawing, sacral region",
+        "Back, pain, labor-like",
+        "Back, pain, labor-like, small of back",
+        "Back, pain, lumbar region"
+      ],
+      "generalizations": [
+        "back",
+        "drawing",
+        "region",
+        "labor",
+        "like"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, irritability",
+        "Mind, restlessness",
+        "Mind, dullness, sluggishness, difficulty of thinking and comprehending",
+        "Mind, dullness",
+        "Mind, fear",
+        "Mind, stupefaction",
+        "Mind, anxiety"
+      ],
+      "generalizations": [
+        "mind",
+        "dullness",
+        "irritability",
+        "restlessness",
+        "sluggishness"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness, enervation",
+        "Generalities, pain",
+        "Generalities, side",
+        "Generalities, weakness",
+        "Generalities, eating, after agg.",
+        "Generalities, lying, agg.",
+        "Generalities, pain, cutting, internally"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "enervation",
+        "side",
+        "eating"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, distension",
+        "Abdomen, pain, aching, dull pain",
+        "Abdomen, pain, burning",
+        "Abdomen, pain, cramping, griping",
+        "Abdomen, pain",
+        "Abdomen, pain, bending double",
+        "Abdomen, pain, cutting",
+        "Abdomen, heat"
+      ],
+      "generalizations": [
+        "abdomen",
+        "distension",
+        "aching",
+        "dull",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Carbo Animalis",
+  "remedy_abbrev": "Carb-an.",
+  "sentence": "Driven by limb expression, Carbo Animalis manifests a dynamic cycle through head and mind, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, corns",
+        "Extremities, numbness",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, numbness, hand",
+        "Extremities, pain, drawing",
+        "Extremities, pain, drawing, leg"
+      ],
+      "generalizations": [
+        "extremities",
+        "numbness",
+        "drawing",
+        "corns",
+        "weakness"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, pain, vertex",
+        "Head, pain, pressing",
+        "Head, pain, pressing, vertex",
+        "Head, pain, bursting",
+        "Head, pain, torn, as if",
+        "Head, pain, bursting, vertex"
+      ],
+      "generalizations": [
+        "head",
+        "vertex",
+        "pressing",
+        "bursting",
+        "torn"
+      ],
+      "next_segment": "Mental fear"
+    },
+    {
+      "name": "Mental fear",
+      "description": "The remedy's dominant mental pattern: fear. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, company aversion to",
+        "Mind, talking, indisposed to, desire to be silent, taciturn",
+        "Mind, talking, indisposed to",
+        "Mind, meditation",
+        "Mind, homesickness"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "talking",
+        "indisposed",
+        "mental"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, weakness",
+        "Generalities, morning",
+        "Generalities, eating",
+        "Generalities, lying",
+        "Generalities, numbness",
+        "Generalities, night",
+        "Generalities, heat"
+      ],
+      "generalizations": [
+        "generalities",
+        "weakness",
+        "eating",
+        "lying",
+        "numbness"
+      ],
+      "next_segment": "Spinal and dorsal strain"
+    },
+    {
+      "name": "Spinal and dorsal strain",
+      "description": "Back pain, curvature, coccyx, weakness.",
+      "symptoms": [
+        "Back",
+        "Back, pain",
+        "Back, pain, sacral region",
+        "Back, pain, burning, dorsal region",
+        "Back, pain, pressing",
+        "Back, pain, pressing, sacral region",
+        "Back, tension",
+        "Back, pain, sacral region, stool"
+      ],
+      "generalizations": [
+        "back",
+        "region",
+        "sacral",
+        "pressing",
+        "burning"
+      ],
+      "next_segment": "Abdominal state"
+    },
+    {
+      "name": "Abdominal state",
+      "description": "Pain, bloating, liver, flatulence, hernia.",
+      "symptoms": [
+        "Abdomen, pain",
+        "Abdomen, flatulence",
+        "Abdomen, pain, stitching",
+        "Abdomen, pain, stitching, inguinal region",
+        "Abdomen, weakness, sensation of",
+        "Abdomen",
+        "Abdomen, weakness",
+        "Abdomen, sides"
+      ],
+      "generalizations": [
+        "abdomen",
+        "stitching",
+        "weakness",
+        "flatulence",
+        "inguinal"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}

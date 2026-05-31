@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Mezereum",
+  "remedy_abbrev": "Mez.",
+  "sentence": "Driven by limb expression, Mezereum manifests a dynamic cycle through head and general condition, looping back to its constitutional core.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": null,
+  "references": [
+    "OOREP auto-derived cycle. Segments generated from repertory rubric analysis.",
+    "NOT verified against Herscu published cycles. Intended as working scaffold."
+  ],
+  "segments": [
+    {
+      "name": "Limb expression",
+      "description": "Pain, paralysis, cramps, varices, nails.",
+      "symptoms": [
+        "Extremities",
+        "Extremities, coldness",
+        "Extremities, coldness, hands",
+        "Extremities, pain",
+        "Extremities, weakness",
+        "Extremities, eruption",
+        "Extremities, eruption, hand",
+        "Extremities, eruption, hand, back of"
+      ],
+      "generalizations": [
+        "extremities",
+        "eruption",
+        "coldness",
+        "hand",
+        "hands"
+      ],
+      "next_segment": "Cephalic disturbance"
+    },
+    {
+      "name": "Cephalic disturbance",
+      "description": "Symptoms localized to the head — pain, confusion, pressure, heat.",
+      "symptoms": [
+        "Head",
+        "Head, pain",
+        "Head, eruption",
+        "Head, eruption, crusts, scabs",
+        "Head, hair",
+        "Head, itching of scalp",
+        "Head, pain, burning",
+        "Head, pain, evening agg."
+      ],
+      "generalizations": [
+        "head",
+        "eruption",
+        "crusts",
+        "scabs",
+        "hair"
+      ],
+      "next_segment": "Constitutional vulnerability"
+    },
+    {
+      "name": "Constitutional vulnerability",
+      "description": "General sensations, food modalities, concomitants.",
+      "symptoms": [
+        "Generalities",
+        "Generalities, pain, burning, internally",
+        "Generalities, pain",
+        "Generalities, pain, burning",
+        "Generalities, side",
+        "Generalities, evening, agg.",
+        "Generalities, jerking, muscles",
+        "Generalities, pain, stitching, muscles"
+      ],
+      "generalizations": [
+        "generalities",
+        "burning",
+        "muscles",
+        "internally",
+        "side"
+      ],
+      "next_segment": "Mental confusion"
+    },
+    {
+      "name": "Mental confusion",
+      "description": "The remedy's dominant mental pattern: confusion. The mental-emotional kernel of the remedy — its characteristic consciousness pattern.",
+      "symptoms": [
+        "Mind",
+        "Mind, sadness, mental depression",
+        "Mind, sadness",
+        "Mind, fear",
+        "Mind, indifference, apathy, etc.",
+        "Mind, indifference",
+        "Mind, anxiety",
+        "Mind, absent-minded"
+      ],
+      "generalizations": [
+        "mind",
+        "sadness",
+        "indifference",
+        "mental",
+        "depression"
+      ],
+      "next_segment": "Facial expression and symptoms"
+    },
+    {
+      "name": "Facial expression and symptoms",
+      "description": "Facial color, eruptions, neuralgia, appearance.",
+      "symptoms": [
+        "Face",
+        "Face, discoloration",
+        "Face, discoloration, red",
+        "Face, eruptions",
+        "Face, eruptions, itching",
+        "Face, eruptions, crusty, scabby",
+        "Face, eruptions, moist",
+        "Face, eruptions, crusty"
+      ],
+      "generalizations": [
+        "face",
+        "eruptions",
+        "discoloration",
+        "crusty",
+        "itching"
+      ],
+      "next_segment": "Cutaneous manifestation"
+    },
+    {
+      "name": "Cutaneous manifestation",
+      "description": "Eruptions, itching, discoloration, ulcers.",
+      "symptoms": [
+        "Skin",
+        "Skin, eruptions",
+        "Skin, eruptions, desquamating",
+        "Skin, eruptions, herpetic",
+        "Skin, burning",
+        "Skin, eruptions, itching",
+        "Skin, eruptions, rash",
+        "Skin, eruptions, urticaria"
+      ],
+      "generalizations": [
+        "skin",
+        "eruptions",
+        "desquamating",
+        "herpetic",
+        "burning"
+      ],
+      "next_segment": "Limb expression"
+    }
+  ]
+}
