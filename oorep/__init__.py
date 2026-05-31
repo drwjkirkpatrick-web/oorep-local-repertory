@@ -40,6 +40,12 @@ from .grand_rounds import GrandRounds
 from .rubric_gap_analyzer import RubricGapAnalyzer
 from .remedy_freshness_tracker import RemedyFreshnessTracker
 from .subagent_orchestrator import SubagentOrchestrator
+from .materia_medica import MateriaMedica
+from .kingdom_taxonomy import KingdomTaxonomy
+from .botanical_bridge import BotanicalBridge
+from .genomic_hypothesis import GenomicHypothesis
+from .flashcard_srs import FlashcardSRS
+from .cron_tasks import CronTasks
 
 __all__ = [
     "HomeopathicRepertory",
@@ -80,4 +86,10 @@ __all__ = [
     "RubricGapAnalyzer",
     "RemedyFreshnessTracker",
     "SubagentOrchestrator",
+    "MateriaMedica",
+    "KingdomTaxonomy",
+    "BotanicalBridge",
+    "GenomicHypothesis",
+    "FlashcardSRS",
+    "CronTasks",
 ]

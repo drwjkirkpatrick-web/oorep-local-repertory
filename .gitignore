@@ -58,3 +58,5 @@ htmlcov/
 # Hermes-specific (if used as a skill)
 repertory.db
 *.session
+*.tar.gz
+backups/
