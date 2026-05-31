@@ -1,0 +1,154 @@
+{
+  "remedy_name": "Kali Carbonicum",
+  "remedy_abbrev": "Kali-c.",
+  "sentence": "Driven by an underlying sense of weakness and insecurity, Kali Carbonicum is engaged in a continuous effort to maintain structure and order, oscillating between rigid control, anxiety about survival, and physical collapse.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": 3,
+  "references": [
+    "Herscu, P. ND, DHANP. 'The Cycle of Kali Carbonicum.' New England Journal of Homeopathy, Vol 5 #2.",
+    "Herscu, P. & Rothenberg, A. NESH curriculum materials."
+  ],
+  "segments": [
+    {
+      "name": "Weakness and insecurity",
+      "description": "Fundamental sense of being unable to sustain oneself. Weakness, especially in back and legs. Feels everything gives way. Need for support.",
+      "symptoms": [
+        "weakness",
+        "back weakness",
+        "leg weakness",
+        "weariness",
+        "tiredness",
+        "needs support",
+        "cannot stand",
+        "sinking sensation",
+        "debility"
+      ],
+      "generalizations": [
+        "weakness",
+        "debility",
+        "weariness",
+        "exhaustion",
+        "instability"
+      ],
+      "next_segment": "Desire for order and structure"
+    },
+    {
+      "name": "Desire for order and structure",
+      "description": "Compulsive need for routine, predictability, everything in its place. Fastidious, methodical, rigid. Anxiety if order is disrupted. Must plan ahead.",
+      "symptoms": [
+        "desire for order",
+        "fastidious",
+        "methodical",
+        "rigid thinking",
+        "anxiety about future",
+        "must plan",
+        "fear of change",
+        "conservative",
+        "wants routine"
+      ],
+      "generalizations": [
+        "order",
+        "structure",
+        "routine",
+        "fastidious",
+        "rigidity",
+        "control"
+      ],
+      "next_segment": "Fear of poverty and ruin"
+    },
+    {
+      "name": "Fear of poverty and ruin",
+      "description": "Anxiety about financial security, about being unable to provide. Fear of loss, of becoming destitute. Worries about business, about the future.",
+      "symptoms": [
+        "fear of poverty",
+        "anxiety about money",
+        "fear of ruin",
+        "fear of loss",
+        "worry about future",
+        "anxiety about business",
+        "fear of being alone",
+        "fear of failure"
+      ],
+      "generalizations": [
+        "fear",
+        "anxiety",
+        "poverty fear",
+        "ruin",
+        "insecurity",
+        "loss"
+      ],
+      "next_segment": "Irritability and anger at disorder"
+    },
+    {
+      "name": "Irritability and anger at disorder",
+      "description": "When structure is threatened, becomes irritable, angry, domineering. Dictatorial, quarrelsome. Everything and everyone is wrong. Critical.",
+      "symptoms": [
+        "irritability",
+        "anger",
+        "quarrelsome",
+        "dictatorial",
+        "critical",
+        "domineering",
+        "everything is wrong",
+        "intolerance",
+        "morose"
+      ],
+      "generalizations": [
+        "irritability",
+        "anger",
+        "domineering",
+        "critical",
+        "quarrelsome",
+        "intolerant"
+      ],
+      "next_segment": "Physical collapse and edema"
+    },
+    {
+      "name": "Physical collapse and edema",
+      "description": "The rigid control breaks down into physical pathology: edema, dropsy, ascites. Swelling, fluid retention. Heart and kidney weakness. Must lie flat. Worse cold, worse motion.",
+      "symptoms": [
+        "edema",
+        "dropsy",
+        "ascites",
+        "swelling",
+        "fluid retention",
+        "heart weakness",
+        "kidney weakness",
+        "must lie flat",
+        "dyspnea",
+        "asthma"
+      ],
+      "generalizations": [
+        "edema",
+        "dropsy",
+        "swelling",
+        "fluid retention",
+        "collapse",
+        "heart weakness"
+      ],
+      "next_segment": "Desire for warmth and support"
+    },
+    {
+      "name": "Desire for warmth and support",
+      "description": "In the collapsed state, desperate need for warmth, company, reassurance. Wants to be covered, cannot tolerate cold. Clings to loved ones. Anxiety worse alone, worse at night.",
+      "symptoms": [
+        "desire for warmth",
+        "desire for company",
+        "cannot be alone",
+        "anxiety worse alone",
+        "worse at night",
+        "desire to be covered",
+        "cold intolerance",
+        "clinging"
+      ],
+      "generalizations": [
+        "warmth",
+        "company",
+        "clinginess",
+        "cold intolerance",
+        "support seeking"
+      ],
+      "next_segment": "Weakness and insecurity"
+    }
+  ]
+}

@@ -35,6 +35,7 @@ env/
 
 # Data (extracted OOREP files — user generates these from upstream SQL)
 data/
+!data/cycles/
 *.db
 *.sqlite
 *.sqlite3

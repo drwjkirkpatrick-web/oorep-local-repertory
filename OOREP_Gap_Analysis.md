@@ -254,9 +254,9 @@ All 59 benefits have been implemented. The project is at **100% coverage**.
 
 | Module | Benefit | Status |
 |--------|---------|--------|
-| `CyclesAndSegmentsEngine` | #59 | ✅ Complete — Stramonium prototype built, case matching, generalization, hierarchy |
+| `CyclesAndSegmentsEngine` | #59 | ✅ Complete — 7 built-in cycles (Stramonium, Vipera, Kali-c., Conium, Anacardium, Bothrops, Carcinosin), case matching, generalization, hierarchy, JSON builder |
 
-**Final module count**: 39 Python modules | **Tests**: 251 passing | **Coverage**: 59/59 (100%)
+**Final module count**: 39 Python modules | **Tests**: 266 passing | **Coverage**: 59/59 (100%)
 
 ---
 
@@ -264,9 +264,12 @@ All 59 benefits have been implemented. The project is at **100% coverage**.
 
 - Herscu, P. (1996). *Stramonium: With an Introduction to Analysis Using Cycles and Segments.* New England School of Homeopathy Press. ISBN 978-0965400404.
 - Herscu, P. & Rothenberg, A. "Cycles & Segments Approach." NESH curriculum. https://nesh.com/what-is-dr-paul-herscus-cycles-segments-approach/
-- Herscu, P. "The Cycle of Vipera." *New England Journal of Homeopathy*.
-- Herscu, P. "The Cycle of Kali carbonicum." *New England Journal of Homeopathy*.
-- Herscu, P. & Ryan, C. "The Cycle of Conium maculatum." *New England Journal of Homeopathy*.
+- Herscu, P. "The Cycle of Vipera." *New England Journal of Homeopathy*, Vol 7 #1.
+- Herscu, P. "The Cycle of Kali carbonicum." *New England Journal of Homeopathy*, Vol 5 #2.
+- Herscu, P. & Ryan, C. "The Cycle of Conium maculatum." *New England Journal of Homeopathy*, vol 6 #1.
+- Herscu, P. "Anacardium Fundamental Segments: The Mental Sphere." *New England Journal of Homeopathy*, Vol 5 #3.
+- Herscu, P. "Bothrops lanceolatus." *New England Journal of Homeopathy*, Vol 8 #2.
+- Gruber, F. MD. "The Cycle of Carcinosin." *New England Journal of Homeopathy*, Vol 5 #4.
 - Krüger, E. (Host). (2023). Ep 203: Cycles and Segments — with Paul Herscu [Audio podcast episode]. *Homeopathy Hangout*. https://homeopathyhangout.com/e/ep-203-cycles-and-segments-with-paul-herscu/
 
 *Attribution: The `CyclesAndSegmentsEngine` is an independent software encoding of Dr. Paul Herscu's published clinical method. All cycle descriptions, segment names, and one-sentence remedy essences are derived from the sources above.*

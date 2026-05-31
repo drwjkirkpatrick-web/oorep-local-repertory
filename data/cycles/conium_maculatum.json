@@ -1,0 +1,128 @@
+{
+  "remedy_name": "Conium Maculatum",
+  "remedy_abbrev": "Con.",
+  "sentence": "Driven by a progressive hardening and rigidity, Conium Maculatum is engaged in a slow descent from sexual vitality into physical and mental paralysis, moving through desire, suppression, indifference, and complete shutdown.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": 4,
+  "references": [
+    "Herscu, P. ND, DHANP & Ryan, C. MD. 'The Cycle of Conium maculatum.' New England Journal of Homeopathy, vol 6 #1.",
+    "Herscu, P. & Rothenberg, A. NESH curriculum materials."
+  ],
+  "segments": [
+    {
+      "name": "Sexual vitality and desire",
+      "description": "Heightened sexual desire, increased appetite for stimulation. Excessive libido, erotic thoughts. Nervous excitement.",
+      "symptoms": [
+        "increased sexual desire",
+        "libido increased",
+        "erotic thoughts",
+        "sexual excitement",
+        "nervous excitement",
+        "desire for stimulation"
+      ],
+      "generalizations": [
+        "sexual desire",
+        "vitality",
+        "excitement",
+        "stimulation",
+        "libido"
+      ],
+      "next_segment": "Suppression and control"
+    },
+    {
+      "name": "Suppression and control",
+      "description": "Attempt to control and suppress the sexual energy. Mind over body. Moral rigidity, shame, ascetic tendencies. Conflicts between desire and duty.",
+      "symptoms": [
+        "suppression of desire",
+        "moral rigidity",
+        "shame",
+        "asceticism",
+        "mind over body",
+        "self-control",
+        "duty bound",
+        "conflicted"
+      ],
+      "generalizations": [
+        "suppression",
+        "control",
+        "rigidity",
+        "shame",
+        "asceticism",
+        "morality"
+      ],
+      "next_segment": "Indifference and apathy"
+    },
+    {
+      "name": "Indifference and apathy",
+      "description": "Loss of sexual interest, general indifference. Apathy toward life, toward loved ones. Emotional flatness. No joy in anything.",
+      "symptoms": [
+        "loss of libido",
+        "indifference",
+        "apathy",
+        "no joy",
+        "emotional flatness",
+        "indifferent to loved ones",
+        "loss of interest",
+        "aversion to company"
+      ],
+      "generalizations": [
+        "indifference",
+        "apathy",
+        "loss of interest",
+        "flatness",
+        "detachment"
+      ],
+      "next_segment": "Physical rigidity and paralysis"
+    },
+    {
+      "name": "Physical rigidity and paralysis",
+      "description": "Progressive hardening and stiffness. Muscles rigid, joints stiff. Trembling, weakness, gradual paralysis. Worse touch, worse exertion. Tumors, induration, glandular enlargement.",
+      "symptoms": [
+        "rigidity",
+        "stiffness",
+        "muscle hardness",
+        "trembling",
+        "paralysis",
+        "joint stiffness",
+        "induration",
+        "glandular enlargement",
+        "tumors",
+        "worse touch",
+        "worse exertion"
+      ],
+      "generalizations": [
+        "rigidity",
+        "paralysis",
+        "stiffness",
+        "hardening",
+        "induration",
+        "tumor"
+      ],
+      "next_segment": "Mental dullness and confusion"
+    },
+    {
+      "name": "Mental dullness and confusion",
+      "description": "Mental faculties decline: confusion, forgetfulness, difficulty concentrating. Depression, weeping without cause. Aversion to mental work. Memory fails. Dullness of mind.",
+      "symptoms": [
+        "confusion",
+        "forgetfulness",
+        "difficulty concentrating",
+        "depression",
+        "weeping",
+        "aversion to mental work",
+        "memory weakness",
+        "dullness",
+        "mental fog"
+      ],
+      "generalizations": [
+        "confusion",
+        "dullness",
+        "forgetfulness",
+        "depression",
+        "mental decline",
+        "weeping"
+      ],
+      "next_segment": "Sexual vitality and desire"
+    }
+  ]
+}

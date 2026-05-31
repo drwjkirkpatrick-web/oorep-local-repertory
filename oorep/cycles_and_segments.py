@@ -323,12 +323,20 @@ class CyclesAndSegmentsEngine:
         """
         Args:
             data_path: Optional directory or JSON file with extra cycles.
+                      If omitted, auto-loads from ``data/cycles/`` beneath the
+                      package root (if it exists).
         """
         self._cycles: Dict[str, RemedyCycle] = {}
         # Register canonical built-in cycles
         for raw in self._CANONICAL_CYCLES:
             rc = RemedyCycle.from_dict(raw)
             self._register(rc)
+
+        # Auto-load from data/cycles/ if it exists
+        auto_dir = Path(__file__).parent.parent / "data" / "cycles"
+        if auto_dir.is_dir():
+            for f in auto_dir.glob("*.json"):
+                self._load_json_file(f)
 
         # Load extras if provided
         if data_path:

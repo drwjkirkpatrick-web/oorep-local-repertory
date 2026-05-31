@@ -1,0 +1,125 @@
+{
+  "remedy_name": "Vipera",
+  "remedy_abbrev": "Vip.",
+  "sentence": "Driven by a sense of internal congestion and bursting, Vipera is engaged in a continuous battle between the need to release pressure and the fear of dissolution, alternating between violent inflammatory states and collapse.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": 4,
+  "references": [
+    "Herscu, P. ND DHANP. 'The Cycle of Vipera.' New England Journal of Homeopathy, Vol 7 #1.",
+    "Herscu, P. & Rothenberg, A. NESH curriculum materials."
+  ],
+  "segments": [
+    {
+      "name": "Congestion and fullness",
+      "description": "Profound sense of internal pressure, vessels engorged, feeling of bursting. Varicose veins, hemorrhoids, throbbing pain. Head feels full.",
+      "symptoms": [
+        "congestion",
+        "fullness of head",
+        "varicose veins",
+        "hemorrhoids",
+        "throbbing pain",
+        "blood vessels distended",
+        "bursting sensation",
+        "engorgement"
+      ],
+      "generalizations": [
+        "congestion",
+        "fullness",
+        "pressure",
+        "engorgement",
+        "distended"
+      ],
+      "next_segment": "Intense burning and inflammation"
+    },
+    {
+      "name": "Intense burning and inflammation",
+      "description": "The congestion ignites into burning pain, inflammatory states, fever. Skin burns, mucous membranes inflamed. Violent burning pains with redness.",
+      "symptoms": [
+        "burning pain",
+        "inflammation",
+        "fever",
+        "redness of skin",
+        "burning in veins",
+        "hot skin",
+        "intense heat",
+        "inflammatory swelling"
+      ],
+      "generalizations": [
+        "burning",
+        "inflammation",
+        "heat",
+        "redness",
+        "fever"
+      ],
+      "next_segment": "Fear of bursting and hemorrhage"
+    },
+    {
+      "name": "Fear of bursting and hemorrhage",
+      "description": "Fear that the congestion will lead to rupture, hemorrhage, or death. Anxiety about internal bleeding, blood vessels breaking. Terror of dissolution.",
+      "symptoms": [
+        "fear of death",
+        "anxiety about health",
+        "fear of hemorrhage",
+        "fear of bursting",
+        "terror",
+        "apprehension",
+        "fear of being alone"
+      ],
+      "generalizations": [
+        "fear",
+        "terror",
+        "anxiety",
+        "apprehension",
+        "death fear"
+      ],
+      "next_segment": "Collapse and weakness"
+    },
+    {
+      "name": "Collapse and weakness",
+      "description": "After the inflammatory peak, sudden prostration, faintness, cold sweat. Pulse weak, skin cold, vitality drained. Desire to lie down, cannot sit up.",
+      "symptoms": [
+        "prostration",
+        "faintness",
+        "cold sweat",
+        "weak pulse",
+        "cold skin",
+        "desire to lie down",
+        "exhaustion",
+        "sinking sensation",
+        "loss of strength"
+      ],
+      "generalizations": [
+        "collapse",
+        "weakness",
+        "exhaustion",
+        "prostration",
+        "faint"
+      ],
+      "next_segment": "Icy coldness and numbness"
+    },
+    {
+      "name": "Icy coldness and numbness",
+      "description": "Extreme coldness, limbs icy, loss of sensation. Numbness, tingling, paralysis of parts. Skin blue, cyanotic. As if life force withdraws.",
+      "symptoms": [
+        "coldness",
+        "icy limbs",
+        "numbness",
+        "tingling",
+        "paralysis",
+        "blue skin",
+        "cyanosis",
+        "loss of sensation",
+        "cold feet",
+        "cold hands"
+      ],
+      "generalizations": [
+        "coldness",
+        "numbness",
+        "paralysis",
+        "cyanosis",
+        "loss of sensation"
+      ],
+      "next_segment": "Congestion and fullness"
+    }
+  ]
+}

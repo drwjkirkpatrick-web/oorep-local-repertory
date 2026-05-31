@@ -1,0 +1,124 @@
+{
+  "remedy_name": "Anacardium",
+  "remedy_abbrev": "Anac.",
+  "sentence": "Driven by a profound inner duality, Anacardium is engaged in a continuous struggle between goodness and cruelty, between weakness and power, oscillating between self-doubt, hardness, and fleeting confidence.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": 3,
+  "references": [
+    "Herscu, P. ND DHANP. 'Anacardium Fundamental Segments: The Mental Sphere.' New England Journal of Homeopathy, Vol 5 #3.",
+    "Herscu, P. & Rothenberg, A. NESH curriculum materials."
+  ],
+  "segments": [
+    {
+      "name": "Weakness and self-doubt",
+      "description": "Profound sense of mental and physical weakness. Inability to make decisions, mind goes blank during exams or interviews. Lack of confidence, feels inferior. Memory weakness, especially for names and recent events.",
+      "symptoms": [
+        "weakness of memory",
+        "forgetfulness",
+        "indecision",
+        "mind goes blank",
+        "lack of confidence",
+        "feels inferior",
+        "timidity",
+        "mental weakness",
+        "examination fright"
+      ],
+      "generalizations": [
+        "weakness",
+        "indecision",
+        "self-doubt",
+        "inferiority",
+        "timidity"
+      ],
+      "next_segment": "Dual nature — good versus evil"
+    },
+    {
+      "name": "Dual nature — good versus evil",
+      "description": "Inner conflict between opposing forces. Feels as if possessed by two wills — one good, one evil. As if an angel on one shoulder and devil on the other. Religious conflict, moral struggle.",
+      "symptoms": [
+        "dual personality",
+        "feels possessed",
+        "two wills",
+        "angel and devil",
+        "moral conflict",
+        "religious struggle",
+        "good versus evil",
+        "internal conflict"
+      ],
+      "generalizations": [
+        "duality",
+        "conflict",
+        "possessed",
+        "moral struggle",
+        "two wills"
+      ],
+      "next_segment": "Cruelty and hardness"
+    },
+    {
+      "name": "Cruelty and hardness",
+      "description": "The suppressed weakness erupts as cruelty, malice, cursing. Wants to swear but restrains himself. Hardhearted, unsympathetic. May be verbally or physically abusive to the weak. Inclination to curse.",
+      "symptoms": [
+        "cruelty",
+        "malice",
+        "cursing",
+        "hardhearted",
+        "unsympathetic",
+        "abusive",
+        "inclination to curse",
+        "wicked thoughts",
+        "rage"
+      ],
+      "generalizations": [
+        "cruelty",
+        "malice",
+        "hardness",
+        "rage",
+        "unsympathetic"
+      ],
+      "next_segment": "Fleeting confidence and power"
+    },
+    {
+      "name": "Fleeting confidence and power",
+      "description": "Brief periods of feeling strong, powerful, in control. As if a switch is flipped and suddenly capable. But it is short-lived and crashes back into doubt. Moments of bravado.",
+      "symptoms": [
+        "feels powerful",
+        "confidence",
+        "bravado",
+        "feels capable",
+        "sense of power",
+        "brief strength",
+        "temporary control"
+      ],
+      "generalizations": [
+        "power",
+        "confidence",
+        "strength",
+        "control",
+        "capable"
+      ],
+      "next_segment": "Anger at being misunderstood"
+    },
+    {
+      "name": "Anger at being misunderstood",
+      "description": "Fury that others do not see the internal struggle. Feels insulted, slighted, unappreciated. Hypersensitive to offense. Discontented with everything and everyone. Quarrelsome.",
+      "symptoms": [
+        "anger",
+        "feels insulted",
+        "slighted",
+        "unappreciated",
+        "hypersensitive",
+        "discontented",
+        "quarrelsome",
+        "takes offense easily"
+      ],
+      "generalizations": [
+        "anger",
+        "insulted",
+        "sensitive",
+        "discontent",
+        "quarrelsome"
+      ],
+      "next_segment": "Weakness and self-doubt"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "remedy_name": "Bothrops Lanceolatus",
+  "remedy_abbrev": "Both-l.",
+  "sentence": "Driven by a progressive breakdown of blood and tissue integrity, Bothrops Lanceolatus is engaged in a relentless descent from acute inflammatory states into hemorrhage, necrosis, and gangrene, with profound neurological confusion throughout.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": 4,
+  "references": [
+    "Herscu, P. ND DHANP. 'Bothrops lanceolatus.' New England Journal of Homeopathy, Vol 8 #2.",
+    "Herscu, P. & Rothenberg, A. NESH curriculum materials."
+  ],
+  "segments": [
+    {
+      "name": "Inflammation and swelling",
+      "description": "Acute inflammatory onset with rapid swelling. Edema, erythema, heat. Pain intense, burning. Lymphangitis, adenitis. Thrombophlebitis. Vessels inflamed and tortuous.",
+      "symptoms": [
+        "inflammation",
+        "swelling",
+        "edema",
+        "erythema",
+        "heat",
+        "burning pain",
+        "lymphangitis",
+        "adenitis",
+        "thrombophlebitis",
+        "tortuous vessels"
+      ],
+      "generalizations": [
+        "inflammation",
+        "swelling",
+        "heat",
+        "burning",
+        "edema"
+      ],
+      "next_segment": "Hemorrhage and bleeding"
+    },
+    {
+      "name": "Hemorrhage and bleeding",
+      "description": "Bleeding from every orifice and into tissues. Blood dark, fluid, non-coagulating. Ecchymoses, petechiae. Hematuria, epistaxis, hemoptysis. Bleeding gums. Vomiting blood.",
+      "symptoms": [
+        "hemorrhage",
+        "bleeding",
+        "dark blood",
+        "non-coagulating blood",
+        "ecchymoses",
+        "petechiae",
+        "hematuria",
+        "epistaxis",
+        "hemoptysis",
+        "bleeding gums",
+        "vomiting blood"
+      ],
+      "generalizations": [
+        "hemorrhage",
+        "bleeding",
+        "coagulopathy",
+        "dark blood",
+        "petechiae"
+      ],
+      "next_segment": "Necrosis and tissue death"
+    },
+    {
+      "name": "Necrosis and tissue death",
+      "description": "Tissue breakdown, gangrene, sloughing. Blackened, mortified tissue. Vesicles with bloody serum. Abscesses, ulcers. Rapid tissue destruction. Foul odor.",
+      "symptoms": [
+        "necrosis",
+        "gangrene",
+        "sloughing",
+        "black tissue",
+        "mortification",
+        "vesicles with bloody serum",
+        "abscesses",
+        "ulcers",
+        "foul odor"
+      ],
+      "generalizations": [
+        "necrosis",
+        "gangrene",
+        "tissue death",
+        "sloughing",
+        "ulceration"
+      ],
+      "next_segment": "Paralysis and neurological collapse"
+    },
+    {
+      "name": "Paralysis and neurological collapse",
+      "description": "Progressive paralysis, especially lower limbs. Inability to articulate speech. Aphasia, stammering. Vertigo, fainting. Amnesia, confusion. Brain fog. Hemiplegia. Speech comes slowly.",
+      "symptoms": [
+        "paralysis",
+        "lower limb paralysis",
+        "aphasia",
+        "stammering",
+        "vertigo",
+        "fainting",
+        "amnesia",
+        "confusion",
+        "hemiplegia",
+        "speech slow"
+      ],
+      "generalizations": [
+        "paralysis",
+        "aphasia",
+        "vertigo",
+        "confusion",
+        "neurological collapse"
+      ],
+      "next_segment": "Fear of death and confusion"
+    },
+    {
+      "name": "Fear of death and confusion",
+      "description": "Profuse cold sweat, pale, collapsed. Anxiety about death, feels he will die. Delirium, sees persons who are not there. Thinks he is not at home. Memory completely lost. Cannot recognize anyone.",
+      "symptoms": [
+        "cold sweat",
+        "pallor",
+        "collapse",
+        "fear of death",
+        "delirium",
+        "hallucinations",
+        "disorientation",
+        "memory loss",
+        "cannot recognize people"
+      ],
+      "generalizations": [
+        "fear of death",
+        "delirium",
+        "confusion",
+        "collapse",
+        "cold sweat"
+      ],
+      "next_segment": "Inflammation and swelling"
+    }
+  ]
+}

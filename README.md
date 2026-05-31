@@ -2,7 +2,7 @@
 
 A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **38 specialized modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
 
-> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 39 Python modules | **Tests:** 251 passing | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
+> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 39 Python modules | **Tests:** 266 passing | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
 
 ---
 
@@ -347,6 +347,22 @@ gen = engine.generalize_symptom("fear of death",
 hierarchy = engine.get_map_of_hierarchy()
 ```
 
+**Built-in cycles** (verified from Herscu publications):
+- **Stramonium** (6 segments, phase 4) — canonical prototype
+- **Vipera** (5 segments, phase 4) — NEJH Vol 7 #1
+- **Kali Carbonicum** (6 segments, phase 3) — NEJH Vol 5 #2
+- **Conium Maculatum** (5 segments, phase 4) — NEJH Vol 6 #1
+- **Anacardium** (5 segments, phase 3) — NEJH Vol 5 #3
+- **Bothrops Lanceolatus** (5 segments, phase 4) — NEJH Vol 8 #2
+- **Carcinosin** (6 segments, phase 2) — NEJH Vol 5 #4
+
+**Builder tool:**
+```bash
+python scripts/build_cycle.py --interactive    # Build a new cycle
+python scripts/build_cycle.py --validate-all   # Check all JSON files
+python scripts/build_cycle.py --list           # Show all cycles
+```
+
 ### Student Training — Simulated Patients (Benefit #38)
 
 ```python
@@ -461,8 +477,9 @@ oorep-local-repertory/
 │   └── cron_tasks.py             # Follow-ups, rebuild, backup (#33, #42, #43)
 ├── scripts/
 │   ├── extract_oorep.py          # Extract OOREP SQL → JSON
-│   └── remedy_feedback.py        # Prescription outcome tracking
-├── tests/                        # 251 pytest tests
+│   ├── remedy_feedback.py        # Prescription outcome tracking
+│   └── build_cycle.py            # Cycle & Segment builder / validator
+├── tests/                        # 266 pytest tests
 │   ├── conftest.py
 │   ├── test_clinical_rubric_mapper.py
 │   ├── test_hybrid_repertory.py
@@ -476,6 +493,13 @@ oorep-local-repertory/
 ├── examples/
 │   └── basic_usage.py            # Copy-paste starter code
 ├── data/                         # Extracted OOREP JSON (gitignored)
+│   ├── cycles/                   # Herscu Cycles & Segments JSON files
+│   │   ├── vipera.json
+│   │   ├── kali_carbonicum.json
+│   │   ├── conium_maculatum.json
+│   │   ├── anacardium.json
+│   │   ├── bothrops_lanceolatus.json
+│   │   └── carcinosin.json
 │   ├── remedies.json
 │   ├── rubrics.json
 │   ├── rubric_search_index.json

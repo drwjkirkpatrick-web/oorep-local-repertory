@@ -1,0 +1,145 @@
+{
+  "remedy_name": "Carcinosin",
+  "remedy_abbrev": "Carc.",
+  "sentence": "Driven by an underlying perfectionism and sympathy-seeking need, Carcinosin is engaged in a relentless oscillation between fastidious control, emotional sensitivity, and periodic release through passion, rhythm, or travel.",
+  "cycle_loop": true,
+  "map_of_hierarchy_phase": 2,
+  "references": [
+    "Gruber, F. MD. 'The Cycle of Carcinosin.' New England Journal of Homeopathy, Vol 5 #4.",
+    "Herscu, P. & Rothenberg, A. NESH curriculum materials."
+  ],
+  "segments": [
+    {
+      "name": "Perfectionism and fastidiousness",
+      "description": "Excessive need for order, cleanliness, precision. Everything must be just so. Punctual, conscientious, over-responsible. Anxiety if things are out of place. Pedantic.",
+      "symptoms": [
+        "fastidious",
+        "perfectionism",
+        "conscientious",
+        "punctual",
+        "anxiety about order",
+        "pedantic",
+        "over-responsible",
+        "needs precision",
+        "fear of imperfection"
+      ],
+      "generalizations": [
+        "fastidious",
+        "perfectionism",
+        "order",
+        "control",
+        "conscientious"
+      ],
+      "next_segment": "Sensitivity and sympathy seeking"
+    },
+    {
+      "name": "Sensitivity and sympathy seeking",
+      "description": "Intensely sensitive to criticism, reprimand, or suffering. Easily offended. Seeks sympathy, compassion, and reassurance. Weeps when thanked. Emotional vulnerability.",
+      "symptoms": [
+        "sensitive to criticism",
+        "seeks sympathy",
+        "easily offended",
+        "weeping when thanked",
+        "emotional vulnerability",
+        "desires compassion",
+        "aversion to reprimand",
+        "feels misunderstood"
+      ],
+      "generalizations": [
+        "sensitivity",
+        "sympathy seeking",
+        "easily offended",
+        "weeping",
+        "vulnerability"
+      ],
+      "next_segment": "Passion and intensity"
+    },
+    {
+      "name": "Passion and intensity",
+      "description": "Intense, passionate nature. Strong attachment to loved ones. Great love for animals. Artistic, creative, intense emotional expression. May be theatrical or dramatic.",
+      "symptoms": [
+        "passionate",
+        "intense emotions",
+        "artistic",
+        "creative",
+        "love of animals",
+        "dramatic",
+        "theatrical",
+        "strong attachments"
+      ],
+      "generalizations": [
+        "passion",
+        "intensity",
+        "artistic",
+        "creative",
+        "dramatic"
+      ],
+      "next_segment": "Rhythm and repetition"
+    },
+    {
+      "name": "Rhythm and repetition",
+      "description": "Need for rhythm, repetition, routine. May dance, rock, or pace. Strong connection to music. Sleep disturbances worse at full moon. Worse from suppressing natural urges. History of repetitive behaviors.",
+      "symptoms": [
+        "desire for rhythm",
+        "rocking",
+        "pacing",
+        "worse full moon",
+        "sleep disturbed by moon",
+        "suppressed urges worsen",
+        "repetitive behaviors",
+        "music love"
+      ],
+      "generalizations": [
+        "rhythm",
+        "repetition",
+        "rocking",
+        "moon aggravation",
+        "music"
+      ],
+      "next_segment": "Wanderlust and need for travel"
+    },
+    {
+      "name": "Wanderlust and need for travel",
+      "description": "Strong desire to travel, to move, to change scenery. Restlessness, cannot stay in one place. Desire for adventure, new experiences. Feels confined, trapped if stationary.",
+      "symptoms": [
+        "desire to travel",
+        "restlessness",
+        "wanderlust",
+        "aversion to confinement",
+        "desire for adventure",
+        "cannot stay still",
+        "trapped feeling"
+      ],
+      "generalizations": [
+        "wanderlust",
+        "travel desire",
+        "restlessness",
+        "confinement aversion",
+        "adventure"
+      ],
+      "next_segment": "Fear of cancer and disease history"
+    },
+    {
+      "name": "Fear of cancer and disease history",
+      "description": "Anxiety about cancer, tumors, serious illness. Strong family history of cancer or tuberculosis. History of severe diseases in childhood. Fears death, fears hospitals. Hypochondriacal tendencies.",
+      "symptoms": [
+        "fear of cancer",
+        "fear of tumors",
+        "family history of cancer",
+        "history of tuberculosis",
+        "fear of death",
+        "hypochondria",
+        "anxiety about health",
+        "fear of hospitals"
+      ],
+      "generalizations": [
+        "fear of cancer",
+        "tumor fear",
+        "death fear",
+        "hypochondria",
+        "disease history"
+      ],
+      "next_segment": "Perfectionism and fastidiousness"
+    }
+  ]
+}

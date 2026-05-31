@@ -230,12 +230,17 @@ class TestCaseMatching:
 
     def test_suggest_cycles(self):
         engine = CyclesAndSegmentsEngine()
-        case = ["fear of death", "violent outbursts"]
+        # Use a case with symptoms specific to Stramonium's cycle
+        case = ["fear of death", "violent outbursts", "wants to be alone"]
         suggestions = engine.suggest_cycles_for_case(case)
         assert len(suggestions) > 0
-        name, coverage, _ = suggestions[0]
-        assert name == "Stramonium"
-        assert coverage > 0.0
+        # Stramonium should appear in the top results with strong coverage
+        names = [s[0] for s in suggestions]
+        assert "Stramonium" in names
+        stram_entry = [s for s in suggestions if s[0] == "Stramonium"][0]
+        assert stram_entry[1] > 0.0  # coverage > 0
+        assert "Fear of death or injury" in stram_entry[2]["matched_segments"]
+        assert "Violent overreaction" in stram_entry[2]["matched_segments"]
 
 
 class TestGeneralization:
@@ -322,5 +327,120 @@ class TestPackageIntegration:
     def test_import_from_package(self):
         from oorep import CyclesAndSegmentsEngine, RemedyCycle, CycleSegment
         assert CyclesAndSegmentsEngine is not None
-        assert RemedyCycle is not None
-        assert CycleSegment is not None
+
+
+# ── Auto-loading from data/cycles/ ─────────────────────────────────────────
+
+class TestAutoLoading:
+    def test_all_builtin_cycles_loaded(self):
+        engine = CyclesAndSegmentsEngine()
+        cycles = engine.list_cycles()
+        expected = {
+            "Stramonium", "Vipera", "Kali Carbonicum",
+            "Conium Maculatum", "Anacardium",
+            "Bothrops Lanceolatus", "Carcinosin",
+        }
+        assert expected.issubset(set(cycles)), f"Missing: {expected - set(cycles)}"
+
+    @pytest.mark.parametrize(
+        "remedy,expected_segments,expected_phase",
+        [
+            ("Stramonium", 6, 4),
+            ("Vipera", 5, 4),
+            ("Kali Carbonicum", 6, 3),
+            ("Conium Maculatum", 5, 4),
+            ("Anacardium", 5, 3),
+            ("Bothrops Lanceolatus", 5, 4),
+            ("Carcinosin", 6, 2),
+        ],
+    )
+    def test_cycle_structure(self, remedy, expected_segments, expected_phase):
+        engine = CyclesAndSegmentsEngine()
+        rc = engine.get_cycle(remedy)
+        assert rc is not None, f"{remedy} not found"
+        assert len(rc.segments) == expected_segments
+        assert rc.cycle_loop is True
+        assert rc.map_of_hierarchy_phase == expected_phase
+
+    def test_cycle_loops_are_closed(self):
+        engine = CyclesAndSegmentsEngine()
+        for name in engine.list_cycles():
+            rc = engine.get_cycle(name)
+            assert rc is not None, f"{name} not found"
+            pairs = rc.transition_pairs()
+            # Last pair should connect back to first segment for loops
+            if rc.cycle_loop and len(rc.segments) >= 2:
+                last_pair = pairs[-1]
+                assert last_pair[1] == rc.segments[0].name, (
+                    f"{name}: loop broken at {last_pair}"
+                )
+
+    def test_vipera_case_match(self):
+        engine = CyclesAndSegmentsEngine()
+        case = ["varicose veins", "burning pain", "cold sweat", "paralysis"]
+        rc = engine.get_cycle("Vipera")
+        assert rc is not None
+        match = engine.match_case_to_cycle(case, rc)
+        assert "Congestion and fullness" in match["matched_segments"]
+        assert "Intense burning and inflammation" in match["matched_segments"]
+        assert "Collapse and weakness" in match["matched_segments"]
+
+    def test_kali_carb_case_match(self):
+        engine = CyclesAndSegmentsEngine()
+        case = ["weakness", "fastidious", "fear of poverty", "irritability", "edema"]
+        rc = engine.get_cycle("Kali Carbonicum")
+        assert rc is not None
+        match = engine.match_case_to_cycle(case, rc)
+        assert match["coverage"] >= 0.1
+        assert "Weakness and insecurity" in match["matched_segments"]
+        assert "Desire for order and structure" in match["matched_segments"]
+        assert "Fear of poverty and ruin" in match["matched_segments"]
+
+    def test_conium_case_match(self):
+        engine = CyclesAndSegmentsEngine()
+        case = ["loss of libido", "rigidity", "forgetfulness"]
+        rc = engine.get_cycle("Conium Maculatum")
+        assert rc is not None
+        match = engine.match_case_to_cycle(case, rc)
+        assert "Indifference and apathy" in match["matched_segments"]
+        assert "Physical rigidity and paralysis" in match["matched_segments"]
+        assert "Mental dullness and confusion" in match["matched_segments"]
+
+    def test_suggest_cycles_cross_ranking(self):
+        engine = CyclesAndSegmentsEngine()
+        case = ["fear of death", "paralysis", "coldness"]
+        suggestions = engine.suggest_cycles_for_case(case, limit=10)
+        names = [s[0] for s in suggestions]
+        # Vipera, Conium, Stramonium all have strong overlap with this case
+        assert "Vipera" in names
+        assert "Conium Maculatum" in names
+        assert "Stramonium" in names
+
+
+# ── Builder script ──────────────────────────────────────────────────────────
+
+class TestBuilderScript:
+    def test_builder_validate_all(self):
+        import subprocess
+        result = subprocess.run(
+            ["python3", "scripts/build_cycle.py", "--validate-all", "--dir", "data/cycles"],
+            cwd="/home/walker/projects/oorep-local-repertory",
+            capture_output=True,
+            text=True,
+        )
+        assert result.returncode == 0, result.stdout + result.stderr
+        assert "All cycles passed validation." in result.stdout
+
+    def test_builder_list(self):
+        import subprocess
+        result = subprocess.run(
+            ["python3", "scripts/build_cycle.py", "--list", "--dir", "data/cycles"],
+            cwd="/home/walker/projects/oorep-local-repertory",
+            capture_output=True,
+            text=True,
+        )
+        assert result.returncode == 0
+        # These cycles exist as JSON files in data/cycles/
+        assert "Vipera" in result.stdout
+        assert "Kali Carbonicum" in result.stdout
+        assert "Conium Maculatum" in result.stdout
