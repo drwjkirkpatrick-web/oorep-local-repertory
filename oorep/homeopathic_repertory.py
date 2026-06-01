@@ -344,6 +344,9 @@ class HomeopathicRepertory:
         retrieval: str = "hybrid",
         rubrics_per_symptom: int = 10,
         use_clinical_mapper: bool = True,
+        with_cycles: bool = True,
+        cycle_min_segments: int = 2,
+        cycle_min_coverage: float = 0.25,
     ) -> List[Dict]:
         """
         Perform repertorization with classical grade-based scoring.
@@ -355,6 +358,14 @@ class HomeopathicRepertory:
 
         Retrieval strategy picks rubric candidates. Final remedy score is strictly
         the sum of classical remedy grades across selected rubrics.
+
+        If ``with_cycles`` is True (default), the top-N results are enriched
+        with Cycles & Segments analysis (Herscu method): each remedy that has a
+        registered cycle is scored for segment coverage, and the enriched data is
+        returned under the ``cycle_analysis`` key.  Only remedies that match at
+        least ``cycle_min_segments`` distinct segments and achieve at least
+        ``cycle_min_coverage`` fraction of the cycle's symptoms are flagged as
+        ``meets_threshold``.
         """
         remedy_scores = defaultdict(lambda: {"score": 0, "matches": [], "_rubric_ids": set()})
 
@@ -442,6 +453,22 @@ class HomeopathicRepertory:
                     "matches": data["matches"][:5],
                 }
             )
+
+        if with_cycles:
+            try:
+                try:
+                    from .cycles_and_segments import CyclesAndSegmentsEngine
+                except Exception:
+                    from cycles_and_segments import CyclesAndSegmentsEngine
+                engine = CyclesAndSegmentsEngine()
+                results = engine.enrich_repertorization(
+                    results,
+                    symptoms,
+                    min_segments_matched=cycle_min_segments,
+                    min_coverage=cycle_min_coverage,
+                )
+            except Exception:
+                pass
 
         return results
 

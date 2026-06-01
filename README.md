@@ -2,7 +2,7 @@
 
 A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **38 specialized modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
 
-> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 39 Python modules | **Tests:** 266 passing | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
+> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 40 Python modules | **Tests:** 271 passing | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
 
 ---
 
@@ -137,7 +137,7 @@ After the LLM extracts symptoms, it performs intelligent fuzzy matching against 
 | `RemedyRelationships` | #4, #19–21 | Complementary, antidotal, inimical, antidote classical tables |
 | `KentVsBoenninghausen` | #46 | Both methods side-by-side, divergence analysis, auto-recommendation |
 | `PersonalityEngineBridge` | #47, #56 | Link 50-remedy personality system to OOREP remedy IDs |
-| `CyclesAndSegmentsEngine` | #59 | Herscu's cycle/segment remedy analysis: directed graphs, case matching, Boenninghausen generalization, Map of Hierarchy |
+| `CyclesAndSegmentsEngine` | #59 | Herscu cycle/segment remedy analysis: directed graphs, case matching, Boenninghausen generalization, Map of Hierarchy — now **integrated into every repertorization** as `cycle_analysis` with configurable segment/coverage thresholds |
 
 ### Teaching & Training
 
@@ -363,6 +363,40 @@ python scripts/build_cycle.py --validate-all   # Check all JSON files
 python scripts/build_cycle.py --list           # Show all cycles
 ```
 
+### Cycles & Segments — Automatic in Every Repertorization
+
+Since v3.0+, `HomeopathicRepertory.repertorize()` automatically enriches each top remedy with cycle/segment analysis when `with_cycles=True` (the default).  Every result dict gains a `cycle_analysis` key:
+
+```python
+from oorep import HomeopathicRepertory
+
+rep = HomeopathicRepertory(data_dir="data")
+
+results = rep.repertorize(
+    ["fear of death", "violent outbursts", "wants to be alone"],
+    top_n=10,
+    with_cycles=True,          # default
+    cycle_min_segments=2,      # ≥2 segments must match
+    cycle_min_coverage=0.20,   # ≥20% of the cycle's segments
+)
+
+for r in results:
+    ca = r["cycle_analysis"]
+    print(f"{r['abbrev']}  score={r['score']}  cycle={ca['remedy_cycle']}  "
+          f"segments={ca['segments_matched_count']}/{ca['total_segments']}  "
+          f"meets_threshold={ca['meets_threshold']}")
+    if ca["meets_threshold"]:
+        print("  → Segment matches:", ", ".join(ca["segment_matches"]))
+        print("  → Essence:", ca["cycle_sentence"])
+```
+
+**Threshold logic:** A remedy is flagged `meets_threshold=True` only when:
+1. It has a registered cycle (7 verified + 598 auto-derived = **605 total**), **and**
+2. The case symptoms hit at least `cycle_min_segments` distinct segments (default **2**), **and**
+3. The segment coverage ratio is at least `cycle_min_coverage` (default **20%**).
+
+This lets classical grade scoring (Kent arithmetic) remain primary, while Cycles & Segments provides a **second-opinion structural filter** — surfacing remedies whose dynamic pattern genuinely matches the case, not just individual rubric grades.
+
 ### Student Training — Simulated Patients (Benefit #38)
 
 ```python
@@ -433,7 +467,7 @@ report = audit.export_for_review(practitioner_id="dr-kirkpatrick")
 
 ```
 oorep-local-repertory/
-├── oorep/                          # Core Python package (39 modules)
+├── oorep/                          # Core Python package (40 modules)
 │   ├── __init__.py                 # Unified import surface
 │   ├── homeopathic_repertory.py    # Main repertory API
 │   ├── clinical_rubric_mapper.py   # Patient phrase → rubric mapping
@@ -479,7 +513,7 @@ oorep-local-repertory/
 │   ├── extract_oorep.py          # Extract OOREP SQL → JSON
 │   ├── remedy_feedback.py        # Prescription outcome tracking
 │   └── build_cycle.py            # Cycle & Segment builder / validator
-├── tests/                        # 266 pytest tests
+├── tests/                        # 271 pytest tests
 │   ├── conftest.py
 │   ├── test_clinical_rubric_mapper.py
 │   ├── test_hybrid_repertory.py
@@ -490,6 +524,7 @@ oorep-local-repertory/
 │   ├── test_batch_d.py           # Phase 4 batch D
 │   └── test_batch_e.py           # Phase 5 batch E (final benefits)
 │   └── test_cycles_and_segments.py  # Herscu cycle/segment module (#59)
+│   └── test_cycles_in_repertorization.py  # Cycle enrichment inside repertorize()
 ├── examples/
 │   └── basic_usage.py            # Copy-paste starter code
 ├── data/                         # Extracted OOREP JSON (gitignored)
@@ -511,6 +546,21 @@ oorep-local-repertory/
 ├── pyproject.toml
 └── OOREP_Gap_Analysis.md        # Full 59-benefit gap audit + build phases
 ```
+
+---
+
+## Attribution
+
+### Cycles & Segments Method
+The **Cycles & Segments** analysis module in this project is a software encoding of the clinical method developed by **Dr. Paul Herscu** and **Dr. Amy Rothenberg**, co-founders and leaders of the **New England School of Homeopathy (NESH)**. The method — that disease is a unit composed of recurring dynamic segments through which the vital force expresses itself — was articulated by Dr. Herscu in *Stramonium: With an Introduction to Analysis Using Cycles and Segments* (NESH Press, 1996) and in the *New England Journal of Homeopathy* (cycles of Vipera, Kali carbonicum, Conium maculatum, Anacardium, Bothrops lanceolatus, and Carcinosin).
+
+All verified cycle descriptions, segment names, and one-sentence remedy essences in the built-in canonical cycles are derived from these published works. The software implementation is independent and does not substitute for study of the original texts or NESH curriculum.
+
+- **NESH:** https://nesh.com
+- **Herscu, P.** (1996). *Stramonium: With an Introduction to Analysis Using Cycles and Segments.* NESH Press. ISBN 978-0965400404.
+
+### OOREP Data
+This project uses the **OOREP (Open Online Repertory)** database by Andreas Bauer, licensed under GPL v3.
 
 ---
 
@@ -545,7 +595,7 @@ pip install pytest
 pytest tests/ -v
 ```
 
-Full suite: **186 tests** covering all 32 modules.
+Full suite: **271 tests** covering all 40 modules.
 
 ---
 
@@ -554,11 +604,11 @@ Full suite: **186 tests** covering all 32 modules.
 See `OOREP_Gap_Analysis.md` for the complete 58-benefit audit with build phases.
 
 **Coverage summary:**
-- **58 of 58 benefits** implemented (**100%**)
-- **38 Python modules** built
-- **222/222 tests** passing
+- **59 of 59 benefits** implemented (**100%**)
+- **40 Python modules** built
+- **271/271 tests** passing
 
-**Phase 5 Complete:** Materia medica proving texts, kingdom taxonomy (75-remedy seed), botanical bridge (WHO Monograph), genomic SNP hypothesis (14-SNP seed), flashcard spaced repetition, and cron automation (follow-up alerts, vector auto-rebuild, GitHub backup) are all built and tested.
+**Phase 5 Complete:** Materia medica proving texts, kingdom taxonomy (75-remedy seed), botanical bridge (WHO Monograph), genomic SNP hypothesis (14-SNP seed), flashcard spaced repetition, cron automation (follow-up alerts, vector auto-rebuild, GitHub backup), and **Cycles & Segments enrichment in every repertorization** are all built and tested.
 
 All remaining items are seeded with PD-compatible classical data and ready for expansion with your own corpus.
 

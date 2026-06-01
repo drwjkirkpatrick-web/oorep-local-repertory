@@ -503,6 +503,87 @@ class CyclesAndSegmentsEngine:
         # dedupe
         return {k: list(dict.fromkeys(v)) for k, v in hierarchy.items()}
 
+    def enrich_repertorization(
+        self,
+        repertorization_results: List[Dict],
+        case_symptoms: List[str],
+        min_segments_matched: int = 2,
+        min_coverage: float = 0.20,
+    ) -> List[Dict]:
+        """Enrich classical repertorization results with cycle/segment analysis.
+
+        For each top remedy that has a registered cycle, this computes:
+          - How many of the cycle's segments were hit by the case symptoms
+          - Segment coverage ratio (segments matched / total segments)
+          - Whether the cycle match meets configurable thresholds
+
+        The enriched dict for each remedy gains a ``cycle_analysis`` key::
+
+            {
+                "remedy_cycle": str or None,
+                "segment_matches": [str, ...],
+                "segments_matched_count": int,
+                "total_segments": int,
+                "coverage": float,          # symptom-level coverage from match_case_to_cycle
+                "segment_coverage": float,  # segments matched / total segments
+                "generalized_hits": [str, ...],
+                "cycle_sentence": str or None,
+                "map_of_hierarchy_phase": int or None,
+                "meets_threshold": bool,
+            }
+
+        Args:
+            repertorization_results: Output list from ``HomeopathicRepertory.repertorize()``.
+            case_symptoms: The original symptom strings the user entered.
+            min_segments_matched: Minimum distinct segments that must match (default 2).
+            min_coverage: Minimum *segment* coverage ratio required (default 0.20,
+                i.e. at least 20% of the cycle's segments must be matched).
+
+        Returns:
+            The same list of dicts, each with an added ``cycle_analysis`` field.
+        """
+        out: List[Dict] = []
+        for entry in repertorization_results:
+            abbrev = entry.get("abbrev") or entry.get("name", "")
+            cycle = self.get_cycle(abbrev)
+
+            if cycle is None:
+                entry["cycle_analysis"] = {
+                    "remedy_cycle": None,
+                    "segment_matches": [],
+                    "segments_matched_count": 0,
+                    "total_segments": 0,
+                    "coverage": 0.0,
+                    "segment_coverage": 0.0,
+                    "generalized_hits": [],
+                    "cycle_sentence": None,
+                    "map_of_hierarchy_phase": None,
+                    "meets_threshold": False,
+                }
+                out.append(entry)
+                continue
+
+            match = self.match_case_to_cycle(case_symptoms, cycle, generalize=True)
+            seg_count = len(match["matched_segments"])
+            tot = len(cycle.segments)
+            segment_coverage = seg_count / tot if tot else 0.0
+            meets = (seg_count >= min_segments_matched) and (segment_coverage >= min_coverage)
+
+            entry["cycle_analysis"] = {
+                "remedy_cycle": cycle.remedy_name,
+                "segment_matches": match["matched_segments"],
+                "segments_matched_count": seg_count,
+                "total_segments": tot,
+                "coverage": match["coverage"],
+                "segment_coverage": round(segment_coverage, 3),
+                "generalized_hits": match["generalized_hits"],
+                "cycle_sentence": cycle.sentence,
+                "map_of_hierarchy_phase": cycle.map_of_hierarchy_phase,
+                "meets_threshold": meets,
+            }
+            out.append(entry)
+        return out
+
     def export_cycles_json(self, path: str) -> None:
         """Serialize all registered cycles to a JSON file."""
         payload = [rc.to_dict() for rc in self._cycles.values()]
