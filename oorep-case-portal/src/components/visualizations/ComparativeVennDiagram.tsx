@@ -11,14 +11,15 @@ interface VennDatum {
 
 interface ComparativeVennDiagramProps {
   remedies: VennDatum[];
-  // Typically top 2–3 remedies; beyond 3 becomes illegible
+  onRubricClick?: (rubric: string, rubricId?: string) => void;
+  onRemedyClick?: (abbrev: string, name: string) => void;
 }
 
 function ellipsePath(cx: number, cy: number, rx: number, ry: number): string {
   return `M ${cx - rx} ${cy} A ${rx} ${ry} 0 0 1 ${cx + rx} ${cy} A ${rx} ${ry} 0 0 1 ${cx - rx} ${cy} Z`;
 }
 
-export default function ComparativeVennDiagram({ remedies }: ComparativeVennDiagramProps) {
+export default function ComparativeVennDiagram({ remedies, onRubricClick, onRemedyClick }: ComparativeVennDiagramProps) {
   const width = 420;
   const height = 260;
   const show = remedies.slice(0, 3);

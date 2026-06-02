@@ -33,11 +33,9 @@ export async function POST(request: Request) {
     const home = os.homedir();
     const repertoryPath = path.join(
       home,
-      ".hermes",
-      "skills",
-      "clinic",
-      "homeopathic-repertory-oorep",
-      "references",
+      "projects",
+      "oorep-local-repertory",
+      "oorep",
       "homeopathic_repertory.py"
     );
 

@@ -25,11 +25,15 @@ export default function CircularCycleViz({
   abbrev,
   cycleAnalysis,
   size = 200,
+  onRubricClick,
+  onRemedyClick,
 }: {
   remedy: string;
   abbrev: string;
   cycleAnalysis: any;
   size?: number;
+  onRubricClick?: (rubric: string, rubricId?: string) => void;
+  onRemedyClick?: (abbrev: string, name: string) => void;
 }) {
   const segments = useMemo(() => {
     const segs = remedy === "Stramonium" ? [...STRAM_SEGS] : [...STRAM_SEGS];
@@ -61,11 +65,19 @@ export default function CircularCycleViz({
             <Wedge key={i} start={start} end={end} or={or} ir={ir} cx={cx} cy={cy} fill={fill} op={op} />
           );
         })}
-        <circle cx={cx} cy={cy} r={ir - 4} fill={coverage >= 0.5 ? "#fef3c7" : "#f9fafb"} stroke="#d1d5db" />
-        <text x={cx} y={cy - 4} textAnchor="middle" dominantBaseline="central" fontSize={size * 0.06} fontWeight="bold" fill="#374151"
+        <circle
+          cx={cx}
+          cy={cy}
+          r={ir - 4}
+          fill={coverage >= 0.5 ? "#fef3c7" : "#f9fafb"}
+          stroke="#d1d5db"
+          cursor="pointer"
+          onClick={() => onRemedyClick && onRemedyClick(abbrev, remedy)}
+        />
+        <text x={cx} y={cy - 4} textAnchor="middle" dominantBaseline="central" fontSize={size * 0.06} fontWeight="bold" fill="#374151" cursor="pointer"
+          onClick={() => onRemedyClick && onRemedyClick(abbrev, remedy)}
         >{abbrev}</text>
-        <text x={cx} y={cy + 10} textAnchor="middle" dominantBaseline="central" fontSize={size * 0.04} fill="#6b7280"
-        >{Math.round(coverage * 100)}%</text>
+        <text x={cx} y={cy + 10} textAnchor="middle" dominantBaseline="central" fontSize={size * 0.04} fill="#6b7280">{Math.round(coverage * 100)}%</text>
       </svg>
     </div>
   );

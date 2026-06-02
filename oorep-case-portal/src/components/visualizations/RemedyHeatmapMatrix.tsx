@@ -6,6 +6,7 @@ interface HeatmapData {
   rubric: string;
   remedyAbbrev: string;
   weight: number; // 1–4 classical grade
+  rubricId?: string;
 }
 
 interface RemedyHeatmapMatrixProps {
@@ -13,6 +14,8 @@ interface RemedyHeatmapMatrixProps {
   remedies: { abbrev: string; name: string }[];
   data: HeatmapData[];
   maxGrade?: number;
+  onRubricClick?: (rubric: string, rubricId?: string) => void;
+  onRemedyClick?: (abbrev: string, name: string) => void;
 }
 
 const GRADE_COLORS = [
@@ -28,6 +31,8 @@ export default function RemedyHeatmapMatrix({
   remedies,
   data,
   maxGrade = 4,
+  onRubricClick,
+  onRemedyClick,
 }: RemedyHeatmapMatrixProps) {
   const cellW = Math.max(28, 200 / remedies.length);
   const cellH = 22;
@@ -89,6 +94,11 @@ export default function RemedyHeatmapMatrix({
                 const weight = matrix[rubric][rem.abbrev] || 0;
                 const color = GRADE_COLORS[Math.min(weight, maxGrade)];
                 const x = rowLabelW + ci * cellW;
+                // find rubricId for this rubric if available
+                const rubricIdEntry = data.find(
+                  (d) => d.rubric === rubric && d.remedyAbbrev === rem.abbrev
+                );
+                const rubricId = rubricIdEntry?.rubricId;
                 return (
                   <g key={rem.abbrev}>
                     <rect
@@ -98,13 +108,18 @@ export default function RemedyHeatmapMatrix({
                       height={cellH - 1}
                       fill={color}
                       rx={2}
+                      cursor="pointer"
+                      onClick={() => {
+                        if (onRemedyClick) onRemedyClick(rem.abbrev, rem.name);
+                        if (onRubricClick) onRubricClick(rubric, rubricId);
+                      }}
                     />
                     {weight > 0 && (
                       <text
                         x={x + cellW / 2}
                         y={y + cellH / 1.5}
                         textAnchor="middle"
-                        className="fill-white font-bold"
+                        className="fill-white font-bold pointer-events-none"
                         fontSize={10}
                       >
                         {weight}

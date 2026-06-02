@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { useRouter } from "next/navigation";
 import type { PortalModule } from "../../lib/portal-types";
 import type { ModuleResult } from "../../lib/portal-types";
 import CircularCycleViz from "@/components/visualizations/CircularCycleViz";
@@ -54,6 +55,21 @@ export default function DashboardCanvas({
     return pg?.data || null;
   }, [results]);
 
+  const router = useRouter();
+
+  // Click-through handlers
+  const handleRubricClick = (rubric: string, rubricId?: string) => {
+    if (rubricId) {
+      router.push(`/rubrics/${encodeURIComponent(rubricId)}`);
+    } else {
+      // fallback: search by text
+      router.push(`/rubrics?q=${encodeURIComponent(rubric)}`);
+    }
+  };
+  const handleRemedyClick = (abbrev: string) => {
+    router.push(`/remedies/${encodeURIComponent(abbrev)}`);
+  };
+
   const hasRepertorization = repertorizationData.length > 0;
 
   return (
@@ -94,7 +110,9 @@ export default function DashboardCanvas({
                     <CircularCycleViz
                       remedy={r.name}
                       abbrev={r.abbrev}
+
                       cycleAnalysis={r.cycle_analysis}
+                      onRemedyClick={handleRemedyClick}
                       size={220}
                     />
                   </div>
@@ -112,7 +130,10 @@ export default function DashboardCanvas({
               <RemedyHeatmapMatrix
                 rubrics={buildHeatmapRubrics(repertorizationData)}
                 remedies={repertorizationData.slice(0, 6)}
+
                 data={buildHeatmapData(repertorizationData)}
+                onRubricClick={handleRubricClick}
+                onRemedyClick={handleRemedyClick}
               />
             </div>
 
@@ -123,6 +144,7 @@ export default function DashboardCanvas({
                 level="BEGINNER"
                 subtitle="Shared vs unique differentiating rubrics"
               />
+
               <ComparativeVennDiagram remedies={repertorizationData.slice(0, 3)} />
             </div>
 
@@ -152,6 +174,7 @@ export default function DashboardCanvas({
                 level="INTERMEDIATE"
                 subtitle="7-axis comparison across remedies"
               />
+
               <RadarChartViz remedies={repertorizationData.slice(0, 6)} size={400} />
             </div>
 
@@ -162,6 +185,7 @@ export default function DashboardCanvas({
                 level="INTERMEDIATE"
                 subtitle="Historical outcomes for similar profiles"
               />
+
               <OutcomeTrajectorySparklines remedies={repertorizationData} />
             </div>
 
@@ -222,6 +246,7 @@ export default function DashboardCanvas({
                 level="ADVANCED"
                 subtitle="Inherited remedy patterns & suppression chains"
               />
+
               <FamilyConstellationGraph />
             </div>
 
@@ -232,6 +257,7 @@ export default function DashboardCanvas({
                 level="ADVANCED"
                 subtitle="Suppression events, remedies, layer emergence"
               />
+
               <LayerTimelineRibbon />
             </div>
           </>
@@ -244,6 +270,7 @@ export default function DashboardCanvas({
             level="BEGINNER"
             subtitle="Symptom-to-remedy routing diagram"
           />
+
           <TimelineSankeyViz
             symptoms={["fear of death", "violent outbursts", "wants to be alone"]}
             remedies={repertorizationData.slice(0, 4)}
@@ -377,7 +404,7 @@ function buildConfidenceRubrics(remedies: any[]) {
 }
 
 function buildHeatmapData(remedies: any[]) {
-  const data: Array<{ rubric: string; remedyAbbrev: string; weight: number }> = [];
+  const data: Array<{ rubric: string; remedyAbbrev: string; weight: number; rubricId?: string }> = [];
   for (const rem of remedies) {
     for (const m of rem.matches || []) {
       if (m.rubric && m.weight) {
@@ -385,6 +412,7 @@ function buildHeatmapData(remedies: any[]) {
           rubric: m.rubric,
           remedyAbbrev: rem.abbrev,
           weight: Math.min(m.weight, 4),
+          rubricId: m.rubric_id ? String(m.rubric_id) : undefined,
         });
       }
     }
