@@ -1,8 +1,8 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **40 specialized modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **41 specialized modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, and the Clinical Mission Control dashboard.
 
-> **Version:** 3.1 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 40 Python modules + Clinical Mission Control (Next.js dashboard with 5 visualization systems) | **Tests:** 271 passing (Python) + portal smoke tests | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
+> **Version:** 3.4 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 41 Python modules + Clinical Mission Control (Next.js dashboard with 15 visualization components + live API data + click-through drill-down) | **Tests:** 271 passing (Python) + portal smoke tests | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
 
 ---
 
@@ -91,7 +91,7 @@ After the LLM extracts symptoms, it performs intelligent fuzzy matching against 
 
 ---
 
-## New in V2.0: Advanced Practitioner Modules (24 Modules)
+## New in V2.0: Advanced Practitioner Modules (29 Modules + 12 Core = 41 Total)
 
 ### Differential Diagnosis & Selection
 
@@ -467,7 +467,7 @@ report = audit.export_for_review(practitioner_id="dr-kirkpatrick")
 
 ```
 oorep-local-repertory/
-├── oorep/                          # Core Python package (40 modules)
+├── oorep/                          # Core Python package (41 modules)
 │   ├── __init__.py                 # Unified import surface
 │   ├── homeopathic_repertory.py    # Main repertory API
 │   ├── clinical_rubric_mapper.py   # Patient phrase → rubric mapping
@@ -595,7 +595,7 @@ pip install pytest
 pytest tests/ -v
 ```
 
-Full suite: **271 tests** covering all 40 modules.
+Full suite: **271 tests** covering all 41 modules.
 
 ---
 
@@ -619,96 +619,122 @@ All remaining items are seeded with PD-compatible classical data and ready for e
 All 59 Hermes-Agent-identified benefits for clinical repertory software are now implemented.
 
 ### V1 Core (Benefits 1–12)
-1. **Fully Local & Offline**
-2. **Rubric Hierarchy Navigation**
-3. **Remedy Comparator**
-4. **Remedy Relationships** (complementary, antidotal, inimical)
-5. *(reserved)*
-6. *(reserved)*
-7. **Patient Case Memory**
-8. *(reserved)*
-9. *(reserved)*
-10. **Family Constellation**
-11. **Suppression Tracker**
-12. **Memory-Safe Data Extraction**
+1. **Fully Local & Offline** — No API calls, no subscriptions, no cloud lock-in
+2. **Rubric Hierarchy Navigation** — Kent parent/child/sibling traversal with `RubricExplorer`
+3. **Remedy Comparator** — Multi-remedy overlap, divergence, and Jaccard similarity analysis
+4. **Remedy Relationships** — Classical complementary, antidotal, inimical, antidote tables
+5. **Lexical + Hybrid Search** — Token-matched rubric lookup + vector semantic reach + overlap fusion
+6. **Abbreviation Decoding** — Robust remedy abbreviation resolution with collision handling
+7. **Patient Case Memory** — SQLite-backed case tracking with Hermes-session Q&A queries
+8. **Clinical Rubric Mapper** — Patient phrase normalization and synonym expansion to Kent rubrics
+9. **Multi-Symptom Repertorization** — Classical grade-based scoring across matched rubrics
+10. **Family Constellation** — Cross-generational remedy pattern linking and inherited suppression chains
+11. **Suppression Tracker** — Suppression history alerts with miasm-tracking tags
+12. **Memory-Safe Data Extraction** — Batched streaming (150K links/batch) for small-system compatibility
 
 ### V2 Differential & Analysis (Benefits 13–28)
-13. **SRP Detector**
-14. *(reserved)*
-15. **Elimination Analyzer**
-16. **Potency Guidance**
-17. **Acute / Chronic Layer**
-18. **Materia Medica Proving DB**
-19. *(reserved — remedy relationships extension)*
-20. *(reserved)*
-21. *(reserved)*
-22. **Kingdom Taxonomy** (mineral/plant/animal)
-23. *(reserved)*
-24. **Rubric Co-occurrence Engine**
-25. *(reserved)*
-26. **Patient Cohort Analytics**
-27. **Phantom Rubric Analyzer**
-28. **Botanical Bridge** (WHO Monograph cross-map)
+13. **SRP Detector** — Strange-Rare-Peculiar keyword detection with weighted scoring
+14. **Keynote Triangulation** — Scarcity + pattern-based unusual remedy surfacing
+15. **Elimination Analyzer** — "What symptom rules out X?" exclusion logic
+16. **Potency Guidance** — Classical potency ladder with remedy-specific profiles
+17. **Acute / Chronic Layer Separation** — Layer-tagging and layer-separate repertorization
+18. **Materia Medica Proving DB** — Full-text proving text lookup with source attribution
+19. **Remedy Relationships Tutoring** — Classical relationship explanations with source references
+20. **Source Material Tracing** — Proving and author attribution in data schema
+21. **Comparative Materia Medica** — Side-by-side remedy proving text comparison
+22. **Kingdom Taxonomy** — Mineral / Plant / Animal tags with family cross-references
+23. **Clinical Tip Extraction** — Outcome-note NLP mining for success-pattern discovery
+24. **Rubric Co-occurrence Engine** — Remedy pair mining, polycrest clusters, association rules
+25. **Severity-Weighted Trending** — Time-series analysis of rubric importance across cases
+26. **Patient Cohort Analytics** — Outcome rates, remedy timelines, symptom-success correlation
+27. **Phantom Rubric Analyzer** — Gini + entropy flags for low-differentiation rubrics
+28. **Botanical Bridge** — WHO Monograph cross-map for botanical remedy safety data
 
 ### V3 Advanced Modules (Benefits 29–53)
-29. **Genomic Hypothesis**
-30. *(reserved)*
-31. **SOAP Assembler**
-32. **Audit Trail**
-33. **Cron Tasks** (follow-ups, rebuild, backup)
-34. **Letter Generator**
-35. *(reserved — subagent orchestration)*
-36. *(reserved)*
-37. *(reserved)*
-38. **Student Training**
-39. **Remedy Freshness Tracker**
-40. **Rubric Gap Analyzer**
-41. **Private Rubric Manager**
-42. *(reserved)*
-43. *(reserved)*
-44. **Flashcard SRS**
-45. **Clinical Vignette Quiz**
-46. **Kent vs. Boenninghausen**
-47. **Personality Engine Bridge**
-48. **Grand Rounds**
-49. **PHI Scrubber**
-50. **Practitioner Approval Gate**
-51. **Red Flag Detector**
-52. *(reserved)*
-53. **Licensure Export**
+29. **Genomic Hypothesis** — SNP → remedy outcome correlation mining
+30. **Voice-to-Rubric Intake** — Blue Snowball STT → rubric mapper pipeline
+31. **SOAP Assembler** — LLM-powered SOAP generation from conversational case notes
+32. **Audit Trail** — SHA-256 hash chain, immutable prescription logs
+33. **Cron Tasks** — Follow-up alerts, vector auto-rebuild, GitHub backup scheduling
+34. **Letter Generator** — Referral / summary / prescription letters with homeopathic rationale
+35. **Subagent Orchestrator** — Case analysis plan templates and literature-review delegation
+36. **Literature-Review Agent** — PubMed / homeopathic journal monitoring delegation
+37. **Case-Supervision Agent** — Second-opinion re-repertorization routing
+38. **Student Training** — Simulated patients, 4-option quizzes, progress tracking
+39. **Remedy Freshness Tracker** — Staleness alerts, review queue, proven-source tracking
+40. **Rubric Gap Analyzer** — Coverage gap detection, rubric quality scoring, new-rubric suggestions
+41. **Private Rubric Manager** — Practitioner-created custom rubrics with merge-to-repertorization
+42. **Vector Index Rebalancing** — Automated vector index rebuild on data updates
+43. **Backup & Sync Verification** — Encrypted SQLite + JSON snapshots with integrity checks
+44. **Flashcard SRS** — SM-2 spaced repetition for materia medica study
+45. **Clinical Vignette Quiz** — Real outcome records → difficulty-tiered teaching quizzes
+46. **Kent vs. Boenninghausen** — Both methods side-by-side with divergence analysis
+47. **Personality Engine Bridge** — 50-remedy personality system linked to OOREP remedy IDs
+48. **Grand Rounds** — Multi-case synthesis with common themes and markdown teaching narratives
+49. **PHI Scrubber** — Automated PHI detection + reversible pseudonym mapping
+50. **Practitioner Approval Gate** — `prescriber_ack` safety gate (strict/audit/test modes)
+51. **Red Flag Detector** — Critical / urgent / advisory symptom detection with referral triggers
+52. **Contraindicated Remedy Alerts** — Remedy-family reaction history tracking
+53. **Licensure Export** — Audit-grade immutable logs formatted for regulatory review
 
-### V4 Cycles & Dashboard (Benefits 54–59)
-54. *(reserved)*
-55. *(reserved)*
-56. *(reserved — personality extension)*
-57. **Model Router**
-58. *(reserved)*
-59. **Cycles & Segments Engine** — now with dashboard visualizations (circular rings), radar charts, and pipeline builder
+### V4 Cycles, Dashboard & Visual Intelligence (Benefits 54–59)
+54. **Offline Resilience** — Full core functionality without network connectivity
+55. **Skill Accumulation** — OOREP-specific Hermes workflow skills auto-generated from usage
+56. **Personality-Aware Reasoning** — Remedy narrative matched to patient persona via 50-remedy system
+57. **Model Router** — Local/cloud task routing with performance tracking and fallback chains
+58. **Cross-Reference Repertory Editions** — Multi-edition comparison framework (extensible)
+59. **Cycles & Segments Engine** — Herscu method: directed cycle graphs, case-to-cycle matching, Boenninghausen generalization, Map of Hierarchy — now with **15 dashboard visualizations, live API data layer, and click-through drill-down**
 
 ---
 
-## Clinical Mission Control Dashboard (v3.1)
+## Clinical Mission Control Dashboard (v3.4)
 
-The attached Next.js **OORep Case Portal** now ships with a practitioner-facing **Clinical Mission Control Dashboard** — a unified cockpit for the OOREP module suite.
+The Next.js **OORep Case Portal** ships with a practitioner-facing **Clinical Mission Control Dashboard** — a unified cockpit for the OOREP module suite.
 
-### Dashboard URL
-`/dashboard` — Module picker sidebar + responsive canvas + bottom action bar
-`/dashboard/pipeline` — Visual pipeline builder (React-Flow node graph)
+### Dashboard Routes
+- **`/dashboard`** — Module picker sidebar + responsive canvas + live data panels + report action bar
+- **`/dashboard/pipeline`** — Visual pipeline builder (React-Flow node graph) for reusable SOPs
 
-### What It Does
-- **Module Discovery API** (`/api/portal/modules`) — Serves all 40 module definitions with metadata, routes, and I/O contracts
-- **Module Picker Sidebar** — Organized by 8 clinical categories (Differential, Safety, Analytics, etc.); draggable toggles; search/filter by benefit number or name
-- **Dashboard Canvas** — Every active module renders in a responsive panel. Each panel shows status, JSON preview, and an "Include in final report" checkbox
-- **Run Active Modules** button — Executes enabled modules sequentially via their API routes (mock data for unreleased routes)
-- **Report Action Bar** — Exports a Markdown report with included module outputs
+### Live API Data Layer
+All visualizations now pull from live OOREP backend data via Next.js API routes:
+- `GET /api/rubrics/[id]` — Rubric metadata + top 50 remedies by classical grade
+- `GET /api/rubrics?q=query` — Lexical rubric search (top 20 matches)
+- `GET /api/remedies/[abbrev]` — Remedy profile with classification metadata
+- `POST /api/admin/repertorize` — Classical grade-ranked remedy list with automatic `cycle_analysis` enrichment
 
-### New Visualizations (v3.1)
+### Dashboard Architecture
+- **Module Discovery API** (`/api/portal/modules`) — Serves all 41 module definitions with metadata, routes, and I/O contracts
+- **Module Picker Sidebar** — Organized by 8 clinical categories; draggable toggles; search by benefit number or name
+- **Dashboard Canvas** — Responsive grid of visualization panels; each panel shows status, JSON preview, and "Include in final report" checkbox
+- **Run Active Modules** — Executes enabled modules sequentially via their API routes
+- **Report Action Bar** — Exports a Markdown report with included module outputs + PDF generation
 
-| Visualization | What It Shows | Source |
-|---|---|---|
-| **Circular Cycle Rings** | Polar donut per top remedy: angular segments = cycle phases; fill brightness = segment match intensity; center = case core | `cycle_analysis.segment_matches` |
-| **Differential Remedy Radar** | 7-axis radar: Repertory Score, Cycle Coverage, SRP Density, Rubric Reliability, Layer Alignment, Kent vs Boenninghausen, Outcome History | `repertorize`, `cycle_analysis`, `SRPDetector`, `PhantomRubricAnalyzer` |
-| **Repertorization Sankey Flow** | Symptom nodes → remedy nodes with curved paths; path thickness ∝ score weight per symptom; green paths = cycle threshold met | `repertorize.results[].matches[]` |
+### 15 Visualization Components (v3.4)
+
+| # | Visualization | Level | What It Shows | Click-Through |
+|---|-------------|-------|---------------|---------------|
+| 1 | **Circular Cycle Rings** | BEGINNER | Polar donut per top remedy: angular segments = cycle phases; fill brightness = segment match intensity; center dot = threshold met | Remedy detail |
+| 2 | **Remedy Coverage Heatmap** | BEGINNER | Rubric × remedy grade intensity matrix; color = Kent grade (1–4); tooltip shows full path | Rubric detail + Remedy detail |
+| 3 | **Comparative Venn Diagram** | BEGINNER | Shared vs unique differentiating rubrics across top-3 remedies; overlap count labels | Remedy detail + Rubric detail |
+| 4 | **Phantom Rubric Risk Gauge** | BEGINNER | Speedometer: concentration of low-confidence rubrics; needle position = phantom fraction | — |
+| 5 | **Differential Remedy Radar** | INTERMEDIATE | 7-axis spider chart: Repertory Score, Cycle Coverage, SRP Density, Rubric Reliability, Layer Alignment, Method Agreement, Outcome History | Remedy detail |
+| 6 | **Outcome Trajectory Sparklines** | INTERMEDIATE | Herscu-score temporal lines per remedy (-4 to +4); month-by-month outcomes; overlapping trajectories | Remedy detail (legend) |
+| 7 | **Potency Ladder Waterfall** | INTERMEDIATE | Vertical cascading potency rungs (6C → 200C); tapering blocks; rationale per step | — |
+| 8 | **Miasm Donut Overlay** | INTERMEDIATE | Psora / Sycosis / Syphilis / Tubercular / Cancer wedge weights; dashed patient-miasm target ring | — |
+| 9 | **Kingdom Morphology Cloud** | INTERMEDIATE | Tag-cloud of Plant / Mineral / Animal case-language affinity; font size = word frequency | — |
+| 10 | **Rubric Confidence Interval Strip** | ADVANCED | Horizontal bars per rubric: green = reliable (confidence >0.75 + low grade-1 density), amber = moderate; error caps show lexical-vs-vector variance | Rubric detail |
+| 11 | **Family Constellation Graph** | ADVANCED | Force-directed nodes: patient + family members with remedy labels; edge thickness = shared pattern weight | Remedy detail (node) |
+| 12 | **Layer Timeline Ribbon** | ADVANCED | Gantt-style suppression / acute / constitutional event timeline; color-coded layers (red=physical, amber=acute, purple=chronic, green=constitutional) | — |
+| 13 | **Repertorization Sankey Flow** | BEGINNER–INTERMEDIATE | Symptom nodes → remedy nodes with curved Bézier paths; thickness ∝ score weight per symptom; green paths = cycle threshold met | Remedy detail |
+| 14 | **Rubric Explorer Tree** | INTERMEDIATE | Kent hierarchy parent/child navigation with sibling traversal | — |
+| 15 | **Grand Rounds Synthesis Panel** | ADVANCED | Multi-case markdown narrative with top remedies, rubric clusters, outcome distribution | — |
+
+### New in v3.4: Click-Through Drill-Down
+Every visualization that displays a **remedy abbreviation** or **rubric ID** is now clickable:
+- **Remedy click** → `/remedies/[abbrev]` (profile + classification)
+- **Rubric click** → `/rubrics/[id]` (metadata + top 50 remedy grade table)
+
+11 of 15 components support live click-through navigation. The remaining 4 (Phantom Gauge, Potency Ladder, Miasm Donut, Layer Timeline) operate at aggregate/abstraction levels with no discrete remedy/rubric to route to.
 
 ### Pipeline Builder
 Drag-and-drop module nodes from the palette onto a canvas. Connect inputs → outputs with animated edges. Export protocol as JSON. Designed for creating reusable "Acute Quick" or "Chronic Deep" SOPs.

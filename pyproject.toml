@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "oorep-local-repertory"
-version = "3.1.0"
+version = "3.4.0"
 description = "Fast, offline homeopathic repertory built on OOREP with multi-layer search"
 readme = "README.md"
 license = {text = "GPL-3.0"}
