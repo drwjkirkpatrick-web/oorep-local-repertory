@@ -15,7 +15,7 @@ interface OutcomeTrajectorySparklinesProps {
   }[];
 }
 
-export default function OutcomeTrajectorySparklines({ remedies }: OutcomeTrajectorySparklinesProps) {
+export default function OutcomeTrajectorySparklines({ remedies, onRemedyClick }: OutcomeTrajectorySparklinesProps & { onRemedyClick?: (abbrev: string) => void }) {
   const width = 500;
   const height = 260;
   const plotH = 160;
@@ -108,7 +108,14 @@ export default function OutcomeTrajectorySparklines({ remedies }: OutcomeTraject
         {/* Legend */}
         <g transform={`translate(${padding.left}, ${height - 28})`}>
           {remedies.map((rem, idx) => (
-            <g key={rem.abbrev} transform={`translate(${idx * 80}, 0)`}>
+            <g
+              key={rem.abbrev}
+              transform={`translate(${idx * 80}, 0)`}
+              style={{ cursor: "pointer" }}
+              onClick={() => {
+                if (onRemedyClick) onRemedyClick(rem.abbrev);
+              }}
+            >
               <line x1={0} y1={6} x2={16} y2={6} stroke={rem.color} strokeWidth={2} />
               <text x={22} y={10} className="fill-slate-400" fontSize={10}>
                 {rem.abbrev}

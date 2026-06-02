@@ -9,6 +9,7 @@
 
 export default function RubricConfidenceStrip({
   rubrics,
+  onRubricClick,
 }: {
   rubrics: {
     rubric_id: number;
@@ -18,6 +19,7 @@ export default function RubricConfidenceStrip({
     vector_score?: number;
     grade1_density?: number;
   }[];
+  onRubricClick?: (rubric: string, rubricId?: string) => void;
 }) {
   const maxW = 240;
   const barH = 14;
@@ -43,7 +45,13 @@ export default function RubricConfidenceStrip({
           const isReliable = confidence > 0.75 && (r.grade1_density || 0) < 0.3;
 
           return (
-            <g key={r.rubric_id}>
+            <g
+              key={r.rubric_id}
+              onClick={() => {
+                if (onRubricClick) onRubricClick(r.rubric, String(r.rubric_id));
+              }}
+              style={{ cursor: "pointer" }}
+            >
               {/* Label */}
               <text x={0} y={y + barH / 2 + 3} fontSize={8} fill="#374151" fontWeight={500}>
                 {r.rubric?.slice(0, 22) || `Rubric ${r.rubric_id}`}…

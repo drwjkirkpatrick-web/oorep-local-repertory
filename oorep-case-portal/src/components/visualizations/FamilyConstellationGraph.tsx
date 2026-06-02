@@ -25,7 +25,7 @@ const EDGES = [
   { source: "father", target: "sib2", weight: 0.6, label: "Calc link" },
 ];
 
-export default function FamilyConstellationGraph() {
+export default function FamilyConstellationGraph({ onRemedyClick }: { onRemedyClick?: (abbrev: string) => void }) {
   const nodes = useMemo(() => DEMO_FAMILY, []);
 
   return (
@@ -67,7 +67,16 @@ export default function FamilyConstellationGraph() {
 
         {/* Nodes */}
         {nodes.map((n) => (
-          <g key={n.id}>
+          <g
+            key={n.id}
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              if (onRemedyClick && n.remedy) {
+                const abbrev = n.remedy.replace(/\\.$/, "");
+                onRemedyClick(abbrev);
+              }
+            }}
+          >
             <circle cx={n.x} cy={n.y} r={22} fill="#fff" stroke="#374151" strokeWidth={2} />
             <text x={n.x} y={n.y - 4} textAnchor="middle" fontSize={9} fontWeight={600} fill="#374151">
               {n.label}

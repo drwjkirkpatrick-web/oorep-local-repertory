@@ -145,7 +145,7 @@ export default function DashboardCanvas({
                 subtitle="Shared vs unique differentiating rubrics"
               />
 
-              <ComparativeVennDiagram remedies={repertorizationData.slice(0, 3)} />
+              <ComparativeVennDiagram remedies={repertorizationData.slice(0, 3)} onRemedyClick={handleRemedyClick} onRubricClick={handleRubricClick} />
             </div>
 
             {/* Phantom Gauge — BEGINNER */}
@@ -175,7 +175,7 @@ export default function DashboardCanvas({
                 subtitle="7-axis comparison across remedies"
               />
 
-              <RadarChartViz remedies={repertorizationData.slice(0, 6)} size={400} />
+              <RadarChartViz remedies={repertorizationData.slice(0, 6)} size={400} onRemedyClick={handleRemedyClick} />
             </div>
 
             {/* Sparklines — INTERMEDIATE */}
@@ -186,7 +186,7 @@ export default function DashboardCanvas({
                 subtitle="Historical outcomes for similar profiles"
               />
 
-              <OutcomeTrajectorySparklines remedies={repertorizationData} />
+              <OutcomeTrajectorySparklines remedies={repertorizationData} onRemedyClick={handleRemedyClick} />
             </div>
 
             {/* Potency Ladder — INTERMEDIATE */}
@@ -236,6 +236,7 @@ export default function DashboardCanvas({
               />
               <RubricConfidenceStrip
                 rubrics={buildConfidenceRubrics(repertorizationData)}
+                onRubricClick={handleRubricClick}
               />
             </div>
 
@@ -247,7 +248,7 @@ export default function DashboardCanvas({
                 subtitle="Inherited remedy patterns & suppression chains"
               />
 
-              <FamilyConstellationGraph />
+              <FamilyConstellationGraph onRemedyClick={handleRemedyClick} />
             </div>
 
             {/* Layer Timeline — ADVANCED */}
@@ -274,6 +275,7 @@ export default function DashboardCanvas({
           <TimelineSankeyViz
             symptoms={["fear of death", "violent outbursts", "wants to be alone"]}
             remedies={repertorizationData.slice(0, 4)}
+            onRemedyClick={handleRemedyClick}
           />
         </div>
       </div>

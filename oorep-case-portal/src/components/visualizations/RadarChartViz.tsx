@@ -30,9 +30,11 @@ const COLORS = [
 export default function RadarChartViz({
   remedies,
   size = 400,
+  onRemedyClick,
 }: {
   remedies: any[];
   size?: number;
+  onRemedyClick?: (abbrev: string) => void;
 }) {
   const data = useMemo(() => {
     const maxScore = Math.max(...remedies.map((r) => r.score || 1), 1);
@@ -157,10 +159,14 @@ export default function RadarChartViz({
                     key={i}
                     cx={cx + r * Math.cos(a)}
                     cy={cy + r * Math.sin(a)}
-                    r={3}
+                    r={4}
                     fill={d.color}
                     stroke="#fff"
                     strokeWidth={1}
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (onRemedyClick) onRemedyClick(d.label);
+                    }}
                   />
                 );
               })}

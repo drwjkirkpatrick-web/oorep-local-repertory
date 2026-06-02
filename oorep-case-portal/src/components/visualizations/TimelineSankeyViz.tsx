@@ -11,9 +11,11 @@ import { useMemo } from "react";
 export default function TimelineSankeyViz({
   symptoms,
   remedies,
+  onRemedyClick,
 }: {
   symptoms: string[];
   remedies: any[];
+  onRemedyClick?: (abbrev: string) => void;
 }) {
   const width = 800;
   const height = 280;
@@ -118,7 +120,20 @@ export default function TimelineSankeyViz({
         {/* Remedy nodes */}
         {nodes.rnodes.map((n) => (
           <g key={n.id}>
-            <circle cx={n.x + padding.left} cy={n.y} r={8} fill={n.color} />
+            <circle
+              cx={n.x + padding.left}
+              cy={n.y}
+              r={8}
+              fill={n.color}
+              style={{ cursor: "pointer" }}
+              onClick={() => {
+                if (onRemedyClick) {
+                  // Extract abbreviation from label "ABBREV (score)"
+                  const abbrev = n.label.split(" ")[0];
+                  onRemedyClick(abbrev);
+                }
+              }}
+            />
             <text
               x={n.x + padding.left + 15}
               y={n.y + 4}
@@ -126,6 +141,13 @@ export default function TimelineSankeyViz({
               fontSize={11}
               fill="#374151"
               fontWeight={500}
+              style={{ cursor: "pointer" }}
+              onClick={() => {
+                if (onRemedyClick) {
+                  const abbrev = n.label.split(" ")[0];
+                  onRemedyClick(abbrev);
+                }
+              }}
             >
               {n.label}
             </text>
