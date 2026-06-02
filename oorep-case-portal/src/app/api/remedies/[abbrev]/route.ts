@@ -16,7 +16,7 @@ export async function GET(request: Request, { params }: { params: { abbrev: stri
     const repertoryDir = path.join(os.homedir(), "projects", "oorep-local-repertory", "oorep");
     const pythonScript = `
 import json, sys, os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, "${repertoryDir}")
 from homeopathic_repertory import HomeopathicRepertory
 
 abbrev = sys.argv[1]
