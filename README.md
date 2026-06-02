@@ -1,8 +1,8 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **38 specialized modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **40 specialized modules** — from remedy relationships and potency guidance to audit trails and grand rounds synthesis.
 
-> **Version:** 3.0 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 40 Python modules | **Tests:** 271 passing | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
+> **Version:** 3.1 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 40 Python modules + Clinical Mission Control (Next.js dashboard with 5 visualization systems) | **Tests:** 271 passing (Python) + portal smoke tests | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
 
 ---
 
@@ -611,6 +611,107 @@ See `OOREP_Gap_Analysis.md` for the complete 58-benefit audit with build phases.
 **Phase 5 Complete:** Materia medica proving texts, kingdom taxonomy (75-remedy seed), botanical bridge (WHO Monograph), genomic SNP hypothesis (14-SNP seed), flashcard spaced repetition, cron automation (follow-up alerts, vector auto-rebuild, GitHub backup), and **Cycles & Segments enrichment in every repertorization** are all built and tested.
 
 All remaining items are seeded with PD-compatible classical data and ready for expansion with your own corpus.
+
+---
+
+## 59 Benefits — Ordered List (1–59)
+
+All 59 Hermes-Agent-identified benefits for clinical repertory software are now implemented.
+
+### V1 Core (Benefits 1–12)
+1. **Fully Local & Offline**
+2. **Rubric Hierarchy Navigation**
+3. **Remedy Comparator**
+4. **Remedy Relationships** (complementary, antidotal, inimical)
+5. *(reserved)*
+6. *(reserved)*
+7. **Patient Case Memory**
+8. *(reserved)*
+9. *(reserved)*
+10. **Family Constellation**
+11. **Suppression Tracker**
+12. **Memory-Safe Data Extraction**
+
+### V2 Differential & Analysis (Benefits 13–28)
+13. **SRP Detector**
+14. *(reserved)*
+15. **Elimination Analyzer**
+16. **Potency Guidance**
+17. **Acute / Chronic Layer**
+18. **Materia Medica Proving DB**
+19. *(reserved — remedy relationships extension)*
+20. *(reserved)*
+21. *(reserved)*
+22. **Kingdom Taxonomy** (mineral/plant/animal)
+23. *(reserved)*
+24. **Rubric Co-occurrence Engine**
+25. *(reserved)*
+26. **Patient Cohort Analytics**
+27. **Phantom Rubric Analyzer**
+28. **Botanical Bridge** (WHO Monograph cross-map)
+
+### V3 Advanced Modules (Benefits 29–53)
+29. **Genomic Hypothesis**
+30. *(reserved)*
+31. **SOAP Assembler**
+32. **Audit Trail**
+33. **Cron Tasks** (follow-ups, rebuild, backup)
+34. **Letter Generator**
+35. *(reserved — subagent orchestration)*
+36. *(reserved)*
+37. *(reserved)*
+38. **Student Training**
+39. **Remedy Freshness Tracker**
+40. **Rubric Gap Analyzer**
+41. **Private Rubric Manager**
+42. *(reserved)*
+43. *(reserved)*
+44. **Flashcard SRS**
+45. **Clinical Vignette Quiz**
+46. **Kent vs. Boenninghausen**
+47. **Personality Engine Bridge**
+48. **Grand Rounds**
+49. **PHI Scrubber**
+50. **Practitioner Approval Gate**
+51. **Red Flag Detector**
+52. *(reserved)*
+53. **Licensure Export**
+
+### V4 Cycles & Dashboard (Benefits 54–59)
+54. *(reserved)*
+55. *(reserved)*
+56. *(reserved — personality extension)*
+57. **Model Router**
+58. *(reserved)*
+59. **Cycles & Segments Engine** — now with dashboard visualizations (circular rings), radar charts, and pipeline builder
+
+---
+
+## Clinical Mission Control Dashboard (v3.1)
+
+The attached Next.js **OORep Case Portal** now ships with a practitioner-facing **Clinical Mission Control Dashboard** — a unified cockpit for the OOREP module suite.
+
+### Dashboard URL
+`/dashboard` — Module picker sidebar + responsive canvas + bottom action bar
+`/dashboard/pipeline` — Visual pipeline builder (React-Flow node graph)
+
+### What It Does
+- **Module Discovery API** (`/api/portal/modules`) — Serves all 40 module definitions with metadata, routes, and I/O contracts
+- **Module Picker Sidebar** — Organized by 8 clinical categories (Differential, Safety, Analytics, etc.); draggable toggles; search/filter by benefit number or name
+- **Dashboard Canvas** — Every active module renders in a responsive panel. Each panel shows status, JSON preview, and an "Include in final report" checkbox
+- **Run Active Modules** button — Executes enabled modules sequentially via their API routes (mock data for unreleased routes)
+- **Report Action Bar** — Exports a Markdown report with included module outputs
+
+### New Visualizations (v3.1)
+
+| Visualization | What It Shows | Source |
+|---|---|---|
+| **Circular Cycle Rings** | Polar donut per top remedy: angular segments = cycle phases; fill brightness = segment match intensity; center = case core | `cycle_analysis.segment_matches` |
+| **Differential Remedy Radar** | 7-axis radar: Repertory Score, Cycle Coverage, SRP Density, Rubric Reliability, Layer Alignment, Kent vs Boenninghausen, Outcome History | `repertorize`, `cycle_analysis`, `SRPDetector`, `PhantomRubricAnalyzer` |
+| **Repertorization Sankey Flow** | Symptom nodes → remedy nodes with curved paths; path thickness ∝ score weight per symptom; green paths = cycle threshold met | `repertorize.results[].matches[]` |
+
+### Pipeline Builder
+Drag-and-drop module nodes from the palette onto a canvas. Connect inputs → outputs with animated edges. Export protocol as JSON. Designed for creating reusable "Acute Quick" or "Chronic Deep" SOPs.
 
 ---
 

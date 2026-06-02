@@ -24,6 +24,7 @@ Usage:
 """
 
 import json
+import functools
 from pathlib import Path
 from typing import List, Dict, Optional
 from collections import defaultdict
@@ -280,6 +281,7 @@ class HomeopathicRepertory:
         """Get rubric by ID."""
         return self.rubrics.get(rubric_id)
 
+    @functools.lru_cache(maxsize=None)
     def get_remedies_for_rubric(self, rubric_id: int, limit: Optional[int] = None) -> List[Dict]:
         """Get all remedies with grades for a specific rubric."""
         links = self.rubric_to_remedies.get(rubric_id, [])
