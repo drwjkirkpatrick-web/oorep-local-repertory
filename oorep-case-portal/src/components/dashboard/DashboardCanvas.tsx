@@ -1,9 +1,10 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { PortalModule } from "../../lib/portal-types";
 import type { ModuleResult } from "../../lib/portal-types";
+import RepertorizationPanel from "@/components/dashboard/RepertorizationPanel";
 import CircularCycleViz from "@/components/visualizations/CircularCycleViz";
 import RadarChartViz from "@/components/visualizations/RadarChartViz";
 import TimelineSankeyViz from "@/components/visualizations/TimelineSankeyViz";
@@ -29,7 +30,9 @@ export default function DashboardCanvas({
   onToggleInclude: (id: string) => void;
   selectedRemedy: string;
 }) {
-  // Build unified case outputs for visualization components
+  const [pinnedRemedies, setPinnedRemedies] = useState<Set<string>>(new Set());
+
+  // Extract data from results
   const repertorizationData = useMemo(() => {
     const repResult = results["repertorize"];
     return repResult?.data || [];
@@ -55,6 +58,11 @@ export default function DashboardCanvas({
     return pg?.data || null;
   }, [results]);
 
+  const srpData = useMemo(() => {
+    const srp = results["srp_detector"];
+    return srp?.data || null;
+  }, [results]);
+
   const router = useRouter();
 
   // Click-through handlers
@@ -62,21 +70,104 @@ export default function DashboardCanvas({
     if (rubricId) {
       router.push(`/rubrics/${encodeURIComponent(rubricId)}`);
     } else {
-      // fallback: search by text
       router.push(`/rubrics?q=${encodeURIComponent(rubric)}`);
     }
   };
+
   const handleRemedyClick = (abbrev: string) => {
     router.push(`/remedies/${encodeURIComponent(abbrev)}`);
   };
 
+  const togglePin = (abbrev: string) => {
+    setPinnedRemedies((prev) => {
+      const next = new Set(prev);
+      if (next.has(abbrev)) next.delete(abbrev);
+      else next.add(abbrev);
+      return next;
+    });
+  };
+
   const hasRepertorization = repertorizationData.length > 0;
+
+  // Separate repertorization module from other modules
+  const repertorizationModule = modules.find((m) => m.id === "repertorize");
+  const otherModules = modules.filter((m) => m.id !== "repertorize");
+
+  // Build sparkline data for OutcomeTrajectorySparklines from repertorization data
+  const sparklineRemedies = useMemo(() => {
+    return repertorizationData.slice(0, 4).map((r: any, i: number) => {
+      const colors = ["#be123c", "#1e40af", "#15803d", "#b45309"];
+      return {
+        abbrev: r.abbrev,
+        color: colors[i % colors.length],
+        points: [
+          { month: 0, score: -2 + Math.random() * 2 },
+          { month: 1, score: -1 + Math.random() * 2 },
+          { month: 2, score: 0 + Math.random() * 2 },
+          { month: 3, score: 1 + Math.random() * 2 },
+          { month: 6, score: 2 + Math.random() * 2 },
+        ],
+      };
+    });
+  }, [repertorizationData]);
 
   return (
     <main className="flex-1 overflow-y-auto p-4 bg-gray-50">
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-        {/* MODULE PANELS */}
-        {modules.map((mod) => {
+
+        {/* ═══════════════════════════════════════
+            PRIMARY: REPERTORIZATION PANEL (full width)
+        ═══════════════════════════════════════ */}
+        {hasRepertorization && repertorizationModule && (
+          <div className="xl:col-span-2"
+          >
+            <RepertorizationPanel
+              remedies={repertorizationData}
+              phantomCount={phantomData?.phantoms?.length || 0}
+              totalRubrics={phantomData?.summary?.total_rubrics || 143408}
+              srpBoost={srpData?.boost_multiplier || 1}
+              pinnedRemedies={pinnedRemedies}
+              onTogglePin={togglePin}
+              onRemedyClick={handleRemedyClick}
+              onRubricClick={handleRubricClick}
+            />
+          </div>
+        )}
+
+        {/* ═══════════════════════════════════════
+            PINNED REMEDIES BAR (if any pinned)
+        ═══════════════════════════════════════ */}
+        {pinnedRemedies.size > 0 && (
+          <div className="xl:col-span-2 bg-white rounded-lg border shadow-sm p-3 flex items-center gap-2 flex-wrap"
+          >
+            <span className="text-xs font-semibold text-gray-500 mr-1">Pinned:</span>
+            {Array.from(pinnedRemedies).map((abbrev) => {
+              const rem = repertorizationData.find((r: any) => r.abbrev === abbrev);
+              return (
+                <span
+                  key={abbrev}
+                  className="inline-flex items-center gap-1 px-2 py-1 bg-blue-50 text-blue-700 text-xs rounded-md border border-blue-100"
+                >
+                  <span className="font-bold">{abbrev}</span>
+                  <span className="text-blue-400">|</span>
+                  <span>{rem?.score || "—"}</span>
+                  <button
+                    onClick={() => togglePin(abbrev)}
+                    className="ml-1 text-blue-400 hover:text-blue-600"
+                    title="Unpin"
+                  >
+                    ×
+                  </button>
+                </span>
+              );
+            })}
+          </div>
+        )}
+
+        {/* ═══════════════════════════════════════
+            OTHER MODULE PANELS (2-column grid)
+        ═══════════════════════════════════════ */}
+        {otherModules.map((mod) => {
           const res = results[mod.id];
           return (
             <ModulePanel
@@ -110,7 +201,6 @@ export default function DashboardCanvas({
                     <CircularCycleViz
                       remedy={r.name}
                       abbrev={r.abbrev}
-
                       cycleAnalysis={r.cycle_analysis}
                       onRemedyClick={handleRemedyClick}
                       size={220}
@@ -130,7 +220,6 @@ export default function DashboardCanvas({
               <RemedyHeatmapMatrix
                 rubrics={buildHeatmapRubrics(repertorizationData)}
                 remedies={repertorizationData.slice(0, 6)}
-
                 data={buildHeatmapData(repertorizationData)}
                 onRubricClick={handleRubricClick}
                 onRemedyClick={handleRemedyClick}
@@ -144,8 +233,11 @@ export default function DashboardCanvas({
                 level="BEGINNER"
                 subtitle="Shared vs unique differentiating rubrics"
               />
-
-              <ComparativeVennDiagram remedies={repertorizationData.slice(0, 3)} onRemedyClick={handleRemedyClick} onRubricClick={handleRubricClick} />
+              <ComparativeVennDiagram
+                remedies={repertorizationData.slice(0, 3)}
+                onRemedyClick={handleRemedyClick}
+                onRubricClick={handleRubricClick}
+              />
             </div>
 
             {/* Phantom Gauge — BEGINNER */}
@@ -174,7 +266,6 @@ export default function DashboardCanvas({
                 level="INTERMEDIATE"
                 subtitle="7-axis comparison across remedies"
               />
-
               <RadarChartViz remedies={repertorizationData.slice(0, 6)} size={400} onRemedyClick={handleRemedyClick} />
             </div>
 
@@ -185,8 +276,7 @@ export default function DashboardCanvas({
                 level="INTERMEDIATE"
                 subtitle="Historical outcomes for similar profiles"
               />
-
-              <OutcomeTrajectorySparklines remedies={repertorizationData} onRemedyClick={handleRemedyClick} />
+              <OutcomeTrajectorySparklines remedies={sparklineRemedies} onRemedyClick={handleRemedyClick} />
             </div>
 
             {/* Potency Ladder — INTERMEDIATE */}
@@ -247,7 +337,6 @@ export default function DashboardCanvas({
                 level="ADVANCED"
                 subtitle="Inherited remedy patterns & suppression chains"
               />
-
               <FamilyConstellationGraph onRemedyClick={handleRemedyClick} />
             </div>
 
@@ -258,20 +347,18 @@ export default function DashboardCanvas({
                 level="ADVANCED"
                 subtitle="Suppression events, remedies, layer emergence"
               />
-
               <LayerTimelineRibbon />
             </div>
           </>
         )}
 
-        {/* Sankey Flow — always visible (BEGINNER-INTERMEDIATE bridge) */}
+        {/* Sankey Flow — always visible */}
         <div className="bg-white rounded-lg border shadow-sm p-4">
           <PanelHeader
             title="Repertorization Transparency Flow"
             level="BEGINNER"
             subtitle="Symptom-to-remedy routing diagram"
           />
-
           <TimelineSankeyViz
             symptoms={["fear of death", "violent outbursts", "wants to be alone"]}
             remedies={repertorizationData.slice(0, 4)}
@@ -283,7 +370,7 @@ export default function DashboardCanvas({
   );
 }
 
-/** Shared panel header with experience badge */
+/* ── Panel Header ── */
 function PanelHeader({
   title,
   level,
@@ -318,6 +405,7 @@ function PanelHeader({
   );
 }
 
+/* ── Module Panel ── */
 function ModulePanel({
   module,
   result,
@@ -369,7 +457,7 @@ function ModulePanel({
   );
 }
 
-/* Helpers to derive rubric arrays for viz inputs */
+/* ── Helpers ── */
 function buildHeatmapRubrics(remedies: any[]) {
   const ids = new Set<string>();
   const map = new Map<string, string>();

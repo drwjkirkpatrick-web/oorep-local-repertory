@@ -198,6 +198,16 @@ function getMockData(
           name: "Stramonium",
           score: 47,
           match_count: 8,
+          matches: [
+            { rubric_id: 10123, rubric: "Mind; fear, death of", weight: 4 },
+            { rubric_id: 10124, rubric: "Mind; violent, outbursts", weight: 4 },
+            { rubric_id: 10125, rubric: "Mind; alone, wants to be", weight: 3 },
+            { rubric_id: 10126, rubric: "Mind; confusion", weight: 3 },
+            { rubric_id: 10127, rubric: "Face; discoloration, red", weight: 2 },
+            { rubric_id: 10128, rubric: "Throat; dry", weight: 2 },
+            { rubric_id: 10129, rubric: "Sleep; sleeplessness", weight: 2 },
+            { rubric_id: 10130, rubric: "General; cold, forearm icy", weight: 1 },
+          ],
           cycle_analysis: {
             remedy_cycle: "Stramonium",
             segment_matches: [
@@ -222,6 +232,13 @@ function getMockData(
           name: "Arsenicum Album",
           score: 32,
           match_count: 5,
+          matches: [
+            { rubric_id: 20101, rubric: "Mind; anxiety, health about", weight: 4 },
+            { rubric_id: 20102, rubric: "Mind; restlessness", weight: 3 },
+            { rubric_id: 20103, rubric: "General; cold, sensitive to", weight: 3 },
+            { rubric_id: 20104, rubric: "Stomach; thirst, small quantities", weight: 2 },
+            { rubric_id: 20105, rubric: "Skin; burning", weight: 1 },
+          ],
           cycle_analysis: {
             remedy_cycle: null,
             segment_matches: [],
@@ -240,6 +257,12 @@ function getMockData(
           name: "Pulsatilla",
           score: 28,
           match_count: 4,
+          matches: [
+            { rubric_id: 30101, rubric: "Mind; weeping, consolation agg.", weight: 4 },
+            { rubric_id: 30102, rubric: "Mind; changeable mood", weight: 3 },
+            { rubric_id: 30103, rubric: "General; warm, wants", weight: 3 },
+            { rubric_id: 30104, rubric: "Stomach; thirstless", weight: 2 },
+          ],
           cycle_analysis: {
             remedy_cycle: "Pulsatilla Pratensis",
             segment_matches: [],

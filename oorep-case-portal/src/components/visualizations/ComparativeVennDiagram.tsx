@@ -31,22 +31,25 @@ export default function ComparativeVennDiagram({ remedies, onRubricClick, onReme
     for (let j = i + 1; j < show.length; j++) {
       const k = `${i}∩${j}`;
       keys.push(k);
-      intersections[k] = show[i].rubricIds.filter((id) => show[j].rubricIds.includes(id));
+      const ri = show[i].rubricIds || [];
+      const rj = show[j].rubricIds || [];
+      intersections[k] = ri.filter((id: string) => rj.includes(id));
     }
     if (show.length >= 3) {
       const k = "0∩1∩2";
       keys.push(k);
-      intersections[k] = show[0].rubricIds.filter(
-        (id) => show[1].rubricIds.includes(id) && show[2].rubricIds.includes(id)
-      );
+      const r0 = show[0].rubricIds || [];
+      const r1 = show[1].rubricIds || [];
+      const r2 = show[2].rubricIds || [];
+      intersections[k] = r0.filter((id: string) => r1.includes(id) && r2.includes(id));
     }
   }
 
   // Unique-only rubrics per remedy
   const unique: Record<number, string[]> = {};
   show.forEach((rem, idx) => {
-    const others = show.filter((_, i) => i !== idx).flatMap((r) => r.rubricIds);
-    unique[idx] = rem.rubricIds.filter((id) => !others.includes(id));
+    const others = show.filter((_, i) => i !== idx).flatMap((r) => r.rubricIds || []);
+    unique[idx] = (rem.rubricIds || []).filter((id: string) => !others.includes(id));
   });
 
   // Positions for 2 or 3 circles
