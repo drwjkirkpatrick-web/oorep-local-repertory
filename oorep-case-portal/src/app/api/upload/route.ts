@@ -8,13 +8,13 @@ export async function POST(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const caseCode = searchParams.get("case_code");
-    if (!caseCode) {
-      return NextResponse.json({ ok: false, error: "Missing case_code" }, { status: 400 });
-    }
 
-    const caseDoc = getCaseByCode(caseCode);
-    if (!caseDoc) {
-      return NextResponse.json({ ok: false, error: "Case not found" }, { status: 404 });
+    let caseDoc = null;
+    if (caseCode) {
+      caseDoc = getCaseByCode(caseCode);
+      if (!caseDoc) {
+        return NextResponse.json({ ok: false, error: "Case not found" }, { status: 404 });
+      }
     }
 
     const form = await request.formData();
@@ -27,7 +27,8 @@ export async function POST(request: Request) {
 
     for (const file of files) {
       const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, "_").slice(0, 120);
-      const relative = path.join(caseCode, `${Date.now()}_${safeName}`);
+      const subdir = caseCode || "practitioner-uploads";
+      const relative = path.join(subdir, `${Date.now()}_${safeName}`);
       const outPath = path.join(FILES_DIR, relative);
       mkdirSync(path.dirname(outPath), { recursive: true });
       const buffer = Buffer.from(await file.arrayBuffer());
@@ -35,8 +36,10 @@ export async function POST(request: Request) {
       uploaded.push({ name: file.name, relative_path: relative, type: file.type || "application/octet-stream", size: file.size });
     }
 
-    const { updateCase } = await import("@/lib/db");
-    updateCase(caseDoc.id, { files: [...(caseDoc.files || []), ...uploaded] });
+    if (caseDoc && caseDoc.id) {
+      const { updateCase } = await import("@/lib/db");
+      updateCase(caseDoc.id, { files: [...(caseDoc.files || []), ...uploaded] });
+    }
 
     return NextResponse.json({ ok: true, files: uploaded });
   } catch (err) {
