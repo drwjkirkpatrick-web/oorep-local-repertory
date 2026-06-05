@@ -208,7 +208,8 @@ class MateriaMedicaSearchEngine:
     def _highlight(self, text: str, query: str) -> List[str]:
         """Return snippets with matched words emphasized."""
         query_tokens = set(_tokenize(query))
-        sentences = re.split(r"(?&lt;=[.!?])\\s+", text)
+        # Sentence splitting using a simpler regex approach to avoid lookbehind issues
+        sentences = re.split(r'[.!?]', text)
         snippets = []
         for s in sentences:
             st = s.strip()

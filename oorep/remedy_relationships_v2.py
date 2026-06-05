@@ -49,7 +49,7 @@ class RemedyGraphEngine:
     def _load_relationships(self, data: Optional[Dict] = None) -> None:
         """Load graph edges from data or defaults."""
         self.edges = defaultdict(list)
-        base = data or self.CLASSICAL_RELATIONSHIPS
+        base = self.CLASSICAL_RELATIONSHIPS if data is None else data
         for rem, targets in base.items():
             self.edges[rem.upper().replace(".", "")] = targets
         if self.db_path:
