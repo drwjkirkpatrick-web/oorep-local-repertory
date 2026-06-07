@@ -69,8 +69,17 @@ from .followup_comparator import FollowupComparator
 from .differential_diagnosis import DifferentialDiagnosisEngine
 from .elimination_rubrics import EliminationEngine
 from .graphic_analysis import GraphicAnalysisEngine
-from .analysis_methods import AnalysisMethods, KentMethod, BoenninghausenMethod, BogerMethod, VithoulkasExpertSystem, MethodSwitcher
-from .bibliographic_engine import BibliographicEngine
+from .resampling_engine import ResamplingEngine
+from .survival_analysis import SurvivalAnalysis
+from .power_analysis import PowerAnalysis
+from .meta_analysis_engine import MetaAnalysisEngine
+from .inter_rater_reliability import InterRaterReliability
+from .case_complexity_scorer import CaseComplexityScorer
+from .repertory_pca import RepertoryPCA
+from .outcome_comparator import OutcomeComparator
+from .remedy_network_analysis import RemedyNetworkAnalyzer
+from .outcome_predictor_stats import OutcomePredictorStats
+
 
 __all__ = [
     # Core
@@ -153,4 +162,15 @@ __all__ = [
     "VithoulkasExpertSystem",
     "MethodSwitcher",
     "BibliographicEngine",
+    # Statistical Modules (v3.6)
+    "OutcomePredictorStats",
+    "RemedyNetworkAnalyzer",
+    "OutcomeComparator",
+    "RepertoryPCA",
+    "CaseComplexityScorer",
+    "InterRaterReliability",
+    "MetaAnalysisEngine",
+    "PowerAnalysis",
+    "SurvivalAnalysis",
+    "ResamplingEngine",
 ]

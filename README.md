@@ -1,13 +1,13 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **63 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, and the Clinical Mission Control dashboard.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **73 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, and the Clinical Mission Control dashboard.
 
-> **Version:** 3.5 | **License:** GPL v3  
+> **Version:** 3.6 | **License:** GPL v3  
 > **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links  
-> **Modules:** 63 Python modules  
-> **Tests:** 665 pytest tests  
-> **Coverage:** 59 of 59 (100%) LLM-Hermes benefits implemented  
-> **Dashboard:** Next.js Clinical Mission Control with 15 visualizations + live API + click-through drill-down
+> **Modules:** 73 Python modules  
+> **Tests:** 746 pytest tests  
+> **Coverage:** 59 of 59 (100%) LLM-Hermes benefits implemented + 14 statistical modules  
+> **Dashboard:** Next.js Clinical Mission Control with 25 visualizations + live API + click-through drill-down
 
 ---
 
@@ -36,6 +36,25 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 **Bibliographic Engine fully implemented** — Was a 31-line stub; now a 650-line citation engine with 13 pre-loaded classical sources (Hahnemann, Kent, Allen, Boenninghausen, Hering, Clarke, Nash, Boger, Herscu, OOREP), SQLite-backed source registration, rubric/remedy citation links, Vancouver/BibTeX/plain formatting, bibliography generation, and footnotes. 25 tests.
 
 **Master Score Engine test speed-up** — Module-scoped fixtures cut test time from >60s to ~10s on Jetson.
+
+### v3.6 — Statistical Validation Suite (NEW)
+
+**10 new pure-Python statistical modules** for clinical outcome validation, remedy comparison, case complexity scoring, and study design. No `scipy`, `pandas`, or `sklearn` dependencies — runs entirely offline on any hardware.
+
+| # | Module | What It Does | Tests |
+|---|--------|--------------|-------|
+| 64 | **Outcome Predictor Stats** | ROC/AUC curves, calibration analysis (ECE), bootstrap 95% CI on predictions | 14 |
+| 65 | **Remedy Network Analysis** | Graph centrality (PageRank, betweenness), community detection (Louvain), shortest path on remedy relationship graph | 13 |
+| 66 | **Outcome Comparator** | Mann-Whitney U (pure Python), odds ratio + CI, Cohen's d, Cliff's delta for remedy outcome comparison | 10 |
+| 67 | **Repertory PCA** | SVD/PCA on remedy-rubric matrix, 2D/3D projections, explained variance ratios | 10 |
+| 68 | **Case Complexity Scorer** | Symptom entropy, coverage ratio, redundancy, specificity → composite 0–1 complexity score | 5 |
+| 69 | **Inter-Rater Reliability** | Cohen's kappa, Fleiss' kappa, ICC(3,1) for practitioner agreement measurement | 10 |
+| 70 | **Meta-Analysis Engine** | Fixed-effect & random-effects (DerSimonian-Laird), forest plot data, I² heterogeneity | 10 |
+| 71 | **Power Analysis** | Sample size per group, achievable power, minimum detectable effect, power curves | 10 |
+| 72 | **Survival Analysis** | Kaplan-Meier estimator, median survival time, hazard ratio comparison between remedies | 10 |
+| 73 | **Resampling Engine** | Bootstrap CI (1000+ iterations), permutation tests, k-fold cross-validation | 13 |
+
+**Dashboard panels for all 10 modules** — ROC curve, network graph, comparator cards, PCA scatter, complexity gauge, kappa display, forest plot, power curve, Kaplan-Meier curve, and resampling visualization. All wired into the Clinical Mission Control 2-column responsive grid with BEGINNER/INTERMEDIATE/ADVANCED level badges.
 
 ---
 
@@ -141,7 +160,18 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 - **Rubric Explorer** — Kent hierarchy parent/child/sibling navigation. 10 tests.
 - **Private Rubric Manager** — Practitioner-created custom rubrics. 10 tests.
 
----
+### Statistics & Validation
+
+- **Outcome Predictor Stats** (#64) — ROC/AUC curves, calibration analysis (ECE), bootstrap 95% CI on predictions. Dashboard: ROC curve + calibration plot. 14 tests.
+- **Remedy Network Analysis** (#65) — Graph centrality (PageRank, betweenness, closeness), Louvain community detection, shortest path on remedy relationship graph. Dashboard: force-directed network. 13 tests.
+- **Outcome Comparator** (#66) — Mann-Whitney U (pure Python), odds ratio + Wilson CI, Cohen's d, Cliff's delta between two remedies. Dashboard: comparator metric cards. 10 tests.
+- **Repertory PCA** (#67) — SVD/PCA on remedy-rubric matrix, 2D/3D projections, explained variance. Dashboard: scatter plot. 10 tests.
+- **Case Complexity Scorer** (#68) — Symptom entropy, coverage ratio, redundancy, specificity → composite 0–1 score. Dashboard: gauge + component bars. 5 tests.
+- **Inter-Rater Reliability** (#69) — Cohen's kappa, Fleiss' kappa, ICC(3,1) for practitioner agreement. Dashboard: kappa + ICC display. 10 tests.
+- **Meta-Analysis Engine** (#70) — Fixed-effect & random-effects (DerSimonian-Laird), heterogeneity metrics (Q, τ², I²), forest plot data. Dashboard: pooled rate + heterogeneity cards. 10 tests.
+- **Power Analysis** (#71) — Sample size per group, achievable power, minimum detectable effect, power curve generation. Dashboard: power curve SVG. 10 tests.
+- **Survival Analysis** (#72) — Kaplan-Meier estimator, median survival time, hazard ratio comparison. Dashboard: survival curve + median line. 10 tests.
+- **Resampling Engine** (#73) — Bootstrap CI (1000+ iterations), permutation tests, k-fold cross-validation. Dashboard: CI interval + CV fold bars. 13 tests.
 
 ## Quick Start
 
@@ -234,8 +264,18 @@ oorep-local-repertory/
 │   ├── miasm_tracking.py           # Miasm history
 │   ├── remedy_relationships_v2.py  # Graph-based relations
 │   ├── mobile_api.py               # Mobile-responsive API
-│   └── ...                         # 40+ additional modules
-├── tests/                          # 665 pytest tests across 39 test files
+│   ├── outcome_predictor_stats.py  # ROC/AUC + calibration + bootstrap
+│   ├── remedy_network_analysis.py  # Graph centrality + communities
+│   ├── outcome_comparator.py       # Mann-Whitney + odds ratio + Cohen's d
+│   ├── repertory_pca.py            # SVD/PCA on remedy-rubric matrix
+│   ├── case_complexity_scorer.py   # Symptom entropy + coverage gaps
+│   ├── inter_rater_reliability.py  # Cohen's/Fleiss' kappa + ICC
+│   ├── meta_analysis_engine.py     # Fixed/random-effects meta-analysis
+│   ├── power_analysis.py           # Sample size + power curves
+│   ├── survival_analysis.py        # Kaplan-Meier + hazard ratios
+│   ├── resampling_engine.py        # Bootstrap + permutation + CV
+│   └── ...                         # 50+ additional modules
+├── tests/                          # 746 pytest tests across 49 test files
 ├── oorep-case-portal/              # Next.js Clinical Mission Control
 ├── scripts/                        # Data extraction, builders, runners
 ├── data/                           # OOREP JSON + indexes (gitignored)
@@ -270,7 +310,7 @@ pytest tests/ --timeout=45 -q
 
 Next.js practitioner-facing dashboard with:
 
-- **15 visualization components** — cycle rings, coverage heatmaps, Venn diagrams, phantom gauges, differential radar, outcome sparklines, potency waterfalls, miasm donuts, kingdom clouds, confidence strips, family graphs, layer timelines, Sankey flows, rubric trees, grand rounds panels
+- **25 visualization components** — cycle rings, coverage heatmaps, Venn diagrams, phantom gauges, differential radar, outcome sparklines, potency waterfalls, miasm donuts, kingdom clouds, confidence strips, family graphs, layer timelines, Sankey flows, rubric trees, grand rounds panels, **ROC curves, network graphs, comparator cards, PCA scatters, complexity gauges, kappa displays, forest plots, power curves, Kaplan-Meier curves, resampling panels**
 - **Live API data layer** — pulls from OOREP backend via Next.js routes
 - **Click-through drill-down** — every remedy/rubric clickable to detail pages
 - **Pipeline builder** — drag-and-drop module nodes for reusable SOPs

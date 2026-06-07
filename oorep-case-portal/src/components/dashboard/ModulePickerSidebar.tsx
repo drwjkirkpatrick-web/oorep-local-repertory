@@ -12,6 +12,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   teaching: "Teaching & Training",
   workflow: "Documentation & Workflow",
   infrastructure: "Multi-Agent & Infra",
+  statistics: "Statistics & Validation",
 };
 
 const CATEGORY_ORDER = [
@@ -23,6 +24,7 @@ const CATEGORY_ORDER = [
   "workflow",
   "teaching",
   "infrastructure",
+  "statistics",
 ];
 
 export default function ModulePickerSidebar({

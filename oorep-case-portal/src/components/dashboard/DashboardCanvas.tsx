@@ -19,6 +19,17 @@ import FamilyConstellationGraph from "@/components/visualizations/FamilyConstell
 import KingdomMorphologyCloud from "@/components/visualizations/KingdomMorphologyCloud";
 import LayerTimelineRibbon from "@/components/visualizations/LayerTimelineRibbon";
 
+import ROCAUCurve from "@/components/visualizations/ROCAUCurve";
+import NetworkGraph from "@/components/visualizations/NetworkGraph";
+import OutcomeComparatorPanel from "@/components/visualizations/OutcomeComparatorPanel";
+import RepertoryPCAPanel from "@/components/visualizations/RepertoryPCAPanel";
+import CaseComplexityPanel from "@/components/visualizations/CaseComplexityPanel";
+import InterRaterReliabilityPanel from "@/components/visualizations/InterRaterReliabilityPanel";
+import MetaAnalysisPanel from "@/components/visualizations/MetaAnalysisPanel";
+import PowerAnalysisPanel from "@/components/visualizations/PowerAnalysisPanel";
+import SurvivalAnalysisPanel from "@/components/visualizations/SurvivalAnalysisPanel";
+import ResamplingEnginePanel from "@/components/visualizations/ResamplingEnginePanel";
+
 export default function DashboardCanvas({
   modules,
   results,
@@ -364,6 +375,69 @@ export default function DashboardCanvas({
             remedies={repertorizationData.slice(0, 4)}
             onRemedyClick={handleRemedyClick}
           />
+        </div>
+
+        {/* ═══════════════════════════════════════
+            STATISTICAL MODULE PANELS (v3.6)
+        ═══════════════════════════════════════ */}
+        {/* Outcome Predictor Stats — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Outcome Prediction Validation" level="ADVANCED" subtitle="ROC/AUC, calibration, bootstrap CI" />
+          <ROCAUCurve rocData={results["outcome_predictor_stats"]?.data?.roc} calibrationData={results["outcome_predictor_stats"]?.data?.calibration} bootstrapCI={results["outcome_predictor_stats"]?.data?.bootstrap_ci} />
+        </div>
+
+        {/* Remedy Network Analysis — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Remedy Network Analysis" level="ADVANCED" subtitle="Graph centrality, communities, PageRank" />
+          <NetworkGraph centrality={results["remedy_network_analysis"]?.data?.centrality} />
+        </div>
+
+        {/* Outcome Comparator — STATISTICS */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Outcome Comparator" level="ADVANCED" subtitle="Mann-Whitney, odds ratio, Cohen's d" />
+          <OutcomeComparatorPanel result={results["outcome_comparator"]?.data} />
+        </div>
+
+        {/* Repertory PCA — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Repertory PCA" level="ADVANCED" subtitle="SVD/PCA on remedy-rubric matrix" />
+          <RepertoryPCAPanel result={results["repertory_pca"]?.data} />
+        </div>
+
+        {/* Case Complexity — INTERMEDIATE */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Case Complexity" level="INTERMEDIATE" subtitle="Entropy, coverage gaps, redundancy" />
+          <CaseComplexityPanel result={results["case_complexity"]?.data} />
+        </div>
+
+        {/* Inter-Rater Reliability — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Inter-Rater Reliability" level="ADVANCED" subtitle="Cohen's / Fleiss' kappa, ICC" />
+          <InterRaterReliabilityPanel result={results["inter_rater_reliability"]?.data} />
+        </div>
+
+        {/* Meta-Analysis — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Meta-Analysis" level="ADVANCED" subtitle="Fixed/random-effects with heterogeneity" />
+          <MetaAnalysisPanel result={results["meta_analysis"]?.data} />
+        </div>
+
+        {/* Power Analysis — INTERMEDIATE */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Power Analysis" level="INTERMEDIATE" subtitle="Sample size, power curves, MDE" />
+          <PowerAnalysisPanel result={results["power_analysis"]?.data} />
+        </div>
+
+        {/* Survival Analysis — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Survival Analysis" level="ADVANCED" subtitle="Kaplan-Meier, hazard ratios" />
+          <SurvivalAnalysisPanel result={results["survival_analysis"]?.data} />
+        </div>
+
+        {/* Resampling Engine — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Resampling Engine" level="ADVANCED" subtitle="Bootstrap CI, permutation, cross-validation" />
+          <ResamplingEnginePanel result={results["resampling_engine"]?.data} />
         </div>
       </div>
     </main>
