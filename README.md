@@ -98,15 +98,7 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 | 107 | **Social Community** | Infrastructure | — |
 | 108 | **Mobile App Native** | Infrastructure | — |
 | 109 | **Global Stats Dashboard** | Analytics | — |
-| 110 | **Export Research Formats** | Analytics | — |
-| 111 | **Repertory Update Diff** | Infrastructure | — |
-| 112 | **Repertory Quiz / Self-Assessment** | Teaching | — |
-| 113 | **Remedy Affinity / Constitutional Predisposition** | Analytics | — |
-| 114 | **Symptom Extraction from Free Text (NLP)** | Analytics | — |
-| 115 | **Telemedicine Integration** | Infrastructure | — |
-| 116 | **3D Remedy Relationship Visualization** | Analytics | — |
-| 117 | **AI-Generated Remedy Differential** | Differential | — |
-| 118 | **Blockchain Audit Trail** | Safety | — |
+|| 110 | **Export Research Formats** | Analytics | — |
 
 **Dashboard panels for key modules** — Reverse repertorization rubric list, constitutional tracker timeline, prescription safety check, posology schedule, symptom severity gauge, clinical tips reliability chart, protocol builder list, inventory status grid, miasm layer indicator, and case similarity "what worked" table. All wired into the Clinical Mission Control grid.
 
@@ -228,6 +220,46 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 - **Power Analysis** (#71) — Sample size per group, achievable power, minimum detectable effect, power curve generation. Dashboard: power curve SVG. 10 tests.
 - **Survival Analysis** (#72) — Kaplan-Meier estimator, median survival time, hazard ratio comparison. Dashboard: survival curve + median line. 10 tests.
 - **Resampling Engine** (#73) — Bootstrap CI (1000+ iterations), permutation tests, k-fold cross-validation. Dashboard: CI interval + CV fold bars. 13 tests.
+
+### Feature Expansion v3.7
+
+- **Symptom Severity Scorer** (#74) — Intensity-based repertorization weighting (1–10 scale). Multiplier affects final remedy score. 4 tests.
+- **Duplicate Remedy Detector** (#75) — Antidote and inimical prescription warnings based on patient prescription history. 4 tests.
+- **Clinical Tips Engine** (#76) — Practitioner notes and author commentary on rubrics. Builds institutional knowledge over time.
+- **Author Filter** (#77) — Filter repertory view by provenance authority — include or exclude specific authors/provings.
+- **Quick Symptom Lookup** (#78) — Single-symptom fast search without full repertorization workflow.
+- **Batch Protocol Builder** (#79) — Build standard protocols for common conditions with symptom sets, remedy sequences, and potency ladders.
+- **Prescription PDF Generator** (#80) — Generate professional prescription PDFs with remedy, potency, dosage, and practitioner info.
+- **Appointment Scheduler** (#81) — Calendar integration for follow-ups and acute appointments with overdue alerts.
+- **Follow-Up Prompt Generator** (#82) — Automated follow-up questions based on prescribed remedy, potency, and days elapsed.
+- **Automated Index Rebuilder** (#83) — Automatically rebuild inverted and vector indexes when new rubrics are added.
+- **Voice-to-Text Audio Import** (#84) — Audio import and transcription for any microphone (not just Blue Snowball). Transcript → symptom extraction pipeline.
+- **Inventory Manager** (#85) — Track remedy stock levels, expiry dates, and potency availability. Low-stock alerts.
+- **Patient Portal** (#86) — Read-only case summaries and prescription history for patient access. Privacy-preserving.
+- **Billing Integration** (#87) — Generate invoices, track payments, and manage insurance claim codes.
+- **Reverse Repertorization** (#88) — Given a remedy, display all rubrics where it appears graded — the inverse of normal repertorization. 4 tests.
+- **Constitutional Remedy Tracker** (#89) — Track constitutional remedy over years: confirmations, potency escalations, LM series, acute intercurrents.
+- **Posology Scheduler** (#90) — Classical posology: when to repeat, when to wait, when to change potency, when to antidote. 5 tests.
+- **Case Similarity Search** (#91) — Find previous cases with similar symptom patterns using vector similarity. Show what remedies worked. 3 tests.
+- **Modality Matrix** (#92) — Boenninghausen-style grid: modalities as columns, remedies as rows, grades as cell values.
+- **Miasm Timeline** (#93) — Visual timeline showing miasmatic layers uncovered over treatment: Psora → Sycosis → Syphilis → Tubercular → Cancer.
+- **Case Summarizer** (#94) — Auto-generate readable case summaries from structured data. Narrative generation for charts.
+- **Rubric Quality Scorer** (#95) — Score rubric quality based on grade distribution, source diversity, coverage, and inter-rater agreement.
+- **Symptom Narrative Extractor** (#96) — NLP symptom extraction from free-text case narratives. Pattern-based parser for modalities and concomitants.
+- **Cross-Reference Repertory** (#97) — Link rubrics across repertories (Kent ↔ Boenninghausen ↔ Boger ↔ Synthesis ↔ OOREP). Universal concordance.
+- **Multi-Language Display** (#98) — Display rubrics in multiple languages simultaneously. Scaffold for i18n.
+- **Sensation Method Integration** (#99) — Sankaran-style kingdom/sub-kingdom/source/sensation/miasm taxonomy. Scaffold.
+- **Proving Text Search** (#100) — Search inside proving texts, not just rubric headings. Full materia medica text search.
+- **Remedy Pictures** (#101) — Visual reference for remedies: source images, constitutional types. Scaffold — requires image sourcing.
+- **Repertory Synthesis** (#102) — Create personal repertories by selecting rubrics from multiple sources and adding clinical observations.
+- **Polarity Analysis** (#103) — Heiner Frei's systematic symptom analysis: confirmed vs refuted symptoms to narrow remedies by polar opposites.
+- **Therapeutic Pocket Book** (#104) — Boenninghausen's TPB repertory data integration. Scaffold — requires separate TPB data source.
+- **Cloud Sync Manager** (#105) — Encrypted multi-device synchronization for patient files and case history. Scaffold.
+- **Gamification Engine** (#106) — Points, streaks, and learning rewards for remedy identification and quiz performance.
+- **Social Community** (#107) — Share anonymized cases for peer review and discussion. Scaffold — requires moderation controls.
+- **Mobile App Native** (#108) — Native mobile API designed for iOS/Android app consumption. Lightweight JSON, offline-first.
+- **Global Stats Dashboard** (#109) — Practice analytics: most-searched rubrics, most-prescribed remedies, outcome rates by remedy.
+- **Export Research Formats** (#110) — Export anonymized case data as CSV, SPSS, or R data frames for research analysis.
 
 ## Quick Start
 
