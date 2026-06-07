@@ -79,6 +79,43 @@ from .repertory_pca import RepertoryPCA
 from .outcome_comparator import OutcomeComparator
 from .remedy_network_analysis import RemedyNetworkAnalyzer
 from .outcome_predictor_stats import OutcomePredictorStats
+from .symptom_severity_scorer import SymptomSeverityScorer
+from .duplicate_remedy_detector import DuplicateRemedyDetector
+from .clinical_tips_engine import ClinicalTipsEngine
+from .author_filter import AuthorFilter
+from .quick_symptom_lookup import QuickSymptomLookup
+from .batch_protocol_builder import BatchProtocolBuilder
+from .prescription_pdf_generator import PrescriptionPDFGenerator
+from .appointment_scheduler import AppointmentScheduler
+from .followup_prompt_generator import FollowUpPromptGenerator
+from .automated_index_rebuilder import AutomatedIndexRebuilder
+from .voice_to_text_audio_import import VoiceToTextAudioImport
+from .inventory_manager import InventoryManager
+from .patient_portal import PatientPortal
+from .billing_integration import BillingIntegration
+from .reverse_repertorization import ReverseRepertorization
+from .constitutional_remedy_tracker import ConstitutionalRemedyTracker
+from .posology_scheduler import PosologyScheduler
+from .case_similarity_search import CaseSimilaritySearch
+from .modality_matrix import ModalityMatrix
+from .miasm_timeline import MiasmTimeline
+from .case_summarizer import CaseSummarizer
+from .rubric_quality_scorer import RubricQualityScorer
+from .symptom_narrative_extractor import SymptomNarrativeExtractor
+from .cross_reference_repertory import CrossReferenceRepertory
+from .multi_language_display import MultiLanguageDisplay
+from .sensation_method_integration import SensationMethodIntegration
+from .proving_text_search import ProvingTextSearch
+from .remedy_pictures import RemedyPictures
+from .repertory_synthesis import RepertorySynthesis
+from .polarity_analysis import PolarityAnalysis
+from .therapeutic_pocket_book import TherapeuticPocketBook
+from .cloud_sync_manager import CloudSyncManager
+from .gamification_engine import GamificationEngine
+from .social_community import SocialCommunity
+from .mobile_app_native import MobileAppNative
+from .global_stats_dashboard import GlobalStatsDashboard
+from .export_research_formats import ExportResearchFormats
 
 
 __all__ = [
@@ -173,4 +210,42 @@ __all__ = [
     "PowerAnalysis",
     "SurvivalAnalysis",
     "ResamplingEngine",
+    # Feature Expansion Modules (v3.7) — 45 new features
+    "SymptomSeverityScorer",
+    "DuplicateRemedyDetector",
+    "ClinicalTipsEngine",
+    "AuthorFilter",
+    "QuickSymptomLookup",
+    "BatchProtocolBuilder",
+    "PrescriptionPDFGenerator",
+    "AppointmentScheduler",
+    "FollowUpPromptGenerator",
+    "AutomatedIndexRebuilder",
+    "VoiceToTextAudioImport",
+    "InventoryManager",
+    "PatientPortal",
+    "BillingIntegration",
+    "ReverseRepertorization",
+    "ConstitutionalRemedyTracker",
+    "PosologyScheduler",
+    "CaseSimilaritySearch",
+    "ModalityMatrix",
+    "MiasmTimeline",
+    "CaseSummarizer",
+    "RubricQualityScorer",
+    "SymptomNarrativeExtractor",
+    "CrossReferenceRepertory",
+    "MultiLanguageDisplay",
+    "SensationMethodIntegration",
+    "ProvingTextSearch",
+    "RemedyPictures",
+    "RepertorySynthesis",
+    "PolarityAnalysis",
+    "TherapeuticPocketBook",
+    "CloudSyncManager",
+    "GamificationEngine",
+    "SocialCommunity",
+    "MobileAppNative",
+    "GlobalStatsDashboard",
+    "ExportResearchFormats",
 ]

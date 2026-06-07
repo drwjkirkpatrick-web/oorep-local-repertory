@@ -29,6 +29,16 @@ import MetaAnalysisPanel from "@/components/visualizations/MetaAnalysisPanel";
 import PowerAnalysisPanel from "@/components/visualizations/PowerAnalysisPanel";
 import SurvivalAnalysisPanel from "@/components/visualizations/SurvivalAnalysisPanel";
 import ResamplingEnginePanel from "@/components/visualizations/ResamplingEnginePanel";
+import ReverseRepertorizationPanel from "@/components/visualizations/ReverseRepertorizationPanel";
+import ConstitutionalTrackerPanel from "@/components/visualizations/ConstitutionalTrackerPanel";
+import DuplicateRemedyPanel from "@/components/visualizations/DuplicateRemedyPanel";
+import PosologySchedulerPanel from "@/components/visualizations/PosologySchedulerPanel";
+import SymptomSeverityPanel from "@/components/visualizations/SymptomSeverityPanel";
+import ClinicalTipsPanel from "@/components/visualizations/ClinicalTipsPanel";
+import BatchProtocolPanel from "@/components/visualizations/BatchProtocolPanel";
+import InventoryPanel from "@/components/visualizations/InventoryPanel";
+import MiasmTimelinePanel from "@/components/visualizations/MiasmTimelinePanel";
+import CaseSimilarityPanel from "@/components/visualizations/CaseSimilarityPanel";
 
 export default function DashboardCanvas({
   modules,
@@ -438,6 +448,69 @@ export default function DashboardCanvas({
         <div className="bg-white rounded-lg border shadow-sm p-4">
           <PanelHeader title="Resampling Engine" level="ADVANCED" subtitle="Bootstrap CI, permutation, cross-validation" />
           <ResamplingEnginePanel result={results["resampling_engine"]?.data} />
+        </div>
+
+        {/* ═══════════════════════════════════════
+            FEATURE EXPANSION PANELS (v3.7)
+        ═══════════════════════════════════════ */}
+        {/* Reverse Repertorization — BEGINNER */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Reverse Repertorization" level="BEGINNER" subtitle="Remedy → rubric inquiry" />
+          <ReverseRepertorizationPanel result={results["reverse_repertorization"]?.data} />
+        </div>
+
+        {/* Constitutional Tracker — INTERMEDIATE */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Constitutional Remedy Tracker" level="INTERMEDIATE" subtitle="Longitudinal prescription history" />
+          <ConstitutionalTrackerPanel result={results["constitutional_tracker"]?.data} />
+        </div>
+
+        {/* Duplicate Remedy Detector — BEGINNER */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Prescription Safety Check" level="BEGINNER" subtitle="Antidote & inimical warnings" />
+          <DuplicateRemedyPanel result={results["duplicate_remedy_detector"]?.data} />
+        </div>
+
+        {/* Posology Scheduler — INTERMEDIATE */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Posology Scheduler" level="INTERMEDIATE" subtitle="Dosing & repetition guidance" />
+          <PosologySchedulerPanel result={results["posology_scheduler"]?.data} />
+        </div>
+
+        {/* Symptom Severity — BEGINNER */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Symptom Severity" level="BEGINNER" subtitle="Intensity-based weighting" />
+          <SymptomSeverityPanel result={results["symptom_severity"]?.data} />
+        </div>
+
+        {/* Clinical Tips — INTERMEDIATE */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Clinical Tips" level="INTERMEDIATE" subtitle="Practitioner notes on rubrics" />
+          <ClinicalTipsPanel result={results["clinical_tips"]?.data} />
+        </div>
+
+        {/* Batch Protocols — INTERMEDIATE */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Protocol Builder" level="INTERMEDIATE" subtitle="Standard condition protocols" />
+          <BatchProtocolPanel result={results["batch_protocols"]?.data} />
+        </div>
+
+        {/* Inventory — BEGINNER */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Inventory Manager" level="BEGINNER" subtitle="Remedy stock & expiry tracking" />
+          <InventoryPanel result={results["inventory"]?.data} />
+        </div>
+
+        {/* Miasm Timeline — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Miasm Timeline" level="ADVANCED" subtitle="Miasmatic layer history" />
+          <MiasmTimelinePanel result={results["miasm_timeline"]?.data} />
+        </div>
+
+        {/* Case Similarity — ADVANCED */}
+        <div className="bg-white rounded-lg border shadow-sm p-4">
+          <PanelHeader title="Case Similarity Search" level="ADVANCED" subtitle="Previous cases like this one" />
+          <CaseSimilarityPanel result={results["case_similarity"]?.data} />
         </div>
       </div>
     </main>
