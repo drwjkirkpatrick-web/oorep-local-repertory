@@ -1,8 +1,36 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **41 specialized modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, and the Clinical Mission Control dashboard.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **63 specialized modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, and the Clinical Mission Control dashboard.
 
-> **Version:** 3.4 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 41 Python modules + Clinical Mission Control (Next.js dashboard with 15 visualization components + live API data + click-through drill-down) | **Tests:** 271 passing (Python) + portal smoke tests | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
+> **Version:** 3.5 | **License:** GPL v3 | **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links | **Modules:** 63 Python modules + Clinical Mission Control (Next.js dashboard with 15 visualization components + live API data + click-through drill-down) | **Tests:** 643 passing (Python) + portal smoke tests | **Coverage:** **59 of 59 (100%)** LLM-Hermes benefits implemented
+
+---
+
+## Recent Updates (June 2026)
+
+### Package API Expansion — All Modules Now Importable
+Previously, ~23 newer modules (Clipboard Manager, Master Score Engine, Family Grouping, Word-Wrap Search, Analysis Save/Recall, Patient File System, Edition Comparison, Outcome Prediction, Multi-Repertory Search, Materia Medica Full-Text Search, Mobile API, Toxicology Layer, Miasm Tracker, Remedy Relationships V2, Keynote Autocomplete, Correlation Matrix, Follow-up Comparator, Differential Diagnosis, Elimination Rubrics, Graphic Analysis, Pluggable Analysis Methods, Bibliographic Engine) were missing from `oorep/__all__`. They are now all exportable via standard `from oorep import ...`.
+
+### Clipboard Manager — Multi-Clipboard Symptom Collection
+Named clipboards where rubrics from any search can be collected, combined, eliminated, and analyzed. Supports inclusion (1.0×), optional (0.5×), and elimination clipboards. Integrates with `HomeopathicRepertory.repertorize()` for classical grade-only scoring. 8 unit tests + bridge integration.
+
+### Master Score Engine — Composite Repertorization
+Combines Kent, Boenninghausen, SRP, rarity, and kingdom scorers into a single composite score with confidence intervals. 29 unit tests + 6 bridge integration tests.
+
+### Analysis Save/Recall with Versioning
+SQLite-backed analysis snapshots with auto-incrementing versions per consultation. Baseline flagging, side-by-side comparison (common/changed/new/dropped remedies with score deltas). 18 unit tests + 6 bridge integration tests.
+
+### Patient File System with SOAP Integration
+Patient CRUD, consultation tracking, cascading deletes, auto-updated `last_seen`, chief-complaint timeline, outcome notes. 16 unit tests + 6 bridge integration tests.
+
+### Family Grouping — Kingdom/Family Filter & Scoring
+Filter repertorization results by kingdom (plant/mineral/animal) or family (Solanaceae, Ranunculaceae, etc.). Family-level scoring, kingdom-level scoring, head-to-head comparisons. 17 unit tests + 11 bridge integration tests.
+
+### Word-Wrap Proximity Search
+Multi-word phrase matching with adjacency scoring. Finds rubrics where query tokens appear close together, with configurable window size. 16 unit tests.
+
+### 15 Scaffolded Radar Opus Features (Overnight Build)
+Full implementations + comprehensive tests for: Multi-Repertory Search, Materia Medica Full-Text Search, Pluggable Analysis Methods (Kent/Boenninghausen/Boger/VES), Graphic Analysis, Elimination Rubrics, Differential Diagnosis, Follow-up Comparator, Correlation Matrix, Keynote Autocomplete, Toxicology Layer, Miasm Tracking, Remedy Relationships V2, Bibliographic Engine, Mobile API, Edition Comparison, and Outcome Prediction.
 
 ---
 
@@ -91,7 +119,7 @@ After the LLM extracts symptoms, it performs intelligent fuzzy matching against 
 
 ---
 
-## New in V2.0: Advanced Practitioner Modules (29 Modules + 12 Core = 41 Total)
+## New in V2.0: Advanced Practitioner Modules (63 Python modules)
 
 ### Differential Diagnosis & Selection
 
@@ -493,27 +521,49 @@ oorep-local-repertory/
 │   ├── acute_chronic_layer.py    # Layer separation (#17)
 │   ├── kent_vs_boenninghausen.py  # Method comparison (#46)
 │   ├── personality_engine_bridge.py # Personality ↔ OOREP bridge (#47, #56)
-│   ├── cycles_and_segments.py       # Herscu cycle/segment analysis (#59)
-│   ├── student_training.py        # Simulated patients + quizzes (#38)
-│   ├── clinical_vignette_quiz.py  # Real outcome quiz generator (#45)
-│   ├── grand_rounds.py            # Multi-case synthesis (#48)
-│   ├── soap_assembler.py          # SOAP generation (#31)
-│   ├── letter_generator.py        # Document generation (#34)
-│   ├── remedy_freshness_tracker.py # Staleness alerts (#39)
-│   ├── rubric_gap_analyzer.py    # Gap detection (#40)
-│   ├── subagent_orchestrator.py  # Case analysis plans (#35-37)
-│   ├── model_router.py           # Local/cloud routing (#57)
-│   ├── materia_medica.py         # Full-text proving DB (#18, #21)
-│   ├── kingdom_taxonomy.py       # Mineral/Plant/Animal tags (#22)
-│   ├── botanical_bridge.py       # WHO Monograph cross-map (#28)
-│   ├── genomic_hypothesis.py     # SNP → remedy outcomes (#29)
-│   ├── flashcard_srs.py          # SM-2 spaced repetition (#44)
-│   └── cron_tasks.py             # Follow-ups, rebuild, backup (#33, #42, #43)
+├── cycles_and_segments.py       # Herscu cycle/segment analysis (#59)
+├── student_training.py        # Simulated patients + quizzes (#38)
+├── clinical_vignette_quiz.py  # Real outcome quiz generator (#45)
+├── grand_rounds.py            # Multi-case synthesis (#48)
+├── soap_assembler.py          # SOAP generation (#31)
+├── letter_generator.py        # Document generation (#34)
+├── remedy_freshness_tracker.py # Staleness alerts (#39)
+├── rubric_gap_analyzer.py    # Gap detection (#40)
+├── subagent_orchestrator.py  # Case analysis plans (#35-37)
+├── model_router.py           # Local/cloud routing (#57)
+├── materia_medica.py         # Full-text proving DB (#18, #21)
+├── kingdom_taxonomy.py       # Mineral/Plant/Animal tags (#22)
+├── botanical_bridge.py       # WHO Monograph cross-map (#28)
+├── genomic_hypothesis.py     # SNP → remedy outcomes (#29)
+├── flashcard_srs.py          # SM-2 spaced repetition (#44)
+├── cron_tasks.py             # Follow-ups, rebuild, backup (#33, #42, #43)
+├── clipboard_manager.py      # Multi-clipboard symptom collection (#1)
+├── patient_file_system.py    # Patient CRUD + consultations (#14)
+├── analysis_manager.py       # Analysis save/recall + versioning (#16)
+├── word_wrap_search.py       # Proximity phrase search (#9)
+├── master_score_engine.py    # Composite scoring (#6)
+├── family_grouping.py        # Kingdom/family filter & scoring (#7)
+├── edition_comparison.py     # Multi-edition rubric drift (#29)
+├── outcome_prediction.py     # Outcome trend forecasting (#28)
+├── multi_repertory.py        # Search across multiple corpora (#10)
+├── materia_medica_search.py  # Full-text MM TF-IDF search (#11)
+├── mobile_api.py             # Mobile-responsive API layer (#27)
+├── toxicology_layer.py       # Drug interaction / proving safety (#23)
+├── miasm_tracking.py         # Miasm history + suppression (#24)
+├── remedy_relationships_v2.py # Graph-based remedy relations (#25)
+├── keynote_autocomplete.py   # Kent keynote trie completion (#22)
+├── correlation_matrix.py     # Remedy pair overlap matrix (#21)
+├── followup_comparator.py    # Follow-up remedy change analysis (#20)
+├── differential_diagnosis.py # Differential remedy ranking (#19)
+├── elimination_rubrics.py    # Exclusion-based rubric engine (#18)
+├── graphic_analysis.py       # Visual score plots (#17)
+├── analysis_methods.py       # Pluggable Kent/Boenninghausen/Boger/VES (#13)
+└── bibliographic_engine.py   # Citation engine + source tracing (#26)
 ├── scripts/
 │   ├── extract_oorep.py          # Extract OOREP SQL → JSON
 │   ├── remedy_feedback.py        # Prescription outcome tracking
 │   └── build_cycle.py            # Cycle & Segment builder / validator
-├── tests/                        # 271 pytest tests
+├── tests/                        # 643 pytest tests
 │   ├── conftest.py
 │   ├── test_clinical_rubric_mapper.py
 │   ├── test_hybrid_repertory.py
@@ -522,9 +572,37 @@ oorep-local-repertory/
 │   ├── test_batch_b.py           # Phase 3 batch B
 │   ├── test_batch_c.py           # Phase 3 batch C
 │   ├── test_batch_d.py           # Phase 4 batch D
-│   └── test_batch_e.py           # Phase 5 batch E (final benefits)
-│   └── test_cycles_and_segments.py  # Herscu cycle/segment module (#59)
-│   └── test_cycles_in_repertorization.py  # Cycle enrichment inside repertorize()
+│   ├── test_batch_e.py           # Phase 5 batch E (final benefits)
+│   ├── test_cycles_and_segments.py      # Herscu cycle/segment module (#59)
+│   ├── test_cycles_in_repertorization.py  # Cycle enrichment inside repertorize()
+│   ├── test_clipboard_manager.py        # Multi-clipboard symptom collection
+│   ├── test_clipboard_bridge.py         # Bridge integration for clipboard
+│   ├── test_grade_mode.py               # Grade mode (full/classical/strict)
+│   ├── test_patient_file_system.py      # Patient CRUD + consultations
+│   ├── test_patient_bridge.py           # Bridge integration for patients
+│   ├── test_analysis_manager.py         # Analysis save/recall + versioning
+│   ├── test_analysis_bridge.py          # Bridge integration for analysis
+│   ├── test_family_grouping.py          # Kingdom/family filter & scoring
+│   ├── test_family_grouping_bridge.py   # Bridge integration for family grouping
+│   ├── test_word_wrap_search.py         # Proximity phrase search
+│   ├── test_master_score_engine.py      # Composite scoring
+│   ├── test_master_score_bridge.py      # Bridge integration for master score
+│   ├── test_multi_repertory.py          # Multi-repertory search
+│   ├── test_materia_medica_search.py    # Full-text MM TF-IDF
+│   ├── test_analysis_methods.py         # Pluggable analysis methods
+│   ├── test_graphic_analysis.py         # Visual score plots
+│   ├── test_elimination_rubrics.py      # Exclusion-based rubric engine
+│   ├── test_differential_diagnosis.py     # Differential remedy ranking
+│   ├── test_followup_comparator.py      # Follow-up remedy change
+│   ├── test_correlation_matrix.py       # Remedy pair overlap matrix
+│   ├── test_keynote_autocomplete.py     # Kent keynote trie completion
+│   ├── test_toxicology_layer.py         # Drug interaction safety
+│   ├── test_miasm_tracking.py           # Miasm history + suppression
+│   ├── test_remedy_relationships_v2.py  # Graph-based remedy relations
+│   ├── test_bibliographic_engine.py     # Citation engine
+│   ├── test_mobile_api.py               # Mobile-responsive API
+│   ├── test_edition_comparison.py       # Multi-edition drift
+│   └── test_outcome_prediction.py       # Outcome trend forecasting
 ├── examples/
 │   └── basic_usage.py            # Copy-paste starter code
 ├── data/                         # Extracted OOREP JSON (gitignored)
@@ -595,7 +673,7 @@ pip install pytest
 pytest tests/ -v
 ```
 
-Full suite: **271 tests** covering all 41 modules.
+Full suite: **643 tests** covering all 63 modules.
 
 ---
 

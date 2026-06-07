@@ -48,7 +48,32 @@ from .flashcard_srs import FlashcardSRS
 from .cron_tasks import CronTasks
 from .cycles_and_segments import CyclesAndSegmentsEngine, RemedyCycle, CycleSegment
 
+# New modules from overnight builds & recent sessions
+from .clipboard_manager import ClipboardManager, ClipboardType, Clipboard, ClipboardRubric
+from .patient_file_system import PatientFileSystem
+from .analysis_manager import AnalysisManager
+from .word_wrap_search import WordWrapSearch
+from .master_score_engine import MasterScoreEngine, master_repertorize
+from .family_grouping import FamilyGroupingEngine
+from .edition_comparison import EditionComparisonEngine
+from .outcome_prediction import OutcomePredictionEngine
+from .multi_repertory import MultiRepertoryEngine
+from .materia_medica_search import MateriaMedicaSearchEngine
+from .mobile_api import OOREPApp
+from .toxicology_layer import ToxicologyLayer
+from .miasm_tracking import MiasmTracker
+from .remedy_relationships_v2 import RemedyGraphEngine
+from .keynote_autocomplete import KeynoteAutocompleteEngine
+from .correlation_matrix import CorrelationMatrixEngine
+from .followup_comparator import FollowupComparator
+from .differential_diagnosis import DifferentialDiagnosisEngine
+from .elimination_rubrics import EliminationEngine
+from .graphic_analysis import GraphicAnalysisEngine
+from .analysis_methods import AnalysisMethods, KentMethod, BoenninghausenMethod, BogerMethod, VithoulkasExpertSystem, MethodSwitcher
+from .bibliographic_engine import BibliographicEngine
+
 __all__ = [
+    # Core
     "HomeopathicRepertory",
     "quick_search",
     "ClinicalRubricMapper",
@@ -96,4 +121,36 @@ __all__ = [
     "CyclesAndSegmentsEngine",
     "RemedyCycle",
     "CycleSegment",
+    # New
+    "ClipboardManager",
+    "ClipboardType",
+    "Clipboard",
+    "ClipboardRubric",
+    "PatientFileSystem",
+    "AnalysisManager",
+    "WordWrapSearch",
+    "MasterScoreEngine",
+    "master_repertorize",
+    "FamilyGroupingEngine",
+    "EditionComparisonEngine",
+    "OutcomePredictionEngine",
+    "MultiRepertoryEngine",
+    "MateriaMedicaSearchEngine",
+    "OOREPApp",
+    "ToxicologyLayer",
+    "MiasmTracker",
+    "RemedyGraphEngine",
+    "KeynoteAutocompleteEngine",
+    "CorrelationMatrixEngine",
+    "FollowupComparator",
+    "DifferentialDiagnosisEngine",
+    "EliminationEngine",
+    "GraphicAnalysisEngine",
+    "AnalysisMethods",
+    "KentMethod",
+    "BoenninghausenMethod",
+    "BogerMethod",
+    "VithoulkasExpertSystem",
+    "MethodSwitcher",
+    "BibliographicEngine",
 ]

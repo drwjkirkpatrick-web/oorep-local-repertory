@@ -17,38 +17,44 @@ from oorep.master_score_engine import MasterScoreEngine, master_repertorize
 
 # ── Fixtures ─────────────────────────────────────────────────────────────────
 
-@pytest.fixture
-def engine():
-    """Fresh MasterScoreEngine instance."""
-    return MasterScoreEngine()
+# Cache for real rubric IDs (discovered once per module to avoid repeated repertory load)
+_CACHED_RUBRIC_IDS = None
 
-
-@pytest.fixture
-def sample_rubric_ids():
-    """
-    A small set of rubric IDs known to have remedies across multiple grades.
-    These are selected from common constitutional rubrics.
-    """
-    # We'll use search to find rubrics, then pick stable IDs
+def _get_cached_rubric_ids():
+    global _CACHED_RUBRIC_IDS
+    if _CACHED_RUBRIC_IDS is not None:
+        return _CACHED_RUBRIC_IDS
     from oorep.homeopathic_repertory import HomeopathicRepertory
     rep = HomeopathicRepertory()
-    # Find rubrics for common symptoms
     rubrics_a = rep.search_rubrics("anxiety restlessness", limit=3)
     rubrics_b = rep.search_rubrics("thirst small quantities", limit=3)
     rubrics_c = rep.search_rubrics("burning pains", limit=3)
     all_ids = []
     for r in rubrics_a + rubrics_b + rubrics_c:
         all_ids.append(int(r["id"]))
-    # Deduplicate and return first 5
     seen = set()
     out = []
     for rid in all_ids:
         if rid not in seen:
             seen.add(rid)
             out.append(rid)
-    if len(out) < 3:
+    _CACHED_RUBRIC_IDS = out[:5] if len(out) >= 3 else []
+    return _CACHED_RUBRIC_IDS
+
+
+@pytest.fixture(scope="module")
+def engine():
+    """Module-scoped MasterScoreEngine (expensive to init)."""
+    return MasterScoreEngine()
+
+
+@pytest.fixture(scope="module")
+def sample_rubric_ids():
+    """Pre-discovered rubric IDs cached at module level."""
+    ids = _get_cached_rubric_ids()
+    if len(ids) < 3:
         pytest.skip("Not enough rubrics found in data for testing")
-    return out[:5]
+    return ids
 
 
 # ── Basic construction and sanity ───────────────────────────────────────────
