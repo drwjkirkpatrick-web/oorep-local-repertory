@@ -74,6 +74,9 @@ export default function RadarChartViz({
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-md">
+        See up to 6 candidate remedies compared across 7 clinical dimensions at once: repertory score, cycle coverage, SRP density, rubric reliability, layer alignment, method agreement, and outcome history. A larger, more rounded shape = stronger on more dimensions. The remedy whose polygon covers the most area on the most axes is typically the best-fit simillimum.
+      </p>
       <svg width={size} height={size} className="select-none">
         {/* Grid levels */}
         {Array.from({ length: levels }, (_, level) => {

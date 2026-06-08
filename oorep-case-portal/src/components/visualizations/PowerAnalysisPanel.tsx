@@ -4,6 +4,9 @@ export default function PowerAnalysisPanel({ result }: { result?: { sample_size_
   const curve = result?.power_curve ?? [];
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See how many patients you'd need in a study (or case series) to reliably detect a treatment effect. The three cards show required sample size per group, total sample, and the statistical power (probability of detecting a real effect). The power curve shows how power increases with sample size. Essential for designing clinical studies or evaluating published research.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-0.5 rounded">INTERMEDIATE</span>
         <span className="text-sm font-semibold text-gray-700">Power Analysis</span>

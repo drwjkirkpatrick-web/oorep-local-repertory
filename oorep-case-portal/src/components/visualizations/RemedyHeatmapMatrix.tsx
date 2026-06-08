@@ -52,6 +52,9 @@ export default function RemedyHeatmapMatrix({
 
   return (
     <div className="overflow-auto">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-2 max-w-md">
+        See the complete remedy-rubric coverage grid at a glance. Rows are rubrics from the current case; columns are the top remedy candidates. Each cell's color depth shows the classical grade (light blue = grade 1, deep blue = grade 4) and the number shows the actual grade. Dark cells across many rows = a strong, well-covered remedy.
+      </p>
       <svg width={width} height={height} className="font-mono text-xs">
         {/* Title */}
         <text x={width / 2} y={20} textAnchor="middle" className="fill-slate-200 font-semibold">

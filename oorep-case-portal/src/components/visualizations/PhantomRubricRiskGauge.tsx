@@ -28,6 +28,9 @@ export default function PhantomRubricRiskGauge({
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-md">
+        See how much of your repertorization depends on "phantom" rubrics — those with so few remedy links that they can distort the case. The needle swings into green (safe, &lt;15%), amber (caution, 15–35%), or red (risk, &gt;35%). High phantom risk means the analysis is fragile and you should gather more characteristic symptoms before prescribing.
+      </p>
       <div className="flex items-center gap-2 mb-1">
         <span className="text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-0.5 rounded">BEGINNER</span>
         <span className="text-xs text-gray-500">Low-confidence rubric warning</span>

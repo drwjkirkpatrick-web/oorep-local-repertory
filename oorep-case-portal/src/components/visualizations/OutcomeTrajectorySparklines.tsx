@@ -39,6 +39,9 @@ export default function OutcomeTrajectorySparklines({ remedies, onRemedyClick }:
 
   return (
     <div className="overflow-auto">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-2 max-w-md">
+        See how each remedy's outcome has trended over time, plotted as a line from -4 (aggravation) through 0 (no change) to +4 (strong cure). Lines that climb toward the top are working well; lines that dip below zero and stay there may have been the wrong choice. The Herscu-style scoring helps you visually compare multiple remedies' long-term performance.
+      </p>
       <svg width={width} height={height} className="font-mono text-xs">
         <text x={width / 2} y={22} textAnchor="middle" className="fill-slate-200 font-semibold">
           Historical Outcome Trajectories (Herscu -4 → +4)

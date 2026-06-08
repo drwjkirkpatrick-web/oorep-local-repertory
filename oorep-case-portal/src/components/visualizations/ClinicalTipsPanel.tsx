@@ -5,6 +5,9 @@ export default function ClinicalTipsPanel({ result }: { result?: { total_tips?: 
   const colors: Record<string, string> = { anecdotal: "bg-slate-300", clinical: "bg-blue-400", proven: "bg-emerald-400", controversial: "bg-amber-400" };
   return (
     <div className="space-y-3">
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        Browse the clinical wisdom stored in your own notes and the classical literature attached to specific rubrics. Tips are sorted by reliability — proven (many cases), clinical (regular use), anecdotal (single case), or controversial (mixed reports) — so you can weight them appropriately.
+      </p>
       <div className="text-center">
         <div className="text-2xl font-bold text-slate-800">{result?.total_tips || 0}</div>
         <div className="text-xs text-slate-500">Clinical tips stored</div>

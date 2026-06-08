@@ -11,6 +11,9 @@ export default function CaseComplexityPanel({ result }: { result?: { complexity_
   ];
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See how complex or straightforward the current case is on a 0–100% scale. High complexity (red) means the case has scattered symptoms, gaps in coverage, and few characteristic features — these cases need more careful analysis and may take longer to resolve. Low complexity (green) cases are clear and well-indicated. The four sub-bars show which factors are driving the score.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-0.5 rounded">INTERMEDIATE</span>
         <span className="text-sm font-semibold text-gray-700">Case Complexity</span>

@@ -70,6 +70,9 @@ export default function ComparativeVennDiagram({ remedies, onRubricClick, onReme
 
   return (
     <div className="overflow-auto">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-2 max-w-md">
+        See how up to three remedies compare side by side. The overlapping circles show how many rubrics are shared (intersections), while the outer lobes show what each remedy uniquely covers. Two nearly-overlapping circles = very similar remedies; widely separated circles = clearly different remedy pictures. The center "all shared" count shows rubrics that distinguish none of the three.
+      </p>
       <svg width={width} height={height} className="font-mono text-xs">
         <text x={width / 2} y={22} textAnchor="middle" className="fill-slate-200 font-semibold">
           Differentiating Venn — Shared vs Unique Rubrics

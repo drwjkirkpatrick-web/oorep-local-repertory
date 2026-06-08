@@ -7,6 +7,9 @@ export default function MetaAnalysisPanel({ result }: { result?: { model?: strin
   const studies = result?.studies ?? [];
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See a combined estimate of remedy success rate pooled across multiple studies or case series. The pooled rate with 95% confidence interval gives a single best-estimate of efficacy. I² measures heterogeneity (how much the studies agree): green (&lt;25%) = studies agree, red (&gt;50%) = studies disagree, suggesting population or methodology differences. Helps translate research into practice.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-sm font-semibold text-gray-700">Meta-Analysis</span>

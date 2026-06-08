@@ -47,6 +47,9 @@ export default function LayerTimelineRibbon() {
 
   return (
     <div className="flex flex-col">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-2 max-w-md">
+        See how suppressions, acute episodes, chronic layer emergence, and constitutional remedy actions are distributed over multiple years. Each dot is a case event, placed on a horizontal year axis and a vertical layer track. Color-coded by layer type, the view makes it easy to see whether a patient is improving, stuck, or cycling through old layers as treatment progresses.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-xs text-gray-500">Suppression, remedies, and layer emergence over time</span>

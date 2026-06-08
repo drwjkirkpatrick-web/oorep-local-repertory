@@ -40,6 +40,9 @@ export default function NetworkGraph({
 
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See how remedies relate to each other as a network. Larger nodes are higher-centrality remedies (PageRank) — these are the "hubs" of homeopathy, often polycrests like Sulphur, Calcarea, or Pulsatilla. Lines show remedy relationships (complementary, follow-well, antidote). Useful for spotting clusters and finding closely-related remedies to consider as alternates.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-sm font-semibold text-gray-700">Remedy Network Analysis</span>

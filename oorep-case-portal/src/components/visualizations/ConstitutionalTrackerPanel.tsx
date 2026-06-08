@@ -4,6 +4,9 @@ export default function ConstitutionalTrackerPanel({ result }: { result?: { cons
   const esc = result?.escalation || [];
   return (
     <div className="space-y-3">
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        Follow a patient's constitutional remedy over months and years — see the remedy name, the potency ladder climbed (6C → 30C → 200C → 1M), and the direction of each escalation or reduction. Helps track long-term case direction, detect when a deeper layer has emerged, and avoid changing the constitutional too hastily.
+      </p>
       <div className="flex items-center gap-2">
         <div className="w-3 h-3 rounded-full bg-emerald-500"></div>
         <span className="font-semibold text-slate-800">Constitutional: {result?.constitutional_remedy || "—"}</span>

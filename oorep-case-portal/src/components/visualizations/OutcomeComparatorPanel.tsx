@@ -20,6 +20,9 @@ export default function OutcomeComparatorPanel({
 
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See whether two remedies have meaningfully different outcomes in your case base. Mann-Whitney U tests if the rank-order of outcomes differs (p &lt; 0.05 = significant). The odds ratio tells you how many times more likely one remedy is to succeed. Cohen's d quantifies the size of the difference. Useful for distinguishing similar-looking remedies in practice.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">STATISTICS</span>
         <span className="text-sm font-semibold text-gray-700">Outcome Comparator</span>

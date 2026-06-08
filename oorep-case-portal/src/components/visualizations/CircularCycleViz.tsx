@@ -53,6 +53,9 @@ export default function CircularCycleViz({
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-xs">
+        See how well a case fits the Herscu cycle for a chosen remedy. Each colored wedge is one segment of the cycle (e.g., for Stramonium: fear, vulnerability, violence, close-off, death, confusion). Highlighted wedges match symptoms in the current case; the center percentage shows overall cycle coverage. A high percentage suggests strong cycle alignment.
+      </p>
       <svg width={size} height={size}>
         <circle cx={cx} cy={cy} r={or} fill="none" stroke="#e5e7eb" strokeWidth={1} />
         {segments.map((seg, i) => {

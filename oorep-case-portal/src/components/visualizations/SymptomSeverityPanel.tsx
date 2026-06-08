@@ -5,6 +5,9 @@ export default function SymptomSeverityPanel({ result }: { result?: { avg_severi
   const color = avg >= 7 ? "bg-red-500" : avg >= 4 ? "bg-amber-500" : "bg-emerald-500";
   return (
     <div className="space-y-3">
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        See the average intensity of symptoms in the current case on a 1–10 scale, plus the peak severity recorded. High-severity cases (red) signal that the simillimum needs to act quickly, while mild cases (green) suggest a gentler approach and lower potencies. Helps the practitioner judge urgency and choose starting potency.
+      </p>
       <div className="text-center">
         <div className="text-3xl font-bold text-slate-800">{avg.toFixed(1)}<span className="text-sm text-slate-400">/10</span></div>
         <div className="text-xs text-slate-500">Average severity</div>

@@ -37,6 +37,9 @@ export default function LayerTimeline({ events, currentMonth }: LayerTimelinePro
 
   return (
     <div className="overflow-auto">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-2 max-w-md">
+        See a chronic case as a layered timeline: physical suppressions, acute episodes, chronic layer emergence, and constitutional remedy actions plotted on horizontal tracks across months. A vertical "NOW" marker shows where the patient is in treatment. Helps spot the relationship between suppressions and emerging symptoms, and decide when to act or wait.
+      </p>
       <svg width={width} height={height} className="font-mono text-xs">
         {/* Title */}
         <text x={width / 2} y={28} textAnchor="middle" className="fill-slate-200 font-semibold">

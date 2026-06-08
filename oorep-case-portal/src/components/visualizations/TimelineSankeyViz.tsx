@@ -71,6 +71,9 @@ export default function TimelineSankeyViz({
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-2xl">
+        See how each symptom in the current case flows through the repertorization to the top remedy candidates. Symptoms are nodes on the left, remedies on the right, and the thickness of each connecting line shows how strongly a given symptom contributes to a given remedy's final score. Useful for understanding which symptoms most influenced the differential.
+      </p>
       <svg width={width} height={height}>
         {/* Links */}
         {links.map((link, i) => {

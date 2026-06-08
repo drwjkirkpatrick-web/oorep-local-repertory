@@ -46,6 +46,9 @@ export default function KingdomMorphologyCloud({
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-md">
+        See which homeopathic kingdom (Plant, Mineral, or Animal) the patient's case language most closely matches. The word cloud uses Sankaran's kingdom vocabulary — Plant themes (sensitive, adapting, growing), Mineral themes (structure, order, rigidity), Animal themes (survival, predator, territory). Larger words = stronger theme affinity, helping choose between kingdom-based remedies.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-0.5 rounded">INTERMEDIATE</span>
         <span className="text-xs text-gray-500">Case-language kingdom affinity</span>

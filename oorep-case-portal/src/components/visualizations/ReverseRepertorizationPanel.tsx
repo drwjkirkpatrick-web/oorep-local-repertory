@@ -4,6 +4,9 @@ export default function ReverseRepertorizationPanel({ result }: { result?: { rem
   const chapters = result?.by_chapter || {};
   return (
     <div className="space-y-3">
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        See all the rubrics where a chosen remedy is marked in the repertory, grouped by chapter (Mind, Head, Generals, etc.). Helpful when a practitioner already has a remedy in mind and wants to confirm where it shines, spot its strongholds, and notice gaps where it has little coverage.
+      </p>
       <div className="flex items-center justify-between">
         <span className="font-semibold text-slate-800">{result?.remedy || "Remedy"}</span>
         <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">{result?.total_rubrics || 0} rubrics</span>

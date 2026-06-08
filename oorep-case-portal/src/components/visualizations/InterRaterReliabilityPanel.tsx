@@ -5,6 +5,9 @@ export default function InterRaterReliabilityPanel({ result }: { result?: { kapp
   const icc = result?.icc;
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See how reliably two (or more) practitioners agree when looking at the same case. Cohen's kappa adjusts for chance agreement (0 = random, 1 = perfect). The intraclass correlation coefficient (ICC) measures consistency of continuous ratings. Low values mean the case would benefit from a second opinion; high values confirm the analysis is robust.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-sm font-semibold text-gray-700">Inter-Rater Reliability</span>

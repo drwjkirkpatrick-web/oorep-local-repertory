@@ -5,6 +5,9 @@ export default function DuplicateRemedyPanel({ result }: { result?: { safe?: boo
   const warnings = result?.warnings || [];
   return (
     <div className="space-y-3">
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        Check whether the remedy you're about to prescribe could antidote, clash, or be inimical to a remedy the patient has taken recently. Shows clear safety guidance: green means safe to proceed, red flags stop and review the case history. Protects against common prescribing errors and respects classical remedy relationships.
+      </p>
       <div className={`text-center py-2 rounded-lg font-semibold text-sm ${safe ? "bg-emerald-50 text-emerald-700" : "bg-red-50 text-red-700"}`}>
         {safe ? "✓ Safe to prescribe" : "⚠ Prescription warnings detected"}
       </div>

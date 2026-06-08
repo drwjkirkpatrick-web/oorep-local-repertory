@@ -6,6 +6,9 @@ export default function MiasmTimelinePanel({ result }: { result?: { active_layer
   const colors: Record<string, string> = { psora: "bg-yellow-300", sycosis: "bg-green-400", syphilis: "bg-purple-400", tubercular: "bg-orange-400", cancer: "bg-red-500" };
   return (
     <div className="space-y-3">
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        See which miasmatic layers are active in the current case — Psora (yellow), Sycosis (green), Syphilis (purple), Tubercular (orange), Cancer (red). Helps the practitioner understand case depth, choose the case-management strategy, and track whether deeper layers are emerging as treatment progresses.
+      </p>
       <div className="text-sm font-medium text-slate-700">Active Layers</div>
       <div className="flex gap-1">
         {order.map((layer) => (

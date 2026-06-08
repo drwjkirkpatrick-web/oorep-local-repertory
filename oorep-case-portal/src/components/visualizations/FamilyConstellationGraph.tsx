@@ -30,9 +30,12 @@ export default function FamilyConstellationGraph({ onRemedyClick }: { onRemedyCl
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-md">
+        See inherited remedy patterns and suppression threads across family members. Each node is a relative, colored by their constitutional remedy. Lines connect family members with shared remedy patterns or miasmatic suppression chains. Helps the practitioner understand why a patient may share symptoms with a parent and what generational miasmatic load to address first.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
-        <span className="text-xs text-gray-500">Inherited remedy patterns & suppression chains</span>
+        <span className="text-xs text-gray-500">Inherited remedy patterns &amp; suppression chains</span>
       </div>
 
       <svg width={400} height={260} className="select-none bg-gray-50 rounded-lg">

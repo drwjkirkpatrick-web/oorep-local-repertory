@@ -5,6 +5,9 @@ export default function SurvivalAnalysisPanel({ result }: { result?: { remedy?: 
   const median = result?.median_survival_time;
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See how long a remedy's beneficial effect typically lasts in your case base, using a Kaplan-Meier survival curve. The median survival time (red dashed line) is when 50% of patients experienced a return of symptoms. Steep drops in the curve indicate shorter action duration; gentle slopes mean longer-lasting relief. Useful for planning potency escalation timing.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-sm font-semibold text-gray-700">Survival Analysis ({result?.remedy ?? "—"})</span>

@@ -42,6 +42,9 @@ export default function MiasmDonutOverlay({
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-md">
+        See the miasmatic weighting of a chosen remedy as a donut chart. Each wedge is one miasm (Psora, Sycosis, Syphilis, Tubercular, Cancer) and the wedge size shows how strongly that remedy is associated with that miasm. A dashed target ring highlights the patient's suspected miasm. Helps select a remedy that addresses the active miasmatic layer.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-0.5 rounded">INTERMEDIATE</span>
         <span className="text-xs text-gray-500">Miasmatic weighting per remedy</span>

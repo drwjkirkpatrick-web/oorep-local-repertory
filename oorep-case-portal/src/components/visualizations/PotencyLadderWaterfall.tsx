@@ -29,6 +29,9 @@ export default function PotencyLadderWaterfall({
 
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xs text-slate-500 italic leading-relaxed text-center max-w-md">
+        See the recommended potency sequence as a cascading ladder, from a gentle starting potency (top) through progressive steps down to the deep chronic / constitutional level (bottom). Each rung is labeled with its rationale — "acute starter," "progressive step," or "deep chronic." The active rung is highlighted in blue, showing where in the ladder the patient currently is.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-0.5 rounded">INTERMEDIATE</span>
         <span className="text-xs text-gray-500">Recommended potency progression</span>

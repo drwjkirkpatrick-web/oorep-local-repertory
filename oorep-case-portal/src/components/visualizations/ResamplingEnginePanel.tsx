@@ -5,6 +5,9 @@ export default function ResamplingEnginePanel({ result }: { result?: { ci_lower?
   const hasCV = result?.fold_scores !== undefined;
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See how stable and reproducible a statistical estimate really is, by running the same calculation thousands of times on resampled data. The bootstrap confidence interval shows the range of plausible values; a permutation p-value tests whether an observed effect is likely real or could have arisen by chance. Cross-validation scores show how well the model generalizes to new data.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-sm font-semibold text-gray-700">Resampling Engine</span>

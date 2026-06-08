@@ -22,6 +22,9 @@ export default function ROCAUCurve({
 
   return (
     <div className="flex flex-col gap-4 p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed">
+        See how well our outcome prediction model actually performs. The ROC curve shows true-positive rate against false-positive rate; the AUC (0–1) is the model's overall accuracy. The calibration plot checks whether predicted probabilities match real-world outcomes. A 95% bootstrap confidence interval tells you how stable the estimate is across repeated resamples.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-sm font-semibold text-gray-700">Outcome Prediction Validation</span>

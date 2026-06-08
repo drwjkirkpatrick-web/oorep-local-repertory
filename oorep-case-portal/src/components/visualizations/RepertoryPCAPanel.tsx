@@ -5,6 +5,9 @@ export default function RepertoryPCAPanel({ result }: { result?: { components?: 
   const ev = result?.explained_variance ?? [];
   return (
     <div className="p-4">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-3">
+        See how all 2,432 remedies cluster together based on their overall rubric profile. Each dot is a remedy, and remedies near each other have similar symptom pictures. Helps the practitioner spot natural remedy families and find "neighbors" of a chosen remedy — useful when a partial simillimum is needed and a close substitute is acceptable.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-sm font-semibold text-gray-700">Repertory PCA</span>

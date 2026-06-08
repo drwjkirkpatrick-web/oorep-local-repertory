@@ -28,6 +28,9 @@ export default function RubricConfidenceStrip({
 
   return (
     <div className="flex flex-col">
+      <p className="text-xs text-slate-500 italic leading-relaxed mb-2 max-w-md">
+        See how confident the search engine is about each rubric in your case. A long green bar (high confidence) means lexical and vector search agree and the rubric is reliable. A short amber bar with wide error caps means the search methods disagree — this rubric may not be a true case indicator. Helps you weight characteristic symptoms more heavily.
+      </p>
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2 py-0.5 rounded">ADVANCED</span>
         <span className="text-xs text-gray-500">Confidence per rubric — narrow = reliable</span>
