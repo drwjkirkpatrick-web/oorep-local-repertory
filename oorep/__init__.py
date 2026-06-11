@@ -117,6 +117,18 @@ from .mobile_app_native import MobileAppNative
 from .global_stats_dashboard import GlobalStatsDashboard
 from .export_research_formats import ExportResearchFormats
 
+# Statistical Search Layer Improvements (v3.8) — Modules #111-120
+from .bayesian_remedy_ranking import BayesianRemedyRanking, quick_rank
+from .rubric_bandit_selector import RubricBanditSelector, quick_select
+from .propensity_scored_prediction import PropensityScoredPrediction, quick_ipw_predict
+from .rubric_discrimination_indices import RubricDiscriminationIndices, quick_indices
+from .hierarchical_bayesian_similarity import HierarchicalBayesianSimilarity, quick_similar
+from .cv_symptom_weights import CVSymptomWeightLearner, quick_learn_weights
+from .sequential_remedy_testing import SequentialRemedyTesting, quick_sprt_test
+from .gaussian_process_surrogate import GaussianProcessSurrogate, quick_gp_predict
+from .causal_remedy_effects import CausalRemedyEffects, quick_ate
+from .ensemble_retrieval_stacking import EnsembleRetrievalStacking, quick_ensemble
+
 
 __all__ = [
     # Core
@@ -248,4 +260,25 @@ __all__ = [
     "MobileAppNative",
     "GlobalStatsDashboard",
     "ExportResearchFormats",
+    # Statistical Search Layer Improvements (v3.8) — 10 new modules
+    "BayesianRemedyRanking",
+    "quick_rank",
+    "RubricBanditSelector",
+    "quick_select",
+    "PropensityScoredPrediction",
+    "quick_ipw_predict",
+    "RubricDiscriminationIndices",
+    "quick_indices",
+    "HierarchicalBayesianSimilarity",
+    "quick_similar",
+    "CVSymptomWeightLearner",
+    "quick_learn_weights",
+    "SequentialRemedyTesting",
+    "quick_sprt_test",
+    "GaussianProcessSurrogate",
+    "quick_gp_predict",
+    "CausalRemedyEffects",
+    "quick_ate",
+    "EnsembleRetrievalStacking",
+    "quick_ensemble",
 ]

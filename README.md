@@ -1,13 +1,13 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **111 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, and the Clinical Mission Control dashboard.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **120 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, and the Clinical Mission Control dashboard.
 
-> **Version:** 3.7 | **License:** GPL v3  
+> **Version:** 3.8 | **License:** GPL v3  
 > **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links  
-> **Modules:** 111 Python modules  
-> **Tests:** 800+ pytest tests  
-> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules  
-> **Dashboard:** Next.js Clinical Mission Control with 35 visualizations + live API + click-through drill-down
+> **Modules:** 120 Python modules  
+> **Tests:** 900+ pytest tests  
+> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 10 statistical search layers  
+> **Dashboard:** Next.js Clinical Mission Control with 45 visualizations + live API + click-through drill-down
 
 ---
 
@@ -99,6 +99,27 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 | 108 | **Mobile App Native** | Infrastructure | — |
 | 109 | **Global Stats Dashboard** | Analytics | — |
 || 110 | **Export Research Formats** | Analytics | — |
+
+### v3.8 — Statistical Search Layer Improvements (NEW)
+
+**10 new modules** for testable, statistically-grounded remedy search. Each module includes hypothesis testing, cross-validation, and measurable outcomes rather than subjective improvements. Focus on surfacing the right remedy through Bayesian optimization, multi-armed bandits, causal inference, and ensemble methods.
+
+| # | Module | What It Does | Tests |
+|---|--------|--------------|-------|
+| 111 | **Bayesian Remedy Ranking** | Thompson Sampling with beta distributions; balances exploration vs exploitation | 16 |
+| 112 | **Rubric Bandit Selector** | UCB1 multi-armed bandit for rubric selection; learns discriminative power | 18 |
+| 113 | **Propensity-Scored Prediction** | IPW correction for selection bias; remedies prescribed to easier cases get adjusted | 12 |
+| 114 | **Rubric Discrimination Indices** | Classical test theory: item-total correlation, KR-20 reliability, point-biserial | 10 |
+| 115 | **Hierarchical Bayesian Similarity** | Taxonomy-informed remedy similarity; kingdom/family as priors | 10 |
+| 116 | **CV Symptom Weight Learning** | K-fold cross-validated symptom weight optimization | 10 |
+| 117 | **Sequential Remedy Testing** | SPRT (Sequential Probability Ratio Test) for early stopping | 10 |
+| 118 | **Gaussian Process Surrogate** | GP surrogate for Bayesian optimization over remedy latent space | 10 |
+| 119 | **Causal Remedy Effects** | Potential outcomes framework; ATE estimation via matching and IPW | 10 |
+| 120 | **Ensemble Retrieval Stacking** | Meta-learner combining lexical/vector/SRP/keynote/family/cycle layers | 10 |
+
+**Dashboard panels for all 10 modules** — Thompson sampling beta distributions, UCB rubric rankings, propensity score calibration, discrimination index heatmaps, hierarchical similarity networks, CV weight convergence plots, SPRT boundary visualizations, GP uncertainty surfaces, causal forest plots, and ensemble contribution breakdowns. All wired into the Clinical Mission Control grid with level badges.
+
+**Portal API expanded** — 120 registered modules with routes, inputs, and outputs.
 
 **Dashboard panels for key modules** — Reverse repertorization rubric list, constitutional tracker timeline, prescription safety check, posology schedule, symptom severity gauge, clinical tips reliability chart, protocol builder list, inventory status grid, miasm layer indicator, and case similarity "what worked" table. All wired into the Clinical Mission Control grid.
 
