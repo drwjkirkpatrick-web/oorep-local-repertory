@@ -3,6 +3,24 @@
 /**
  * ThompsonSamplingPanel.tsx
  * Dashboard panel for Bayesian Remedy Ranking with Thompson Sampling (Module #111)
+ *
+ * ┌─────────────────────────────────────────────────────────────────────┐
+ * │ PRACTITIONER BENEFIT:                                              │
+ * │ When a remedy has only been used 3 times and scored well, is it    │
+ * │ a hidden gem or a fluke? Thompson Sampling answers this using      │
+ * │ Bayesian beta distributions. Remedies with fewer trials get        │
+ * │ “exploration bonus” — they are tested more to see if they are      │
+ * │ truly good. Remedies with many trials get “exploitation” — if      │
+ * │ they consistently work, they are ranked higher. The result is a      │
+ * │ ranking that discovers hidden effective remedies while trusting    │
+ * │ proven ones.                                                       │
+ * │                                                                    │
+ * │ Real-world use: Calcarea-silicate has only 5 uses in your         │
+ * │ practice but 4 successes (80%). Pulsatilla has 50 uses with 35     │
+ * │ successes (70%). Thompson Sampling gives Calc-sil. a higher        │
+ * │ exploration-adjusted score because it may be under-discovered.     │
+ * │ You try it on the next similar case and confirm it is a hidden gem.  │
+ * └─────────────────────────────────────────────────────────────────────┘
  */
 
 import React, { useState, useEffect } from 'react';

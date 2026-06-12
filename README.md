@@ -7,7 +7,7 @@ A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://
 |> **Modules:** 140 Python modules  
 |> **Tests:** 1,050+ pytest tests  
 |> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules + 10 patient intake system modules  
-|> **Dashboard:** Next.js Clinical Mission Control with 45 visualizations + live API + click-through drill-down + adaptive patient intake
+|> **Dashboard:** Next.js Clinical Mission Control with 55+ visualizations + live API + click-through drill-down + adaptive patient intake
 
 ---
 
@@ -194,6 +194,130 @@ differential: [Puls. (8.4), Sulph. (5.2), Ars. (3.1), ...]
 - **Herscu**: Cycles & segments for the deepest case-taking.
 - **Hering's Law**: Direction of cure, suppression detection.
 - **Classical SRP (Strange-Rare-Peculiar)**: Highest-weight symptoms in repertorization.
+
+---
+
+**Clinical principles embedded:**
+- **Hahnemann §84** (Organon): "The patient details his sufferings; the physician listens."
+- **Kent**: "The concomitants decide the case."
+- **Vithoulkas**: "The mental state is the most important level."
+- **Herscu**: Cycles & segments for the deepest case-taking.
+- **Hering's Law**: Direction of cure, suppression detection.
+- **Classical SRP (Strange-Rare-Peculiar)**: Highest-weight symptoms in repertorization.
+
+---
+
+## What Each Module Does — In Plain Language for the Practitioner
+
+Below is a human-readable guide to every module cluster in OOREP. Each description explains <strong>why the module matters</strong> to your daily practice and <strong>what concrete problem it solves</strong>.
+
+---
+
+### v3.8 — Statistical Search Layers (Modules #111–#120)
+
+These ten modules replace "gut feeling" with testable, statistically-grounded signals. They answer the question: **"How do we know the repertorization is actually finding the right remedy?"**
+
+**<a id="mod-111">#111 — Bayesian Remedy Ranking (Thompson Sampling)</a>**
+When a remedy has only been used a few times but scored well, is it a hidden gem or a fluke? Thompson Sampling answers this with Bayesian beta distributions. Remedies with few trials get an "exploration bonus" — they are tested more to see if they are truly good. Remedies with many trials get "exploitation" — if they consistently work, they rank higher. The result discovers under-used effective remedies while trusting proven ones. *Real use:* Calcarea-silicate has 5 uses, 4 successes (80%). Pulsatilla has 50 uses, 35 successes (70%). Thompson Sampling gives Calc-sil. a higher adjusted score because it may be under-discovered. You try it on the next similar case and confirm it is a hidden gem.
+
+**<a id="mod-112">#112 — Rubric Bandit Selector (UCB1)</a>**
+Which rubric should you search first? This module uses the UCB1 multi-armed bandit algorithm — the same math Netflix uses to recommend movies — to learn which rubrics in your practice most often lead to the correct remedy. It balances trying new rubrics with using proven ones. Over time, it learns your personal "best rubric repertoire." *Real use:* After 30 cases, the module shows "fear of death in heart disease" has a 78% success rate in your practice, while "headache, location unspecified" has 23%. You now know which rubrics to prioritize when time is short.
+
+**<a id="mod-113">#113 — Propensity-Scored Prediction (IPW)</a>**
+Not all cases are equally difficult. A remedy prescribed 50 times to easy acute cases will look better than one prescribed 20 times to complex chronic cases. This module corrects that bias using Inverse Probability Weighting — a technique from epidemiology that makes "apples-to-apples" comparisons. Remedies are ranked by true effectiveness, not by how easy their patients were. *Real use:* Pulsatilla shows 85% raw success rate. But IPW reveals it was mostly prescribed to simple acute cases. After adjusting for case difficulty, its true effectiveness is 67%. Meanwhile, Medorrhinum shows 60% raw but 72% adjusted — it was prescribed to harder cases and performed better than it looks.
+
+**<a id="mod-114">#114 — Rubric Discrimination Indices (KR-20)</a>**
+Why did a great rubric drop to 5th place? This module measures how well each rubric separates a "true" remedy from the rest — using the same statistics educational tests use (KR-20 reliability). If a rubric has low discrimination, it is adding noise, not signal. You can then weight it down or drop it. *Real use:* If "headache > Pulsatilla" keeps appearing in your top 3 but never the right remedy, this module flags it as a noisy distractor and suggests higher-discrimination alternatives.
+
+**<a id="mod-115">#115 — Hierarchical Bayesian Similarity</a>**
+When you have 3,000 rubrics and need to find the hidden pattern, this module uses biological taxonomy (Plant/Animal/Mineral/Nosode families) as Bayesian priors. A Natrum case looks "salty" and "isolated" — that is the Mineral kingdom, Salt family. This module weights similarity by kingdom first, then family, then genus. It prevents a generic "everything matches" result. *Real use:* A patient says "I feel like a wounded animal" — this module pushes Tarentula, Lachesis, and Lac-can. up the list even before you open the repertory.
+
+**<a id="mod-116">#116 — CV Symptom Weight Learning</a>**
+How do you know your rubric weights (1, 2, 3, 4) are "right"? This module cross-validates them: it hides part of your case, learns weights on the remainder, and tests whether the hidden part still points to the right remedy. If 3-fold CV says weight 3.5 is better than 4.0 for "fear of death," that is the weight you use. This removes practitioner bias in weight assignment. *Real use:* After 50 confirmed cases, the module discovers that "worse from cold" should weight 4.2 (not 3) in your practice because it discriminates better in your patient population.
+
+**<a id="mod-117">#117 — Sequential Remedy Testing (SPRT)</a>**
+Should you keep repertorizing, or do you have enough to decide? This module implements Wald's SPRT — the same sequential test used in clinical trials to stop early when evidence is conclusive. It tells you: stop now (remedy is clearly better), stop now (no remedy is emerging), or keep going (more data needed). This prevents "paralysis by analysis." *Real use:* After entering 7 rubrics, this module says "stop — Pulsatilla is 4× more likely than placebo, p < 0.01." You stop repertorizing and move to materia medica confirmation.
+
+**<a id="mod-118">#118 — Gaussian Process Surrogate</a>**
+You have 20 rubrics. Which 3 should you ask next? This module builds a Gaussian Process surrogate — a smooth surface over the "remedy possibility space" — and identifies regions of high uncertainty. Those uncertain regions are exactly where you should ask your next questions. It balances exploration with exploitation. *Real use:* After the chief complaint, the GP says "your case is well-understood for thermal state but completely uncertain for mental symptoms — ask about fears and consolation next."
+
+**<a id="mod-119">#119 — Causal Remedy Effects (ATE)</a>**
+Did Pulsatilla cure the patient, or would they have gotten better anyway? This module answers the causal question using the "potential outcomes" framework: it compares patients who got Pulsatilla to statistically matched patients who did not, adjusting for how sick they were before. The result is an Average Treatment Effect with confidence intervals — real causal evidence, not just correlation. *Real use:* After prescribing Arsenicum for 20 anxious cases, this module shows an ATE of +2.3 (95% CI [1.1, 3.5]) on the GAD-7 anxiety scale — meaning Arsenicum patients improved 2.3 points more than matched controls. That is publishable evidence.
+
+**<a id="mod-120">#120 — Ensemble Retrieval Stacking</a>**
+No single search method is perfect. Lexical search misses semantic nuance. Vector search can be too broad. SRP detection finds gems but misses common symptoms. This module combines SIX search layers — lexical, vector, SRP, keynote, family, and cycle — and learns the optimal weight for each from your outcomes. The result is a "meta-repertorization" more accurate than any single layer alone. *Real use:* Lexical says Pulsatilla #1. Vector says Sulphur #1. SRP says Arsenicum #1. The ensemble weighs them and finds Arsenicum #1 (SRP-heavy case). The ensemble corrected the lexical bias and found the true match.
+
+---
+
+### v3.9 — Differential Case-Taking & Active Learning (Modules #121–#130)
+
+These ten modules reverse-engineer the patient interview: which questions to ask next, which symptoms carry redundant information, which historical cases are most similar, and how to calibrate raw scores into true probabilities.
+
+**<a id="mod-121">#121 — Discriminant Rubric Selector</a>**
+You have 3 top remedies tied at similar scores. What do you ask the patient next to break the tie? This module reverse-engineers the questions: it finds rubrics where the top remedies differ most, ranks them by expected information gain (in bits), and tells you the exact question to ask. Instead of guessing, you ask the mathematically optimal next question every time. *Real use:* Pulsatilla, Sulphur, and Arsenicum are tied. The module says: "Ask about thermal state — Puls. is warm-blooded, Ars. is chilly, Sulph. is hot. This one question has 2.3 bits of information gain and will break the tie 80% of the time."
+
+**<a id="mod-122">#122 — Information-Theoretic Case Workup</a>**
+"Is my case complete enough to prescribe?" This module quantifies case completeness in bits — the same unit information theory uses. It tells you: you have 4.2 bits of 7.0 needed (60% complete). Which chapters are empty? Mind is 90% covered, Stomach is 0%. You know exactly where to focus your remaining interview time. *Real use:* A rushed 15-minute acute case shows 45% complete. The module says: "Generals at 20% — ask thermal state, thirst, and sleep position. Mind at 80% — skip it." You finish in 5 more minutes.
+
+**<a id="mod-123">#123 — Adaptive Symptom Sequencer</a>**
+Instead of asking symptoms in random order, ask them in the order that eliminates the most wrong remedies fastest. This module uses Bayesian updating: after each answer, the posterior over remedies is updated, and the next question is chosen to maximally reduce the remaining uncertainty. It is like playing "20 questions" with the repertory. *Real use:* You have 15 minutes for an acute cough case. The module says: "Ask about time modality first (night vs. morning) — it eliminates 60% of remedies. Then ask thermal state — eliminates 30% of the remainder. You will have the remedy in 4 questions."
+
+**<a id="mod-124">#124 — Latent Symptom Embedding</a>**
+The repertory is 143,408 rubrics × 2,432 remedies. Too big to see patterns. This module compresses it into a low-dimensional "latent space" where similar remedies cluster together. You can visually see: Pulsatilla near Sepia (both weepy, warm), Natrum-mur near Ignatia (both grief), Sulphur near Psorinum (both dirty, itchy). The current case is a point in this space; the closest remedies are the ones most similar in their overall symptom profile. *Real use:* After entering the case, the patient's point in latent space is closest to Pulsatilla. But nearby are Sepia (20% away), Lycopodium (35% away), and Sulphur (50% away). This tells you the "remedy neighborhood" — the group of remedies most similar to this patient overall.
+
+**<a id="mod-125">#125 — Confusion Matrix Differential</a>**
+Which remedies get confused with each other most often? This module shows the full confusion matrix from your historical cases: "Pulsatilla was prescribed 50 times, but 8 of those were actually Sepia cases." At every score threshold, it shows precision and recall. You can set a threshold: only prescribe when score ≥ 15, which gives 90% precision. This replaces guesswork with calibrated decision rules from your own outcomes. *Real use:* You see Pulsatilla at score 12, Sepia at 11. The confusion matrix shows Puls-Sepia is the #1 confusion pair in your practice. You now know to ask the discriminating question (thermal state) before deciding.
+
+**<a id="mod-126">#126 — K-Nearest Proven Cases</a>**
+"Has anyone had a case like this before, and what worked?" This module searches your entire case history for the most similar past cases, using Jaccard similarity on the rubric set. It then shows you the remedies that actually worked in those similar cases, weighted by outcome quality. This is collaborative filtering for homeopathy — your past successful cases vote on the current one. *Real use:* A patient presents with "burning, right-sided headache, worse from sun, irritable." The KNN finds 3 similar past cases: two resolved with Belladonna (excellent), one with Nux-vomica (good). The weighted vote says Belladonna 67%, Nux-v. 33%. You now have historical precedent, not just repertorization.
+
+**<a id="mod-127">#127 — Bayesian Rubric Network</a>**
+Are two rubrics telling you the same thing? If "fear of death" and "anxiety about health" always appear together, they are redundant. This module builds a Chow-Liu tree of rubric dependencies using mutual information. It shows which rubrics are independent (add new information) vs. dependent (redundant). You should weight independent rubrics higher and drop redundant ones to avoid inflating one symptom artificially. *Real use:* You have 12 rubrics. The network says "fear of death" and "wants to be alone" are highly connected — they are two expressions of the same mental state. You drop one and replace it with an independent rubric like "worse from cold." Your repertorization becomes cleaner and more accurate.
+
+**<a id="mod-128">#128 — Symptom Co-occurrence Lift</a>**
+Which symptoms form "syndromes" — groups that appear together more often than chance? If "burning pain" and "worse from heat" co-occur at 5× the expected rate, that is a syndrome with strong remedy predictive power. This panel mines association rules: support, confidence, lift, and conviction. High-lift pairs are your "signature patterns" — when you see one, you know to ask about the other. *Real use:* A patient has "worse from motion." The lift analysis shows "worse from motion" + "stitching pain" have lift 4.2 — they form a syndrome pointing to Bryonia. You now ask about pain character, and Bryonia moves to #1.
+
+**<a id="mod-129">#129 — Active Learning Intake Tracker</a>**
+You have 20 minutes. Where should you spend them? This module tracks your case-taking in real time: chapter coverage, redundancy, pace, and information gain per minute. It tells you: "You are 60% done, but Generals is only 15% covered — spend your next 5 minutes on thermal state and thirst." It prevents both under-taking (rushed prescriptions) and over-taking (2-hour interviews with diminishing returns). *Real use:* After 10 minutes, the panel shows Mind at 85%, Generals at 20%, Modalities at 40%. It suggests: "Ask about thermal state next — expected IG 1.8 bits, will push Generals to 65%." You follow the suggestion and finish a complete case in 15 minutes.
+
+**<a id="mod-130">#130 — Remedy Confidence Calibration</a>**
+A repertorization score of 20 "feels" strong, but is it really 90% likely to be correct? This module calibrates raw scores into true probabilities using Platt scaling (logistic regression on historical outcomes) and isotonic regression (PAVA — monotonic calibration). It tells you: "Score 20 → 73% probability. Score 15 → 45%. Score 8 → 12%." No more gut-feeling prescriptions — you know the exact calibrated confidence before you prescribe. *Real use:* You see Pulsatilla at score 18. The panel says: "Calibrated probability: 68%. Historical calibration curve shows you tend to overestimate at this score (predicted 85%, actual 68%). Consider a second-look or confirmatory Materia Medica check."
+
+---
+
+### v4.0 — Adaptive Patient Intake System (Modules #131–#140)
+
+These ten modules implement a complete, evidence-based homeopathic patient interview pipeline — built on Hahnemann's, Kent's, Vithoulkas's, and Herscu's case-taking principles, plus modern active-learning and information-theoretic optimization.
+
+**<a id="mod-131">#131 — Patient Intake Engine</a>**
+This is the central command center for the entire patient interview. It shows you where you are in the 9-phase flow (Opening → Chief Complaint → History → Modalities → Concomitants → Mind → Generals → Constitution → Review), what has been captured, what is still missing, and what the next optimal question is. You never lose track of the interview structure. It is like having Kent and Vithoulkas whispering in your ear, keeping you on track. *Real use:* You are 12 minutes into a complex chronic case. The panel shows: Mind 90%, Generals 30%, Modalities 70%. It says: "Next: ask about thermal state (Generals gap). Expected to raise case quality from 62 to 78." You ask. The patient says "chilly." Pulsatilla drops, Arsenicum rises. You are now confident.
+
+**<a id="mod-132">#132 — Interview Question Bank</a>**
+This is your "script" for the patient interview — 30+ canonical questions organized by classical phase, each tagged with depth, SRP potential, modality axes, and which remedies they discriminate. You never run out of the right question. Instead of improvising, you ask questions that have been validated by 200 years of homeopathic literature. *Real use:* The patient says "I have a headache." Instead of "where does it hurt?" (too generic), the bank suggests: "Describe the character of the pain — is it throbbing, stitching, burning, or pressing? Does it stay in one place or move around? What makes it better or worse?" These are Kent-quality questions, pre-loaded.
+
+**<a id="mod-133">#133 — Chief Complaint Triager</a>**
+The first 60 seconds of the interview set the trajectory. This module instantly classifies the patient's free-text complaint: which body system, acute/chronic/recurring, and urgency level. It also flags 19 red-alert patterns (chest pain, suicidal ideation, sudden severe headache) that mandate medical referral. You never miss a medical emergency hiding inside a "routine" visit. *Real use:* Patient says "I have terrible chest pain when I walk." The panel instantly flags: 🚨 EMERGENCY — cardiac red flag. Category: Acute. Urgency: Immediate medical referral required. You refer to the ER and then schedule a constitutional follow-up.
+
+**<a id="mod-134">#134 — Concomitant Detector</a>**
+Kent said: "The concomitants decide the case." This module automatically detects symptoms that accompany the chief complaint and scores each by SRP potential. A concomitant that is odd, unexpected, or highly specific is worth more than the chief complaint itself. You stop fishing and start capturing the symptoms that truly differentiate the remedy. *Real use:* Chief complaint: headache. Concomitants detected: "irritability" (common, low SRP), "vision flashes" (rare, high SRP), "must lie down in dark room" (peculiar, high SRP). The panel says: "Weight 'vision flashes' and 'must lie in dark' heavily — these are the case-deciders." You add them to repertorization. Belladonna rises to #1.
+
+**<a id="mod-135">#135 — Modality Extractor</a>**
+Modalities are the fingerprint of the remedy. "Better from cold" is not a preference — it is a constitutional signal that separates Pulsatilla from Nux-vomica from Sulphur. This module extracts modalities across 11 axes from free-text narrative, identifies SRP modalities (e.g., "better at exactly 3 a.m."), and builds a complete modality grid for repertorization. You never miss a modality because the patient buried it in a long story. *Real use:* Patient says "I feel awful in the morning, but by afternoon I can function, and I really need fresh air." The panel extracts: worse morning (time), better open air (weather), worse first motion then better continued (motion). It flags "worse morning then better afternoon" as SRP — a strong Nux-vomica signal. You add all three to repertorization. Nux-v. jumps to #2.
+
+**<a id="mod-136">#136 — Causation & Timeline</a>**
+Hahnemann taught: find the cause. This module identifies "ailments from" etiology — grief, anger, cold dry wind, vaccination, head injury, suppressed menses, never been well since... — and maps them to the classical remedies known for each cause. It also builds a chronological timeline and scores miasmatic affinity (Psora, Sycosis, Syphilis, Tubercular). The timeline reveals suppressed layers. *Real use:* Patient says "I was never the same after my father's death." The panel flags: "Ailment from grief" → Ignatia, Natrum-mur, Phosphoric-acid. Timeline shows: grief (age 28) → anxiety (30) → insomnia (32) → chronic fatigue (35). Miasm: Psora-dominant with Syphilitic tinge. You prescribe Natrum-mur, understanding the full causal chain.
+
+**<a id="mod-137">#137 — Mental/Emotional Prober</a>**
+Vithoulkas: "The mental state is the most important level." This module deep-probes mental symptoms across 23 categories: fears, reactions to consolation/company/criticism, delusions, grief, indignation, jealousy, restlessness. It identifies characteristic remedies with confidence weights. You do not get a vague "anxious" label — you get the exact mental picture that repertorizes to the remedy. *Real use:* Patient says "I am just stressed." The panel probes deeper: "What kind of stress? Do you fear something specific? How do you react when someone tries to comfort you?" It surfaces: fear of death, worse from consolation, wants to be alone, suicidal thoughts on seeing knives. Aurum metallicum #1. You would have missed this with a superficial "anxiety" label.
+
+**<a id="mod-138">#138 — Generals Survey</a>**
+"Generals" are the whole-person symptoms — thermal state, sleep position, food cravings, dreams, weather preference, energy, side affinity. They carry enormous constitutional weight because they describe the patient's baseline, not just the acute complaint. This panel captures 40+ general categories and maps them to characteristic remedies. A "warm-blooded, craves salt, sleeps on left side, dreams of fire" patient is unmistakably Pulsatilla — even before you repertorize a single rubric. *Real use:* Patient says "I am always cold, love salt, and sleep curled up on my left side." The panel instantly flags: chilly → Calcarea, Arsenicum, Nux-vomica. Craves salt → Natrum-mur, Phosphorus. Left side → Pulsatilla, Lachesis. Dreams of fire → Sulphur, Phosphorus. The intersection: Natrum-mur rises because it hits the most generals. You now have constitutional direction before opening the repertory.
+
+**<a id="mod-139">#139 — Constitutional Snapshot</a>**
+Every patient has a constitutional type — the remedy that matches their baseline across all conditions. This panel compares the case against 12 classical constitutional archetypes (Pulsatilla, Nux-vomica, Arsenicum, Sulphur, Medorrhinum, Thuja, Aurum, Calcarea-phos, Calcarea, Lycopodium, Natrum-mur, Silica) and scores the match. It then separates constitutional remedy from acute remedy: "This patient is constitutionally Pulsatilla, but acutely needs Belladonna for this headache." You treat the acute and address the constitutional layer in follow-up. *Real use:* The snapshot says: 78% Pulsatilla, 45% Sulphur, 32% Arsenicum. Constitutional diagnosis: Pulsatilla. The acute complaint (throbbing right-sided headache, worse heat) points to Belladonna. You prescribe Belladonna 30C now, and note for follow-up: consider Pulsatilla LM for the constitutional layer.
+
+**<a id="mod-140">#140 — Intake Analyzer</a>**
+The final quality check before you prescribe. This panel scores the entire intake (0–100), identifies strengths and gaps, builds the Total Symptom Picture (TSP) for repertorization, ranks the differential, applies Hering's directions of cure, and tells you whether the case is ready to prescribe or needs more data. It is your final safety net — preventing premature prescription from incomplete data. *Real use:* After a 20-minute intake, the panel says: "Quality: 82/100. Strengths: Mind (90%), Modalities (85%). Gaps: Generals (45%). TSP built: 14 symptoms, 7 SRP. Differential: Pulsatilla 8.4, Sulphur 5.2, Arsenicum 3.1. Hering: no suppression detected. Ready to prescribe: ✅ YES." You prescribe with confidence, knowing the case is complete and the differential is statistically sound.
 
 ---
 
@@ -498,7 +622,7 @@ pytest tests/ --timeout=45 -q
 
 Next.js practitioner-facing dashboard with:
 
-- **35 visualization components** — cycle rings, coverage heatmaps, Venn diagrams, phantom gauges, differential radar, outcome sparklines, potency waterfalls, miasm donuts, kingdom clouds, confidence strips, family graphs, layer timelines, Sankey flows, rubric trees, grand rounds panels, ROC curves, network graphs, comparator cards, PCA scatters, complexity gauges, kappa displays, forest plots, power curves, Kaplan-Meier curves, resampling panels, **reverse repertorization lists, constitutional trackers, prescription safety checks, posology schedules, symptom severity gauges, clinical tip charts, protocol builder lists, inventory grids, miasm layer indicators, case similarity tables**
+- **55+ visualization components** — cycle rings, coverage heatmaps, Venn diagrams, phantom gauges, differential radar, outcome sparklines, potency waterfalls, miasm donuts, kingdom clouds, confidence strips, family graphs, layer timelines, Sankey flows, rubric trees, grand rounds panels, ROC curves, network graphs, comparator cards, PCA scatters, complexity gauges, kappa displays, forest plots, power curves, Kaplan-Meier curves, resampling panels, reverse repertorization lists, constitutional trackers, prescription safety checks, posology schedules, symptom severity gauges, clinical tip charts, protocol builder lists, inventory grids, miasm layer indicators, case similarity tables, **Thompson sampling betas, UCB rubric rankings, propensity calibration, discrimination heatmaps, hierarchical similarity networks, CV weight convergence, SPRT boundaries, GP uncertainty surfaces, causal forest plots, ensemble contribution breakdowns, discriminant question lists, information-theoretic completeness bars, adaptive question sequences, latent embedding clusters, confusion matrix differentials, proven-case KNN votes, Bayesian rubric dependency trees, co-occurrence lift tables, active learning intake progress, confidence calibration curves, plus 10 patient intake panels (intake engine, question bank, triage, concomitants, modalities, causation timeline, mental/emotional, generals, constitutional snapshot, intake analyzer)**
 - **Live API data layer** — pulls from OOREP backend via Next.js routes
 - **Click-through drill-down** — every remedy/rubric clickable to detail pages
 - **Pipeline builder** — drag-and-drop module nodes for reusable SOPs

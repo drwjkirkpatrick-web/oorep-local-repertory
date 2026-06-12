@@ -3,6 +3,23 @@
 /**
  * RubricBanditPanel.tsx
  * Dashboard panel for Multi-Armed Bandit Rubric Selection (Module #112)
+ *
+ * ┌─────────────────────────────────────────────────────────────────────┐
+ * │ PRACTITIONER BENEFIT:                                              │
+ * │ Which rubric should you search first? This panel uses the UCB1     │
+ * │ multi-armed bandit algorithm — the same math used by Netflix to    │
+ * │ recommend movies — to learn which rubrics in your practice most    │
+ * │ often lead to the correct remedy. It balances trying new rubrics   │
+ * │ (exploration) with using rubrics that have already worked          │
+ * │ (exploitation). Over time, it learns your personal “best rubric    │
+ * │ repertoire” — the set of rubrics that discriminate best in your    │
+ * │ patient population.                                                │
+ * │                                                                    │
+ * │ Real-world use: After 30 cases, the panel shows “fear of death in   │
+ * │ heart disease” has a 78% success rate in your practice, while      │
+ * │ “headache, location unspecified” only has 23%. You now know which   │
+ * │ rubrics to prioritize when time is short.                          │
+ * └─────────────────────────────────────────────────────────────────────┘
  */
 
 import React, { useState, useEffect } from 'react';

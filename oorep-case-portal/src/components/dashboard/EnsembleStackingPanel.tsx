@@ -3,6 +3,23 @@
 /**
  * EnsembleStackingPanel.tsx
  * Dashboard panel for Ensemble Retrieval with Stacking (Module #120)
+ *
+ * ┌─────────────────────────────────────────────────────────────────────┐
+ * │ PRACTITIONER BENEFIT:                                              │
+ * │ No single search method is perfect. Lexical search misses          │
+ * │ semantic nuance. Vector search can be too broad. SRP detection     │
+ * │ finds gems but misses common symptoms. This panel combines        │
+ * │ SIX search layers — lexical, vector, SRP, keynote, family, and    │
+ * │ cycle — and learns the optimal weight for each from your outcomes. │
+ * │ The result is a “meta-repertorization” that is more accurate than  │
+ * │ any single layer alone.                                            │
+ * │                                                                    │
+ * │ Real-world use: Lexical search says Pulsatilla #1. Vector says      │
+ * │ Sulphur #1. SRP says Arsenicum #1. The ensemble weighs them:      │
+ * │ lexical 0.25, vector 0.15, SRP 0.35, keynote 0.15, family 0.05,   │
+ * │ cycle 0.05. Final ranking: Arsenicum #1 (SRP-heavy case). The       │
+ * │ ensemble corrected the lexical bias and found the true match.       │
+ * └─────────────────────────────────────────────────────────────────────┘
  */
 
 import React, { useState, useEffect } from 'react';
