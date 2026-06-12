@@ -1,12 +1,12 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **140 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, a full adaptive patient intake system, and the Clinical Mission Control dashboard.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **141 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, a full adaptive patient intake system, a case analysis bridge that cross-references confusion patterns with symptom syndromes, and the Clinical Mission Control dashboard.
 
-|> **Version:** 4.0 | **License:** GPL v3  
-|> **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links  
-|> **Modules:** 140 Python modules  
-|> **Tests:** 1,050+ pytest tests  
-|> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules + 10 patient intake system modules  
+|> **Version:** 4.1 | **License:** GPL v3
+|> **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links
+|> **Modules:** 141 Python modules
+|> **Tests:** 1,060+ pytest tests
+|> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules + 10 patient intake system modules + 1 case analysis bridge module
 |> **Dashboard:** Next.js Clinical Mission Control with 55+ visualizations + live API + click-through drill-down + adaptive patient intake
 
 ---
@@ -318,6 +318,15 @@ Every patient has a constitutional type — the remedy that matches their baseli
 
 **<a id="mod-140">#140 — Intake Analyzer</a>**
 The final quality check before you prescribe. This panel scores the entire intake (0–100), identifies strengths and gaps, builds the Total Symptom Picture (TSP) for repertorization, ranks the differential, applies Hering's directions of cure, and tells you whether the case is ready to prescribe or needs more data. It is your final safety net — preventing premature prescription from incomplete data. *Real use:* After a 20-minute intake, the panel says: "Quality: 82/100. Strengths: Mind (90%), Modalities (85%). Gaps: Generals (45%). TSP built: 14 symptoms, 7 SRP. Differential: Pulsatilla 8.4, Sulphur 5.2, Arsenicum 3.1. Hering: no suppression detected. Ready to prescribe: ✅ YES." You prescribe with confidence, knowing the case is complete and the differential is statistically sound.
+
+---
+
+### v4.1 — Case Analysis Bridge
+
+This module sits at the intersection of two existing capabilities and answers the most common practitioner's dilemma: **"Two remedies are close in the ranking — which one is right, and what do I ask to decide?"**
+
+**<a id="mod-bridge">#141 — Case Analysis Bridge</a>**
+When two remedies are confused in your practice history, this module finds the **symptom syndromes that differentiate them**. It cross-references the Confusion Matrix Differential (which remedies get mixed up) with the Symptom Co-occurrence Lift (which symptom pairs predict which remedy) to produce actionable guidance. It tells you: (1) the exact questions to ask the patient when two remedies are tied, (2) a calibrated score threshold based on how often you confuse these two remedies, and (3) the differentiating syndromes with their lift scores and remedy-specific prevalence rates. No more gut-feeling tie-breaking — you ask the mathematically optimal question every time. *Real use:* Pulsatilla and Sepia are tied at 12 and 11 points. The panel says: "You confuse these two 14% of the time. Ask: 'Are you warm-blooded or chilly?' (Puls: 65% warm, Sepia: 15% warm). Ask: 'Does consolation make you feel better or worse?' (Puls: 75% better, Sepia: 20% better). Raise your prescription threshold to ≥ 12.4 for this pair." You ask both. Patient says "chilly, worse from consolation." Sepia rises to #1. You prescribe with evidence.
 
 ---
 
