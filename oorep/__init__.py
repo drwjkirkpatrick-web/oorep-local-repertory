@@ -141,6 +141,38 @@ from .symptom_cooccurrence_lift import SymptomCooccurrenceLift, quick_lift
 from .active_learning_intake_tracker import ActiveLearningIntakeTracker, quick_intake_suggestion
 from .remedy_confidence_calibration import RemedyConfidenceCalibrator, quick_calibrate
 
+# v4.0 — Patient Intake System (10 modules for homeopathic case-taking)
+from .patient_intake_engine import (
+    PatientIntakeEngine, IntakeStatus, IntakeSession, CapturedSymptom, Modality, quick_intake
+)
+from .interview_question_bank import (
+    InterviewQuestionBank, InterviewQuestion, QuestionPhase, QuestionDepth, QuestionType, quick_bank
+)
+from .chief_complaint_triager import (
+    ChiefComplaintTriager, Urgency, ComplaintCategory, TriageResult, quick_triage
+)
+from .concomitant_detector import (
+    ConcomitantDetector, ConcomitantAnalysis, ConcomitantSymptom, quick_concomitants
+)
+from .modality_extractor import (
+    ModalityExtractor, ModalityAxis, ModalityDirection, ModalityGrid, CapturedModality, quick_modalities
+)
+from .causation_timeline_module import (
+    CausationTimelineAnalyzer, Miasm, CausationReport, TimelineEvent, quick_causation
+)
+from .mental_emotional_prober import (
+    MentalEmotionalProber, MentalEmotionalProfile, MentalSymptom, quick_mental_profile
+)
+from .generals_survey import (
+    GeneralsSurvey, GeneralsProfile, GeneralSymptom, quick_generals
+)
+from .constitutional_snapshot import (
+    ConstitutionalSnapshot, ConstitutionalProfile, ConstitutionalArchetypeMatch, quick_constitutional
+)
+from .intake_analyzer import (
+    IntakeAnalyzer, CaseReport, CaseQuality, HeringDirection, quick_analyze
+)
+
 
 __all__ = [
     # Core
@@ -315,4 +347,54 @@ __all__ = [
     "quick_intake_suggestion",
     "RemedyConfidenceCalibrator",
     "quick_calibrate",
+    # v4.0 — Patient Intake System (10 modules for homeopathic case-taking)
+    "PatientIntakeEngine",
+    "IntakeStatus",
+    "IntakeSession",
+    "CapturedSymptom",
+    "Modality",
+    "quick_intake",
+    "InterviewQuestionBank",
+    "InterviewQuestion",
+    "QuestionPhase",
+    "QuestionDepth",
+    "QuestionType",
+    "quick_bank",
+    "ChiefComplaintTriager",
+    "Urgency",
+    "ComplaintCategory",
+    "TriageResult",
+    "quick_triage",
+    "ConcomitantDetector",
+    "ConcomitantAnalysis",
+    "ConcomitantSymptom",
+    "quick_concomitants",
+    "ModalityExtractor",
+    "ModalityAxis",
+    "ModalityDirection",
+    "ModalityGrid",
+    "CapturedModality",
+    "quick_modalities",
+    "CausationTimelineAnalyzer",
+    "Miasm",
+    "CausationReport",
+    "TimelineEvent",
+    "quick_causation",
+    "MentalEmotionalProber",
+    "MentalEmotionalProfile",
+    "MentalSymptom",
+    "quick_mental_profile",
+    "GeneralsSurvey",
+    "GeneralsProfile",
+    "GeneralSymptom",
+    "quick_generals",
+    "ConstitutionalSnapshot",
+    "ConstitutionalProfile",
+    "ConstitutionalArchetypeMatch",
+    "quick_constitutional",
+    "IntakeAnalyzer",
+    "CaseReport",
+    "CaseQuality",
+    "HeringDirection",
+    "quick_analyze",
 ]

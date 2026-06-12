@@ -1,13 +1,13 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **130 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, and the Clinical Mission Control dashboard.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **140 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, a full adaptive patient intake system, and the Clinical Mission Control dashboard.
 
-|> **Version:** 3.9 | **License:** GPL v3  
+|> **Version:** 4.0 | **License:** GPL v3  
 |> **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links  
-|> **Modules:** 130 Python modules  
-|> **Tests:** 950+ pytest tests  
-|> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules  
-|> **Dashboard:** Next.js Clinical Mission Control with 45 visualizations + live API + click-through drill-down
+|> **Modules:** 140 Python modules  
+|> **Tests:** 1,050+ pytest tests  
+|> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules + 10 patient intake system modules  
+|> **Dashboard:** Next.js Clinical Mission Control with 45 visualizations + live API + click-through drill-down + adaptive patient intake
 
 ---
 
@@ -145,6 +145,55 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 **All 10 modules use only the Python standard library** (no numpy/scipy/sklearn), keeping the project fully offline.
 
 **Comprehensive test suite** in `tests/test_v39_modules.py` — 63 tests covering init, edge cases, statistical correctness, and end-to-end workflows.
+
+### v4.0 — Adaptive Patient Intake System (NEW)
+
+**10 new modules** that implement a complete, evidence-based homeopathic patient interview pipeline — built on Hahnemann's, Kent's, Vithoulkas's, and Herscu's case-taking principles, plus modern active-learning and information-theoretic optimization.
+
+The intake system answers the question: **"What is the best possible patient interview for finding the correct remedy?"**
+
+| # | Module | What It Does | Tests |
+|---|--------|--------------|-------|
+| 131 | **Patient Intake Engine** | Orchestrates the whole interview: chief complaint → modalities → concomitants → mind → generals → constitution. Captures symptoms, modalities, and follow-ups. Detects vague answers and queues targeted probes. | 9 |
+| 132 | **Interview Question Bank** | 30+ canonical homeopathic questions across 9 phases (Opening, Chief Complaint, History, Modalities, Concomitants, Mind, Generals, Constitution, Review). Each tagged with phase, depth, SRP potential, modality axes, follow-up prompts, and discriminative remedies. | 7 |
+| 133 | **Chief Complaint Triager** | First-pass triage: classifies free-text complaint to body system (Mind, Head, Stomach, etc.), category (acute/chronic/recurring), and urgency (routine/priority/emergency). Detects 19 red-flag patterns (chest pain, suicidal ideation, sudden severe headache, etc.) that mandate medical referral. | 9 |
+| 134 | **Concomitant Detector** | Kent: "The concomitants decide the case." Detects symptoms occurring alongside the chief complaint, scores each by SRP potential and discriminative value. Surfaces the strongest concomitants for repertorization. | 6 |
+| 135 | **Modality Extractor** | Extracts modalities (better-from / worse-from) across 11 axes: time, temperature, motion, position, food, emotion, weather, company, consolation, function. Identifies SRP modalities (e.g. "better at 3am", "must have cold applications as if ice"). | 9 |
+| 136 | **Causation & Timeline** | Identifies "ailments from" etiology (grief, anger, cold dry wind, vaccination, etc.) with classical remedy hints. Builds chronological timeline. Detects "never been well since" patterns. Scores miasmatic affinity (Psora/Sycosis/Syphilis/Tubercular). | 8 |
+| 137 | **Mental/Emotional Prober** | Deep-probe of mental symptoms: fears (death, alone, suffocation), reactions to consolation/company/criticism, delusions ("as if in a dream"), grief, indignation, jealousy, restlessness. Identifies characteristic remedies with confidence weights. | 8 |
+| 138 | **Generals Survey** | Whole-person characteristics: thermal state, sleep position (back, left, right, knees to chest, arms above head), food cravings (salt, sweet, ice, eggs, fat), aversions (fat, meat, milk), dreams (fire, water, falling, snakes), weather preference, energy pattern, side affinity. | 11 |
+| 139 | **Constitutional Snapshot** | Matches the case against 12 constitutional archetypes (Puls., Nux-v., Ars., Sulph., Med., Thuj., Aur., Calc-p., Calc., Lyc., Nat-m., Sil.). Scores stability, distinguishes constitutional remedy from acute remedy. | 5 |
+| 140 | **Intake Analyzer** | Final case quality scoring (0-100). Identifies strengths, gaps, and recommendations. Builds the Total Symptom Picture (TSP) for repertorization. Ranks the differential. Applies Hering's directions of cure. Determines "ready to prescribe" status. | 9 |
+
+**Test suite:** `tests/test_v40_intake.py` — 83 tests, all passing.
+
+**End-to-end flow:**
+```
+chief_complaint "throbbing headache, right side, worse from warmth"
+        ↓
+ChiefComplaintTriager → chapter=Head, category=acute, urgency=routine
+        ↓
+PatientIntakeEngine → orchestrates InterviewQuestionBank
+        ↓ questions in recommended order
+        ↓
+ModalityExtractor → "worse from warmth, better at night"
+ConcomitantDetector → "irritable, vision blurry"
+MentalEmotionalProber → "fear of death, alone when ill"
+GeneralsSurvey → "warm-blooded, crave salt, sleep left side"
+ConstitutionalSnapshot → Pulsatilla archetype (78% match)
+        ↓
+IntakeAnalyzer → quality=82/100, ready to prescribe
+        ↓
+differential: [Puls. (8.4), Sulph. (5.2), Ars. (3.1), ...]
+```
+
+**Clinical principles embedded:**
+- **Hahnemann §84** (Organon): "The patient details his sufferings; the physician listens."
+- **Kent**: "The concomitants decide the case."
+- **Vithoulkas**: "The mental state is the most important level."
+- **Herscu**: Cycles & segments for the deepest case-taking.
+- **Hering's Law**: Direction of cure, suppression detection.
+- **Classical SRP (Strange-Rare-Peculiar)**: Highest-weight symptoms in repertorization.
 
 ---
 
