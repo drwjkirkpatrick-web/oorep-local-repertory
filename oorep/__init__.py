@@ -173,6 +173,13 @@ from .intake_analyzer import (
     IntakeAnalyzer, CaseReport, CaseQuality, HeringDirection, quick_analyze
 )
 
+from .case_analysis_bridge import (
+    CaseAnalysisBridge,
+    CaseAnalysisReport,
+    ConfusedPairAnalysis,
+    DifferentiatingSyndrome,
+    quick_analysis,
+)
 
 __all__ = [
     # Core
@@ -397,4 +404,9 @@ __all__ = [
     "CaseQuality",
     "HeringDirection",
     "quick_analyze",
+    "CaseAnalysisBridge",
+    "CaseAnalysisReport",
+    "ConfusedPairAnalysis",
+    "DifferentiatingSyndrome",
+    "quick_analysis",
 ]
