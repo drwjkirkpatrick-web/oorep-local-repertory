@@ -129,6 +129,18 @@ from .gaussian_process_surrogate import GaussianProcessSurrogate, quick_gp_predi
 from .causal_remedy_effects import CausalRemedyEffects, quick_ate
 from .ensemble_retrieval_stacking import EnsembleRetrievalStacking, quick_ensemble
 
+# v3.9 — Differential question engine & case-taking analytics
+from .discriminant_rubric_selector import DiscriminantRubricSelector, quick_differential
+from .information_theoretic_case_workup import CaseWorkupAnalyzer, quick_workup
+from .adaptive_symptom_sequencer import AdaptiveSymptomSequencer, quick_sequence
+from .latent_symptom_embedding import LatentSymptomEmbedder, quick_embed
+from .confusion_matrix_differential import ConfusionMatrixDifferential, quick_confusion
+from .k_nearest_proven_cases import KNearestProvenCases, HistoricalCase, quick_knn
+from .bayesian_rubric_network import BayesianRubricNetwork, quick_network
+from .symptom_cooccurrence_lift import SymptomCooccurrenceLift, quick_lift
+from .active_learning_intake_tracker import ActiveLearningIntakeTracker, quick_intake_suggestion
+from .remedy_confidence_calibration import RemedyConfidenceCalibrator, quick_calibrate
+
 
 __all__ = [
     # Core
@@ -281,4 +293,26 @@ __all__ = [
     "quick_ate",
     "EnsembleRetrievalStacking",
     "quick_ensemble",
+    # v3.9 — Differential question engine & case-taking analytics
+    "DiscriminantRubricSelector",
+    "quick_differential",
+    "CaseWorkupAnalyzer",
+    "quick_workup",
+    "AdaptiveSymptomSequencer",
+    "quick_sequence",
+    "LatentSymptomEmbedder",
+    "quick_embed",
+    "ConfusionMatrixDifferential",
+    "quick_confusion",
+    "KNearestProvenCases",
+    "HistoricalCase",
+    "quick_knn",
+    "BayesianRubricNetwork",
+    "quick_network",
+    "SymptomCooccurrenceLift",
+    "quick_lift",
+    "ActiveLearningIntakeTracker",
+    "quick_intake_suggestion",
+    "RemedyConfidenceCalibrator",
+    "quick_calibrate",
 ]

@@ -1,13 +1,13 @@
 # OOREP Local Homeopathic Repertory
 
-A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **120 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, and the Clinical Mission Control dashboard.
+A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **130 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, and the Clinical Mission Control dashboard.
 
-> **Version:** 3.8 | **License:** GPL v3  
-> **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links  
-> **Modules:** 120 Python modules  
-> **Tests:** 900+ pytest tests  
-> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 10 statistical search layers  
-> **Dashboard:** Next.js Clinical Mission Control with 45 visualizations + live API + click-through drill-down
+|> **Version:** 3.9 | **License:** GPL v3  
+|> **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links  
+|> **Modules:** 130 Python modules  
+|> **Tests:** 950+ pytest tests  
+|> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules  
+|> **Dashboard:** Next.js Clinical Mission Control with 45 visualizations + live API + click-through drill-down
 
 ---
 
@@ -124,6 +124,27 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 **Dashboard panels for key modules** — Reverse repertorization rubric list, constitutional tracker timeline, prescription safety check, posology schedule, symptom severity gauge, clinical tips reliability chart, protocol builder list, inventory status grid, miasm layer indicator, and case similarity "what worked" table. All wired into the Clinical Mission Control grid.
 
 **Portal API expanded** — 100 registered modules (Benefits #1–#100) with routes, inputs, and outputs. New categories: "workflow", "safety", "navigation".
+
+### v3.9 — Differential Case-Taking & Active Learning (NEW)
+
+**10 new modules** that reverse-engineer the patient interview: which questions to ask next, which symptoms carry redundant information, which historical cases are most similar to the current one, and how to calibrate raw repertorization scores into true probabilities. Each module provides a concrete, testable, statistical signal for narrowing down to the correct remedy.
+
+| # | Module | What It Does | Tests |
+|---|--------|--------------|-------|
+| 121 | **Discriminant Rubric Selector** | Reverse-engineers which questions maximally differentiate the top candidate remedies — answers "what should I ask next?" via expected information gain | 8 |
+| 122 | **Information-Theoretic Case Workup** | Shannon-entropy completeness: bits still needed, % case complete, missing chapters, sufficiency to prescribe | 6 |
+| 123 | **Adaptive Symptom Sequencer** | 20-questions style Bayesian case-taking: live posterior updated after each answer, next question chosen by IG | 6 |
+| 124 | **Latent Symptom Embedding** | Truncated SVD (power iteration in pure Python) on the remedy×rubric matrix; case = grade-weighted sum of rubric vectors, remedies ranked by cosine | 5 |
+| 125 | **Confusion Matrix Differential** | Differential confusion rates between remedy pairs from historical cases; precision/recall per remedy at multiple score thresholds | 4 |
+| 126 | **K-Nearest Proven Cases** | Jaccard-similarity KNN over past prescriptions, outcome-weighted voting — surfaces remedies that worked for similar cases | 6 |
+| 127 | **Bayesian Network of Rubric Dependencies** | Chow-Liu tree on pairwise mutual information — finds redundant and independent rubrics | 7 |
+| 128 | **Symptom Co-occurrence Lift** | Association rule mining: support, confidence, lift, conviction for all symptom pairs — surfaces remedy "syndromes" | 7 |
+| 129 | **Active Learning Intake Tracker** | Tracks case-taking progress, chapter coverage, redundancy, pace; ranks next question by IG + coverage boost | 7 |
+| 130 | **Remedy Confidence Calibration** | Platt scaling + isotonic regression (PAVA) on historical outcomes; maps raw score → calibrated P(correct) | 7 |
+
+**All 10 modules use only the Python standard library** (no numpy/scipy/sklearn), keeping the project fully offline.
+
+**Comprehensive test suite** in `tests/test_v39_modules.py` — 63 tests covering init, edge cases, statistical correctness, and end-to-end workflows.
 
 ---
 
