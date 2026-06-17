@@ -20,7 +20,8 @@ export type PortalModule = {
     | "materia_medica"
     | "teaching"
     | "workflow"
-    | "infrastructure";
+    | "infrastructure"
+    | "statistics";
   benefit: number | string;
   description: string;
   route: string; // API sub-path for execution

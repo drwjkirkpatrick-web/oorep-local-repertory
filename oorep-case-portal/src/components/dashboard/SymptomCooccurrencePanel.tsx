@@ -100,10 +100,10 @@ export default function SymptomCooccurrencePanel() {
       </div>
 
       <div className="mt-4 p-3 bg-blue-50 rounded-lg text-sm text-gray-700">
-        <strong>How to use this:</strong> Lift > 3 means the symptoms co-occur at 3× the
+        <strong>How to use this:</strong> Lift &gt; 3 means the symptoms co-occur at 3× the
         expected rate — this is a strong syndrome. When you see the antecedent in a case,
         immediately ask about the consequent; the pair together has strong remedy predictive
-        power. Conviction > 1.5 means the rule is directionally reliable (A predicts B better
+        power. Conviction &gt; 1.5 means the rule is directionally reliable (A predicts B better
         than B predicts A). Use these rules as “if-then” clinical prompts during case-taking.
       </div>
     </div>

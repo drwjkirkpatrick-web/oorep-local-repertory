@@ -2,12 +2,12 @@
 
 A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **141 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, a full adaptive patient intake system, a case analysis bridge that cross-references confusion patterns with symptom syndromes, and the Clinical Mission Control dashboard.
 
-|> **Version:** 4.1 | **License:** GPL v3
+|> **Version:** 4.2 | **License:** GPL v3
 |> **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links
 |> **Modules:** 141 Python modules
 |> **Tests:** 1,060+ pytest tests
 |> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules + 10 patient intake system modules + 1 case analysis bridge module
-|> **Dashboard:** Next.js Clinical Mission Control with 55+ visualizations + live API + click-through drill-down + adaptive patient intake
+|> **Dashboard:** Next.js Clinical Mission Control with 61+ visualizations + live API + click-through drill-down + adaptive patient intake
 
 ---
 
@@ -330,6 +330,31 @@ When two remedies are confused in your practice history, this module finds the *
 
 ---
 
+### v4.2 — 3D Signal-Through-Noise Visualizations (NEW)
+
+**Six interactive 3D panels** designed for a single clinical question: **"How do I find the right remedy through the noise?"** Each panel uses SVG isometric projection (zero WebGL/Three.js dependencies — runs natively on any hardware including Jetson). All panels are drag-to-rotate, hover-for-tooltips, and click-for-drill-down.
+
+| Panel | Level | What It Shows | Clinical Purpose |
+|-------|-------|---------------|------------------|
+| **Symptom Constellation** | BEGINNER | Symptoms as star dots on a 3D sphere shell; remedies orbit the symptoms they cover | See *which remedy clusters near which symptom group* — spatial coverage map |
+| **Rubric Hierarchy Tower** | BEGINNER | Kent hierarchy as stacked 3D cylinder tiers (Mind apex → Generals base) with remedy dots per tier | See *where in the body each remedy has matches* — mind-heavy vs generals-heavy remedies stand apart |
+| **Remedy Landscape** | INTERMEDIATE | 3D terrain with remedy bars as peaks; red noise-floor plane cuts across at adjustable threshold | See *which remedies rise above the noise floor* — peaks are real signal, valleys are noise |
+| **Confidence Cloud** | INTERMEDIATE | Remedies as floating spheres; size = score, opacity = confidence, ghostly = uncertain | See *which remedies are solid vs ghostly* — faint spheres fade into the background |
+| **Differential Helix** | ADVANCED | Spiral helix with 4 colored miasm tracks; remedies cluster on their miasm track | See *which remedies share a miasm* — spiral clusters reveal remedy families |
+| **Concordance Cube** | ADVANCED | 3D cube with axes = Classical / Cycle / SRP; remedies near diagonal (1,1,1) = consistent across all methods | See *method-independent signal* — remedies near the diagonal score well no matter how you score |
+
+**Shared 3D projection engine** — `src/lib/projection3d.ts` provides isometric cabinet projection with yaw/pitch rotation, perspective foreshortening, and painter's-algorithm depth sorting. Used by all six panels. ~5.5 KB, zero dependencies.
+
+**Interactive improvements per panel:**
+- **Symptom Constellation** — Star brightness scales by classical grade (1–4). Constellation polygon lines connect symptoms per remedy. Zoom slider (50–200%).
+- **Rubric Hierarchy Tower** — Click tier to expand (1.5× scale) and see rubric/grade list. Grade-colored remedy dots (not rank-colored). Remedy filter pills highlight one remedy across all tiers.
+- **Remedy Landscape** — Animated bar growth on data load (800ms easeOutCubic). Interactive noise-floor slider (0–100% of max score). Terrain mesh lines connect adjacent bar tops into a continuous ridge.
+- **Confidence Cloud** — Auto-rotation with pause/play toggle. Ghost-filter slider hides remedies below a confidence threshold. Gentle vertical float animation per sphere (higher cycle coverage = faster bob).
+- **Differential Helix** — Auto-rotation with speed control (Slow/Medium/Fast). Track filter buttons isolate one miasm at a time. Score ring around each sphere radius = score/maxScore × 15.
+- **Concordance Cube** — Auto-rotation with pause toggle. Method checkboxes (Classical/Cycle/SRP) dim remedies scoring < 50% on that axis. Confidence threshold slider fades low-concordance remedies to 10% opacity.
+
+---
+
 ## Complete Feature List
 
 ### Core Repertory Engine
@@ -631,7 +656,7 @@ pytest tests/ --timeout=45 -q
 
 Next.js practitioner-facing dashboard with:
 
-- **55+ visualization components** — cycle rings, coverage heatmaps, Venn diagrams, phantom gauges, differential radar, outcome sparklines, potency waterfalls, miasm donuts, kingdom clouds, confidence strips, family graphs, layer timelines, Sankey flows, rubric trees, grand rounds panels, ROC curves, network graphs, comparator cards, PCA scatters, complexity gauges, kappa displays, forest plots, power curves, Kaplan-Meier curves, resampling panels, reverse repertorization lists, constitutional trackers, prescription safety checks, posology schedules, symptom severity gauges, clinical tip charts, protocol builder lists, inventory grids, miasm layer indicators, case similarity tables, **Thompson sampling betas, UCB rubric rankings, propensity calibration, discrimination heatmaps, hierarchical similarity networks, CV weight convergence, SPRT boundaries, GP uncertainty surfaces, causal forest plots, ensemble contribution breakdowns, discriminant question lists, information-theoretic completeness bars, adaptive question sequences, latent embedding clusters, confusion matrix differentials, proven-case KNN votes, Bayesian rubric dependency trees, co-occurrence lift tables, active learning intake progress, confidence calibration curves, plus 10 patient intake panels (intake engine, question bank, triage, concomitants, modalities, causation timeline, mental/emotional, generals, constitutional snapshot, intake analyzer)**
+- **61+ visualization components** — cycle rings, coverage heatmaps, Venn diagrams, phantom gauges, differential radar, outcome sparklines, potency waterfalls, miasm donuts, kingdom clouds, confidence strips, family graphs, layer timelines, Sankey flows, rubric trees, grand rounds panels, ROC curves, network graphs, comparator cards, PCA scatters, complexity gauges, kappa displays, forest plots, power curves, Kaplan-Meier curves, resampling panels, reverse repertorization lists, constitutional trackers, prescription safety checks, posology schedules, symptom severity gauges, clinical tip charts, protocol builder lists, inventory grids, miasm layer indicators, case similarity tables, Thompson sampling betas, UCB rubric rankings, propensity calibration, discrimination heatmaps, hierarchical similarity networks, CV weight convergence, SPRT boundaries, GP uncertainty surfaces, causal forest plots, ensemble contribution breakdowns, discriminant question lists, information-theoretic completeness bars, adaptive question sequences, latent embedding clusters, confusion matrix differentials, proven-case KNN votes, Bayesian rubric dependency trees, co-occurrence lift tables, active learning intake progress, confidence calibration curves, 10 patient intake panels (intake engine, question bank, triage, concomitants, modalities, causation timeline, mental/emotional, generals, constitutional snapshot, intake analyzer), **plus 6 interactive 3D panels: Symptom Constellation, Rubric Hierarchy Tower, Remedy Landscape, Confidence Cloud, Differential Helix, and Concordance Cube — all drag-to-rotate, hover-for-tooltips, click-for-drill-down, with auto-rotation, zoom sliders, noise-floor controls, ghost filters, miasm track filters, confidence thresholds, and remedy highlight pills**
 - **Live API data layer** — pulls from OOREP backend via Next.js routes
 - **Click-through drill-down** — every remedy/rubric clickable to detail pages
 - **Pipeline builder** — drag-and-drop module nodes for reusable SOPs

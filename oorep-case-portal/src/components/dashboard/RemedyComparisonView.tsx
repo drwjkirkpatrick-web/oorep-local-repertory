@@ -41,14 +41,16 @@ export default function RemedyComparisonView({
   // Find common rubrics between all selected remedies
   const allRubrics = remedies.map(r => new Set(r.matches.map(m => m.rubric)));
   const commonRubrics = allRubrics.reduce((acc, set) => {
-    return new Set([...acc].filter(x => set.has(x)));
+    return new Set(Array.from(acc).filter(x => set.has(x)));
   });
 
   // Find unique rubrics for each remedy
   const uniqueRubrics = remedies.map((r, i) => {
     const otherSets = allRubrics.filter((_, idx) => idx !== i);
     const others = otherSets.reduce((acc, set) => {
-      return new Set([...acc, ...set]);
+      const combined = new Set(acc);
+      Array.from(set).forEach((x) => combined.add(x));
+      return combined;
     }, new Set<string>());
     return r.matches.filter(m => !others.has(m.rubric));
   });

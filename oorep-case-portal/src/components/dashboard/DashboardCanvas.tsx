@@ -40,6 +40,14 @@ import InventoryPanel from "@/components/visualizations/InventoryPanel";
 import MiasmTimelinePanel from "@/components/visualizations/MiasmTimelinePanel";
 import CaseSimilarityPanel from "@/components/visualizations/CaseSimilarityPanel";
 
+/* ── NEW 3D Visualizations ── */
+import ConcordanceCube from "@/components/visualizations/ConcordanceCube";
+import RemedyLandscape from "@/components/visualizations/RemedyLandscape";
+import ConfidenceCloud from "@/components/visualizations/ConfidenceCloud";
+import SymptomConstellation from "@/components/visualizations/SymptomConstellation";
+import DifferentialHelix from "@/components/visualizations/DifferentialHelix";
+import RubricHierarchyTower from "@/components/visualizations/RubricHierarchyTower";
+
 export default function DashboardCanvas({
   modules,
   results,
@@ -369,6 +377,93 @@ export default function DashboardCanvas({
                 subtitle="Suppression events, remedies, layer emergence"
               />
               <LayerTimelineRibbon />
+            </div>
+          </>
+        )}
+
+        {/* ═══════════════════════════════════════
+            3D VISUALIZATIONS (v4.2) — Finding Remedy Through Noise
+        ═══════════════════════════════════════ */}
+        {hasRepertorization && (
+          <>
+            {/* Symptom Constellation — BEGINNER */}
+            <div className="bg-white rounded-lg border shadow-sm p-4 xl:col-span-2">
+              <PanelHeader
+                title="Symptom Constellation (3D)"
+                level="BEGINNER"
+                subtitle="Spatial remedy-symptom coverage map"
+              />
+              <SymptomConstellation
+                remedies={repertorizationData.slice(0, 6)}
+                onRemedyClick={handleRemedyClick}
+                onRubricClick={handleRubricClick}
+              />
+            </div>
+
+            {/* Rubric Hierarchy Tower — BEGINNER */}
+            <div className="bg-white rounded-lg border shadow-sm p-4 xl:col-span-2">
+              <PanelHeader
+                title="Rubric Hierarchy Tower (3D)"
+                level="BEGINNER"
+                subtitle="Kent hierarchy as stacked cylinder tiers"
+              />
+              <RubricHierarchyTower
+                remedies={repertorizationData.slice(0, 6)}
+                onRemedyClick={handleRemedyClick}
+                onRubricClick={handleRubricClick}
+              />
+            </div>
+
+            {/* Remedy Landscape — INTERMEDIATE */}
+            <div className="bg-white rounded-lg border shadow-sm p-4 xl:col-span-2">
+              <PanelHeader
+                title="Remedy Landscape (3D)"
+                level="INTERMEDIATE"
+                subtitle="Terrain peaks above the noise floor"
+              />
+              <RemedyLandscape
+                remedies={repertorizationData.slice(0, 8)}
+                onRemedyClick={handleRemedyClick}
+              />
+            </div>
+
+            {/* Confidence Cloud — INTERMEDIATE */}
+            <div className="bg-white rounded-lg border shadow-sm p-4 xl:col-span-2">
+              <PanelHeader
+                title="Confidence Cloud (3D)"
+                level="INTERMEDIATE"
+                subtitle="Uncertainty space: size = score, opacity = confidence"
+              />
+              <ConfidenceCloud
+                remedies={repertorizationData.slice(0, 8)}
+                onRemedyClick={handleRemedyClick}
+              />
+            </div>
+
+            {/* Differential Helix — ADVANCED */}
+            <div className="bg-white rounded-lg border shadow-sm p-4 xl:col-span-2">
+              <PanelHeader
+                title="Differential Helix (3D)"
+                level="ADVANCED"
+                subtitle="Miasm-tracked remedy spiral clustering"
+              />
+              <DifferentialHelix
+                remedies={repertorizationData.slice(0, 8)}
+                onRemedyClick={handleRemedyClick}
+              />
+            </div>
+
+            {/* Concordance Cube — ADVANCED */}
+            <div className="bg-white rounded-lg border shadow-sm p-4 xl:col-span-2">
+              <PanelHeader
+                title="Concordance Cube (3D)"
+                level="ADVANCED"
+                subtitle="Multi-method agreement: signal vs noise"
+              />
+              <ConcordanceCube
+                remedies={repertorizationData.slice(0, 8)}
+                onRemedyClick={handleRemedyClick}
+              />
             </div>
           </>
         )}
