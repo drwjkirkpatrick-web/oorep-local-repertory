@@ -47,7 +47,7 @@ const MIASM_LABELS: Record<string, string> = {
 
 const CX = 400;
 const CY = 320;
-const SCALE = 160;
+const SCALE = 0.6;
 const FOV = 900;
 const DEFAULT_ROT_Y = 35;
 const DEFAULT_ROT_X = -20;

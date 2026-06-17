@@ -38,7 +38,7 @@ const DEFAULT_ROT_Y = 35;
 const DEFAULT_ROT_X = -25;
 const CX = 400;
 const CY = 300;
-const SCALE = 160;
+const SCALE = 2.5;
 const FOV = 900;
 
 function getConfidence(r: Remedy): number {

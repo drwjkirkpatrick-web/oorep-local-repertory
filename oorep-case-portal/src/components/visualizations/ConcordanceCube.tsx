@@ -74,7 +74,7 @@ export default function ConcordanceCube({ remedies, onRemedyClick }: Concordance
   const size = 420;
   const cx = size / 2;
   const cy = size / 2;
-  const scale = 140;
+  const scale = 1.2;
 
   // ── Normalize remedy coords to 0-1 per axis ──
   const data = useMemo(() => {
