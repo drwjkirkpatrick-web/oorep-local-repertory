@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export interface CaseFormData {
   patient_pseudonym: string;
@@ -14,6 +14,9 @@ interface CaseEntryPanelProps {
   onUpload: (file: File) => void;
   onSymptomsExtracted: (symptoms: string) => void;
   savedCount: number;
+  editMode?: boolean;
+  initialData?: CaseFormData;
+  onUpdate?: (data: CaseFormData) => void;
 }
 
 export default function CaseEntryPanel({
@@ -21,16 +24,27 @@ export default function CaseEntryPanel({
   onUpload,
   onSymptomsExtracted,
   savedCount,
+  editMode = false,
+  initialData,
+  onUpdate,
 }: CaseEntryPanelProps) {
-  const [form, setForm] = useState<CaseFormData>({
+  const initial: CaseFormData = initialData ?? {
     patient_pseudonym: "",
     chief_concern: "",
     modalities: "",
     body: "",
-  });
+  };
+  const [form, setForm] = useState<CaseFormData>(initial);
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle");
   const [error, setError] = useState<string | null>(null);
   const [uploading, setUploading] = useState(false);
+
+  useEffect(() => {
+    if (editMode && initialData) {
+      setForm(initialData);
+      setStatus("idle");
+    }
+  }, [editMode, initialData]);
 
   const update = (field: keyof CaseFormData, value: string) => {
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -45,13 +59,18 @@ export default function CaseEntryPanel({
       return;
     }
     setStatus("saving");
-    onSave(form);
-    setStatus("saved");
-    // Reset form after brief delay so user sees confirmation
-    setTimeout(() => {
-      setForm({ patient_pseudonym: "", chief_concern: "", modalities: "", body: "" });
-      setStatus("idle");
-    }, 1200);
+    if (editMode && onUpdate) {
+      onUpdate(form);
+      setStatus("saved");
+      setTimeout(() => setStatus("idle"), 1200);
+    } else {
+      onSave(form);
+      setStatus("saved");
+      setTimeout(() => {
+        setForm({ patient_pseudonym: "", chief_concern: "", modalities: "", body: "" });
+        setStatus("idle");
+      }, 1200);
+    }
   };
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -160,7 +179,7 @@ export default function CaseEntryPanel({
             disabled={status === "saving"}
             className="flex-1 px-3 py-2 bg-blue-600 text-white text-xs font-medium rounded-md hover:bg-blue-700 disabled:opacity-50 transition"
           >
-            {status === "saving" ? "Saving…" : "Save Case"}
+            {status === "saving" ? "Saving…" : editMode ? "Update Case" : "Save Case"}
           </button>
           <label className="px-3 py-2 bg-gray-100 text-gray-700 text-xs font-medium rounded-md hover:bg-gray-200 transition cursor-pointer shrink-0">
             {uploading ? "Uploading…" : "Upload File"}

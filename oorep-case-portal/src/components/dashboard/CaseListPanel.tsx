@@ -17,6 +17,7 @@ interface CaseListPanelProps {
   cases: SavedCase[];
   onLoad: (c: SavedCase) => void;
   onDelete: (id: string) => void;
+  onEdit?: (c: SavedCase) => void;
   activeCaseId?: string;
 }
 
@@ -24,6 +25,7 @@ export default function CaseListPanel({
   cases,
   onLoad,
   onDelete,
+  onEdit,
   activeCaseId,
 }: CaseListPanelProps) {
   const [search, setSearch] = useState("");
@@ -107,19 +109,33 @@ export default function CaseListPanel({
                     {new Date(c.created_at).toLocaleDateString()}
                   </p>
                 </div>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleDelete(c.id);
-                  }}
-                  className={`text-[10px] px-1.5 py-0.5 rounded border shrink-0 ${
-                    confirmDelete === c.id
-                      ? "bg-red-100 text-red-700 border-red-200"
-                      : "text-gray-400 hover:text-red-600 hover:bg-red-50 border-transparent"
-                  }`}
-                >
-                  {confirmDelete === c.id ? "Confirm" : "×"}
-                </button>
+                <div className="flex items-center gap-1 shrink-0">
+                  {onEdit && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onEdit(c);
+                      }}
+                      className="text-[10px] px-1.5 py-0.5 rounded border text-gray-400 hover:text-blue-600 hover:bg-blue-50 hover:border-blue-200 transition"
+                      title="Edit"
+                    >
+                      Edit
+                    </button>
+                  )}
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleDelete(c.id);
+                    }}
+                    className={`text-[10px] px-1.5 py-0.5 rounded border shrink-0 ${
+                      confirmDelete === c.id
+                        ? "bg-red-100 text-red-700 border-red-200"
+                        : "text-gray-400 hover:text-red-600 hover:bg-red-50 border-transparent"
+                    }`}
+                  >
+                    {confirmDelete === c.id ? "Confirm" : "×"}
+                  </button>
+                </div>
               </div>
             </div>
           );

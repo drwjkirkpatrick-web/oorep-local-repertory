@@ -37,6 +37,12 @@ export { default as RubricBanditPanel } from './RubricBanditPanel';
 export { default as PropensityScoredPanel } from './PropensityScoredPanel';
 export { default as EnsembleStackingPanel } from './EnsembleStackingPanel';
 
+// Practitioner Profile, Settings & Quick Links
+export { default as PractitionerSettingsPanel } from './PractitionerSettingsPanel';
+export { default as QuickLinksPanel } from './QuickLinksPanel';
+
 // Re-export types
 export type { CaseFormData } from './CaseEntryPanel';
 export type { SavedCase } from './CaseListPanel';
+export type { PractitionerSettings } from './PractitionerSettingsPanel';
+export type { QuickLink } from './QuickLinksPanel';

@@ -4,12 +4,12 @@ A practitioner-facing Next.js web frontend for the OORep clinical repertory plat
 
 ## Features
 
-- **Module Dashboard** — Tabbed Mission Control with module picker sidebar, responsive canvas, and report action bar
+- **Module Dashboard** — Tabbed Mission Control with Case Entry, Saved Cases, My Profile, and Quick Links tabs; module picker sidebar, responsive canvas, and report action bar
+- **Practitioner Profile & Settings** — Configurable default active modules, auto-run, and preferred potency ladder
+- **Quick Links** — Practitioner-managed reference bookmarks with add/delete
+- **Case Editing** — Edit saved cases inline via the Saved Cases tab
 - **Visual Pipeline Builder** — Drag-and-drop protocol designer using React-Flow
-- **Three new visualizations (v3.1):**
-  - **Circular Cycle Rings** — Polar segment coverage per remedy
-  - **Differential Remedy Radar** — 7-axis comparison chart
-  - **Repertorization Sankey Flow** — Symptom-to-remedy routing diagram
+- **32+ Dashboard Panels** — Orphan intake and statistical panels now rendered (patient intake, chief complaint, causation timeline, Thompson sampling, ensemble stacking, Bayesian network, Gaussian process, SPRT, and more)
 - **Stripe billing integration** for practitioner subscriptions
 - **PDF report generation** from module outputs
 
@@ -27,7 +27,13 @@ A practitioner-facing Next.js web frontend for the OORep clinical repertory plat
 |---|---|
 | `/dashboard` | Clinical Mission Control (module picker + canvas + action bar) |
 | `/dashboard/pipeline` | Visual Pipeline Builder |
-| `/api/portal/modules` | Module discovery API (40 OORep modules) |
+| `/api/portal/modules` | Module discovery API (74 OORep modules) |
+| `/api/practitioner/cases` | Case CRUD (GET/POST) |
+| `/api/practitioner/cases/[id]` | Single case operations (PATCH/DELETE) |
+| `/api/practitioner/profile` | Practitioner profile (GET/POST/PATCH) |
+| `/api/practitioner/settings` | Dashboard settings (GET/POST/PATCH) |
+| `/api/practitioner/quicklinks` | Quick links (GET/POST) |
+| `/api/practitioner/quicklinks/[id]` | Quick link operations (PATCH/DELETE) |
 | `/api/admin/repertorize` | Repertorization endpoint |
 
 ## Quick Start

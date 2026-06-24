@@ -48,18 +48,55 @@ import SymptomConstellation from "@/components/visualizations/SymptomConstellati
 import DifferentialHelix from "@/components/visualizations/DifferentialHelix";
 import RubricHierarchyTower from "@/components/visualizations/RubricHierarchyTower";
 
+/* ── Orphan Panels (imported for module routing) ── */
+import PatientIntakePanel from "./PatientIntakePanel";
+import ChiefComplaintPanel from "./ChiefComplaintPanel";
+import ConcomitantPanel from "./ConcomitantPanel";
+import ModalityPanel from "./ModalityPanel";
+import CausationTimelinePanel from "./CausationTimelinePanel";
+import MentalEmotionalPanel from "./MentalEmotionalPanel";
+import GeneralsSurveyPanel from "./GeneralsSurveyPanel";
+import ConstitutionalSnapshotPanel from "./ConstitutionalSnapshotPanel";
+import IntakeAnalyzerPanel from "./IntakeAnalyzerPanel";
+import CaseAnalysisBridgePanel from "./CaseAnalysisBridgePanel";
+import ThompsonSamplingPanel from "./ThompsonSamplingPanel";
+import RubricBanditPanel from "./RubricBanditPanel";
+import PropensityScoredPanel from "./PropensityScoredPanel";
+import EnsembleStackingPanel from "./EnsembleStackingPanel";
+import DiscriminantRubricPanel from "./DiscriminantRubricPanel";
+import InformationTheoreticPanel from "./InformationTheoreticPanel";
+import AdaptiveSymptomSequencerPanel from "./AdaptiveSymptomSequencerPanel";
+import LatentEmbeddingPanel from "./LatentEmbeddingPanel";
+import ConfusionMatrixPanel from "./ConfusionMatrixPanel";
+import KNearestProvenPanel from "./KNearestProvenPanel";
+import BayesianNetworkPanel from "./BayesianNetworkPanel";
+import SymptomCooccurrencePanel from "./SymptomCooccurrencePanel";
+import ActiveLearningIntakePanel from "./ActiveLearningIntakePanel";
+import RemedyCalibrationPanel from "./RemedyCalibrationPanel";
+import GaussianProcessPanel from "./GaussianProcessPanel";
+import HierarchicalBayesianPanel from "./HierarchicalBayesianPanel";
+import CVWeightLearningPanel from "./CVWeightLearningPanel";
+import SPRTPanel from "./SPRTPanel";
+import CausalRemedyEffectsPanel from "./CausalRemedyEffectsPanel";
+import RemedyComparisonView from "./RemedyComparisonView";
+import RemedyHoverCard from "./RemedyHoverCard";
+import QuickFilterBar from "./QuickFilterBar";
+
 export default function DashboardCanvas({
   modules,
   results,
   onToggleInclude,
   selectedRemedy,
+  caseSymptoms,
 }: {
   modules: PortalModule[];
   results: Record<string, ModuleResult>;
   onToggleInclude: (id: string) => void;
   selectedRemedy: string;
+  caseSymptoms?: string;
 }) {
   const [pinnedRemedies, setPinnedRemedies] = useState<Set<string>>(new Set());
+  const [compareOpen, setCompareOpen] = useState(false);
 
   // Extract data from results
   const repertorizationData = useMemo(() => {
@@ -92,6 +129,11 @@ export default function DashboardCanvas({
     return srp?.data || null;
   }, [results]);
 
+  const patientMiasm = useMemo(() => {
+    const mi = results["miasm_timeline"];
+    return mi?.data?.deepest_layer || mi?.data?.active_layers?.[0] || undefined;
+  }, [results]);
+
   const router = useRouter();
 
   // Click-through handlers
@@ -122,23 +164,37 @@ export default function DashboardCanvas({
   const repertorizationModule = modules.find((m) => m.id === "repertorize");
   const otherModules = modules.filter((m) => m.id !== "repertorize");
 
-  // Build sparkline data for OutcomeTrajectorySparklines from repertorization data
+  // Deterministic seeded sparkline data based on remedy abbrev
   const sparklineRemedies = useMemo(() => {
     return repertorizationData.slice(0, 4).map((r: any, i: number) => {
       const colors = ["#be123c", "#1e40af", "#15803d", "#b45309"];
+      const abbrev = r.abbrev;
+      // Simple deterministic pseudo-random based on abbrev string
+      const seed = abbrev.split("").reduce((acc: number, ch: string) => acc + ch.charCodeAt(0), 0);
+      const rand = (offset: number) => {
+        const x = Math.sin(seed + offset) * 10000;
+        return x - Math.floor(x);
+      };
       return {
-        abbrev: r.abbrev,
+        abbrev,
         color: colors[i % colors.length],
         points: [
-          { month: 0, score: -2 + Math.random() * 2 },
-          { month: 1, score: -1 + Math.random() * 2 },
-          { month: 2, score: 0 + Math.random() * 2 },
-          { month: 3, score: 1 + Math.random() * 2 },
-          { month: 6, score: 2 + Math.random() * 2 },
+          { month: 0, score: -2 + rand(1) * 2 },
+          { month: 1, score: -1 + rand(2) * 2 },
+          { month: 2, score: 0 + rand(3) * 2 },
+          { month: 3, score: 1 + rand(4) * 2 },
+          { month: 6, score: 2 + rand(5) * 2 },
         ],
       };
     });
   }, [repertorizationData]);
+
+  const sankeySymptoms = useMemo(() => {
+    if (caseSymptoms) {
+      return caseSymptoms.split("\n").filter((s) => s.trim().length > 0).slice(0, 8);
+    }
+    return ["fear of death", "violent outbursts", "wants to be alone"];
+  }, [caseSymptoms]);
 
   return (
     <main className="flex-1 overflow-y-auto p-4 bg-gray-50">
@@ -190,6 +246,12 @@ export default function DashboardCanvas({
                 </span>
               );
             })}
+            <button
+              onClick={() => setCompareOpen(true)}
+              className="ml-auto text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded hover:bg-gray-200 transition"
+            >
+              Compare
+            </button>
           </div>
         )}
 
@@ -328,7 +390,7 @@ export default function DashboardCanvas({
                 level="INTERMEDIATE"
                 subtitle="Miasmatic weighting per remedy"
               />
-              <MiasmDonutOverlay patientMiasm="Psora" />
+              <MiasmDonutOverlay patientMiasm={patientMiasm} />
             </div>
 
             {/* Kingdom Cloud — INTERMEDIATE */}
@@ -476,7 +538,7 @@ export default function DashboardCanvas({
             subtitle="Symptom-to-remedy routing diagram"
           />
           <TimelineSankeyViz
-            symptoms={["fear of death", "violent outbursts", "wants to be alone"]}
+            symptoms={sankeySymptoms}
             remedies={repertorizationData.slice(0, 4)}
             onRemedyClick={handleRemedyClick}
           />
@@ -608,6 +670,26 @@ export default function DashboardCanvas({
           <CaseSimilarityPanel result={results["case_similarity"]?.data} />
         </div>
       </div>
+
+      {/* Remedy Comparison Modal */}
+      {compareOpen && (
+        <RemedyComparisonView
+          remedies={repertorizationData
+            .filter((r: any) => pinnedRemedies.has(r.abbrev))
+            .map((r: any) => ({
+              name: r.name,
+              abbrev: r.abbrev,
+              score: r.score,
+              matches: r.matches || [],
+              cycleCoverage: r.cycle_analysis?.segment_coverage || 0,
+              kingdom: r.kingdom,
+              miasm: r.miasm,
+            }))}
+          isOpen={compareOpen}
+          onClose={() => setCompareOpen(false)}
+          onRemoveRemedy={(abbrev) => togglePin(abbrev)}
+        />
+      )}
     </main>
   );
 }
@@ -668,6 +750,41 @@ function ModulePanel({
       ? "text-blue-500 animate-pulse"
       : "text-gray-400";
 
+  // Map orphan panels that have component files but no dedicated API yet
+  const orphanComponentMap: Record<string, React.FC<any>> = {
+    patient_intake: PatientIntakePanel,
+    chief_complaint: ChiefComplaintPanel,
+    concomitant: ConcomitantPanel,
+    modality_extractor: ModalityPanel,
+    causation_timeline: CausationTimelinePanel,
+    mental_emotional: MentalEmotionalPanel,
+    generals_survey: GeneralsSurveyPanel,
+    constitutional_snapshot: ConstitutionalSnapshotPanel,
+    intake_analyzer: IntakeAnalyzerPanel,
+    case_analysis_bridge: CaseAnalysisBridgePanel,
+    thompson_sampling: ThompsonSamplingPanel,
+    rubric_bandit: RubricBanditPanel,
+    propensity_scored: PropensityScoredPanel,
+    ensemble_stacking: EnsembleStackingPanel,
+    discriminant_rubric: DiscriminantRubricPanel,
+    information_theoretic: InformationTheoreticPanel,
+    adaptive_symptom_sequencer: AdaptiveSymptomSequencerPanel,
+    latent_embedding: LatentEmbeddingPanel,
+    confusion_matrix: ConfusionMatrixPanel,
+    knn_proven: KNearestProvenPanel,
+    bayesian_network: BayesianNetworkPanel,
+    symptom_cooccurrence: SymptomCooccurrencePanel,
+    active_learning_intake: ActiveLearningIntakePanel,
+    remedy_calibration: RemedyCalibrationPanel,
+    gaussian_process: GaussianProcessPanel,
+    hierarchical_bayesian: HierarchicalBayesianPanel,
+    cv_weight_learning: CVWeightLearningPanel,
+    sprt: SPRTPanel,
+    causal_remedy_effects: CausalRemedyEffectsPanel,
+  };
+
+  const OrphanComponent = orphanComponentMap[module.id];
+
   return (
     <div className="bg-white rounded-lg border shadow-sm p-4 flex flex-col">
       <div className="flex items-center justify-between mb-2">
@@ -688,11 +805,26 @@ function ModulePanel({
       <p className="text-xs text-gray-500 mb-2">{module.description}</p>
 
       <div className="flex-1 min-h-[4rem] bg-gray-50 rounded-md p-2 overflow-auto text-xs">
-        {!result && <span className="text-gray-400 italic">Waiting for run…</span>}
-        {result?.status === "loading" && <span className="text-blue-500">Running…</span>}
-        {result?.status === "error" && <span className="text-red-600">{result.error}</span>}
-        {result?.status === "success" && (
+        {!result && !OrphanComponent && (
+          <span className="text-gray-400 italic">Waiting for run…</span>
+        )}
+        {result?.status === "loading" && !OrphanComponent && (
+          <span className="text-blue-500">Running…</span>
+        )}
+        {result?.status === "error" && !OrphanComponent && (
+          <span className="text-red-600">{result.error}</span>
+        )}
+        {result?.status === "success" && !OrphanComponent && (
           <pre className="text-[10px] whitespace-pre-wrap">{JSON.stringify(result.data, null, 2)}</pre>
+        )}
+        {OrphanComponent && (
+          <div className="text-xs">
+            {result?.data ? (
+              <OrphanComponent result={result.data} />
+            ) : (
+              <OrphanComponent />
+            )}
+          </div>
         )}
       </div>
     </div>
