@@ -9,7 +9,7 @@ A practitioner-facing Next.js web frontend for the OORep clinical repertory plat
 - **Quick Links** — Practitioner-managed reference bookmarks with add/delete
 - **Case Editing** — Edit saved cases inline via the Saved Cases tab
 - **Visual Pipeline Builder** — Drag-and-drop protocol designer using React-Flow
-- **32+ Dashboard Panels** — Orphan intake and statistical panels now rendered (patient intake, chief complaint, causation timeline, Thompson sampling, ensemble stacking, Bayesian network, Gaussian process, SPRT, and more)
+- **32+ Dashboard Panels** — Orphan intake and statistical panels now rendered and registered (patient intake, chief complaint, causation timeline, Thompson sampling, ensemble stacking, Bayesian network, Gaussian process, SPRT, rubric discrimination, question bank, and more)
 - **Stripe billing integration** for practitioner subscriptions
 - **PDF report generation** from module outputs
 
@@ -27,7 +27,7 @@ A practitioner-facing Next.js web frontend for the OORep clinical repertory plat
 |---|---|
 | `/dashboard` | Clinical Mission Control (module picker + canvas + action bar) |
 | `/dashboard/pipeline` | Visual Pipeline Builder |
-| `/api/portal/modules` | Module discovery API (74 OORep modules) |
+| `/api/portal/modules` | Module discovery API (105 OORep modules) |
 | `/api/practitioner/cases` | Case CRUD (GET/POST) |
 | `/api/practitioner/cases/[id]` | Single case operations (PATCH/DELETE) |
 | `/api/practitioner/profile` | Practitioner profile (GET/POST/PATCH) |

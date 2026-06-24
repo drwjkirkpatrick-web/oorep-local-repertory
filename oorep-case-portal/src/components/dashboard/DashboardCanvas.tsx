@@ -78,6 +78,8 @@ import HierarchicalBayesianPanel from "./HierarchicalBayesianPanel";
 import CVWeightLearningPanel from "./CVWeightLearningPanel";
 import SPRTPanel from "./SPRTPanel";
 import CausalRemedyEffectsPanel from "./CausalRemedyEffectsPanel";
+import RubricDiscriminationPanel from "./RubricDiscriminationPanel";
+import QuestionBankPanel from "./QuestionBankPanel";
 import RemedyComparisonView from "./RemedyComparisonView";
 import RemedyHoverCard from "./RemedyHoverCard";
 import QuickFilterBar from "./QuickFilterBar";
@@ -781,6 +783,8 @@ function ModulePanel({
     cv_weight_learning: CVWeightLearningPanel,
     sprt: SPRTPanel,
     causal_remedy_effects: CausalRemedyEffectsPanel,
+    rubric_discrimination: RubricDiscriminationPanel,
+    question_bank: QuestionBankPanel,
   };
 
   const OrphanComponent = orphanComponentMap[module.id];
