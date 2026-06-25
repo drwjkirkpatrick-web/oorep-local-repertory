@@ -74,9 +74,14 @@ class OutcomePredictorStats:
     """
 
     def __init__(self, db_path: Optional[Path] = None):
-        self.db_path = Path(db_path) if db_path else (
-            Path.home() / "projects" / "oorep-local-repertory" / "data" / "feedback.db"
-        )
+        # v4.3 Security: use env var for data directory instead of hardcoded path
+        import os
+        _env_data = os.environ.get("OOREP_DATA_DIR")
+        if _env_data:
+            _default_db = Path(_env_data) / "feedback.db"
+        else:
+            _default_db = Path(__file__).resolve().parent.parent / "data" / "feedback.db"
+        self.db_path = Path(db_path) if db_path else _default_db
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         self._init_schema_if_needed()
 
@@ -84,6 +89,8 @@ class OutcomePredictorStats:
         """Ensure prescriptions table exists for testing."""
         conn = sqlite3.connect(str(self.db_path))
         conn.execute("PRAGMA foreign_keys = ON")
+        # v4.3 Security: enable WAL mode for concurrent read access
+        conn.execute("PRAGMA journal_mode=WAL")
         c = conn.cursor()
         c.execute("""
             CREATE TABLE IF NOT EXISTS prescriptions (
@@ -107,19 +114,29 @@ class OutcomePredictorStats:
         """
         Load (predictor_value, is_positive) pairs from DB.
         Returns list sorted by predictor value descending.
-        """
-        valid_predictors = {"rubric_coverage", "keynote_match", "composite_score"}
-        if predictor not in valid_predictors:
-            raise ValueError(f"predictor must be one of {valid_predictors}")
 
+        Security note: The predictor parameter is validated against a strict
+        allowlist and then used to select a hardcoded SQL column. The f-string
+        interpolation is safe because ``_PREDICTOR_COLUMNS`` maps validated
+        input to fixed identifiers — the user value never reaches the SQL.
+        """
+        # Strict allowlist mapping: validated input → hardcoded column name
+        # This prevents SQL injection even if the allowlist check is modified
+        _PREDICTOR_COLUMNS = {
+            "rubric_coverage": "rubric_coverage",
+            "keynote_match": "keynote_match",
+            "composite_score": "composite_score",
+        }
+        if predictor not in _PREDICTOR_COLUMNS:
+            raise ValueError(f"predictor must be one of {set(_PREDICTOR_COLUMNS.keys())}")
+
+        # Use the hardcoded column name, not the user-supplied value
+        col = _PREDICTOR_COLUMNS[predictor]
         positive_set = set(o.lower() for o in positive_outcomes)
         conn = sqlite3.connect(str(self.db_path))
         c = conn.cursor()
-        c.execute(f"""
-            SELECT {predictor}, outcome_score
-            FROM prescriptions
-            WHERE {predictor} IS NOT NULL AND outcome_score IS NOT NULL
-        """)
+        # NOTE: col is from a hardcoded mapping, never user input
+        c.execute(f"SELECT {col}, outcome_score FROM prescriptions WHERE {col} IS NOT NULL AND outcome_score IS NOT NULL")
         rows = c.fetchall()
         conn.close()
 

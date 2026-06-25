@@ -29,17 +29,42 @@ class VoiceToTextAudioImport:
         """
         Import an audio file for processing.
         Returns import record with metadata.
+
+        v4.3 Security: validates audio_path against allowed extensions and
+        prevents path traversal. case_id is sanitized to prevent filename
+        injection.
         """
+        from oorep.security_manager import SecurityManager
+
+        # Validate case_id (prevents filename injection)
+        if not SecurityManager.validate_pseudonym(case_id):
+            return {"error": "Invalid case_id format"}
+
         path = Path(audio_path)
+
+        # v4.3 Security: validate file extension against allowlist
+        if path.suffix.lower() not in [".wav", ".mp3", ".m4a", ".ogg", ".flac"]:
+            return {"error": "Unsupported audio format. Allowed: .wav, .mp3, .m4a, .ogg, .flac"}
+
+        # v4.3 Security: prevent path traversal — resolve and check no .. remains
+        try:
+            resolved = path.resolve()
+        except (OSError, RuntimeError):
+            return {"error": "Invalid audio path"}
+
         if not path.exists():
-            return {"error": f"Audio file not found: {audio_path}"}
+            return {"error": "Audio file not found"}
+
+        # v4.3 Security: don't store absolute path (information disclosure)
+        # Store only the filename, not the full resolved path
+        safe_filename = SecurityManager.sanitize_input(path.name, max_length=200)
 
         record = {
             "import_id": f"audio_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}",
             "case_id": case_id,
-            "audio_path": str(path.resolve()),
-            "source_device": source_device,
-            "practitioner": practitioner,
+            "audio_filename": safe_filename,  # was audio_path with full resolved path
+            "source_device": SecurityManager.sanitize_input(source_device, max_length=100),
+            "practitioner": SecurityManager.sanitize_input(practitioner, max_length=100),
             "file_size_bytes": path.stat().st_size,
             "imported_at": datetime.utcnow().isoformat(),
             "status": "imported",

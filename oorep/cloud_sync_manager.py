@@ -7,6 +7,7 @@ Scaffold — requires cloud backend configuration.
 
 import json
 import hashlib
+import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from datetime import datetime
@@ -35,11 +36,22 @@ class CloudSyncManager:
             json.dump(self.config, f, indent=2)
 
     def configure(self, provider: str, endpoint: str, api_key: str = "") -> Dict[str, Any]:
+        # v4.3 Security: store full SHA-256 hash with salt (was truncated 16 chars)
+        import hmac as _hmac
+        salt = os.urandom(16).hex()
+        if api_key:
+            # PBKDF2 with salt — much stronger than plain SHA-256 truncation
+            key_hash = hashlib.pbkdf2_hmac(
+                "sha256", api_key.encode(), salt.encode(), 100000, 32
+            ).hex()
+            api_key_stored = f"{salt}:{key_hash}"
+        else:
+            api_key_stored = None
         self.config = {
             "enabled": True,
             "provider": provider,
             "endpoint": endpoint,
-            "api_key_hash": hashlib.sha256(api_key.encode()).hexdigest()[:16] if api_key else None,
+            "api_key_hash": api_key_stored,
             "configured_at": datetime.utcnow().isoformat(),
         }
         self._save_config()

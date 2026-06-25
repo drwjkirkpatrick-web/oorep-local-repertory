@@ -228,16 +228,21 @@ class PatientCohortAnalytics:
 
     def monthly_volume(self, months: int = 12) -> List[Dict]:
         """Prescription volume by month (YYYY-MM)."""
+        # v4.3 Security: validate months is a positive integer, use parameterized query
+        if not isinstance(months, int) or months < 1 or months > 600:
+            raise ValueError("months must be an integer between 1 and 600")
+        # Use string concatenation in SQL (SQLite doesn't bind integers inside function args)
+        # We pass the validated integer as a parameter via || concatenation
         sql = '''
             SELECT substr(prescribed_date, 1, 7) as month,
                    COUNT(*) as rx_count,
                    COUNT(DISTINCT patient_id) as patients
             FROM prescriptions
-            WHERE substr(prescribed_date, 1, 7) >= date('now', '-{} months')
+            WHERE substr(prescribed_date, 1, 7) >= date('now', ? || ' months')
             GROUP BY month
             ORDER BY month
-        '''.format(months)
-        rows = self._execute(sql)
+        '''
+        rows = self._execute(sql, (f"-{months}",))
         return [
             {"month": r[0], "prescriptions": r[1], "unique_patients": r[2]}
             for r in rows

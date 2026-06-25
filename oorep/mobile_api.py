@@ -34,17 +34,55 @@ class OOREPApp:
     """
     Route definitions for OOREP API endpoints.
     No framework coupling — returns route descriptors.
+
+    v4.3 Security: Added token-based auth requirement for patient routes.
+    Set ``api_token`` in __init__ to require authentication. Routes tagged
+    "patient" require a valid token; "system" and "search" routes are open.
     """
 
     def __init__(
         self,
         repertory: Optional[Any] = None,
         patient_system: Optional[Any] = None,
+        api_token: Optional[str] = None,
     ):
         self.repertory = repertory
         self.patient_system = patient_system
+        # v4.3 Security: API token for authentication. If set, patient routes
+        # require a matching token in the Authorization header or api_token kwarg.
+        self._api_token = api_token
         self._routes: List[APIRoute] = []
         self._build_routes()
+
+    def _check_auth(self, tags: List[str], **kwargs) -> Optional[Dict[str, Any]]:
+        """
+        v4.3 Security: Check if the caller is authorized for this route.
+
+        Patient routes require a valid API token. Other routes are open.
+        Returns None if authorized, or an error dict if not.
+        """
+        if "patient" not in tags:
+            return None  # Non-patient routes don't require auth
+
+        if self._api_token is None:
+            # No token configured — allow (backwards compatible, but insecure)
+            return None
+
+        # Check for token in kwargs (from framework middleware)
+        provided_token = kwargs.get("api_token") or kwargs.get("authorization")
+        if not provided_token:
+            return {"status": "error", "error": "Authentication required", "code": 401}
+
+        # Strip "Bearer " prefix if present
+        if provided_token.startswith("Bearer "):
+            provided_token = provided_token[7:]
+
+        # Constant-time comparison
+        import hmac
+        if not hmac.compare_digest(provided_token, self._api_token):
+            return {"status": "error", "error": "Invalid authentication", "code": 401}
+
+        return None  # Authorized
 
     def _build_routes(self) -> None:
         """Build route descriptors."""
@@ -115,6 +153,10 @@ class OOREPApp:
 
     def get_patient(self, pseudonym: str = "", **kwargs) -> Dict[str, Any]:
         """GET /api/patient/{pseudonym}"""
+        # v4.3 Security: auth check for patient routes
+        auth_err = self._check_auth(["patient"], **kwargs)
+        if auth_err:
+            return auth_err
         if not self.patient_system:
             return self._error("Patient system not available", 503)
         try:
@@ -131,6 +173,10 @@ class OOREPApp:
         **kwargs
     ) -> Dict[str, Any]:
         """POST /api/patient/{pseudonym}/consultation"""
+        # v4.3 Security: auth check for patient routes
+        auth_err = self._check_auth(["patient"], **kwargs)
+        if auth_err:
+            return auth_err
         if not self.patient_system:
             return self._error("Patient system not available", 503)
         try:

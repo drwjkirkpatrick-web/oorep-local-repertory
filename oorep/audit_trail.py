@@ -65,6 +65,8 @@ class AuditTrail:
     def _init_db(self) -> None:
         """Create ``audit_log`` table if it doesn't already exist."""
         conn = sqlite3.connect(str(self.db_path))
+        # v4.3 Security: enable WAL mode for concurrent read access
+        conn.execute("PRAGMA journal_mode=WAL")
         cursor = conn.cursor()
         cursor.execute(
             """
@@ -154,11 +156,14 @@ class AuditTrail:
         """
         Append an audit entry.
 
+        v4.3 Security: Uses BEGIN IMMEDIATE to prevent TOCTOU race on
+        the hash chain — two concurrent log() calls can no longer read
+        the same previous_hash and break the chain.
+
         Args:
-            action: Short verb describing the action (e.g. "prescribe",
-                    "update_soap", "delete_case").
+            action: Short verb describing the action.
             user: Username / practitioner ID performing the action.
-            resource: Logical resource identifier (e.g. "prescription/abc123").
+            resource: Logical resource identifier.
             old_value: Serializable old state (or None).
             new_value: Serializable new state (or None).
 
@@ -170,13 +175,24 @@ class AuditTrail:
         new_json = json.dumps(new_value, default=str) if new_value is not None else ""
         old_hash = self._hash_payload(old_json) if old_json else ""
         new_hash = self._hash_payload(new_json) if new_json else ""
-        prev_hash = self._previous_hash()
+
+        # v4.3 Security: Use BEGIN IMMEDIATE to prevent race condition
+        # This acquires a write lock before reading the previous hash,
+        # ensuring two concurrent log() calls serialize properly.
+        conn = sqlite3.connect(str(self.db_path))
+        conn.execute("PRAGMA journal_mode=WAL")
+        cursor = conn.cursor()
+        cursor.execute("BEGIN IMMEDIATE")
+
+        # Read previous hash within the transaction (atomic)
+        cursor.execute("SELECT hash_chain FROM audit_log ORDER BY id DESC LIMIT 1")
+        row = cursor.fetchone()
+        prev_hash = row[0] if row else "0" * 64
+
         chain_hash = self._compute_chain_hash(
             prev_hash, now, action, user, resource, old_json, new_json
         )
 
-        conn = sqlite3.connect(str(self.db_path))
-        cursor = conn.cursor()
         cursor.execute(
             """
             INSERT INTO audit_log

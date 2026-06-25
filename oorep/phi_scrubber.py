@@ -126,6 +126,8 @@ class PHIScrubber:
     def _init_db(self) -> None:
         """Create ``phi_mappings`` table for reversible scrubbing."""
         conn = sqlite3.connect(str(self.db_path))
+        # v4.3 Security: enable WAL mode
+        conn.execute("PRAGMA journal_mode=WAL")
         cursor = conn.cursor()
         cursor.execute(
             """

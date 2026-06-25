@@ -23,6 +23,8 @@ class BillingIntegration:
 
     def _ensure_schema(self):
         conn = sqlite3.connect(str(self.db_path))
+        # v4.3 Security: enable WAL mode
+        conn.execute("PRAGMA journal_mode=WAL")
         conn.execute("""
             CREATE TABLE IF NOT EXISTS invoices (
                 id INTEGER PRIMARY KEY,
@@ -47,6 +49,15 @@ class BillingIntegration:
                        tax_rate: float = 0.0,
                        insurance_code: str = "",
                        notes: str = "") -> Dict[str, Any]:
+        # v4.3 Security: validate inputs
+        from oorep.security_manager import SecurityManager
+        if not case_id or not isinstance(case_id, str):
+            raise ValueError("case_id required")
+        safe_notes = SecurityManager.sanitize_input(notes, max_length=2000) if notes else ""
+        safe_insurance = SecurityManager.sanitize_input(insurance_code, max_length=50) if insurance_code else ""
+        # Validate tax_rate is reasonable
+        if not isinstance(tax_rate, (int, float)) or tax_rate < 0 or tax_rate > 1.0:
+            tax_rate = 0.0
         now = datetime.utcnow().isoformat()
         date = datetime.utcnow().strftime("%Y-%m-%d")
         invoice_num = f"INV-{datetime.utcnow().strftime('%Y%m%d')}-{case_id[:6]}"
@@ -58,7 +69,7 @@ class BillingIntegration:
         conn = sqlite3.connect(str(self.db_path))
         cur = conn.execute(
             "INSERT INTO invoices (case_id, invoice_number, date, line_items, subtotal, tax, total, insurance_code, notes, created_at) VALUES (?,?,?,?,?,?,?,?,?,?)",
-            (case_id, invoice_num, date, json.dumps(line_items), subtotal, tax, total, insurance_code, notes, now)
+            (case_id, invoice_num, date, json.dumps(line_items), subtotal, tax, total, safe_insurance, safe_notes, now)
         )
         inv_id = cur.lastrowid
         conn.commit()
@@ -77,6 +88,9 @@ class BillingIntegration:
         }
 
     def mark_paid(self, invoice_id: int, method: str = "") -> Dict[str, Any]:
+        # v4.3 Security note: This method does not verify payment actually occurred.
+        # In production, integrate with payment processor webhooks and verify
+        # payment signatures before marking paid. See SECURITY_AUDIT_REPORT L-06.
         conn = sqlite3.connect(str(self.db_path))
         conn.execute(
             "UPDATE invoices SET status = 'paid', payment_method = ? WHERE id = ?",

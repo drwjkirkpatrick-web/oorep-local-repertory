@@ -22,6 +22,8 @@ class AppointmentScheduler:
 
     def _ensure_schema(self):
         conn = sqlite3.connect(str(self.db_path))
+        # v4.3 Security: enable WAL mode
+        conn.execute("PRAGMA journal_mode=WAL")
         conn.execute("""
             CREATE TABLE IF NOT EXISTS appointments (
                 id INTEGER PRIMARY KEY,
@@ -45,12 +47,21 @@ class AppointmentScheduler:
                  days_from_now: int, time: str = "10:00",
                  duration: int = 60, notes: str = "") -> Dict[str, Any]:
         """Schedule an appointment N days from now."""
+        # v4.3 Security: validate inputs
+        from oorep.security_manager import SecurityManager
+        if not case_id or not isinstance(case_id, str):
+            raise ValueError("case_id required")
+        if appointment_type not in ("follow_up", "acute", "review", "initial"):
+            raise ValueError("Invalid appointment_type")
+        if not isinstance(days_from_now, int) or days_from_now < 0 or days_from_now > 365:
+            raise ValueError("days_from_now must be 0-365")
+        safe_notes = SecurityManager.sanitize_input(notes, max_length=2000) if notes else ""
         date = (datetime.utcnow() + timedelta(days=days_from_now)).strftime("%Y-%m-%d")
         now = datetime.utcnow().isoformat()
         conn = sqlite3.connect(str(self.db_path))
         cur = conn.execute(
             "INSERT INTO appointments (case_id, appointment_type, scheduled_date, scheduled_time, duration_minutes, notes, created_at, updated_at) VALUES (?,?,?,?,?,?,?,?)",
-            (case_id, appointment_type, date, time, duration, notes, now, now)
+            (case_id, appointment_type, date, time, duration, safe_notes, now, now)
         )
         appt_id = cur.lastrowid
         conn.commit()

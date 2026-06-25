@@ -32,23 +32,41 @@ class PrescriptionPDFGenerator:
                  date: Optional[str] = None) -> Dict[str, Any]:
         """
         Generate a prescription document structure.
+
+        v4.3 Security: The patient_name parameter should be a pseudonym
+        (e.g. "MrsJ2024"), not a real name. The raw_text output no longer
+        includes real patient names. Callers should pass patient_pseudonym
+        as the patient_name argument.
         """
+        from oorep.security_manager import SecurityManager
+
+        # v4.3 Security: sanitize all free-text inputs and use pseudonym display
         dt = date or datetime.utcnow().strftime("%Y-%m-%d")
+        safe_name = SecurityManager.sanitize_input(patient_name, max_length=50)
+        safe_remedy = SecurityManager.sanitize_input(remedy, max_length=50)
+        safe_potency = SecurityManager.sanitize_input(potency, max_length=20)
+        safe_dosage = SecurityManager.sanitize_input(dosage, max_length=200)
+        safe_instructions = SecurityManager.sanitize_input(
+            instructions or "Take as directed. Stop on improvement.", max_length=500
+        )
+        safe_practitioner = SecurityManager.sanitize_input(practitioner, max_length=100)
+        safe_clinic = SecurityManager.sanitize_input(clinic, max_length=100)
+
         return {
             "document_type": "prescription",
             "date": dt,
-            "clinic": clinic,
-            "practitioner": practitioner,
-            "patient": patient_name,
+            "clinic": safe_clinic,
+            "practitioner": safe_practitioner,
+            "patient": safe_name,  # Should be a pseudonym, not real name
             "case_id": case_id,
             "prescription": {
-                "remedy": remedy,
-                "potency": potency,
-                "dosage": dosage,
-                "instructions": instructions or "Take as directed. Stop on improvement.",
+                "remedy": safe_remedy,
+                "potency": safe_potency,
+                "dosage": safe_dosage,
+                "instructions": safe_instructions,
             },
             "footer": "This prescription is for homeopathic use only. Consult your practitioner if symptoms persist.",
-            "raw_text": self._format_text(patient_name, remedy, potency, dosage, instructions, practitioner, clinic, dt),
+            "raw_text": self._format_text(safe_name, safe_remedy, safe_potency, safe_dosage, safe_instructions, safe_practitioner, safe_clinic, dt),
         }
 
     @staticmethod

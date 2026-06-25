@@ -68,7 +68,10 @@ class PatientFileSystem:
     # ── Schema bootstrap ─────────────────────────────────────────────────────
 
     def _init_db(self) -> None:
+        """Create patients and consultations tables if they don't exist."""
         conn = sqlite3.connect(str(self.db_path))
+        # v4.3 Security: enable WAL mode for concurrent read access
+        conn.execute("PRAGMA journal_mode=WAL")
         cursor = conn.cursor()
 
         cursor.execute(
@@ -148,16 +151,28 @@ class PatientFileSystem:
         pseudonym = patient_data.get("pseudonym")
         if not pseudonym:
             raise ValueError("pseudonym is required")
+        # v4.3 Security: validate pseudonym format
+        from oorep.security_manager import SecurityManager
+        if not SecurityManager.validate_pseudonym(str(pseudonym)):
+            raise ValueError("pseudonym must be 3-50 alphanumeric/hyphen/underscore chars, starting with alphanumeric")
+        # Validate gender
+        gender = patient_data.get("gender", "U")
+        if gender not in ("M", "F", "O", "U"):
+            gender = "U"
+        # Sanitize notes
+        notes = patient_data.get("notes", "")
+        if notes:
+            notes = SecurityManager.sanitize_input(str(notes), max_length=5000)
 
         now = datetime.now().isoformat()
         record = {
             "pseudonym": pseudonym,
-            "gender": patient_data.get("gender", "U")[:1].upper() if patient_data.get("gender") else "U",
+            "gender": gender,
             "date_of_birth": patient_data.get("date_of_birth"),
             "first_seen": now,
             "last_seen": now,
             "status": patient_data.get("status", "active"),
-            "notes": patient_data.get("notes", ""),
+            "notes": notes,
             "contact_consent": bool(patient_data.get("contact_consent")),
             "created_at": now,
             "updated_at": now,
@@ -227,7 +242,19 @@ class PatientFileSystem:
         if not fields:
             raise ValueError("No allowed fields to update")
 
+        # v4.3 Security: validate inputs
+        if "gender" in fields and fields["gender"] not in ("M", "F", "O", "U"):
+            fields["gender"] = "U"
+        if "status" in fields and fields["status"] not in ("active", "inactive", "deceased", "transferred"):
+            raise ValueError("Invalid status")
+        # Sanitize free-text fields
+        from oorep.security_manager import SecurityManager
+        if "notes" in fields and fields["notes"]:
+            fields["notes"] = SecurityManager.sanitize_input(str(fields["notes"]), max_length=5000)
+
         fields["updated_at"] = datetime.now().isoformat()
+        # NOTE: keys in set_clause are from the hardcoded allowlist above —
+        # they are safe to interpolate because they never come from user input.
         set_clause = ", ".join(f"{k} = ?" for k in fields)
         values = list(fields.values()) + [pseudonym]
 
@@ -425,9 +452,16 @@ class PatientFileSystem:
         return [self._row_to_consultation(r) for r in rows]
 
     def update_consultation(self, consult_id: str, updates: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-        """Update consultation fields. Allowed: all except consultation_id, patient_pseudonym, created_at."""
-        blocked = {"consultation_id", "patient_pseudonym", "created_at"}
-        fields = {k: v for k, v in updates.items() if k not in blocked}
+        """Update consultation fields. Only allowlisted fields may be updated."""
+        # v4.3 Security: allowlist approach (was blocklist — blocklist accepts
+        # any unknown column, which is dangerous if schema changes)
+        allowed = {
+            "consultation_date", "consultation_type", "chief_complaint",
+            "practitioner_id", "soap_case_id", "prescription_id",
+            "clipboard_ids", "analysis_snapshot", "outcome_notes",
+            "next_visit_date",
+        }
+        fields = {k: v for k, v in updates.items() if k in allowed}
         if not fields:
             raise ValueError("No allowed fields to update")
 
@@ -438,6 +472,8 @@ class PatientFileSystem:
             fields["analysis_snapshot"] = json.dumps(fields["analysis_snapshot"])
 
         fields["updated_at"] = datetime.now().isoformat()
+        # NOTE: keys in set_clause are from the hardcoded allowlist above —
+        # they are safe to interpolate because they never come from user input.
         set_clause = ", ".join(f"{k} = ?" for k in fields)
         values = list(fields.values()) + [consult_id]
 

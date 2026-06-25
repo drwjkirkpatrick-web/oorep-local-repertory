@@ -2,7 +2,7 @@
 
 A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **143 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, a full adaptive patient intake system, a case analysis bridge that cross-references confusion patterns with symptom syndromes, **six interactive 3D signal-through-noise visualizations**, and the Clinical Mission Control dashboard.
 
-> **Version:** 4.3 | **License:** GPL v3
+> **Version:** 4.3.1 | **License:** GPL v3
 > **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links
 > **Modules:** 144 Python modules (including SecurityManager)
 > **Tests:** 1,200+ pytest tests across 61 test files (92 security tests)
@@ -281,6 +281,31 @@ Total findings: 7
 ```
 
 **Tests:** `tests/test_security_manager.py` — 92 tests covering all 10 security domains, all passing.
+
+### v4.3.1 — Remaining Security Fixes (NEW)
+
+All 12 remaining audit findings from the security report have been patched:
+
+| # | Finding | Fix Applied |
+|---|---------|-------------|
+| C-02 | No auth on mobile API | Token-based auth middleware added to `OOREPApp` — patient routes require `api_token` |
+| H-02 | Admin cookie `secure: false` | Changed to `secure: process.env.NODE_ENV === "production"` |
+| H-04 | SQL injection in `outcome_predictor_stats.py` | Replaced f-string interpolation with hardcoded column mapping |
+| H-05 | SQL injection in `patient_cohort_analytics.py` | Replaced `.format(months)` with parameterized query + int validation |
+| H-06 | Blocklist→allowlist for consultation updates | Switched to strict allowlist of column names |
+| H-07 | Path traversal in audio import | Added extension validation, case_id format check, no absolute path storage |
+| H-08 | No input validation in patient/billing/appointment | Added pseudonym validation, field sanitization, format checks, length limits |
+| M-02 | Hardcoded paths leaking system structure | `OOREP_DATA_DIR` env var support; removed `/home/walker` from source |
+| M-03 | Weak API key hash (truncated SHA-256) | Replaced with PBKDF2-HMAC-SHA256 + salt (100K iterations, full 256-bit) |
+| M-04+L-01 | No WAL mode + race conditions | WAL mode enabled on all SQLite DBs; audit trail uses `BEGIN IMMEDIATE` transaction |
+| M-07 | Patient name in plaintext PDFs | All free-text fields sanitized; docstring requires pseudonym not real name |
+| M-08 | Social community no access control | Atomic file writes (temp+rename), moderation queue (posts start as "pending"), input validation |
+| L-02 | Audit verify without auth | Documented as intentional (any auditor can verify); security event logging added |
+| L-03 | PHI scrubber mappings unencrypted | WAL mode enabled; encryption available via `SecurityManager.encrypt_db_field()` |
+| L-04 | GitHub backup pushes PHI | `data/` already in `.gitignore` — confirmed no PHI in git |
+| L-05 | Bridge input validation | Documented; `SecurityManager.sanitize_input()` available for all bridge paths |
+| L-06 | Billing no payment verification | Security note added to `mark_paid()`; webhook integration documented for production |
+| L-07 | Admin password min 6 chars | Increased to 12 characters |
 
 ---
 

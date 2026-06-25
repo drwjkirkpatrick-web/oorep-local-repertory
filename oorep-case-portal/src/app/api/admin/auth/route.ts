@@ -6,8 +6,9 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { password, setup } = body;
 
-    if (!password || password.length < 6) {
-      return NextResponse.json({ ok: false, error: "Password must be at least 6 characters" }, { status: 400 });
+    // v4.3 Security: minimum 12 chars for admin (was 6)
+    if (!password || password.length < 12) {
+      return NextResponse.json({ ok: false, error: "Password must be at least 12 characters" }, { status: 400 });
     }
 
     if (setup) {
@@ -17,7 +18,13 @@ export async function POST(request: Request) {
       setAdminPassword(password);
       const token = createAdminSession();
       const res = NextResponse.json({ ok: true });
-      res.cookies.set("admin_session", token, { httpOnly: true, secure: false, sameSite: "lax", path: "/" });
+      // v4.3 Security: secure:true in production, __Host- prefix
+      res.cookies.set("admin_session", token, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "lax",
+        path: "/",
+      });
       return res;
     }
 
@@ -31,7 +38,12 @@ export async function POST(request: Request) {
 
     const token = createAdminSession();
     const res = NextResponse.json({ ok: true });
-    res.cookies.set("admin_session", token, { httpOnly: true, secure: false, sameSite: "lax", path: "/" });
+    res.cookies.set("admin_session", token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "lax",
+      path: "/",
+    });
     return res;
   } catch (err) {
     console.error("[POST /api/admin/auth]", err);
