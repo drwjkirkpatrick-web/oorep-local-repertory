@@ -170,7 +170,11 @@ class OOREPApp:
         }
 
     def _error(self, message: str, code: int) -> Dict[str, Any]:
-        return {"status": "error", "error": message, "code": code}
+        """Sanitized error response — strips internal details."""
+        from oorep.security_manager import SecurityManager
+        # Create a temporary exception to sanitize
+        exc = Exception(message)
+        return SecurityManager.safe_error_response(exc, code=code)
 
     def get_feature_overview(self) -> Dict[str, Any]:
         return {

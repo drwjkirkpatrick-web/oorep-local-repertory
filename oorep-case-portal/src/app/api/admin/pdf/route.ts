@@ -63,7 +63,12 @@ OUT.parent.mkdir(parents=True, exist_ok=True)
 try:
     from fpdf import FPDF
 except ImportError:
-    os.system("uv pip install fpdf2")
+    # NOTE: os.system is a shell-injection risk in general, but here the
+    # command is a fixed string literal with no user input — safe in this
+    # context. Using subprocess.run with a list would be cleaner but
+    # requires an additional import that may not be available.
+    import subprocess
+    subprocess.run(["uv", "pip", "install", "fpdf2"], check=True, capture_output=True)
     from fpdf import FPDF
 
 FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"

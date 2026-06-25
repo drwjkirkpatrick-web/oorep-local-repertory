@@ -2,11 +2,11 @@
 
 A **fast, offline, open-source homeopathic repertory** built on [OOREP](https://www.oorep.com/) (Open Online Repertory) data, enhanced with modern multi-layer search, clinical phrase mapping, remedy outcome tracking, and **143 specialized Python modules** — from remedy relationships and potency guidance to audit trails, grand rounds synthesis, statistical validation, reverse repertorization, constitutional tracking, posology scheduling, Bayesian optimization, differential case-taking, active learning, confidence calibration, a full adaptive patient intake system, a case analysis bridge that cross-references confusion patterns with symptom syndromes, **six interactive 3D signal-through-noise visualizations**, and the Clinical Mission Control dashboard.
 
-> **Version:** 4.2 | **License:** GPL v3
+> **Version:** 4.3 | **License:** GPL v3
 > **Data:** 2,432 remedies × 143,408 rubrics × 1.36M remedy-grade links
-> **Modules:** 143 Python modules
-> **Tests:** 1,100+ pytest tests across 60 test files
-> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules + 10 patient intake system modules + 1 case analysis bridge module + 6 interactive 3D signal-through-noise visualizations
+> **Modules:** 144 Python modules (including SecurityManager)
+> **Tests:** 1,200+ pytest tests across 61 test files (92 security tests)
+> **Coverage:** 100 of 100 (100%) LLM-Hermes benefits implemented + 45 feature expansion modules + 20 statistical search layers + 10 differential case-taking modules + 10 patient intake system modules + 1 case analysis bridge module + 6 interactive 3D signal-through-noise visualizations + 1 comprehensive security module
 > **Dashboard:** Next.js Clinical Mission Control with 67+ visualizations (including 6 interactive 3D panels) + live API + click-through drill-down + adaptive patient intake
 
 ---
@@ -18,7 +18,7 @@ A complete, practitioner-owned homeopathic software stack that runs entirely on 
 - **Daily clinical practice** — repertorize, compare remedies, track outcomes
 - **Teaching & training** — simulated patients, quizzes, grand rounds
 - **Research** — rubric co-occurrence mining, edition comparison, outcome prediction
-- **Safety** — red-flag detection, practitioner approval gates, PHI scrubbing, immutable audit trails
+- **Safety** — red-flag detection, practitioner approval gates, PHI scrubbing, immutable audit trails, **SecurityManager** (input sanitization, encryption, rate limiting, session management, file integrity monitoring)
 - **Integration** — Hermes Agent voice/Telegram interface + Next.js web portal
 
 ---
@@ -194,6 +194,93 @@ differential: [Puls. (8.4), Sulph. (5.2), Ars. (3.1), ...]
 - **Herscu**: Cycles & segments for the deepest case-taking.
 - **Hering's Law**: Direction of cure, suppression detection.
 - **Classical SRP (Strange-Rare-Peculiar)**: Highest-weight symptoms in repertorization.
+
+---
+
+## v4.3 — Security Hardening (NEW)
+
+### Security Audit & Comprehensive Security Module
+
+A full security audit was conducted in June 2026, identifying gaps in encryption, input validation, session management, rate limiting, file integrity monitoring, and API error handling. A new **SecurityManager** module (#144) was built to address all findings.
+
+**What was audited:**
+
+| Area | Finding Before | Fix Applied |
+|------|---------------|-------------|
+| Database encryption | PHI stored in plaintext SQLite | `encrypt_db_field()` / `decrypt_db_field()` with PBKDF2-HMAC-SHA256 + XOR stream cipher + HMAC authentication |
+| Input sanitization | No centralized input validation | `sanitize_input()` strips null bytes, control chars, path traversal, SQL injection patterns; `validate_pseudonym()` and `validate_remedy_abbrev()` enforce format constraints |
+| Session management | Admin sessions never expired | 8-hour session timeout enforced in `adminAuth.ts`; `SecurityManager.create_session()` with configurable expiry and persistent storage |
+| Rate limiting | No rate limiting on API endpoints | Sliding-window rate limiter (`rate_limit_check()`) with per-key isolation, configurable limits, and retry-after calculation |
+| Portal tokens | Predictable: `portal_{case_id[:8]}` | Replaced with `secrets.token_hex(32)` — cryptographically random, 64-char hex, does not contain case_id |
+| File integrity | No monitoring of critical files | SHA-256 baseline + `check_file_integrity()` detects modifications and deletions; `set_integrity_baseline()` for initial setup |
+| Error handling | API errors leaked internal paths, SQL, DB names | `sanitize_error_message()` strips paths, SQL fragments, line numbers; `safe_error_response()` for API responses |
+| os.system() in PDF route | Shell injection risk | Replaced with `subprocess.run([...])` using argument list (no shell) |
+| Audit trail | Already had hash-chained audit (good) | Verified intact by security audit runner |
+
+**New module:** `oorep/security_manager.py` — 900+ lines, 92 tests
+
+**Usage:**
+
+```python
+from oorep import SecurityManager
+
+sec = SecurityManager()
+
+# 1. Sanitize user input (strips null bytes, control chars, path traversal)
+clean = sec.sanitize_input("patient symptom text")
+
+# 2. Validate pseudonym format
+if sec.validate_pseudonym("MrsJ2024"):
+    ...
+
+# 3. Generate cryptographically secure portal token
+token = sec.generate_portal_token(case_id)  # pt_<64 hex chars>
+
+# 4. Rate-limit API callers
+decision = sec.rate_limit_check("192.168.1.1", max_requests=60, window_sec=60)
+if not decision.allowed:
+    return 429  # Too Many Requests
+
+# 5. Encrypt sensitive database fields
+ciphertext = sec.encrypt_db_field("patient notes", "notes", master_password)
+# Store ciphertext in DB; decrypt with:
+plaintext = sec.decrypt_db_field(ciphertext, "notes", master_password)
+
+# 6. Session management with expiry
+session_token = sec.create_session(user_id="dr.walker", timeout=timedelta(hours=8))
+if sec.validate_session(session_token):
+    ...
+
+# 7. File integrity monitoring
+sec.set_integrity_baseline(["data/config.json", "oorep/patient_file_system.py"])
+report = sec.check_file_integrity()  # → IntegrityReport
+
+# 8. Run security audit
+findings = sec.run_security_audit()
+print(sec.format_audit_report(findings))
+```
+
+**Security audit output (sample):**
+
+```
+OOREP SECURITY AUDIT REPORT
+Total findings: 7
+  Critical: 0
+  High:     5
+  Medium:   1
+  Info:     1
+
+─ HIGH ─
+  [encryption] Database file feedback.db is stored unencrypted.
+  [authentication] Patient portal tokens are predictable.
+  [code_injection] os.system() call found in route.ts.
+  ...
+
+─ INFO ─
+  [audit_trail] Audit chain intact (2 entries).
+```
+
+**Tests:** `tests/test_security_manager.py` — 92 tests covering all 10 security domains, all passing.
 
 ---
 
@@ -640,6 +727,7 @@ oorep-local-repertory/
 │   ├── constitutional_snapshot.py  # 12-archetype constitutional matcher
 │   ├── intake_analyzer.py          # Final quality check + TSP + differential ranking
 │   ├── case_analysis_bridge.py     # Confusion × co-occurrence cross-reference
+│   ├── security_manager.py       # v4.3: Encryption, rate limiting, sessions, FIM, audit
 │   └── ... 70+ additional modules (see full list in __init__.py)
 ├── tests/                          # 1,100+ pytest tests across 60 test files
 ├── oorep-case-portal/              # Next.js Clinical Mission Control
@@ -666,6 +754,9 @@ oorep-local-repertory/
 ```bash
 # Core modules (fast)
 pytest tests/test_clipboard_manager.py tests/test_grade_mode.py -v
+
+# Security module
+pytest tests/test_security_manager.py -v
 
 # Search modules
 pytest tests/test_word_wrap_search.py tests/test_multi_repertory.py -v

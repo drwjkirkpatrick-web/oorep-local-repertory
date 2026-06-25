@@ -181,6 +181,20 @@ from .case_analysis_bridge import (
     quick_analysis,
 )
 
+# v4.3 — Security Manager (comprehensive security layer)
+from .security_manager import (
+    SecurityManager,
+    SecurityViolation,
+    InputValidationError,
+    SecurityFinding,
+    RateLimitDecision,
+    SessionInfo,
+    IntegrityReport,
+    sanitize,
+    secure_token,
+    get_security_manager,
+)
+
 __all__ = [
     # Core
     "HomeopathicRepertory",
@@ -409,4 +423,15 @@ __all__ = [
     "ConfusedPairAnalysis",
     "DifferentiatingSyndrome",
     "quick_analysis",
+    # v4.3 — Security Manager
+    "SecurityManager",
+    "SecurityViolation",
+    "InputValidationError",
+    "SecurityFinding",
+    "RateLimitDecision",
+    "SessionInfo",
+    "IntegrityReport",
+    "sanitize",
+    "secure_token",
+    "get_security_manager",
 ]
