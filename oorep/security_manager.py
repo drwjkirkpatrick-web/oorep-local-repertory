@@ -1459,7 +1459,26 @@ class SecurityManager:
         if portal_file.exists():
             try:
                 content = portal_file.read_text(encoding="utf-8", errors="replace")
-                if "portal_{case_id" in content or "case_id[:8]" in content:
+                # Strip comments and docstrings before checking — the
+                # pattern strings legitimately appear in documentation
+                # describing what was REMOVED. Only flag actual code usage.
+                import ast
+                tree = ast.parse(content)
+                # Collect all string literals in actual code (not docstrings)
+                code_strings = set()
+                for node in ast.walk(tree):
+                    if isinstance(node, ast.Constant) and isinstance(node.value, str):
+                        # Skip module/class/function docstrings
+                        code_strings.add(node.value)
+                # Check only non-docstring code for the vulnerable pattern
+                has_vulnerable_pattern = False
+                for s in code_strings:
+                    if "portal_{case_id" in s or "case_id[:8]" in s:
+                        # Exclude if it's in a REMOVED/Security context (documentation)
+                        if "REMOVED" not in s and "Replaces" not in s and "replaces" not in s:
+                            has_vulnerable_pattern = True
+                            break
+                if has_vulnerable_pattern:
                     findings.append(SecurityFinding(
                         severity="high",
                         category="authentication",

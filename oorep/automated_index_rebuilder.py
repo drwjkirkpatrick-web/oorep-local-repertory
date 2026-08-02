@@ -7,9 +7,12 @@ are added. No manual intervention required.
 
 import json
 import hashlib
+import logging
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from datetime import datetime
+
+logger = logging.getLogger(__name__)
 
 
 class AutomatedIndexRebuilder:
@@ -94,8 +97,8 @@ class AutomatedIndexRebuilder:
             repo = HomeopathicRepertory(data_dir=str(self.data_dir))
             # This would trigger actual index rebuild
             built.append("lexical")
-        except Exception:
-            pass
+        except Exception as e:
+            logger.debug("Lexical index rebuild failed: %s", e)
 
         try:
             # Rebuild vector index
@@ -103,8 +106,8 @@ class AutomatedIndexRebuilder:
             vs = OORepVectorSearch(data_dir=str(self.data_dir))
             # Trigger rebuild
             built.append("vector")
-        except Exception:
-            pass
+        except Exception as e:
+            logger.debug("Vector index rebuild failed: %s", e)
 
         return built
 

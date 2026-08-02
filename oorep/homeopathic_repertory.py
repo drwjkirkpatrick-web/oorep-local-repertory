@@ -25,9 +25,12 @@ Usage:
 
 import json
 import functools
+import logging
 from pathlib import Path
 from typing import List, Dict, Optional
 from collections import defaultdict
+
+logger = logging.getLogger(__name__)
 
 try:
     from .oorep_vector_search import OORepVectorSearch
@@ -469,8 +472,8 @@ class HomeopathicRepertory:
                     min_segments_matched=cycle_min_segments,
                     min_coverage=cycle_min_coverage,
                 )
-            except Exception:
-                pass
+            except Exception as e:
+                logger.debug("Cycle enrichment failed: %s", e)
 
         return results
 

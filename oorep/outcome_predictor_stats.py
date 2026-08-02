@@ -135,8 +135,17 @@ class OutcomePredictorStats:
         positive_set = set(o.lower() for o in positive_outcomes)
         conn = sqlite3.connect(str(self.db_path))
         c = conn.cursor()
-        # NOTE: col is from a hardcoded mapping, never user input
-        c.execute(f"SELECT {col}, outcome_score FROM prescriptions WHERE {col} IS NOT NULL AND outcome_score IS NOT NULL")
+        # SECURITY: col is validated against _PREDICTOR_COLUMNS allowlist
+        # (hardcoded mapping at line 125) before reaching SQL. Column names
+        # cannot use SQL parameterization (?), so allowlist validation is
+        # the correct defense. The value used in SQL is the hardcoded
+        # allowlist value, never the raw user input.
+        assert col in _PREDICTOR_COLUMNS.values(), "Allowlist check failed"
+        sql = (
+            f"SELECT {col}, outcome_score FROM prescriptions "
+            f"WHERE {col} IS NOT NULL AND outcome_score IS NOT NULL"
+        )
+        c.execute(sql)
         rows = c.fetchall()
         conn.close()
 

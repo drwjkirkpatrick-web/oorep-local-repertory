@@ -29,10 +29,13 @@ import json
 import sqlite3
 import random
 import uuid
+import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Any
 from collections import defaultdict
+
+logger = logging.getLogger(__name__)
 
 try:
     from scripts.remedy_feedback import DATA_DIR as FB_DATA_DIR
@@ -507,16 +510,16 @@ class ClinicalVignetteQuiz:
                             qtype_counts[area] += 1
                         else:
                             rubric_category_counts[area] += 1
-                except Exception:
-                    pass
+                except Exception as e:
+                    logger.debug("Weak-area parsing failed for weak_areas JSON: %s", e)
             # Also parse answers_json for per-question misses
             try:
                 answers = json.loads(row[0])
                 for a in answers:
                     if not a.get("is_correct", True):
                         qtype_counts[a.get("question_type", "unknown")] += 1
-            except Exception:
-                pass
+            except Exception as e:
+                logger.debug("Weak-area answers parsing failed: %s", e)
 
         weak_by_qtype = sorted(qtype_counts.items(), key=lambda x: x[1], reverse=True)
         weak_by_rubric = sorted(rubric_category_counts.items(), key=lambda x: x[1], reverse=True)

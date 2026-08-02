@@ -1,4 +1,8 @@
 import { NextResponse } from "next/server";
+// SECURITY NOTE: This is the login/session-creation endpoint — it does NOT
+// call requireAdminSession() by design. All other /api/admin/* routes DO
+// call requireAdminSession() to verify the cookie before handling requests.
+// This route authenticates the admin password and creates the session token.
 import { isAdminPasswordSet, setAdminPassword, createAdminSession, validateAdminPassword } from "@/lib/adminAuth";
 
 export async function POST(request: Request) {

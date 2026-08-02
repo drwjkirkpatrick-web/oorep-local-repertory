@@ -6,8 +6,11 @@ Paste a case narrative → auto-extract symptoms, modalities, and suggested rubr
 
 import json
 import re
+import logging
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+
+logger = logging.getLogger(__name__)
 
 
 class SymptomNarrativeExtractor:
@@ -114,8 +117,8 @@ class SymptomNarrativeExtractor:
                     "symptom": s["symptom"],
                     "rubrics": rubrics,
                 })
-        except Exception:
-            pass
+        except Exception as e:
+            logger.debug("Narrative extraction failed: %s", e)
         return suggestions
 
     def batch_extract(self, narratives: List[str]) -> List[Dict[str, Any]]:

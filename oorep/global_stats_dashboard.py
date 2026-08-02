@@ -7,9 +7,13 @@ outcome rates by remedy, etc.
 
 import sqlite3
 import json
+import logging
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from collections import Counter
+
+logger = logging.getLogger(__name__)
 
 
 class GlobalStatsDashboard:
@@ -42,8 +46,8 @@ class GlobalStatsDashboard:
                 stats["top_remedies"] = [{"remedy": r[0], "count": r[1]} for r in rows]
                 stats["total_prescriptions"] = conn.execute("SELECT COUNT(*) FROM prescriptions").fetchone()[0]
                 conn.close()
-            except Exception:
-                pass
+            except Exception as e:
+                logger.debug("Rx DB read failed: %s", e)
 
         # Try constitutional DB
         const_db = self.data_dir / "constitutional.db"
@@ -56,8 +60,8 @@ class GlobalStatsDashboard:
                 by_outcome = conn.execute("SELECT outcome, COUNT(*) FROM constitutional_history WHERE outcome IS NOT NULL GROUP BY outcome").fetchall()
                 stats["outcome_rates"] = {r[0]: r[1] for r in by_outcome}
                 conn.close()
-            except Exception:
-                pass
+            except Exception as e:
+                logger.debug("Constitutional DB read failed: %s", e)
 
         # Try appointment DB
         appt_db = self.data_dir / "appointments.db"
@@ -67,10 +71,10 @@ class GlobalStatsDashboard:
                 total_appts = conn.execute("SELECT COUNT(*) FROM appointments").fetchone()[0]
                 stats["total_appointments"] = total_appts
                 conn.close()
-            except Exception:
-                pass
+            except Exception as e:
+                logger.debug("Appointment DB read failed: %s", e)
 
-        stats["computed_at"] = __import__("datetime").datetime.utcnow().isoformat()
+        stats["computed_at"] = datetime.utcnow().isoformat()
         return stats
 
     def get_summary(self) -> Dict[str, Any]:
